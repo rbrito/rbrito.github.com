@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged typography</title>
+<link href="/blog/tags/typography/"/>
+<link href="/blog/tags/typography/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>/blog/tags/typography/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/" version="3.20101023">ikiwiki</generator>
+<updated>2010-11-10T09:13:35Z</updated>
+<entry>
+	<title>Nobody expects the... STIX fonts release!</title>
+
+	<id>/blog/posts/nobody-expects-the----stix-fonts-release-/</id>
+
+	<link href="/blog/posts/nobody-expects-the----stix-fonts-release-/"/>
+
+
+
+
+
+
+	<category term="/tags/tex" />
+
+	<category term="/tags/typography" />
+
+
+	<updated>2010-11-10T09:13:35Z</updated>
+	<published>2010-05-29T20:54:56Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Please, excuse me if you are a connoisseur of fonts and typography. You will find this boring, but other people may not know.&lt;/p&gt;
+
+&lt;p&gt;With that said, something that has been the subject of a joke for &lt;a href=&quot;http://stixfonts.org/proj_timeline.html&quot;&gt;many years&lt;/a&gt; is the release of a set of fonts designed by a consortium of pulishers to create a typeface that would &quot;match&quot; the visual of Times, but that would have many (all?) of the glyphs needed by scientists.&lt;/p&gt;
+
+&lt;p&gt;Well, &lt;a href=&quot;http://www.stixfonts.org/&quot;&gt;the wait is over&lt;/a&gt; (surprisingly). I didn&#39;t expect that. And the Free Software part of this is that the fonts were released under the SIL Open Font Library.&lt;/p&gt;
+
+&lt;p&gt;This, together with Google&#39;s new &lt;a href=&quot;http://code.google.com/webfonts&quot;&gt;font directory&lt;/a&gt; of Free Software fonts (overshadowed by the release of VP8 codec, in the eyes of some), shows that the typographic arena is alive and going strong.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

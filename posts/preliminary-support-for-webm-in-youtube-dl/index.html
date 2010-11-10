@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Preliminary support for webm in youtube-dl</title>
+
+<link rel="stylesheet" href="../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../local.css" type="text/css" />
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../">Rogério Brito's Digital Junkyard</a>/ 
+
+<a href="../">posts</a>/ 
+
+</span>
+<span class="title">
+Preliminary support for webm in youtube-dl
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+
+<li><a href="../../recentchanges/">RecentChanges</a></li>
+
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+<div class="sidebar">
+<div><div class="calendar"><table class="month-calendar">
+    <tr>
+    <th class="month-calendar-arrow"><a href="../../archives/2010/10/" title="October">&larr;</a></th>
+    <th class="month-calendar-head" colspan="5"><a href="../../archives/2010/11/" title="November">Nov 2010</a></th>
+    <th class="month-calendar-arrow"><a href="../../archives/2010/12/" title="December">&rarr;</a></th>
+    </tr>
+    <tr>
+        <th class="month-calendar-day-head Sunday" title="Sunday">S</th>
+        <th class="month-calendar-day-head Monday" title="Monday">M</th>
+        <th class="month-calendar-day-head Tuesday" title="Tuesday">T</th>
+        <th class="month-calendar-day-head Wednesday" title="Wednesday">W</th>
+        <th class="month-calendar-day-head Thursday" title="Thursday">T</th>
+        <th class="month-calendar-day-head Friday" title="Friday">F</th>
+        <th class="month-calendar-day-head Saturday" title="Saturday">S</th>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-noday Sunday">&nbsp;</td>
+        <td class="month-calendar-day-nolink Monday">1</td>
+        <td class="month-calendar-day-nolink Tuesday">2</td>
+        <td class="month-calendar-day-nolink Wednesday">3</td>
+        <td class="month-calendar-day-nolink Thursday">4</td>
+        <td class="month-calendar-day-nolink Friday">5</td>
+        <td class="month-calendar-day-nolink Saturday">6</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">7</td>
+        <td class="month-calendar-day-nolink Monday">8</td>
+        <td class="month-calendar-day-nolink Tuesday">9</td>
+        <td class="month-calendar-day-this-day Wednesday">10</td>
+        <td class="month-calendar-day-future Thursday">11</td>
+        <td class="month-calendar-day-nolink Friday">12</td>
+        <td class="month-calendar-day-nolink Saturday">13</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">14</td>
+        <td class="month-calendar-day-nolink Monday">15</td>
+        <td class="month-calendar-day-nolink Tuesday">16</td>
+        <td class="month-calendar-day-nolink Wednesday">17</td>
+        <td class="month-calendar-day-nolink Thursday">18</td>
+        <td class="month-calendar-day-nolink Friday">19</td>
+        <td class="month-calendar-day-nolink Saturday">20</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">21</td>
+        <td class="month-calendar-day-nolink Monday">22</td>
+        <td class="month-calendar-day-nolink Tuesday">23</td>
+        <td class="month-calendar-day-nolink Wednesday">24</td>
+        <td class="month-calendar-day-nolink Thursday">25</td>
+        <td class="month-calendar-day-nolink Friday">26</td>
+        <td class="month-calendar-day-nolink Saturday">27</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">28</td>
+        <td class="month-calendar-day-nolink Monday">29</td>
+        <td class="month-calendar-day-nolink Tuesday">30</td>
+        <td class="month-calendar-day-noday Wednesday">&nbsp;</td>
+        <td class="month-calendar-day-noday Thursday">&nbsp;</td>
+        <td class="month-calendar-day-noday Friday">&nbsp;</td>
+        <td class="month-calendar-day-noday Saturday">&nbsp;</td>
+    </tr>
+</table>
+</div></div>
+
+<p><a href="../../comments/">Recent Comments</a></p>
+
+<p><a href="../../archives/">Archives</a></p>
+
+<p><a href="../../tags/">Tags</a>:</p>
+
+<ul class="list">
+<li><span class="smallestPC"><a href="../../tags/audio/">audio</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/bugs/">bugs</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/c++/">c++</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/configuration/">configuration</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/debian/">debian</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/development/">development</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/documents/">documents</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/emacs/">emacs</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/embedded/">embedded</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/fonts/">fonts</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/free-software/">free-software</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/git/">git</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/hacks/">hacks</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/kernel/">kernel</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/kurobox/">kurobox</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/libraries/">libraries</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/linux/">linux</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/multimedia/">multimedia</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/pdf/">pdf</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/people/">people</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/powerpc/">powerpc</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/productivity/">productivity</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/programming/">programming</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/readline/">readline</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/revision-control/">revision-control</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/tex/">tex</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/typography/">typography</a></span>
+</li><li><span class="biggestPC"><a href="../../tags/uncategorized/">uncategorized</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/video/">video</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/web-of-trust/">web-of-trust</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/xetex/">xetex</a></span>
+</li></ul>
+
+</div>
+
+
+<div id="pagebody">
+
+<div id="content">
+<p>I just added some very, very preliminary support for web in <code>youtube-dl</code> which <a href="http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html">I uploaded</a> to unstable some minutes ago.</p>
+
+<p>This way, at least people will have some material (in, fact, a chance) to play with this format.  I implemented this because, so far, I was only hoping here that a player for this would emerge. I guess that Debian's ffmpeg/mplayer will take some time, but I was pleased to see that Sebastian Dröge to upload a version of <a href="http://lists.debian.org/debian-devel-changes/2010/05/msg02596.html">something</a> that could use the new <code>libvpx</code> codec.</p>
+
+<p>I hope that, now, as a side effect of webm being widely available, more people become interested in <a href="http://www.vorbis.com/">Vorbis</a>. More support (no, not "alternative", like <a href="http://www.rockbox.org/">Rockbox</a>, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. <img src="../../smileys/smile.png" alt=":-)" /></p>
+
+<p>Well, it seems to be time to shape up that local build of mine of the <a href="http://www.geocities.jp/aoyoume/aotuv/">aotuv</a> tuned version of Vorbis with <a href="http://www.geocities.jp/aoyoume/">Aoyumi</a>'s patches for libvorbis.</p>
+
+<p>Exciting times in the multimedia world.</p>
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+<div class="tags">
+Tags:
+
+<a href="../../tags/audio/" rel="tag">audio</a>
+
+<a href="../../tags/debian/" rel="tag">debian</a>
+
+<a href="../../tags/free-software/" rel="tag">free-software</a>
+
+<a href="../../tags/hacks/" rel="tag">hacks</a>
+
+<a href="../../tags/libraries/" rel="tag">libraries</a>
+
+<a href="../../tags/multimedia/" rel="tag">multimedia</a>
+
+<a href="../../tags/video/" rel="tag">video</a>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Wed 10 Nov 2010 07:13:35 AM BRST</span>
+<!-- Created <span class="date">Sat 29 May 2010 05:06:18 PM BRT</span> -->
+</div>
+
+</div>
+
+
+<!-- from Rogério Brito's Digital Junkyard -->
+</div>
+
+</div>
+
+</body>
+</html>

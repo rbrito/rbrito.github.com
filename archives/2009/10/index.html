@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>10</title>
+
+<link rel="stylesheet" href="../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../local.css" type="text/css" />
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../">Rogério Brito's Digital Junkyard</a>/ 
+
+<a href="../../">archives</a>/ 
+
+<a href="../">2009</a>/ 
+
+</span>
+<span class="title">
+10
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+
+<li><a href="../../../recentchanges/">RecentChanges</a></li>
+
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+<div class="sidebar">
+<div><div class="calendar"><table class="month-calendar">
+    <tr>
+    <th class="month-calendar-arrow"><a href="../09/" title="September">&larr;</a></th>
+    <th class="month-calendar-head" colspan="5"><span class="selflink">Oct 2009</span></th>
+    <th class="month-calendar-arrow"><a href="../11/" title="November">&rarr;</a></th>
+    </tr>
+    <tr>
+        <th class="month-calendar-day-head Sunday" title="Sunday">S</th>
+        <th class="month-calendar-day-head Monday" title="Monday">M</th>
+        <th class="month-calendar-day-head Tuesday" title="Tuesday">T</th>
+        <th class="month-calendar-day-head Wednesday" title="Wednesday">W</th>
+        <th class="month-calendar-day-head Thursday" title="Thursday">T</th>
+        <th class="month-calendar-day-head Friday" title="Friday">F</th>
+        <th class="month-calendar-day-head Saturday" title="Saturday">S</th>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-noday Sunday">&nbsp;</td>
+        <td class="month-calendar-day-noday Monday">&nbsp;</td>
+        <td class="month-calendar-day-noday Tuesday">&nbsp;</td>
+        <td class="month-calendar-day-noday Wednesday">&nbsp;</td>
+        <td class="month-calendar-day-nolink Thursday">1</td>
+        <td class="month-calendar-day-nolink Friday">2</td>
+        <td class="month-calendar-day-nolink Saturday">3</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">4</td>
+        <td class="month-calendar-day-nolink Monday">5</td>
+        <td class="month-calendar-day-nolink Tuesday">6</td>
+        <td class="month-calendar-day-nolink Wednesday">7</td>
+        <td class="month-calendar-day-link Thursday"><a href="../../../posts/2009-10-08/" title="2009-10-08">8</a></td>
+        <td class="month-calendar-day-nolink Friday">9</td>
+        <td class="month-calendar-day-nolink Saturday">10</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">11</td>
+        <td class="month-calendar-day-nolink Monday">12</td>
+        <td class="month-calendar-day-nolink Tuesday">13</td>
+        <td class="month-calendar-day-nolink Wednesday">14</td>
+        <td class="month-calendar-day-nolink Thursday">15</td>
+        <td class="month-calendar-day-nolink Friday">16</td>
+        <td class="month-calendar-day-nolink Saturday">17</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">18</td>
+        <td class="month-calendar-day-nolink Monday">19</td>
+        <td class="month-calendar-day-nolink Tuesday">20</td>
+        <td class="month-calendar-day-nolink Wednesday">21</td>
+        <td class="month-calendar-day-nolink Thursday">22</td>
+        <td class="month-calendar-day-nolink Friday">23</td>
+        <td class="month-calendar-day-nolink Saturday">24</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">25</td>
+        <td class="month-calendar-day-nolink Monday">26</td>
+        <td class="month-calendar-day-nolink Tuesday">27</td>
+        <td class="month-calendar-day-nolink Wednesday">28</td>
+        <td class="month-calendar-day-nolink Thursday">29</td>
+        <td class="month-calendar-day-nolink Friday">30</td>
+        <td class="month-calendar-day-nolink Saturday">31</td>
+    </tr>
+</table>
+</div></div>
+
+</div>
+
+
+<div id="pagebody">
+
+<div id="content">
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="../../../posts/2009-10-08/">2009-10-08</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>It seems that booting systems is giving me a headache again.</p>
+
+<p>I had to flash the firmware of my Infoway Note N8320 notebook which
+is an MSI Aesthetics PR200 disguised in a nice clothing. Of course,
+it had a firmware update that required being applied only from a
+regular DOS floppy. But the size of a floppy isn't enough to hold
+the new firmware.</p>
+
+<p>To cut a long story short, it was quite painful to get things
+going, but here are the distilled situation:</p>
+
+<pre><code>#!/bin/sh
+
+#
+# Collection of information from:
+#
+# http://feeding.cloud.geek.nz/2009/08/grub-on-bootable-usb-rescue-stick.html
+# http://www.mayrhofer.eu.org/Default.aspx?pageid=45
+# http://en.gentoo-wiki.com/wiki/FreeDOS_Flash_Drive
+# http://www.gnu.org/software/grub/manual/grub.html#Installation-under-UNIX
+# http://www.omninerd.com/articles/Installing_GRUB_on_a_Hard_Disk_Image_File
+#
+
+# needed: syslinux, parted, grub
+SIZE=32
+
+# Create the basic disk image
+dd if=/dev/zero of=disk.img bs=1M count=&#036;SIZE
+parted --script disk.img mktable msdos
+parted --script disk.img mkpart primary fat16 0 &#036;{SIZE}MB
+parted --script disk.img mkfs 1 fat16
+parted --script disk.img set 1 boot on
+
+# Mount it
+SECTORS=&#036;(fdisk -l -u disk.img 2&gt;&amp;1| tail -1 | perl -ne 'print "&#036;1" if (m/\s+(\d+)\s+/);')
+mount -t vfat -o loop,offset=&#036;((SECTORS * 512)) disk.img /mnt
+
+# Copy the bootloader
+# Copy a FreeDOS image and treat it as a ramdisk (it will be the "A:" drive)
+mkdir -p /mnt/grub
+cp /usr/lib/grub/x86_64-pc/* /mnt/grub
+cp /usr/lib/syslinux/memdisk /mnt
+wget -O /mnt/odin1440.img http://odin.fdos.org/odin2005/odin1440.img
+
+# Set up grub (grub legacy)
+cat &lt;&lt;EOF0 &gt; /mnt/grub/menu.lst
+default=0
+timeout=10
+root=(hd0,0)
+title FreeDOS
+kernel /memdisk
+initrd /odin1440.img
+EOF0
+
+grub --device-map=/dev/null --batch &lt;&lt;EOF1
+device (hd0) /tmp/disk.img
+root (hd0,0)
+setup (hd0)
+quit
+EOF1
+
+# Copy extra contents (e.g., the firmware) to the disk here (the "C:" drive)
+touch /mnt/example.txt
+
+# Finish it
+umount /mnt
+</code></pre>
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="date">Thu 08 Oct 2009 12:00:00 AM BRT</span>
+</span>
+
+
+<span class="tags">
+Tags:
+
+<a href="../../../tags/uncategorized/" rel="tag">uncategorized</a>
+
+</span>
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Wed 10 Nov 2010 07:13:35 AM BRST</span>
+<!-- Created <span class="date">Wed 10 Nov 2010 07:13:35 AM BRST</span> -->
+</div>
+
+</div>
+
+
+<!-- from Rogério Brito's Digital Junkyard -->
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged programming</title>
+<link>/blog/tags/programming/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>A version of xpdf with the poppler backend available</title>
+
+
+	<guid isPermaLink="no">/blog/posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
+
+	<link>/blog/posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
+
+
+	<category>/tags/c++</category>
+
+	<category>/tags/debian</category>
+
+	<category>/tags/development</category>
+
+	<category>/tags/documents</category>
+
+	<category>/tags/free-software</category>
+
+	<category>/tags/hacks</category>
+
+	<category>/tags/libraries</category>
+
+	<category>/tags/programming</category>
+
+
+	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
+	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+
+	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
+
+&lt;h2&gt;Announcement&lt;/h2&gt;
+
+&lt;p&gt;For those people that are insterested in a &lt;em&gt;small&lt;/em&gt; PDF viewer, based on &lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;an actively maintained backend&lt;/a&gt;, and that &lt;a href=&quot;http://localhost/blog/2010/05/27/please-let-me-zoom-my-documents/&quot;&gt;doesn&#39;t bring your computer to a halt&lt;/a&gt; when you try to zoom your documents when you need to see some details, then you might want to give &lt;a href=&quot;http://github.com/rbrito/xpdf-poppler&quot;&gt;this version of xpdf&lt;/a&gt; a try.&lt;/p&gt;
+
+&lt;p&gt;I already received some reports for some bugs and fixed them, with one of them being a problem related by a kind user of &lt;a href=&quot;http://www.gentoo.org/&quot;&gt;Gentoo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;Some people have asked me why this even needs to exist in the first place and I agree that it would be better if it didn&#39;t: I would love to spend my time actually &lt;em&gt;using&lt;/em&gt; my computers rather than &lt;em&gt;fixing&lt;/em&gt; my computers for better tasks (read: studying Mathematics, etc).&lt;/p&gt;
+
+&lt;p&gt;The upstream maintainer of xpdf uses it as one source of income and keeps it running across many system (even legacy ones).  I &lt;em&gt;imagine&lt;/em&gt; that this one of the reasons why he tries to keep xpdf almost self contained, with many parts that could be delegated to other libraries, and with some abstraction code that makes the code compile even in the presence of &lt;em&gt;very&lt;/em&gt; broken compilers.  Of course, this means, in part, that as long as you take more duties, maintaing the code becomes more and more complex.&lt;/p&gt;
+
+&lt;p&gt;He told me that he doesn&#39;t offer an open development tree because he wants to give his customers some advantages over the public version and his reasons are perfectly justifiable, of course.  He also manifested the interest of possibly basing xpdf on a &quot;more modern toolkit&quot; and, when I asked him what that would be, he mentioned that, perhaps, it would be Qt. The development of xpdf will, quite probably, take newer directions.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, xpdf has not seen a new upstream release since &lt;a href=&quot;http://www.foolabs.com/xpdf/CHANGES&quot;&gt;2007-02-27&lt;/a&gt;.  It did, though, have &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl1.patch&quot;&gt;some&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl2.patch&quot;&gt;patchlevel&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl3.patch&quot;&gt;updates&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl4.patch&quot;&gt;released&lt;/a&gt;. Taking care of the maintainance of the code is a &lt;a href=&quot;http://bugs.debian.org/527840&quot;&gt;high concern&lt;/a&gt; for distributions.&lt;/p&gt;
+
+&lt;p&gt;Some people, though, would like to &lt;a href=&quot;http://en.wikipedia.org/wiki/KISS_principle&quot;&gt;keep it simple&lt;/a&gt; (me included).  Unfortunately, &lt;a href=&quot;http://bugs.debian.org/351279&quot;&gt;some efforts&lt;/a&gt; to &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00046.html&quot;&gt;maintain&lt;/a&gt; it had &lt;a href=&quot;http://bugs.gentoo.org/show_bug.cgi?id=289803&quot;&gt;not had&lt;/a&gt; the &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00068.html&quot;&gt;necessary coordination&lt;/a&gt; and duplication of effort has occured.&lt;/p&gt;
+
+&lt;h2&gt;Proposal&lt;/h2&gt;
+
+&lt;p&gt;I am willing to become a patch aggregator for the code in xpdf with a poppler backend. I would love to give it some refactoring too, drop some of the legacy code that is not used (and only serves to make the code hard to read), and adopt some good coding style standard (I particularly &lt;a href=&quot;http://www.kernel.org/doc/Documentation/CodingStyle&quot;&gt;like the one from the Linux Kernel&lt;/a&gt;---with the proper adaptations for C++).&lt;/p&gt;
+
+&lt;p&gt;I have already &lt;a href=&quot;https://bugs.gentoo.org/show_bug.cgi?id=323469&quot;&gt;contacted the people at Gentoo&lt;/a&gt;, and I would love to get people from Fedora, Ubuntu, and Suse involved also. Alas,  the last time I tried to mail their mailing lists, I got  messages telling me that my messages were rejected or waiting for moderation, because I was not a subscriber. I never heard back, since.&lt;/p&gt;
+
+&lt;p&gt;I appreciate it if you could help spread the word.&lt;/p&gt;
+
+&lt;p&gt;Thanks.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>06</title>
+
+<link rel="stylesheet" href="../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../local.css" type="text/css" />
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../">Rogério Brito's Digital Junkyard</a>/ 
+
+<a href="../../">archives</a>/ 
+
+<a href="../">2010</a>/ 
+
+</span>
+<span class="title">
+06
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+
+<li><a href="../../../recentchanges/">RecentChanges</a></li>
+
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+<div class="sidebar">
+<div><div class="calendar"><table class="month-calendar">
+    <tr>
+    <th class="month-calendar-arrow"><a href="../05/" title="May">&larr;</a></th>
+    <th class="month-calendar-head" colspan="5"><span class="selflink">Jun 2010</span></th>
+    <th class="month-calendar-arrow"><a href="../07/" title="July">&rarr;</a></th>
+    </tr>
+    <tr>
+        <th class="month-calendar-day-head Sunday" title="Sunday">S</th>
+        <th class="month-calendar-day-head Monday" title="Monday">M</th>
+        <th class="month-calendar-day-head Tuesday" title="Tuesday">T</th>
+        <th class="month-calendar-day-head Wednesday" title="Wednesday">W</th>
+        <th class="month-calendar-day-head Thursday" title="Thursday">T</th>
+        <th class="month-calendar-day-head Friday" title="Friday">F</th>
+        <th class="month-calendar-day-head Saturday" title="Saturday">S</th>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-noday Sunday">&nbsp;</td>
+        <td class="month-calendar-day-noday Monday">&nbsp;</td>
+        <td class="month-calendar-day-nolink Tuesday">1</td>
+        <td class="month-calendar-day-nolink Wednesday">2</td>
+        <td class="month-calendar-day-nolink Thursday">3</td>
+        <td class="month-calendar-day-nolink Friday">4</td>
+        <td class="month-calendar-day-nolink Saturday">5</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">6</td>
+        <td class="month-calendar-day-nolink Monday">7</td>
+        <td class="month-calendar-day-nolink Tuesday">8</td>
+        <td class="month-calendar-day-nolink Wednesday">9</td>
+        <td class="month-calendar-day-link Thursday"><a href="../../../posts/a-version-of-xpdf-with-the-poppler-backend-available/" title="a-version-of-xpdf-with-the-poppler-backend-available">10</a></td>
+        <td class="month-calendar-day-nolink Friday">11</td>
+        <td class="month-calendar-day-nolink Saturday">12</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">13</td>
+        <td class="month-calendar-day-nolink Monday">14</td>
+        <td class="month-calendar-day-nolink Tuesday">15</td>
+        <td class="month-calendar-day-nolink Wednesday">16</td>
+        <td class="month-calendar-day-nolink Thursday">17</td>
+        <td class="month-calendar-day-nolink Friday">18</td>
+        <td class="month-calendar-day-nolink Saturday">19</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">20</td>
+        <td class="month-calendar-day-nolink Monday">21</td>
+        <td class="month-calendar-day-nolink Tuesday">22</td>
+        <td class="month-calendar-day-nolink Wednesday">23</td>
+        <td class="month-calendar-day-nolink Thursday">24</td>
+        <td class="month-calendar-day-nolink Friday">25</td>
+        <td class="month-calendar-day-nolink Saturday">26</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">27</td>
+        <td class="month-calendar-day-nolink Monday">28</td>
+        <td class="month-calendar-day-nolink Tuesday">29</td>
+        <td class="month-calendar-day-nolink Wednesday">30</td>
+        <td class="month-calendar-day-noday Thursday">&nbsp;</td>
+        <td class="month-calendar-day-noday Friday">&nbsp;</td>
+        <td class="month-calendar-day-noday Saturday">&nbsp;</td>
+    </tr>
+</table>
+</div></div>
+
+</div>
+
+
+<div id="pagebody">
+
+<div id="content">
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="../../../posts/a-version-of-xpdf-with-the-poppler-backend-available/">A version of xpdf with the poppler backend available</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>Well, it's been some time since I last wrote here and things are quite hectic, due to some real-life happenings.</p>
+
+<h2>Announcement</h2>
+
+<p>For those people that are insterested in a <em>small</em> PDF viewer, based on <a href="http://poppler.freedesktop.org/">an actively maintained backend</a>, and that <a href="http://localhost/blog/2010/05/27/please-let-me-zoom-my-documents/">doesn't bring your computer to a halt</a> when you try to zoom your documents when you need to see some details, then you might want to give <a href="http://github.com/rbrito/xpdf-poppler">this version of xpdf</a> a try.</p>
+
+<p>I already received some reports for some bugs and fixed them, with one of them being a problem related by a kind user of <a href="http://www.gentoo.org/">Gentoo</a>.</p>
+
+<h2>Motivation</h2>
+
+<p>Some people have asked me why this even needs to exist in the first place and I agree that it would be better if it didn't: I would love to spend my time actually <em>using</em> my computers rather than <em>fixing</em> my computers for better tasks (read: studying Mathematics, etc).</p>
+
+<p>The upstream maintainer of xpdf uses it as one source of income and keeps it running across many system (even legacy ones).  I <em>imagine</em> that this one of the reasons why he tries to keep xpdf almost self contained, with many parts that could be delegated to other libraries, and with some abstraction code that makes the code compile even in the presence of <em>very</em> broken compilers.  Of course, this means, in part, that as long as you take more duties, maintaing the code becomes more and more complex.</p>
+
+<p>He told me that he doesn't offer an open development tree because he wants to give his customers some advantages over the public version and his reasons are perfectly justifiable, of course.  He also manifested the interest of possibly basing xpdf on a "more modern toolkit" and, when I asked him what that would be, he mentioned that, perhaps, it would be Qt. The development of xpdf will, quite probably, take newer directions.</p>
+
+<p>Unfortunately, xpdf has not seen a new upstream release since <a href="http://www.foolabs.com/xpdf/CHANGES">2007-02-27</a>.  It did, though, have <a href="ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl1.patch">some</a> <a href="ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl2.patch">patchlevel</a> <a href="ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl3.patch">updates</a> <a href="ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl4.patch">released</a>. Taking care of the maintainance of the code is a <a href="http://bugs.debian.org/527840">high concern</a> for distributions.</p>
+
+<p>Some people, though, would like to <a href="http://en.wikipedia.org/wiki/KISS_principle">keep it simple</a> (me included).  Unfortunately, <a href="http://bugs.debian.org/351279">some efforts</a> to <a href="http://lists.debian.org/debian-mentors/2010/06/msg00046.html">maintain</a> it had <a href="http://bugs.gentoo.org/show_bug.cgi?id=289803">not had</a> the <a href="http://lists.debian.org/debian-mentors/2010/06/msg00068.html">necessary coordination</a> and duplication of effort has occured.</p>
+
+<h2>Proposal</h2>
+
+<p>I am willing to become a patch aggregator for the code in xpdf with a poppler backend. I would love to give it some refactoring too, drop some of the legacy code that is not used (and only serves to make the code hard to read), and adopt some good coding style standard (I particularly <a href="http://www.kernel.org/doc/Documentation/CodingStyle">like the one from the Linux Kernel</a>---with the proper adaptations for C++).</p>
+
+<p>I have already <a href="https://bugs.gentoo.org/show_bug.cgi?id=323469">contacted the people at Gentoo</a>, and I would love to get people from Fedora, Ubuntu, and Suse involved also. Alas,  the last time I tried to mail their mailing lists, I got  messages telling me that my messages were rejected or waiting for moderation, because I was not a subscriber. I never heard back, since.</p>
+
+<p>I appreciate it if you could help spread the word.</p>
+
+<p>Thanks.</p>
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="date">Thu 10 Jun 2010 07:46:13 PM BRT</span>
+</span>
+
+
+<span class="tags">
+Tags:
+
+<a href="../../../tags/c++/" rel="tag">c++</a>
+
+<a href="../../../tags/debian/" rel="tag">debian</a>
+
+<a href="../../../tags/development/" rel="tag">development</a>
+
+<a href="../../../tags/documents/" rel="tag">documents</a>
+
+<a href="../../../tags/free-software/" rel="tag">free-software</a>
+
+<a href="../../../tags/hacks/" rel="tag">hacks</a>
+
+<a href="../../../tags/libraries/" rel="tag">libraries</a>
+
+<a href="../../../tags/programming/" rel="tag">programming</a>
+
+</span>
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Wed 10 Nov 2010 07:13:35 AM BRST</span>
+<!-- Created <span class="date">Wed 10 Nov 2010 07:13:35 AM BRST</span> -->
+</div>
+
+</div>
+
+
+<!-- from Rogério Brito's Digital Junkyard -->
+</div>
+
+</div>
+
+</body>
+</html>

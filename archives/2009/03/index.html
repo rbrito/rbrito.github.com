@@ -1,0 +1,723 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>03</title>
+
+<link rel="stylesheet" href="../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../local.css" type="text/css" />
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../">Rogério Brito's Digital Junkyard</a>/ 
+
+<a href="../../">archives</a>/ 
+
+<a href="../">2009</a>/ 
+
+</span>
+<span class="title">
+03
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+
+<li><a href="../../../recentchanges/">RecentChanges</a></li>
+
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+<div class="sidebar">
+<div><div class="calendar"><table class="month-calendar">
+    <tr>
+    <th class="month-calendar-arrow"><a href="../02/" title="February">&larr;</a></th>
+    <th class="month-calendar-head" colspan="5"><span class="selflink">Mar 2009</span></th>
+    <th class="month-calendar-arrow"><a href="../04/" title="April">&rarr;</a></th>
+    </tr>
+    <tr>
+        <th class="month-calendar-day-head Sunday" title="Sunday">S</th>
+        <th class="month-calendar-day-head Monday" title="Monday">M</th>
+        <th class="month-calendar-day-head Tuesday" title="Tuesday">T</th>
+        <th class="month-calendar-day-head Wednesday" title="Wednesday">W</th>
+        <th class="month-calendar-day-head Thursday" title="Thursday">T</th>
+        <th class="month-calendar-day-head Friday" title="Friday">F</th>
+        <th class="month-calendar-day-head Saturday" title="Saturday">S</th>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">1</td>
+        <td class="month-calendar-day-nolink Monday">2</td>
+        <td class="month-calendar-day-link Tuesday"><a href="../../../posts/2009-03-03/" title="2009-03-03">3</a></td>
+        <td class="month-calendar-day-nolink Wednesday">4</td>
+        <td class="month-calendar-day-link Thursday"><a href="../../../posts/2009-03-05/" title="2009-03-05">5</a></td>
+        <td class="month-calendar-day-link Friday"><a href="../../../posts/2009-03-06/" title="2009-03-06">6</a></td>
+        <td class="month-calendar-day-link Saturday"><a href="../../../posts/2009-03-07/" title="2009-03-07">7</a></td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">8</td>
+        <td class="month-calendar-day-nolink Monday">9</td>
+        <td class="month-calendar-day-link Tuesday"><a href="../../../posts/2009-03-10/" title="2009-03-10">10</a></td>
+        <td class="month-calendar-day-nolink Wednesday">11</td>
+        <td class="month-calendar-day-nolink Thursday">12</td>
+        <td class="month-calendar-day-nolink Friday">13</td>
+        <td class="month-calendar-day-link Saturday"><a href="../../../posts/2009-03-14/" title="2009-03-14">14</a></td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-link Sunday"><a href="../../../posts/2009-03-15/" title="2009-03-15">15</a></td>
+        <td class="month-calendar-day-nolink Monday">16</td>
+        <td class="month-calendar-day-nolink Tuesday">17</td>
+        <td class="month-calendar-day-nolink Wednesday">18</td>
+        <td class="month-calendar-day-nolink Thursday">19</td>
+        <td class="month-calendar-day-nolink Friday">20</td>
+        <td class="month-calendar-day-nolink Saturday">21</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">22</td>
+        <td class="month-calendar-day-nolink Monday">23</td>
+        <td class="month-calendar-day-nolink Tuesday">24</td>
+        <td class="month-calendar-day-nolink Wednesday">25</td>
+        <td class="month-calendar-day-nolink Thursday">26</td>
+        <td class="month-calendar-day-link Friday"><a href="../../../posts/2009-03-27/" title="2009-03-27">27</a></td>
+        <td class="month-calendar-day-nolink Saturday">28</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">29</td>
+        <td class="month-calendar-day-nolink Monday">30</td>
+        <td class="month-calendar-day-nolink Tuesday">31</td>
+        <td class="month-calendar-day-noday Wednesday">&nbsp;</td>
+        <td class="month-calendar-day-noday Thursday">&nbsp;</td>
+        <td class="month-calendar-day-noday Friday">&nbsp;</td>
+        <td class="month-calendar-day-noday Saturday">&nbsp;</td>
+    </tr>
+</table>
+</div></div>
+
+</div>
+
+
+<div id="pagebody">
+
+<div id="content">
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="../../../posts/2009-03-03/">2009-03-03</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>Inspired by the <code>m3s.pl</code> script made by Scott Lawrence, and given
+the fact that he doesn't care anymore about it, I decided to see
+what I could do so that I could generate MP3 CDs that will play
+well with iTunes (like if they were regular audio CDs, but with
+huge capacity and without connecting to the network to fetch
+metadata).</p>
+
+<p>It turns out that the script could really gain some improvements
+and that having it up to date has forced me to remember some Perl.
+I made a lot of successful, incremental improvements by
+encapsulating the code and making it reasonably readable (even with
+a language that people say that is only "writeable", but not
+"readable").</p>
+
+<p>I implemented things inserting data into a hash and then using the
+name of the types of the fields that have to be in the
+ContentsDB.xml file to write the appropriate values, but then I saw
+that what I was doing was quite silly and implemented things in an
+easier, cleaner way. Taking care to have things encoded in utf-8
+and escaping the &amp; character when writing the XML file.</p>
+
+<p>The original program used the <code>MP3::Info</code> module to gather
+information about the songs. This module isn't as rich as the
+<code>MP3::Tag</code> module (which is able to get track numbers, track
+counts, disc numbers, and disc counts, just off the top of my
+head). This "new" module is quite good and more flexible and that's
+what I adopted.</p>
+
+<p>Also, to traverse the directory tree, I am using <code>File::Find</code>,
+instead of a home-brew solution to the problem. There is only one
+thing left for the script to be finished: having it write correctly
+the "numerical path", as <a href="http://www.apple.com/">Apple</a> likes to
+call it.</p>
+
+<p>Well, remembering things about references, compound data
+structures, object orientation, the use of modules etc. has made me
+gain some interest in Perl again. I think that I will make some
+effort and learn it again.</p>
+
+<p>Oh, and I just submitted my third patch for the
+<a href="http://www.kernel.org/">Linux kernel</a>: it fixes the compilation
+(and recognition) of the MTD device of the Kurobox HD that I have.
+Now, I am running a brand new 2.6.29-rc6 kernel (yes, yes, it is
+brand new right now, but at the breakneck pace with which the
+kernel is moving, it will soon be quite outdated; I will try to
+keep the powerpc part of things in shape, though).</p>
+
+<p>And last, but not least, was the fact that I was submitted to a
+biopsy (the original idea was for it to be just a colonoscopy, but
+I had some inflammatory process in my elbows and some material had
+to be removed for analysis).</p>
+
+<p>I don't really think that I am finished with all these health
+things, but I surely made some improvements.</p>
+
+<p>Oh, I lied when I said that the biopsy thing was the last one that
+I would write about. I am in the process of compressing movies with
+the help of the <a href="http://divxenc.sourceforge.net/"><code>divxenc</code></a>,
+<a href="http://xvidenc.sourceforge.net/"><code>xvidenc</code></a> and
+<a href="http://h264enc.sourceforge.net/"><code>h264enc</code></a> scripts to generate
+videos that are appropriate for playing in some set top boxes
+<strong>and</strong> getting smaller files (which means that I will make my
+small NAS last a little bit longer).</p>
+
+<p>And since I discovered how to register myself on the iTunes music
+store, I am downloading some German Podcasts. Will I be able to
+learn some German? Well, I dearly hope so. My only grief is that I
+am desperately running out of space and I will have to rethink my
+backup strategy to leave some room for things to come.</p>
+
+<p>And I also played a little with MacOS X Tiger on Intel and the fact
+that my e100 card didn't work with Tiger out-of-the box. I had to
+use a special kernel extension for this very purpose. The only
+thing that annoys me a lot is that I can trigger kernel panics with
+the JaS kernel 10.4.8 in a deterministic manner. Upgrading the
+kernel to 10.4.10 made my system not mount some disk images (and
+even "real" disks, like my iPod video). I should, perhaps, try
+Leopard here to see how things are structured and to see the
+changes that Apple has provided to the system.</p>
+
+<p>Regarding some cutting-edge programs, I saw that some programs were
+removed from Debian after the release of lenny, since upstream is
+inactive or dead. Too bad. But the nice side of things is that
+snapshot.debian.net is a terrific service to the community and I've
+compiled things from there and got excellent results. I think that
+I may even create a non-official repository with some multimedia
+programs (and this includes, say, a newer, multithreaded version of
+mplayer and newer libraries). I think that I will submit some more
+bugreports (like the Real Video files from Ars Technica that can't
+be played).</p>
+
+<p>And one last thing: (this one is really the last thing that I will
+comment now) is that I finally will re-record my audio (and video)
+things on digital media, so that I can preserve it without the loss
+of magnetic media. This is a time-consuming activity, but I think
+that it is worth the effort, especially if I use an automated setup
+like Audacity's noise removal tool. Or is it better to use sox for
+this task? I guess that I will have to experiment a little.</p>
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="date">Tue 03 Mar 2009 12:00:00 AM BRT</span>
+</span>
+
+
+<span class="tags">
+Tags:
+
+<a href="../../../tags/uncategorized/" rel="tag">uncategorized</a>
+
+</span>
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="../../../posts/2009-03-05/">2009-03-05</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>Surfing on Orkut (yes, I still use it sometimes), I found a torrent
+that contained (or claims to contain) an acoustic concert of Pain
+of Salvation. If this is indeed the case, I will be a happy
+camper!</p>
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="date">Thu 05 Mar 2009 12:00:00 AM BRT</span>
+</span>
+
+
+<span class="tags">
+Tags:
+
+<a href="../../../tags/uncategorized/" rel="tag">uncategorized</a>
+
+</span>
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="../../../posts/2009-03-06/">2009-03-06</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>My girlfriend had some complications in her biopsy and I had to
+play the nurse role. Deinfecting the place and going with her to
+the medical service was the next step. Actually, she went to a
+vascular physician and to a general physician.</p>
+
+<p>After she was medicated, we went to the bank and I was there to
+learn some things about the private social security system of
+Brazil, with two plans: VGBL and PGBL. They seem like a reasonable
+thing to use, but I fear that I will need the money in less time
+than what was told me that I have to keep it there for not having
+to pay a huge amount of taxes.</p>
+
+<p>Oh, talking about taxes, I installed the Brazilian tax program,
+written in Java, since I don't have Windows. Surprisingly, it
+doesn't play well with openjdk-6-jre, which is quite amusing.
+Falling back to the non-free jre 5.0 did the job, but this makes me
+think that SERPRO (I think that this is the department responsible
+for writing the programs) didn't really grasp the meaning of
+"portability": they are only delivering binaries for Linux x86. No
+amd64, powerpc and other architectures. What a shame.</p>
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="date">Fri 06 Mar 2009 12:00:00 AM BRT</span>
+</span>
+
+
+<span class="tags">
+Tags:
+
+<a href="../../../tags/uncategorized/" rel="tag">uncategorized</a>
+
+</span>
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="../../../posts/2009-03-07/">2009-03-07</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>Slept a good amount (but not sufficient) and then I went to
+recreate my debian-local repository. I ended up reshaping two
+packages: checkpasswd and serialmail. I didn't do a very good job,
+but, then, I'm only making those things for my own consumption
+(which means that I'm not really keeping up to date with all the
+lintian warnings).</p>
+
+<p>I am also converting some more videos from MPEG-1 format to MPEG-4
+ASP (DX50) mode. This time, I started with
+<a href="http://www.megadeth.com/">Megadeth</a>'s
+<a href="http://en.wikipedia.org/wiki/Woodstock_1999">Woodstock'99</a>
+concert. It had considerable image noise, and, to reduce the
+bitrate, I had to use quite a strong noise filtering with
+<a href="http://www.mplayerhq.hu/">mencoder</a>'s <code>hqdn3d</code>.</p>
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="date">Sat 07 Mar 2009 12:00:00 AM BRT</span>
+</span>
+
+
+<span class="tags">
+Tags:
+
+<a href="../../../tags/uncategorized/" rel="tag">uncategorized</a>
+
+</span>
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="../../../posts/2009-03-10/">2009-03-10</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>Found out about "The Right Way (TM)" to hash an existing SSH's
+<code>known_hosts</code> file (<code>ssh-keygen -H</code>) and how to remove a hashed host
+entry from your <code>known_hosts</code> file: <code>ssh-keygen -H -R host.name</code>. I
+needed this for newer checkouts of LAME's CVS repository at
+<a href="http://sf.net/">Sourceforge</a>.</p>
+
+<p>Oh, BTW, just to save myself the trouble of looking it up again,
+here is the link to the place where sourceforge keeps their
+<a href="http://apps.sourceforge.net/trac/sitedocs/wiki/SSH%20%20%20%20%20key%20fingerprints">SSH key fingerprints</a>.
+I'm always lost trying to find it, so I thought that it would be
+best to record it here.</p>
+
+<p>Also discovered a <em>really</em> amazing thing: a
+<a href="http://librivox.org/">free source of audiobooks</a> in podcast
+format, while I was looking for René Descartes' "The Method". While
+surfing the net, I also found that there is this
+<a href="http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&amp;co_obra=2274">very same text</a>
+in a <a href="http://www.dominiopublico.gov.br/">Brazilian site</a> backed by
+the government that hosts works in the public domain.</p>
+
+<p>Still downloading Pain of Salvations Acoustic set. Now, I finally
+had some time to watch the somewhat incomplete VOBs and it, indeed,
+has the show. And it is an amazing piece of music. Recommended for
+all fans of good music.</p>
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="date">Tue 10 Mar 2009 12:00:00 AM BRT</span>
+</span>
+
+
+<span class="tags">
+Tags:
+
+<a href="../../../tags/uncategorized/" rel="tag">uncategorized</a>
+
+</span>
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="../../../posts/2009-03-14/">2009-03-14</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>The acoustic show of Pain of Salvation is really nice. I didn't
+have enough time to watch it yet, but it is an amazing thing that
+should be kept, as the performance is superb (I did look quickly at
+some points of it and, of course, the expectations have been
+met---we are, after all, talking about a band that has a unique
+touch).</p>
+
+<p>Oh, speaking about unique bands, I will be seeing Opeth playing
+live here in Brazil. Yes. This day has arrived. I will see my
+favourite band playing here. I guess that I have to get in touch
+with Mikael and see if I can sneak in a camera, so that I can shot
+and film the show. This will be amazing, to say the least.</p>
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="date">Sat 14 Mar 2009 12:00:00 AM BRT</span>
+</span>
+
+
+<span class="tags">
+Tags:
+
+<a href="../../../tags/uncategorized/" rel="tag">uncategorized</a>
+
+</span>
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="../../../posts/2009-03-15/">2009-03-15</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>Have been playing with the great idea of
+<a href="http://lists.debian.org/debian-mentors/2009/03/msg00210.html">caching</a>
+<a href="http://lwn.net/Articles/318658/">deb</a> packages. I finally settled
+for the option of using
+<code>&lt;a href="http://git.debian.org/?p=pkg-ocaml-maint/packages/approx.git"&gt;approx&lt;/a&gt;</code>,
+which does a really nice job of caching packages.</p>
+
+<p>Actually, it fullfils quite a lot of requirements and even
+surpasses some of my expectations:</p>
+
+<ul>
+<li>It supports multiple architectures (in fact, this is important
+for me, as I use <code>i386</code>, <code>amd64</code>, and <code>powerpc</code>.</li>
+<li>It can support multiple distributions (both different versions
+of the same distribution and completely different distributions, as
+long as they use a repository like
+<a href="http://www.debian.org/">Debian</a>'s, as is the case of
+<a href="http://www.ubuntu.com/">Ubuntu</a>).</li>
+<li>It keeps its directory hierarchy neatly organized, like that of
+Debian, in a package pool, which saves space and makes everything
+easier and faster to find (and has the advantage of being fast with
+filesystems that don't cope well with many entries in one
+directory).</li>
+</ul>
+
+<p>The transition wasn't painless from
+<a href="http://packages.debian.org/apt-move"><code>apt-move</code></a>, since apt-move
+moves the files, but renames them in a way that they don't keep
+epochs in their names, which makes <code>approx-import</code> moan about the
+packages.</p>
+
+<p>For places where I am too lazy to import the packages, I just
+filled the cache redownloading the packages with something
+approximately like this:</p>
+
+<pre><code>apt-get -d --reinstall install &#036;(dpkg -l | grep "^ii" | cut -d " " -f 3)
+</code></pre>
+
+<p>Well, I hope that this experience happens to be useful for other
+people, so that they can benefit from it. Rebuilding packages with
+a package cacher is much more pleasant, especially if the package
+has a lot of build-dependencies.</p>
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="date">Sun 15 Mar 2009 12:00:00 AM BRT</span>
+</span>
+
+
+<span class="tags">
+Tags:
+
+<a href="../../../tags/uncategorized/" rel="tag">uncategorized</a>
+
+</span>
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="../../../posts/2009-03-27/">2009-03-27</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>Just when I thought that I had enough things to play with, I
+discovered some great tools on the 'net.</p>
+
+<p>The first of this (and what consumed me a good amount of time) is
+<a href="http://www.ctan.org/tex-archive/support/pkfix-helper/">pkfix-helper</a>,
+an auxiliary script for
+<a href="http://www.ctan.org/tex-archive/support/pkfix/">pkfix</a> that
+guesses the fonts used by old PostScript documents generated by
+dvips with fonts that are scalable and that are much better to
+transform to PDF format than bitmapped fonts. I even got some time
+to write about <a href="http://en.wikipedia.org/wiki/Pkfix">pkfix</a> so that
+people get a better idea of what it is all about (the previous
+version of the document was quite bad).</p>
+
+<p>Another tool that I've been playing with are mind-mappers. One from
+KDE (which I can't recall right now) and one implemented in Java,
+called <a href="http://freemind.sourceforge.net/">Freemind</a>. Using those
+tools is quite fun and you also get a better idea of what you have
+to do (say, using them as a task planner). Interesting stuff.</p>
+
+<p>I just don't understand why it is listed in
+<a href="http://www.debian.org/">Debian</a>'s contrib section, while it is
+Free Software and its dependencies seem to be fulfiled with Free
+Software only (remember that Java has, now, Free virtual
+Machines).</p>
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="date">Fri 27 Mar 2009 12:00:00 AM BRT</span>
+</span>
+
+
+<span class="tags">
+Tags:
+
+<a href="../../../tags/uncategorized/" rel="tag">uncategorized</a>
+
+</span>
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Wed 10 Nov 2010 07:13:35 AM BRST</span>
+<!-- Created <span class="date">Wed 10 Nov 2010 07:13:35 AM BRST</span> -->
+</div>
+
+</div>
+
+
+<!-- from Rogério Brito's Digital Junkyard -->
+</div>
+
+</div>
+
+</body>
+</html>

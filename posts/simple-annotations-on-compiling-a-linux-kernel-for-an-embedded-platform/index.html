@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
+
+<link rel="stylesheet" href="../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../local.css" type="text/css" />
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../">Rogério Brito's Digital Junkyard</a>/ 
+
+<a href="../">posts</a>/ 
+
+</span>
+<span class="title">
+Simple Annotations on Compiling a Linux Kernel for an Embedded Platform
+
+</span>
+</span>
+
+</div>
+
+
+<div class="actions">
+<ul>
+
+
+<li><a href="../../recentchanges/">RecentChanges</a></li>
+
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+</div>
+
+
+<div class="sidebar">
+<div><div class="calendar"><table class="month-calendar">
+    <tr>
+    <th class="month-calendar-arrow"><a href="../../archives/2010/10/" title="October">&larr;</a></th>
+    <th class="month-calendar-head" colspan="5"><a href="../../archives/2010/11/" title="November">Nov 2010</a></th>
+    <th class="month-calendar-arrow"><a href="../../archives/2010/12/" title="December">&rarr;</a></th>
+    </tr>
+    <tr>
+        <th class="month-calendar-day-head Sunday" title="Sunday">S</th>
+        <th class="month-calendar-day-head Monday" title="Monday">M</th>
+        <th class="month-calendar-day-head Tuesday" title="Tuesday">T</th>
+        <th class="month-calendar-day-head Wednesday" title="Wednesday">W</th>
+        <th class="month-calendar-day-head Thursday" title="Thursday">T</th>
+        <th class="month-calendar-day-head Friday" title="Friday">F</th>
+        <th class="month-calendar-day-head Saturday" title="Saturday">S</th>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-noday Sunday">&nbsp;</td>
+        <td class="month-calendar-day-nolink Monday">1</td>
+        <td class="month-calendar-day-nolink Tuesday">2</td>
+        <td class="month-calendar-day-nolink Wednesday">3</td>
+        <td class="month-calendar-day-nolink Thursday">4</td>
+        <td class="month-calendar-day-nolink Friday">5</td>
+        <td class="month-calendar-day-nolink Saturday">6</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">7</td>
+        <td class="month-calendar-day-nolink Monday">8</td>
+        <td class="month-calendar-day-nolink Tuesday">9</td>
+        <td class="month-calendar-day-this-day Wednesday">10</td>
+        <td class="month-calendar-day-future Thursday">11</td>
+        <td class="month-calendar-day-nolink Friday">12</td>
+        <td class="month-calendar-day-nolink Saturday">13</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">14</td>
+        <td class="month-calendar-day-nolink Monday">15</td>
+        <td class="month-calendar-day-nolink Tuesday">16</td>
+        <td class="month-calendar-day-nolink Wednesday">17</td>
+        <td class="month-calendar-day-nolink Thursday">18</td>
+        <td class="month-calendar-day-nolink Friday">19</td>
+        <td class="month-calendar-day-nolink Saturday">20</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">21</td>
+        <td class="month-calendar-day-nolink Monday">22</td>
+        <td class="month-calendar-day-nolink Tuesday">23</td>
+        <td class="month-calendar-day-nolink Wednesday">24</td>
+        <td class="month-calendar-day-nolink Thursday">25</td>
+        <td class="month-calendar-day-nolink Friday">26</td>
+        <td class="month-calendar-day-nolink Saturday">27</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">28</td>
+        <td class="month-calendar-day-nolink Monday">29</td>
+        <td class="month-calendar-day-nolink Tuesday">30</td>
+        <td class="month-calendar-day-noday Wednesday">&nbsp;</td>
+        <td class="month-calendar-day-noday Thursday">&nbsp;</td>
+        <td class="month-calendar-day-noday Friday">&nbsp;</td>
+        <td class="month-calendar-day-noday Saturday">&nbsp;</td>
+    </tr>
+</table>
+</div></div>
+
+<p><a href="../../comments/">Recent Comments</a></p>
+
+<p><a href="../../archives/">Archives</a></p>
+
+<p><a href="../../tags/">Tags</a>:</p>
+
+<ul class="list">
+<li><span class="smallestPC"><a href="../../tags/audio/">audio</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/bugs/">bugs</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/c++/">c++</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/configuration/">configuration</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/debian/">debian</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/development/">development</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/documents/">documents</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/emacs/">emacs</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/embedded/">embedded</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/fonts/">fonts</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/free-software/">free-software</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/git/">git</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/hacks/">hacks</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/kernel/">kernel</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/kurobox/">kurobox</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/libraries/">libraries</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/linux/">linux</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/multimedia/">multimedia</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/pdf/">pdf</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/people/">people</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/powerpc/">powerpc</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/productivity/">productivity</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/programming/">programming</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/readline/">readline</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/revision-control/">revision-control</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/tex/">tex</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/typography/">typography</a></span>
+</li><li><span class="biggestPC"><a href="../../tags/uncategorized/">uncategorized</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/video/">video</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/web-of-trust/">web-of-trust</a></span>
+</li><li><span class="smallestPC"><a href="../../tags/xetex/">xetex</a></span>
+</li></ul>
+
+</div>
+
+
+<div id="pagebody">
+
+<div id="content">
+<p>Here are some facts distilled from my experience with preparing kernels to some embedded platforms. In other words, this is some of the stuff that is usually presumed to be known, but that you won't find compiled in many places, unfortunately.</p>
+
+<p>I am writing them here in the hope that they can be useful to other folks trying to compile their kernel to embedded devices (and I would venture to say that these "non-standard" platforms would become more popular in the future).</p>
+
+<ul>
+    <li>some machines don't have monitors, keyboards etc. They may only have network connections (e.g., ethernet) and USB ports. In such cases, it console" called a netconsole. It can be enabled with the options: is quite handy to see how the machine is booting with a "virtual console" called a netconsole. It can be enabled with the options:
+<blockquote><code>
+CONFIG_NETCONSOLE=y
+CONFIG_NETPOLL=y
+CONFIG_NET_POLL_CONTROLLER=y
+</code></blockquote>
+You have to tell the kernel where to send the messages that would, otherwise, be presented on a screen. For sending them over the network, just tell the kernel to use the command line option:
+<blockquote><code>
+netconsole=6666@192.168.11.150/,@192.168.11.149/
+</code></blockquote>
+This way, you can easily connect from another (more comfortable?) computer with something like (this connection is made via UDP, not TCP):
+<blockquote><code>
+ip addr add 192.168.11.149/24 broadcast 192.168.11.255 dev eth0
+nc -u -n -p 6666 192.168.11.150 6666
+</code></blockquote>
+</li>
+    <li>while some popular bootloaders for desktops are LILO and GRUB, many other platforms use other bootloaders: yaboot, quik, bootx, silo, refit, etc. In the case of embedded platforms, one that is popular is "das uBoot", which needs a special kind of kernel image, a uImage, instead of a regular {b}zImage/vmlinu{x,z} image. (Well, actually, some other arches need images in other formats, like vmlinux.coff etc). Fortunately, the kernel's makefile knows about some such arches and it generates the correct image---but it is the task of the packager/distributor to find if those images are needed or not.For the KuroBox HD/HG, all that is needed is a simple:
+<blockquote><code>
+cp $LINUXPATH/arch/powerpc/boot/uImage $BUILT_ROOT/boot/uImage-$VERSION
+</code></blockquote>
+</li>
+    <li>some extra care is needed when generating a kernel for such arches: the tree of the devices which the kernel needs does not seem to be built automatically (this is the case of the the KuroBox HD/HG). Something  like this is needed after the compilation of the kernel proper:
+<blockquote><code>
+./scripts/dtc/dtc -I dts -O dtb -V 16 -o $BUILT_ROOT/boot/kuroboxHD.dtb-$VERSION ./arch/powerpc/boot/dts/kuroboxHD.dts
+./scripts/dtc/dtc -I dts -O dtb -V 16 -o $BUILT_ROOT/boot/kuroboxHG.dtb-$VERSION ./arch/powerpc/boot/dts/kuroboxHG.dts
+</code></blockquote>
+</li>
+    <li>to cross compile a kernel, don't forget to set the appropriate environment options, like:
+<blockquote><code>
+INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make clean
+INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make oldconfig
+INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make menuconfig
+INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make all modules
+INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make modules_install
+</code></blockquote>
+It won't hurt if you use a concurrency setting (like -j3 or more) when compiling all and modules.</li>
+    <li>The uBoot command line (accessed via the network) can be something like:
+<blockquote><code>
+ext2load ide ${hdpart} ${ldaddr} ${hdfile}
+ext2load ide ${hdpart} 7f0000 boot/kuroboxHD.dtb
+setenv bootargs root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/
+bootm ${ldaddr} - 7f0000
+</code></blockquote>
+The first two lines tell uBoot to load the both the kernel and the device tree from the disk to the memory, the third line sets the kernel command line (familiar to users of the "common" arches) and the fourth line actually boots the kernel once it is loaded in the memory. Here, ${hdpart} is the partition where the kernel image ${hdfile} should be loaded from (usually in the form 0:1, to mean partition 1 from the disk 0), ${ldaddr} is the memory address where the kernel should be loaded to.</li>
+    <li>Something that is handy, no matter what size your machine has: the use of ext4 (and, in particular, delayed allocation) with ext{2,3} filesystems. To use it, just put this in your kernel configuration file:
+<blockquote><code>
+CONFIG_EXT4_USE_FOR_EXT23=y
+</code></blockquote>
+</li>
+    <li>Support for daemons like avr-evtd, that need access to a serial port (so that the user can turn off the device by pressing the power button), enable:
+<blockquote><code>
+CONFIG_SERIO=y
+CONFIG_SERIO_SERPORT=y
+CONFIG_SERIAL_8250=y
+</code></blockquote>
+Otherwise, you will always have to ssh into the system, become root, and issue something like:
+<blockquote><code>
+shutdown -h now
+</code></blockquote>
+which is an inconvenience.</li>
+    <li>It is very important to set the Real Time Clock options right and this may not be that obvious for some non-x86 platforms. In particular, for a KuroBox HD, I'm using:
+<blockquote><code>
+CONFIG_RTC_CLASS=y
+CONFIG_RTC_HCTOSYS=y
+CONFIG_RTC_HCTOSYS_DEVICE=rtc0
+CONFIG_RTC_INTF_SYSFS=y
+CONFIG_RTC_INTF_PROC=y
+CONFIG_RTC_INTF_DEV=y
+CONFIG_RTC_DRV_RS5C372=y
+</code></blockquote>
+The last option is, perhaps, the tricky one, and varies from system to system. Knowing which one to enable is a matter of knowing the specs of your system and, if not known, discovery by trial-and-error. (For x86 systems, usually CONFIG_RTC_DRV_CMOS=y is sufficient)</li>
+</ul>
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+<div class="tags">
+Tags:
+
+<a href="../../tags/debian/" rel="tag">debian</a>
+
+<a href="../../tags/embedded/" rel="tag">embedded</a>
+
+<a href="../../tags/hacks/" rel="tag">hacks</a>
+
+<a href="../../tags/kernel/" rel="tag">kernel</a>
+
+<a href="../../tags/kurobox/" rel="tag">kurobox</a>
+
+<a href="../../tags/linux/" rel="tag">linux</a>
+
+<a href="../../tags/powerpc/" rel="tag">powerpc</a>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Wed 10 Nov 2010 07:13:35 AM BRST</span>
+<!-- Created <span class="date">Wed 12 May 2010 12:54:52 AM BRT</span> -->
+</div>
+
+</div>
+
+
+<!-- from Rogério Brito's Digital Junkyard -->
+</div>
+
+</div>
+
+</body>
+</html>

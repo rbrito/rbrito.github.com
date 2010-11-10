@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged web-of-trust</title>
+<link href="/blog/tags/web-of-trust/"/>
+<link href="/blog/tags/web-of-trust/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>/blog/tags/web-of-trust/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/" version="3.20101023">ikiwiki</generator>
+<updated>2010-11-10T09:13:35Z</updated>
+<entry>
+	<title>I am going to DebConf 10</title>
+
+	<id>/blog/posts/i-am-going-to-debconf-10/</id>
+
+	<link href="/blog/posts/i-am-going-to-debconf-10/"/>
+
+
+
+
+
+
+	<category term="/tags/debian" />
+
+	<category term="/tags/development" />
+
+	<category term="/tags/fonts" />
+
+	<category term="/tags/free-software" />
+
+	<category term="/tags/hacks" />
+
+	<category term="/tags/powerpc" />
+
+	<category term="/tags/web-of-trust" />
+
+
+	<updated>2010-11-10T09:13:35Z</updated>
+	<published>2010-07-18T06:34:40Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
+
+&lt;p&gt;[caption id=&quot;attachment_55&quot; align=&quot;aligncenter&quot; width=&quot;200&quot; caption=&quot;I am going to DebConf10&quot;]&lt;a rel=&quot;attachment wp-att-55&quot; href=&quot;http://localhost/blog/2010/07/18/i-am-going-to-debconf-10/im_going_to_debconf10/&quot;&gt;&lt;img class=&quot;size-full wp-image-55 &quot; title=&quot;im_going_to_debconf10&quot; src=&quot;http://localhost/blog/wp-content/uploads/2010/07/im_going_to_debconf10.png&quot; alt=&quot;I am going to DebConf10&quot; width=&quot;200&quot; height=&quot;101&quot; /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+
+&lt;p&gt;The tickets have this information:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;GRU-&amp;gt;JFK:&lt;/strong&gt; Departure: 2010-07-30, 21:25; Arrival: 2010-07-31, 6:10, Flight AA950&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;JFK-&amp;gt;GRU:&lt;/strong&gt; Departure: 2010-08-09, 21:40; Arrival: 2010-08-10, 8:35, Flight AA951&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This represents a personal milestone for me, as I have many plans for the conference. In fact, this will be a trip of many &quot;firsts&quot; for me:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;this will be my first international trip by airplaine.&lt;/li&gt;
+    &lt;li&gt;this will be my first DebConf ever (despite the fact that I could not apply for the &lt;a href=&quot;http://upsilon.cc/~zack/blog/posts/2010/04/the_DebConf_Newbies_initiative/&quot;&gt;DebConf Newbies initiative&lt;/a&gt;, due to my visa interview being delayed until the 7th of this month).&lt;/li&gt;
+    &lt;li&gt;this will be the first time to see many people with whom I work together for some years now, but have not yet had the opportunity to meet in person.&lt;/li&gt;
+    &lt;li&gt;this will be a nice opportunity to work hard on &lt;a href=&quot;http://lwn.net/Articles/396079/&quot;&gt;some issues that threaten the PowerPC port&lt;/a&gt; of Debian.&lt;/li&gt;
+    &lt;li&gt;this will be a nice opportunity to do some QA work with some packages that I would like to have sponsored; also to &lt;a href=&quot;http://bugs.debian.org/551955&quot;&gt;upload&lt;/a&gt; some of the &lt;a href=&quot;http://bugs.debian.org/580005&quot;&gt;fonts&lt;/a&gt; that I &lt;a href=&quot;http://git.debian.org/?p=pkg-fonts/ttf-paratype-sans.git&quot;&gt;already packaged&lt;/a&gt; (or &lt;a href=&quot;http://bugs.debian.org/581839&quot;&gt;intend&lt;/a&gt; to &lt;a href=&quot;http://bugs.debian.org/589094&quot;&gt;take care&lt;/a&gt;) and that will be maintained under the &lt;a href=&quot;http://pkg-fonts.alioth.debian.org/&quot;&gt;Debian Fonts Task Force umbrella&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;this will be a very nice opportunity to get myself in a &quot;big&quot; &lt;a href=&quot;http://en.wikipedia.org/wiki/Strongly_connected_component&quot;&gt;strongly connected component &lt;/a&gt; of the &lt;a href=&quot;http://en.wikipedia.org/wiki/Web_of_trust&quot;&gt;Web-of-Trust&lt;/a&gt; with as many arcs as feasible, by means of the &lt;a href=&quot;http://people.debian.org/~anibal/ksp-dc10/ksp-dc10.html&quot;&gt;key signing party.&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;and many, many other things that I would like to do for the project.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am thankful for the DebConf team sponsoring both accomodation and food.  It is highly appreciated.&lt;/p&gt;
+
+&lt;p&gt;See you in NYC! Any hints that you may happen to have are warmly welcome.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

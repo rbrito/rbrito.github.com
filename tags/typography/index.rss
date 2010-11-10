@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged typography</title>
+<link>/blog/tags/typography/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>Nobody expects the... STIX fonts release!</title>
+
+
+	<guid isPermaLink="no">/blog/posts/nobody-expects-the----stix-fonts-release-/</guid>
+
+	<link>/blog/posts/nobody-expects-the----stix-fonts-release-/</link>
+
+
+	<category>/tags/tex</category>
+
+	<category>/tags/typography</category>
+
+
+	<pubDate>Sat, 29 May 2010 17:54:56 -0300</pubDate>
+	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+
+	<description>&lt;p&gt;Please, excuse me if you are a connoisseur of fonts and typography. You will find this boring, but other people may not know.&lt;/p&gt;
+
+&lt;p&gt;With that said, something that has been the subject of a joke for &lt;a href=&quot;http://stixfonts.org/proj_timeline.html&quot;&gt;many years&lt;/a&gt; is the release of a set of fonts designed by a consortium of pulishers to create a typeface that would &quot;match&quot; the visual of Times, but that would have many (all?) of the glyphs needed by scientists.&lt;/p&gt;
+
+&lt;p&gt;Well, &lt;a href=&quot;http://www.stixfonts.org/&quot;&gt;the wait is over&lt;/a&gt; (surprisingly). I didn&#39;t expect that. And the Free Software part of this is that the fonts were released under the SIL Open Font Library.&lt;/p&gt;
+
+&lt;p&gt;This, together with Google&#39;s new &lt;a href=&quot;http://code.google.com/webfonts&quot;&gt;font directory&lt;/a&gt; of Free Software fonts (overshadowed by the release of VP8 codec, in the eyes of some), shows that the typographic arena is alive and going strong.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>
