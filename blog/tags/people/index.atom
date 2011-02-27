@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged people</title>
-<link href="/blog/tags/people/"/>
-<link href="/blog/tags/people/index.atom" rel="self" type="application/atom+xml"/>
+<link href="/blog//tags/people/"/>
+<link href="/blog//tags/people/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,33 +13,33 @@
 
 
 
-<id>/blog/tags/people/</id>
+<id>/blog//tags/people/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20101112">ikiwiki</generator>
-<updated>2010-11-10T09:13:35Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20110225">ikiwiki</generator>
+<updated>2010-08-03T09:09:46Z</updated>
 <entry>
 	<title>First post from DebConf 10</title>
 
-	<id>/blog/posts/first-post-from-debconf-10/</id>
+	<id>/blog//posts/first-post-from-debconf-10/</id>
 
-	<link href="/blog/posts/first-post-from-debconf-10/"/>
-
-
+	<link href="/blog//posts/first-post-from-debconf-10/"/>
 
 
 
 
-	<category term="/tags/debian" />
-
-	<category term="/tags/development" />
-
-	<category term="/tags/free-software" />
-
-	<category term="/tags/people" />
 
 
-	<updated>2010-11-10T09:13:35Z</updated>
+	<category term="debian" />
+
+	<category term="development" />
+
+	<category term="free-software" />
+
+	<category term="people" />
+
+
+	<updated>2010-08-03T09:09:46Z</updated>
 	<published>2010-08-03T09:09:46Z</published>
 
 	<content type="html" xml:lang="en">

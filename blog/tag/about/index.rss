@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged about</title>
+<link>/blog//tag/about/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>About</title>
+
+
+	<guid isPermaLink="no">/blog//posts/about/</guid>
+
+	<link>/blog//posts/about/</link>
+
+
+	<category>about</category>
+
+
+	<pubDate>Wed, 30 Dec 2009 14:46:28 -0200</pubDate>
+	<dcterms:modified>2011-02-27T01:42:11Z</dcterms:modified>
+
+	<description>&lt;p&gt;This blog is just a way to collect thoughts and discoveries regarding my use
+of Free Software, Mathematics (it also includes some personal notes, of
+course).  Some of the content here will be related to TeX (and siblings) and
+some will be related to me hacking on some piece of software.&lt;/p&gt;
+
+&lt;p&gt;Rearding me, I am an Instructor of Computer Science at &quot;Universidade
+Presbiteriana Mackenzie&quot;, São Paulo, Brazil. Currently, I am on absence for
+health treatment. I am also a Debian Maintainer and I am &lt;em&gt;highly&lt;/em&gt; interested
+in Free Software, with Debian-based systems being my primary interest.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

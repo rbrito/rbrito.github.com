@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged powerpc</title>
+<link href="/blog//tag/powerpc/"/>
+<link href="/blog//tag/powerpc/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>/blog//tag/powerpc/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/" version="3.20110225">ikiwiki</generator>
+<updated>2011-02-27T01:16:19Z</updated>
+<entry>
+	<title>I am going to DebConf 10</title>
+
+	<id>/blog//posts/i-am-going-to-debconf-10/</id>
+
+	<link href="/blog//posts/i-am-going-to-debconf-10/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="development" />
+
+	<category term="fonts" />
+
+	<category term="free-software" />
+
+	<category term="hacks" />
+
+	<category term="powerpc" />
+
+	<category term="web-of-trust" />
+
+
+	<updated>2010-07-18T06:34:40Z</updated>
+	<published>2010-07-18T06:34:40Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
+
+&lt;p&gt;[caption id=&quot;attachment_55&quot; align=&quot;aligncenter&quot; width=&quot;200&quot; caption=&quot;I am going to DebConf10&quot;]&lt;a rel=&quot;attachment wp-att-55&quot; href=&quot;http://localhost/blog/2010/07/18/i-am-going-to-debconf-10/im_going_to_debconf10/&quot;&gt;&lt;img class=&quot;size-full wp-image-55 &quot; title=&quot;im_going_to_debconf10&quot; src=&quot;http://localhost/blog/wp-content/uploads/2010/07/im_going_to_debconf10.png&quot; alt=&quot;I am going to DebConf10&quot; width=&quot;200&quot; height=&quot;101&quot; /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+
+&lt;p&gt;The tickets have this information:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;GRU-&amp;gt;JFK:&lt;/strong&gt; Departure: 2010-07-30, 21:25; Arrival: 2010-07-31, 6:10, Flight AA950&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;JFK-&amp;gt;GRU:&lt;/strong&gt; Departure: 2010-08-09, 21:40; Arrival: 2010-08-10, 8:35, Flight AA951&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This represents a personal milestone for me, as I have many plans for the conference. In fact, this will be a trip of many &quot;firsts&quot; for me:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;this will be my first international trip by airplaine.&lt;/li&gt;
+    &lt;li&gt;this will be my first DebConf ever (despite the fact that I could not apply for the &lt;a href=&quot;http://upsilon.cc/~zack/blog/posts/2010/04/the_DebConf_Newbies_initiative/&quot;&gt;DebConf Newbies initiative&lt;/a&gt;, due to my visa interview being delayed until the 7th of this month).&lt;/li&gt;
+    &lt;li&gt;this will be the first time to see many people with whom I work together for some years now, but have not yet had the opportunity to meet in person.&lt;/li&gt;
+    &lt;li&gt;this will be a nice opportunity to work hard on &lt;a href=&quot;http://lwn.net/Articles/396079/&quot;&gt;some issues that threaten the PowerPC port&lt;/a&gt; of Debian.&lt;/li&gt;
+    &lt;li&gt;this will be a nice opportunity to do some QA work with some packages that I would like to have sponsored; also to &lt;a href=&quot;http://bugs.debian.org/551955&quot;&gt;upload&lt;/a&gt; some of the &lt;a href=&quot;http://bugs.debian.org/580005&quot;&gt;fonts&lt;/a&gt; that I &lt;a href=&quot;http://git.debian.org/?p=pkg-fonts/ttf-paratype-sans.git&quot;&gt;already packaged&lt;/a&gt; (or &lt;a href=&quot;http://bugs.debian.org/581839&quot;&gt;intend&lt;/a&gt; to &lt;a href=&quot;http://bugs.debian.org/589094&quot;&gt;take care&lt;/a&gt;) and that will be maintained under the &lt;a href=&quot;http://pkg-fonts.alioth.debian.org/&quot;&gt;Debian Fonts Task Force umbrella&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;this will be a very nice opportunity to get myself in a &quot;big&quot; &lt;a href=&quot;http://en.wikipedia.org/wiki/Strongly_connected_component&quot;&gt;strongly connected component &lt;/a&gt; of the &lt;a href=&quot;http://en.wikipedia.org/wiki/Web_of_trust&quot;&gt;Web-of-Trust&lt;/a&gt; with as many arcs as feasible, by means of the &lt;a href=&quot;http://people.debian.org/~anibal/ksp-dc10/ksp-dc10.html&quot;&gt;key signing party.&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;and many, many other things that I would like to do for the project.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am thankful for the DebConf team sponsoring both accomodation and food.  It is highly appreciated.&lt;/p&gt;
+
+&lt;p&gt;See you in NYC! Any hints that you may happen to have are warmly welcome.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
+
+	<id>/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</id>
+
+	<link href="/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="embedded" />
+
+	<category term="hacks" />
+
+	<category term="kernel" />
+
+	<category term="kurobox" />
+
+	<category term="linux" />
+
+	<category term="powerpc" />
+
+
+	<updated>2011-02-27T01:16:19Z</updated>
+	<published>2010-05-12T03:54:52Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
+some embedded platforms. In other words, this is some of the stuff that is
+usually presumed to be known, but that you won&#39;t find compiled in many
+places, unfortunately.&lt;/p&gt;
+
+&lt;p&gt;I am writing them here in the hope that they can be useful to other folks
+trying to compile their kernel to embedded devices (and I would venture to
+say that these &quot;non-standard&quot; platforms would become more popular in the
+future).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;some machines don&#39;t have monitors, keyboards etc. They may only have
+network connections (e.g., ethernet) and USB ports. In such cases, it
+console&quot; called a netconsole. It can be enabled with the options: is quite
+handy to see how the machine is booting with a &quot;virtual console&quot; called a
+netconsole. It can be enabled with the options:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CONFIG_NETCONSOLE=y
+CONFIG_NETPOLL=y
+CONFIG_NET_POLL_CONTROLLER=y
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You have to tell the kernel where to send the messages that would,
+otherwise, be presented on a screen. For sending them over the network, just
+tell the kernel to use the command line option:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    netconsole=6666@192.168.11.150/,@192.168.11.149/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This way, you can easily connect from another (more comfortable?) computer
+with something like (this connection is made via UDP, not TCP):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    ip addr add 192.168.11.149/24 broadcast 192.168.11.255 dev eth0
+    nc -u -n -p 6666 192.168.11.150 6666
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;while some popular bootloaders for desktops are LILO and GRUB, many other
+platforms use other bootloaders: yaboot, quik, bootx, silo, refit, etc. In
+the case of embedded platforms, one that is popular is &quot;das uBoot&quot;, which
+needs a special kind of kernel image, a &lt;code&gt;uImage&lt;/code&gt;, instead of a regular
+&lt;code&gt;{b}zImage/vmlinu{x,z}&lt;/code&gt; image. (Well, actually, some other arches need
+images in other formats, like &lt;code&gt;vmlinux.coff&lt;/code&gt; etc). Fortunately, the
+kernel&#39;s makefile knows about some such arches and it generates the
+correct image---but it is the task of the packager/distributor to find if
+those images are needed or not. For the KuroBox HD/HG, all that is needed
+is a simple:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cp &amp;#036;LINUXPATH/arch/powerpc/boot/uImage &amp;#036;BUILT_ROOT/boot/uImage-&amp;#036;VERSION
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;some extra care is needed when generating a kernel for such arches: the
+tree of the devices which the kernel needs does not seem to be built
+automatically (this is the case of the the KuroBox HD/HG). Something like
+this is needed after the compilation of the kernel proper:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./scripts/dtc/dtc -I dts -O dtb -V 16 -o &amp;#036;BUILT_ROOT/boot/kuroboxHD.dtb-&amp;#036;VERSION ./arch/powerpc/boot/dts/kuroboxHD.dts
+./scripts/dtc/dtc -I dts -O dtb -V 16 -o &amp;#036;BUILT_ROOT/boot/kuroboxHG.dtb-&amp;#036;VERSION ./arch/powerpc/boot/dts/kuroboxHG.dts
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;to cross compile a kernel, don&#39;t forget to set the appropriate environment
+options, like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make clean
+INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make oldconfig
+INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make menuconfig
+INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make all modules
+INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make modules_install
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It won&#39;t hurt if you use a concurrency setting (like -j3 or more) when
+compiling all and modules.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The uBoot command line (accessed via the network) can be something like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ext2load ide &amp;#036;{hdpart} &amp;#036;{ldaddr} &amp;#036;{hdfile}
+ext2load ide &amp;#036;{hdpart} 7f0000 boot/kuroboxHD.dtb
+setenv bootargs root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/
+bootm &amp;#036;{ldaddr} - 7f0000
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The first two lines tell uBoot to load the both the kernel and the device
+tree from the disk to the memory, the third line sets the kernel command
+line (familiar to users of the &quot;common&quot; arches) and the fourth line
+actually boots the kernel once it is loaded in the memory. Here, ${hdpart}
+is the partition where the kernel image ${hdfile} should be loaded from
+(usually in the form 0:1, to mean partition 1 from the disk 0), ${ldaddr}
+is the memory address where the kernel should be loaded to.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Something that is handy, no matter what size your machine has: the use of
+ext4 (and, in particular, delayed allocation) with ext{2,3}
+filesystems. To use it, just put this in your kernel configuration file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CONFIG_EXT4_USE_FOR_EXT23=y
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Support for daemons like avr-evtd, that need access to a serial port (so
+that the user can turn off the device by pressing the power button),
+enable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CONFIG_SERIO=y
+CONFIG_SERIO_SERPORT=y
+CONFIG_SERIAL_8250=y
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Otherwise, you will always have to ssh into the system, become root, and
+issue something like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;shutdown -h now
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which is an inconvenience.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It is very important to set the Real Time Clock options right and this may
+not be that obvious for some non-x86 platforms. In particular, for a
+KuroBox HD, I&#39;m using:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CONFIG_RTC_CLASS=y
+CONFIG_RTC_HCTOSYS=y
+CONFIG_RTC_HCTOSYS_DEVICE=rtc0
+CONFIG_RTC_INTF_SYSFS=y
+CONFIG_RTC_INTF_PROC=y
+CONFIG_RTC_INTF_DEV=y
+CONFIG_RTC_DRV_RS5C372=y
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The last option is, perhaps, the tricky one, and varies from system to
+system. Knowing which one to enable is a matter of knowing the specs of
+your system and, if not known, discovery by trial-and-error. (For x86
+systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

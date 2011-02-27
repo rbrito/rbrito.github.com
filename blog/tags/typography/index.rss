@@ -4,25 +4,25 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged typography</title>
-<link>/blog/tags/typography/</link>
+<link>/blog//tags/typography/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Nobody expects the... STIX fonts release!</title>
 
 
-	<guid isPermaLink="no">/blog/posts/nobody-expects-the----stix-fonts-release-/</guid>
+	<guid isPermaLink="no">/blog//posts/nobody-expects-the----stix-fonts-release-/</guid>
 
-	<link>/blog/posts/nobody-expects-the----stix-fonts-release-/</link>
+	<link>/blog//posts/nobody-expects-the----stix-fonts-release-/</link>
 
 
-	<category>/tags/tex</category>
+	<category>tex</category>
 
-	<category>/tags/typography</category>
+	<category>typography</category>
 
 
 	<pubDate>Sat, 29 May 2010 17:54:56 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-05-29T20:54:56Z</dcterms:modified>
 
 	<description>&lt;p&gt;Please, excuse me if you are a connoisseur of fonts and typography. You will find this boring, but other people may not know.&lt;/p&gt;
 

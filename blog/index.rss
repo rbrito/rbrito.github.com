@@ -4,19 +4,79 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>Rogério Brito's Digital Junkyard</title>
-<link>/blog/</link>
+<link>/blog//</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>My problems with Chromium</title>
+
+
+	<guid isPermaLink="no">/blog//posts/problems_with_chromium/</guid>
+
+	<link>/blog//posts/problems_with_chromium/</link>
+
+	<pubDate>Sat, 26 Feb 2011 11:55:06 -0300</pubDate>
+	<dcterms:modified>2011-02-27T01:47:28Z</dcterms:modified>
+
+	<description>&lt;p&gt;Given that Chromium/Chrome is used more and more (as became apparent
+&lt;a href=&quot;https://lists.debian.org/debian-release/2010/09/msg00610.html&quot;&gt;with the discussion of including it in Debian&#39;s squeeze&lt;/a&gt;), I decided to
+give it some tries, mainly Giuseppe Iuculano&#39;s &lt;a href=&quot;http://packages.qa.debian.org/c/chromium-browser.html&quot;&gt;version&lt;/a&gt;. I occasionally
+install Chromium from Fabien Tassin&#39;s &lt;a href=&quot;https://launchpad.net/~chromium-daily/+archive/ppa&quot;&gt;daily builds&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And, to be honest, I have also contributed a good amount (about 400) of
+&lt;a href=&quot;https://launchpad.net/~rbrito/+karma&quot;&gt;translated strings&lt;/a&gt; to the Brazilian Portuguese part of Chromium. As a
+matter of fact, I have even done some &quot;activism&quot; and &lt;a href=&quot;https://launchpad.net/~savanabifulco&quot;&gt;incentivated&lt;/a&gt;
+&lt;a href=&quot;https://launchpad.net/~bifulcojunior&quot;&gt;other&lt;/a&gt; &lt;a href=&quot;https://launchpad.net/~victor.westmann/+karma&quot;&gt;people&lt;/a&gt; to create their accounts on Launchpad and help with
+the projects.&lt;/p&gt;
+
+&lt;p&gt;But I always come back to Iceweasel/Firefox, especially with Mike Hommey&#39;s
+frequently updated &lt;a href=&quot;http://mozilla.debian.net/&quot;&gt;repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;What are my reasons for staying with Iceweasel, and not with Chromium?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I can disable full zoom in Iceweasel (i.e., I only want to zoom the text,
+not the images). According to Chromium&#39;s project BTS, it seems that this
+will be a &lt;code&gt;WONTFIX&lt;/code&gt; bug, despite many people asking for it (and it having
+a lot of duplicates).&lt;/li&gt;
+&lt;li&gt;I can, in Iceweasel, set my preferred fonts without resorting to hacks on
+the system level, like say, having to lie with fontconfig or other stuff.
+And I really want Deja Vu Sans, not a serifed font.&lt;/li&gt;
+&lt;li&gt;In Iceweasel, a middle mouse click on &quot;an inactive portion&quot; of the page
+makes me go to the URL that is the system clipboard, just like pasting
+stuff in X, in general, works.  I guess that there may be some way to
+enable this in Chromium, but, so far, I have not found it.&lt;/li&gt;
+&lt;li&gt;In Iceweasel, I have a way (without resorting to many extensions or
+hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &amp;gt; Page Style &amp;gt;
+No Style&quot; (i.e., to ignore any CSS sheet that the document author may have
+specified on the page).&lt;/li&gt;
+&lt;li&gt;In Iceweasel, my personal data is encrypted before being synced.&lt;/li&gt;
+&lt;li&gt;In Iceweasel, I can press &lt;code&gt;Ctrl+Q&lt;/code&gt; and make the damn browser quit, instead
+of me having to use the mouse/trackpad/pointing device. This is probably a
+lack of my understanding on how to associate key bindings to Chromium, but
+the problem still stands.&lt;/li&gt;
+&lt;li&gt;Similarly, when there is only one tab open, pressing &lt;code&gt;Ctrl+W&lt;/code&gt; in Chromium
+does not close the tab (say, presenting me a blank tab or the list of most
+visited sites), nor it closes the application.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I would be satisfied if any of the above were fixed or better documented,
+but it seems that some of those are, at best, going to wait a long time.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 
 	<title>Packaging fonts for a Debian-based system</title>
 
 
-	<guid isPermaLink="no">/blog/posts/packaging-fonts-for-a-debian-based-system/</guid>
+	<guid isPermaLink="no">/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
 
-	<link>/blog/posts/packaging-fonts-for-a-debian-based-system/</link>
+	<link>/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
 
 	<pubDate>Fri, 12 Nov 2010 11:23:55 -0200</pubDate>
-	<dcterms:modified>2010-11-12T14:58:30Z</dcterms:modified>
+	<dcterms:modified>2010-11-12T14:59:50Z</dcterms:modified>
 
 	<description>&lt;p&gt;Seeing now that the situation regarding Free fonts is much better than in
 the past, I have started packaging some that are of high enough quality so
@@ -129,22 +189,22 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>First post from DebConf 10</title>
 
 
-	<guid isPermaLink="no">/blog/posts/first-post-from-debconf-10/</guid>
+	<guid isPermaLink="no">/blog//posts/first-post-from-debconf-10/</guid>
 
-	<link>/blog/posts/first-post-from-debconf-10/</link>
+	<link>/blog//posts/first-post-from-debconf-10/</link>
 
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/development</category>
+	<category>development</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/people</category>
+	<category>people</category>
 
 
 	<pubDate>Tue, 03 Aug 2010 06:09:46 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-08-03T09:09:46Z</dcterms:modified>
 
 	<description>&lt;p&gt;Even though I am late with this post, it is nice to say that I am writing here from this year&#39;s DebConf10, in NYC.&lt;/p&gt;
 
@@ -170,28 +230,28 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>I am going to DebConf 10</title>
 
 
-	<guid isPermaLink="no">/blog/posts/i-am-going-to-debconf-10/</guid>
+	<guid isPermaLink="no">/blog//posts/i-am-going-to-debconf-10/</guid>
 
-	<link>/blog/posts/i-am-going-to-debconf-10/</link>
+	<link>/blog//posts/i-am-going-to-debconf-10/</link>
 
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/development</category>
+	<category>development</category>
 
-	<category>/tags/fonts</category>
+	<category>fonts</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/powerpc</category>
+	<category>powerpc</category>
 
-	<category>/tags/web-of-trust</category>
+	<category>web-of-trust</category>
 
 
 	<pubDate>Sun, 18 Jul 2010 03:34:40 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-07-18T06:34:40Z</dcterms:modified>
 
 	<description>&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
 
@@ -228,30 +288,30 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>A version of xpdf with the poppler backend available</title>
 
 
-	<guid isPermaLink="no">/blog/posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
+	<guid isPermaLink="no">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
 
-	<link>/blog/posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
+	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
 
 
-	<category>/tags/c++</category>
+	<category>c++</category>
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/development</category>
+	<category>development</category>
 
-	<category>/tags/documents</category>
+	<category>documents</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/libraries</category>
+	<category>libraries</category>
 
-	<category>/tags/programming</category>
+	<category>programming</category>
 
 
 	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-06-10T22:46:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
 
@@ -291,18 +351,18 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>Nobody expects the... STIX fonts release!</title>
 
 
-	<guid isPermaLink="no">/blog/posts/nobody-expects-the----stix-fonts-release-/</guid>
+	<guid isPermaLink="no">/blog//posts/nobody-expects-the----stix-fonts-release-/</guid>
 
-	<link>/blog/posts/nobody-expects-the----stix-fonts-release-/</link>
+	<link>/blog//posts/nobody-expects-the----stix-fonts-release-/</link>
 
 
-	<category>/tags/tex</category>
+	<category>tex</category>
 
-	<category>/tags/typography</category>
+	<category>typography</category>
 
 
 	<pubDate>Sat, 29 May 2010 17:54:56 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-05-29T20:54:56Z</dcterms:modified>
 
 	<description>&lt;p&gt;Please, excuse me if you are a connoisseur of fonts and typography. You will find this boring, but other people may not know.&lt;/p&gt;
 
@@ -320,34 +380,34 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>Preliminary support for webm in youtube-dl</title>
 
 
-	<guid isPermaLink="no">/blog/posts/preliminary-support-for-webm-in-youtube-dl/</guid>
+	<guid isPermaLink="no">/blog//posts/preliminary-support-for-webm-in-youtube-dl/</guid>
 
-	<link>/blog/posts/preliminary-support-for-webm-in-youtube-dl/</link>
+	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/</link>
 
 
-	<category>/tags/audio</category>
+	<category>audio</category>
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/libraries</category>
+	<category>libraries</category>
 
-	<category>/tags/multimedia</category>
+	<category>multimedia</category>
 
-	<category>/tags/video</category>
+	<category>video</category>
 
 
 	<pubDate>Sat, 29 May 2010 17:06:18 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-05-29T20:06:18Z</dcterms:modified>
 
 	<description>&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
 
 &lt;p&gt;This way, at least people will have some material (in, fact, a chance) to play with this format.  I implemented this because, so far, I was only hoping here that a player for this would emerge. I guess that Debian&#39;s ffmpeg/mplayer will take some time, but I was pleased to see that Sebastian Dröge to upload a version of &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02596.html&quot;&gt;something&lt;/a&gt; that could use the new &lt;code&gt;libvpx&lt;/code&gt; codec.&lt;/p&gt;
 
-&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;/blog/./smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;/blog//./smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Well, it seems to be time to shape up that local build of mine of the &lt;a href=&quot;http://www.geocities.jp/aoyoume/aotuv/&quot;&gt;aotuv&lt;/a&gt; tuned version of Vorbis with &lt;a href=&quot;http://www.geocities.jp/aoyoume/&quot;&gt;Aoyumi&lt;/a&gt;&#39;s patches for libvorbis.&lt;/p&gt;
 
@@ -361,32 +421,32 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>Please let me zoom my documents!</title>
 
 
-	<guid isPermaLink="no">/blog/posts/please-let-me-zoom-my-documents-/</guid>
+	<guid isPermaLink="no">/blog//posts/please-let-me-zoom-my-documents-/</guid>
 
-	<link>/blog/posts/please-let-me-zoom-my-documents-/</link>
+	<link>/blog//posts/please-let-me-zoom-my-documents-/</link>
 
 
-	<category>/tags/bugs</category>
+	<category>bugs</category>
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/fonts</category>
+	<category>fonts</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/libraries</category>
+	<category>libraries</category>
 
-	<category>/tags/pdf</category>
+	<category>pdf</category>
 
-	<category>/tags/tex</category>
+	<category>tex</category>
 
-	<category>/tags/xetex</category>
+	<category>xetex</category>
 
 
 	<pubDate>Thu, 27 May 2010 11:17:00 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-05-27T14:17:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;It all started when I tried to typeset my documents with the &lt;a href=&quot;http://en.wikipedia.org/wiki/Utopia (typeface)&quot;&gt;Utopia&lt;/a&gt; typeface, which is Free Software, since &lt;a&gt;Adobe liberated it to the TeX Users Group.&lt;/a&gt;&lt;/p&gt;
 
@@ -420,26 +480,26 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>Changing Some Configuration from Defaults</title>
 
 
-	<guid isPermaLink="no">/blog/posts/changing-some-configuration-from-defaults/</guid>
+	<guid isPermaLink="no">/blog//posts/changing-some-configuration-from-defaults/</guid>
 
-	<link>/blog/posts/changing-some-configuration-from-defaults/</link>
+	<link>/blog//posts/changing-some-configuration-from-defaults/</link>
 
 
-	<category>/tags/configuration</category>
+	<category>configuration</category>
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/emacs</category>
+	<category>emacs</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/productivity</category>
+	<category>productivity</category>
 
-	<category>/tags/readline</category>
+	<category>readline</category>
 
 
 	<pubDate>Sat, 22 May 2010 20:36:42 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-05-22T23:36:42Z</dcterms:modified>
 
 	<description>&lt;p&gt;Two of my most frequently used tools are, hands down, Emacs and bash. Having a pleasant configuration of one&#39;s toolbox is necessary for long-term productivity.&lt;/p&gt;
 
@@ -486,157 +546,158 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
 
-	<guid isPermaLink="no">/blog/posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
+	<guid isPermaLink="no">/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
 
-	<link>/blog/posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
+	<link>/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
 
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/embedded</category>
+	<category>embedded</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/kernel</category>
+	<category>kernel</category>
 
-	<category>/tags/kurobox</category>
+	<category>kurobox</category>
 
-	<category>/tags/linux</category>
+	<category>linux</category>
 
-	<category>/tags/powerpc</category>
+	<category>powerpc</category>
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2011-02-27T01:16:19Z</dcterms:modified>
 
-	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to some embedded platforms. In other words, this is some of the stuff that is usually presumed to be known, but that you won&#39;t find compiled in many places, unfortunately.&lt;/p&gt;
+	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
+some embedded platforms. In other words, this is some of the stuff that is
+usually presumed to be known, but that you won&#39;t find compiled in many
+places, unfortunately.&lt;/p&gt;
 
-&lt;p&gt;I am writing them here in the hope that they can be useful to other folks trying to compile their kernel to embedded devices (and I would venture to say that these &quot;non-standard&quot; platforms would become more popular in the future).&lt;/p&gt;
+&lt;p&gt;I am writing them here in the hope that they can be useful to other folks
+trying to compile their kernel to embedded devices (and I would venture to
+say that these &quot;non-standard&quot; platforms would become more popular in the
+future).&lt;/p&gt;
 
 &lt;ul&gt;
-    &lt;li&gt;some machines don&#39;t have monitors, keyboards etc. They may only have network connections (e.g., ethernet) and USB ports. In such cases, it console&quot; called a netconsole. It can be enabled with the options: is quite handy to see how the machine is booting with a &quot;virtual console&quot; called a netconsole. It can be enabled with the options:
-&lt;blockquote&gt;&lt;code&gt;
-CONFIG_NETCONSOLE=y
+&lt;li&gt;&lt;p&gt;some machines don&#39;t have monitors, keyboards etc. They may only have
+network connections (e.g., ethernet) and USB ports. In such cases, it
+console&quot; called a netconsole. It can be enabled with the options: is quite
+handy to see how the machine is booting with a &quot;virtual console&quot; called a
+netconsole. It can be enabled with the options:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CONFIG_NETCONSOLE=y
 CONFIG_NETPOLL=y
 CONFIG_NET_POLL_CONTROLLER=y
-&lt;/code&gt;&lt;/blockquote&gt;
-You have to tell the kernel where to send the messages that would, otherwise, be presented on a screen. For sending them over the network, just tell the kernel to use the command line option:
-&lt;blockquote&gt;&lt;code&gt;
-netconsole=6666@192.168.11.150/,@192.168.11.149/
-&lt;/code&gt;&lt;/blockquote&gt;
-This way, you can easily connect from another (more comfortable?) computer with something like (this connection is made via UDP, not TCP):
-&lt;blockquote&gt;&lt;code&gt;
-ip addr add 192.168.11.149/24 broadcast 192.168.11.255 dev eth0
-nc -u -n -p 6666 192.168.11.150 6666
-&lt;/code&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-    &lt;li&gt;while some popular bootloaders for desktops are LILO and GRUB, many other platforms use other bootloaders: yaboot, quik, bootx, silo, refit, etc. In the case of embedded platforms, one that is popular is &quot;das uBoot&quot;, which needs a special kind of kernel image, a uImage, instead of a regular {b}zImage/vmlinu{x,z} image. (Well, actually, some other arches need images in other formats, like vmlinux.coff etc). Fortunately, the kernel&#39;s makefile knows about some such arches and it generates the correct image---but it is the task of the packager/distributor to find if those images are needed or not.For the KuroBox HD/HG, all that is needed is a simple:
-&lt;blockquote&gt;&lt;code&gt;
-cp $LINUXPATH/arch/powerpc/boot/uImage $BUILT_ROOT/boot/uImage-$VERSION
-&lt;/code&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-    &lt;li&gt;some extra care is needed when generating a kernel for such arches: the tree of the devices which the kernel needs does not seem to be built automatically (this is the case of the the KuroBox HD/HG). Something  like this is needed after the compilation of the kernel proper:
-&lt;blockquote&gt;&lt;code&gt;
-./scripts/dtc/dtc -I dts -O dtb -V 16 -o $BUILT_ROOT/boot/kuroboxHD.dtb-$VERSION ./arch/powerpc/boot/dts/kuroboxHD.dts
-./scripts/dtc/dtc -I dts -O dtb -V 16 -o $BUILT_ROOT/boot/kuroboxHG.dtb-$VERSION ./arch/powerpc/boot/dts/kuroboxHG.dts
-&lt;/code&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-    &lt;li&gt;to cross compile a kernel, don&#39;t forget to set the appropriate environment options, like:
-&lt;blockquote&gt;&lt;code&gt;
-INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make clean
-INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make oldconfig
-INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make menuconfig
-INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make all modules
-INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make modules_install
-&lt;/code&gt;&lt;/blockquote&gt;
-It won&#39;t hurt if you use a concurrency setting (like -j3 or more) when compiling all and modules.&lt;/li&gt;
-    &lt;li&gt;The uBoot command line (accessed via the network) can be something like:
-&lt;blockquote&gt;&lt;code&gt;
-ext2load ide ${hdpart} ${ldaddr} ${hdfile}
-ext2load ide ${hdpart} 7f0000 boot/kuroboxHD.dtb
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You have to tell the kernel where to send the messages that would,
+otherwise, be presented on a screen. For sending them over the network, just
+tell the kernel to use the command line option:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    netconsole=6666@192.168.11.150/,@192.168.11.149/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This way, you can easily connect from another (more comfortable?) computer
+with something like (this connection is made via UDP, not TCP):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    ip addr add 192.168.11.149/24 broadcast 192.168.11.255 dev eth0
+    nc -u -n -p 6666 192.168.11.150 6666
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;while some popular bootloaders for desktops are LILO and GRUB, many other
+platforms use other bootloaders: yaboot, quik, bootx, silo, refit, etc. In
+the case of embedded platforms, one that is popular is &quot;das uBoot&quot;, which
+needs a special kind of kernel image, a &lt;code&gt;uImage&lt;/code&gt;, instead of a regular
+&lt;code&gt;{b}zImage/vmlinu{x,z}&lt;/code&gt; image. (Well, actually, some other arches need
+images in other formats, like &lt;code&gt;vmlinux.coff&lt;/code&gt; etc). Fortunately, the
+kernel&#39;s makefile knows about some such arches and it generates the
+correct image---but it is the task of the packager/distributor to find if
+those images are needed or not. For the KuroBox HD/HG, all that is needed
+is a simple:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cp &amp;#036;LINUXPATH/arch/powerpc/boot/uImage &amp;#036;BUILT_ROOT/boot/uImage-&amp;#036;VERSION
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;some extra care is needed when generating a kernel for such arches: the
+tree of the devices which the kernel needs does not seem to be built
+automatically (this is the case of the the KuroBox HD/HG). Something like
+this is needed after the compilation of the kernel proper:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./scripts/dtc/dtc -I dts -O dtb -V 16 -o &amp;#036;BUILT_ROOT/boot/kuroboxHD.dtb-&amp;#036;VERSION ./arch/powerpc/boot/dts/kuroboxHD.dts
+./scripts/dtc/dtc -I dts -O dtb -V 16 -o &amp;#036;BUILT_ROOT/boot/kuroboxHG.dtb-&amp;#036;VERSION ./arch/powerpc/boot/dts/kuroboxHG.dts
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;to cross compile a kernel, don&#39;t forget to set the appropriate environment
+options, like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make clean
+INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make oldconfig
+INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make menuconfig
+INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make all modules
+INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make modules_install
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It won&#39;t hurt if you use a concurrency setting (like -j3 or more) when
+compiling all and modules.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The uBoot command line (accessed via the network) can be something like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ext2load ide &amp;#036;{hdpart} &amp;#036;{ldaddr} &amp;#036;{hdfile}
+ext2load ide &amp;#036;{hdpart} 7f0000 boot/kuroboxHD.dtb
 setenv bootargs root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/
-bootm ${ldaddr} - 7f0000
-&lt;/code&gt;&lt;/blockquote&gt;
-The first two lines tell uBoot to load the both the kernel and the device tree from the disk to the memory, the third line sets the kernel command line (familiar to users of the &quot;common&quot; arches) and the fourth line actually boots the kernel once it is loaded in the memory. Here, ${hdpart} is the partition where the kernel image ${hdfile} should be loaded from (usually in the form 0:1, to mean partition 1 from the disk 0), ${ldaddr} is the memory address where the kernel should be loaded to.&lt;/li&gt;
-    &lt;li&gt;Something that is handy, no matter what size your machine has: the use of ext4 (and, in particular, delayed allocation) with ext{2,3} filesystems. To use it, just put this in your kernel configuration file:
-&lt;blockquote&gt;&lt;code&gt;
-CONFIG_EXT4_USE_FOR_EXT23=y
-&lt;/code&gt;&lt;/blockquote&gt;
-&lt;/li&gt;
-    &lt;li&gt;Support for daemons like avr-evtd, that need access to a serial port (so that the user can turn off the device by pressing the power button), enable:
-&lt;blockquote&gt;&lt;code&gt;
-CONFIG_SERIO=y
+bootm &amp;#036;{ldaddr} - 7f0000
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The first two lines tell uBoot to load the both the kernel and the device
+tree from the disk to the memory, the third line sets the kernel command
+line (familiar to users of the &quot;common&quot; arches) and the fourth line
+actually boots the kernel once it is loaded in the memory. Here, ${hdpart}
+is the partition where the kernel image ${hdfile} should be loaded from
+(usually in the form 0:1, to mean partition 1 from the disk 0), ${ldaddr}
+is the memory address where the kernel should be loaded to.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Something that is handy, no matter what size your machine has: the use of
+ext4 (and, in particular, delayed allocation) with ext{2,3}
+filesystems. To use it, just put this in your kernel configuration file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CONFIG_EXT4_USE_FOR_EXT23=y
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Support for daemons like avr-evtd, that need access to a serial port (so
+that the user can turn off the device by pressing the power button),
+enable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CONFIG_SERIO=y
 CONFIG_SERIO_SERPORT=y
 CONFIG_SERIAL_8250=y
-&lt;/code&gt;&lt;/blockquote&gt;
-Otherwise, you will always have to ssh into the system, become root, and issue something like:
-&lt;blockquote&gt;&lt;code&gt;
-shutdown -h now
-&lt;/code&gt;&lt;/blockquote&gt;
-which is an inconvenience.&lt;/li&gt;
-    &lt;li&gt;It is very important to set the Real Time Clock options right and this may not be that obvious for some non-x86 platforms. In particular, for a KuroBox HD, I&#39;m using:
-&lt;blockquote&gt;&lt;code&gt;
-CONFIG_RTC_CLASS=y
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Otherwise, you will always have to ssh into the system, become root, and
+issue something like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;shutdown -h now
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which is an inconvenience.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It is very important to set the Real Time Clock options right and this may
+not be that obvious for some non-x86 platforms. In particular, for a
+KuroBox HD, I&#39;m using:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CONFIG_RTC_CLASS=y
 CONFIG_RTC_HCTOSYS=y
 CONFIG_RTC_HCTOSYS_DEVICE=rtc0
 CONFIG_RTC_INTF_SYSFS=y
 CONFIG_RTC_INTF_PROC=y
 CONFIG_RTC_INTF_DEV=y
 CONFIG_RTC_DRV_RS5C372=y
-&lt;/code&gt;&lt;/blockquote&gt;
-The last option is, perhaps, the tricky one, and varies from system to system. Knowing which one to enable is a matter of knowing the specs of your system and, if not known, discovery by trial-and-error. (For x86 systems, usually CONFIG_RTC_DRV_CMOS=y is sufficient)&lt;/li&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The last option is, perhaps, the tricky one, and varies from system to
+system. Knowing which one to enable is a matter of knowing the specs of
+your system and, if not known, discovery by trial-and-error. (For x86
+systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>Migrate from RCS to git</title>
-
-
-	<guid isPermaLink="no">/blog/posts/migrate-from-rcs-to-git/</guid>
-
-	<link>/blog/posts/migrate-from-rcs-to-git/</link>
-
-
-	<category>/tags/debian</category>
-
-	<category>/tags/emacs</category>
-
-	<category>/tags/git</category>
-
-	<category>/tags/hacks</category>
-
-	<category>/tags/revision-control</category>
-
-
-	<pubDate>Thu, 11 Feb 2010 05:39:37 -0200</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
-
-	<description>&lt;p&gt;I have been keeping my &lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt; files under version control since I was introduced to &lt;a href=&quot;http://www.gnu.org/software/auctex/&quot;&gt;AUCTeX&lt;/a&gt; and I realized that a good way to approach the &quot;evolutionary&quot; approach to software (this includes text) is to use a &lt;a href=&quot;http://en.wikipedia.org/wiki/Revision_control&quot;&gt;revision control system&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I started using that with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot;&gt;Emacs&lt;/a&gt; 21 (the first version of Emacs that I used was Emacs 19.something which I can&#39;t remember) and the revision system that was most easily available was &lt;a href=&quot;http://www.gnu.org/software/rcs/&quot;&gt;RCS&lt;/a&gt;. Its integration with Emacs was very good and also easy to use: type &lt;code&gt;C-x v-v&lt;/code&gt; and a check in is performed (or a check out, depending on the state of the file). You would be asked for a changelog for that file and that was it.&lt;/p&gt;
-
-&lt;p&gt;Now, on the other hand, there is a myriad of options and one that looks very nice to me (apart from not dealing with metadata, but that&#39;s OK with me for the moment) is Linus Torvald&#39;s &lt;a href=&quot;http://git-scm.com/&quot;&gt;&lt;code&gt;git&lt;/code&gt;&lt;/a&gt;. The very nice thing with &lt;code&gt;git&lt;/code&gt; (or many other such systems) is that the interface with Emacs is exactly the same: &lt;code&gt;C-x v-v&lt;/code&gt;. That&#39;s the only thing you need to remember to work well with, say, your text project. (I don&#39;t actually know very much of the management workflow under Emacs, but I also use the command line a good amount and it serves me well so far).&lt;/p&gt;
-
-&lt;p&gt;But how can I convert my RCS &quot;repositories&quot; to a proper &lt;code&gt;git&lt;/code&gt; repository? Well, git comes with a subcommand called &lt;code&gt;cvsimport&lt;/code&gt;, meant to be used with CVS and this does help, since a CVS repository is essentially just a collection of RCS files. As many people have migrated along the path from RCS to CVS to Subversion to git, and I did not intend to convert the repository in multiple steps, I am documenting what I did here.&lt;/p&gt;
-
-&lt;p&gt;So, if you have the &lt;code&gt;,v&lt;/code&gt; files that RCS generates (the &quot;repository&quot; files for each file tracked by RCS) spread in a tree and you would like to convert that tree to a git repository for replication, backup and &quot;time machine-like&quot; support, you can mimic a basic CVS repository that can be converted easily with the following simple steps:&lt;/p&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;Create a new directory hierarchy somewhere, denoted here by &lt;code&gt;cvs-source-dir&lt;/code&gt;. This will play the role of a CVS repository which &lt;code&gt;git cvsimport&lt;/code&gt; will convert.&lt;/li&gt;
-    &lt;li&gt;Under &lt;code&gt;cvs-source-dir&lt;/code&gt;, create the directory tree as you would like it to be visible by &lt;code&gt;git&lt;/code&gt;.&lt;/li&gt;
-    &lt;li&gt;As an immediate subdirectory of &lt;code&gt;cvs-source-dir&lt;/code&gt;, create a directory named &lt;code&gt;CVSROOT&lt;/code&gt;, that is &lt;code&gt;cvs-source-dir/CVSROOT&lt;/code&gt;.&lt;/li&gt;
-    &lt;li&gt;Each immediate subdirectory of &lt;code&gt;cvs-source-dir&lt;/code&gt; will play the role of a CVS module. Just think of that as a project under control of the version control system.&lt;/li&gt;
-    &lt;li&gt;Think about the &lt;code&gt;,v&lt;/code&gt; files as your regular files and put them under the &lt;code&gt;cvs-source-dir&lt;/code&gt; tree, as you would like them to be.&lt;/li&gt;
-    &lt;li&gt;Create the directory where your git repository will reside, denoted here by &lt;code&gt;git-repo&lt;/code&gt;.&lt;/li&gt;
-    &lt;li&gt;Run &lt;code&gt;git cvsimport -v -a -A -k -m -d cvs-source-dir -C git-repo cvs-module&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;That&#39;s it. It seems to perform a very good job of changing a very old system to something that is modern and with many features (and is distributed).&lt;/p&gt;
-
-&lt;p&gt;You may also want to read about the way to convert the ids of commits that RCS/CVS register to proper (people) names, which git uses. Read the &lt;code&gt;git-cvsimport&lt;/code&gt; manpage for more details on this and other options mentioned above.&lt;/p&gt;
 </description>
 
 

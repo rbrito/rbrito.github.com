@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged git</title>
-<link href="/blog/tags/git/"/>
-<link href="/blog/tags/git/index.atom" rel="self" type="application/atom+xml"/>
+<link href="/blog//tags/git/"/>
+<link href="/blog//tags/git/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,35 +13,35 @@
 
 
 
-<id>/blog/tags/git/</id>
+<id>/blog//tags/git/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20101112">ikiwiki</generator>
-<updated>2010-11-10T09:13:35Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20110225">ikiwiki</generator>
+<updated>2010-02-11T07:39:37Z</updated>
 <entry>
 	<title>Migrate from RCS to git</title>
 
-	<id>/blog/posts/migrate-from-rcs-to-git/</id>
+	<id>/blog//posts/migrate-from-rcs-to-git/</id>
 
-	<link href="/blog/posts/migrate-from-rcs-to-git/"/>
-
-
+	<link href="/blog//posts/migrate-from-rcs-to-git/"/>
 
 
 
 
-	<category term="/tags/debian" />
-
-	<category term="/tags/emacs" />
-
-	<category term="/tags/git" />
-
-	<category term="/tags/hacks" />
-
-	<category term="/tags/revision-control" />
 
 
-	<updated>2010-11-10T09:13:35Z</updated>
+	<category term="debian" />
+
+	<category term="emacs" />
+
+	<category term="git" />
+
+	<category term="hacks" />
+
+	<category term="revision-control" />
+
+
+	<updated>2010-02-11T07:39:37Z</updated>
 	<published>2010-02-11T07:39:37Z</published>
 
 	<content type="html" xml:lang="en">

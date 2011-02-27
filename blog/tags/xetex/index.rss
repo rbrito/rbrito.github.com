@@ -4,39 +4,39 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged xetex</title>
-<link>/blog/tags/xetex/</link>
+<link>/blog//tags/xetex/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Please let me zoom my documents!</title>
 
 
-	<guid isPermaLink="no">/blog/posts/please-let-me-zoom-my-documents-/</guid>
+	<guid isPermaLink="no">/blog//posts/please-let-me-zoom-my-documents-/</guid>
 
-	<link>/blog/posts/please-let-me-zoom-my-documents-/</link>
+	<link>/blog//posts/please-let-me-zoom-my-documents-/</link>
 
 
-	<category>/tags/bugs</category>
+	<category>bugs</category>
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/fonts</category>
+	<category>fonts</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/libraries</category>
+	<category>libraries</category>
 
-	<category>/tags/pdf</category>
+	<category>pdf</category>
 
-	<category>/tags/tex</category>
+	<category>tex</category>
 
-	<category>/tags/xetex</category>
+	<category>xetex</category>
 
 
 	<pubDate>Thu, 27 May 2010 11:17:00 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-05-27T14:17:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;It all started when I tried to typeset my documents with the &lt;a href=&quot;http://en.wikipedia.org/wiki/Utopia (typeface)&quot;&gt;Utopia&lt;/a&gt; typeface, which is Free Software, since &lt;a&gt;Adobe liberated it to the TeX Users Group.&lt;/a&gt;&lt;/p&gt;
 

@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged typography</title>
-<link href="/blog/tags/typography/"/>
-<link href="/blog/tags/typography/index.atom" rel="self" type="application/atom+xml"/>
+<link href="/blog//tags/typography/"/>
+<link href="/blog//tags/typography/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,29 +13,29 @@
 
 
 
-<id>/blog/tags/typography/</id>
+<id>/blog//tags/typography/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20101112">ikiwiki</generator>
-<updated>2010-11-10T09:13:35Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20110225">ikiwiki</generator>
+<updated>2010-05-29T20:54:56Z</updated>
 <entry>
 	<title>Nobody expects the... STIX fonts release!</title>
 
-	<id>/blog/posts/nobody-expects-the----stix-fonts-release-/</id>
+	<id>/blog//posts/nobody-expects-the----stix-fonts-release-/</id>
 
-	<link href="/blog/posts/nobody-expects-the----stix-fonts-release-/"/>
-
-
+	<link href="/blog//posts/nobody-expects-the----stix-fonts-release-/"/>
 
 
 
 
-	<category term="/tags/tex" />
-
-	<category term="/tags/typography" />
 
 
-	<updated>2010-11-10T09:13:35Z</updated>
+	<category term="tex" />
+
+	<category term="typography" />
+
+
+	<updated>2010-05-29T20:54:56Z</updated>
 	<published>2010-05-29T20:54:56Z</published>
 
 	<content type="html" xml:lang="en">

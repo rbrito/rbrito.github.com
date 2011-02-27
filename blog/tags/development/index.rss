@@ -4,29 +4,29 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged development</title>
-<link>/blog/tags/development/</link>
+<link>/blog//tags/development/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>First post from DebConf 10</title>
 
 
-	<guid isPermaLink="no">/blog/posts/first-post-from-debconf-10/</guid>
+	<guid isPermaLink="no">/blog//posts/first-post-from-debconf-10/</guid>
 
-	<link>/blog/posts/first-post-from-debconf-10/</link>
+	<link>/blog//posts/first-post-from-debconf-10/</link>
 
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/development</category>
+	<category>development</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/people</category>
+	<category>people</category>
 
 
 	<pubDate>Tue, 03 Aug 2010 06:09:46 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-08-03T09:09:46Z</dcterms:modified>
 
 	<description>&lt;p&gt;Even though I am late with this post, it is nice to say that I am writing here from this year&#39;s DebConf10, in NYC.&lt;/p&gt;
 
@@ -52,28 +52,28 @@
 	<title>I am going to DebConf 10</title>
 
 
-	<guid isPermaLink="no">/blog/posts/i-am-going-to-debconf-10/</guid>
+	<guid isPermaLink="no">/blog//posts/i-am-going-to-debconf-10/</guid>
 
-	<link>/blog/posts/i-am-going-to-debconf-10/</link>
+	<link>/blog//posts/i-am-going-to-debconf-10/</link>
 
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/development</category>
+	<category>development</category>
 
-	<category>/tags/fonts</category>
+	<category>fonts</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/powerpc</category>
+	<category>powerpc</category>
 
-	<category>/tags/web-of-trust</category>
+	<category>web-of-trust</category>
 
 
 	<pubDate>Sun, 18 Jul 2010 03:34:40 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-07-18T06:34:40Z</dcterms:modified>
 
 	<description>&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
 
@@ -110,30 +110,30 @@
 	<title>A version of xpdf with the poppler backend available</title>
 
 
-	<guid isPermaLink="no">/blog/posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
+	<guid isPermaLink="no">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
 
-	<link>/blog/posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
+	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
 
 
-	<category>/tags/c++</category>
+	<category>c++</category>
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/development</category>
+	<category>development</category>
 
-	<category>/tags/documents</category>
+	<category>documents</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/libraries</category>
+	<category>libraries</category>
 
-	<category>/tags/programming</category>
+	<category>programming</category>
 
 
 	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-06-10T22:46:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
 

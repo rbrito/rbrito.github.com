@@ -4,37 +4,37 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged documents</title>
-<link>/blog/tags/documents/</link>
+<link>/blog//tags/documents/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>A version of xpdf with the poppler backend available</title>
 
 
-	<guid isPermaLink="no">/blog/posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
+	<guid isPermaLink="no">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
 
-	<link>/blog/posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
+	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
 
 
-	<category>/tags/c++</category>
+	<category>c++</category>
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/development</category>
+	<category>development</category>
 
-	<category>/tags/documents</category>
+	<category>documents</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/libraries</category>
+	<category>libraries</category>
 
-	<category>/tags/programming</category>
+	<category>programming</category>
 
 
 	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-06-10T22:46:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
 

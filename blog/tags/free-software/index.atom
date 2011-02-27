@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged free-software</title>
-<link href="/blog/tags/free-software/"/>
-<link href="/blog/tags/free-software/index.atom" rel="self" type="application/atom+xml"/>
+<link href="/blog//tags/free-software/"/>
+<link href="/blog//tags/free-software/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,33 +13,33 @@
 
 
 
-<id>/blog/tags/free-software/</id>
+<id>/blog//tags/free-software/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20101112">ikiwiki</generator>
-<updated>2010-11-10T09:13:35Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20110225">ikiwiki</generator>
+<updated>2010-08-03T09:09:46Z</updated>
 <entry>
 	<title>First post from DebConf 10</title>
 
-	<id>/blog/posts/first-post-from-debconf-10/</id>
+	<id>/blog//posts/first-post-from-debconf-10/</id>
 
-	<link href="/blog/posts/first-post-from-debconf-10/"/>
-
-
+	<link href="/blog//posts/first-post-from-debconf-10/"/>
 
 
 
 
-	<category term="/tags/debian" />
-
-	<category term="/tags/development" />
-
-	<category term="/tags/free-software" />
-
-	<category term="/tags/people" />
 
 
-	<updated>2010-11-10T09:13:35Z</updated>
+	<category term="debian" />
+
+	<category term="development" />
+
+	<category term="free-software" />
+
+	<category term="people" />
+
+
+	<updated>2010-08-03T09:09:46Z</updated>
 	<published>2010-08-03T09:09:46Z</published>
 
 	<content type="html" xml:lang="en">
@@ -67,31 +67,31 @@
 <entry>
 	<title>I am going to DebConf 10</title>
 
-	<id>/blog/posts/i-am-going-to-debconf-10/</id>
+	<id>/blog//posts/i-am-going-to-debconf-10/</id>
 
-	<link href="/blog/posts/i-am-going-to-debconf-10/"/>
-
-
+	<link href="/blog//posts/i-am-going-to-debconf-10/"/>
 
 
 
 
-	<category term="/tags/debian" />
-
-	<category term="/tags/development" />
-
-	<category term="/tags/fonts" />
-
-	<category term="/tags/free-software" />
-
-	<category term="/tags/hacks" />
-
-	<category term="/tags/powerpc" />
-
-	<category term="/tags/web-of-trust" />
 
 
-	<updated>2010-11-10T09:13:35Z</updated>
+	<category term="debian" />
+
+	<category term="development" />
+
+	<category term="fonts" />
+
+	<category term="free-software" />
+
+	<category term="hacks" />
+
+	<category term="powerpc" />
+
+	<category term="web-of-trust" />
+
+
+	<updated>2010-07-18T06:34:40Z</updated>
 	<published>2010-07-18T06:34:40Z</published>
 
 	<content type="html" xml:lang="en">
@@ -130,33 +130,33 @@
 <entry>
 	<title>A version of xpdf with the poppler backend available</title>
 
-	<id>/blog/posts/a-version-of-xpdf-with-the-poppler-backend-available/</id>
+	<id>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</id>
 
-	<link href="/blog/posts/a-version-of-xpdf-with-the-poppler-backend-available/"/>
-
-
+	<link href="/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/"/>
 
 
 
 
-	<category term="/tags/c++" />
-
-	<category term="/tags/debian" />
-
-	<category term="/tags/development" />
-
-	<category term="/tags/documents" />
-
-	<category term="/tags/free-software" />
-
-	<category term="/tags/hacks" />
-
-	<category term="/tags/libraries" />
-
-	<category term="/tags/programming" />
 
 
-	<updated>2010-11-10T09:13:35Z</updated>
+	<category term="c++" />
+
+	<category term="debian" />
+
+	<category term="development" />
+
+	<category term="documents" />
+
+	<category term="free-software" />
+
+	<category term="hacks" />
+
+	<category term="libraries" />
+
+	<category term="programming" />
+
+
+	<updated>2010-06-10T22:46:13Z</updated>
 	<published>2010-06-10T22:46:13Z</published>
 
 	<content type="html" xml:lang="en">
@@ -198,31 +198,31 @@
 <entry>
 	<title>Preliminary support for webm in youtube-dl</title>
 
-	<id>/blog/posts/preliminary-support-for-webm-in-youtube-dl/</id>
+	<id>/blog//posts/preliminary-support-for-webm-in-youtube-dl/</id>
 
-	<link href="/blog/posts/preliminary-support-for-webm-in-youtube-dl/"/>
-
-
+	<link href="/blog//posts/preliminary-support-for-webm-in-youtube-dl/"/>
 
 
 
 
-	<category term="/tags/audio" />
-
-	<category term="/tags/debian" />
-
-	<category term="/tags/free-software" />
-
-	<category term="/tags/hacks" />
-
-	<category term="/tags/libraries" />
-
-	<category term="/tags/multimedia" />
-
-	<category term="/tags/video" />
 
 
-	<updated>2010-11-10T09:13:35Z</updated>
+	<category term="audio" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hacks" />
+
+	<category term="libraries" />
+
+	<category term="multimedia" />
+
+	<category term="video" />
+
+
+	<updated>2010-05-29T20:06:18Z</updated>
 	<published>2010-05-29T20:06:18Z</published>
 
 	<content type="html" xml:lang="en">
@@ -230,7 +230,7 @@
 
 &lt;p&gt;This way, at least people will have some material (in, fact, a chance) to play with this format.  I implemented this because, so far, I was only hoping here that a player for this would emerge. I guess that Debian&#39;s ffmpeg/mplayer will take some time, but I was pleased to see that Sebastian Dröge to upload a version of &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02596.html&quot;&gt;something&lt;/a&gt; that could use the new &lt;code&gt;libvpx&lt;/code&gt; codec.&lt;/p&gt;
 
-&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;/blog/tags/free-software/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;/blog//tags/free-software/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Well, it seems to be time to shape up that local build of mine of the &lt;a href=&quot;http://www.geocities.jp/aoyoume/aotuv/&quot;&gt;aotuv&lt;/a&gt; tuned version of Vorbis with &lt;a href=&quot;http://www.geocities.jp/aoyoume/&quot;&gt;Aoyumi&lt;/a&gt;&#39;s patches for libvorbis.&lt;/p&gt;
 
@@ -244,35 +244,35 @@
 <entry>
 	<title>Please let me zoom my documents!</title>
 
-	<id>/blog/posts/please-let-me-zoom-my-documents-/</id>
+	<id>/blog//posts/please-let-me-zoom-my-documents-/</id>
 
-	<link href="/blog/posts/please-let-me-zoom-my-documents-/"/>
-
-
+	<link href="/blog//posts/please-let-me-zoom-my-documents-/"/>
 
 
 
 
-	<category term="/tags/bugs" />
-
-	<category term="/tags/debian" />
-
-	<category term="/tags/fonts" />
-
-	<category term="/tags/free-software" />
-
-	<category term="/tags/hacks" />
-
-	<category term="/tags/libraries" />
-
-	<category term="/tags/pdf" />
-
-	<category term="/tags/tex" />
-
-	<category term="/tags/xetex" />
 
 
-	<updated>2010-11-10T09:13:35Z</updated>
+	<category term="bugs" />
+
+	<category term="debian" />
+
+	<category term="fonts" />
+
+	<category term="free-software" />
+
+	<category term="hacks" />
+
+	<category term="libraries" />
+
+	<category term="pdf" />
+
+	<category term="tex" />
+
+	<category term="xetex" />
+
+
+	<updated>2010-05-27T14:17:00Z</updated>
 	<published>2010-05-27T14:17:00Z</published>
 
 	<content type="html" xml:lang="en">

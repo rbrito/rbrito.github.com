@@ -4,31 +4,31 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged revision-control</title>
-<link>/blog/tags/revision-control/</link>
+<link>/blog//tags/revision-control/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Migrate from RCS to git</title>
 
 
-	<guid isPermaLink="no">/blog/posts/migrate-from-rcs-to-git/</guid>
+	<guid isPermaLink="no">/blog//posts/migrate-from-rcs-to-git/</guid>
 
-	<link>/blog/posts/migrate-from-rcs-to-git/</link>
+	<link>/blog//posts/migrate-from-rcs-to-git/</link>
 
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/emacs</category>
+	<category>emacs</category>
 
-	<category>/tags/git</category>
+	<category>git</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/revision-control</category>
+	<category>revision-control</category>
 
 
 	<pubDate>Thu, 11 Feb 2010 05:39:37 -0200</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-02-11T07:39:37Z</dcterms:modified>
 
 	<description>&lt;p&gt;I have been keeping my &lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt; files under version control since I was introduced to &lt;a href=&quot;http://www.gnu.org/software/auctex/&quot;&gt;AUCTeX&lt;/a&gt; and I realized that a good way to approach the &quot;evolutionary&quot; approach to software (this includes text) is to use a &lt;a href=&quot;http://en.wikipedia.org/wiki/Revision_control&quot;&gt;revision control system&lt;/a&gt;.&lt;/p&gt;
 

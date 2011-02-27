@@ -4,15 +4,2351 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>RecentChanges</title>
-<link>/blog/recentchanges/</link>
+<link>/blog//recentchanges/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>rbrito: change to posts/problems_with_chromium on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_93a9ea1ee1de33afbd5d7a629615402a3d46a5db/</guid>
+
+	<link>/blog/recentchanges/#change-93a9ea1ee1de33afbd5d7a629615402a3d46a5db</link>
+
+	<pubDate>Sat, 26 Feb 2011 22:47:35 -0300</pubDate>
+	<dcterms:modified>2011-02-27T01:47:35Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-93a9ea1ee1de33afbd5d7a629615402a3d46a5db&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+posts/problems with chromium
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:47:35 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Update typography.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/about on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_b87a4e40abec02a35964fb93cfbf1786ca6a18fc/</guid>
+
+	<link>/blog/recentchanges/#change-b87a4e40abec02a35964fb93cfbf1786ca6a18fc</link>
+
+	<pubDate>Sat, 26 Feb 2011 22:44:31 -0300</pubDate>
+	<dcterms:modified>2011-02-27T01:44:31Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-b87a4e40abec02a35964fb93cfbf1786ca6a18fc&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/about
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:44:31 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/about&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to posts/about on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_ebeed4659f9b7b133e0bcf905d60f7e21212070a/</guid>
+
+	<link>/blog/recentchanges/#change-ebeed4659f9b7b133e0bcf905d60f7e21212070a</link>
+
+	<pubDate>Sat, 26 Feb 2011 22:44:13 -0300</pubDate>
+	<dcterms:modified>2011-02-27T01:44:13Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-ebeed4659f9b7b133e0bcf905d60f7e21212070a&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+posts/about
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:44:13 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Rework slightly the description about me.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to index on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_cb865c9faeea2897d2d7fa338ccabb42c8216d8e/</guid>
+
+	<link>/blog/recentchanges/#change-cb865c9faeea2897d2d7fa338ccabb42c8216d8e</link>
+
+	<pubDate>Sat, 26 Feb 2011 22:43:38 -0300</pubDate>
+	<dcterms:modified>2011-02-27T01:43:38Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-cb865c9faeea2897d2d7fa338ccabb42c8216d8e&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+index
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:43:38 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Remove indication that this blog is ikiwiki powered. This is obvious.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_365165ba320ca5a7d4e5b7d7a32d0609f6583cd8/</guid>
+
+	<link>/blog/recentchanges/#change-365165ba320ca5a7d4e5b7d7a32d0609f6583cd8</link>
+
+	<pubDate>Sat, 26 Feb 2011 22:16:58 -0300</pubDate>
+	<dcterms:modified>2011-02-27T01:16:58Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-365165ba320ca5a7d4e5b7d7a32d0609f6583cd8&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:16:58 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+fix formatting of a post converted from wordpress.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to archives calendar/2000 archives calendar/2000/01 archives calendar/2000/02 archives calendar/2000/03 archives calendar/2000/04 archives calendar/2000/05 archives calendar/2000/06 archives calendar/2000/07 archives calendar/2000/08 archives calendar/2000/09  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_6b796a4e1b6e0a494460c536a628059881b15884/</guid>
+
+	<link>/blog/recentchanges/#change-6b796a4e1b6e0a494460c536a628059881b15884</link>
+
+	<pubDate>Sat, 26 Feb 2011 20:40:54 -0300</pubDate>
+	<dcterms:modified>2011-02-26T23:40:54Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-6b796a4e1b6e0a494460c536a628059881b15884&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+archives calendar/2000
+
+archives calendar/2000/01
+
+archives calendar/2000/02
+
+archives calendar/2000/03
+
+archives calendar/2000/04
+
+archives calendar/2000/05
+
+archives calendar/2000/06
+
+archives calendar/2000/07
+
+archives calendar/2000/08
+
+archives calendar/2000/09
+
+...
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;08:40:54 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Remove erroneous calendar files.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to archives/2000 archives/2000/01 archives/2000/02 archives/2000/03 archives/2000/04 archives/2000/05 archives/2000/06 archives/2000/07 archives/2000/08 archives/2000/09  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_1356af11e1d31e42734788ee288464fc2878e8e4/</guid>
+
+	<link>/blog/recentchanges/#change-1356af11e1d31e42734788ee288464fc2878e8e4</link>
+
+	<pubDate>Sat, 26 Feb 2011 19:54:29 -0300</pubDate>
+	<dcterms:modified>2011-02-26T22:54:29Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-1356af11e1d31e42734788ee288464fc2878e8e4&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+archives/2000
+
+archives/2000/01
+
+archives/2000/02
+
+archives/2000/03
+
+archives/2000/04
+
+archives/2000/05
+
+archives/2000/06
+
+archives/2000/07
+
+archives/2000/08
+
+archives/2000/09
+
+...
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:54:29 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+calendar update&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to archives calendar/2000 archives calendar/2000/01 archives calendar/2000/02 archives calendar/2000/03 archives calendar/2000/04 archives calendar/2000/05 archives calendar/2000/06 archives calendar/2000/07 archives calendar/2000/08 archives calendar/2000/09  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_f85da97131fab5492d792c1ffee7c5324d4e1729/</guid>
+
+	<link>/blog/recentchanges/#change-f85da97131fab5492d792c1ffee7c5324d4e1729</link>
+
+	<pubDate>Sat, 26 Feb 2011 19:18:36 -0300</pubDate>
+	<dcterms:modified>2011-02-26T22:18:36Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-f85da97131fab5492d792c1ffee7c5324d4e1729&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+archives calendar/2000
+
+archives calendar/2000/01
+
+archives calendar/2000/02
+
+archives calendar/2000/03
+
+archives calendar/2000/04
+
+archives calendar/2000/05
+
+archives calendar/2000/06
+
+archives calendar/2000/07
+
+archives calendar/2000/08
+
+archives calendar/2000/09
+
+...
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:18:36 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+calendar update&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to archives calendar/2011 archives calendar/2011/01 archives calendar/2011/02 archives calendar/2011/03 archives calendar/2011/04 archives calendar/2011/05 archives calendar/2011/06 archives calendar/2011/07 archives calendar/2011/08 archives calendar/2011/09  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_c2093baab6806c70abd5a09fd36b5d5e29809023/</guid>
+
+	<link>/blog/recentchanges/#change-c2093baab6806c70abd5a09fd36b5d5e29809023</link>
+
+	<pubDate>Sat, 26 Feb 2011 18:46:38 -0300</pubDate>
+	<dcterms:modified>2011-02-26T21:46:38Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-c2093baab6806c70abd5a09fd36b5d5e29809023&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+archives calendar/2011
+
+archives calendar/2011/01
+
+archives calendar/2011/02
+
+archives calendar/2011/03
+
+archives calendar/2011/04
+
+archives calendar/2011/05
+
+archives calendar/2011/06
+
+archives calendar/2011/07
+
+archives calendar/2011/08
+
+archives calendar/2011/09
+
+...
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;06:46:38 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+calendar update&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/uncategorized on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_4ff4c050d6750f69e0817c31d460a1685defa265/</guid>
+
+	<link>/blog/recentchanges/#change-4ff4c050d6750f69e0817c31d460a1685defa265</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:10:08 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:10:08Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-4ff4c050d6750f69e0817c31d460a1685defa265&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/uncategorized
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:10:08 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/uncategorized&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/audio on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_a8690ea7877dddab401c281739e3d3249e157f52/</guid>
+
+	<link>/blog/recentchanges/#change-a8690ea7877dddab401c281739e3d3249e157f52</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:10:05 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:10:05Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-a8690ea7877dddab401c281739e3d3249e157f52&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/audio
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:10:05 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/audio&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/pdf on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_f01b5b0e9318169b5aecfd3fa1e6f4e6da7ba88c/</guid>
+
+	<link>/blog/recentchanges/#change-f01b5b0e9318169b5aecfd3fa1e6f4e6da7ba88c</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:10:01 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:10:01Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-f01b5b0e9318169b5aecfd3fa1e6f4e6da7ba88c&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/pdf
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:10:01 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/pdf&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/revision-control on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_416bd056c599b359c8c14a43eb5b2f71022f59b5/</guid>
+
+	<link>/blog/recentchanges/#change-416bd056c599b359c8c14a43eb5b2f71022f59b5</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:09:58 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:09:58Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-416bd056c599b359c8c14a43eb5b2f71022f59b5&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/revision-control
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:09:58 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/revision-control&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/free-software on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_1910b8c075e28b1b3eb533d0fdf5bd93eb3b512b/</guid>
+
+	<link>/blog/recentchanges/#change-1910b8c075e28b1b3eb533d0fdf5bd93eb3b512b</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:09:54 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:09:54Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-1910b8c075e28b1b3eb533d0fdf5bd93eb3b512b&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/free-software
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:09:54 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/free-software&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/programming on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_941deb513ad53381dd3f9d1490f357fcbbe3a863/</guid>
+
+	<link>/blog/recentchanges/#change-941deb513ad53381dd3f9d1490f357fcbbe3a863</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:09:33 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:09:33Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-941deb513ad53381dd3f9d1490f357fcbbe3a863&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/programming
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:09:33 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/programming&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/development on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_8a9e2fd4d49cc83c814f07a998d88df710d37e54/</guid>
+
+	<link>/blog/recentchanges/#change-8a9e2fd4d49cc83c814f07a998d88df710d37e54</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:09:30 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:09:30Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-8a9e2fd4d49cc83c814f07a998d88df710d37e54&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/development
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:09:30 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/development&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/xetex on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_558b7c05a3593cb71b7856d65817c8a63a266ce5/</guid>
+
+	<link>/blog/recentchanges/#change-558b7c05a3593cb71b7856d65817c8a63a266ce5</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:09:27 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:09:27Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-558b7c05a3593cb71b7856d65817c8a63a266ce5&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/xetex
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:09:27 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/xetex&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/readline on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_d5073f645c22d2f9686a7bb38ca7c1312d1d7f6a/</guid>
+
+	<link>/blog/recentchanges/#change-d5073f645c22d2f9686a7bb38ca7c1312d1d7f6a</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:09:24 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:09:24Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-d5073f645c22d2f9686a7bb38ca7c1312d1d7f6a&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/readline
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:09:24 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/readline&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/tex on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_39c0cc35756f2e0881c4ce76f84f9454f9636d65/</guid>
+
+	<link>/blog/recentchanges/#change-39c0cc35756f2e0881c4ce76f84f9454f9636d65</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:09:21 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:09:21Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-39c0cc35756f2e0881c4ce76f84f9454f9636d65&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/tex
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:09:21 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/tex&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/c++ on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_d9856e68c9e963eb77467dded8dbdacf723a0de4/</guid>
+
+	<link>/blog/recentchanges/#change-d9856e68c9e963eb77467dded8dbdacf723a0de4</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:09:17 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:09:17Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-d9856e68c9e963eb77467dded8dbdacf723a0de4&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/c++
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:09:17 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/c++&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/powerpc on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_ab084272f28781de896e24990647e563e2b9b3f1/</guid>
+
+	<link>/blog/recentchanges/#change-ab084272f28781de896e24990647e563e2b9b3f1</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:09:14 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:09:14Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-ab084272f28781de896e24990647e563e2b9b3f1&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/powerpc
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:09:14 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/powerpc&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/kurobox on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_1ec7136f6a85bd5a0f043d60727ecf9250bec3b6/</guid>
+
+	<link>/blog/recentchanges/#change-1ec7136f6a85bd5a0f043d60727ecf9250bec3b6</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:09:11 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:09:11Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-1ec7136f6a85bd5a0f043d60727ecf9250bec3b6&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/kurobox
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:09:11 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/kurobox&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/typography on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_6ce3e176d723fb8425b7c585930ef2b5250b4f57/</guid>
+
+	<link>/blog/recentchanges/#change-6ce3e176d723fb8425b7c585930ef2b5250b4f57</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:09:08 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:09:08Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-6ce3e176d723fb8425b7c585930ef2b5250b4f57&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/typography
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:09:08 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/typography&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/configuration on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_5565da7df8b53053f811285729210056634630a1/</guid>
+
+	<link>/blog/recentchanges/#change-5565da7df8b53053f811285729210056634630a1</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:09:05 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:09:05Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-5565da7df8b53053f811285729210056634630a1&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/configuration
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:09:05 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/configuration&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/linux on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_7ccd12f0bf7ffc47cd17f6c367f2ffde2583c1e1/</guid>
+
+	<link>/blog/recentchanges/#change-7ccd12f0bf7ffc47cd17f6c367f2ffde2583c1e1</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:09:02 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:09:02Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-7ccd12f0bf7ffc47cd17f6c367f2ffde2583c1e1&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/linux
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:09:02 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/linux&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/people on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_efabe1e353fe76686c44bbb35e6b2cc06f7de97f/</guid>
+
+	<link>/blog/recentchanges/#change-efabe1e353fe76686c44bbb35e6b2cc06f7de97f</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:08:59 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:08:59Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-efabe1e353fe76686c44bbb35e6b2cc06f7de97f&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/people
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:08:59 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/people&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/embedded on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_a71906b52ff30a29835f05ea964ba38efb21c6bc/</guid>
+
+	<link>/blog/recentchanges/#change-a71906b52ff30a29835f05ea964ba38efb21c6bc</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:08:56 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:08:56Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-a71906b52ff30a29835f05ea964ba38efb21c6bc&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/embedded
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:08:56 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/embedded&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/libraries on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_80c4025dbcaceb3dd5e615ad6633a4946ec3dc0b/</guid>
+
+	<link>/blog/recentchanges/#change-80c4025dbcaceb3dd5e615ad6633a4946ec3dc0b</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:08:53 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:08:53Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-80c4025dbcaceb3dd5e615ad6633a4946ec3dc0b&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/libraries
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:08:53 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/libraries&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/productivity on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_c06a421b39b09a6809af386cc55a0ddf12d66b18/</guid>
+
+	<link>/blog/recentchanges/#change-c06a421b39b09a6809af386cc55a0ddf12d66b18</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:08:50 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:08:50Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-c06a421b39b09a6809af386cc55a0ddf12d66b18&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/productivity
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:08:50 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/productivity&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/documents on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_d316f5851fd8c73b2228ae6727f582c9e5d2c077/</guid>
+
+	<link>/blog/recentchanges/#change-d316f5851fd8c73b2228ae6727f582c9e5d2c077</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:08:46 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:08:46Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-d316f5851fd8c73b2228ae6727f582c9e5d2c077&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/documents
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:08:46 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/documents&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/kernel on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_d663ab0ddb310b46dfc079ccd986ce463fd3e6fd/</guid>
+
+	<link>/blog/recentchanges/#change-d663ab0ddb310b46dfc079ccd986ce463fd3e6fd</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:08:43 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:08:43Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-d663ab0ddb310b46dfc079ccd986ce463fd3e6fd&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/kernel
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:08:43 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/kernel&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to archives calendar/2011 archives calendar/2011/01 archives calendar/2011/02 archives calendar/2011/03 archives calendar/2011/04 archives calendar/2011/05 archives calendar/2011/06 archives calendar/2011/07 archives calendar/2011/08 archives calendar/2011/09  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_3f200b01d73bd2cab72cb73448d14e6f9edcfb3a/</guid>
+
+	<link>/blog/recentchanges/#change-3f200b01d73bd2cab72cb73448d14e6f9edcfb3a</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:07:03 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:07:03Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-3f200b01d73bd2cab72cb73448d14e6f9edcfb3a&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+archives calendar/2011
+
+archives calendar/2011/01
+
+archives calendar/2011/02
+
+archives calendar/2011/03
+
+archives calendar/2011/04
+
+archives calendar/2011/05
+
+archives calendar/2011/06
+
+archives calendar/2011/07
+
+archives calendar/2011/08
+
+archives calendar/2011/09
+
+...
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:07:03 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+calendar update&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/multimedia on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_1f19a00aecf6e1fb461abff195393bd2d930a740/</guid>
+
+	<link>/blog/recentchanges/#change-1f19a00aecf6e1fb461abff195393bd2d930a740</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:06:14 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:06:14Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-1f19a00aecf6e1fb461abff195393bd2d930a740&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/multimedia
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:06:14 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/multimedia&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/emacs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_e97d8614db9bac15c45398b19f1b8252d243533b/</guid>
+
+	<link>/blog/recentchanges/#change-e97d8614db9bac15c45398b19f1b8252d243533b</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:06:11 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:06:11Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-e97d8614db9bac15c45398b19f1b8252d243533b&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/emacs
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:06:11 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/emacs&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/video on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_a40abe49ae6a34c8c2f3e71cee478c18f1fd5393/</guid>
+
+	<link>/blog/recentchanges/#change-a40abe49ae6a34c8c2f3e71cee478c18f1fd5393</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:06:08 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:06:08Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-a40abe49ae6a34c8c2f3e71cee478c18f1fd5393&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/video
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:06:08 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/video&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/bugs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_26deec2c44cd234d5706e43585689ac08580c30b/</guid>
+
+	<link>/blog/recentchanges/#change-26deec2c44cd234d5706e43585689ac08580c30b</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:06:05 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:06:05Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-26deec2c44cd234d5706e43585689ac08580c30b&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/bugs
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:06:05 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/bugs&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/git on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_e26e93be249dd220e575a1fced0c875d09d761cf/</guid>
+
+	<link>/blog/recentchanges/#change-e26e93be249dd220e575a1fced0c875d09d761cf</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:06:01 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:06:01Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-e26e93be249dd220e575a1fced0c875d09d761cf&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/git
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:06:01 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/git&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/web-of-trust on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_827d8de50d7b113478dbce58e0d0e21bfa76d4e5/</guid>
+
+	<link>/blog/recentchanges/#change-827d8de50d7b113478dbce58e0d0e21bfa76d4e5</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:05:58 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:05:58Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-827d8de50d7b113478dbce58e0d0e21bfa76d4e5&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/web-of-trust
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:05:58 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/web-of-trust&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/debian on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_ec606d2f0660ad61c1d96e70e64c4440e7a9febb/</guid>
+
+	<link>/blog/recentchanges/#change-ec606d2f0660ad61c1d96e70e64c4440e7a9febb</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:05:55 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:05:55Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-ec606d2f0660ad61c1d96e70e64c4440e7a9febb&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/debian
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:05:55 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/debian&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/fonts on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_225f4385dce86e85d6d9e99d0791310db20d8182/</guid>
+
+	<link>/blog/recentchanges/#change-225f4385dce86e85d6d9e99d0791310db20d8182</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:05:52 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:05:52Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-225f4385dce86e85d6d9e99d0791310db20d8182&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/fonts
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:05:52 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/fonts&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tag/hacks on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_11072dc3de7d3a74b3896b2710d6aa7698b4e898/</guid>
+
+	<link>/blog/recentchanges/#change-11072dc3de7d3a74b3896b2710d6aa7698b4e898</link>
+
+	<pubDate>Sat, 26 Feb 2011 17:05:49 -0300</pubDate>
+	<dcterms:modified>2011-02-26T20:05:49Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-11072dc3de7d3a74b3896b2710d6aa7698b4e898&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+tag/hacks
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;05:05:49 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tag/hacks&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to posts/problems_with_chromium on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_8d3f3d41b66bf71b5d57951f1117c41a1c7e2447/</guid>
+
+	<link>/blog/recentchanges/#change-8d3f3d41b66bf71b5d57951f1117c41a1c7e2447</link>
+
+	<pubDate>Sat, 26 Feb 2011 12:56:43 -0300</pubDate>
+	<dcterms:modified>2011-02-26T15:56:43Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-8d3f3d41b66bf71b5d57951f1117c41a1c7e2447&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+posts/problems with chromium
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:56:43 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add post on chromium.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to .gitignore on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_b9dc5c4d799a1d8abcd2396f09c40e6b71fe7ca7/</guid>
+
+	<link>/blog/recentchanges/#change-b9dc5c4d799a1d8abcd2396f09c40e6b71fe7ca7</link>
+
+	<pubDate>Sat, 26 Feb 2011 12:54:24 -0300</pubDate>
+	<dcterms:modified>2011-02-26T15:54:24Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-b9dc5c4d799a1d8abcd2396f09c40e6b71fe7ca7&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+.gitignore
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:54:24 PM 02/26/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Ignore backup files.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
 <item>
 
 	<title>rbrito: change to posts/packaging-fonts-for-a-debian-based-system on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_50292f5364f601ef501cf9bee920ae1b4e07d4c3/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_50292f5364f601ef501cf9bee920ae1b4e07d4c3/</guid>
 
 	<link>/blog/recentchanges/#change-50292f5364f601ef501cf9bee920ae1b4e07d4c3</link>
 
@@ -43,8 +2379,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:59:50 PM 11/12/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -64,7 +2400,7 @@ Add post regarding packaged fonts&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_0d5925b3a6a57a4e6926f91521292a21b22fdc07/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_0d5925b3a6a57a4e6926f91521292a21b22fdc07/</guid>
 
 	<link>/blog/recentchanges/#change-0d5925b3a6a57a4e6926f91521292a21b22fdc07</link>
 
@@ -95,8 +2431,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;07:36:34 AM 11/10/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -116,7 +2452,7 @@ Remove example of posting&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_404674cadcb70228a7d58921da135a4ad2a72a99/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_404674cadcb70228a7d58921da135a4ad2a72a99/</guid>
 
 	<link>/blog/recentchanges/#change-404674cadcb70228a7d58921da135a4ad2a72a99</link>
 
@@ -167,8 +2503,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:46 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -188,7 +2524,7 @@ calendar update&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_535ba4e25b3f3cfb6b67a53c28d81160d8e6bedf/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_535ba4e25b3f3cfb6b67a53c28d81160d8e6bedf/</guid>
 
 	<link>/blog/recentchanges/#change-535ba4e25b3f3cfb6b67a53c28d81160d8e6bedf</link>
 
@@ -219,8 +2555,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -240,7 +2576,7 @@ creating tag page tags/multimedia&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_06bc0a095508be642583e531e6e4d86911bbaf39/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_06bc0a095508be642583e531e6e4d86911bbaf39/</guid>
 
 	<link>/blog/recentchanges/#change-06bc0a095508be642583e531e6e4d86911bbaf39</link>
 
@@ -271,8 +2607,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -292,7 +2628,7 @@ creating tag page tags/video&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_cbf78f5d34d1502c570f1aa24a3a09ee2739bad9/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_cbf78f5d34d1502c570f1aa24a3a09ee2739bad9/</guid>
 
 	<link>/blog/recentchanges/#change-cbf78f5d34d1502c570f1aa24a3a09ee2739bad9</link>
 
@@ -323,8 +2659,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -344,7 +2680,7 @@ creating tag page tags/embedded&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_17cc6605ee1d375e2880abfcb392db783eb89dc4/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_17cc6605ee1d375e2880abfcb392db783eb89dc4/</guid>
 
 	<link>/blog/recentchanges/#change-17cc6605ee1d375e2880abfcb392db783eb89dc4</link>
 
@@ -375,8 +2711,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -396,7 +2732,7 @@ creating tag page tags/libraries&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_aa89e9ec5ee59522037d0c77e520b31a6ef8cdac/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_aa89e9ec5ee59522037d0c77e520b31a6ef8cdac/</guid>
 
 	<link>/blog/recentchanges/#change-aa89e9ec5ee59522037d0c77e520b31a6ef8cdac</link>
 
@@ -427,8 +2763,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -448,7 +2784,7 @@ creating tag page tags/emacs&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_2ffc78aa8b9a152cc4bcf42cc85cebc093adb67e/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_2ffc78aa8b9a152cc4bcf42cc85cebc093adb67e/</guid>
 
 	<link>/blog/recentchanges/#change-2ffc78aa8b9a152cc4bcf42cc85cebc093adb67e</link>
 
@@ -479,8 +2815,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -500,7 +2836,7 @@ creating tag page tags/kernel&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_80808cabd23747f0059199f5e76bde9127691776/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_80808cabd23747f0059199f5e76bde9127691776/</guid>
 
 	<link>/blog/recentchanges/#change-80808cabd23747f0059199f5e76bde9127691776</link>
 
@@ -531,8 +2867,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -552,7 +2888,7 @@ creating tag page tags/people&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_a8561cc85d177ffce248c299311b2d80468a52eb/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_a8561cc85d177ffce248c299311b2d80468a52eb/</guid>
 
 	<link>/blog/recentchanges/#change-a8561cc85d177ffce248c299311b2d80468a52eb</link>
 
@@ -583,8 +2919,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -604,7 +2940,7 @@ creating tag page tags/powerpc&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_f3b7cf6e928b7b62f00b2c33bbe400b983e08c3e/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_f3b7cf6e928b7b62f00b2c33bbe400b983e08c3e/</guid>
 
 	<link>/blog/recentchanges/#change-f3b7cf6e928b7b62f00b2c33bbe400b983e08c3e</link>
 
@@ -635,8 +2971,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -656,7 +2992,7 @@ creating tag page tags/typography&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_1b5d1c851ffc0752f2ac95ea609322ee5fb5236a/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_1b5d1c851ffc0752f2ac95ea609322ee5fb5236a/</guid>
 
 	<link>/blog/recentchanges/#change-1b5d1c851ffc0752f2ac95ea609322ee5fb5236a</link>
 
@@ -687,8 +3023,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -708,7 +3044,7 @@ creating tag page tags/readline&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_f8b8689f14c7e3e89ba12d66024fe94fde81a0aa/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_f8b8689f14c7e3e89ba12d66024fe94fde81a0aa/</guid>
 
 	<link>/blog/recentchanges/#change-f8b8689f14c7e3e89ba12d66024fe94fde81a0aa</link>
 
@@ -739,8 +3075,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -760,7 +3096,7 @@ creating tag page tags/pdf&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_f89e2ed04a612de3e3806e19f0ac119c9b50ef9d/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_f89e2ed04a612de3e3806e19f0ac119c9b50ef9d/</guid>
 
 	<link>/blog/recentchanges/#change-f89e2ed04a612de3e3806e19f0ac119c9b50ef9d</link>
 
@@ -791,8 +3127,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -812,7 +3148,7 @@ creating tag page tags/git&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_10efae2bf7750372bc110a39c799e9018e1edea0/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_10efae2bf7750372bc110a39c799e9018e1edea0/</guid>
 
 	<link>/blog/recentchanges/#change-10efae2bf7750372bc110a39c799e9018e1edea0</link>
 
@@ -843,8 +3179,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -864,7 +3200,7 @@ creating tag page tags/documents&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_a93e174d77d0ded7a84d261c72a885924201d4fd/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_a93e174d77d0ded7a84d261c72a885924201d4fd/</guid>
 
 	<link>/blog/recentchanges/#change-a93e174d77d0ded7a84d261c72a885924201d4fd</link>
 
@@ -895,8 +3231,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -916,7 +3252,7 @@ creating tag page tags/hacks&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_00b8694fa5dfb47f219aafb8d3cfd39bc16ef54a/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_00b8694fa5dfb47f219aafb8d3cfd39bc16ef54a/</guid>
 
 	<link>/blog/recentchanges/#change-00b8694fa5dfb47f219aafb8d3cfd39bc16ef54a</link>
 
@@ -947,8 +3283,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -968,7 +3304,7 @@ creating tag page tags/revision-control&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_854b2726b984d06d1cea0b1c3396780945b8cd79/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_854b2726b984d06d1cea0b1c3396780945b8cd79/</guid>
 
 	<link>/blog/recentchanges/#change-854b2726b984d06d1cea0b1c3396780945b8cd79</link>
 
@@ -999,8 +3335,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1020,7 +3356,7 @@ creating tag page tags/web-of-trust&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_5f992329cad549777c9ddc203edfc52fdd0b360c/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_5f992329cad549777c9ddc203edfc52fdd0b360c/</guid>
 
 	<link>/blog/recentchanges/#change-5f992329cad549777c9ddc203edfc52fdd0b360c</link>
 
@@ -1051,8 +3387,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:25 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1072,7 +3408,7 @@ creating tag page tags/free-software&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_63b01b7fb178bd304fe1825dd3db996a4d38bc7c/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_63b01b7fb178bd304fe1825dd3db996a4d38bc7c/</guid>
 
 	<link>/blog/recentchanges/#change-63b01b7fb178bd304fe1825dd3db996a4d38bc7c</link>
 
@@ -1103,8 +3439,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:24 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1124,7 +3460,7 @@ creating tag page tags/development&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_35881d015b1655316f7ec4683503993eb368f341/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_35881d015b1655316f7ec4683503993eb368f341/</guid>
 
 	<link>/blog/recentchanges/#change-35881d015b1655316f7ec4683503993eb368f341</link>
 
@@ -1155,8 +3491,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:24 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1176,7 +3512,7 @@ creating tag page tags/fonts&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_1987019ed1d0d59a62adad35b9bb2a0d03c4ea48/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_1987019ed1d0d59a62adad35b9bb2a0d03c4ea48/</guid>
 
 	<link>/blog/recentchanges/#change-1987019ed1d0d59a62adad35b9bb2a0d03c4ea48</link>
 
@@ -1207,8 +3543,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:24 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1228,7 +3564,7 @@ creating tag page tags/programming&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_b4ae93a74e8e41111976c6515b237076206ad221/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_b4ae93a74e8e41111976c6515b237076206ad221/</guid>
 
 	<link>/blog/recentchanges/#change-b4ae93a74e8e41111976c6515b237076206ad221</link>
 
@@ -1259,8 +3595,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:24 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1280,7 +3616,7 @@ creating tag page tags/audio&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_61919dda425fb355ec2d36600163f100e74859c1/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_61919dda425fb355ec2d36600163f100e74859c1/</guid>
 
 	<link>/blog/recentchanges/#change-61919dda425fb355ec2d36600163f100e74859c1</link>
 
@@ -1311,8 +3647,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:24 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1332,7 +3668,7 @@ creating tag page tags/c++&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_1a959250f0e2143d67564c830acd1449fb91d5bc/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_1a959250f0e2143d67564c830acd1449fb91d5bc/</guid>
 
 	<link>/blog/recentchanges/#change-1a959250f0e2143d67564c830acd1449fb91d5bc</link>
 
@@ -1363,8 +3699,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:24 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1384,7 +3720,7 @@ creating tag page tags/kurobox&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_83bb29f8a0eabb1b30683df5ac21f9fb8c84f993/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_83bb29f8a0eabb1b30683df5ac21f9fb8c84f993/</guid>
 
 	<link>/blog/recentchanges/#change-83bb29f8a0eabb1b30683df5ac21f9fb8c84f993</link>
 
@@ -1415,8 +3751,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:24 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1436,7 +3772,7 @@ creating tag page tags/xetex&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_89bf2c7b152f6fa51f0916491bbd835f93f6de5e/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_89bf2c7b152f6fa51f0916491bbd835f93f6de5e/</guid>
 
 	<link>/blog/recentchanges/#change-89bf2c7b152f6fa51f0916491bbd835f93f6de5e</link>
 
@@ -1467,8 +3803,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:24 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1488,7 +3824,7 @@ creating tag page tags/bugs&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_7f2772240c2f5c2432ef543b4b9173974e7fd0e3/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_7f2772240c2f5c2432ef543b4b9173974e7fd0e3/</guid>
 
 	<link>/blog/recentchanges/#change-7f2772240c2f5c2432ef543b4b9173974e7fd0e3</link>
 
@@ -1519,8 +3855,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:24 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1540,7 +3876,7 @@ creating tag page tags/tex&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_9e8e898486e904ffa027d3356ae5c7c5927b3d75/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_9e8e898486e904ffa027d3356ae5c7c5927b3d75/</guid>
 
 	<link>/blog/recentchanges/#change-9e8e898486e904ffa027d3356ae5c7c5927b3d75</link>
 
@@ -1571,8 +3907,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:24 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1592,7 +3928,7 @@ creating tag page tags/productivity&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_f36009912672c7436373d18f47f82587849beaa0/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_f36009912672c7436373d18f47f82587849beaa0/</guid>
 
 	<link>/blog/recentchanges/#change-f36009912672c7436373d18f47f82587849beaa0</link>
 
@@ -1623,8 +3959,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:24 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1644,7 +3980,7 @@ creating tag page tags/configuration&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_dfde9d10d4d212ea17f9a9234f8a4ae18a3c169b/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_dfde9d10d4d212ea17f9a9234f8a4ae18a3c169b/</guid>
 
 	<link>/blog/recentchanges/#change-dfde9d10d4d212ea17f9a9234f8a4ae18a3c169b</link>
 
@@ -1675,8 +4011,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:24 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1696,7 +4032,7 @@ creating tag page tags/debian&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_563ec4639daf7a8f6e9d0f2525689c5823bc6df8/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_563ec4639daf7a8f6e9d0f2525689c5823bc6df8/</guid>
 
 	<link>/blog/recentchanges/#change-563ec4639daf7a8f6e9d0f2525689c5823bc6df8</link>
 
@@ -1727,8 +4063,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:24 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1748,7 +4084,7 @@ creating tag page tags/linux&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_6eb23268fa7032d9ba90faf4a5970faa9bf594c8/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_6eb23268fa7032d9ba90faf4a5970faa9bf594c8/</guid>
 
 	<link>/blog/recentchanges/#change-6eb23268fa7032d9ba90faf4a5970faa9bf594c8</link>
 
@@ -1779,8 +4115,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:24 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1800,7 +4136,7 @@ creating tag page tags/uncategorized&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_c24de22b34b16f18b5fa234e47b07705d36a7475/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_c24de22b34b16f18b5fa234e47b07705d36a7475/</guid>
 
 	<link>/blog/recentchanges/#change-c24de22b34b16f18b5fa234e47b07705d36a7475</link>
 
@@ -1845,8 +4181,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:13:12 PM 10/08/2010&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1866,7 +4202,7 @@ initial commit&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_a0c15b9086fcc9eac831c4d3f660a93cae240e62/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_a0c15b9086fcc9eac831c4d3f660a93cae240e62/</guid>
 
 	<link>/blog/recentchanges/#change-a0c15b9086fcc9eac831c4d3f660a93cae240e62</link>
 
@@ -1897,8 +4233,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 11/18/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1918,7 +4254,7 @@ Import of 2009-11-18.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_88a0492b89fdf4b06b7f4842557270690aeb6548/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_88a0492b89fdf4b06b7f4842557270690aeb6548/</guid>
 
 	<link>/blog/recentchanges/#change-88a0492b89fdf4b06b7f4842557270690aeb6548</link>
 
@@ -1949,8 +4285,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 10/08/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -1970,7 +4306,7 @@ Import of 2009-10-08.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_b923da17c458f111d2b9f9bca651962c51c22331/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_b923da17c458f111d2b9f9bca651962c51c22331/</guid>
 
 	<link>/blog/recentchanges/#change-b923da17c458f111d2b9f9bca651962c51c22331</link>
 
@@ -2001,8 +4337,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 09/11/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2022,7 +4358,7 @@ Import of 2009-09-11.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_c419bfe50fe265b7a2cad679a4fcb7304cd30a92/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_c419bfe50fe265b7a2cad679a4fcb7304cd30a92/</guid>
 
 	<link>/blog/recentchanges/#change-c419bfe50fe265b7a2cad679a4fcb7304cd30a92</link>
 
@@ -2053,8 +4389,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 09/05/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2074,7 +4410,7 @@ Import of 2009-09-05.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_6a93f01af3df1d792ce8c0194aec2fe49f423db6/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_6a93f01af3df1d792ce8c0194aec2fe49f423db6/</guid>
 
 	<link>/blog/recentchanges/#change-6a93f01af3df1d792ce8c0194aec2fe49f423db6</link>
 
@@ -2105,8 +4441,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 09/04/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2126,7 +4462,7 @@ Import of 2009-09-04.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_fedadb44f591ecd0d28256d67f1b4a3ee5352af3/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_fedadb44f591ecd0d28256d67f1b4a3ee5352af3/</guid>
 
 	<link>/blog/recentchanges/#change-fedadb44f591ecd0d28256d67f1b4a3ee5352af3</link>
 
@@ -2157,8 +4493,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 08/28/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2178,7 +4514,7 @@ Import of 2009-08-28.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_83890b0b95861c5fefb51fc55dca1d6e81ccadaa/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_83890b0b95861c5fefb51fc55dca1d6e81ccadaa/</guid>
 
 	<link>/blog/recentchanges/#change-83890b0b95861c5fefb51fc55dca1d6e81ccadaa</link>
 
@@ -2209,8 +4545,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 08/05/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2230,7 +4566,7 @@ Import of 2009-08-05.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_ff5088df79fc14c7273fd331dd81368457231df6/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_ff5088df79fc14c7273fd331dd81368457231df6/</guid>
 
 	<link>/blog/recentchanges/#change-ff5088df79fc14c7273fd331dd81368457231df6</link>
 
@@ -2261,8 +4597,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 08/04/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2282,7 +4618,7 @@ Import of 2009-08-04.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_86b6066592c5d103a489fb30d7b3b70fed545e32/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_86b6066592c5d103a489fb30d7b3b70fed545e32/</guid>
 
 	<link>/blog/recentchanges/#change-86b6066592c5d103a489fb30d7b3b70fed545e32</link>
 
@@ -2313,8 +4649,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 08/03/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2334,7 +4670,7 @@ Import of 2009-08-03.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_dc95de78c6753d0a6317faeb06e0c5542eff4f4a/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_dc95de78c6753d0a6317faeb06e0c5542eff4f4a/</guid>
 
 	<link>/blog/recentchanges/#change-dc95de78c6753d0a6317faeb06e0c5542eff4f4a</link>
 
@@ -2365,8 +4701,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 06/02/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2386,7 +4722,7 @@ Import of 2009-06-02.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_f867c74cc51fdfa6612a1730bb7932abed9934e9/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_f867c74cc51fdfa6612a1730bb7932abed9934e9/</guid>
 
 	<link>/blog/recentchanges/#change-f867c74cc51fdfa6612a1730bb7932abed9934e9</link>
 
@@ -2417,8 +4753,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 05/08/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2438,7 +4774,7 @@ Import of 2009-05-08.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_db8ee6dc772f7a26d0c7dc0fe3562cd6b43fdb86/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_db8ee6dc772f7a26d0c7dc0fe3562cd6b43fdb86/</guid>
 
 	<link>/blog/recentchanges/#change-db8ee6dc772f7a26d0c7dc0fe3562cd6b43fdb86</link>
 
@@ -2469,8 +4805,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 05/07/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2490,7 +4826,7 @@ Import of 2009-05-07.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_ace6219f3141b5f1ddb3111f339e8277a093cd83/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_ace6219f3141b5f1ddb3111f339e8277a093cd83/</guid>
 
 	<link>/blog/recentchanges/#change-ace6219f3141b5f1ddb3111f339e8277a093cd83</link>
 
@@ -2521,8 +4857,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 04/05/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2542,7 +4878,7 @@ Import of 2009-04-05.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_b7524f91ba27bea8821112b719867fe9c44bce89/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_b7524f91ba27bea8821112b719867fe9c44bce89/</guid>
 
 	<link>/blog/recentchanges/#change-b7524f91ba27bea8821112b719867fe9c44bce89</link>
 
@@ -2573,8 +4909,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 03/27/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2594,7 +4930,7 @@ Import of 2009-03-27.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_2790e35566414759ae0c1b82ed3386d80627f534/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_2790e35566414759ae0c1b82ed3386d80627f534/</guid>
 
 	<link>/blog/recentchanges/#change-2790e35566414759ae0c1b82ed3386d80627f534</link>
 
@@ -2625,8 +4961,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 03/15/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2646,7 +4982,7 @@ Import of 2009-03-15.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_3902752f356fdd7a8c997e7544e3703d47df7048/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_3902752f356fdd7a8c997e7544e3703d47df7048/</guid>
 
 	<link>/blog/recentchanges/#change-3902752f356fdd7a8c997e7544e3703d47df7048</link>
 
@@ -2677,8 +5013,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 03/14/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2698,7 +5034,7 @@ Import of 2009-03-14.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_3e1d1273f438ec4580619faa0fcf750b537edfbc/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_3e1d1273f438ec4580619faa0fcf750b537edfbc/</guid>
 
 	<link>/blog/recentchanges/#change-3e1d1273f438ec4580619faa0fcf750b537edfbc</link>
 
@@ -2729,8 +5065,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 03/10/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2750,7 +5086,7 @@ Import of 2009-03-10.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_c319d76c0bb21b6df052e4036dcdb46d679ddcc7/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_c319d76c0bb21b6df052e4036dcdb46d679ddcc7/</guid>
 
 	<link>/blog/recentchanges/#change-c319d76c0bb21b6df052e4036dcdb46d679ddcc7</link>
 
@@ -2781,8 +5117,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 03/07/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2802,7 +5138,7 @@ Import of 2009-03-07.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_55940e76484cf1500d522ad1d9711577bf95ede0/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_55940e76484cf1500d522ad1d9711577bf95ede0/</guid>
 
 	<link>/blog/recentchanges/#change-55940e76484cf1500d522ad1d9711577bf95ede0</link>
 
@@ -2833,8 +5169,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 03/06/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2854,7 +5190,7 @@ Import of 2009-03-06.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_33033b9deb2836073b5c8221f20c48eb39cab56a/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_33033b9deb2836073b5c8221f20c48eb39cab56a/</guid>
 
 	<link>/blog/recentchanges/#change-33033b9deb2836073b5c8221f20c48eb39cab56a</link>
 
@@ -2885,8 +5221,8 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 03/05/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
@@ -2906,7 +5242,7 @@ Import of 2009-03-05.mdwn&lt;br /&gt;
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog/recentchanges/change_cebedb862f8659fba08008b9669605dc7fbcbce9/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_cebedb862f8659fba08008b9669605dc7fbcbce9/</guid>
 
 	<link>/blog/recentchanges/#change-cebedb862f8659fba08008b9669605dc7fbcbce9</link>
 
@@ -2937,2248 +5273,12 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
 &lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 03/03/2009&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
 
+&lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
 Import of 2009-03-03.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2009-02-04 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_3b838867a107fc1cccad2c1de5137ac74c8d1871/</guid>
-
-	<link>/blog/recentchanges/#change-3b838867a107fc1cccad2c1de5137ac74c8d1871</link>
-
-	<pubDate>Wed, 04 Feb 2009 00:00:00 -0200</pubDate>
-	<dcterms:modified>2009-02-04T02:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-3b838867a107fc1cccad2c1de5137ac74c8d1871&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2009-02-04
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 02/04/2009&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2009-02-04.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2009-02-03 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_e11132e891f56202574d80cf7ef9011b8fad332d/</guid>
-
-	<link>/blog/recentchanges/#change-e11132e891f56202574d80cf7ef9011b8fad332d</link>
-
-	<pubDate>Tue, 03 Feb 2009 00:00:00 -0200</pubDate>
-	<dcterms:modified>2009-02-03T02:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-e11132e891f56202574d80cf7ef9011b8fad332d&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2009-02-03
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 02/03/2009&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2009-02-03.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2009-01-28 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_fd3da3fe34725594a1b6fc03458f67e3347aae5a/</guid>
-
-	<link>/blog/recentchanges/#change-fd3da3fe34725594a1b6fc03458f67e3347aae5a</link>
-
-	<pubDate>Wed, 28 Jan 2009 00:00:00 -0200</pubDate>
-	<dcterms:modified>2009-01-28T02:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-fd3da3fe34725594a1b6fc03458f67e3347aae5a&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2009-01-28
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 01/28/2009&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2009-01-28.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-12-17 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_79959bb8abd94b443adf397cde01dd89a48adfc1/</guid>
-
-	<link>/blog/recentchanges/#change-79959bb8abd94b443adf397cde01dd89a48adfc1</link>
-
-	<pubDate>Wed, 17 Dec 2008 00:00:00 -0200</pubDate>
-	<dcterms:modified>2008-12-17T02:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-79959bb8abd94b443adf397cde01dd89a48adfc1&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-12-17
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 12/17/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-12-17.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-12-16 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_aecfda2235aeda026ded497b2316bb54e8626868/</guid>
-
-	<link>/blog/recentchanges/#change-aecfda2235aeda026ded497b2316bb54e8626868</link>
-
-	<pubDate>Tue, 16 Dec 2008 00:00:00 -0200</pubDate>
-	<dcterms:modified>2008-12-16T02:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-aecfda2235aeda026ded497b2316bb54e8626868&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-12-16
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 12/16/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-12-16.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-12-08 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_ab29795c9022d9944605b7be412f07ad96b52f68/</guid>
-
-	<link>/blog/recentchanges/#change-ab29795c9022d9944605b7be412f07ad96b52f68</link>
-
-	<pubDate>Mon, 08 Dec 2008 00:00:00 -0200</pubDate>
-	<dcterms:modified>2008-12-08T02:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-ab29795c9022d9944605b7be412f07ad96b52f68&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-12-08
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 12/08/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-12-08.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-12-03 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_8ee1448dbc241615ee8077f9090f90aea9344253/</guid>
-
-	<link>/blog/recentchanges/#change-8ee1448dbc241615ee8077f9090f90aea9344253</link>
-
-	<pubDate>Wed, 03 Dec 2008 00:00:00 -0200</pubDate>
-	<dcterms:modified>2008-12-03T02:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-8ee1448dbc241615ee8077f9090f90aea9344253&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-12-03
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 12/03/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-12-03.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-11-13 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_64890adb12ca03ef42dbcf10680f4352383fbccd/</guid>
-
-	<link>/blog/recentchanges/#change-64890adb12ca03ef42dbcf10680f4352383fbccd</link>
-
-	<pubDate>Thu, 13 Nov 2008 00:00:00 -0200</pubDate>
-	<dcterms:modified>2008-11-13T02:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-64890adb12ca03ef42dbcf10680f4352383fbccd&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-11-13
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 11/13/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-11-13.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-10-12 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_e2f23fd8c01fa1e268da0bd69ba862d8c4ee5888/</guid>
-
-	<link>/blog/recentchanges/#change-e2f23fd8c01fa1e268da0bd69ba862d8c4ee5888</link>
-
-	<pubDate>Sun, 12 Oct 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-10-12T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-e2f23fd8c01fa1e268da0bd69ba862d8c4ee5888&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-10-12
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 10/12/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-10-12.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-09-24 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_022c1ccac51771108230eda3c7de747c85fa06d5/</guid>
-
-	<link>/blog/recentchanges/#change-022c1ccac51771108230eda3c7de747c85fa06d5</link>
-
-	<pubDate>Wed, 24 Sep 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-09-24T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-022c1ccac51771108230eda3c7de747c85fa06d5&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-09-24
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 09/24/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-09-24.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-09-23 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_ae94cef19be90bd43a3b1c33bb975dbe545569ca/</guid>
-
-	<link>/blog/recentchanges/#change-ae94cef19be90bd43a3b1c33bb975dbe545569ca</link>
-
-	<pubDate>Tue, 23 Sep 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-09-23T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-ae94cef19be90bd43a3b1c33bb975dbe545569ca&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-09-23
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 09/23/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-09-23.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-09-19 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_6ea3ff5e598ce32ca3692da2ec9e32110c01ec0b/</guid>
-
-	<link>/blog/recentchanges/#change-6ea3ff5e598ce32ca3692da2ec9e32110c01ec0b</link>
-
-	<pubDate>Fri, 19 Sep 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-09-19T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-6ea3ff5e598ce32ca3692da2ec9e32110c01ec0b&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-09-19
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 09/19/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-09-19.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-09-14 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_dff387f608a8a82d50b653314cf5056bfe401cac/</guid>
-
-	<link>/blog/recentchanges/#change-dff387f608a8a82d50b653314cf5056bfe401cac</link>
-
-	<pubDate>Sun, 14 Sep 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-09-14T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-dff387f608a8a82d50b653314cf5056bfe401cac&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-09-14
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 09/14/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-09-14.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-09-13 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_60ba0a589af74c8d92ed9efca5a078d3dd945e50/</guid>
-
-	<link>/blog/recentchanges/#change-60ba0a589af74c8d92ed9efca5a078d3dd945e50</link>
-
-	<pubDate>Sat, 13 Sep 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-09-13T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-60ba0a589af74c8d92ed9efca5a078d3dd945e50&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-09-13
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 09/13/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-09-13.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-09-04 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_adb137dec2a434016296b7f357ba3e70c187325a/</guid>
-
-	<link>/blog/recentchanges/#change-adb137dec2a434016296b7f357ba3e70c187325a</link>
-
-	<pubDate>Thu, 04 Sep 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-09-04T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-adb137dec2a434016296b7f357ba3e70c187325a&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-09-04
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 09/04/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-09-04.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-08-14 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_12924518198c80b96ba864d8ff5935576f97915e/</guid>
-
-	<link>/blog/recentchanges/#change-12924518198c80b96ba864d8ff5935576f97915e</link>
-
-	<pubDate>Thu, 14 Aug 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-08-14T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-12924518198c80b96ba864d8ff5935576f97915e&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-08-14
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 08/14/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-08-14.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-07-28 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_0a4064c5fa1dbd6bf11c838893938e9b3722a9ba/</guid>
-
-	<link>/blog/recentchanges/#change-0a4064c5fa1dbd6bf11c838893938e9b3722a9ba</link>
-
-	<pubDate>Mon, 28 Jul 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-07-28T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-0a4064c5fa1dbd6bf11c838893938e9b3722a9ba&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-07-28
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 07/28/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-07-28.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-07-24 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_d6ba3165681f494284c095264e99114805e99667/</guid>
-
-	<link>/blog/recentchanges/#change-d6ba3165681f494284c095264e99114805e99667</link>
-
-	<pubDate>Thu, 24 Jul 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-07-24T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-d6ba3165681f494284c095264e99114805e99667&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-07-24
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 07/24/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-07-24.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-07-23 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_74fcf3f2eb4ef34c8617f627c49b25d8739f21bc/</guid>
-
-	<link>/blog/recentchanges/#change-74fcf3f2eb4ef34c8617f627c49b25d8739f21bc</link>
-
-	<pubDate>Wed, 23 Jul 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-07-23T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-74fcf3f2eb4ef34c8617f627c49b25d8739f21bc&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-07-23
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 07/23/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-07-23.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-07-22 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_bc0201ea24d291cf819d671e92172a708ab4b9a6/</guid>
-
-	<link>/blog/recentchanges/#change-bc0201ea24d291cf819d671e92172a708ab4b9a6</link>
-
-	<pubDate>Tue, 22 Jul 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-07-22T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-bc0201ea24d291cf819d671e92172a708ab4b9a6&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-07-22
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 07/22/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-07-22.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-07-20 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_75c688533fd474c1d60a6821bf10d7bfecda9a9a/</guid>
-
-	<link>/blog/recentchanges/#change-75c688533fd474c1d60a6821bf10d7bfecda9a9a</link>
-
-	<pubDate>Sun, 20 Jul 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-07-20T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-75c688533fd474c1d60a6821bf10d7bfecda9a9a&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-07-20
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 07/20/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-07-20.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-07-19 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_935b8d649226a91977e54203b15751f03e47929f/</guid>
-
-	<link>/blog/recentchanges/#change-935b8d649226a91977e54203b15751f03e47929f</link>
-
-	<pubDate>Sat, 19 Jul 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-07-19T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-935b8d649226a91977e54203b15751f03e47929f&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-07-19
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 07/19/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-07-19.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-07-04 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_048d71d9aa6293a7327e2d482741f3fde71e8d7b/</guid>
-
-	<link>/blog/recentchanges/#change-048d71d9aa6293a7327e2d482741f3fde71e8d7b</link>
-
-	<pubDate>Fri, 04 Jul 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-07-04T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-048d71d9aa6293a7327e2d482741f3fde71e8d7b&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-07-04
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 07/04/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-07-04.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-05-23 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_e4091fa19dc4c978ab4f5a90209f312c7ce0cbfa/</guid>
-
-	<link>/blog/recentchanges/#change-e4091fa19dc4c978ab4f5a90209f312c7ce0cbfa</link>
-
-	<pubDate>Fri, 23 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-05-23T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-e4091fa19dc4c978ab4f5a90209f312c7ce0cbfa&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-05-23
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 05/23/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-05-23.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-05-20 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_1717535e26a11ccb515ec54ddc89d8487cf4db1c/</guid>
-
-	<link>/blog/recentchanges/#change-1717535e26a11ccb515ec54ddc89d8487cf4db1c</link>
-
-	<pubDate>Tue, 20 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-05-20T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-1717535e26a11ccb515ec54ddc89d8487cf4db1c&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-05-20
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 05/20/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-05-20.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-05-19 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_fbe1713f28e24a6615d5d3a969daf8bf8550cc90/</guid>
-
-	<link>/blog/recentchanges/#change-fbe1713f28e24a6615d5d3a969daf8bf8550cc90</link>
-
-	<pubDate>Mon, 19 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-05-19T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-fbe1713f28e24a6615d5d3a969daf8bf8550cc90&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-05-19
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 05/19/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-05-19.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-05-17 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_439f9a8a2886a868d0989020fc3c8a74cc8170d7/</guid>
-
-	<link>/blog/recentchanges/#change-439f9a8a2886a868d0989020fc3c8a74cc8170d7</link>
-
-	<pubDate>Sat, 17 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-05-17T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-439f9a8a2886a868d0989020fc3c8a74cc8170d7&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-05-17
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 05/17/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-05-17.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-05-16 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_be737ca9bfbdb9e477fef4dbd5448f4d2f6ffecd/</guid>
-
-	<link>/blog/recentchanges/#change-be737ca9bfbdb9e477fef4dbd5448f4d2f6ffecd</link>
-
-	<pubDate>Fri, 16 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-05-16T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-be737ca9bfbdb9e477fef4dbd5448f4d2f6ffecd&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-05-16
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 05/16/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-05-16.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-05-14 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_f7637086712c8526448f85f90ee41aca8be819ff/</guid>
-
-	<link>/blog/recentchanges/#change-f7637086712c8526448f85f90ee41aca8be819ff</link>
-
-	<pubDate>Wed, 14 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-05-14T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-f7637086712c8526448f85f90ee41aca8be819ff&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-05-14
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 05/14/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-05-14.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-05-13 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_962a2c31b238398b3139fc96647bcacff042ec87/</guid>
-
-	<link>/blog/recentchanges/#change-962a2c31b238398b3139fc96647bcacff042ec87</link>
-
-	<pubDate>Tue, 13 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-05-13T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-962a2c31b238398b3139fc96647bcacff042ec87&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-05-13
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 05/13/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-05-13.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-05-12 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_90ff0a1dfe2a47b15fd07b04ab79d3053ebd78c4/</guid>
-
-	<link>/blog/recentchanges/#change-90ff0a1dfe2a47b15fd07b04ab79d3053ebd78c4</link>
-
-	<pubDate>Mon, 12 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-05-12T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-90ff0a1dfe2a47b15fd07b04ab79d3053ebd78c4&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-05-12
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 05/12/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-05-12.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-05-11 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_264a308bf6e2a29f6187c25a18867cd46a0001b8/</guid>
-
-	<link>/blog/recentchanges/#change-264a308bf6e2a29f6187c25a18867cd46a0001b8</link>
-
-	<pubDate>Sun, 11 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-05-11T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-264a308bf6e2a29f6187c25a18867cd46a0001b8&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-05-11
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 05/11/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-05-11.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-05-09 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_9ecbd02040838dc3ddf7cbcd4cf3398c321efb1e/</guid>
-
-	<link>/blog/recentchanges/#change-9ecbd02040838dc3ddf7cbcd4cf3398c321efb1e</link>
-
-	<pubDate>Fri, 09 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-05-09T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-9ecbd02040838dc3ddf7cbcd4cf3398c321efb1e&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-05-09
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 05/09/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-05-09.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-05-08 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_df7c5caae54ff08e31b6f721e885333c654bd65e/</guid>
-
-	<link>/blog/recentchanges/#change-df7c5caae54ff08e31b6f721e885333c654bd65e</link>
-
-	<pubDate>Thu, 08 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-05-08T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-df7c5caae54ff08e31b6f721e885333c654bd65e&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-05-08
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 05/08/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-05-08.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-05-01 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_9cd0713d096234b5b64166b4324f2ff26324b6a0/</guid>
-
-	<link>/blog/recentchanges/#change-9cd0713d096234b5b64166b4324f2ff26324b6a0</link>
-
-	<pubDate>Thu, 01 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-05-01T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-9cd0713d096234b5b64166b4324f2ff26324b6a0&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-05-01
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 05/01/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-05-01.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-04-30 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_44831ef2aab3c0d09557c44bd6ff53b4949a4ba0/</guid>
-
-	<link>/blog/recentchanges/#change-44831ef2aab3c0d09557c44bd6ff53b4949a4ba0</link>
-
-	<pubDate>Wed, 30 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-04-30T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-44831ef2aab3c0d09557c44bd6ff53b4949a4ba0&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-04-30
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 04/30/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-04-30.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-04-29 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_207aa6ec03c20eb0cb3dacbff797f5e08a0c271d/</guid>
-
-	<link>/blog/recentchanges/#change-207aa6ec03c20eb0cb3dacbff797f5e08a0c271d</link>
-
-	<pubDate>Tue, 29 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-04-29T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-207aa6ec03c20eb0cb3dacbff797f5e08a0c271d&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-04-29
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 04/29/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-04-29.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-04-28 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_1831b2604d8e8e4eb8678ed9e64b732d0ba797e4/</guid>
-
-	<link>/blog/recentchanges/#change-1831b2604d8e8e4eb8678ed9e64b732d0ba797e4</link>
-
-	<pubDate>Mon, 28 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-04-28T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-1831b2604d8e8e4eb8678ed9e64b732d0ba797e4&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-04-28
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 04/28/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-04-28.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-04-25 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_87103461ec77a65e1ab2edb008cc42d3aabb6344/</guid>
-
-	<link>/blog/recentchanges/#change-87103461ec77a65e1ab2edb008cc42d3aabb6344</link>
-
-	<pubDate>Fri, 25 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-04-25T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-87103461ec77a65e1ab2edb008cc42d3aabb6344&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-04-25
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 04/25/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-04-25.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-04-13 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_6d2d9a3408a87d3b4fb07ca3d15d01b214de7eb9/</guid>
-
-	<link>/blog/recentchanges/#change-6d2d9a3408a87d3b4fb07ca3d15d01b214de7eb9</link>
-
-	<pubDate>Sun, 13 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-04-13T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-6d2d9a3408a87d3b4fb07ca3d15d01b214de7eb9&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-04-13
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 04/13/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-04-13.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-04-12 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_90671e535232ededc9ed24cc3fa03e24448b5309/</guid>
-
-	<link>/blog/recentchanges/#change-90671e535232ededc9ed24cc3fa03e24448b5309</link>
-
-	<pubDate>Sat, 12 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-04-12T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-90671e535232ededc9ed24cc3fa03e24448b5309&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-04-12
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 04/12/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-04-12.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2008-02-23 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_071b72f1a4a6cdd85d7b627e01202df29b5d317f/</guid>
-
-	<link>/blog/recentchanges/#change-071b72f1a4a6cdd85d7b627e01202df29b5d317f</link>
-
-	<pubDate>Sat, 23 Feb 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2008-02-23T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-071b72f1a4a6cdd85d7b627e01202df29b5d317f&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2008-02-23
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 02/23/2008&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2008-02-23.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2007-01-20 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog/recentchanges/change_d8e7f54bba1248a8829a2df8b9b8ccd632a15327/</guid>
-
-	<link>/blog/recentchanges/#change-d8e7f54bba1248a8829a2df8b9b8ccd632a15327</link>
-
-	<pubDate>Sat, 20 Jan 2007 00:00:00 -0200</pubDate>
-	<dcterms:modified>2007-01-20T02:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-d8e7f54bba1248a8829a2df8b9b8ccd632a15327&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2007-01-20
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 01/20/2007&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2007-01-20.mdwn&lt;br /&gt;
 
 
 &lt;/div&gt;

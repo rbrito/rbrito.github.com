@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged about</title>
+<link href="/blog//tag/about/"/>
+<link href="/blog//tag/about/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>/blog//tag/about/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/" version="3.20110225">ikiwiki</generator>
+<updated>2011-02-27T01:42:11Z</updated>
+<entry>
+	<title>About</title>
+
+	<id>/blog//posts/about/</id>
+
+	<link href="/blog//posts/about/"/>
+
+
+
+
+
+
+	<category term="about" />
+
+
+	<updated>2011-02-27T01:42:11Z</updated>
+	<published>2009-12-30T16:46:28Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;This blog is just a way to collect thoughts and discoveries regarding my use
+of Free Software, Mathematics (it also includes some personal notes, of
+course).  Some of the content here will be related to TeX (and siblings) and
+some will be related to me hacking on some piece of software.&lt;/p&gt;
+
+&lt;p&gt;Rearding me, I am an Instructor of Computer Science at &quot;Universidade
+Presbiteriana Mackenzie&quot;, São Paulo, Brazil. Currently, I am on absence for
+health treatment. I am also a Debian Maintainer and I am &lt;em&gt;highly&lt;/em&gt; interested
+in Free Software, with Debian-based systems being my primary interest.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

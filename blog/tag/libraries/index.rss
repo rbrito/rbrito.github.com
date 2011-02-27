@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged libraries</title>
+<link>/blog//tag/libraries/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>A version of xpdf with the poppler backend available</title>
+
+
+	<guid isPermaLink="no">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
+
+	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
+
+
+	<category>c++</category>
+
+	<category>debian</category>
+
+	<category>development</category>
+
+	<category>documents</category>
+
+	<category>free-software</category>
+
+	<category>hacks</category>
+
+	<category>libraries</category>
+
+	<category>programming</category>
+
+
+	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
+	<dcterms:modified>2010-06-10T22:46:13Z</dcterms:modified>
+
+	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
+
+&lt;h2&gt;Announcement&lt;/h2&gt;
+
+&lt;p&gt;For those people that are insterested in a &lt;em&gt;small&lt;/em&gt; PDF viewer, based on &lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;an actively maintained backend&lt;/a&gt;, and that &lt;a href=&quot;http://localhost/blog/2010/05/27/please-let-me-zoom-my-documents/&quot;&gt;doesn&#39;t bring your computer to a halt&lt;/a&gt; when you try to zoom your documents when you need to see some details, then you might want to give &lt;a href=&quot;http://github.com/rbrito/xpdf-poppler&quot;&gt;this version of xpdf&lt;/a&gt; a try.&lt;/p&gt;
+
+&lt;p&gt;I already received some reports for some bugs and fixed them, with one of them being a problem related by a kind user of &lt;a href=&quot;http://www.gentoo.org/&quot;&gt;Gentoo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;Some people have asked me why this even needs to exist in the first place and I agree that it would be better if it didn&#39;t: I would love to spend my time actually &lt;em&gt;using&lt;/em&gt; my computers rather than &lt;em&gt;fixing&lt;/em&gt; my computers for better tasks (read: studying Mathematics, etc).&lt;/p&gt;
+
+&lt;p&gt;The upstream maintainer of xpdf uses it as one source of income and keeps it running across many system (even legacy ones).  I &lt;em&gt;imagine&lt;/em&gt; that this one of the reasons why he tries to keep xpdf almost self contained, with many parts that could be delegated to other libraries, and with some abstraction code that makes the code compile even in the presence of &lt;em&gt;very&lt;/em&gt; broken compilers.  Of course, this means, in part, that as long as you take more duties, maintaing the code becomes more and more complex.&lt;/p&gt;
+
+&lt;p&gt;He told me that he doesn&#39;t offer an open development tree because he wants to give his customers some advantages over the public version and his reasons are perfectly justifiable, of course.  He also manifested the interest of possibly basing xpdf on a &quot;more modern toolkit&quot; and, when I asked him what that would be, he mentioned that, perhaps, it would be Qt. The development of xpdf will, quite probably, take newer directions.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, xpdf has not seen a new upstream release since &lt;a href=&quot;http://www.foolabs.com/xpdf/CHANGES&quot;&gt;2007-02-27&lt;/a&gt;.  It did, though, have &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl1.patch&quot;&gt;some&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl2.patch&quot;&gt;patchlevel&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl3.patch&quot;&gt;updates&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl4.patch&quot;&gt;released&lt;/a&gt;. Taking care of the maintainance of the code is a &lt;a href=&quot;http://bugs.debian.org/527840&quot;&gt;high concern&lt;/a&gt; for distributions.&lt;/p&gt;
+
+&lt;p&gt;Some people, though, would like to &lt;a href=&quot;http://en.wikipedia.org/wiki/KISS_principle&quot;&gt;keep it simple&lt;/a&gt; (me included).  Unfortunately, &lt;a href=&quot;http://bugs.debian.org/351279&quot;&gt;some efforts&lt;/a&gt; to &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00046.html&quot;&gt;maintain&lt;/a&gt; it had &lt;a href=&quot;http://bugs.gentoo.org/show_bug.cgi?id=289803&quot;&gt;not had&lt;/a&gt; the &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00068.html&quot;&gt;necessary coordination&lt;/a&gt; and duplication of effort has occured.&lt;/p&gt;
+
+&lt;h2&gt;Proposal&lt;/h2&gt;
+
+&lt;p&gt;I am willing to become a patch aggregator for the code in xpdf with a poppler backend. I would love to give it some refactoring too, drop some of the legacy code that is not used (and only serves to make the code hard to read), and adopt some good coding style standard (I particularly &lt;a href=&quot;http://www.kernel.org/doc/Documentation/CodingStyle&quot;&gt;like the one from the Linux Kernel&lt;/a&gt;---with the proper adaptations for C++).&lt;/p&gt;
+
+&lt;p&gt;I have already &lt;a href=&quot;https://bugs.gentoo.org/show_bug.cgi?id=323469&quot;&gt;contacted the people at Gentoo&lt;/a&gt;, and I would love to get people from Fedora, Ubuntu, and Suse involved also. Alas,  the last time I tried to mail their mailing lists, I got  messages telling me that my messages were rejected or waiting for moderation, because I was not a subscriber. I never heard back, since.&lt;/p&gt;
+
+&lt;p&gt;I appreciate it if you could help spread the word.&lt;/p&gt;
+
+&lt;p&gt;Thanks.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>Preliminary support for webm in youtube-dl</title>
+
+
+	<guid isPermaLink="no">/blog//posts/preliminary-support-for-webm-in-youtube-dl/</guid>
+
+	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/</link>
+
+
+	<category>audio</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hacks</category>
+
+	<category>libraries</category>
+
+	<category>multimedia</category>
+
+	<category>video</category>
+
+
+	<pubDate>Sat, 29 May 2010 17:06:18 -0300</pubDate>
+	<dcterms:modified>2010-05-29T20:06:18Z</dcterms:modified>
+
+	<description>&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
+
+&lt;p&gt;This way, at least people will have some material (in, fact, a chance) to play with this format.  I implemented this because, so far, I was only hoping here that a player for this would emerge. I guess that Debian&#39;s ffmpeg/mplayer will take some time, but I was pleased to see that Sebastian Dröge to upload a version of &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02596.html&quot;&gt;something&lt;/a&gt; that could use the new &lt;code&gt;libvpx&lt;/code&gt; codec.&lt;/p&gt;
+
+&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;/blog//tag/libraries/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, it seems to be time to shape up that local build of mine of the &lt;a href=&quot;http://www.geocities.jp/aoyoume/aotuv/&quot;&gt;aotuv&lt;/a&gt; tuned version of Vorbis with &lt;a href=&quot;http://www.geocities.jp/aoyoume/&quot;&gt;Aoyumi&lt;/a&gt;&#39;s patches for libvorbis.&lt;/p&gt;
+
+&lt;p&gt;Exciting times in the multimedia world.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>Please let me zoom my documents!</title>
+
+
+	<guid isPermaLink="no">/blog//posts/please-let-me-zoom-my-documents-/</guid>
+
+	<link>/blog//posts/please-let-me-zoom-my-documents-/</link>
+
+
+	<category>bugs</category>
+
+	<category>debian</category>
+
+	<category>fonts</category>
+
+	<category>free-software</category>
+
+	<category>hacks</category>
+
+	<category>libraries</category>
+
+	<category>pdf</category>
+
+	<category>tex</category>
+
+	<category>xetex</category>
+
+
+	<pubDate>Thu, 27 May 2010 11:17:00 -0300</pubDate>
+	<dcterms:modified>2010-05-27T14:17:00Z</dcterms:modified>
+
+	<description>&lt;p&gt;It all started when I tried to typeset my documents with the &lt;a href=&quot;http://en.wikipedia.org/wiki/Utopia (typeface)&quot;&gt;Utopia&lt;/a&gt; typeface, which is Free Software, since &lt;a&gt;Adobe liberated it to the TeX Users Group.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There are some nice packages for changing fonts in LaTeX with Utopia, like &lt;a href=&quot;http://www.ctan.org/tex-archive/help/Catalogue/entries/mathdesign-utopia.html&quot;&gt;&lt;code&gt;mathdesign&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;http://www.ctan.org/tex-archive/help/Catalogue/entries/fourier.html&quot;&gt;fourier&lt;/a&gt;. But I wanted to play with a new toy, &lt;a href=&quot;http://www.tug.org/xetex/&quot;&gt;XeTeX&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then, seeing as small caps was missing from the fonts that Adobe donated, I tried to just fake them with a program that I had never heard of before: &lt;a href=&quot;http://fontforge.sf.net/&quot;&gt;fontforge&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My &lt;a href=&quot;http://bugs.debian.org/569548&quot;&gt;first attempt&lt;/a&gt; wasn&#39;t that very successful, but, after reading a little bit of the code, &lt;a href=&quot;http://bugs.debian.org/569548#15&quot;&gt;the reason for the problem was soon discovered&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;At the same time, I wanted to &lt;em&gt;see&lt;/em&gt; what I had done with a PDF reader. The options aren&#39;t many here: xpdf was already removed from Debian&#39;s unstable (which is the distribution that I use), trying to &lt;a href=&quot;http://bugs.debian.org/527840&quot;&gt;update it&lt;/a&gt; proved to be unsuccessful and upstream isn&#39;t that active (which, by the way, led to the creation of the &lt;a href=&quot;http://cgit.freedesktop.org/poppler/poppler/tree/README&quot;&gt;poppler project&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, some of the Free PDF viewers seem to be &lt;a href=&quot;https://bugs.launchpad.net/evince/+bug/241604&quot;&gt;limited&lt;/a&gt; &lt;a href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=532946&quot;&gt;to&lt;/a&gt; a &lt;a href=&quot;http://mail.gnome.org/archives/evince-list/2007-March/msg00002.html&quot;&gt;maximum&lt;/a&gt; &lt;a href=&quot;http://bugs.debian.org/583119&quot;&gt;zoom&lt;/a&gt; &lt;a href=&quot;http://bugs.debian.org/580495&quot;&gt;of 400%&lt;/a&gt;, while some documents seem to demand more zooming (especially those with little, tiny letters, and for those people, like myself, that don&#39;t have good eyesight).&lt;/p&gt;
+
+&lt;p&gt;Patching the programs to eliminate those hardcoded limits isn&#39;t that hard, but the results with evince and epdfview can be frightening: &lt;a href=&quot;http://kernel.org/pub/linux/kernel/people/hpa/raid6.pdf&quot;&gt;a very simple document&lt;/a&gt;, when zoomed with epdfview to, say, 1600% uses so much memory that one needs to watch out for the Out Of Memory killer and so much swapping that it is hard to believe. Don&#39;t believe my words. Just try it.&lt;/p&gt;
+
+&lt;p&gt;But, hey, I just want to see a document without having to suffer too much.  And 400% isn&#39;t enough for many documents that I have. Especially when I want to see how a given font has been rendered on a document.&lt;/p&gt;
+
+&lt;p&gt;I have not yet investigated the real cause of the huge memory consumption, but I would trust the words of the developers, that &lt;a href=&quot;https://bugzilla.gnome.org/show_bug.cgi?id=303365#c6&quot;&gt;evince does everything in a big piece of memory&lt;/a&gt;. On the other hand, if one compiles poppler right from the sources, its &lt;a href=&quot;http://cgit.freedesktop.org/poppler/poppler/tree/glib/demo&quot;&gt;demo program&lt;/a&gt; for the glib backend can display files in a zippy manner, even with very large zooms.&lt;/p&gt;
+
+&lt;p&gt;xpdf, though, works very well with higher zoom levels, without making the whole computer grind to a halt. Seeing as Martin Pitt has &lt;a href=&quot;http://bugs.debian.org/351279&quot;&gt;stripped xpdf to be able to use the poppler backend&lt;/a&gt;, I was animated to have the best of both worlds: the frequent updates of poppler and the lightness of xpdf.&lt;/p&gt;
+
+&lt;p&gt;Martin&#39;s port of xpdf doesn&#39;t compile with a recent poppler, though: the library has &lt;a href=&quot;http://lists.freedesktop.org/archives/poppler/2009-May/004665.html&quot;&gt;changed&lt;/a&gt; &lt;a href=&quot;http://lists.debian.org/debian-devel/2007/12/msg00501.html&quot;&gt;a lot&lt;/a&gt; &lt;a href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=551119#c3&quot;&gt;since&lt;/a&gt; &lt;a href=&quot;http://lists.debian.org/debian-tex-maint/2009/09/msg00203.html&quot;&gt;2006&lt;/a&gt;.  And, in many respects, for good reason, since the original code is not that clean. But it makes harder for luses like me to use code based on fast-changing libraries.&lt;/p&gt;
+
+&lt;p&gt;Well, to cut a long story short, after two afternoons hunting down a  version of poppler that would allow me to compile Martin&#39;s xpdf version, I got bored and tried to attack the problem.  Now I can use  this alternative version of xpdf with the poppler backend, with very little dependencies and with little memory usage on my computer. I&#39;m keeping it for my private use, but if anybody else is interested, please let me know.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

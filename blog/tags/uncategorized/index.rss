@@ -4,46 +4,23 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged uncategorized</title>
-<link>/blog/tags/uncategorized/</link>
+<link>/blog//tags/uncategorized/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
-<item>
-
-	<title>About</title>
-
-
-	<guid isPermaLink="no">/blog/posts/about/</guid>
-
-	<link>/blog/posts/about/</link>
-
-
-	<category>/tags/uncategorized</category>
-
-
-	<pubDate>Wed, 30 Dec 2009 14:46:28 -0200</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
-
-	<description>&lt;p&gt;This blog is just a way to collect thoughts and discoveries regarding my use of Free Software and Mathematics. Some of the stuff here will be related to TeX (and siblings) and some will be related to me hacking on some piece of software.&lt;/p&gt;
-
-&lt;p&gt;Rearding me, I am an Instructor of Computer Science at &quot;Universidade Presbiteriana Mackenzie&quot;, São Paulo, Brazil. Currently, I am on absence for health treatment. I am also a Debian Maintainer and I am highly interested in Free Software.&lt;/p&gt;
-</description>
-
-
-</item>
 <item>
 
 	<title>2009-11-18</title>
 
 
-	<guid isPermaLink="no">/blog/posts/2009-11-18/</guid>
+	<guid isPermaLink="no">/blog//posts/2009-11-18/</guid>
 
-	<link>/blog/posts/2009-11-18/</link>
+	<link>/blog//posts/2009-11-18/</link>
 
 
-	<category>/tags/uncategorized</category>
+	<category>uncategorized</category>
 
 
 	<pubDate>Wed, 18 Nov 2009 00:00:00 -0200</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2009-11-18T02:00:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;Holy moly! Things now seem to be going! I&#39;m quite happy with all
 this.&lt;/p&gt;
@@ -103,16 +80,16 @@ the fact that Emacs offers a pod-mode. Amazing.&lt;/p&gt;
 	<title>2009-10-08</title>
 
 
-	<guid isPermaLink="no">/blog/posts/2009-10-08/</guid>
+	<guid isPermaLink="no">/blog//posts/2009-10-08/</guid>
 
-	<link>/blog/posts/2009-10-08/</link>
+	<link>/blog//posts/2009-10-08/</link>
 
 
-	<category>/tags/uncategorized</category>
+	<category>uncategorized</category>
 
 
 	<pubDate>Thu, 08 Oct 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2009-10-08T03:00:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;It seems that booting systems is giving me a headache again.&lt;/p&gt;
 
@@ -190,16 +167,16 @@ umount /mnt
 	<title>2009-09-11</title>
 
 
-	<guid isPermaLink="no">/blog/posts/2009-09-11/</guid>
+	<guid isPermaLink="no">/blog//posts/2009-09-11/</guid>
 
-	<link>/blog/posts/2009-09-11/</link>
+	<link>/blog//posts/2009-09-11/</link>
 
 
-	<category>/tags/uncategorized</category>
+	<category>uncategorized</category>
 
 
 	<pubDate>Fri, 11 Sep 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2009-09-11T03:00:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;Since I maintain a Darwin partition on my system, I use
 &lt;a href=&quot;http://www.gnu.org/software/grub/grub-legacy.en.html&quot;&gt;GRUB legacy&lt;/a&gt;
@@ -258,16 +235,16 @@ to see if it will work.&lt;/li&gt;
 	<title>2009-09-05</title>
 
 
-	<guid isPermaLink="no">/blog/posts/2009-09-05/</guid>
+	<guid isPermaLink="no">/blog//posts/2009-09-05/</guid>
 
-	<link>/blog/posts/2009-09-05/</link>
+	<link>/blog//posts/2009-09-05/</link>
 
 
-	<category>/tags/uncategorized</category>
+	<category>uncategorized</category>
 
 
 	<pubDate>Sat, 05 Sep 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2009-09-05T03:00:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;Much to my please, I received today some nice people for my
 birthday. &lt;a href=&quot;http://blog.safira.com/&quot;&gt;Adriano&lt;/a&gt;&#39;s presence was nice
@@ -290,16 +267,16 @@ for MacOS X and so on. Always a pleasure to talk with him.&lt;/p&gt;
 	<title>2009-09-04</title>
 
 
-	<guid isPermaLink="no">/blog/posts/2009-09-04/</guid>
+	<guid isPermaLink="no">/blog//posts/2009-09-04/</guid>
 
-	<link>/blog/posts/2009-09-04/</link>
+	<link>/blog//posts/2009-09-04/</link>
 
 
-	<category>/tags/uncategorized</category>
+	<category>uncategorized</category>
 
 
 	<pubDate>Fri, 04 Sep 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2009-09-04T03:00:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;Today I&#39;m turning up one year more. The good side of that it is a
 &quot;psychological barrier&quot; to evaluate what I&#39;ve done this past year.
@@ -322,16 +299,16 @@ it had more ups than downs.&lt;/p&gt;
 	<title>2009-08-28</title>
 
 
-	<guid isPermaLink="no">/blog/posts/2009-08-28/</guid>
+	<guid isPermaLink="no">/blog//posts/2009-08-28/</guid>
 
-	<link>/blog/posts/2009-08-28/</link>
+	<link>/blog//posts/2009-08-28/</link>
 
 
-	<category>/tags/uncategorized</category>
+	<category>uncategorized</category>
 
 
 	<pubDate>Fri, 28 Aug 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2009-08-28T03:00:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;I&#39;m closing some bugs in many packages in Debian, including my
 preferred backup system,
@@ -364,16 +341,16 @@ CD.&lt;/li&gt;
 	<title>2009-08-05</title>
 
 
-	<guid isPermaLink="no">/blog/posts/2009-08-05/</guid>
+	<guid isPermaLink="no">/blog//posts/2009-08-05/</guid>
 
-	<link>/blog/posts/2009-08-05/</link>
+	<link>/blog//posts/2009-08-05/</link>
 
 
-	<category>/tags/uncategorized</category>
+	<category>uncategorized</category>
 
 
 	<pubDate>Wed, 05 Aug 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2009-08-05T03:00:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;Went to the Brazilian national Security Service, to see the status
 of my sick leave.&lt;/p&gt;
@@ -401,16 +378,16 @@ alien to myself.&lt;/p&gt;
 	<title>2009-08-04</title>
 
 
-	<guid isPermaLink="no">/blog/posts/2009-08-04/</guid>
+	<guid isPermaLink="no">/blog//posts/2009-08-04/</guid>
 
-	<link>/blog/posts/2009-08-04/</link>
+	<link>/blog//posts/2009-08-04/</link>
 
 
-	<category>/tags/uncategorized</category>
+	<category>uncategorized</category>
 
 
 	<pubDate>Tue, 04 Aug 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2009-08-04T03:00:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;There&#39;s something that needs to be documented somewhere, since it
 is not obvious when skimming the documentation and when one is
@@ -440,16 +417,16 @@ when a security upload should be made to security.debian.org)?
 	<title>2009-08-03</title>
 
 
-	<guid isPermaLink="no">/blog/posts/2009-08-03/</guid>
+	<guid isPermaLink="no">/blog//posts/2009-08-03/</guid>
 
-	<link>/blog/posts/2009-08-03/</link>
+	<link>/blog//posts/2009-08-03/</link>
 
 
-	<category>/tags/uncategorized</category>
+	<category>uncategorized</category>
 
 
 	<pubDate>Mon, 03 Aug 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2009-08-03T03:00:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;These past days I have been
 &lt;a href=&quot;http://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=rbrito@ime.usp.br&quot;&gt;crushing some bugs&lt;/a&gt;
@@ -481,6 +458,38 @@ netbooks, low-powered desktops, and embedded systems).&lt;/p&gt;
 &lt;p&gt;Oh, BTW, please note that time-based &lt;em&gt;releases&lt;/em&gt; are not the same
 thing as time-based &lt;em&gt;freezes&lt;/em&gt;, even though what I provided is a
 link for the time-based releases. The concepts are close, though.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2009-06-02</title>
+
+
+	<guid isPermaLink="no">/blog//posts/2009-06-02/</guid>
+
+	<link>/blog//posts/2009-06-02/</link>
+
+
+	<category>uncategorized</category>
+
+
+	<pubDate>Tue, 02 Jun 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2009-06-02T03:00:00Z</dcterms:modified>
+
+	<description>&lt;p&gt;Today I was pleasantly surprised that the Kurobox that
+&lt;a href=&quot;http://suihkulokki.blogspot.com/&quot;&gt;Riku Voipio&lt;/a&gt; sent me has
+arrived! From the looks of it, it is a Kurobox HG, which, compared
+to my Kurobox HD, has a faster processor (it runs at 266MHz,
+instead of 200MHz), has more RAM (128MB, instead of 64MB), and has
+a faster network connection (an 1Gbps instead of 100Mbps
+interface).&lt;/p&gt;
+
+&lt;p&gt;I&#39;m trying to see if I will be able to use a SATA drive with this
+Kurobox, as we can&#39;t find large IDE/PATA drives in the market today
+(almost). And the bigger capacity ones are only available with SATA
+interfaces.&lt;/p&gt;
 </description>
 
 

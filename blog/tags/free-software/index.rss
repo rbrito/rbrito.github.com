@@ -4,29 +4,29 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged free-software</title>
-<link>/blog/tags/free-software/</link>
+<link>/blog//tags/free-software/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>First post from DebConf 10</title>
 
 
-	<guid isPermaLink="no">/blog/posts/first-post-from-debconf-10/</guid>
+	<guid isPermaLink="no">/blog//posts/first-post-from-debconf-10/</guid>
 
-	<link>/blog/posts/first-post-from-debconf-10/</link>
+	<link>/blog//posts/first-post-from-debconf-10/</link>
 
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/development</category>
+	<category>development</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/people</category>
+	<category>people</category>
 
 
 	<pubDate>Tue, 03 Aug 2010 06:09:46 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-08-03T09:09:46Z</dcterms:modified>
 
 	<description>&lt;p&gt;Even though I am late with this post, it is nice to say that I am writing here from this year&#39;s DebConf10, in NYC.&lt;/p&gt;
 
@@ -52,28 +52,28 @@
 	<title>I am going to DebConf 10</title>
 
 
-	<guid isPermaLink="no">/blog/posts/i-am-going-to-debconf-10/</guid>
+	<guid isPermaLink="no">/blog//posts/i-am-going-to-debconf-10/</guid>
 
-	<link>/blog/posts/i-am-going-to-debconf-10/</link>
+	<link>/blog//posts/i-am-going-to-debconf-10/</link>
 
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/development</category>
+	<category>development</category>
 
-	<category>/tags/fonts</category>
+	<category>fonts</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/powerpc</category>
+	<category>powerpc</category>
 
-	<category>/tags/web-of-trust</category>
+	<category>web-of-trust</category>
 
 
 	<pubDate>Sun, 18 Jul 2010 03:34:40 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-07-18T06:34:40Z</dcterms:modified>
 
 	<description>&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
 
@@ -110,30 +110,30 @@
 	<title>A version of xpdf with the poppler backend available</title>
 
 
-	<guid isPermaLink="no">/blog/posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
+	<guid isPermaLink="no">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
 
-	<link>/blog/posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
+	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
 
 
-	<category>/tags/c++</category>
+	<category>c++</category>
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/development</category>
+	<category>development</category>
 
-	<category>/tags/documents</category>
+	<category>documents</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/libraries</category>
+	<category>libraries</category>
 
-	<category>/tags/programming</category>
+	<category>programming</category>
 
 
 	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-06-10T22:46:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
 
@@ -173,34 +173,34 @@
 	<title>Preliminary support for webm in youtube-dl</title>
 
 
-	<guid isPermaLink="no">/blog/posts/preliminary-support-for-webm-in-youtube-dl/</guid>
+	<guid isPermaLink="no">/blog//posts/preliminary-support-for-webm-in-youtube-dl/</guid>
 
-	<link>/blog/posts/preliminary-support-for-webm-in-youtube-dl/</link>
+	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/</link>
 
 
-	<category>/tags/audio</category>
+	<category>audio</category>
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/libraries</category>
+	<category>libraries</category>
 
-	<category>/tags/multimedia</category>
+	<category>multimedia</category>
 
-	<category>/tags/video</category>
+	<category>video</category>
 
 
 	<pubDate>Sat, 29 May 2010 17:06:18 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-05-29T20:06:18Z</dcterms:modified>
 
 	<description>&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
 
 &lt;p&gt;This way, at least people will have some material (in, fact, a chance) to play with this format.  I implemented this because, so far, I was only hoping here that a player for this would emerge. I guess that Debian&#39;s ffmpeg/mplayer will take some time, but I was pleased to see that Sebastian Dröge to upload a version of &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02596.html&quot;&gt;something&lt;/a&gt; that could use the new &lt;code&gt;libvpx&lt;/code&gt; codec.&lt;/p&gt;
 
-&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;/blog/tags/free-software/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;/blog//tags/free-software/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Well, it seems to be time to shape up that local build of mine of the &lt;a href=&quot;http://www.geocities.jp/aoyoume/aotuv/&quot;&gt;aotuv&lt;/a&gt; tuned version of Vorbis with &lt;a href=&quot;http://www.geocities.jp/aoyoume/&quot;&gt;Aoyumi&lt;/a&gt;&#39;s patches for libvorbis.&lt;/p&gt;
 
@@ -214,32 +214,32 @@
 	<title>Please let me zoom my documents!</title>
 
 
-	<guid isPermaLink="no">/blog/posts/please-let-me-zoom-my-documents-/</guid>
+	<guid isPermaLink="no">/blog//posts/please-let-me-zoom-my-documents-/</guid>
 
-	<link>/blog/posts/please-let-me-zoom-my-documents-/</link>
+	<link>/blog//posts/please-let-me-zoom-my-documents-/</link>
 
 
-	<category>/tags/bugs</category>
+	<category>bugs</category>
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/fonts</category>
+	<category>fonts</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/libraries</category>
+	<category>libraries</category>
 
-	<category>/tags/pdf</category>
+	<category>pdf</category>
 
-	<category>/tags/tex</category>
+	<category>tex</category>
 
-	<category>/tags/xetex</category>
+	<category>xetex</category>
 
 
 	<pubDate>Thu, 27 May 2010 11:17:00 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-05-27T14:17:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;It all started when I tried to typeset my documents with the &lt;a href=&quot;http://en.wikipedia.org/wiki/Utopia (typeface)&quot;&gt;Utopia&lt;/a&gt; typeface, which is Free Software, since &lt;a&gt;Adobe liberated it to the TeX Users Group.&lt;/a&gt;&lt;/p&gt;
 

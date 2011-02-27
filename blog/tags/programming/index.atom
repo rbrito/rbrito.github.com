@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged programming</title>
-<link href="/blog/tags/programming/"/>
-<link href="/blog/tags/programming/index.atom" rel="self" type="application/atom+xml"/>
+<link href="/blog//tags/programming/"/>
+<link href="/blog//tags/programming/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,41 +13,41 @@
 
 
 
-<id>/blog/tags/programming/</id>
+<id>/blog//tags/programming/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20101112">ikiwiki</generator>
-<updated>2010-11-10T09:13:35Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20110225">ikiwiki</generator>
+<updated>2010-06-10T22:46:13Z</updated>
 <entry>
 	<title>A version of xpdf with the poppler backend available</title>
 
-	<id>/blog/posts/a-version-of-xpdf-with-the-poppler-backend-available/</id>
+	<id>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</id>
 
-	<link href="/blog/posts/a-version-of-xpdf-with-the-poppler-backend-available/"/>
-
-
+	<link href="/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/"/>
 
 
 
 
-	<category term="/tags/c++" />
-
-	<category term="/tags/debian" />
-
-	<category term="/tags/development" />
-
-	<category term="/tags/documents" />
-
-	<category term="/tags/free-software" />
-
-	<category term="/tags/hacks" />
-
-	<category term="/tags/libraries" />
-
-	<category term="/tags/programming" />
 
 
-	<updated>2010-11-10T09:13:35Z</updated>
+	<category term="c++" />
+
+	<category term="debian" />
+
+	<category term="development" />
+
+	<category term="documents" />
+
+	<category term="free-software" />
+
+	<category term="hacks" />
+
+	<category term="libraries" />
+
+	<category term="programming" />
+
+
+	<updated>2010-06-10T22:46:13Z</updated>
 	<published>2010-06-10T22:46:13Z</published>
 
 	<content type="html" xml:lang="en">

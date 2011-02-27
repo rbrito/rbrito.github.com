@@ -4,29 +4,29 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged people</title>
-<link>/blog/tags/people/</link>
+<link>/blog//tags/people/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>First post from DebConf 10</title>
 
 
-	<guid isPermaLink="no">/blog/posts/first-post-from-debconf-10/</guid>
+	<guid isPermaLink="no">/blog//posts/first-post-from-debconf-10/</guid>
 
-	<link>/blog/posts/first-post-from-debconf-10/</link>
+	<link>/blog//posts/first-post-from-debconf-10/</link>
 
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/development</category>
+	<category>development</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/people</category>
+	<category>people</category>
 
 
 	<pubDate>Tue, 03 Aug 2010 06:09:46 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-08-03T09:09:46Z</dcterms:modified>
 
 	<description>&lt;p&gt;Even though I am late with this post, it is nice to say that I am writing here from this year&#39;s DebConf10, in NYC.&lt;/p&gt;
 

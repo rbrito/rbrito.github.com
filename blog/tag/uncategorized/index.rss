@@ -1,0 +1,499 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged uncategorized</title>
+<link>/blog//tag/uncategorized/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>2009-11-18</title>
+
+
+	<guid isPermaLink="no">/blog//posts/2009-11-18/</guid>
+
+	<link>/blog//posts/2009-11-18/</link>
+
+
+	<category>uncategorized</category>
+
+
+	<pubDate>Wed, 18 Nov 2009 00:00:00 -0200</pubDate>
+	<dcterms:modified>2009-11-18T02:00:00Z</dcterms:modified>
+
+	<description>&lt;p&gt;Holy moly! Things now seem to be going! I&#39;m quite happy with all
+this.&lt;/p&gt;
+
+&lt;p&gt;First of all, I clearead all the bugs in
+&lt;a href=&quot;http://packages.debian.org/hfsprogs&quot;&gt;&lt;code&gt;hfsprogs&lt;/code&gt;&lt;/a&gt;, including a
+&lt;a href=&quot;http://bugs.debian.org/436159&quot;&gt;very long standing bug&lt;/a&gt; in Apple&#39;s code
+that prevented me from compiling everything in 64-bits.&lt;/p&gt;
+
+&lt;p&gt;Now, the package compiles under all arches, which is amazingly
+great. I also took the opportunity to
+&lt;a href=&quot;http://lists.apple.com/archives/Darwin-userlevel/2009/Nov/msg00004.html&quot;&gt;tell Apple&lt;/a&gt;that
+I have patches that I want to push upstream. Let&#39;s see if they are
+indeed open to collaboration.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m learning to use the marvellous
+&lt;a href=&quot;http://packages.debian.org/quilt&quot;&gt;&lt;code&gt;quilt&lt;/code&gt;&lt;/a&gt; to clean up some code of
+others. With a bit of discipline, things get quite easy to work with. A
+good tool can, indeed, make one&#39;s job much easier.&lt;/p&gt;
+
+&lt;p&gt;Oh, an TeXlive 2009 was &lt;em&gt;just&lt;/em&gt; uploaded to experimental, which
+means that it will soon reach unstable. I am already using it and
+it is quite nice (actually, I&#39;ve been using it for a bit longer
+than this, but the fact is that it is now available everywhere).
+Thanks Norbert, Frank, Hilmar and Co.&lt;/p&gt;
+
+&lt;p&gt;On some other news, I am now maintaining &quot;my&quot; version of two nice
+packages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://amarok.kde.org/&quot;&gt;Amarok 1.4&lt;/a&gt;, which, although abandoned
+upstream, is much more useful (and lighter on resources) than
+Amarok 2. I have updated it with some patches and things are much
+nicer.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://packages.debian.org/grip&quot;&gt;grip&lt;/a&gt;, a very nice CD ripper,
+which seems to be dead upstream, but which has some good patches
+that are extremely easy to integrate. Coincidentally,
+&lt;a href=&quot;http://www.debian-multimedia.org/&quot;&gt;Christian Marillat&lt;/a&gt; has, one
+day after I started working on grip, packaged a version to put in
+his repository. I think that we could join some forces maintaining
+it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Oh, and the biggest news of all: writing manpages is easier than
+ever. I always edited Perl&#39;s pod files as a way to avoid writing
+&lt;code&gt;*roff&lt;/code&gt; code directly and using the pod source to generate the
+manpages. But I used Emacs&#39;s Perl mode. This way, Emacs shows the
+pod source as a comment, without recognizing the structure of the
+files. That&#39;s not a problem anymore. Russ Allbery just hinted me at
+the fact that Emacs offers a pod-mode. Amazing.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2009-10-08</title>
+
+
+	<guid isPermaLink="no">/blog//posts/2009-10-08/</guid>
+
+	<link>/blog//posts/2009-10-08/</link>
+
+
+	<category>uncategorized</category>
+
+
+	<pubDate>Thu, 08 Oct 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2009-10-08T03:00:00Z</dcterms:modified>
+
+	<description>&lt;p&gt;It seems that booting systems is giving me a headache again.&lt;/p&gt;
+
+&lt;p&gt;I had to flash the firmware of my Infoway Note N8320 notebook which
+is an MSI Aesthetics PR200 disguised in a nice clothing. Of course,
+it had a firmware update that required being applied only from a
+regular DOS floppy. But the size of a floppy isn&#39;t enough to hold
+the new firmware.&lt;/p&gt;
+
+&lt;p&gt;To cut a long story short, it was quite painful to get things
+going, but here are the distilled situation:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/sh
+
+#
+# Collection of information from:
+#
+# http://feeding.cloud.geek.nz/2009/08/grub-on-bootable-usb-rescue-stick.html
+# http://www.mayrhofer.eu.org/Default.aspx?pageid=45
+# http://en.gentoo-wiki.com/wiki/FreeDOS_Flash_Drive
+# http://www.gnu.org/software/grub/manual/grub.html#Installation-under-UNIX
+# http://www.omninerd.com/articles/Installing_GRUB_on_a_Hard_Disk_Image_File
+#
+
+# needed: syslinux, parted, grub
+SIZE=32
+
+# Create the basic disk image
+dd if=/dev/zero of=disk.img bs=1M count=&amp;#036;SIZE
+parted --script disk.img mktable msdos
+parted --script disk.img mkpart primary fat16 0 &amp;#036;{SIZE}MB
+parted --script disk.img mkfs 1 fat16
+parted --script disk.img set 1 boot on
+
+# Mount it
+SECTORS=&amp;#036;(fdisk -l -u disk.img 2&amp;gt;&amp;amp;1| tail -1 | perl -ne &#39;print &quot;&amp;#036;1&quot; if (m/\s+(\d+)\s+/);&#39;)
+mount -t vfat -o loop,offset=&amp;#036;((SECTORS * 512)) disk.img /mnt
+
+# Copy the bootloader
+# Copy a FreeDOS image and treat it as a ramdisk (it will be the &quot;A:&quot; drive)
+mkdir -p /mnt/grub
+cp /usr/lib/grub/x86_64-pc/* /mnt/grub
+cp /usr/lib/syslinux/memdisk /mnt
+wget -O /mnt/odin1440.img http://odin.fdos.org/odin2005/odin1440.img
+
+# Set up grub (grub legacy)
+cat &amp;lt;&amp;lt;EOF0 &amp;gt; /mnt/grub/menu.lst
+default=0
+timeout=10
+root=(hd0,0)
+title FreeDOS
+kernel /memdisk
+initrd /odin1440.img
+EOF0
+
+grub --device-map=/dev/null --batch &amp;lt;&amp;lt;EOF1
+device (hd0) /tmp/disk.img
+root (hd0,0)
+setup (hd0)
+quit
+EOF1
+
+# Copy extra contents (e.g., the firmware) to the disk here (the &quot;C:&quot; drive)
+touch /mnt/example.txt
+
+# Finish it
+umount /mnt
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2009-09-11</title>
+
+
+	<guid isPermaLink="no">/blog//posts/2009-09-11/</guid>
+
+	<link>/blog//posts/2009-09-11/</link>
+
+
+	<category>uncategorized</category>
+
+
+	<pubDate>Fri, 11 Sep 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2009-09-11T03:00:00Z</dcterms:modified>
+
+	<description>&lt;p&gt;Since I maintain a Darwin partition on my system, I use
+&lt;a href=&quot;http://www.gnu.org/software/grub/grub-legacy.en.html&quot;&gt;GRUB legacy&lt;/a&gt;
+to choose which OS I want to play with. But, then, due some of my
+tweaking, it stopped working. Ouch. Even if I selected it, it
+wouldn&#39;t boot and would return to GRUB&#39;s menu. Irritating, to say
+the least.&lt;/p&gt;
+
+&lt;p&gt;Being disappointed with that, I eventually,
+&lt;a href=&quot;http://www.gnu.org/software/grub/manual/html_node/&quot;&gt;RTFM of GRUB&lt;/a&gt;
+and learned a bit more about something that seems to give
+&lt;a href=&quot;http://www.insanelymac.com/forum/index.php?showtopic=107391&quot;&gt;hackintosh&lt;/a&gt;
+users some headaches: the partition bootloader being foobared.&lt;/p&gt;
+
+&lt;p&gt;The solutions presented there are bizantine from a Unix P-o-V. The
+necessary steps to fix it are just to:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Make sure that the &lt;strong&gt;hard disk&lt;/strong&gt; bootloader (that is, the MBR
+of your HD) contains GRUB&#39;s &lt;code&gt;stage 1&lt;/code&gt; loader.
+&lt;em&gt;Warning:&lt;/em&gt; don&#39;t just &lt;code&gt;dd&lt;/code&gt; it to your HD&#39;s file, so that your
+system can &quot;forget&quot; the partitions that you have.&lt;/li&gt;
+&lt;li&gt;Make sure that the &lt;strong&gt;partition&lt;/strong&gt; bootloader (something that is
+peculiar to the x86 arches and which, I as a user of other
+platforms, didn&#39;t know that existed) is set to Apple&#39;s &lt;code&gt;boot1h&lt;/code&gt;.
+This time, you can just &lt;code&gt;dd&lt;/code&gt; it to the first sector of the
+partition where Darwin/MacOS X resides.&lt;/li&gt;
+&lt;li&gt;Teach GRUB to set its snippet to run Darwin with
+&lt;code&gt;root (hd0,0)&lt;/code&gt; (or whatever partition contains Darwin), tell it
+to make the partition active with &lt;code&gt;makeactive&lt;/code&gt;, and tell it to load
+the &lt;strong&gt;partition&lt;/strong&gt; bootloader with &lt;code&gt;chainloader +1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;(Optional) Edit
+&lt;code&gt;/Library/Preferences/SystemConfiguration/com.apple.Boot.plist&lt;/code&gt; to
+contain the elements &lt;code&gt;&amp;lt;key&amp;gt;Kernel&amp;lt;/key&amp;gt;&lt;/code&gt;
+&lt;code&gt;&amp;lt;string&amp;gt;mach_kernel.foo&amp;lt;/string&amp;gt;&lt;/code&gt; to point to whatever is your
+kernel of choice.&lt;/li&gt;
+&lt;li&gt;(Optional) If you make changes under Linux, with the &lt;code&gt;hfsplus&lt;/code&gt;
+module, it is highly recommended that you unmount your filesystem
+and run the &lt;code&gt;fsck.hfsplus&lt;/code&gt; from the
+&lt;a href=&quot;http://packages.debian.org/hfsplus&quot;&gt;hfsplus&lt;/a&gt; package that I
+maintain in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt; (and which is mirrored
+by &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;, but Debian&#39;s is more
+up-to-date, as I have uploads rights there).&lt;/li&gt;
+&lt;li&gt;(Optional)
+&lt;a href=&quot;http://www.hermann-uwe.de/blog/testing-stuff-with-qemu-part-3-debian-gnu-kfreebsd&quot;&gt;Test it with QEMU&lt;/a&gt;,
+to see if it will work.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This was a nice learning exercise, to be honest.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2009-09-05</title>
+
+
+	<guid isPermaLink="no">/blog//posts/2009-09-05/</guid>
+
+	<link>/blog//posts/2009-09-05/</link>
+
+
+	<category>uncategorized</category>
+
+
+	<pubDate>Sat, 05 Sep 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2009-09-05T03:00:00Z</dcterms:modified>
+
+	<description>&lt;p&gt;Much to my please, I received today some nice people for my
+birthday. &lt;a href=&quot;http://blog.safira.com/&quot;&gt;Adriano&lt;/a&gt;&#39;s presence was nice
+(and I even had the opportunity to play with his last generation
+iBook G4, and fix his keyboard), my Grandma, Jacob, Mom, Dad, Rose,
+and Sa made a nice birthday party.&lt;/p&gt;
+
+&lt;p&gt;And, of course, being with Adriano is always illuminating: I
+learned about a book, about
+&lt;a href=&quot;http://www.imdb.com/title/tt0089457/&quot;&gt;a movie&lt;/a&gt;, about some MacOS X
+programs that he runs, about some other concepts, about an
+&lt;a href=&quot;http://www.worldofgoo.com/&quot;&gt;independent game&lt;/a&gt; that he supported
+for MacOS X and so on. Always a pleasure to talk with him.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2009-09-04</title>
+
+
+	<guid isPermaLink="no">/blog//posts/2009-09-04/</guid>
+
+	<link>/blog//posts/2009-09-04/</link>
+
+
+	<category>uncategorized</category>
+
+
+	<pubDate>Fri, 04 Sep 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2009-09-04T03:00:00Z</dcterms:modified>
+
+	<description>&lt;p&gt;Today I&#39;m turning up one year more. The good side of that it is a
+&quot;psychological barrier&quot; to evaluate what I&#39;ve done this past year.
+Well, it was actually mildly positive. Contributed to many
+(diverse) programs, reported a handful of bugs and, generally, made
+things go better the way I like it.&lt;/p&gt;
+
+&lt;p&gt;I have also spent some time to evangelize people that has, in turn,
+evangelized some other people regarding Free Software. This is
+good.&lt;/p&gt;
+
+&lt;p&gt;In summary, the whole year had its up and downs, but I think that
+it had more ups than downs.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2009-08-28</title>
+
+
+	<guid isPermaLink="no">/blog//posts/2009-08-28/</guid>
+
+	<link>/blog//posts/2009-08-28/</link>
+
+
+	<category>uncategorized</category>
+
+
+	<pubDate>Fri, 28 Aug 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2009-08-28T03:00:00Z</dcterms:modified>
+
+	<description>&lt;p&gt;I&#39;m closing some bugs in many packages in Debian, including my
+preferred backup system,
+&lt;a href=&quot;http://www.mondorescue.org/&quot;&gt;Mondo Rescue&lt;/a&gt;. The good thing about
+it is that it generates a backup that is a &quot;mirror&quot; (or should I
+say &quot;snapshot&quot;?) of your system and puts it on a CD (or DVD, or ISO
+image, or many other formats, actually).&lt;/p&gt;
+
+&lt;p&gt;I make backups almost every single day and I try to keep them
+small. Very small. The purpose is to have everything fit on a
+single 650MB CD, the reason being twofold:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;There are more computers with a CD drive than with a DVD drive
+(or a Bluray drive, for that matter). To be honest, I have never
+ever seen a bluray drive.&lt;/li&gt;
+&lt;li&gt;It is easier to find 650MB CDs than 700MBs (well, that&#39;s
+changing fast). Also, making it smaller than a certain amount
+leaves room for Error Correcting Codes, like those created by the
+superb &lt;a href=&quot;http://dvdisaster.net/en/&quot;&gt;dvdisaster&lt;/a&gt;. With some
+overburning, I can even squeeze one or two megabytes more in the
+CD.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2009-08-05</title>
+
+
+	<guid isPermaLink="no">/blog//posts/2009-08-05/</guid>
+
+	<link>/blog//posts/2009-08-05/</link>
+
+
+	<category>uncategorized</category>
+
+
+	<pubDate>Wed, 05 Aug 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2009-08-05T03:00:00Z</dcterms:modified>
+
+	<description>&lt;p&gt;Went to the Brazilian national Security Service, to see the status
+of my sick leave.&lt;/p&gt;
+
+&lt;p&gt;After that, I took some time and went to see
+&lt;a href=&quot;http://tiagovaz.org/&quot;&gt;Tiago Vaz&lt;/a&gt;, who attended
+&lt;a href=&quot;http://debconf9.debconf.org/&quot;&gt;this year&#39;s&lt;/a&gt;
+&lt;a href=&quot;http://www.debconf.org/&quot;&gt;DebConf&lt;/a&gt;, which I couldn&#39;t attend. I also
+met his friendly partner. Well, both are so kind and I felt at home
+at his place.&lt;/p&gt;
+
+&lt;p&gt;I took some small moments to perform a mini, private key-signing
+party, so that we both strengthen our trust networks.&lt;/p&gt;
+
+&lt;p&gt;And last, but not least, I got the package that Martin kindly sent
+me via Tiago and I&#39;ll now start to play with it. I have never
+played with an arm-based platform before. Let&#39;s see if it is not an
+alien to myself.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2009-08-04</title>
+
+
+	<guid isPermaLink="no">/blog//posts/2009-08-04/</guid>
+
+	<link>/blog//posts/2009-08-04/</link>
+
+
+	<category>uncategorized</category>
+
+
+	<pubDate>Tue, 04 Aug 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2009-08-04T03:00:00Z</dcterms:modified>
+
+	<description>&lt;p&gt;There&#39;s something that needs to be documented somewhere, since it
+is not obvious when skimming the documentation and when one is
+using
+&lt;a href=&quot;http://packages.debian.org/git-buildpackage&quot;&gt;&lt;code&gt;git-buildpackage&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Q:&lt;/strong&gt; How does one specify a key to git-buildpackage that
+doesn&#39;t match the ones that it &lt;em&gt;thinks&lt;/em&gt; that you should use?
+&lt;strong&gt;A:&lt;/strong&gt; Just specify that you want it to use a &quot;builder&quot; different
+that the default one, like the option
+&lt;code&gt;--git-builder=&quot;debuild -i\.git -I.git -krbrito&quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Q:&lt;/strong&gt; How does one tells that the source should always be
+included (say, like one of your collaborators already tagged a git
+repository with the debian revision and you need to make a change
+to upload it and commit another tag to the repository or, e.g.,
+when a security upload should be made to security.debian.org)?
+&lt;strong&gt;A:&lt;/strong&gt; The answer is almost the same. Use the option
+&lt;code&gt;--git-builder=&quot;debuild -i\.git -I.git -sa&quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2009-08-03</title>
+
+
+	<guid isPermaLink="no">/blog//posts/2009-08-03/</guid>
+
+	<link>/blog//posts/2009-08-03/</link>
+
+
+	<category>uncategorized</category>
+
+
+	<pubDate>Mon, 03 Aug 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2009-08-03T03:00:00Z</dcterms:modified>
+
+	<description>&lt;p&gt;These past days I have been
+&lt;a href=&quot;http://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=rbrito@ime.usp.br&quot;&gt;crushing some bugs&lt;/a&gt;
+in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.debian.org/releases/sid&quot;&gt;sid&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Two things motivated me to get my acts together:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the recent decision to adopt
+&lt;a href=&quot;https://wiki.ubuntu.com/TimeBasedReleases&quot;&gt;time-based freezes&lt;/a&gt; in
+Debian;&lt;/li&gt;
+&lt;li&gt;the upcoming release of &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;&#39;s
+&lt;a href=&quot;https://wiki.ubuntu.com/Releases&quot;&gt;Karmic Koala&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As can be seen from the list, there is quite a sizeable amount of
+work to be done---this is what one gets for adopting otherwise
+orphaned packages or packages that have moderately sized audiences.
+But, on the other hand, it is also pleasant to get the software
+moving (approximately) in the direction that I want.&lt;/p&gt;
+
+&lt;p&gt;I say approximately because the packages on which my packages
+depend may have some un-wanted dependencies, which, in turn, will
+still pull in some nasty amount of things that don&#39;t belong in a
+system tuned to have small footprint (especially important for
+netbooks, low-powered desktops, and embedded systems).&lt;/p&gt;
+
+&lt;p&gt;Oh, BTW, please note that time-based &lt;em&gt;releases&lt;/em&gt; are not the same
+thing as time-based &lt;em&gt;freezes&lt;/em&gt;, even though what I provided is a
+link for the time-based releases. The concepts are close, though.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2009-06-02</title>
+
+
+	<guid isPermaLink="no">/blog//posts/2009-06-02/</guid>
+
+	<link>/blog//posts/2009-06-02/</link>
+
+
+	<category>uncategorized</category>
+
+
+	<pubDate>Tue, 02 Jun 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2009-06-02T03:00:00Z</dcterms:modified>
+
+	<description>&lt;p&gt;Today I was pleasantly surprised that the Kurobox that
+&lt;a href=&quot;http://suihkulokki.blogspot.com/&quot;&gt;Riku Voipio&lt;/a&gt; sent me has
+arrived! From the looks of it, it is a Kurobox HG, which, compared
+to my Kurobox HD, has a faster processor (it runs at 266MHz,
+instead of 200MHz), has more RAM (128MB, instead of 64MB), and has
+a faster network connection (an 1Gbps instead of 100Mbps
+interface).&lt;/p&gt;
+
+&lt;p&gt;I&#39;m trying to see if I will be able to use a SATA drive with this
+Kurobox, as we can&#39;t find large IDE/PATA drives in the market today
+(almost). And the bigger capacity ones are only available with SATA
+interfaces.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

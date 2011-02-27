@@ -4,35 +4,35 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged web-of-trust</title>
-<link>/blog/tags/web-of-trust/</link>
+<link>/blog//tags/web-of-trust/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>I am going to DebConf 10</title>
 
 
-	<guid isPermaLink="no">/blog/posts/i-am-going-to-debconf-10/</guid>
+	<guid isPermaLink="no">/blog//posts/i-am-going-to-debconf-10/</guid>
 
-	<link>/blog/posts/i-am-going-to-debconf-10/</link>
+	<link>/blog//posts/i-am-going-to-debconf-10/</link>
 
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/development</category>
+	<category>development</category>
 
-	<category>/tags/fonts</category>
+	<category>fonts</category>
 
-	<category>/tags/free-software</category>
+	<category>free-software</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/powerpc</category>
+	<category>powerpc</category>
 
-	<category>/tags/web-of-trust</category>
+	<category>web-of-trust</category>
 
 
 	<pubDate>Sun, 18 Jul 2010 03:34:40 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-07-18T06:34:40Z</dcterms:modified>
 
 	<description>&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
 

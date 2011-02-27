@@ -4,33 +4,33 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged configuration</title>
-<link>/blog/tags/configuration/</link>
+<link>/blog//tags/configuration/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Changing Some Configuration from Defaults</title>
 
 
-	<guid isPermaLink="no">/blog/posts/changing-some-configuration-from-defaults/</guid>
+	<guid isPermaLink="no">/blog//posts/changing-some-configuration-from-defaults/</guid>
 
-	<link>/blog/posts/changing-some-configuration-from-defaults/</link>
+	<link>/blog//posts/changing-some-configuration-from-defaults/</link>
 
 
-	<category>/tags/configuration</category>
+	<category>configuration</category>
 
-	<category>/tags/debian</category>
+	<category>debian</category>
 
-	<category>/tags/emacs</category>
+	<category>emacs</category>
 
-	<category>/tags/hacks</category>
+	<category>hacks</category>
 
-	<category>/tags/productivity</category>
+	<category>productivity</category>
 
-	<category>/tags/readline</category>
+	<category>readline</category>
 
 
 	<pubDate>Sat, 22 May 2010 20:36:42 -0300</pubDate>
-	<dcterms:modified>2010-11-10T09:13:35Z</dcterms:modified>
+	<dcterms:modified>2010-05-22T23:36:42Z</dcterms:modified>
 
 	<description>&lt;p&gt;Two of my most frequently used tools are, hands down, Emacs and bash. Having a pleasant configuration of one&#39;s toolbox is necessary for long-term productivity.&lt;/p&gt;
 
