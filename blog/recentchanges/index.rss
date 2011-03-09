@@ -8,6 +8,58 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>rbrito: change to posts/some_solutions_with_chromium on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_02163cdb56504c1353458147bcf5e7189d936014/</guid>
+
+	<link>/blog/recentchanges/#change-02163cdb56504c1353458147bcf5e7189d936014</link>
+
+	<pubDate>Wed, 09 Mar 2011 14:26:11 -0300</pubDate>
+	<dcterms:modified>2011-03-09T17:26:11Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-02163cdb56504c1353458147bcf5e7189d936014&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+posts/some solutions with chromium
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;02:26:11 PM 03/09/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Post on solutions with chromium.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
 	<title>rbrito: change to posts/problems_with_chromium on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 	<dcterms:creator>rbrito</dcterms:creator>
 
@@ -5227,58 +5279,6 @@ rbrito
 
 
 Import of 2009-03-05.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2009-03-03 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog//recentchanges/change_cebedb862f8659fba08008b9669605dc7fbcbce9/</guid>
-
-	<link>/blog/recentchanges/#change-cebedb862f8659fba08008b9669605dc7fbcbce9</link>
-
-	<pubDate>Tue, 03 Mar 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2009-03-03T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-cebedb862f8659fba08008b9669605dc7fbcbce9&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2009-03-03
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 03/03/2009&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2009-03-03.mdwn&lt;br /&gt;
 
 
 &lt;/div&gt;
