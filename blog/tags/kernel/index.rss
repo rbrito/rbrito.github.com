@@ -16,9 +16,15 @@
 	<link>/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
 
 
+	<category>configuration</category>
+
 	<category>debian</category>
 
+	<category>development</category>
+
 	<category>embedded</category>
+
+	<category>free-software</category>
 
 	<category>hacks</category>
 
@@ -32,7 +38,7 @@
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2011-02-27T01:16:19Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:41:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
 some embedded platforms. In other words, this is some of the stuff that is

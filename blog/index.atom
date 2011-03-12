@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20110225">ikiwiki</generator>
-<updated>2011-03-09T17:31:50Z</updated>
+<updated>2011-03-12T03:43:31Z</updated>
 <entry>
 	<title>(Some) Solutions with Chromium</title>
 
@@ -29,7 +29,17 @@
 
 
 
-	<updated>2011-03-09T17:31:50Z</updated>
+
+	<category term="browsers" />
+
+	<category term="debian" />
+
+	<category term="extensions" />
+
+	<category term="free-software" />
+
+
+	<updated>2011-03-12T03:36:49Z</updated>
 	<published>2011-03-09T17:33:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -134,7 +144,21 @@ usable browsers now.&lt;/p&gt;
 
 
 
-	<updated>2011-02-27T01:47:28Z</updated>
+
+	<category term="browsers" />
+
+	<category term="debian" />
+
+	<category term="extensions" />
+
+	<category term="free-software" />
+
+	<category term="launchpad" />
+
+	<category term="ubuntu" />
+
+
+	<updated>2011-03-12T03:37:23Z</updated>
 	<published>2011-02-26T14:55:06Z</published>
 
 	<content type="html" xml:lang="en">
@@ -199,7 +223,23 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 
 
 
-	<updated>2010-11-12T14:59:50Z</updated>
+
+	<category term="development" />
+
+	<category term="documents" />
+
+	<category term="fonts" />
+
+	<category term="free-software" />
+
+	<category term="opentype" />
+
+	<category term="tex" />
+
+	<category term="typography" />
+
+
+	<updated>2011-03-12T03:25:35Z</updated>
 	<published>2010-11-12T13:23:55Z</published>
 
 	<content type="html" xml:lang="en">
@@ -449,7 +489,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<category term="programming" />
 
 
-	<updated>2010-06-10T22:46:13Z</updated>
+	<updated>2011-03-12T03:23:58Z</updated>
 	<published>2010-06-10T22:46:13Z</published>
 
 	<content type="html" xml:lang="en">
@@ -500,22 +540,34 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 
 
+	<category term="fonts" />
+
+	<category term="free-software" />
+
 	<category term="tex" />
 
 	<category term="typography" />
 
 
-	<updated>2010-05-29T20:54:56Z</updated>
+	<updated>2011-03-12T03:43:31Z</updated>
 	<published>2010-05-29T20:54:56Z</published>
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Please, excuse me if you are a connoisseur of fonts and typography. You will find this boring, but other people may not know.&lt;/p&gt;
+	&lt;p&gt;Please, excuse me if you are a connoisseur of fonts and typography. You will
+find this boring, but other people may not know.&lt;/p&gt;
 
-&lt;p&gt;With that said, something that has been the subject of a joke for &lt;a href=&quot;http://stixfonts.org/proj_timeline.html&quot;&gt;many years&lt;/a&gt; is the release of a set of fonts designed by a consortium of pulishers to create a typeface that would &quot;match&quot; the visual of Times, but that would have many (all?) of the glyphs needed by scientists.&lt;/p&gt;
+&lt;p&gt;With that said, something that has been the subject of a joke for
+&lt;a href=&quot;http://stixfonts.org/proj_timeline.html&quot;&gt;many years&lt;/a&gt; is the release of a set of fonts designed by a consortium of
+pulishers to create a typeface that would &quot;match&quot; the visual of Times, but
+that would have many (all?) of the glyphs needed by scientists.&lt;/p&gt;
 
-&lt;p&gt;Well, &lt;a href=&quot;http://www.stixfonts.org/&quot;&gt;the wait is over&lt;/a&gt; (surprisingly). I didn&#39;t expect that. And the Free Software part of this is that the fonts were released under the SIL Open Font Library.&lt;/p&gt;
+&lt;p&gt;Well, &lt;a href=&quot;http://www.stixfonts.org/&quot;&gt;the wait is over&lt;/a&gt; (surprisingly). I didn&#39;t expect that. And the
+Free Software part of this is that the fonts were released under the SIL
+Open Font Library.&lt;/p&gt;
 
-&lt;p&gt;This, together with Google&#39;s new &lt;a href=&quot;http://code.google.com/webfonts&quot;&gt;font directory&lt;/a&gt; of Free Software fonts (overshadowed by the release of VP8 codec, in the eyes of some), shows that the typographic arena is alive and going strong.&lt;/p&gt;
+&lt;p&gt;This, together with Google&#39;s new &lt;a href=&quot;http://code.google.com/webfonts&quot;&gt;font directory&lt;/a&gt; of Free Software fonts
+(overshadowed by the release of VP8 codec, in the eyes of some), shows that
+the typographic arena is alive and going strong.&lt;/p&gt;
 
 	</content>
 
@@ -549,7 +601,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<category term="video" />
 
 
-	<updated>2010-05-29T20:06:18Z</updated>
+	<updated>2011-03-12T03:26:13Z</updated>
 	<published>2010-05-29T20:06:18Z</published>
 
 	<content type="html" xml:lang="en">
@@ -599,7 +651,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<category term="xetex" />
 
 
-	<updated>2010-05-27T14:17:00Z</updated>
+	<updated>2011-03-12T03:25:57Z</updated>
 	<published>2010-05-27T14:17:00Z</published>
 
 	<content type="html" xml:lang="en">

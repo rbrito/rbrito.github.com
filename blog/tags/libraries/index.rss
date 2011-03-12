@@ -34,7 +34,7 @@
 
 
 	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
-	<dcterms:modified>2010-06-10T22:46:13Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:23:58Z</dcterms:modified>
 
 	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
 
@@ -95,7 +95,7 @@
 
 
 	<pubDate>Sat, 29 May 2010 17:06:18 -0300</pubDate>
-	<dcterms:modified>2010-05-29T20:06:18Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:26:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
 
@@ -140,7 +140,7 @@
 
 
 	<pubDate>Thu, 27 May 2010 11:17:00 -0300</pubDate>
-	<dcterms:modified>2010-05-27T14:17:00Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:25:57Z</dcterms:modified>
 
 	<description>&lt;p&gt;It all started when I tried to typeset my documents with the &lt;a href=&quot;http://en.wikipedia.org/wiki/Utopia (typeface)&quot;&gt;Utopia&lt;/a&gt; typeface, which is Free Software, since &lt;a&gt;Adobe liberated it to the TeX Users Group.&lt;/a&gt;&lt;/p&gt;
 

@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged extensions</title>
+<link>/blog//tags/extensions/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>(Some) Solutions with Chromium</title>
+
+
+	<guid isPermaLink="no">/blog//posts/some_solutions_with_chromium/</guid>
+
+	<link>/blog//posts/some_solutions_with_chromium/</link>
+
+
+	<category>browsers</category>
+
+	<category>debian</category>
+
+	<category>extensions</category>
+
+	<category>free-software</category>
+
+
+	<pubDate>Wed, 09 Mar 2011 14:33:00 -0300</pubDate>
+	<dcterms:modified>2011-03-12T03:36:49Z</dcterms:modified>
+
+	<description>&lt;p&gt;In &lt;a href=&quot;/blog//tags/extensions/../../posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
+my frustrations with Chromium/Chrome.  A very kind reader, Timo Juhani
+Lindfors, gave me answers to many of the problems that I pointed out and got
+me straight on some issues:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+  &lt;li&gt;I can disable full zoom in Iceweasel (i.e., I only want to zoom the text,
+  not the images). According to Chromium&#39;s project BTS, it seems that this
+  will be a &lt;code&gt;WONTFIX&lt;/code&gt; bug, despite many people asking for it (and it having
+  a lot of duplicates).&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Timo told me that there is an extension called &lt;a href=&quot;https://chrome.google.com/webstore/detail/ombpcpigmndepfckcifdblemkabaoihk&quot;&gt;&quot;Font Size Increase&quot;&lt;/a&gt;
+(ID: ombpcpigmndepfckcifdblemkabaoihk) that adds a button on the side of the
+URL bar that you can click to increase the size of the text, without
+affecting the size of the images. Highly recommended.&lt;/p&gt;
+
+&lt;p&gt;Not that I need this one as much as &quot;Font Size Increase&quot;, but there is also
+a &lt;a href=&quot;https://chrome.google.com/webstore/detail/mpajngnpcmjjeoflljdjpnehcfaldcia&quot;&gt;&quot;Font Size Decrease&quot;&lt;/a&gt; (ID: mpajngnpcmjjeoflljdjpnehcfaldcia) that,
+as the name implies, decreases the size of the text. It is nice to have this
+one when you clicked on the button to increase the size of the font one or
+two times too many.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+  &lt;li&gt;In Iceweasel, I have a way (without resorting to many extensions or
+  hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &amp;gt; Page Style &amp;gt;
+  No Style&quot; (i.e., to ignore any CSS sheet that the document author may have
+  specified on the page).&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Timo also told me that there is a very cool extension called
+&lt;a href=&quot;https://chrome.google.com/webstore/detail/ddpkgkegfklikkmfmneldonhldahhacb&quot;&gt;&quot;Chrome Page Style&quot;&lt;/a&gt; (ID: ddpkgkegfklikkmfmneldonhldahhacb) that
+allows you to alternate between stylesheets provided by the page (see Joey
+Hess&#39;s &lt;a href=&quot;http://ikiwiki.info/css_market/&quot;&gt;ikiwiki&#39;s CSS Market&lt;/a&gt; for an example of that).&lt;/p&gt;
+
+&lt;p&gt;It also has the possibility of disabling all the CSS&#39;es that a page may
+have, which, in many cases around the web &lt;em&gt;actually improves&lt;/em&gt; the
+readability of the pages, for many &quot;fancy&quot; things detract from readability,
+especially if you have poor eyesight.&lt;/p&gt;
+
+&lt;p&gt;Although I had said that I didn&#39;t want to resort to extensions, this was a
+simple solution enough that made me consider revisit my requirements.  I do,
+though, wonder why some frequently used extensions are not built into the
+programs from stock.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+  &lt;li&gt;In Iceweasel, I can press &lt;code&gt;Ctrl+Q&lt;/code&gt; and make the damn browser quit, instead
+  of me having to use the mouse/trackpad/pointing device. This is probably a
+  lack of my understanding on how to associate key bindings to Chromium, but
+  the problem still stands.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Of course, Timo also set me straight and told me about &lt;code&gt;Ctrl+Shift+Q&lt;/code&gt; for
+that purpose, which I had missed completely.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+  &lt;li&gt;Similarly, when there is only one tab open, pressing &lt;code&gt;Ctrl+W&lt;/code&gt; in Chromium
+  does not close the tab (say, presenting me a blank tab or the list of most
+  visited sites), nor it closes the application.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As a poor writing of my part, &lt;code&gt;Ctrl+W&lt;/code&gt; does close the tabs. But when there
+is only one tab present, it doesn&#39;t close the window. I&#39;m OK with that,
+since I now know the way to close the window. Thanks again Timo.&lt;/p&gt;
+
+&lt;p&gt;Oh, and one point that may not be known by many is that using &lt;code&gt;about:flags&lt;/code&gt;
+in Chrome does something analogue to Firefox&#39;s &lt;code&gt;about:config&lt;/code&gt; (even with the
+warning).&lt;/p&gt;
+
+&lt;p&gt;And tweaking with it you can try to see if you can enable hardware
+acceleration of some parts of your pages, as present in newer releases of
+Chromium.&lt;/p&gt;
+
+&lt;p&gt;So, there I am: way more satisfied than with earlier with Chromium, but
+still having Firefox/Iceweasel as my primary browser. Good to have two
+usable browsers now.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>My problems with Chromium</title>
+
+
+	<guid isPermaLink="no">/blog//posts/problems_with_chromium/</guid>
+
+	<link>/blog//posts/problems_with_chromium/</link>
+
+
+	<category>browsers</category>
+
+	<category>debian</category>
+
+	<category>extensions</category>
+
+	<category>free-software</category>
+
+	<category>launchpad</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Sat, 26 Feb 2011 11:55:06 -0300</pubDate>
+	<dcterms:modified>2011-03-12T03:37:23Z</dcterms:modified>
+
+	<description>&lt;p&gt;Given that Chromium/Chrome is used more and more (as became apparent
+&lt;a href=&quot;https://lists.debian.org/debian-release/2010/09/msg00610.html&quot;&gt;with the discussion of including it in Debian&#39;s squeeze&lt;/a&gt;), I decided to
+give it some tries, mainly Giuseppe Iuculano&#39;s &lt;a href=&quot;http://packages.qa.debian.org/c/chromium-browser.html&quot;&gt;version&lt;/a&gt;. I occasionally
+install Chromium from Fabien Tassin&#39;s &lt;a href=&quot;https://launchpad.net/~chromium-daily/+archive/ppa&quot;&gt;daily builds&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And, to be honest, I have also contributed a good amount (about 400) of
+&lt;a href=&quot;https://launchpad.net/~rbrito/+karma&quot;&gt;translated strings&lt;/a&gt; to the Brazilian Portuguese part of Chromium. As a
+matter of fact, I have even done some &quot;activism&quot; and &lt;a href=&quot;https://launchpad.net/~savanabifulco&quot;&gt;incentivated&lt;/a&gt;
+&lt;a href=&quot;https://launchpad.net/~bifulcojunior&quot;&gt;other&lt;/a&gt; &lt;a href=&quot;https://launchpad.net/~victor.westmann/+karma&quot;&gt;people&lt;/a&gt; to create their accounts on Launchpad and help with
+the projects.&lt;/p&gt;
+
+&lt;p&gt;But I always come back to Iceweasel/Firefox, especially with Mike Hommey&#39;s
+frequently updated &lt;a href=&quot;http://mozilla.debian.net/&quot;&gt;repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;What are my reasons for staying with Iceweasel, and not with Chromium?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I can disable full zoom in Iceweasel (i.e., I only want to zoom the text,
+not the images). According to Chromium&#39;s project BTS, it seems that this
+will be a &lt;code&gt;WONTFIX&lt;/code&gt; bug, despite many people asking for it (and it having
+a lot of duplicates).&lt;/li&gt;
+&lt;li&gt;I can, in Iceweasel, set my preferred fonts without resorting to hacks on
+the system level, like say, having to lie with fontconfig or other stuff.
+And I really want Deja Vu Sans, not a serifed font.&lt;/li&gt;
+&lt;li&gt;In Iceweasel, a middle mouse click on &quot;an inactive portion&quot; of the page
+makes me go to the URL that is the system clipboard, just like pasting
+stuff in X, in general, works.  I guess that there may be some way to
+enable this in Chromium, but, so far, I have not found it.&lt;/li&gt;
+&lt;li&gt;In Iceweasel, I have a way (without resorting to many extensions or
+hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &amp;gt; Page Style &amp;gt;
+No Style&quot; (i.e., to ignore any CSS sheet that the document author may have
+specified on the page).&lt;/li&gt;
+&lt;li&gt;In Iceweasel, my personal data is encrypted before being synced.&lt;/li&gt;
+&lt;li&gt;In Iceweasel, I can press &lt;code&gt;Ctrl+Q&lt;/code&gt; and make the damn browser quit, instead
+of me having to use the mouse/trackpad/pointing device. This is probably a
+lack of my understanding on how to associate key bindings to Chromium, but
+the problem still stands.&lt;/li&gt;
+&lt;li&gt;Similarly, when there is only one tab open, pressing &lt;code&gt;Ctrl+W&lt;/code&gt; in Chromium
+does not close the tab (say, presenting me a blank tab or the list of most
+visited sites), nor it closes the application.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I would be satisfied if any of the above were fixed or better documented,
+but it seems that some of those are, at best, going to wait a long time.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

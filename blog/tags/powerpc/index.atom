@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20110225">ikiwiki</generator>
-<updated>2011-02-27T01:16:19Z</updated>
+<updated>2011-03-12T03:41:13Z</updated>
 <entry>
 	<title>I am going to DebConf 10</title>
 
@@ -93,9 +93,15 @@
 
 
 
+	<category term="configuration" />
+
 	<category term="debian" />
 
+	<category term="development" />
+
 	<category term="embedded" />
+
+	<category term="free-software" />
 
 	<category term="hacks" />
 
@@ -108,7 +114,7 @@
 	<category term="powerpc" />
 
 
-	<updated>2011-02-27T01:16:19Z</updated>
+	<updated>2011-03-12T03:41:13Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 	<content type="html" xml:lang="en">

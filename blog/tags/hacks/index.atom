@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20110225">ikiwiki</generator>
-<updated>2011-02-27T01:16:19Z</updated>
+<updated>2011-03-12T03:51:29Z</updated>
 <entry>
 	<title>I am going to DebConf 10</title>
 
@@ -110,7 +110,7 @@
 	<category term="programming" />
 
 
-	<updated>2010-06-10T22:46:13Z</updated>
+	<updated>2011-03-12T03:23:58Z</updated>
 	<published>2010-06-10T22:46:13Z</published>
 
 	<content type="html" xml:lang="en">
@@ -176,7 +176,7 @@
 	<category term="video" />
 
 
-	<updated>2010-05-29T20:06:18Z</updated>
+	<updated>2011-03-12T03:26:13Z</updated>
 	<published>2010-05-29T20:06:18Z</published>
 
 	<content type="html" xml:lang="en">
@@ -226,7 +226,7 @@
 	<category term="xetex" />
 
 
-	<updated>2010-05-27T14:17:00Z</updated>
+	<updated>2011-03-12T03:25:57Z</updated>
 	<published>2010-05-27T14:17:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -342,9 +342,15 @@
 
 
 
+	<category term="configuration" />
+
 	<category term="debian" />
 
+	<category term="development" />
+
 	<category term="embedded" />
+
+	<category term="free-software" />
 
 	<category term="hacks" />
 
@@ -357,7 +363,7 @@
 	<category term="powerpc" />
 
 
-	<updated>2011-02-27T01:16:19Z</updated>
+	<updated>2011-03-12T03:41:13Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 	<content type="html" xml:lang="en">
@@ -519,33 +525,69 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<category term="revision-control" />
 
 
-	<updated>2010-02-11T07:39:37Z</updated>
+	<updated>2011-03-12T03:51:29Z</updated>
 	<published>2010-02-11T07:39:37Z</published>
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;I have been keeping my &lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt; files under version control since I was introduced to &lt;a href=&quot;http://www.gnu.org/software/auctex/&quot;&gt;AUCTeX&lt;/a&gt; and I realized that a good way to approach the &quot;evolutionary&quot; approach to software (this includes text) is to use a &lt;a href=&quot;http://en.wikipedia.org/wiki/Revision_control&quot;&gt;revision control system&lt;/a&gt;.&lt;/p&gt;
+	&lt;p&gt;I have been keeping my &lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt; files under version control since I was
+introduced to &lt;a href=&quot;http://www.gnu.org/software/auctex/&quot;&gt;AUCTeX&lt;/a&gt; and I realized that a good way to approach the
+&quot;evolutionary&quot; approach to software (this includes text) is to use a
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Revision_control&quot;&gt;revision control system&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I started using that with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot;&gt;Emacs&lt;/a&gt; 21 (the first version of Emacs that I used was Emacs 19.something which I can&#39;t remember) and the revision system that was most easily available was &lt;a href=&quot;http://www.gnu.org/software/rcs/&quot;&gt;RCS&lt;/a&gt;. Its integration with Emacs was very good and also easy to use: type &lt;code&gt;C-x v-v&lt;/code&gt; and a check in is performed (or a check out, depending on the state of the file). You would be asked for a changelog for that file and that was it.&lt;/p&gt;
+&lt;p&gt;I started using that with &lt;a href=&quot;http://www.gnu.org/software/emacs/&quot;&gt;Emacs&lt;/a&gt; 21 (the first version of Emacs that I
+used was Emacs 19.something which I can&#39;t remember) and the revision system
+that was most easily available was &lt;a href=&quot;http://www.gnu.org/software/rcs/&quot;&gt;RCS&lt;/a&gt;. Its integration with Emacs
+was very good and also easy to use: type &lt;code&gt;C-x v-v&lt;/code&gt; and a check in is
+performed (or a check out, depending on the state of the file). You would be
+asked for a changelog for that file and that was it.&lt;/p&gt;
 
-&lt;p&gt;Now, on the other hand, there is a myriad of options and one that looks very nice to me (apart from not dealing with metadata, but that&#39;s OK with me for the moment) is Linus Torvald&#39;s &lt;a href=&quot;http://git-scm.com/&quot;&gt;&lt;code&gt;git&lt;/code&gt;&lt;/a&gt;. The very nice thing with &lt;code&gt;git&lt;/code&gt; (or many other such systems) is that the interface with Emacs is exactly the same: &lt;code&gt;C-x v-v&lt;/code&gt;. That&#39;s the only thing you need to remember to work well with, say, your text project. (I don&#39;t actually know very much of the management workflow under Emacs, but I also use the command line a good amount and it serves me well so far).&lt;/p&gt;
+&lt;p&gt;Now, on the other hand, there is a myriad of options and one that looks very
+nice to me (apart from not dealing with metadata, but that&#39;s OK with me for
+the moment) is Linus Torvald&#39;s &lt;a href=&quot;http://git-scm.com/&quot;&gt;&lt;code&gt;git&lt;/code&gt;&lt;/a&gt;. The very nice thing with &lt;code&gt;git&lt;/code&gt;
+(or many other such systems) is that the interface with Emacs is exactly the
+same: &lt;code&gt;C-x v-v&lt;/code&gt;. That&#39;s the only thing you need to remember to work well
+with, say, your text project. (I don&#39;t actually know very much of the
+management workflow under Emacs, but I also use the command line a good
+amount and it serves me well so far).&lt;/p&gt;
 
-&lt;p&gt;But how can I convert my RCS &quot;repositories&quot; to a proper &lt;code&gt;git&lt;/code&gt; repository? Well, git comes with a subcommand called &lt;code&gt;cvsimport&lt;/code&gt;, meant to be used with CVS and this does help, since a CVS repository is essentially just a collection of RCS files. As many people have migrated along the path from RCS to CVS to Subversion to git, and I did not intend to convert the repository in multiple steps, I am documenting what I did here.&lt;/p&gt;
+&lt;p&gt;But how can I convert my RCS &quot;repositories&quot; to a proper &lt;code&gt;git&lt;/code&gt; repository?
+Well, git comes with a subcommand called &lt;code&gt;cvsimport&lt;/code&gt;, meant to be used with
+CVS and this does help, since a CVS repository is essentially just a
+collection of RCS files. As many people have migrated along the path from
+RCS to CVS to Subversion to git, and I did not intend to convert the
+repository in multiple steps, I am documenting what I did here.&lt;/p&gt;
 
-&lt;p&gt;So, if you have the &lt;code&gt;,v&lt;/code&gt; files that RCS generates (the &quot;repository&quot; files for each file tracked by RCS) spread in a tree and you would like to convert that tree to a git repository for replication, backup and &quot;time machine-like&quot; support, you can mimic a basic CVS repository that can be converted easily with the following simple steps:&lt;/p&gt;
+&lt;p&gt;So, if you have the &lt;code&gt;,v&lt;/code&gt; files that RCS generates (the &quot;repository&quot; files
+for each file tracked by RCS) spread in a tree and you would like to convert
+that tree to a git repository for replication, backup and &quot;time
+machine-like&quot; support, you can mimic a basic CVS repository that can be
+converted easily with the following simple steps:&lt;/p&gt;
 
 &lt;ul&gt;
-    &lt;li&gt;Create a new directory hierarchy somewhere, denoted here by &lt;code&gt;cvs-source-dir&lt;/code&gt;. This will play the role of a CVS repository which &lt;code&gt;git cvsimport&lt;/code&gt; will convert.&lt;/li&gt;
-    &lt;li&gt;Under &lt;code&gt;cvs-source-dir&lt;/code&gt;, create the directory tree as you would like it to be visible by &lt;code&gt;git&lt;/code&gt;.&lt;/li&gt;
-    &lt;li&gt;As an immediate subdirectory of &lt;code&gt;cvs-source-dir&lt;/code&gt;, create a directory named &lt;code&gt;CVSROOT&lt;/code&gt;, that is &lt;code&gt;cvs-source-dir/CVSROOT&lt;/code&gt;.&lt;/li&gt;
-    &lt;li&gt;Each immediate subdirectory of &lt;code&gt;cvs-source-dir&lt;/code&gt; will play the role of a CVS module. Just think of that as a project under control of the version control system.&lt;/li&gt;
-    &lt;li&gt;Think about the &lt;code&gt;,v&lt;/code&gt; files as your regular files and put them under the &lt;code&gt;cvs-source-dir&lt;/code&gt; tree, as you would like them to be.&lt;/li&gt;
-    &lt;li&gt;Create the directory where your git repository will reside, denoted here by &lt;code&gt;git-repo&lt;/code&gt;.&lt;/li&gt;
-    &lt;li&gt;Run &lt;code&gt;git cvsimport -v -a -A -k -m -d cvs-source-dir -C git-repo cvs-module&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Create a new directory hierarchy somewhere, denoted here by
+&lt;code&gt;cvs-source-dir&lt;/code&gt;. This will play the role of a CVS repository which &lt;code&gt;git
+cvsimport&lt;/code&gt; will convert.&lt;/li&gt;
+&lt;li&gt;Under &lt;code&gt;cvs-source-dir&lt;/code&gt;, create the directory tree as you would like it to
+be visible by &lt;code&gt;git&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;As an immediate subdirectory of &lt;code&gt;cvs-source-dir&lt;/code&gt;, create a directory named
+&lt;code&gt;CVSROOT&lt;/code&gt;, that is &lt;code&gt;cvs-source-dir/CVSROOT&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Each immediate subdirectory of &lt;code&gt;cvs-source-dir&lt;/code&gt; will play the role of a
+CVS module. Just think of that as a project under control of the version
+control system.&lt;/li&gt;
+&lt;li&gt;Think about the &lt;code&gt;,v&lt;/code&gt; files as your regular files and put them under the
+&lt;code&gt;cvs-source-dir&lt;/code&gt; tree, as you would like them to be.&lt;/li&gt;
+&lt;li&gt;Create the directory where your git repository will reside, denoted here
+by &lt;code&gt;git-repo&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;git cvsimport -v -a -A -k -m -d cvs-source-dir -C git-repo cvs-module&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;That&#39;s it. It seems to perform a very good job of changing a very old system to something that is modern and with many features (and is distributed).&lt;/p&gt;
+&lt;p&gt;That&#39;s it. It seems to perform a very good job of changing a very old system
+to something that is modern and with many features (and is distributed).&lt;/p&gt;
 
-&lt;p&gt;You may also want to read about the way to convert the ids of commits that RCS/CVS register to proper (people) names, which git uses. Read the &lt;code&gt;git-cvsimport&lt;/code&gt; manpage for more details on this and other options mentioned above.&lt;/p&gt;
+&lt;p&gt;You may also want to read about the way to convert the ids of commits that
+RCS/CVS register to proper (people) names, which git uses. Read the
+&lt;code&gt;git-cvsimport&lt;/code&gt; manpage for more details on this and other options mentioned
+above.&lt;/p&gt;
 
 	</content>
 
