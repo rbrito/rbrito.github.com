@@ -16,7 +16,7 @@
 <id>/blog//tags/multimedia/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20110225">ikiwiki</generator>
+<generator uri="http://ikiwiki.info/" version="3.20110328">ikiwiki</generator>
 <updated>2011-03-12T03:26:13Z</updated>
 <entry>
 	<title>Preliminary support for webm in youtube-dl</title>
