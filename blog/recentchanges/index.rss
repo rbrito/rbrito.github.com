@@ -12,6 +12,58 @@
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
+	<guid isPermaLink="no">/blog//recentchanges/change_c3f42c23f433e09417d3d2a01c1eec3c42b0542e/</guid>
+
+	<link>/blog/recentchanges/#change-c3f42c23f433e09417d3d2a01c1eec3c42b0542e</link>
+
+	<pubDate>Sat, 02 Apr 2011 22:21:31 -0300</pubDate>
+	<dcterms:modified>2011-04-03T01:21:31Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-c3f42c23f433e09417d3d2a01c1eec3c42b0542e&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+posts/running grub2 on powerpc macs
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:21:31 PM 04/02/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Forgot the tags in the last post.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to posts/running_grub2_on_powerpc_macs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
 	<guid isPermaLink="no">/blog//recentchanges/change_a87cd8c4740e82b77ee923cb0d4c3b234ba465b0/</guid>
 
 	<link>/blog/recentchanges/#change-a87cd8c4740e82b77ee923cb0d4c3b234ba465b0</link>
@@ -5267,58 +5319,6 @@ rbrito
 
 
 Import of 2009-08-05.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2009-08-04 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog//recentchanges/change_ff5088df79fc14c7273fd331dd81368457231df6/</guid>
-
-	<link>/blog/recentchanges/#change-ff5088df79fc14c7273fd331dd81368457231df6</link>
-
-	<pubDate>Tue, 04 Aug 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2009-08-04T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-ff5088df79fc14c7273fd331dd81368457231df6&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2009-08-04
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 08/04/2009&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2009-08-04.mdwn&lt;br /&gt;
 
 
 &lt;/div&gt;

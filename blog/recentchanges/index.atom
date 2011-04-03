@@ -17,7 +17,65 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20110328">ikiwiki</generator>
-<updated>2011-04-03T01:14:13Z</updated>
+<updated>2011-04-03T01:21:31Z</updated>
+<entry>
+	<title>change to posts/running_grub2_on_powerpc_macs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>/blog//recentchanges/change_c3f42c23f433e09417d3d2a01c1eec3c42b0542e/</id>
+
+	<link href="/blog/recentchanges/#change-c3f42c23f433e09417d3d2a01c1eec3c42b0542e"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2011-04-03T01:21:31Z</updated>
+	<published>2011-04-03T01:21:31Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-c3f42c23f433e09417d3d2a01c1eec3c42b0542e&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+posts/running grub2 on powerpc macs
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:21:31 PM 04/02/2011&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Forgot the tags in the last post.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to posts/running_grub2_on_powerpc_macs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -5865,64 +5923,6 @@ rbrito
 
 
 Import of 2009-08-05.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to posts/2009-08-04 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>/blog//recentchanges/change_ff5088df79fc14c7273fd331dd81368457231df6/</id>
-
-	<link href="/blog/recentchanges/#change-ff5088df79fc14c7273fd331dd81368457231df6"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2009-08-04T03:00:00Z</updated>
-	<published>2009-08-04T03:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-ff5088df79fc14c7273fd331dd81368457231df6&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2009-08-04
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;12:00:00 AM 08/04/2009&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2009-08-04.mdwn&lt;br /&gt;
 
 
 &lt;/div&gt;

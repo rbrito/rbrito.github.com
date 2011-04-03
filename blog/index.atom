@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20110328">ikiwiki</generator>
-<updated>2011-04-03T01:13:32Z</updated>
+<updated>2011-04-03T01:21:11Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -29,7 +29,29 @@
 
 
 
-	<updated>2011-04-03T01:13:32Z</updated>
+
+	<category term="configuration" />
+
+	<category term="debian" />
+
+	<category term="development" />
+
+	<category term="free-software" />
+
+	<category term="hacks" />
+
+	<category term="ibook" />
+
+	<category term="kernel" />
+
+	<category term="linux" />
+
+	<category term="mac" />
+
+	<category term="powerpc" />
+
+
+	<updated>2011-04-03T01:21:11Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
 
 	<content type="html" xml:lang="en">
