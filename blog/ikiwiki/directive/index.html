@@ -25,9 +25,9 @@
 <span>
 <span class="parentlinks">
 
-<a href="../../">Rogério Brito's Digital Junkyard</a>/ 
+<a href="../../">Rogério Brito's Digital Junkyard</a>/
 
-<a href="../">ikiwiki</a>/ 
+<a href="../">ikiwiki</a>/
 
 </span>
 <span class="title">
@@ -89,13 +89,27 @@ bar="supercalifragilisticexpialidocious" baz=11]]
 
 <p>Also, multiple lines of <em>quoted</em> text can be used for a value.
 To allow quote marks inside the quoted text, delimit the block
-of text with triple-quotes:</p>
+of text with triple-double-quotes or triple-single-quotes:</p>
 
 <pre><code>[[!directive  text="""
 1. "foo"
 2. "bar"
 3. "baz"
-"""]]
+""" othertext='''
+1. 'quux'
+2. "foo"
+''']]
+</code></pre>
+
+<p>If you want to put text with triple quotes into a parameter value, you can
+use perl-style here-doc syntax, even nesting it like this:</p>
+
+<pre><code>[[!directive  text=&lt;&lt;OUTER
+[[!otherdirective &lt;&lt;INNER
+inner text
+INNER]]
+outer text
+OUTER]]
 </code></pre>
 
 <p>ikiwiki also has an older syntax for directives, which requires a space in
@@ -143,8 +157,20 @@ Links:
 
 
 <div class="pagedate">
-Last edited <span class="date">2008-12-23T19:29:31 BRST</span>
-<!-- Created <span class="date">2008-12-23T19:29:31 BRST</span> -->
+Last edited <span class="date">2011-05-13T13:06:00 BRT</span>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'digitaljunkyard';
+    // var disqus_identifier = 'unique_dynamic_id_1234';
+    var disqus_url = 'http://rb.doesntexist.org/blog/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments</a>.</noscript>
 </div>
 
 </div>

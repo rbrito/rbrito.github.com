@@ -38,7 +38,7 @@
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2011-04-03T01:21:11Z</dcterms:modified>
+	<dcterms:modified>2011-04-03T01:21:31Z</dcterms:modified>
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
 Mac (actually, an iBook G4), since the current documentation is lacking in
@@ -337,7 +337,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Wed, 09 Mar 2011 14:33:00 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:36:49Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
 
 	<description>&lt;p&gt;In &lt;a href=&quot;/blog//./posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
 my frustrations with Chromium/Chrome.  A very kind reader, Timo Juhani
@@ -451,7 +451,7 @@ usable browsers now.&lt;/p&gt;
 
 
 	<pubDate>Sat, 26 Feb 2011 11:55:06 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:37:23Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
 
 	<description>&lt;p&gt;Given that Chromium/Chrome is used more and more (as became apparent
 &lt;a href=&quot;https://lists.debian.org/debian-release/2010/09/msg00610.html&quot;&gt;with the discussion of including it in Debian&#39;s squeeze&lt;/a&gt;), I decided to
@@ -527,7 +527,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 
 
 	<pubDate>Fri, 12 Nov 2010 11:23:55 -0200</pubDate>
-	<dcterms:modified>2011-03-12T03:25:35Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
 
 	<description>&lt;p&gt;Seeing now that the situation regarding Free fonts is much better than in
 the past, I have started packaging some that are of high enough quality so
@@ -762,7 +762,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 
 	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:23:58Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
 
 	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
 
@@ -817,7 +817,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 
 	<pubDate>Sat, 29 May 2010 17:54:56 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:43:31Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:53:18Z</dcterms:modified>
 
 	<description>&lt;p&gt;Please, excuse me if you are a connoisseur of fonts and typography. You will
 find this boring, but other people may not know.&lt;/p&gt;
@@ -864,7 +864,7 @@ the typographic arena is alive and going strong.&lt;/p&gt;
 
 
 	<pubDate>Sat, 29 May 2010 17:06:18 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:26:13Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
 
 	<description>&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
 
@@ -909,7 +909,7 @@ the typographic arena is alive and going strong.&lt;/p&gt;
 
 
 	<pubDate>Thu, 27 May 2010 11:17:00 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:25:57Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
 
 	<description>&lt;p&gt;It all started when I tried to typeset my documents with the &lt;a href=&quot;http://en.wikipedia.org/wiki/Utopia (typeface)&quot;&gt;Utopia&lt;/a&gt; typeface, which is Free Software, since &lt;a&gt;Adobe liberated it to the TeX Users Group.&lt;/a&gt;&lt;/p&gt;
 

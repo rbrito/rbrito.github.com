@@ -8,6 +8,154 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>rbrito: change to .blog.setup templates/inlinepage.tmpl templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_636d1f19634202d20fb12599b59714b09f17c7f4/</guid>
+
+	<link>/blog/recentchanges/#change-636d1f19634202d20fb12599b59714b09f17c7f4</link>
+
+	<pubDate>Thu, 16 Jun 2011 19:38:57 -0300</pubDate>
+	<dcterms:modified>2011-06-16T22:38:57Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-636d1f19634202d20fb12599b59714b09f17c7f4&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+.blog.setup
+
+templates/inlinepage.tmpl
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;19:38:57 2011-06-16&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+ikiwiki: Add a new template to use disqus.com.&lt;br /&gt;
+
+
+
+
+
+This was done after I visited&lt;br /&gt;
+
+
+
+
+
+* &amp;lt;http://ikiwiki.info/tips/Adding_Disqus_to_your_wiki/&amp;gt;&lt;br /&gt;
+
+
+
+* &amp;lt;http://ikiwiki.info/ikiwiki/directive/template/&amp;gt;&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to .blog.setup on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_046a77f20a4828a95384c24ce610397c34c17350/</guid>
+
+	<link>/blog/recentchanges/#change-046a77f20a4828a95384c24ce610397c34c17350</link>
+
+	<pubDate>Tue, 31 May 2011 00:10:13 -0300</pubDate>
+	<dcterms:modified>2011-05-31T03:10:13Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-046a77f20a4828a95384c24ce610397c34c17350&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+.blog.setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;00:10:13 2011-05-31&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add my setup to the sources of the site.&lt;br /&gt;
+
+
+
+
+
+This way, I don&amp;#39;t have to carry around the setup file separately from the&lt;br /&gt;
+
+
+
+source of the whole site. As far as I am concerned, the setup of the site&lt;br /&gt;
+
+
+
+*is* a source of the site and it should be kept with it, especially for&lt;br /&gt;
+
+
+
+sites that are statically created (like this one).&lt;br /&gt;
+
+
+
+
+
+I wish that Joey Hess allows this on future versions of ikiwiki.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
 	<title>rbrito: change to tags/ibook on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 	<dcterms:creator>rbrito</dcterms:creator>
 
@@ -5215,110 +5363,6 @@ rbrito
 
 
 Import of 2009-09-11.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2009-09-05 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog//recentchanges/change_c419bfe50fe265b7a2cad679a4fcb7304cd30a92/</guid>
-
-	<link>/blog/recentchanges/#change-c419bfe50fe265b7a2cad679a4fcb7304cd30a92</link>
-
-	<pubDate>Sat, 05 Sep 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2009-09-05T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-c419bfe50fe265b7a2cad679a4fcb7304cd30a92&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2009-09-05
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;00:00:00 2009-09-05&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2009-09-05.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2009-09-04 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog//recentchanges/change_6a93f01af3df1d792ce8c0194aec2fe49f423db6/</guid>
-
-	<link>/blog/recentchanges/#change-6a93f01af3df1d792ce8c0194aec2fe49f423db6</link>
-
-	<pubDate>Fri, 04 Sep 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2009-09-04T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-6a93f01af3df1d792ce8c0194aec2fe49f423db6&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2009-09-04
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;00:00:00 2009-09-04&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2009-09-04.mdwn&lt;br /&gt;
 
 
 &lt;/div&gt;

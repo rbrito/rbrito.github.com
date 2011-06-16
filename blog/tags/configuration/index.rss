@@ -38,7 +38,7 @@
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2011-04-03T01:21:11Z</dcterms:modified>
+	<dcterms:modified>2011-04-03T01:21:31Z</dcterms:modified>
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
 Mac (actually, an iBook G4), since the current documentation is lacking in
@@ -415,7 +415,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:41:13Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
 some embedded platforms. In other words, this is some of the stuff that is

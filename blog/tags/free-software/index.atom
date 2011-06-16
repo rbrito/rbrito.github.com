@@ -16,8 +16,8 @@
 <id>/blog//tags/free-software/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20110430">ikiwiki</generator>
-<updated>2011-04-03T01:21:11Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20110608">ikiwiki</generator>
+<updated>2011-04-03T01:21:31Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -51,7 +51,7 @@
 	<category term="powerpc" />
 
 
-	<updated>2011-04-03T01:21:11Z</updated>
+	<updated>2011-04-03T01:21:31Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
 
 	<content type="html" xml:lang="en">
@@ -355,7 +355,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="free-software" />
 
 
-	<updated>2011-03-12T03:36:49Z</updated>
+	<updated>2011-03-12T03:52:56Z</updated>
 	<published>2011-03-09T17:33:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -474,7 +474,7 @@ usable browsers now.&lt;/p&gt;
 	<category term="ubuntu" />
 
 
-	<updated>2011-03-12T03:37:23Z</updated>
+	<updated>2011-03-12T03:52:56Z</updated>
 	<published>2011-02-26T14:55:06Z</published>
 
 	<content type="html" xml:lang="en">
@@ -555,7 +555,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 	<category term="typography" />
 
 
-	<updated>2011-03-12T03:25:35Z</updated>
+	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-11-12T13:23:55Z</published>
 
 	<content type="html" xml:lang="en">
@@ -805,7 +805,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<category term="programming" />
 
 
-	<updated>2011-03-12T03:23:58Z</updated>
+	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-06-10T22:46:13Z</published>
 
 	<content type="html" xml:lang="en">
@@ -865,7 +865,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<category term="typography" />
 
 
-	<updated>2011-03-12T03:43:31Z</updated>
+	<updated>2011-03-12T03:53:18Z</updated>
 	<published>2010-05-29T20:54:56Z</published>
 
 	<content type="html" xml:lang="en">
@@ -917,7 +917,7 @@ the typographic arena is alive and going strong.&lt;/p&gt;
 	<category term="video" />
 
 
-	<updated>2011-03-12T03:26:13Z</updated>
+	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-05-29T20:06:18Z</published>
 
 	<content type="html" xml:lang="en">
@@ -967,7 +967,7 @@ the typographic arena is alive and going strong.&lt;/p&gt;
 	<category term="xetex" />
 
 
-	<updated>2011-03-12T03:25:57Z</updated>
+	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-05-27T14:17:00Z</published>
 
 	<content type="html" xml:lang="en">

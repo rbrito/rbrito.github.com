@@ -16,8 +16,8 @@
 <id>/blog//tags/hacks/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20110430">ikiwiki</generator>
-<updated>2011-04-03T01:21:11Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20110608">ikiwiki</generator>
+<updated>2011-04-03T01:21:31Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -51,7 +51,7 @@
 	<category term="powerpc" />
 
 
-	<updated>2011-04-03T01:21:11Z</updated>
+	<updated>2011-04-03T01:21:31Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
 
 	<content type="html" xml:lang="en">
@@ -426,7 +426,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="programming" />
 
 
-	<updated>2011-03-12T03:23:58Z</updated>
+	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-06-10T22:46:13Z</published>
 
 	<content type="html" xml:lang="en">
@@ -492,7 +492,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="video" />
 
 
-	<updated>2011-03-12T03:26:13Z</updated>
+	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-05-29T20:06:18Z</published>
 
 	<content type="html" xml:lang="en">
@@ -542,7 +542,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="xetex" />
 
 
-	<updated>2011-03-12T03:25:57Z</updated>
+	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-05-27T14:17:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -679,7 +679,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="powerpc" />
 
 
-	<updated>2011-03-12T03:41:13Z</updated>
+	<updated>2011-03-12T03:52:56Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 	<content type="html" xml:lang="en">
@@ -841,7 +841,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<category term="revision-control" />
 
 
-	<updated>2011-03-12T03:51:29Z</updated>
+	<updated>2011-03-12T03:53:18Z</updated>
 	<published>2010-02-11T07:39:37Z</published>
 
 	<content type="html" xml:lang="en">

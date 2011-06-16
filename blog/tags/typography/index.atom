@@ -16,8 +16,8 @@
 <id>/blog//tags/typography/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20110430">ikiwiki</generator>
-<updated>2011-03-12T03:43:31Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20110608">ikiwiki</generator>
+<updated>2011-03-12T03:53:18Z</updated>
 <entry>
 	<title>Packaging fonts for a Debian-based system</title>
 
@@ -45,7 +45,7 @@
 	<category term="typography" />
 
 
-	<updated>2011-03-12T03:25:35Z</updated>
+	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-11-12T13:23:55Z</published>
 
 	<content type="html" xml:lang="en">
@@ -178,7 +178,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<category term="typography" />
 
 
-	<updated>2011-03-12T03:43:31Z</updated>
+	<updated>2011-03-12T03:53:18Z</updated>
 	<published>2010-05-29T20:54:56Z</published>
 
 	<content type="html" xml:lang="en">

@@ -38,7 +38,7 @@
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2011-04-03T01:21:11Z</dcterms:modified>
+	<dcterms:modified>2011-04-03T01:21:31Z</dcterms:modified>
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
 Mac (actually, an iBook G4), since the current documentation is lacking in
@@ -343,7 +343,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Fri, 12 Nov 2010 11:23:55 -0200</pubDate>
-	<dcterms:modified>2011-03-12T03:25:35Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
 
 	<description>&lt;p&gt;Seeing now that the situation regarding Free fonts is much better than in
 the past, I have started packaging some that are of high enough quality so
@@ -578,7 +578,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 
 	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:23:58Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
 
 	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
 
@@ -645,7 +645,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:41:13Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
 some embedded platforms. In other words, this is some of the stuff that is
