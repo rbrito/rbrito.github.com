@@ -8,13 +8,65 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>rbrito: change to posts/installing_meego_on_the_n900 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="no">/blog//recentchanges/change_9df595a0b5bd742653c845c94dd06e565bc53aa7/</guid>
+
+	<link>/blog/recentchanges/#change-9df595a0b5bd742653c845c94dd06e565bc53aa7</link>
+
+	<pubDate>Sun, 03 Jul 2011 03:43:45 -0300</pubDate>
+	<dcterms:modified>2011-07-03T06:43:45Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-9df595a0b5bd742653c845c94dd06e565bc53aa7&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+posts/installing meego on the n900
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;03:43:45 2011-07-03&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add post about Meego on the N900.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
 	<title>rbrito: change to .blog.setup templates/inlinepage.tmpl templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog//recentchanges/change_636d1f19634202d20fb12599b59714b09f17c7f4/</guid>
+	<guid isPermaLink="no">/blog//recentchanges/change_cf5ebf93dfacba77235cb14d8dd73ec8ca893d7c/</guid>
 
-	<link>/blog/recentchanges/#change-636d1f19634202d20fb12599b59714b09f17c7f4</link>
+	<link>/blog/recentchanges/#change-cf5ebf93dfacba77235cb14d8dd73ec8ca893d7c</link>
 
 	<pubDate>Thu, 16 Jun 2011 19:38:57 -0300</pubDate>
 	<dcterms:modified>2011-06-16T22:38:57Z</dcterms:modified>
@@ -25,7 +77,7 @@
 
 
 
-&lt;div id=&quot;change-636d1f19634202d20fb12599b59714b09f17c7f4&quot; class=&quot;metadata&quot;&gt;
+&lt;div id=&quot;change-cf5ebf93dfacba77235cb14d8dd73ec8ca893d7c&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
@@ -5311,58 +5363,6 @@ rbrito
 
 
 Import of 2009-10-08.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/2009-09-11 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog//recentchanges/change_b923da17c458f111d2b9f9bca651962c51c22331/</guid>
-
-	<link>/blog/recentchanges/#change-b923da17c458f111d2b9f9bca651962c51c22331</link>
-
-	<pubDate>Fri, 11 Sep 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2009-09-11T03:00:00Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-b923da17c458f111d2b9f9bca651962c51c22331&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2009-09-11
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;00:00:00 2009-09-11&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2009-09-11.mdwn&lt;br /&gt;
 
 
 &lt;/div&gt;

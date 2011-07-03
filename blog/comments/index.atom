@@ -21,6 +21,29 @@
 <entry>
 	<title>Re: First post from DebConf 10</title>
 
+	<id>/blog//posts/first-post-from-debconf-10/comment_2/</id>
+
+	<link href="/blog//posts/first-post-from-debconf-10/comment_2/"/>
+
+	<author><name>Anonymous</name></author>
+
+
+
+
+
+	<updated>2010-08-03T09:09:46Z</updated>
+	<published>2010-08-03T09:10:32Z</published>
+
+	<content type="html" xml:lang="en">
+	Let me know about discussions about sagemath and happy DebConf! &lt;img src=&quot;/blog//comments/../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Re: First post from DebConf 10</title>
+
 	<id>/blog//posts/first-post-from-debconf-10/comment_1/</id>
 
 	<link href="/blog//posts/first-post-from-debconf-10/comment_1/"/>
@@ -45,11 +68,11 @@
 
 </entry>
 <entry>
-	<title>Re: First post from DebConf 10</title>
+	<title>Re: A version of xpdf with the poppler backend available</title>
 
-	<id>/blog//posts/first-post-from-debconf-10/comment_2/</id>
+	<id>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_4/</id>
 
-	<link href="/blog//posts/first-post-from-debconf-10/comment_2/"/>
+	<link href="/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_4/"/>
 
 	<author><name>Anonymous</name></author>
 
@@ -57,11 +80,11 @@
 
 
 
-	<updated>2010-08-03T09:09:46Z</updated>
-	<published>2010-08-03T09:10:32Z</published>
+	<updated>2010-06-10T22:46:13Z</updated>
+	<published>2010-06-11T09:26:43Z</published>
 
 	<content type="html" xml:lang="en">
-	Let me know about discussions about sagemath and happy DebConf! &lt;img src=&quot;/blog//comments/../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;
+	I just learned about existence of epdfview which is using poppler.. so why should average user choose xpdf-poppler over epdfview?
 	</content>
 
 
@@ -90,29 +113,6 @@
 it has the ability to zoom more, which both evince and epdfview don&#39;t; even if you patch them to use higher zoom levels, as they render the whole page at once, they will bring your computer to a halt
 &lt;/code&gt;&lt;/pre&gt;
 
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Re: A version of xpdf with the poppler backend available</title>
-
-	<id>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_4/</id>
-
-	<link href="/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_4/"/>
-
-	<author><name>Anonymous</name></author>
-
-
-
-
-
-	<updated>2010-06-10T22:46:13Z</updated>
-	<published>2010-06-11T09:26:43Z</published>
-
-	<content type="html" xml:lang="en">
-	I just learned about existence of epdfview which is using poppler.. so why should average user choose xpdf-poppler over epdfview?
 	</content>
 
 
@@ -178,6 +178,36 @@ I tried to build it on my laptop, there&#39;s a comma missing in xpdf.cc:65 and 
 <entry>
 	<title>Re: Preliminary support for webm in youtube-dl</title>
 
+	<id>/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_2/</id>
+
+	<link href="/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_2/"/>
+
+	<author><name>Anonymous</name></author>
+
+
+
+
+
+	<updated>2010-05-29T20:06:18Z</updated>
+	<published>2010-05-29T18:00:47Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Hi, Sebastian.&lt;/p&gt;
+
+&lt;p&gt;Yes, yes, I know that this &quot;something&quot; is the gstreamer infrastructure. &lt;img src=&quot;/blog//comments/../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt; Just excuse my lack of abilities with English. I was so excited to have understood how the videos could be found with youtube-dl and push the release as soon as possible that I didn&#39;t think very much about the phrasing.&lt;/p&gt;
+
+&lt;p&gt;Anyway, that&#39;s great and I am using gstreamer with a lot of programs (and I am enjoying the gst123 command line program that Ahmed El-Mahmoudy uploaded and just got accepted from the NEW queue).&lt;/p&gt;
+
+&lt;p&gt;Thanks for your job, BTW.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Re: Preliminary support for webm in youtube-dl</title>
+
 	<id>/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_4/</id>
 
 	<link href="/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_4/"/>
@@ -216,36 +246,6 @@ I tried to build it on my laptop, there&#39;s a comma missing in xpdf.cc:65 and 
 
 	<content type="html" xml:lang="en">
 	Way to go Sebastian, your little something will make youtube-dl mostly obsolete for me, since it now works fine in Epiphany!
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Re: Preliminary support for webm in youtube-dl</title>
-
-	<id>/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_2/</id>
-
-	<link href="/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_2/"/>
-
-	<author><name>Anonymous</name></author>
-
-
-
-
-
-	<updated>2010-05-29T20:06:18Z</updated>
-	<published>2010-05-29T18:00:47Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Hi, Sebastian.&lt;/p&gt;
-
-&lt;p&gt;Yes, yes, I know that this &quot;something&quot; is the gstreamer infrastructure. &lt;img src=&quot;/blog//comments/../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt; Just excuse my lack of abilities with English. I was so excited to have understood how the videos could be found with youtube-dl and push the release as soon as possible that I didn&#39;t think very much about the phrasing.&lt;/p&gt;
-
-&lt;p&gt;Anyway, that&#39;s great and I am using gstreamer with a lot of programs (and I am enjoying the gst123 command line program that Ahmed El-Mahmoudy uploaded and just got accepted from the NEW queue).&lt;/p&gt;
-
-&lt;p&gt;Thanks for your job, BTW.&lt;/p&gt;
-
 	</content>
 
 
