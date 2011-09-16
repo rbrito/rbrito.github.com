@@ -11,7 +11,7 @@
 	<title>Running GRUB2 on PowerPC Macs</title>
 
 
-	<guid isPermaLink="no">/blog//posts/running_grub2_on_powerpc_macs/</guid>
+	<guid isPermaLink="false">/blog//posts/running_grub2_on_powerpc_macs/</guid>
 
 	<link>/blog//posts/running_grub2_on_powerpc_macs/</link>
 
@@ -38,7 +38,7 @@
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2011-04-03T01:21:31Z</dcterms:modified>
+	<dcterms:modified>2011-04-03T01:21:11Z</dcterms:modified>
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
 Mac (actually, an iBook G4), since the current documentation is lacking in
@@ -322,7 +322,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
 
-	<guid isPermaLink="no">/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
+	<guid isPermaLink="false">/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
 
 	<link>/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
 
@@ -349,7 +349,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:41:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
 some embedded platforms. In other words, this is some of the stuff that is

@@ -16,8 +16,8 @@
 <id>/blog//tags/development/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20110608">ikiwiki</generator>
-<updated>2011-04-03T01:21:31Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20110905">ikiwiki</generator>
+<updated>2011-04-03T01:21:11Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -51,7 +51,7 @@
 	<category term="powerpc" />
 
 
-	<updated>2011-04-03T01:21:31Z</updated>
+	<updated>2011-04-03T01:21:11Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
 
 	<content type="html" xml:lang="en">
@@ -361,7 +361,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="typography" />
 
 
-	<updated>2011-03-12T03:27:55Z</updated>
+	<updated>2011-03-12T03:25:35Z</updated>
 	<published>2010-11-12T13:23:55Z</published>
 
 	<content type="html" xml:lang="en">
@@ -611,7 +611,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<category term="programming" />
 
 
-	<updated>2011-03-12T03:27:55Z</updated>
+	<updated>2011-03-12T03:23:58Z</updated>
 	<published>2010-06-10T22:46:13Z</published>
 
 	<content type="html" xml:lang="en">
@@ -683,7 +683,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<category term="powerpc" />
 
 
-	<updated>2011-03-12T03:52:56Z</updated>
+	<updated>2011-03-12T03:41:13Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 	<content type="html" xml:lang="en">

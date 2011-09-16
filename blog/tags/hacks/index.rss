@@ -11,7 +11,7 @@
 	<title>Running GRUB2 on PowerPC Macs</title>
 
 
-	<guid isPermaLink="no">/blog//posts/running_grub2_on_powerpc_macs/</guid>
+	<guid isPermaLink="false">/blog//posts/running_grub2_on_powerpc_macs/</guid>
 
 	<link>/blog//posts/running_grub2_on_powerpc_macs/</link>
 
@@ -38,7 +38,7 @@
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2011-04-03T01:21:31Z</dcterms:modified>
+	<dcterms:modified>2011-04-03T01:21:11Z</dcterms:modified>
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
 Mac (actually, an iBook G4), since the current documentation is lacking in
@@ -322,7 +322,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>I am going to DebConf 10</title>
 
 
-	<guid isPermaLink="no">/blog//posts/i-am-going-to-debconf-10/</guid>
+	<guid isPermaLink="false">/blog//posts/i-am-going-to-debconf-10/</guid>
 
 	<link>/blog//posts/i-am-going-to-debconf-10/</link>
 
@@ -380,7 +380,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>A version of xpdf with the poppler backend available</title>
 
 
-	<guid isPermaLink="no">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
+	<guid isPermaLink="false">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
 
 	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
 
@@ -403,7 +403,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:23:58Z</dcterms:modified>
 
 	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
 
@@ -443,7 +443,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>Preliminary support for webm in youtube-dl</title>
 
 
-	<guid isPermaLink="no">/blog//posts/preliminary-support-for-webm-in-youtube-dl/</guid>
+	<guid isPermaLink="false">/blog//posts/preliminary-support-for-webm-in-youtube-dl/</guid>
 
 	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/</link>
 
@@ -464,7 +464,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Sat, 29 May 2010 17:06:18 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:26:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
 
@@ -484,7 +484,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>Please let me zoom my documents!</title>
 
 
-	<guid isPermaLink="no">/blog//posts/please-let-me-zoom-my-documents-/</guid>
+	<guid isPermaLink="false">/blog//posts/please-let-me-zoom-my-documents-/</guid>
 
 	<link>/blog//posts/please-let-me-zoom-my-documents-/</link>
 
@@ -509,7 +509,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Thu, 27 May 2010 11:17:00 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:25:57Z</dcterms:modified>
 
 	<description>&lt;p&gt;It all started when I tried to typeset my documents with the &lt;a href=&quot;http://en.wikipedia.org/wiki/Utopia (typeface)&quot;&gt;Utopia&lt;/a&gt; typeface, which is Free Software, since &lt;a&gt;Adobe liberated it to the TeX Users Group.&lt;/a&gt;&lt;/p&gt;
 
@@ -543,7 +543,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>Changing Some Configuration from Defaults</title>
 
 
-	<guid isPermaLink="no">/blog//posts/changing-some-configuration-from-defaults/</guid>
+	<guid isPermaLink="false">/blog//posts/changing-some-configuration-from-defaults/</guid>
 
 	<link>/blog//posts/changing-some-configuration-from-defaults/</link>
 
@@ -609,7 +609,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
 
-	<guid isPermaLink="no">/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
+	<guid isPermaLink="false">/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
 
 	<link>/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
 
@@ -636,7 +636,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:41:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
 some embedded platforms. In other words, this is some of the stuff that is
@@ -776,7 +776,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<title>Migrate from RCS to git</title>
 
 
-	<guid isPermaLink="no">/blog//posts/migrate-from-rcs-to-git/</guid>
+	<guid isPermaLink="false">/blog//posts/migrate-from-rcs-to-git/</guid>
 
 	<link>/blog//posts/migrate-from-rcs-to-git/</link>
 
@@ -793,7 +793,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 
 	<pubDate>Thu, 11 Feb 2010 05:39:37 -0200</pubDate>
-	<dcterms:modified>2011-03-12T03:53:18Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:51:29Z</dcterms:modified>
 
 	<description>&lt;p&gt;I have been keeping my &lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt; files under version control since I was
 introduced to &lt;a href=&quot;http://www.gnu.org/software/auctex/&quot;&gt;AUCTeX&lt;/a&gt; and I realized that a good way to approach the

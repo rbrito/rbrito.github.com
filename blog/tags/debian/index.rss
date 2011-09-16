@@ -11,7 +11,7 @@
 	<title>Running GRUB2 on PowerPC Macs</title>
 
 
-	<guid isPermaLink="no">/blog//posts/running_grub2_on_powerpc_macs/</guid>
+	<guid isPermaLink="false">/blog//posts/running_grub2_on_powerpc_macs/</guid>
 
 	<link>/blog//posts/running_grub2_on_powerpc_macs/</link>
 
@@ -38,7 +38,7 @@
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2011-04-03T01:21:31Z</dcterms:modified>
+	<dcterms:modified>2011-04-03T01:21:11Z</dcterms:modified>
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
 Mac (actually, an iBook G4), since the current documentation is lacking in
@@ -322,7 +322,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>(Some) Solutions with Chromium</title>
 
 
-	<guid isPermaLink="no">/blog//posts/some_solutions_with_chromium/</guid>
+	<guid isPermaLink="false">/blog//posts/some_solutions_with_chromium/</guid>
 
 	<link>/blog//posts/some_solutions_with_chromium/</link>
 
@@ -337,7 +337,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Wed, 09 Mar 2011 14:33:00 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:36:49Z</dcterms:modified>
 
 	<description>&lt;p&gt;In &lt;a href=&quot;/blog//tags/debian/../../posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
 my frustrations with Chromium/Chrome.  A very kind reader, Timo Juhani
@@ -432,7 +432,7 @@ usable browsers now.&lt;/p&gt;
 	<title>My problems with Chromium</title>
 
 
-	<guid isPermaLink="no">/blog//posts/problems_with_chromium/</guid>
+	<guid isPermaLink="false">/blog//posts/problems_with_chromium/</guid>
 
 	<link>/blog//posts/problems_with_chromium/</link>
 
@@ -451,7 +451,7 @@ usable browsers now.&lt;/p&gt;
 
 
 	<pubDate>Sat, 26 Feb 2011 11:55:06 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:37:23Z</dcterms:modified>
 
 	<description>&lt;p&gt;Given that Chromium/Chrome is used more and more (as became apparent
 &lt;a href=&quot;https://lists.debian.org/debian-release/2010/09/msg00610.html&quot;&gt;with the discussion of including it in Debian&#39;s squeeze&lt;/a&gt;), I decided to
@@ -506,7 +506,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 	<title>First post from DebConf 10</title>
 
 
-	<guid isPermaLink="no">/blog//posts/first-post-from-debconf-10/</guid>
+	<guid isPermaLink="false">/blog//posts/first-post-from-debconf-10/</guid>
 
 	<link>/blog//posts/first-post-from-debconf-10/</link>
 
@@ -547,7 +547,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 	<title>I am going to DebConf 10</title>
 
 
-	<guid isPermaLink="no">/blog//posts/i-am-going-to-debconf-10/</guid>
+	<guid isPermaLink="false">/blog//posts/i-am-going-to-debconf-10/</guid>
 
 	<link>/blog//posts/i-am-going-to-debconf-10/</link>
 
@@ -605,7 +605,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 	<title>A version of xpdf with the poppler backend available</title>
 
 
-	<guid isPermaLink="no">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
+	<guid isPermaLink="false">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
 
 	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
 
@@ -628,7 +628,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 
 
 	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:23:58Z</dcterms:modified>
 
 	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
 
@@ -668,7 +668,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 	<title>Preliminary support for webm in youtube-dl</title>
 
 
-	<guid isPermaLink="no">/blog//posts/preliminary-support-for-webm-in-youtube-dl/</guid>
+	<guid isPermaLink="false">/blog//posts/preliminary-support-for-webm-in-youtube-dl/</guid>
 
 	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/</link>
 
@@ -689,7 +689,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 
 
 	<pubDate>Sat, 29 May 2010 17:06:18 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:26:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
 
@@ -709,7 +709,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 	<title>Please let me zoom my documents!</title>
 
 
-	<guid isPermaLink="no">/blog//posts/please-let-me-zoom-my-documents-/</guid>
+	<guid isPermaLink="false">/blog//posts/please-let-me-zoom-my-documents-/</guid>
 
 	<link>/blog//posts/please-let-me-zoom-my-documents-/</link>
 
@@ -734,7 +734,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 
 
 	<pubDate>Thu, 27 May 2010 11:17:00 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:25:57Z</dcterms:modified>
 
 	<description>&lt;p&gt;It all started when I tried to typeset my documents with the &lt;a href=&quot;http://en.wikipedia.org/wiki/Utopia (typeface)&quot;&gt;Utopia&lt;/a&gt; typeface, which is Free Software, since &lt;a&gt;Adobe liberated it to the TeX Users Group.&lt;/a&gt;&lt;/p&gt;
 
@@ -768,7 +768,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 	<title>Changing Some Configuration from Defaults</title>
 
 
-	<guid isPermaLink="no">/blog//posts/changing-some-configuration-from-defaults/</guid>
+	<guid isPermaLink="false">/blog//posts/changing-some-configuration-from-defaults/</guid>
 
 	<link>/blog//posts/changing-some-configuration-from-defaults/</link>
 
@@ -834,7 +834,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
 
-	<guid isPermaLink="no">/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
+	<guid isPermaLink="false">/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
 
 	<link>/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
 
@@ -861,7 +861,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:41:13Z</dcterms:modified>
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
 some embedded platforms. In other words, this is some of the stuff that is

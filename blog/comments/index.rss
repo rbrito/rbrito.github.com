@@ -12,24 +12,7 @@
 	<dcterms:creator>Anonymous</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog//posts/first-post-from-debconf-10/comment_2/</guid>
-
-	<link>/blog//posts/first-post-from-debconf-10/comment_2/</link>
-
-	<pubDate>Tue, 03 Aug 2010 06:10:32 -0300</pubDate>
-	<dcterms:modified>2010-08-03T09:09:46Z</dcterms:modified>
-
-	<description>Let me know about discussions about sagemath and happy DebConf! &lt;img src=&quot;/blog//comments/../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;</description>
-
-
-</item>
-<item>
-
-	<title>Anonymous: Re: First post from DebConf 10</title>
-	<dcterms:creator>Anonymous</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog//posts/first-post-from-debconf-10/comment_1/</guid>
+	<guid isPermaLink="false">/blog//posts/first-post-from-debconf-10/comment_1/</guid>
 
 	<link>/blog//posts/first-post-from-debconf-10/comment_1/</link>
 
@@ -45,18 +28,18 @@
 </item>
 <item>
 
-	<title>Anonymous: Re: A version of xpdf with the poppler backend available</title>
+	<title>Anonymous: Re: First post from DebConf 10</title>
 	<dcterms:creator>Anonymous</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_4/</guid>
+	<guid isPermaLink="false">/blog//posts/first-post-from-debconf-10/comment_2/</guid>
 
-	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_4/</link>
+	<link>/blog//posts/first-post-from-debconf-10/comment_2/</link>
 
-	<pubDate>Fri, 11 Jun 2010 06:26:43 -0300</pubDate>
-	<dcterms:modified>2010-06-10T22:46:13Z</dcterms:modified>
+	<pubDate>Tue, 03 Aug 2010 06:10:32 -0300</pubDate>
+	<dcterms:modified>2010-08-03T09:09:46Z</dcterms:modified>
 
-	<description>I just learned about existence of epdfview which is using poppler.. so why should average user choose xpdf-poppler over epdfview?</description>
+	<description>Let me know about discussions about sagemath and happy DebConf! &lt;img src=&quot;/blog//comments/../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;</description>
 
 
 </item>
@@ -66,7 +49,7 @@
 	<dcterms:creator>Anonymous</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_1/</guid>
+	<guid isPermaLink="false">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_1/</guid>
 
 	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_1/</link>
 
@@ -88,7 +71,24 @@ it has the ability to zoom more, which both evince and epdfview don&#39;t; even 
 	<dcterms:creator>Anonymous</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_2/</guid>
+	<guid isPermaLink="false">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_4/</guid>
+
+	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_4/</link>
+
+	<pubDate>Fri, 11 Jun 2010 06:26:43 -0300</pubDate>
+	<dcterms:modified>2010-06-10T22:46:13Z</dcterms:modified>
+
+	<description>I just learned about existence of epdfview which is using poppler.. so why should average user choose xpdf-poppler over epdfview?</description>
+
+
+</item>
+<item>
+
+	<title>Anonymous: Re: A version of xpdf with the poppler backend available</title>
+	<dcterms:creator>Anonymous</dcterms:creator>
+
+
+	<guid isPermaLink="false">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_2/</guid>
 
 	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_2/</link>
 
@@ -114,7 +114,7 @@ it has the ability to zoom more, which both evince and epdfview don&#39;t; even 
 	<dcterms:creator>Anonymous</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_3/</guid>
+	<guid isPermaLink="false">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_3/</guid>
 
 	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_3/</link>
 
@@ -133,7 +133,41 @@ I tried to build it on my laptop, there&#39;s a comma missing in xpdf.cc:65 and 
 	<dcterms:creator>Anonymous</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_2/</guid>
+	<guid isPermaLink="false">/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_4/</guid>
+
+	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_4/</link>
+
+	<pubDate>Sat, 29 May 2010 23:43:49 -0300</pubDate>
+	<dcterms:modified>2010-05-29T20:06:18Z</dcterms:modified>
+
+	<description>How about pushing those libvorbis patches upstream to xiph.org?!!?</description>
+
+
+</item>
+<item>
+
+	<title>Anonymous: Re: Preliminary support for webm in youtube-dl</title>
+	<dcterms:creator>Anonymous</dcterms:creator>
+
+
+	<guid isPermaLink="false">/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_3/</guid>
+
+	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_3/</link>
+
+	<pubDate>Sat, 29 May 2010 17:21:51 -0300</pubDate>
+	<dcterms:modified>2010-05-29T20:06:18Z</dcterms:modified>
+
+	<description>Way to go Sebastian, your little something will make youtube-dl mostly obsolete for me, since it now works fine in Epiphany!</description>
+
+
+</item>
+<item>
+
+	<title>Anonymous: Re: Preliminary support for webm in youtube-dl</title>
+	<dcterms:creator>Anonymous</dcterms:creator>
+
+
+	<guid isPermaLink="false">/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_2/</guid>
 
 	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_2/</link>
 
@@ -157,41 +191,7 @@ I tried to build it on my laptop, there&#39;s a comma missing in xpdf.cc:65 and 
 	<dcterms:creator>Anonymous</dcterms:creator>
 
 
-	<guid isPermaLink="no">/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_4/</guid>
-
-	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_4/</link>
-
-	<pubDate>Sat, 29 May 2010 23:43:49 -0300</pubDate>
-	<dcterms:modified>2010-05-29T20:06:18Z</dcterms:modified>
-
-	<description>How about pushing those libvorbis patches upstream to xiph.org?!!?</description>
-
-
-</item>
-<item>
-
-	<title>Anonymous: Re: Preliminary support for webm in youtube-dl</title>
-	<dcterms:creator>Anonymous</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_3/</guid>
-
-	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_3/</link>
-
-	<pubDate>Sat, 29 May 2010 17:21:51 -0300</pubDate>
-	<dcterms:modified>2010-05-29T20:06:18Z</dcterms:modified>
-
-	<description>Way to go Sebastian, your little something will make youtube-dl mostly obsolete for me, since it now works fine in Epiphany!</description>
-
-
-</item>
-<item>
-
-	<title>Anonymous: Re: Preliminary support for webm in youtube-dl</title>
-	<dcterms:creator>Anonymous</dcterms:creator>
-
-
-	<guid isPermaLink="no">/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_1/</guid>
+	<guid isPermaLink="false">/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_1/</guid>
 
 	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_1/</link>
 

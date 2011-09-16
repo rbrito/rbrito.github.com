@@ -16,8 +16,8 @@
 <id>/blog//tags/audio/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20110608">ikiwiki</generator>
-<updated>2011-03-12T03:27:55Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20110905">ikiwiki</generator>
+<updated>2011-03-12T03:26:13Z</updated>
 <entry>
 	<title>Preliminary support for webm in youtube-dl</title>
 
@@ -45,7 +45,7 @@
 	<category term="video" />
 
 
-	<updated>2011-03-12T03:27:55Z</updated>
+	<updated>2011-03-12T03:26:13Z</updated>
 	<published>2010-05-29T20:06:18Z</published>
 
 	<content type="html" xml:lang="en">

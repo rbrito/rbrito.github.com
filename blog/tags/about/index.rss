@@ -11,7 +11,7 @@
 	<title>About</title>
 
 
-	<guid isPermaLink="no">/blog//posts/about/</guid>
+	<guid isPermaLink="false">/blog//posts/about/</guid>
 
 	<link>/blog//posts/about/</link>
 
@@ -20,7 +20,7 @@
 
 
 	<pubDate>Wed, 30 Dec 2009 14:46:28 -0200</pubDate>
-	<dcterms:modified>2011-02-27T01:44:13Z</dcterms:modified>
+	<dcterms:modified>2011-02-27T01:42:11Z</dcterms:modified>
 
 	<description>&lt;p&gt;This blog is just a way to collect thoughts and discoveries regarding my use
 of Free Software, Mathematics (it also includes some personal notes, of

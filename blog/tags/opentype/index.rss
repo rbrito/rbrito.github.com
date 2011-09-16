@@ -11,7 +11,7 @@
 	<title>Packaging fonts for a Debian-based system</title>
 
 
-	<guid isPermaLink="no">/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
+	<guid isPermaLink="false">/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
 
 	<link>/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
 
@@ -32,7 +32,7 @@
 
 
 	<pubDate>Fri, 12 Nov 2010 11:23:55 -0200</pubDate>
-	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:25:35Z</dcterms:modified>
 
 	<description>&lt;p&gt;Seeing now that the situation regarding Free fonts is much better than in
 the past, I have started packaging some that are of high enough quality so

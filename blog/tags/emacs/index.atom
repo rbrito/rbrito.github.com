@@ -16,8 +16,8 @@
 <id>/blog//tags/emacs/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20110608">ikiwiki</generator>
-<updated>2011-03-12T03:53:18Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20110905">ikiwiki</generator>
+<updated>2011-03-12T03:51:29Z</updated>
 <entry>
 	<title>Changing Some Configuration from Defaults</title>
 
@@ -112,7 +112,7 @@
 	<category term="revision-control" />
 
 
-	<updated>2011-03-12T03:53:18Z</updated>
+	<updated>2011-03-12T03:51:29Z</updated>
 	<published>2010-02-11T07:39:37Z</published>
 
 	<content type="html" xml:lang="en">

@@ -11,7 +11,7 @@
 	<title>Running GRUB2 on PowerPC Macs</title>
 
 
-	<guid isPermaLink="no">/blog//posts/running_grub2_on_powerpc_macs/</guid>
+	<guid isPermaLink="false">/blog//posts/running_grub2_on_powerpc_macs/</guid>
 
 	<link>/blog//posts/running_grub2_on_powerpc_macs/</link>
 
@@ -38,7 +38,7 @@
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2011-04-03T01:21:31Z</dcterms:modified>
+	<dcterms:modified>2011-04-03T01:21:11Z</dcterms:modified>
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
 Mac (actually, an iBook G4), since the current documentation is lacking in

@@ -11,7 +11,7 @@
 	<title>Changing Some Configuration from Defaults</title>
 
 
-	<guid isPermaLink="no">/blog//posts/changing-some-configuration-from-defaults/</guid>
+	<guid isPermaLink="false">/blog//posts/changing-some-configuration-from-defaults/</guid>
 
 	<link>/blog//posts/changing-some-configuration-from-defaults/</link>
 
@@ -77,7 +77,7 @@
 	<title>Migrate from RCS to git</title>
 
 
-	<guid isPermaLink="no">/blog//posts/migrate-from-rcs-to-git/</guid>
+	<guid isPermaLink="false">/blog//posts/migrate-from-rcs-to-git/</guid>
 
 	<link>/blog//posts/migrate-from-rcs-to-git/</link>
 
@@ -94,7 +94,7 @@
 
 
 	<pubDate>Thu, 11 Feb 2010 05:39:37 -0200</pubDate>
-	<dcterms:modified>2011-03-12T03:53:18Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:51:29Z</dcterms:modified>
 
 	<description>&lt;p&gt;I have been keeping my &lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt; files under version control since I was
 introduced to &lt;a href=&quot;http://www.gnu.org/software/auctex/&quot;&gt;AUCTeX&lt;/a&gt; and I realized that a good way to approach the
