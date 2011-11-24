@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="../local.css" type="text/css" />
 
 
-
+<link rel="alternate" type="application/rss+xml" title="comments pending moderation (RSS feed)" href="pendingmoderation.rss" /><link rel="alternate" type="application/atom+xml" title="comments pending moderation (Atom feed)" href="pendingmoderation.atom" /><link rel="alternate" type="application/rss+xml" title="Rogério Brito's Digital Junkyard (RSS feed)" href="index.rss" /><link rel="alternate" type="application/atom+xml" title="Rogério Brito's Digital Junkyard (Atom feed)" href="index.atom" />
 
 
 </head>
@@ -60,9 +60,18 @@ comments
 
 
 <div class="sidebar">
-<p>[[!inline <span class="error">Error: cannot match pages: unknown function in pagespec "comment_pending(./posts/<em>)"</span>]]
-Comments in the [[!commentmoderation  desc="moderation queue"]]:
-[[!pagecount <span class="error">Error: cannot match pages: unknown function in pagespec "comment_pending(./posts/</em>)"</span>]]</p>
+<div  class="feedlink">
+
+<a class="feedbutton" type="application/rss+xml" rel="alternate" title="comments pending moderation (RSS feed)" href="pendingmoderation.rss">RSS</a>
+
+
+<a class="feedbutton" type="application/atom+xml" rel="alternate" title="comments pending moderation (Atom feed)" href="pendingmoderation.atom">Atom</a>
+
+</div>
+
+
+<p>Comments in the moderation queue:
+0</p>
 
 </div>
 
@@ -70,8 +79,386 @@ Comments in the [[!commentmoderation  desc="moderation queue"]]:
 <div id="pagebody">
 
 <div id="content">
-<p>Recent comments on posts in the <a href="../">blog</a>:
-[[!inline <span class="error">Error: cannot match pages: unknown function in pagespec "comment(./posts/*)"</span>]]</p>
+<p>Recent comments on posts in the <a href="../">blog</a>:</p>
+
+<div  class="feedlink">
+
+<a class="feedbutton" type="application/rss+xml" rel="alternate" title="Rogério Brito's Digital Junkyard (RSS feed)" href="index.rss">RSS</a>
+
+
+<a class="feedbutton" type="application/atom+xml" rel="alternate" title="Rogério Brito's Digital Junkyard (Atom feed)" href="index.atom">Atom</a>
+
+</div>
+<div class="comment" id="comment-6892c811655d3add6dcabc4299afbc55">
+
+
+
+<div class="comment-subject">
+
+Re: First post from DebConf 10
+
+</div>
+
+<div class="inlinecontent">
+<p>This was my first Debconf as well and I was glad to meet you at the event. Thank you for making me feel welcome in Debian even though I'm new here.</p>
+
+<p>P.S. the updates to the package I am working on http://packages.debian.org/sid/xtrkcad were implemented, sponsored, and uploaded the day before the freeze.</p>
+
+</div>
+
+<div class="comment-header">
+
+
+Comment by
+
+<span class="author" title="Unauthenticated, from unknown IP address">
+
+
+Anonymous
+
+
+</span>
+
+&mdash; <span class="date">2010-08-07T18:34:53 BRT</span>
+</div>
+
+
+
+<div style="clear: both"></div>
+</div>
+<div class="comment" id="comment-4658305cca9cc765dac23301b8a027ff">
+
+
+
+<div class="comment-subject">
+
+Re: First post from DebConf 10
+
+</div>
+
+<div class="inlinecontent">
+Let me know about discussions about sagemath and happy DebConf! <img src="../smileys/smile.png" alt=":-)" />
+</div>
+
+<div class="comment-header">
+
+
+Comment by
+
+<span class="author" title="Unauthenticated, from unknown IP address">
+
+
+Anonymous
+
+
+</span>
+
+&mdash; <span class="date">2010-08-03T06:10:32 BRT</span>
+</div>
+
+
+
+<div style="clear: both"></div>
+</div>
+<div class="comment" id="comment-a0ec7ec8915f0c089a616dbcb0d62641">
+
+
+
+<div class="comment-subject">
+
+Re: A version of xpdf with the poppler backend available
+
+</div>
+
+<div class="inlinecontent">
+<p>There are some reasons:</p>
+
+<pre><code>it is lighter (and depends on fewer packages, and is better for those using it remotely etc)
+it has the ability to zoom more, which both evince and epdfview don't; even if you patch them to use higher zoom levels, as they render the whole page at once, they will bring your computer to a halt
+</code></pre>
+
+</div>
+
+<div class="comment-header">
+
+
+Comment by
+
+<span class="author" title="Unauthenticated, from unknown IP address">
+
+
+Anonymous
+
+
+</span>
+
+&mdash; <span class="date">2010-06-11T07:56:18 BRT</span>
+</div>
+
+
+
+<div style="clear: both"></div>
+</div>
+<div class="comment" id="comment-73362e7cbb879a574324b57a95b3271e">
+
+
+
+<div class="comment-subject">
+
+Re: A version of xpdf with the poppler backend available
+
+</div>
+
+<div class="inlinecontent">
+I just learned about existence of epdfview which is using poppler.. so why should average user choose xpdf-poppler over epdfview?
+</div>
+
+<div class="comment-header">
+
+
+Comment by
+
+<span class="author" title="Unauthenticated, from unknown IP address">
+
+
+Anonymous
+
+
+</span>
+
+&mdash; <span class="date">2010-06-11T06:26:43 BRT</span>
+</div>
+
+
+
+<div style="clear: both"></div>
+</div>
+<div class="comment" id="comment-e7445f53e0ce3a487467b13d432c4c15">
+
+
+
+<div class="comment-subject">
+
+Re: A version of xpdf with the poppler backend available
+
+</div>
+
+<div class="inlinecontent">
+<p>Oh, thanks for the report. Indeed, it was missing a comma there. It is fixed on the repository.</p>
+
+<p>Regarding the floating point exception, could you please give me some details more? I can't reproduce it and I would love to fix this as soon as possible. Which architecture are you using? Which version of poppler? Right now, I am developing with an amd64 and with Debian's poppler 0.12.4-1.</p>
+
+<p>If you could provide me with further details on http://github.com/rbrito/xpdf-poppler/issues I would be grateful to help.</p>
+
+<p>A very kind Gentoo user also tested a version and confirmed that it is working on his system.</p>
+
+<p>Thanks.</p>
+
+</div>
+
+<div class="comment-header">
+
+
+Comment by
+
+<span class="author" title="Unauthenticated, from unknown IP address">
+
+
+Anonymous
+
+
+</span>
+
+&mdash; <span class="date">2010-06-11T04:35:08 BRT</span>
+</div>
+
+
+
+<div style="clear: both"></div>
+</div>
+<div class="comment" id="comment-512238ffcd24443f4adc394fce84b9a7">
+
+
+
+<div class="comment-subject">
+
+Re: A version of xpdf with the poppler backend available
+
+</div>
+
+<div class="inlinecontent">
+<p>a great project.. does it work currently?
+I tried to build it on my laptop, there's a comma missing in xpdf.cc:65 and starting ends with a "Floating point exception".</p>
+
+</div>
+
+<div class="comment-header">
+
+
+Comment by
+
+<span class="author" title="Unauthenticated, from unknown IP address">
+
+
+Anonymous
+
+
+</span>
+
+&mdash; <span class="date">2010-06-11T03:01:04 BRT</span>
+</div>
+
+
+
+<div style="clear: both"></div>
+</div>
+<div class="comment" id="comment-2fef4fccc91a809d4d209f788f62d0ce">
+
+
+
+<div class="comment-subject">
+
+Re: Preliminary support for webm in youtube-dl
+
+</div>
+
+<div class="inlinecontent">
+How about pushing those libvorbis patches upstream to xiph.org?!!?
+</div>
+
+<div class="comment-header">
+
+
+Comment by
+
+<span class="author" title="Unauthenticated, from unknown IP address">
+
+
+Anonymous
+
+
+</span>
+
+&mdash; <span class="date">2010-05-29T23:43:49 BRT</span>
+</div>
+
+
+
+<div style="clear: both"></div>
+</div>
+<div class="comment" id="comment-daf32ff574c9f41a080b3f7ca61d2891">
+
+
+
+<div class="comment-subject">
+
+Re: Preliminary support for webm in youtube-dl
+
+</div>
+
+<div class="inlinecontent">
+Way to go Sebastian, your little something will make youtube-dl mostly obsolete for me, since it now works fine in Epiphany!
+</div>
+
+<div class="comment-header">
+
+
+Comment by
+
+<span class="author" title="Unauthenticated, from unknown IP address">
+
+
+Anonymous
+
+
+</span>
+
+&mdash; <span class="date">2010-05-29T17:21:51 BRT</span>
+</div>
+
+
+
+<div style="clear: both"></div>
+</div>
+<div class="comment" id="comment-ee568ef957a1731690e91f16281e8690">
+
+
+
+<div class="comment-subject">
+
+Re: Preliminary support for webm in youtube-dl
+
+</div>
+
+<div class="inlinecontent">
+<p>Hi, Sebastian.</p>
+
+<p>Yes, yes, I know that this "something" is the gstreamer infrastructure. <img src="../smileys/smile.png" alt=":-)" /> Just excuse my lack of abilities with English. I was so excited to have understood how the videos could be found with youtube-dl and push the release as soon as possible that I didn't think very much about the phrasing.</p>
+
+<p>Anyway, that's great and I am using gstreamer with a lot of programs (and I am enjoying the gst123 command line program that Ahmed El-Mahmoudy uploaded and just got accepted from the NEW queue).</p>
+
+<p>Thanks for your job, BTW.</p>
+
+</div>
+
+<div class="comment-header">
+
+
+Comment by
+
+<span class="author" title="Unauthenticated, from unknown IP address">
+
+
+Anonymous
+
+
+</span>
+
+&mdash; <span class="date">2010-05-29T15:00:47 BRT</span>
+</div>
+
+
+
+<div style="clear: both"></div>
+</div>
+<div class="comment" id="comment-13c8785f97fcc4bc1c8e53f3cc6e5724">
+
+
+
+<div class="comment-subject">
+
+Re: Preliminary support for webm in youtube-dl
+
+</div>
+
+<div class="inlinecontent">
+<p>This "something" makes it possible to play or create WebM files in software that uses GStreamer. For example with epiphany-browser you'll be able to watch the WebM YouTube videos, transmageddon can create WebM files out of everything else, etc <img src="../smileys/smile.png" alt=":)" /></p>
+
+<p>(And of course GNOME's official media player totem can play the WebM files if gstreamer0.10-plugins-bad is installed)</p>
+
+</div>
+
+<div class="comment-header">
+
+
+Comment by
+
+<span class="author" title="Unauthenticated, from unknown IP address">
+
+
+Anonymous
+
+
+</span>
+
+&mdash; <span class="date">2010-05-29T14:54:00 BRT</span>
+</div>
+
+
+
+<div style="clear: both"></div>
+</div>
+
 
 </div>
 

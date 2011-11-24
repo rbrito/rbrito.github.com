@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>comments</title>
+<link>/blog//comments/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>Anonymous: Re: First post from DebConf 10</title>
+	<dcterms:creator>Anonymous</dcterms:creator>
+
+
+	<guid isPermaLink="false">/blog//posts/first-post-from-debconf-10/comment_1/</guid>
+
+	<link>/blog//posts/first-post-from-debconf-10/comment_1/</link>
+
+	<pubDate>Sat, 07 Aug 2010 18:34:53 -0300</pubDate>
+	<dcterms:modified>2010-08-03T09:09:46Z</dcterms:modified>
+
+	<description>&lt;p&gt;This was my first Debconf as well and I was glad to meet you at the event. Thank you for making me feel welcome in Debian even though I&#39;m new here.&lt;/p&gt;
+
+&lt;p&gt;P.S. the updates to the package I am working on http://packages.debian.org/sid/xtrkcad were implemented, sponsored, and uploaded the day before the freeze.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>Anonymous: Re: First post from DebConf 10</title>
+	<dcterms:creator>Anonymous</dcterms:creator>
+
+
+	<guid isPermaLink="false">/blog//posts/first-post-from-debconf-10/comment_2/</guid>
+
+	<link>/blog//posts/first-post-from-debconf-10/comment_2/</link>
+
+	<pubDate>Tue, 03 Aug 2010 06:10:32 -0300</pubDate>
+	<dcterms:modified>2010-08-03T09:09:46Z</dcterms:modified>
+
+	<description>Let me know about discussions about sagemath and happy DebConf! &lt;img src=&quot;/blog//comments/../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;</description>
+
+
+</item>
+<item>
+
+	<title>Anonymous: Re: A version of xpdf with the poppler backend available</title>
+	<dcterms:creator>Anonymous</dcterms:creator>
+
+
+	<guid isPermaLink="false">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_1/</guid>
+
+	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_1/</link>
+
+	<pubDate>Fri, 11 Jun 2010 07:56:18 -0300</pubDate>
+	<dcterms:modified>2010-06-10T22:46:13Z</dcterms:modified>
+
+	<description>&lt;p&gt;There are some reasons:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;it is lighter (and depends on fewer packages, and is better for those using it remotely etc)
+it has the ability to zoom more, which both evince and epdfview don&#39;t; even if you patch them to use higher zoom levels, as they render the whole page at once, they will bring your computer to a halt
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>Anonymous: Re: A version of xpdf with the poppler backend available</title>
+	<dcterms:creator>Anonymous</dcterms:creator>
+
+
+	<guid isPermaLink="false">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_4/</guid>
+
+	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_4/</link>
+
+	<pubDate>Fri, 11 Jun 2010 06:26:43 -0300</pubDate>
+	<dcterms:modified>2010-06-10T22:46:13Z</dcterms:modified>
+
+	<description>I just learned about existence of epdfview which is using poppler.. so why should average user choose xpdf-poppler over epdfview?</description>
+
+
+</item>
+<item>
+
+	<title>Anonymous: Re: A version of xpdf with the poppler backend available</title>
+	<dcterms:creator>Anonymous</dcterms:creator>
+
+
+	<guid isPermaLink="false">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_2/</guid>
+
+	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_2/</link>
+
+	<pubDate>Fri, 11 Jun 2010 04:35:08 -0300</pubDate>
+	<dcterms:modified>2010-06-10T22:46:13Z</dcterms:modified>
+
+	<description>&lt;p&gt;Oh, thanks for the report. Indeed, it was missing a comma there. It is fixed on the repository.&lt;/p&gt;
+
+&lt;p&gt;Regarding the floating point exception, could you please give me some details more? I can&#39;t reproduce it and I would love to fix this as soon as possible. Which architecture are you using? Which version of poppler? Right now, I am developing with an amd64 and with Debian&#39;s poppler 0.12.4-1.&lt;/p&gt;
+
+&lt;p&gt;If you could provide me with further details on http://github.com/rbrito/xpdf-poppler/issues I would be grateful to help.&lt;/p&gt;
+
+&lt;p&gt;A very kind Gentoo user also tested a version and confirmed that it is working on his system.&lt;/p&gt;
+
+&lt;p&gt;Thanks.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>Anonymous: Re: A version of xpdf with the poppler backend available</title>
+	<dcterms:creator>Anonymous</dcterms:creator>
+
+
+	<guid isPermaLink="false">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_3/</guid>
+
+	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/comment_3/</link>
+
+	<pubDate>Fri, 11 Jun 2010 03:01:04 -0300</pubDate>
+	<dcterms:modified>2010-06-10T22:46:13Z</dcterms:modified>
+
+	<description>&lt;p&gt;a great project.. does it work currently?
+I tried to build it on my laptop, there&#39;s a comma missing in xpdf.cc:65 and starting ends with a &quot;Floating point exception&quot;.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>Anonymous: Re: Preliminary support for webm in youtube-dl</title>
+	<dcterms:creator>Anonymous</dcterms:creator>
+
+
+	<guid isPermaLink="false">/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_4/</guid>
+
+	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_4/</link>
+
+	<pubDate>Sat, 29 May 2010 23:43:49 -0300</pubDate>
+	<dcterms:modified>2010-05-29T20:06:18Z</dcterms:modified>
+
+	<description>How about pushing those libvorbis patches upstream to xiph.org?!!?</description>
+
+
+</item>
+<item>
+
+	<title>Anonymous: Re: Preliminary support for webm in youtube-dl</title>
+	<dcterms:creator>Anonymous</dcterms:creator>
+
+
+	<guid isPermaLink="false">/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_3/</guid>
+
+	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_3/</link>
+
+	<pubDate>Sat, 29 May 2010 17:21:51 -0300</pubDate>
+	<dcterms:modified>2010-05-29T20:06:18Z</dcterms:modified>
+
+	<description>Way to go Sebastian, your little something will make youtube-dl mostly obsolete for me, since it now works fine in Epiphany!</description>
+
+
+</item>
+<item>
+
+	<title>Anonymous: Re: Preliminary support for webm in youtube-dl</title>
+	<dcterms:creator>Anonymous</dcterms:creator>
+
+
+	<guid isPermaLink="false">/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_2/</guid>
+
+	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_2/</link>
+
+	<pubDate>Sat, 29 May 2010 15:00:47 -0300</pubDate>
+	<dcterms:modified>2010-05-29T20:06:18Z</dcterms:modified>
+
+	<description>&lt;p&gt;Hi, Sebastian.&lt;/p&gt;
+
+&lt;p&gt;Yes, yes, I know that this &quot;something&quot; is the gstreamer infrastructure. &lt;img src=&quot;/blog//comments/../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt; Just excuse my lack of abilities with English. I was so excited to have understood how the videos could be found with youtube-dl and push the release as soon as possible that I didn&#39;t think very much about the phrasing.&lt;/p&gt;
+
+&lt;p&gt;Anyway, that&#39;s great and I am using gstreamer with a lot of programs (and I am enjoying the gst123 command line program that Ahmed El-Mahmoudy uploaded and just got accepted from the NEW queue).&lt;/p&gt;
+
+&lt;p&gt;Thanks for your job, BTW.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>Anonymous: Re: Preliminary support for webm in youtube-dl</title>
+	<dcterms:creator>Anonymous</dcterms:creator>
+
+
+	<guid isPermaLink="false">/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_1/</guid>
+
+	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/comment_1/</link>
+
+	<pubDate>Sat, 29 May 2010 14:54:00 -0300</pubDate>
+	<dcterms:modified>2010-05-29T20:06:18Z</dcterms:modified>
+
+	<description>&lt;p&gt;This &quot;something&quot; makes it possible to play or create WebM files in software that uses GStreamer. For example with epiphany-browser you&#39;ll be able to watch the WebM YouTube videos, transmageddon can create WebM files out of everything else, etc &lt;img src=&quot;/blog//comments/../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(And of course GNOME&#39;s official media player totem can play the WebM files if gstreamer0.10-plugins-bad is installed)&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>
