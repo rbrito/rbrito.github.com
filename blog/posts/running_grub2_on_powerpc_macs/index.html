@@ -25,9 +25,9 @@
 <span>
 <span class="parentlinks">
 
-<a href="../../">Rogério Brito's Digital Junkyard</a>/
+<a href="../../">Rogério Brito's Digital Junkyard</a>/ 
 
-<a href="../">posts</a>/
+<a href="../">posts</a>/ 
 
 </span>
 <span class="title">
@@ -87,7 +87,7 @@ many places (outdated, incorrect, etc.).</p>
 <p>Some of what I say is platform agnostic, though, and may be of interest to
 users of GRUB in general.</p>
 
-<h1 id="basicsusinggrub2withpowerpc"><a name="index1h1"></a>Basics using GRUB2 with PowerPC</h1>
+<h1><a name="index1h1"></a>Basics using GRUB2 with PowerPC</h1>
 
 <p>First of all, it is important to understand (at least superficially) how
 botting on a Mac works.</p>
@@ -111,7 +111,7 @@ when you turn it on. At that moment, you have to press (simulaneously) Cmd +
 Option + O + F. (Note: the Cmd key is the key that has an Apple drawn on it,
 usually on the side of the space bar).</p>
 
-<h1 id="limitationsofopenfirmware"><a name="index2h1"></a>Limitations of Open Firmware</h1>
+<h1><a name="index2h1"></a>Limitations of Open Firmware</h1>
 
 <p>Differently from usual BIOSes of x86 computers, Open Firmware <em>can</em> read the
 contents of a partition in your HD (or other devices), as long as it is
@@ -152,7 +152,7 @@ with yaboot the command is called <code>ybin</code> (which, essentially, takes c
 putting <code>yaboot.conf</code> in the bootstrap/HFS partition and blesses the
 <code>yaboot</code> binary).</p>
 
-<h1 id="goingtogrub2"><a name="index3h1"></a>Going to GRUB2</h1>
+<h1><a name="index3h1"></a>Going to GRUB2</h1>
 
 <p>One of the characteristics of yaboot (which is left as an exercise to the
 reader to determine if it is a drawback or not) is exactly the way that
@@ -183,7 +183,7 @@ for disk partitioning software to create partitions slighly larger than
 much more than those 800KB. But how do you get that binary, in the first
 place? And how do you fit that in the HFS partition?</p>
 
-<h2 id="creatingthegrub2binary"><a name="index1h2"></a>Creating the GRUB2 binary</h2>
+<h2><a name="index1h2"></a>Creating the GRUB2 binary</h2>
 
 <p>To answer the first question, you have to construct it from your
 <code>grub-ieee1275</code> package (I'm assuming here that you are using Debian or
@@ -211,7 +211,7 @@ plan).</p>
 you want. This already hints you to the way we can fit it in the HFS
 partition, and it is always the same story: just trim the fat.</p>
 
-<h2 id="creatingtheconfigurationfile"><a name="index2h2"></a>Creating the configuration file</h2>
+<h2><a name="index2h2"></a>Creating the configuration file</h2>
 
 <p>You will also have to have GRUB2 configuration's file (or you will have to
 play with way more commands than you'd want to). An important distinction
@@ -273,7 +273,7 @@ As an example, <code>(hd,apple2)/boot/vmlinux</code> if fully qualified for GRUB
 purpose, while <code>/boot/vmlinux</code> is not.</p></li>
 </ul>
 
-<h2 id="puttingitalltogether"><a name="index3h2"></a>Putting it all together</h2>
+<h2><a name="index3h2"></a>Putting it all together</h2>
 
 <p>The next step is to just copy the files <code>grub.img</code> and <code>grub.cfg</code> to the
 special HFS partition. You can do that using <code>hmount</code>, <code>hcopy</code>, and
@@ -289,7 +289,7 @@ partition.</p>
 yours, appropriately. You will then see the common (familiar?) GRUB prompt
 and, from there, everything else that you know will (hopefully) work.</p>
 
-<h1 id="thelistofmodulesthatworksformetm"><a name="index4h1"></a>The list of modules that "Works for Me(TM)"</h1>
+<h1><a name="index4h1"></a>The list of modules that "Works for Me(TM)"</h1>
 
 <p>As I mentioned above, I use a subset of all modules that come with
 <code>grub-ieee1275</code> to create my <code>grub.img</code> binary. Here is the list of modules
@@ -311,7 +311,7 @@ date.mod          gfxterm.mod   ls.mod           read.mod        suspend.mod
 <p>Just for the record, my <code>grub.img</code> file has 624KB, and that can certainly be
 shrunk.</p>
 
-<h1 id="thecommandlinethatworksformetmtocreatetheimage"><a name="index5h1"></a>The command line that "Works for Me(TM)" to create the image</h1>
+<h1><a name="index5h1"></a>The command line that "Works for Me(TM)" to create the image</h1>
 
 <p>Actually, I lied when I told you that I used the lines above to create my
 <code>grub.img</code> file, because I'm lazy and I don't want to type the <code>.img</code>
@@ -400,20 +400,8 @@ Tags:
 
 
 <div class="pagedate">
-Last edited <span class="date">2011-04-02T22:21:11 BRT</span>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'digitaljunkyard';
-    // var disqus_identifier = 'unique_dynamic_id_1234';
-    var disqus_url = 'http://rb.doesntexist.org/blog/';
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments</a>.</noscript>
+Last edited <span class="date">2011-04-02T22:21:31 BRT</span>
+<!-- Created <span class="date">2011-04-02T22:18:12 BRT</span> -->
 </div>
 
 </div>

@@ -16,8 +16,8 @@
 <id>/blog//tags/kurobox/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20110905">ikiwiki</generator>
-<updated>2011-03-12T03:41:13Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20111106">ikiwiki</generator>
+<updated>2011-03-12T03:52:56Z</updated>
 <entry>
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
@@ -51,7 +51,7 @@
 	<category term="powerpc" />
 
 
-	<updated>2011-03-12T03:41:13Z</updated>
+	<updated>2011-03-12T03:52:56Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 	<content type="html" xml:lang="en">

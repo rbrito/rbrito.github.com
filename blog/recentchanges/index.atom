@@ -16,8 +16,126 @@
 <id>/blog//recentchanges/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20110905">ikiwiki</generator>
-<updated>2011-07-03T06:43:45Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20111106">ikiwiki</generator>
+<updated>2011-11-24T00:27:46Z</updated>
+<entry>
+	<title>change to templates/inlinepage.tmpl templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>/blog//recentchanges/change_298d889a8197eea4e5e630b52242a55f6da4c24a/</id>
+
+	<link href="/blog/recentchanges/#change-298d889a8197eea4e5e630b52242a55f6da4c24a"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2011-11-24T00:27:46Z</updated>
+	<published>2011-11-24T00:27:46Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-298d889a8197eea4e5e630b52242a55f6da4c24a&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+templates/inlinepage.tmpl
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;22:27:46 2011-11-23&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Put the comments in the template for inlinepage.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to posts/about on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>/blog//recentchanges/change_539b74c53e2b6c16f31bf09bc1e562e3da3bed73/</id>
+
+	<link href="/blog/recentchanges/#change-539b74c53e2b6c16f31bf09bc1e562e3da3bed73"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2011-11-23T23:31:19Z</updated>
+	<published>2011-11-23T23:31:19Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-539b74c53e2b6c16f31bf09bc1e562e3da3bed73&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+posts/about
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;21:31:19 2011-11-23&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Update information about me.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to posts/installing_meego_on_the_n900 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -5851,122 +5969,6 @@ rbrito
 
 
 initial commit&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to posts/2009-11-18 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>/blog//recentchanges/change_a0c15b9086fcc9eac831c4d3f660a93cae240e62/</id>
-
-	<link href="/blog/recentchanges/#change-a0c15b9086fcc9eac831c4d3f660a93cae240e62"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2009-11-18T02:00:00Z</updated>
-	<published>2009-11-18T02:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-a0c15b9086fcc9eac831c4d3f660a93cae240e62&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2009-11-18
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;00:00:00 2009-11-18&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2009-11-18.mdwn&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to posts/2009-10-08 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>/blog//recentchanges/change_88a0492b89fdf4b06b7f4842557270690aeb6548/</id>
-
-	<link href="/blog/recentchanges/#change-88a0492b89fdf4b06b7f4842557270690aeb6548"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2009-10-08T03:00:00Z</updated>
-	<published>2009-10-08T03:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-88a0492b89fdf4b06b7f4842557270690aeb6548&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-posts/2009-10-08
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;00:00:00 2009-10-08&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Import of 2009-10-08.mdwn&lt;br /&gt;
 
 
 &lt;/div&gt;

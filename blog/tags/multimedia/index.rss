@@ -32,7 +32,7 @@
 
 
 	<pubDate>Sat, 29 May 2010 17:06:18 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:26:13Z</dcterms:modified>
+	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
 
 	<description>&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
 

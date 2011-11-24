@@ -16,8 +16,8 @@
 <id>/blog//tags/linux/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20110905">ikiwiki</generator>
-<updated>2011-04-03T01:21:11Z</updated>
+<generator uri="http://ikiwiki.info/" version="3.20111106">ikiwiki</generator>
+<updated>2011-04-03T01:21:31Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -51,7 +51,7 @@
 	<category term="powerpc" />
 
 
-	<updated>2011-04-03T01:21:11Z</updated>
+	<updated>2011-04-03T01:21:31Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
 
 	<content type="html" xml:lang="en">
@@ -62,7 +62,7 @@ many places (outdated, incorrect, etc.).&lt;/p&gt;
 &lt;p&gt;Some of what I say is platform agnostic, though, and may be of interest to
 users of GRUB in general.&lt;/p&gt;
 
-&lt;h1 id=&quot;basicsusinggrub2withpowerpc&quot;&gt;Basics using GRUB2 with PowerPC&lt;/h1&gt;
+&lt;h1&gt;Basics using GRUB2 with PowerPC&lt;/h1&gt;
 
 &lt;p&gt;First of all, it is important to understand (at least superficially) how
 botting on a Mac works.&lt;/p&gt;
@@ -86,7 +86,7 @@ when you turn it on. At that moment, you have to press (simulaneously) Cmd +
 Option + O + F. (Note: the Cmd key is the key that has an Apple drawn on it,
 usually on the side of the space bar).&lt;/p&gt;
 
-&lt;h1 id=&quot;limitationsofopenfirmware&quot;&gt;Limitations of Open Firmware&lt;/h1&gt;
+&lt;h1&gt;Limitations of Open Firmware&lt;/h1&gt;
 
 &lt;p&gt;Differently from usual BIOSes of x86 computers, Open Firmware &lt;em&gt;can&lt;/em&gt; read the
 contents of a partition in your HD (or other devices), as long as it is
@@ -127,7 +127,7 @@ with yaboot the command is called &lt;code&gt;ybin&lt;/code&gt; (which, essentia
 putting &lt;code&gt;yaboot.conf&lt;/code&gt; in the bootstrap/HFS partition and blesses the
 &lt;code&gt;yaboot&lt;/code&gt; binary).&lt;/p&gt;
 
-&lt;h1 id=&quot;goingtogrub2&quot;&gt;Going to GRUB2&lt;/h1&gt;
+&lt;h1&gt;Going to GRUB2&lt;/h1&gt;
 
 &lt;p&gt;One of the characteristics of yaboot (which is left as an exercise to the
 reader to determine if it is a drawback or not) is exactly the way that
@@ -158,7 +158,7 @@ for disk partitioning software to create partitions slighly larger than
 much more than those 800KB. But how do you get that binary, in the first
 place? And how do you fit that in the HFS partition?&lt;/p&gt;
 
-&lt;h2 id=&quot;creatingthegrub2binary&quot;&gt;Creating the GRUB2 binary&lt;/h2&gt;
+&lt;h2&gt;Creating the GRUB2 binary&lt;/h2&gt;
 
 &lt;p&gt;To answer the first question, you have to construct it from your
 &lt;code&gt;grub-ieee1275&lt;/code&gt; package (I&#39;m assuming here that you are using Debian or
@@ -186,7 +186,7 @@ plan).&lt;/p&gt;
 you want. This already hints you to the way we can fit it in the HFS
 partition, and it is always the same story: just trim the fat.&lt;/p&gt;
 
-&lt;h2 id=&quot;creatingtheconfigurationfile&quot;&gt;Creating the configuration file&lt;/h2&gt;
+&lt;h2&gt;Creating the configuration file&lt;/h2&gt;
 
 &lt;p&gt;You will also have to have GRUB2 configuration&#39;s file (or you will have to
 play with way more commands than you&#39;d want to). An important distinction
@@ -248,7 +248,7 @@ As an example, &lt;code&gt;(hd,apple2)/boot/vmlinux&lt;/code&gt; if fully qualif
 purpose, while &lt;code&gt;/boot/vmlinux&lt;/code&gt; is not.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;puttingitalltogether&quot;&gt;Putting it all together&lt;/h2&gt;
+&lt;h2&gt;Putting it all together&lt;/h2&gt;
 
 &lt;p&gt;The next step is to just copy the files &lt;code&gt;grub.img&lt;/code&gt; and &lt;code&gt;grub.cfg&lt;/code&gt; to the
 special HFS partition. You can do that using &lt;code&gt;hmount&lt;/code&gt;, &lt;code&gt;hcopy&lt;/code&gt;, and
@@ -264,7 +264,7 @@ partition.&lt;/p&gt;
 yours, appropriately. You will then see the common (familiar?) GRUB prompt
 and, from there, everything else that you know will (hopefully) work.&lt;/p&gt;
 
-&lt;h1 id=&quot;thelistofmodulesthatworksformetm&quot;&gt;The list of modules that &quot;Works for Me(TM)&quot;&lt;/h1&gt;
+&lt;h1&gt;The list of modules that &quot;Works for Me(TM)&quot;&lt;/h1&gt;
 
 &lt;p&gt;As I mentioned above, I use a subset of all modules that come with
 &lt;code&gt;grub-ieee1275&lt;/code&gt; to create my &lt;code&gt;grub.img&lt;/code&gt; binary. Here is the list of modules
@@ -286,7 +286,7 @@ date.mod          gfxterm.mod   ls.mod           read.mod        suspend.mod
 &lt;p&gt;Just for the record, my &lt;code&gt;grub.img&lt;/code&gt; file has 624KB, and that can certainly be
 shrunk.&lt;/p&gt;
 
-&lt;h1 id=&quot;thecommandlinethatworksformetmtocreatetheimage&quot;&gt;The command line that &quot;Works for Me(TM)&quot; to create the image&lt;/h1&gt;
+&lt;h1&gt;The command line that &quot;Works for Me(TM)&quot; to create the image&lt;/h1&gt;
 
 &lt;p&gt;Actually, I lied when I told you that I used the lines above to create my
 &lt;code&gt;grub.img&lt;/code&gt; file, because I&#39;m lazy and I don&#39;t want to type the &lt;code&gt;.img&lt;/code&gt;
@@ -367,7 +367,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="powerpc" />
 
 
-	<updated>2011-03-12T03:41:13Z</updated>
+	<updated>2011-03-12T03:52:56Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 	<content type="html" xml:lang="en">
