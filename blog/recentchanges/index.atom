@@ -17,7 +17,69 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/" version="3.20111106">ikiwiki</generator>
-<updated>2011-11-24T00:27:46Z</updated>
+<updated>2011-11-24T00:59:23Z</updated>
+<entry>
+	<title>change to .blog.setup templates/inlinepage.tmpl templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>/blog//recentchanges/change_97d33009add866b7c7d317a7f06714bb20f53f0e/</id>
+
+	<link href="/blog/recentchanges/#change-97d33009add866b7c7d317a7f06714bb20f53f0e"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2011-11-24T00:59:23Z</updated>
+	<published>2011-11-24T00:59:23Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-97d33009add866b7c7d317a7f06714bb20f53f0e&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+.blog.setup
+
+templates/inlinepage.tmpl
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;22:59:23 2011-11-23&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Move around the disqus comment code.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to templates/inlinepage.tmpl templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -5897,78 +5959,6 @@ rbrito
 
 
 creating tag page tags/uncategorized&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to .gitignore archives comments index posts posts/first_post sidebar tags on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>/blog//recentchanges/change_c24de22b34b16f18b5fa234e47b07705d36a7475/</id>
-
-	<link href="/blog/recentchanges/#change-c24de22b34b16f18b5fa234e47b07705d36a7475"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2010-10-08T17:13:12Z</updated>
-	<published>2010-10-08T17:13:12Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-c24de22b34b16f18b5fa234e47b07705d36a7475&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-.gitignore
-
-archives
-
-comments
-
-index
-
-posts
-
-posts/first post
-
-sidebar
-
-tags
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;14:13:12 2010-10-08&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-initial commit&lt;br /&gt;
 
 
 &lt;/div&gt;
