@@ -117,11 +117,7 @@
 <TMPL_VAR CONTENT>
 <TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
 
-<TMPL_UNLESS DYNAMIC>
-<TMPL_IF COMMENTS>
 <TMPL_IF HTML5><section id="comments"><TMPL_ELSE><div id="comments"></TMPL_IF>
-<TMPL_VAR COMMENTS>
-<TMPL_IF ADDCOMMENTURL>
 
           <div id="disqus_thread"></div>
 
@@ -141,14 +137,6 @@
             Please enable JavaScript to view
             the <a href="http://disqus.com/?ref_noscript">comments</a>.
           </noscript>
-
-<TMPL_ELSE>
-<div class="addcomment">Comments on this page are closed.</div>
-</TMPL_IF>
-<TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
-</TMPL_UNLESS>
-
 </div>
 
 <TMPL_IF HTML5><footer id="footer" class="pagefooter"><TMPL_ELSE><div id="footer" class="pagefooter"></TMPL_IF>
