@@ -8,16 +8,16 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
-	<title>rbrito: change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<title>rbrito: change to posts/about on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
-	<guid isPermaLink="false">/blog//recentchanges/change_e8bc3b95a940ec4c6309919bb743674d78863c06/</guid>
+	<guid isPermaLink="false">/blog//recentchanges/change_86c59cb9825e80ce87929619391d9f2d79d25307/</guid>
 
-	<link>/blog/recentchanges/#change-e8bc3b95a940ec4c6309919bb743674d78863c06</link>
+	<link>/blog/recentchanges/#change-86c59cb9825e80ce87929619391d9f2d79d25307</link>
 
-	<pubDate>Wed, 23 Nov 2011 23:19:11 -0200</pubDate>
-	<dcterms:modified>2011-11-24T01:19:11Z</dcterms:modified>
+	<pubDate>Fri, 25 Nov 2011 00:05:26 -0200</pubDate>
+	<dcterms:modified>2011-11-25T02:05:26Z</dcterms:modified>
 
 	<description>
 
@@ -25,11 +25,11 @@
 
 
 
-&lt;div id=&quot;change-e8bc3b95a940ec4c6309919bb743674d78863c06&quot; class=&quot;metadata&quot;&gt;
+&lt;div id=&quot;change-86c59cb9825e80ce87929619391d9f2d79d25307&quot; class=&quot;metadata&quot;&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
 &lt;span class=&quot;pagelinks&quot;&gt;
 
-templates/page.tmpl
+posts/about
 
 &lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
@@ -41,14 +41,14 @@ rbrito
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
 &lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;23:19:11 2011-11-23&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;00:05:26 2011-11-25&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;changelog&quot;&gt;
 
 
-Change once more the template for the pages.&lt;br /&gt;
+Update links to sites related to me.&lt;br /&gt;
 
 
 &lt;/div&gt;
