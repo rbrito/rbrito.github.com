@@ -90,6 +90,7 @@ filesystems that don't cope well with many entries in one
 directory).</li>
 </ul>
 
+
 <p>The transition wasn't painless from
 <a href="http://packages.debian.org/apt-move"><code>apt-move</code></a>, since apt-move
 moves the files, but renames them in a way that they don't keep
@@ -100,7 +101,7 @@ packages.</p>
 filled the cache redownloading the packages with something
 approximately like this:</p>
 
-<pre><code>apt-get -d --reinstall install &#036;(dpkg -l | grep "^ii" | cut -d " " -f 3)
+<pre><code>apt-get -d --reinstall install $(dpkg -l | grep "^ii" | cut -d " " -f 3)
 </code></pre>
 
 <p>Well, I hope that this experience happens to be useful for other

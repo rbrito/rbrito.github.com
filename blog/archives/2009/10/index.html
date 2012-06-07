@@ -64,6 +64,8 @@
 
 
 <div class="sidebar">
+
+
 <div><div class="calendar"><table class="month-calendar">
     <tr>
     <th class="month-calendar-arrow"><a href="../09/" title="September">&larr;</a></th>
@@ -127,12 +129,15 @@
 </table>
 </div></div>
 
+
 </div>
 
 
 <div id="pagebody">
 
 <div id="content">
+
+
 <div class="inlinepage">
 
 <div class="inlineheader">
@@ -177,15 +182,15 @@ going, but here are the distilled situation:</p>
 SIZE=32
 
 # Create the basic disk image
-dd if=/dev/zero of=disk.img bs=1M count=&#036;SIZE
+dd if=/dev/zero of=disk.img bs=1M count=$SIZE
 parted --script disk.img mktable msdos
-parted --script disk.img mkpart primary fat16 0 &#036;{SIZE}MB
+parted --script disk.img mkpart primary fat16 0 ${SIZE}MB
 parted --script disk.img mkfs 1 fat16
 parted --script disk.img set 1 boot on
 
 # Mount it
-SECTORS=&#036;(fdisk -l -u disk.img 2&gt;&amp;1| tail -1 | perl -ne 'print "&#036;1" if (m/\s+(\d+)\s+/);')
-mount -t vfat -o loop,offset=&#036;((SECTORS * 512)) disk.img /mnt
+SECTORS=$(fdisk -l -u disk.img 2&gt;&amp;1| tail -1 | perl -ne 'print "$1" if (m/\s+(\d+)\s+/);')
+mount -t vfat -o loop,offset=$((SECTORS * 512)) disk.img /mnt
 
 # Copy the bootloader
 # Copy a FreeDOS image and treat it as a ramdisk (it will be the "A:" drive)
@@ -243,6 +248,9 @@ umount /mnt
 </div>
 
 </div>
+
+
+
 
 
 </div>

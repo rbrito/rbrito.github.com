@@ -64,6 +64,8 @@
 
 
 <div class="sidebar">
+
+
 <div><div class="calendar"><table class="month-calendar">
     <tr>
     <th class="month-calendar-arrow"><a href="../03/" title="March">&larr;</a></th>
@@ -127,12 +129,15 @@
 </table>
 </div></div>
 
+
 </div>
 
 
 <div id="pagebody">
 
 <div id="content">
+
+
 <div class="inlinepage">
 
 <div class="inlineheader">
@@ -298,6 +303,7 @@ your kernels and initial ramdisks.</li>
 <li>other partitions.</li>
 </ul>
 
+
 <p>With this in mind, you can With Let's say that this last one, in Linux
 parlance, is <code>/dev/hda3</code> (as is the case of this author), and optionally a
 partition where your Linux kernel resides (people usually use it to store
@@ -342,6 +348,7 @@ being relative to.</p>
 As an example, <code>(hd,apple2)/boot/vmlinux</code> if fully qualified for GRUB's
 purpose, while <code>/boot/vmlinux</code> is not.</p></li>
 </ul>
+
 
 <h2>Putting it all together</h2>
 
@@ -407,7 +414,7 @@ your system's NVRAM) alone.</p>
 <p>Here is what I am using right now:</p>
 
 <pre><code>search --no-floppy --fs-uuid --set=root 35d26869-f7c9-4852-a9b8-100314560c34
-set prefix=(&#036;root)/boot/grub
+set prefix=($root)/boot/grub
 configfile /boot/grub/grub.cfg
 </code></pre>
 
@@ -467,6 +474,9 @@ etc. partitions without the fear that your bootloader won't load them.</p>
 </div>
 
 </div>
+
+
+
 
 
 </div>

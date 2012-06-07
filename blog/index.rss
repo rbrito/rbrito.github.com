@@ -8,6 +8,65 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>I am not going to DebConf 12</title>
+
+
+	<guid isPermaLink="false">/blog//posts/i-am-not-going-to-debconf-12/</guid>
+
+	<link>/blog//posts/i-am-not-going-to-debconf-12/</link>
+
+
+	<category>debconf</category>
+
+	<category>debian</category>
+
+	<category>development</category>
+
+	<category>fonts</category>
+
+	<category>free-software</category>
+
+	<category>handbrake</category>
+
+	<category>multimedia</category>
+
+
+	<pubDate>Thu, 07 Jun 2012 01:59:42 -0300</pubDate>
+	<dcterms:modified>2012-06-07T04:58:09Z</dcterms:modified>
+
+	<description>&lt;p&gt;Due to some real life impediments (including a beautiful one with just over
+2 months of life called Daniel), I will not be able to go to this year&#39;s
+DebConf, even though it seems that this DebConf will exceed many
+expectations with the support that the governement of Nicaragua just
+offered.&lt;/p&gt;
+
+&lt;h1&gt;Things that I would like to have worked on&lt;/h1&gt;
+
+&lt;p&gt;Unfortunately, this means that I will not be working with some fellows that
+may be there, like people from the &lt;code&gt;pkg-multimedia&lt;/code&gt; team.&lt;/p&gt;
+
+&lt;p&gt;In particular, as I am working on some packages that are not that well
+suited to distributions (especially regarding &lt;a href=&quot;http://handbrake.fr/&quot;&gt;HandBrake&lt;/a&gt;), it would be
+highly productive to have a hacking session or two with other people
+interested in having this popular and easy-to-use video ripper/transcoder on
+Debian.&lt;/p&gt;
+
+&lt;p&gt;I would also like to be able to talk in person with other people (including
+&lt;a href=&quot;http://joeyh.name/blog/&quot;&gt;Joey Hess&lt;/a&gt;) about controversial packaging of some programs, like GNU
+Parallel, &lt;a href=&quot;http://packages.debian.org/sid/parallel&quot;&gt;which I maintain in Debian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are many things else that I would love to work on, besides helping a
+bit with some of the still pending transitions of the the
+&lt;a href=&quot;http://pkg-fonts.alioth.debian.org/&quot;&gt;Debian Fonts Task Force umbrella&lt;/a&gt;, meeting friends and other social
+stuff.&lt;/p&gt;
+
+&lt;p&gt;Oh, well. I guess that working at home will be the solution for some time.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>Installing Meego on the N900</title>
 
 
@@ -60,6 +119,7 @@ required:&lt;/p&gt;
 &lt;li&gt;Turn the phone off, plug in the µSD card, and &lt;strong&gt;PUT THE BACK COVER&lt;/strong&gt; on
 the phone.&lt;/li&gt;
 &lt;/ol&gt;
+
 
 &lt;p&gt;The last bit of the third step is crucial, as, otherwise, the SD card won&#39;t
 be detected and you will get kernel panics with the device trying to mount
@@ -276,6 +336,7 @@ your kernels and initial ramdisks.&lt;/li&gt;
 &lt;li&gt;other partitions.&lt;/li&gt;
 &lt;/ul&gt;
 
+
 &lt;p&gt;With this in mind, you can With Let&#39;s say that this last one, in Linux
 parlance, is &lt;code&gt;/dev/hda3&lt;/code&gt; (as is the case of this author), and optionally a
 partition where your Linux kernel resides (people usually use it to store
@@ -320,6 +381,7 @@ being relative to.&lt;/p&gt;
 As an example, &lt;code&gt;(hd,apple2)/boot/vmlinux&lt;/code&gt; if fully qualified for GRUB&#39;s
 purpose, while &lt;code&gt;/boot/vmlinux&lt;/code&gt; is not.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;h2&gt;Putting it all together&lt;/h2&gt;
 
@@ -385,7 +447,7 @@ your system&#39;s NVRAM) alone.&lt;/p&gt;
 &lt;p&gt;Here is what I am using right now:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;search --no-floppy --fs-uuid --set=root 35d26869-f7c9-4852-a9b8-100314560c34
-set prefix=(&amp;#036;root)/boot/grub
+set prefix=($root)/boot/grub
 configfile /boot/grub/grub.cfg
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -432,13 +494,12 @@ my frustrations with Chromium/Chrome.  A very kind reader, Timo Juhani
 Lindfors, gave me answers to many of the problems that I pointed out and got
 me straight on some issues:&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;ul&gt;
-  &lt;li&gt;I can disable full zoom in Iceweasel (i.e., I only want to zoom the text,
-  not the images). According to Chromium&#39;s project BTS, it seems that this
-  will be a &lt;code&gt;WONTFIX&lt;/code&gt; bug, despite many people asking for it (and it having
-  a lot of duplicates).&lt;/li&gt;
-  &lt;/ul&gt;
+&lt;blockquote&gt;&lt;ul&gt;
+&lt;li&gt;I can disable full zoom in Iceweasel (i.e., I only want to zoom the text,
+not the images). According to Chromium&#39;s project BTS, it seems that this
+will be a &lt;code&gt;WONTFIX&lt;/code&gt; bug, despite many people asking for it (and it having
+a lot of duplicates).&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Timo told me that there is an extension called &lt;a href=&quot;https://chrome.google.com/webstore/detail/ombpcpigmndepfckcifdblemkabaoihk&quot;&gt;&quot;Font Size Increase&quot;&lt;/a&gt;
@@ -452,13 +513,12 @@ as the name implies, decreases the size of the text. It is nice to have this
 one when you clicked on the button to increase the size of the font one or
 two times too many.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;ul&gt;
-  &lt;li&gt;In Iceweasel, I have a way (without resorting to many extensions or
-  hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &amp;gt; Page Style &amp;gt;
-  No Style&quot; (i.e., to ignore any CSS sheet that the document author may have
-  specified on the page).&lt;/li&gt;
-  &lt;/ul&gt;
+&lt;blockquote&gt;&lt;ul&gt;
+&lt;li&gt;In Iceweasel, I have a way (without resorting to many extensions or
+hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &amp;gt; Page Style &amp;gt;
+No Style&quot; (i.e., to ignore any CSS sheet that the document author may have
+specified on the page).&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Timo also told me that there is a very cool extension called
@@ -476,24 +536,22 @@ simple solution enough that made me consider revisit my requirements.  I do,
 though, wonder why some frequently used extensions are not built into the
 programs from stock.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;ul&gt;
-  &lt;li&gt;In Iceweasel, I can press &lt;code&gt;Ctrl+Q&lt;/code&gt; and make the damn browser quit, instead
-  of me having to use the mouse/trackpad/pointing device. This is probably a
-  lack of my understanding on how to associate key bindings to Chromium, but
-  the problem still stands.&lt;/li&gt;
-  &lt;/ul&gt;
+&lt;blockquote&gt;&lt;ul&gt;
+&lt;li&gt;In Iceweasel, I can press &lt;code&gt;Ctrl+Q&lt;/code&gt; and make the damn browser quit, instead
+of me having to use the mouse/trackpad/pointing device. This is probably a
+lack of my understanding on how to associate key bindings to Chromium, but
+the problem still stands.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Of course, Timo also set me straight and told me about &lt;code&gt;Ctrl+Shift+Q&lt;/code&gt; for
 that purpose, which I had missed completely.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Similarly, when there is only one tab open, pressing &lt;code&gt;Ctrl+W&lt;/code&gt; in Chromium
-  does not close the tab (say, presenting me a blank tab or the list of most
-  visited sites), nor it closes the application.&lt;/li&gt;
-  &lt;/ul&gt;
+&lt;blockquote&gt;&lt;ul&gt;
+&lt;li&gt;Similarly, when there is only one tab open, pressing &lt;code&gt;Ctrl+W&lt;/code&gt; in Chromium
+does not close the tab (say, presenting me a blank tab or the list of most
+visited sites), nor it closes the application.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;As a poor writing of my part, &lt;code&gt;Ctrl+W&lt;/code&gt; does close the tabs. But when there
@@ -583,6 +641,7 @@ does not close the tab (say, presenting me a blank tab or the list of most
 visited sites), nor it closes the application.&lt;/li&gt;
 &lt;/ul&gt;
 
+
 &lt;p&gt;I would be satisfied if any of the above were fixed or better documented,
 but it seems that some of those are, at best, going to wait a long time.&lt;/p&gt;
 </description>
@@ -660,9 +719,9 @@ expect to fix those in two or three days.&lt;/p&gt;
 
 &lt;p&gt;(This should just be a matter of including something like&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;edit name=&quot;embeddedbitmap&quot; mode=&quot;assign&quot;&amp;gt;
-    &amp;lt;bool&amp;gt;true&amp;lt;/bool&amp;gt;
-&amp;lt;/edit&amp;gt;
+&lt;pre&gt;&lt;code&gt;  &amp;lt;edit name=&quot;embeddedbitmap&quot; mode=&quot;assign&quot;&amp;gt;
+      &amp;lt;bool&amp;gt;true&amp;lt;/bool&amp;gt;
+  &amp;lt;/edit&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;in the configuration that I ship with the fonts).&lt;/p&gt;&lt;/li&gt;
@@ -696,9 +755,9 @@ can substitute Times/Times New Roman. It works well both with &quot;regular&quot
 latex/pdflatex and with XeTeX (and, quite probably, with LuaTeX). It has
 quite a lot of OpenType features:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;rbrito:~&amp;#036; otfinfo -f /usr/share/fonts/truetype/linux-libertine/LinLibertine_Re.ttf | wc -l
-25
-rbrito:~&amp;#036;
+&lt;pre&gt;&lt;code&gt;  rbrito:~$ otfinfo -f /usr/share/fonts/truetype/linux-libertine/LinLibertine_Re.ttf | wc -l
+  25
+  rbrito:~$
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;OK, I can&#39;t be impartial with this font. It is beautiful. It is a pity
@@ -717,6 +776,7 @@ Vietnamese glyphs made available by Hàn Thế Thành. Heuristica is a family
 that features regular and italic shapes, with both being present also in
 bold weight.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;p&gt;Well, that&#39;s it for now. Stay tuned for more to come.&lt;/p&gt;
 </description>
@@ -803,6 +863,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
     &lt;li&gt;&lt;strong&gt;JFK-&amp;gt;GRU:&lt;/strong&gt; Departure: 2010-08-09, 21:40; Arrival: 2010-08-10, 8:35, Flight AA951&lt;/li&gt;
 &lt;/ul&gt;
 
+
 &lt;p&gt;This represents a personal milestone for me, as I have many plans for the conference. In fact, this will be a trip of many &quot;firsts&quot; for me:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -814,6 +875,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
     &lt;li&gt;this will be a very nice opportunity to get myself in a &quot;big&quot; &lt;a href=&quot;http://en.wikipedia.org/wiki/Strongly_connected_component&quot;&gt;strongly connected component &lt;/a&gt; of the &lt;a href=&quot;http://en.wikipedia.org/wiki/Web_of_trust&quot;&gt;Web-of-Trust&lt;/a&gt; with as many arcs as feasible, by means of the &lt;a href=&quot;http://people.debian.org/~anibal/ksp-dc10/ksp-dc10.html&quot;&gt;key signing party.&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;and many, many other things that I would like to do for the project.&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;p&gt;I am thankful for the DebConf team sponsoring both accomodation and food.  It is highly appreciated.&lt;/p&gt;
 
@@ -856,11 +918,13 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 &lt;h2&gt;Announcement&lt;/h2&gt;
 
+
 &lt;p&gt;For those people that are insterested in a &lt;em&gt;small&lt;/em&gt; PDF viewer, based on &lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;an actively maintained backend&lt;/a&gt;, and that &lt;a href=&quot;http://localhost/blog/2010/05/27/please-let-me-zoom-my-documents/&quot;&gt;doesn&#39;t bring your computer to a halt&lt;/a&gt; when you try to zoom your documents when you need to see some details, then you might want to give &lt;a href=&quot;http://github.com/rbrito/xpdf-poppler&quot;&gt;this version of xpdf&lt;/a&gt; a try.&lt;/p&gt;
 
 &lt;p&gt;I already received some reports for some bugs and fixed them, with one of them being a problem related by a kind user of &lt;a href=&quot;http://www.gentoo.org/&quot;&gt;Gentoo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2&gt;Motivation&lt;/h2&gt;
+
 
 &lt;p&gt;Some people have asked me why this even needs to exist in the first place and I agree that it would be better if it didn&#39;t: I would love to spend my time actually &lt;em&gt;using&lt;/em&gt; my computers rather than &lt;em&gt;fixing&lt;/em&gt; my computers for better tasks (read: studying Mathematics, etc).&lt;/p&gt;
 
@@ -873,6 +937,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 &lt;p&gt;Some people, though, would like to &lt;a href=&quot;http://en.wikipedia.org/wiki/KISS_principle&quot;&gt;keep it simple&lt;/a&gt; (me included).  Unfortunately, &lt;a href=&quot;http://bugs.debian.org/351279&quot;&gt;some efforts&lt;/a&gt; to &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00046.html&quot;&gt;maintain&lt;/a&gt; it had &lt;a href=&quot;http://bugs.gentoo.org/show_bug.cgi?id=289803&quot;&gt;not had&lt;/a&gt; the &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00068.html&quot;&gt;necessary coordination&lt;/a&gt; and duplication of effort has occured.&lt;/p&gt;
 
 &lt;h2&gt;Proposal&lt;/h2&gt;
+
 
 &lt;p&gt;I am willing to become a patch aggregator for the code in xpdf with a poppler backend. I would love to give it some refactoring too, drop some of the legacy code that is not used (and only serves to make the code hard to read), and adopt some good coding style standard (I particularly &lt;a href=&quot;http://www.kernel.org/doc/Documentation/CodingStyle&quot;&gt;like the one from the Linux Kernel&lt;/a&gt;---with the proper adaptations for C++).&lt;/p&gt;
 
@@ -922,47 +987,6 @@ Open Font Library.&lt;/p&gt;
 &lt;p&gt;This, together with Google&#39;s new &lt;a href=&quot;http://code.google.com/webfonts&quot;&gt;font directory&lt;/a&gt; of Free Software fonts
 (overshadowed by the release of VP8 codec, in the eyes of some), shows that
 the typographic arena is alive and going strong.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>Preliminary support for webm in youtube-dl</title>
-
-
-	<guid isPermaLink="false">/blog//posts/preliminary-support-for-webm-in-youtube-dl/</guid>
-
-	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/</link>
-
-
-	<category>audio</category>
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>hacks</category>
-
-	<category>libraries</category>
-
-	<category>multimedia</category>
-
-	<category>video</category>
-
-
-	<pubDate>Sat, 29 May 2010 17:06:18 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
-
-	<description>&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
-
-&lt;p&gt;This way, at least people will have some material (in, fact, a chance) to play with this format.  I implemented this because, so far, I was only hoping here that a player for this would emerge. I guess that Debian&#39;s ffmpeg/mplayer will take some time, but I was pleased to see that Sebastian Dröge to upload a version of &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02596.html&quot;&gt;something&lt;/a&gt; that could use the new &lt;code&gt;libvpx&lt;/code&gt; codec.&lt;/p&gt;
-
-&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;/blog//./smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Well, it seems to be time to shape up that local build of mine of the &lt;a href=&quot;http://www.geocities.jp/aoyoume/aotuv/&quot;&gt;aotuv&lt;/a&gt; tuned version of Vorbis with &lt;a href=&quot;http://www.geocities.jp/aoyoume/&quot;&gt;Aoyumi&lt;/a&gt;&#39;s patches for libvorbis.&lt;/p&gt;
-
-&lt;p&gt;Exciting times in the multimedia world.&lt;/p&gt;
 </description>
 
 

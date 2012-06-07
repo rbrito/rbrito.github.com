@@ -8,6 +8,65 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>I am not going to DebConf 12</title>
+
+
+	<guid isPermaLink="false">/blog//posts/i-am-not-going-to-debconf-12/</guid>
+
+	<link>/blog//posts/i-am-not-going-to-debconf-12/</link>
+
+
+	<category>debconf</category>
+
+	<category>debian</category>
+
+	<category>development</category>
+
+	<category>fonts</category>
+
+	<category>free-software</category>
+
+	<category>handbrake</category>
+
+	<category>multimedia</category>
+
+
+	<pubDate>Thu, 07 Jun 2012 01:59:42 -0300</pubDate>
+	<dcterms:modified>2012-06-07T04:58:09Z</dcterms:modified>
+
+	<description>&lt;p&gt;Due to some real life impediments (including a beautiful one with just over
+2 months of life called Daniel), I will not be able to go to this year&#39;s
+DebConf, even though it seems that this DebConf will exceed many
+expectations with the support that the governement of Nicaragua just
+offered.&lt;/p&gt;
+
+&lt;h1&gt;Things that I would like to have worked on&lt;/h1&gt;
+
+&lt;p&gt;Unfortunately, this means that I will not be working with some fellows that
+may be there, like people from the &lt;code&gt;pkg-multimedia&lt;/code&gt; team.&lt;/p&gt;
+
+&lt;p&gt;In particular, as I am working on some packages that are not that well
+suited to distributions (especially regarding &lt;a href=&quot;http://handbrake.fr/&quot;&gt;HandBrake&lt;/a&gt;), it would be
+highly productive to have a hacking session or two with other people
+interested in having this popular and easy-to-use video ripper/transcoder on
+Debian.&lt;/p&gt;
+
+&lt;p&gt;I would also like to be able to talk in person with other people (including
+&lt;a href=&quot;http://joeyh.name/blog/&quot;&gt;Joey Hess&lt;/a&gt;) about controversial packaging of some programs, like GNU
+Parallel, &lt;a href=&quot;http://packages.debian.org/sid/parallel&quot;&gt;which I maintain in Debian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are many things else that I would love to work on, besides helping a
+bit with some of the still pending transitions of the the
+&lt;a href=&quot;http://pkg-fonts.alioth.debian.org/&quot;&gt;Debian Fonts Task Force umbrella&lt;/a&gt;, meeting friends and other social
+stuff.&lt;/p&gt;
+
+&lt;p&gt;Oh, well. I guess that working at home will be the solution for some time.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>Running GRUB2 on PowerPC Macs</title>
 
 
@@ -188,6 +247,7 @@ your kernels and initial ramdisks.&lt;/li&gt;
 &lt;li&gt;other partitions.&lt;/li&gt;
 &lt;/ul&gt;
 
+
 &lt;p&gt;With this in mind, you can With Let&#39;s say that this last one, in Linux
 parlance, is &lt;code&gt;/dev/hda3&lt;/code&gt; (as is the case of this author), and optionally a
 partition where your Linux kernel resides (people usually use it to store
@@ -232,6 +292,7 @@ being relative to.&lt;/p&gt;
 As an example, &lt;code&gt;(hd,apple2)/boot/vmlinux&lt;/code&gt; if fully qualified for GRUB&#39;s
 purpose, while &lt;code&gt;/boot/vmlinux&lt;/code&gt; is not.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;h2&gt;Putting it all together&lt;/h2&gt;
 
@@ -297,7 +358,7 @@ your system&#39;s NVRAM) alone.&lt;/p&gt;
 &lt;p&gt;Here is what I am using right now:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;search --no-floppy --fs-uuid --set=root 35d26869-f7c9-4852-a9b8-100314560c34
-set prefix=(&amp;#036;root)/boot/grub
+set prefix=($root)/boot/grub
 configfile /boot/grub/grub.cfg
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -388,9 +449,9 @@ expect to fix those in two or three days.&lt;/p&gt;
 
 &lt;p&gt;(This should just be a matter of including something like&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;edit name=&quot;embeddedbitmap&quot; mode=&quot;assign&quot;&amp;gt;
-    &amp;lt;bool&amp;gt;true&amp;lt;/bool&amp;gt;
-&amp;lt;/edit&amp;gt;
+&lt;pre&gt;&lt;code&gt;  &amp;lt;edit name=&quot;embeddedbitmap&quot; mode=&quot;assign&quot;&amp;gt;
+      &amp;lt;bool&amp;gt;true&amp;lt;/bool&amp;gt;
+  &amp;lt;/edit&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;in the configuration that I ship with the fonts).&lt;/p&gt;&lt;/li&gt;
@@ -424,9 +485,9 @@ can substitute Times/Times New Roman. It works well both with &quot;regular&quot
 latex/pdflatex and with XeTeX (and, quite probably, with LuaTeX). It has
 quite a lot of OpenType features:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;rbrito:~&amp;#036; otfinfo -f /usr/share/fonts/truetype/linux-libertine/LinLibertine_Re.ttf | wc -l
-25
-rbrito:~&amp;#036;
+&lt;pre&gt;&lt;code&gt;  rbrito:~$ otfinfo -f /usr/share/fonts/truetype/linux-libertine/LinLibertine_Re.ttf | wc -l
+  25
+  rbrito:~$
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;OK, I can&#39;t be impartial with this font. It is beautiful. It is a pity
@@ -445,6 +506,7 @@ Vietnamese glyphs made available by Hàn Thế Thành. Heuristica is a family
 that features regular and italic shapes, with both being present also in
 bold weight.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;p&gt;Well, that&#39;s it for now. Stay tuned for more to come.&lt;/p&gt;
 </description>
@@ -531,6 +593,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
     &lt;li&gt;&lt;strong&gt;JFK-&amp;gt;GRU:&lt;/strong&gt; Departure: 2010-08-09, 21:40; Arrival: 2010-08-10, 8:35, Flight AA951&lt;/li&gt;
 &lt;/ul&gt;
 
+
 &lt;p&gt;This represents a personal milestone for me, as I have many plans for the conference. In fact, this will be a trip of many &quot;firsts&quot; for me:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -542,6 +605,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
     &lt;li&gt;this will be a very nice opportunity to get myself in a &quot;big&quot; &lt;a href=&quot;http://en.wikipedia.org/wiki/Strongly_connected_component&quot;&gt;strongly connected component &lt;/a&gt; of the &lt;a href=&quot;http://en.wikipedia.org/wiki/Web_of_trust&quot;&gt;Web-of-Trust&lt;/a&gt; with as many arcs as feasible, by means of the &lt;a href=&quot;http://people.debian.org/~anibal/ksp-dc10/ksp-dc10.html&quot;&gt;key signing party.&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;and many, many other things that I would like to do for the project.&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;p&gt;I am thankful for the DebConf team sponsoring both accomodation and food.  It is highly appreciated.&lt;/p&gt;
 
@@ -584,11 +648,13 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 &lt;h2&gt;Announcement&lt;/h2&gt;
 
+
 &lt;p&gt;For those people that are insterested in a &lt;em&gt;small&lt;/em&gt; PDF viewer, based on &lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;an actively maintained backend&lt;/a&gt;, and that &lt;a href=&quot;http://localhost/blog/2010/05/27/please-let-me-zoom-my-documents/&quot;&gt;doesn&#39;t bring your computer to a halt&lt;/a&gt; when you try to zoom your documents when you need to see some details, then you might want to give &lt;a href=&quot;http://github.com/rbrito/xpdf-poppler&quot;&gt;this version of xpdf&lt;/a&gt; a try.&lt;/p&gt;
 
 &lt;p&gt;I already received some reports for some bugs and fixed them, with one of them being a problem related by a kind user of &lt;a href=&quot;http://www.gentoo.org/&quot;&gt;Gentoo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2&gt;Motivation&lt;/h2&gt;
+
 
 &lt;p&gt;Some people have asked me why this even needs to exist in the first place and I agree that it would be better if it didn&#39;t: I would love to spend my time actually &lt;em&gt;using&lt;/em&gt; my computers rather than &lt;em&gt;fixing&lt;/em&gt; my computers for better tasks (read: studying Mathematics, etc).&lt;/p&gt;
 
@@ -601,6 +667,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 &lt;p&gt;Some people, though, would like to &lt;a href=&quot;http://en.wikipedia.org/wiki/KISS_principle&quot;&gt;keep it simple&lt;/a&gt; (me included).  Unfortunately, &lt;a href=&quot;http://bugs.debian.org/351279&quot;&gt;some efforts&lt;/a&gt; to &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00046.html&quot;&gt;maintain&lt;/a&gt; it had &lt;a href=&quot;http://bugs.gentoo.org/show_bug.cgi?id=289803&quot;&gt;not had&lt;/a&gt; the &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00068.html&quot;&gt;necessary coordination&lt;/a&gt; and duplication of effort has occured.&lt;/p&gt;
 
 &lt;h2&gt;Proposal&lt;/h2&gt;
+
 
 &lt;p&gt;I am willing to become a patch aggregator for the code in xpdf with a poppler backend. I would love to give it some refactoring too, drop some of the legacy code that is not used (and only serves to make the code hard to read), and adopt some good coding style standard (I particularly &lt;a href=&quot;http://www.kernel.org/doc/Documentation/CodingStyle&quot;&gt;like the one from the Linux Kernel&lt;/a&gt;---with the proper adaptations for C++).&lt;/p&gt;
 
@@ -664,11 +731,12 @@ console&quot; called a netconsole. It can be enabled with the options: is quite
 handy to see how the machine is booting with a &quot;virtual console&quot; called a
 netconsole. It can be enabled with the options:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;CONFIG_NETCONSOLE=y
-CONFIG_NETPOLL=y
-CONFIG_NET_POLL_CONTROLLER=y
+&lt;pre&gt;&lt;code&gt;  CONFIG_NETCONSOLE=y
+  CONFIG_NETPOLL=y
+  CONFIG_NET_POLL_CONTROLLER=y
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;p&gt;You have to tell the kernel where to send the messages that would,
 otherwise, be presented on a screen. For sending them over the network, just
@@ -696,26 +764,27 @@ correct image---but it is the task of the packager/distributor to find if
 those images are needed or not. For the KuroBox HD/HG, all that is needed
 is a simple:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;cp &amp;#036;LINUXPATH/arch/powerpc/boot/uImage &amp;#036;BUILT_ROOT/boot/uImage-&amp;#036;VERSION
+&lt;pre&gt;&lt;code&gt;  cp $LINUXPATH/arch/powerpc/boot/uImage $BUILT_ROOT/boot/uImage-$VERSION
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;some extra care is needed when generating a kernel for such arches: the
 tree of the devices which the kernel needs does not seem to be built
 automatically (this is the case of the the KuroBox HD/HG). Something like
 this is needed after the compilation of the kernel proper:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;./scripts/dtc/dtc -I dts -O dtb -V 16 -o &amp;#036;BUILT_ROOT/boot/kuroboxHD.dtb-&amp;#036;VERSION ./arch/powerpc/boot/dts/kuroboxHD.dts
-./scripts/dtc/dtc -I dts -O dtb -V 16 -o &amp;#036;BUILT_ROOT/boot/kuroboxHG.dtb-&amp;#036;VERSION ./arch/powerpc/boot/dts/kuroboxHG.dts
+&lt;pre&gt;&lt;code&gt;  ./scripts/dtc/dtc -I dts -O dtb -V 16 -o $BUILT_ROOT/boot/kuroboxHD.dtb-$VERSION ./arch/powerpc/boot/dts/kuroboxHD.dts
+  ./scripts/dtc/dtc -I dts -O dtb -V 16 -o $BUILT_ROOT/boot/kuroboxHG.dtb-$VERSION ./arch/powerpc/boot/dts/kuroboxHG.dts
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;to cross compile a kernel, don&#39;t forget to set the appropriate environment
 options, like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make clean
-INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make oldconfig
-INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make menuconfig
-INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make all modules
-INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make modules_install
+&lt;pre&gt;&lt;code&gt;  INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make clean
+  INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make oldconfig
+  INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make menuconfig
+  INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make all modules
+  INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make modules_install
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;p&gt;It won&#39;t hurt if you use a concurrency setting (like -j3 or more) when
 compiling all and modules.&lt;/p&gt;
@@ -723,10 +792,10 @@ compiling all and modules.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The uBoot command line (accessed via the network) can be something like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;ext2load ide &amp;#036;{hdpart} &amp;#036;{ldaddr} &amp;#036;{hdfile}
-ext2load ide &amp;#036;{hdpart} 7f0000 boot/kuroboxHD.dtb
-setenv bootargs root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/
-bootm &amp;#036;{ldaddr} - 7f0000
+&lt;pre&gt;&lt;code&gt;  ext2load ide ${hdpart} ${ldaddr} ${hdfile}
+  ext2load ide ${hdpart} 7f0000 boot/kuroboxHD.dtb
+  setenv bootargs root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/
+  bootm ${ldaddr} - 7f0000
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The first two lines tell uBoot to load the both the kernel and the device
@@ -740,21 +809,21 @@ is the memory address where the kernel should be loaded to.&lt;/p&gt;&lt;/li&gt;
 ext4 (and, in particular, delayed allocation) with ext{2,3}
 filesystems. To use it, just put this in your kernel configuration file:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;CONFIG_EXT4_USE_FOR_EXT23=y
+&lt;pre&gt;&lt;code&gt;  CONFIG_EXT4_USE_FOR_EXT23=y
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Support for daemons like avr-evtd, that need access to a serial port (so
 that the user can turn off the device by pressing the power button),
 enable:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;CONFIG_SERIO=y
-CONFIG_SERIO_SERPORT=y
-CONFIG_SERIAL_8250=y
+&lt;pre&gt;&lt;code&gt;  CONFIG_SERIO=y
+  CONFIG_SERIO_SERPORT=y
+  CONFIG_SERIAL_8250=y
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Otherwise, you will always have to ssh into the system, become root, and
 issue something like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;shutdown -h now
+&lt;pre&gt;&lt;code&gt;  shutdown -h now
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;which is an inconvenience.&lt;/p&gt;&lt;/li&gt;
@@ -762,13 +831,13 @@ issue something like:&lt;/p&gt;
 not be that obvious for some non-x86 platforms. In particular, for a
 KuroBox HD, I&#39;m using:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;CONFIG_RTC_CLASS=y
-CONFIG_RTC_HCTOSYS=y
-CONFIG_RTC_HCTOSYS_DEVICE=rtc0
-CONFIG_RTC_INTF_SYSFS=y
-CONFIG_RTC_INTF_PROC=y
-CONFIG_RTC_INTF_DEV=y
-CONFIG_RTC_DRV_RS5C372=y
+&lt;pre&gt;&lt;code&gt;  CONFIG_RTC_CLASS=y
+  CONFIG_RTC_HCTOSYS=y
+  CONFIG_RTC_HCTOSYS_DEVICE=rtc0
+  CONFIG_RTC_INTF_SYSFS=y
+  CONFIG_RTC_INTF_PROC=y
+  CONFIG_RTC_INTF_DEV=y
+  CONFIG_RTC_DRV_RS5C372=y
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The last option is, perhaps, the tricky one, and varies from system to
@@ -776,6 +845,7 @@ system. Knowing which one to enable is a matter of knowing the specs of
 your system and, if not known, discovery by trial-and-error. (For x86
 systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
 
 

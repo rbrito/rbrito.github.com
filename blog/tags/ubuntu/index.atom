@@ -16,7 +16,7 @@
 <id>/blog//tags/ubuntu/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20111106">ikiwiki</generator>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
 <updated>2011-03-12T03:52:56Z</updated>
 <entry>
 	<title>My problems with Chromium</title>
@@ -88,6 +88,7 @@ the problem still stands.&lt;/li&gt;
 does not close the tab (say, presenting me a blank tab or the list of most
 visited sites), nor it closes the application.&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;p&gt;I would be satisfied if any of the above were fixed or better documented,
 but it seems that some of those are, at best, going to wait a long time.&lt;/p&gt;

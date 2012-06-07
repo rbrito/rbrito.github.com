@@ -16,7 +16,7 @@
 <id>/blog//tags/extensions/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20111106">ikiwiki</generator>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
 <updated>2011-03-12T03:52:56Z</updated>
 <entry>
 	<title>(Some) Solutions with Chromium</title>
@@ -48,13 +48,12 @@ my frustrations with Chromium/Chrome.  A very kind reader, Timo Juhani
 Lindfors, gave me answers to many of the problems that I pointed out and got
 me straight on some issues:&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;ul&gt;
-  &lt;li&gt;I can disable full zoom in Iceweasel (i.e., I only want to zoom the text,
-  not the images). According to Chromium&#39;s project BTS, it seems that this
-  will be a &lt;code&gt;WONTFIX&lt;/code&gt; bug, despite many people asking for it (and it having
-  a lot of duplicates).&lt;/li&gt;
-  &lt;/ul&gt;
+&lt;blockquote&gt;&lt;ul&gt;
+&lt;li&gt;I can disable full zoom in Iceweasel (i.e., I only want to zoom the text,
+not the images). According to Chromium&#39;s project BTS, it seems that this
+will be a &lt;code&gt;WONTFIX&lt;/code&gt; bug, despite many people asking for it (and it having
+a lot of duplicates).&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Timo told me that there is an extension called &lt;a href=&quot;https://chrome.google.com/webstore/detail/ombpcpigmndepfckcifdblemkabaoihk&quot;&gt;&quot;Font Size Increase&quot;&lt;/a&gt;
@@ -68,13 +67,12 @@ as the name implies, decreases the size of the text. It is nice to have this
 one when you clicked on the button to increase the size of the font one or
 two times too many.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;ul&gt;
-  &lt;li&gt;In Iceweasel, I have a way (without resorting to many extensions or
-  hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &amp;gt; Page Style &amp;gt;
-  No Style&quot; (i.e., to ignore any CSS sheet that the document author may have
-  specified on the page).&lt;/li&gt;
-  &lt;/ul&gt;
+&lt;blockquote&gt;&lt;ul&gt;
+&lt;li&gt;In Iceweasel, I have a way (without resorting to many extensions or
+hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &amp;gt; Page Style &amp;gt;
+No Style&quot; (i.e., to ignore any CSS sheet that the document author may have
+specified on the page).&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Timo also told me that there is a very cool extension called
@@ -92,24 +90,22 @@ simple solution enough that made me consider revisit my requirements.  I do,
 though, wonder why some frequently used extensions are not built into the
 programs from stock.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;ul&gt;
-  &lt;li&gt;In Iceweasel, I can press &lt;code&gt;Ctrl+Q&lt;/code&gt; and make the damn browser quit, instead
-  of me having to use the mouse/trackpad/pointing device. This is probably a
-  lack of my understanding on how to associate key bindings to Chromium, but
-  the problem still stands.&lt;/li&gt;
-  &lt;/ul&gt;
+&lt;blockquote&gt;&lt;ul&gt;
+&lt;li&gt;In Iceweasel, I can press &lt;code&gt;Ctrl+Q&lt;/code&gt; and make the damn browser quit, instead
+of me having to use the mouse/trackpad/pointing device. This is probably a
+lack of my understanding on how to associate key bindings to Chromium, but
+the problem still stands.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Of course, Timo also set me straight and told me about &lt;code&gt;Ctrl+Shift+Q&lt;/code&gt; for
 that purpose, which I had missed completely.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;ul&gt;
-  &lt;li&gt;Similarly, when there is only one tab open, pressing &lt;code&gt;Ctrl+W&lt;/code&gt; in Chromium
-  does not close the tab (say, presenting me a blank tab or the list of most
-  visited sites), nor it closes the application.&lt;/li&gt;
-  &lt;/ul&gt;
+&lt;blockquote&gt;&lt;ul&gt;
+&lt;li&gt;Similarly, when there is only one tab open, pressing &lt;code&gt;Ctrl+W&lt;/code&gt; in Chromium
+does not close the tab (say, presenting me a blank tab or the list of most
+visited sites), nor it closes the application.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;As a poor writing of my part, &lt;code&gt;Ctrl+W&lt;/code&gt; does close the tabs. But when there
@@ -203,6 +199,7 @@ the problem still stands.&lt;/li&gt;
 does not close the tab (say, presenting me a blank tab or the list of most
 visited sites), nor it closes the application.&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;p&gt;I would be satisfied if any of the above were fixed or better documented,
 but it seems that some of those are, at best, going to wait a long time.&lt;/p&gt;

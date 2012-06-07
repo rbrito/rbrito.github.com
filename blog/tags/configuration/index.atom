@@ -16,7 +16,7 @@
 <id>/blog//tags/configuration/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20111106">ikiwiki</generator>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
 <updated>2011-04-03T01:21:31Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
@@ -203,6 +203,7 @@ your kernels and initial ramdisks.&lt;/li&gt;
 &lt;li&gt;other partitions.&lt;/li&gt;
 &lt;/ul&gt;
 
+
 &lt;p&gt;With this in mind, you can With Let&#39;s say that this last one, in Linux
 parlance, is &lt;code&gt;/dev/hda3&lt;/code&gt; (as is the case of this author), and optionally a
 partition where your Linux kernel resides (people usually use it to store
@@ -247,6 +248,7 @@ being relative to.&lt;/p&gt;
 As an example, &lt;code&gt;(hd,apple2)/boot/vmlinux&lt;/code&gt; if fully qualified for GRUB&#39;s
 purpose, while &lt;code&gt;/boot/vmlinux&lt;/code&gt; is not.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;h2&gt;Putting it all together&lt;/h2&gt;
 
@@ -312,7 +314,7 @@ your system&#39;s NVRAM) alone.&lt;/p&gt;
 &lt;p&gt;Here is what I am using right now:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;search --no-floppy --fs-uuid --set=root 35d26869-f7c9-4852-a9b8-100314560c34
-set prefix=(&amp;#036;root)/boot/grub
+set prefix=($root)/boot/grub
 configfile /boot/grub/grub.cfg
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -378,10 +380,12 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 (setq inhibit-startup-message t); remove splash screen
 &lt;/pre&gt;
 
+
 &lt;p&gt;Another line that may make things more comfortable (especially if you, like me, use Emacs&#39;s dired as a filemanager to navigate your folders):&lt;/p&gt;
 
 &lt;pre&gt;(defalias &#39;yes-or-no-p &#39;y-or-n-p)
 &lt;/pre&gt;
+
 
 &lt;p&gt;But configuring Emacs is not always that hard. Seeing a change of behaviour with your shell is scarier. When bash 4 was released, one thing that got implemented is the echo of some characters from the terminal to the screen.&lt;/p&gt;
 
@@ -397,6 +401,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 &lt;pre&gt;Emacs*font:            Mono
 &lt;/pre&gt;
+
 
 &lt;p&gt;to my &lt;code&gt;.Xdefaults&lt;/code&gt; file did the trick and restored back the ability to use DejaVu Sans Mono at the right size on my system.&lt;/p&gt;
 
@@ -459,11 +464,12 @@ console&quot; called a netconsole. It can be enabled with the options: is quite
 handy to see how the machine is booting with a &quot;virtual console&quot; called a
 netconsole. It can be enabled with the options:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;CONFIG_NETCONSOLE=y
-CONFIG_NETPOLL=y
-CONFIG_NET_POLL_CONTROLLER=y
+&lt;pre&gt;&lt;code&gt;  CONFIG_NETCONSOLE=y
+  CONFIG_NETPOLL=y
+  CONFIG_NET_POLL_CONTROLLER=y
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;p&gt;You have to tell the kernel where to send the messages that would,
 otherwise, be presented on a screen. For sending them over the network, just
@@ -491,26 +497,27 @@ correct image---but it is the task of the packager/distributor to find if
 those images are needed or not. For the KuroBox HD/HG, all that is needed
 is a simple:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;cp &amp;#036;LINUXPATH/arch/powerpc/boot/uImage &amp;#036;BUILT_ROOT/boot/uImage-&amp;#036;VERSION
+&lt;pre&gt;&lt;code&gt;  cp $LINUXPATH/arch/powerpc/boot/uImage $BUILT_ROOT/boot/uImage-$VERSION
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;some extra care is needed when generating a kernel for such arches: the
 tree of the devices which the kernel needs does not seem to be built
 automatically (this is the case of the the KuroBox HD/HG). Something like
 this is needed after the compilation of the kernel proper:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;./scripts/dtc/dtc -I dts -O dtb -V 16 -o &amp;#036;BUILT_ROOT/boot/kuroboxHD.dtb-&amp;#036;VERSION ./arch/powerpc/boot/dts/kuroboxHD.dts
-./scripts/dtc/dtc -I dts -O dtb -V 16 -o &amp;#036;BUILT_ROOT/boot/kuroboxHG.dtb-&amp;#036;VERSION ./arch/powerpc/boot/dts/kuroboxHG.dts
+&lt;pre&gt;&lt;code&gt;  ./scripts/dtc/dtc -I dts -O dtb -V 16 -o $BUILT_ROOT/boot/kuroboxHD.dtb-$VERSION ./arch/powerpc/boot/dts/kuroboxHD.dts
+  ./scripts/dtc/dtc -I dts -O dtb -V 16 -o $BUILT_ROOT/boot/kuroboxHG.dtb-$VERSION ./arch/powerpc/boot/dts/kuroboxHG.dts
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;to cross compile a kernel, don&#39;t forget to set the appropriate environment
 options, like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make clean
-INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make oldconfig
-INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make menuconfig
-INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make all modules
-INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make modules_install
+&lt;pre&gt;&lt;code&gt;  INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make clean
+  INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make oldconfig
+  INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make menuconfig
+  INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make all modules
+  INSTALL_MOD_PATH=$BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make modules_install
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;p&gt;It won&#39;t hurt if you use a concurrency setting (like -j3 or more) when
 compiling all and modules.&lt;/p&gt;
@@ -518,10 +525,10 @@ compiling all and modules.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The uBoot command line (accessed via the network) can be something like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;ext2load ide &amp;#036;{hdpart} &amp;#036;{ldaddr} &amp;#036;{hdfile}
-ext2load ide &amp;#036;{hdpart} 7f0000 boot/kuroboxHD.dtb
-setenv bootargs root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/
-bootm &amp;#036;{ldaddr} - 7f0000
+&lt;pre&gt;&lt;code&gt;  ext2load ide ${hdpart} ${ldaddr} ${hdfile}
+  ext2load ide ${hdpart} 7f0000 boot/kuroboxHD.dtb
+  setenv bootargs root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/
+  bootm ${ldaddr} - 7f0000
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The first two lines tell uBoot to load the both the kernel and the device
@@ -535,21 +542,21 @@ is the memory address where the kernel should be loaded to.&lt;/p&gt;&lt;/li&gt;
 ext4 (and, in particular, delayed allocation) with ext{2,3}
 filesystems. To use it, just put this in your kernel configuration file:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;CONFIG_EXT4_USE_FOR_EXT23=y
+&lt;pre&gt;&lt;code&gt;  CONFIG_EXT4_USE_FOR_EXT23=y
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Support for daemons like avr-evtd, that need access to a serial port (so
 that the user can turn off the device by pressing the power button),
 enable:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;CONFIG_SERIO=y
-CONFIG_SERIO_SERPORT=y
-CONFIG_SERIAL_8250=y
+&lt;pre&gt;&lt;code&gt;  CONFIG_SERIO=y
+  CONFIG_SERIO_SERPORT=y
+  CONFIG_SERIAL_8250=y
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Otherwise, you will always have to ssh into the system, become root, and
 issue something like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;shutdown -h now
+&lt;pre&gt;&lt;code&gt;  shutdown -h now
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;which is an inconvenience.&lt;/p&gt;&lt;/li&gt;
@@ -557,13 +564,13 @@ issue something like:&lt;/p&gt;
 not be that obvious for some non-x86 platforms. In particular, for a
 KuroBox HD, I&#39;m using:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;CONFIG_RTC_CLASS=y
-CONFIG_RTC_HCTOSYS=y
-CONFIG_RTC_HCTOSYS_DEVICE=rtc0
-CONFIG_RTC_INTF_SYSFS=y
-CONFIG_RTC_INTF_PROC=y
-CONFIG_RTC_INTF_DEV=y
-CONFIG_RTC_DRV_RS5C372=y
+&lt;pre&gt;&lt;code&gt;  CONFIG_RTC_CLASS=y
+  CONFIG_RTC_HCTOSYS=y
+  CONFIG_RTC_HCTOSYS_DEVICE=rtc0
+  CONFIG_RTC_INTF_SYSFS=y
+  CONFIG_RTC_INTF_PROC=y
+  CONFIG_RTC_INTF_DEV=y
+  CONFIG_RTC_DRV_RS5C372=y
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The last option is, perhaps, the tricky one, and varies from system to
@@ -571,6 +578,7 @@ system. Knowing which one to enable is a matter of knowing the specs of
 your system and, if not known, discovery by trial-and-error. (For x86
 systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 
 	</content>
 

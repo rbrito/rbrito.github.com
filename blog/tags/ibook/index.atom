@@ -16,7 +16,7 @@
 <id>/blog//tags/ibook/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20111106">ikiwiki</generator>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
 <updated>2011-04-03T01:21:31Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
@@ -203,6 +203,7 @@ your kernels and initial ramdisks.&lt;/li&gt;
 &lt;li&gt;other partitions.&lt;/li&gt;
 &lt;/ul&gt;
 
+
 &lt;p&gt;With this in mind, you can With Let&#39;s say that this last one, in Linux
 parlance, is &lt;code&gt;/dev/hda3&lt;/code&gt; (as is the case of this author), and optionally a
 partition where your Linux kernel resides (people usually use it to store
@@ -247,6 +248,7 @@ being relative to.&lt;/p&gt;
 As an example, &lt;code&gt;(hd,apple2)/boot/vmlinux&lt;/code&gt; if fully qualified for GRUB&#39;s
 purpose, while &lt;code&gt;/boot/vmlinux&lt;/code&gt; is not.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;h2&gt;Putting it all together&lt;/h2&gt;
 
@@ -312,7 +314,7 @@ your system&#39;s NVRAM) alone.&lt;/p&gt;
 &lt;p&gt;Here is what I am using right now:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;search --no-floppy --fs-uuid --set=root 35d26869-f7c9-4852-a9b8-100314560c34
-set prefix=(&amp;#036;root)/boot/grub
+set prefix=($root)/boot/grub
 configfile /boot/grub/grub.cfg
 &lt;/code&gt;&lt;/pre&gt;
 

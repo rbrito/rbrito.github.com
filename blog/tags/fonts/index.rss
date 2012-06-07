@@ -8,6 +8,65 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>I am not going to DebConf 12</title>
+
+
+	<guid isPermaLink="false">/blog//posts/i-am-not-going-to-debconf-12/</guid>
+
+	<link>/blog//posts/i-am-not-going-to-debconf-12/</link>
+
+
+	<category>debconf</category>
+
+	<category>debian</category>
+
+	<category>development</category>
+
+	<category>fonts</category>
+
+	<category>free-software</category>
+
+	<category>handbrake</category>
+
+	<category>multimedia</category>
+
+
+	<pubDate>Thu, 07 Jun 2012 01:59:42 -0300</pubDate>
+	<dcterms:modified>2012-06-07T04:58:09Z</dcterms:modified>
+
+	<description>&lt;p&gt;Due to some real life impediments (including a beautiful one with just over
+2 months of life called Daniel), I will not be able to go to this year&#39;s
+DebConf, even though it seems that this DebConf will exceed many
+expectations with the support that the governement of Nicaragua just
+offered.&lt;/p&gt;
+
+&lt;h1&gt;Things that I would like to have worked on&lt;/h1&gt;
+
+&lt;p&gt;Unfortunately, this means that I will not be working with some fellows that
+may be there, like people from the &lt;code&gt;pkg-multimedia&lt;/code&gt; team.&lt;/p&gt;
+
+&lt;p&gt;In particular, as I am working on some packages that are not that well
+suited to distributions (especially regarding &lt;a href=&quot;http://handbrake.fr/&quot;&gt;HandBrake&lt;/a&gt;), it would be
+highly productive to have a hacking session or two with other people
+interested in having this popular and easy-to-use video ripper/transcoder on
+Debian.&lt;/p&gt;
+
+&lt;p&gt;I would also like to be able to talk in person with other people (including
+&lt;a href=&quot;http://joeyh.name/blog/&quot;&gt;Joey Hess&lt;/a&gt;) about controversial packaging of some programs, like GNU
+Parallel, &lt;a href=&quot;http://packages.debian.org/sid/parallel&quot;&gt;which I maintain in Debian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are many things else that I would love to work on, besides helping a
+bit with some of the still pending transitions of the the
+&lt;a href=&quot;http://pkg-fonts.alioth.debian.org/&quot;&gt;Debian Fonts Task Force umbrella&lt;/a&gt;, meeting friends and other social
+stuff.&lt;/p&gt;
+
+&lt;p&gt;Oh, well. I guess that working at home will be the solution for some time.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>Packaging fonts for a Debian-based system</title>
 
 
@@ -77,9 +136,9 @@ expect to fix those in two or three days.&lt;/p&gt;
 
 &lt;p&gt;(This should just be a matter of including something like&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;edit name=&quot;embeddedbitmap&quot; mode=&quot;assign&quot;&amp;gt;
-    &amp;lt;bool&amp;gt;true&amp;lt;/bool&amp;gt;
-&amp;lt;/edit&amp;gt;
+&lt;pre&gt;&lt;code&gt;  &amp;lt;edit name=&quot;embeddedbitmap&quot; mode=&quot;assign&quot;&amp;gt;
+      &amp;lt;bool&amp;gt;true&amp;lt;/bool&amp;gt;
+  &amp;lt;/edit&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;in the configuration that I ship with the fonts).&lt;/p&gt;&lt;/li&gt;
@@ -113,9 +172,9 @@ can substitute Times/Times New Roman. It works well both with &quot;regular&quot
 latex/pdflatex and with XeTeX (and, quite probably, with LuaTeX). It has
 quite a lot of OpenType features:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;rbrito:~&amp;#036; otfinfo -f /usr/share/fonts/truetype/linux-libertine/LinLibertine_Re.ttf | wc -l
-25
-rbrito:~&amp;#036;
+&lt;pre&gt;&lt;code&gt;  rbrito:~$ otfinfo -f /usr/share/fonts/truetype/linux-libertine/LinLibertine_Re.ttf | wc -l
+  25
+  rbrito:~$
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;OK, I can&#39;t be impartial with this font. It is beautiful. It is a pity
@@ -134,6 +193,7 @@ Vietnamese glyphs made available by Hàn Thế Thành. Heuristica is a family
 that features regular and italic shapes, with both being present also in
 bold weight.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;p&gt;Well, that&#39;s it for now. Stay tuned for more to come.&lt;/p&gt;
 </description>
@@ -179,6 +239,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
     &lt;li&gt;&lt;strong&gt;JFK-&amp;gt;GRU:&lt;/strong&gt; Departure: 2010-08-09, 21:40; Arrival: 2010-08-10, 8:35, Flight AA951&lt;/li&gt;
 &lt;/ul&gt;
 
+
 &lt;p&gt;This represents a personal milestone for me, as I have many plans for the conference. In fact, this will be a trip of many &quot;firsts&quot; for me:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -190,6 +251,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
     &lt;li&gt;this will be a very nice opportunity to get myself in a &quot;big&quot; &lt;a href=&quot;http://en.wikipedia.org/wiki/Strongly_connected_component&quot;&gt;strongly connected component &lt;/a&gt; of the &lt;a href=&quot;http://en.wikipedia.org/wiki/Web_of_trust&quot;&gt;Web-of-Trust&lt;/a&gt; with as many arcs as feasible, by means of the &lt;a href=&quot;http://people.debian.org/~anibal/ksp-dc10/ksp-dc10.html&quot;&gt;key signing party.&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;and many, many other things that I would like to do for the project.&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;p&gt;I am thankful for the DebConf team sponsoring both accomodation and food.  It is highly appreciated.&lt;/p&gt;
 

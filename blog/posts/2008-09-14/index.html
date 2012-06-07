@@ -81,9 +81,10 @@ and used <code>/usr/share/quilt/quilt.make</code> to make available the
 to Sune Vuorela for his helpful comments):</p>
 
 <ul>
-<li>make the <code>configure</code> target depend on <code>&#036;(QUILT_STAMPFN)</code>.</li>
+<li>make the <code>configure</code> target depend on <code>$(QUILT_STAMPFN)</code>.</li>
 <li>make the <code>clean</code> target depend on <code>unpatch</code>.</li>
 </ul>
+
 
 <p>The final "product" was uploaded to
 <a href="http://mentors.debian.net/">mentors</a> and is available for

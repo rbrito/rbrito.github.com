@@ -16,7 +16,7 @@
 <id>/blog//tags/productivity/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20111106">ikiwiki</generator>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
 <updated>2010-05-22T23:36:42Z</updated>
 <entry>
 	<title>Changing Some Configuration from Defaults</title>
@@ -62,10 +62,12 @@
 (setq inhibit-startup-message t); remove splash screen
 &lt;/pre&gt;
 
+
 &lt;p&gt;Another line that may make things more comfortable (especially if you, like me, use Emacs&#39;s dired as a filemanager to navigate your folders):&lt;/p&gt;
 
 &lt;pre&gt;(defalias &#39;yes-or-no-p &#39;y-or-n-p)
 &lt;/pre&gt;
+
 
 &lt;p&gt;But configuring Emacs is not always that hard. Seeing a change of behaviour with your shell is scarier. When bash 4 was released, one thing that got implemented is the echo of some characters from the terminal to the screen.&lt;/p&gt;
 
@@ -81,6 +83,7 @@
 
 &lt;pre&gt;Emacs*font:            Mono
 &lt;/pre&gt;
+
 
 &lt;p&gt;to my &lt;code&gt;.Xdefaults&lt;/code&gt; file did the trick and restored back the ability to use DejaVu Sans Mono at the right size on my system.&lt;/p&gt;
 

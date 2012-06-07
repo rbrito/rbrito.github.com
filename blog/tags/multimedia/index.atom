@@ -16,8 +16,72 @@
 <id>/blog//tags/multimedia/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20111106">ikiwiki</generator>
-<updated>2011-03-12T03:27:55Z</updated>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2012-06-07T04:58:09Z</updated>
+<entry>
+	<title>I am not going to DebConf 12</title>
+
+	<id>/blog//posts/i-am-not-going-to-debconf-12/</id>
+
+	<link href="/blog//posts/i-am-not-going-to-debconf-12/"/>
+
+
+
+
+
+
+	<category term="debconf" />
+
+	<category term="debian" />
+
+	<category term="development" />
+
+	<category term="fonts" />
+
+	<category term="free-software" />
+
+	<category term="handbrake" />
+
+	<category term="multimedia" />
+
+
+	<updated>2012-06-07T04:58:09Z</updated>
+	<published>2012-06-07T04:59:42Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Due to some real life impediments (including a beautiful one with just over
+2 months of life called Daniel), I will not be able to go to this year&#39;s
+DebConf, even though it seems that this DebConf will exceed many
+expectations with the support that the governement of Nicaragua just
+offered.&lt;/p&gt;
+
+&lt;h1&gt;Things that I would like to have worked on&lt;/h1&gt;
+
+&lt;p&gt;Unfortunately, this means that I will not be working with some fellows that
+may be there, like people from the &lt;code&gt;pkg-multimedia&lt;/code&gt; team.&lt;/p&gt;
+
+&lt;p&gt;In particular, as I am working on some packages that are not that well
+suited to distributions (especially regarding &lt;a href=&quot;http://handbrake.fr/&quot;&gt;HandBrake&lt;/a&gt;), it would be
+highly productive to have a hacking session or two with other people
+interested in having this popular and easy-to-use video ripper/transcoder on
+Debian.&lt;/p&gt;
+
+&lt;p&gt;I would also like to be able to talk in person with other people (including
+&lt;a href=&quot;http://joeyh.name/blog/&quot;&gt;Joey Hess&lt;/a&gt;) about controversial packaging of some programs, like GNU
+Parallel, &lt;a href=&quot;http://packages.debian.org/sid/parallel&quot;&gt;which I maintain in Debian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are many things else that I would love to work on, besides helping a
+bit with some of the still pending transitions of the the
+&lt;a href=&quot;http://pkg-fonts.alioth.debian.org/&quot;&gt;Debian Fonts Task Force umbrella&lt;/a&gt;, meeting friends and other social
+stuff.&lt;/p&gt;
+
+&lt;p&gt;Oh, well. I guess that working at home will be the solution for some time.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Preliminary support for webm in youtube-dl</title>
 

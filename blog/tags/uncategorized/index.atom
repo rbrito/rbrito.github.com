@@ -16,7 +16,7 @@
 <id>/blog//tags/uncategorized/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
-<generator uri="http://ikiwiki.info/" version="3.20111106">ikiwiki</generator>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
 <updated>2009-11-18T02:00:00Z</updated>
 <entry>
 	<title>2009-11-18</title>
@@ -79,6 +79,7 @@ his repository. I think that we could join some forces maintaining
 it.&lt;/li&gt;
 &lt;/ul&gt;
 
+
 &lt;p&gt;Oh, and the biggest news of all: writing manpages is easier than
 ever. I always edited Perl&#39;s pod files as a way to avoid writing
 &lt;code&gt;*roff&lt;/code&gt; code directly and using the pod source to generate the
@@ -138,15 +139,15 @@ going, but here are the distilled situation:&lt;/p&gt;
 SIZE=32
 
 # Create the basic disk image
-dd if=/dev/zero of=disk.img bs=1M count=&amp;#036;SIZE
+dd if=/dev/zero of=disk.img bs=1M count=$SIZE
 parted --script disk.img mktable msdos
-parted --script disk.img mkpart primary fat16 0 &amp;#036;{SIZE}MB
+parted --script disk.img mkpart primary fat16 0 ${SIZE}MB
 parted --script disk.img mkfs 1 fat16
 parted --script disk.img set 1 boot on
 
 # Mount it
-SECTORS=&amp;#036;(fdisk -l -u disk.img 2&amp;gt;&amp;amp;1| tail -1 | perl -ne &#39;print &quot;&amp;#036;1&quot; if (m/\s+(\d+)\s+/);&#39;)
-mount -t vfat -o loop,offset=&amp;#036;((SECTORS * 512)) disk.img /mnt
+SECTORS=$(fdisk -l -u disk.img 2&amp;gt;&amp;amp;1| tail -1 | perl -ne &#39;print &quot;$1&quot; if (m/\s+(\d+)\s+/);&#39;)
+mount -t vfat -o loop,offset=$((SECTORS * 512)) disk.img /mnt
 
 # Copy the bootloader
 # Copy a FreeDOS image and treat it as a ramdisk (it will be the &quot;A:&quot; drive)
@@ -249,6 +250,7 @@ up-to-date, as I have uploads rights there).&lt;/li&gt;
 &lt;a href=&quot;http://www.hermann-uwe.de/blog/testing-stuff-with-qemu-part-3-debian-gnu-kfreebsd&quot;&gt;Test it with QEMU&lt;/a&gt;,
 to see if it will work.&lt;/li&gt;
 &lt;/ol&gt;
+
 
 &lt;p&gt;This was a nice learning exercise, to be honest.&lt;/p&gt;
 
@@ -373,6 +375,7 @@ overburning, I can even squeeze one or two megabytes more in the
 CD.&lt;/li&gt;
 &lt;/ul&gt;
 
+
 	</content>
 
 
@@ -459,6 +462,7 @@ when a security upload should be made to security.debian.org)?
 &lt;code&gt;--git-builder=&quot;debuild -i\.git -I.git -sa&quot;&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
+
 	</content>
 
 
@@ -497,6 +501,7 @@ Debian;&lt;/li&gt;
 &lt;li&gt;the upcoming release of &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;&#39;s
 &lt;a href=&quot;https://wiki.ubuntu.com/Releases&quot;&gt;Karmic Koala&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;p&gt;As can be seen from the list, there is quite a sizeable amount of
 work to be done---this is what one gets for adopting otherwise

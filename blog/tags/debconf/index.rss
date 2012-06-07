@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged debconf</title>
+<link>/blog//tags/debconf/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>I am not going to DebConf 12</title>
+
+
+	<guid isPermaLink="false">/blog//posts/i-am-not-going-to-debconf-12/</guid>
+
+	<link>/blog//posts/i-am-not-going-to-debconf-12/</link>
+
+
+	<category>debconf</category>
+
+	<category>debian</category>
+
+	<category>development</category>
+
+	<category>fonts</category>
+
+	<category>free-software</category>
+
+	<category>handbrake</category>
+
+	<category>multimedia</category>
+
+
+	<pubDate>Thu, 07 Jun 2012 01:59:42 -0300</pubDate>
+	<dcterms:modified>2012-06-07T04:58:09Z</dcterms:modified>
+
+	<description>&lt;p&gt;Due to some real life impediments (including a beautiful one with just over
+2 months of life called Daniel), I will not be able to go to this year&#39;s
+DebConf, even though it seems that this DebConf will exceed many
+expectations with the support that the governement of Nicaragua just
+offered.&lt;/p&gt;
+
+&lt;h1&gt;Things that I would like to have worked on&lt;/h1&gt;
+
+&lt;p&gt;Unfortunately, this means that I will not be working with some fellows that
+may be there, like people from the &lt;code&gt;pkg-multimedia&lt;/code&gt; team.&lt;/p&gt;
+
+&lt;p&gt;In particular, as I am working on some packages that are not that well
+suited to distributions (especially regarding &lt;a href=&quot;http://handbrake.fr/&quot;&gt;HandBrake&lt;/a&gt;), it would be
+highly productive to have a hacking session or two with other people
+interested in having this popular and easy-to-use video ripper/transcoder on
+Debian.&lt;/p&gt;
+
+&lt;p&gt;I would also like to be able to talk in person with other people (including
+&lt;a href=&quot;http://joeyh.name/blog/&quot;&gt;Joey Hess&lt;/a&gt;) about controversial packaging of some programs, like GNU
+Parallel, &lt;a href=&quot;http://packages.debian.org/sid/parallel&quot;&gt;which I maintain in Debian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are many things else that I would love to work on, besides helping a
+bit with some of the still pending transitions of the the
+&lt;a href=&quot;http://pkg-fonts.alioth.debian.org/&quot;&gt;Debian Fonts Task Force umbrella&lt;/a&gt;, meeting friends and other social
+stuff.&lt;/p&gt;
+
+&lt;p&gt;Oh, well. I guess that working at home will be the solution for some time.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

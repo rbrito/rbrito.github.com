@@ -82,6 +82,7 @@ by &lt;code&gt;git-repo&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Run &lt;code&gt;git cvsimport -v -a -A -k -m -d cvs-source-dir -C git-repo cvs-module&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+
 &lt;p&gt;That&#39;s it. It seems to perform a very good job of changing a very old system
 to something that is modern and with many features (and is distributed).&lt;/p&gt;
 
