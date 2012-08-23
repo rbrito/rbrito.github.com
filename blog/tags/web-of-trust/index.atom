@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged web-of-trust</title>
-<link href="/blog//tags/web-of-trust/"/>
-<link href="/blog//tags/web-of-trust/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://rb.doesntexist.org/blog//tags/web-of-trust/"/>
+<link href="http://rb.doesntexist.org/blog//tags/web-of-trust/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>/blog//tags/web-of-trust/</id>
+<id>http://rb.doesntexist.org/blog//tags/web-of-trust/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>I am going to DebConf 10</title>
 
-	<id>/blog//posts/i-am-going-to-debconf-10/</id>
+	<id>http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</id>
 
-	<link href="/blog//posts/i-am-going-to-debconf-10/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/"/>
 
 
 

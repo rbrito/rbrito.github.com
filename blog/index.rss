@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>Rogério Brito's Digital Junkyard</title>
-<link>/blog//</link>
+<link>http://rb.doesntexist.org/blog//</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>I am not going to DebConf 12</title>
 
 
-	<guid isPermaLink="false">/blog//posts/i-am-not-going-to-debconf-12/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/i-am-not-going-to-debconf-12/</guid>
 
-	<link>/blog//posts/i-am-not-going-to-debconf-12/</link>
+	<link>http://rb.doesntexist.org/blog//posts/i-am-not-going-to-debconf-12/</link>
 
 
 	<category>debconf</category>
@@ -70,9 +70,9 @@ stuff.&lt;/p&gt;
 	<title>Installing Meego on the N900</title>
 
 
-	<guid isPermaLink="false">/blog//posts/installing_meego_on_the_n900/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/installing_meego_on_the_n900/</guid>
 
-	<link>/blog//posts/installing_meego_on_the_n900/</link>
+	<link>http://rb.doesntexist.org/blog//posts/installing_meego_on_the_n900/</link>
 
 	<pubDate>Sun, 03 Jul 2011 03:55:50 -0300</pubDate>
 	<dcterms:modified>2011-07-03T06:43:45Z</dcterms:modified>
@@ -159,9 +159,9 @@ distribution.&lt;/p&gt;
 	<title>Running GRUB2 on PowerPC Macs</title>
 
 
-	<guid isPermaLink="false">/blog//posts/running_grub2_on_powerpc_macs/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</guid>
 
-	<link>/blog//posts/running_grub2_on_powerpc_macs/</link>
+	<link>http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</link>
 
 
 	<category>configuration</category>
@@ -472,9 +472,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>(Some) Solutions with Chromium</title>
 
 
-	<guid isPermaLink="false">/blog//posts/some_solutions_with_chromium/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/some_solutions_with_chromium/</guid>
 
-	<link>/blog//posts/some_solutions_with_chromium/</link>
+	<link>http://rb.doesntexist.org/blog//posts/some_solutions_with_chromium/</link>
 
 
 	<category>browsers</category>
@@ -489,7 +489,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<pubDate>Wed, 09 Mar 2011 14:33:00 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
 
-	<description>&lt;p&gt;In &lt;a href=&quot;/blog//./posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
+	<description>&lt;p&gt;In &lt;a href=&quot;http://rb.doesntexist.org/blog//./posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
 my frustrations with Chromium/Chrome.  A very kind reader, Timo Juhani
 Lindfors, gave me answers to many of the problems that I pointed out and got
 me straight on some issues:&lt;/p&gt;
@@ -578,9 +578,9 @@ usable browsers now.&lt;/p&gt;
 	<title>My problems with Chromium</title>
 
 
-	<guid isPermaLink="false">/blog//posts/problems_with_chromium/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/problems_with_chromium/</guid>
 
-	<link>/blog//posts/problems_with_chromium/</link>
+	<link>http://rb.doesntexist.org/blog//posts/problems_with_chromium/</link>
 
 
 	<category>browsers</category>
@@ -653,9 +653,9 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 	<title>Packaging fonts for a Debian-based system</title>
 
 
-	<guid isPermaLink="false">/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
 
-	<link>/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
+	<link>http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
 
 
 	<category>development</category>
@@ -788,9 +788,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>First post from DebConf 10</title>
 
 
-	<guid isPermaLink="false">/blog//posts/first-post-from-debconf-10/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/first-post-from-debconf-10/</guid>
 
-	<link>/blog//posts/first-post-from-debconf-10/</link>
+	<link>http://rb.doesntexist.org/blog//posts/first-post-from-debconf-10/</link>
 
 
 	<category>debian</category>
@@ -829,9 +829,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>I am going to DebConf 10</title>
 
 
-	<guid isPermaLink="false">/blog//posts/i-am-going-to-debconf-10/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</guid>
 
-	<link>/blog//posts/i-am-going-to-debconf-10/</link>
+	<link>http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</link>
 
 
 	<category>debian</category>
@@ -889,9 +889,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>A version of xpdf with the poppler backend available</title>
 
 
-	<guid isPermaLink="false">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
 
-	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
+	<link>http://rb.doesntexist.org/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
 
 
 	<category>c++</category>
@@ -955,9 +955,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>Nobody expects the... STIX fonts release!</title>
 
 
-	<guid isPermaLink="false">/blog//posts/nobody-expects-the----stix-fonts-release-/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/nobody-expects-the----stix-fonts-release-/</guid>
 
-	<link>/blog//posts/nobody-expects-the----stix-fonts-release-/</link>
+	<link>http://rb.doesntexist.org/blog//posts/nobody-expects-the----stix-fonts-release-/</link>
 
 
 	<category>fonts</category>

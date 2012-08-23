@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged pdf</title>
-<link>/blog//tags/pdf/</link>
+<link>http://rb.doesntexist.org/blog//tags/pdf/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Please let me zoom my documents!</title>
 
 
-	<guid isPermaLink="false">/blog//posts/please-let-me-zoom-my-documents-/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/please-let-me-zoom-my-documents-/</guid>
 
-	<link>/blog//posts/please-let-me-zoom-my-documents-/</link>
+	<link>http://rb.doesntexist.org/blog//posts/please-let-me-zoom-my-documents-/</link>
 
 
 	<category>bugs</category>

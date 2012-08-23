@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged typography</title>
-<link>/blog//tags/typography/</link>
+<link>http://rb.doesntexist.org/blog//tags/typography/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Packaging fonts for a Debian-based system</title>
 
 
-	<guid isPermaLink="false">/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
 
-	<link>/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
+	<link>http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
 
 
 	<category>development</category>
@@ -146,9 +146,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>Nobody expects the... STIX fonts release!</title>
 
 
-	<guid isPermaLink="false">/blog//posts/nobody-expects-the----stix-fonts-release-/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/nobody-expects-the----stix-fonts-release-/</guid>
 
-	<link>/blog//posts/nobody-expects-the----stix-fonts-release-/</link>
+	<link>http://rb.doesntexist.org/blog//posts/nobody-expects-the----stix-fonts-release-/</link>
 
 
 	<category>fonts</category>

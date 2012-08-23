@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged c++</title>
-<link>/blog//tags/c++/</link>
+<link>http://rb.doesntexist.org/blog//tags/c++/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>A version of xpdf with the poppler backend available</title>
 
 
-	<guid isPermaLink="false">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
 
-	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
+	<link>http://rb.doesntexist.org/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
 
 
 	<category>c++</category>

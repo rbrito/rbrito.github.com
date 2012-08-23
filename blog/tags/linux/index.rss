@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged linux</title>
-<link>/blog//tags/linux/</link>
+<link>http://rb.doesntexist.org/blog//tags/linux/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Running GRUB2 on PowerPC Macs</title>
 
 
-	<guid isPermaLink="false">/blog//posts/running_grub2_on_powerpc_macs/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</guid>
 
-	<link>/blog//posts/running_grub2_on_powerpc_macs/</link>
+	<link>http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</link>
 
 
 	<category>configuration</category>
@@ -324,9 +324,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
 
-	<guid isPermaLink="false">/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
 
-	<link>/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
+	<link>http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
 
 
 	<category>configuration</category>

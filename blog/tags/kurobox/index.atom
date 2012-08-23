@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged kurobox</title>
-<link href="/blog//tags/kurobox/"/>
-<link href="/blog//tags/kurobox/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://rb.doesntexist.org/blog//tags/kurobox/"/>
+<link href="http://rb.doesntexist.org/blog//tags/kurobox/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>/blog//tags/kurobox/</id>
+<id>http://rb.doesntexist.org/blog//tags/kurobox/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
-	<id>/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</id>
+	<id>http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</id>
 
-	<link href="/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/"/>
 
 
 

@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged fonts</title>
-<link>/blog//tags/fonts/</link>
+<link>http://rb.doesntexist.org/blog//tags/fonts/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>I am not going to DebConf 12</title>
 
 
-	<guid isPermaLink="false">/blog//posts/i-am-not-going-to-debconf-12/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/i-am-not-going-to-debconf-12/</guid>
 
-	<link>/blog//posts/i-am-not-going-to-debconf-12/</link>
+	<link>http://rb.doesntexist.org/blog//posts/i-am-not-going-to-debconf-12/</link>
 
 
 	<category>debconf</category>
@@ -70,9 +70,9 @@ stuff.&lt;/p&gt;
 	<title>Packaging fonts for a Debian-based system</title>
 
 
-	<guid isPermaLink="false">/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
 
-	<link>/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
+	<link>http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
 
 
 	<category>development</category>
@@ -205,9 +205,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>I am going to DebConf 10</title>
 
 
-	<guid isPermaLink="false">/blog//posts/i-am-going-to-debconf-10/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</guid>
 
-	<link>/blog//posts/i-am-going-to-debconf-10/</link>
+	<link>http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</link>
 
 
 	<category>debian</category>
@@ -265,9 +265,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>Nobody expects the... STIX fonts release!</title>
 
 
-	<guid isPermaLink="false">/blog//posts/nobody-expects-the----stix-fonts-release-/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/nobody-expects-the----stix-fonts-release-/</guid>
 
-	<link>/blog//posts/nobody-expects-the----stix-fonts-release-/</link>
+	<link>http://rb.doesntexist.org/blog//posts/nobody-expects-the----stix-fonts-release-/</link>
 
 
 	<category>fonts</category>
@@ -306,9 +306,9 @@ the typographic arena is alive and going strong.&lt;/p&gt;
 	<title>Please let me zoom my documents!</title>
 
 
-	<guid isPermaLink="false">/blog//posts/please-let-me-zoom-my-documents-/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/please-let-me-zoom-my-documents-/</guid>
 
-	<link>/blog//posts/please-let-me-zoom-my-documents-/</link>
+	<link>http://rb.doesntexist.org/blog//posts/please-let-me-zoom-my-documents-/</link>
 
 
 	<category>bugs</category>

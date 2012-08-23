@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged web-of-trust</title>
-<link>/blog//tags/web-of-trust/</link>
+<link>http://rb.doesntexist.org/blog//tags/web-of-trust/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>I am going to DebConf 10</title>
 
 
-	<guid isPermaLink="false">/blog//posts/i-am-going-to-debconf-10/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</guid>
 
-	<link>/blog//posts/i-am-going-to-debconf-10/</link>
+	<link>http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</link>
 
 
 	<category>debian</category>

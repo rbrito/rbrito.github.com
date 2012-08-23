@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged hacks</title>
-<link>/blog//tags/hacks/</link>
+<link>http://rb.doesntexist.org/blog//tags/hacks/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Running GRUB2 on PowerPC Macs</title>
 
 
-	<guid isPermaLink="false">/blog//posts/running_grub2_on_powerpc_macs/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</guid>
 
-	<link>/blog//posts/running_grub2_on_powerpc_macs/</link>
+	<link>http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</link>
 
 
 	<category>configuration</category>
@@ -324,9 +324,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>I am going to DebConf 10</title>
 
 
-	<guid isPermaLink="false">/blog//posts/i-am-going-to-debconf-10/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</guid>
 
-	<link>/blog//posts/i-am-going-to-debconf-10/</link>
+	<link>http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</link>
 
 
 	<category>debian</category>
@@ -384,9 +384,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>A version of xpdf with the poppler backend available</title>
 
 
-	<guid isPermaLink="false">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
 
-	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
+	<link>http://rb.doesntexist.org/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
 
 
 	<category>c++</category>
@@ -450,9 +450,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>Preliminary support for webm in youtube-dl</title>
 
 
-	<guid isPermaLink="false">/blog//posts/preliminary-support-for-webm-in-youtube-dl/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/preliminary-support-for-webm-in-youtube-dl/</guid>
 
-	<link>/blog//posts/preliminary-support-for-webm-in-youtube-dl/</link>
+	<link>http://rb.doesntexist.org/blog//posts/preliminary-support-for-webm-in-youtube-dl/</link>
 
 
 	<category>audio</category>
@@ -477,7 +477,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 &lt;p&gt;This way, at least people will have some material (in, fact, a chance) to play with this format.  I implemented this because, so far, I was only hoping here that a player for this would emerge. I guess that Debian&#39;s ffmpeg/mplayer will take some time, but I was pleased to see that Sebastian Dröge to upload a version of &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02596.html&quot;&gt;something&lt;/a&gt; that could use the new &lt;code&gt;libvpx&lt;/code&gt; codec.&lt;/p&gt;
 
-&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;/blog//tags/hacks/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/hacks/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Well, it seems to be time to shape up that local build of mine of the &lt;a href=&quot;http://www.geocities.jp/aoyoume/aotuv/&quot;&gt;aotuv&lt;/a&gt; tuned version of Vorbis with &lt;a href=&quot;http://www.geocities.jp/aoyoume/&quot;&gt;Aoyumi&lt;/a&gt;&#39;s patches for libvorbis.&lt;/p&gt;
 
@@ -491,9 +491,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>Please let me zoom my documents!</title>
 
 
-	<guid isPermaLink="false">/blog//posts/please-let-me-zoom-my-documents-/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/please-let-me-zoom-my-documents-/</guid>
 
-	<link>/blog//posts/please-let-me-zoom-my-documents-/</link>
+	<link>http://rb.doesntexist.org/blog//posts/please-let-me-zoom-my-documents-/</link>
 
 
 	<category>bugs</category>
@@ -550,9 +550,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>Changing Some Configuration from Defaults</title>
 
 
-	<guid isPermaLink="false">/blog//posts/changing-some-configuration-from-defaults/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/changing-some-configuration-from-defaults/</guid>
 
-	<link>/blog//posts/changing-some-configuration-from-defaults/</link>
+	<link>http://rb.doesntexist.org/blog//posts/changing-some-configuration-from-defaults/</link>
 
 
 	<category>configuration</category>
@@ -619,9 +619,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
 
-	<guid isPermaLink="false">/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
 
-	<link>/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
+	<link>http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
 
 
 	<category>configuration</category>
@@ -789,9 +789,9 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<title>Migrate from RCS to git</title>
 
 
-	<guid isPermaLink="false">/blog//posts/migrate-from-rcs-to-git/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/migrate-from-rcs-to-git/</guid>
 
-	<link>/blog//posts/migrate-from-rcs-to-git/</link>
+	<link>http://rb.doesntexist.org/blog//posts/migrate-from-rcs-to-git/</link>
 
 
 	<category>debian</category>

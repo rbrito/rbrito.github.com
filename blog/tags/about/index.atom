@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged about</title>
-<link href="/blog//tags/about/"/>
-<link href="/blog//tags/about/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://rb.doesntexist.org/blog//tags/about/"/>
+<link href="http://rb.doesntexist.org/blog//tags/about/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>/blog//tags/about/</id>
+<id>http://rb.doesntexist.org/blog//tags/about/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>About</title>
 
-	<id>/blog//posts/about/</id>
+	<id>http://rb.doesntexist.org/blog//posts/about/</id>
 
-	<link href="/blog//posts/about/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/about/"/>
 
 
 

@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged uncategorized</title>
-<link href="/blog//tags/uncategorized/"/>
-<link href="/blog//tags/uncategorized/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://rb.doesntexist.org/blog//tags/uncategorized/"/>
+<link href="http://rb.doesntexist.org/blog//tags/uncategorized/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>/blog//tags/uncategorized/</id>
+<id>http://rb.doesntexist.org/blog//tags/uncategorized/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>2009-11-18</title>
 
-	<id>/blog//posts/2009-11-18/</id>
+	<id>http://rb.doesntexist.org/blog//posts/2009-11-18/</id>
 
-	<link href="/blog//posts/2009-11-18/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/2009-11-18/"/>
 
 
 
@@ -96,9 +96,9 @@ the fact that Emacs offers a pod-mode. Amazing.&lt;/p&gt;
 <entry>
 	<title>2009-10-08</title>
 
-	<id>/blog//posts/2009-10-08/</id>
+	<id>http://rb.doesntexist.org/blog//posts/2009-10-08/</id>
 
-	<link href="/blog//posts/2009-10-08/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/2009-10-08/"/>
 
 
 
@@ -188,9 +188,9 @@ umount /mnt
 <entry>
 	<title>2009-09-11</title>
 
-	<id>/blog//posts/2009-09-11/</id>
+	<id>http://rb.doesntexist.org/blog//posts/2009-09-11/</id>
 
-	<link href="/blog//posts/2009-09-11/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/2009-09-11/"/>
 
 
 
@@ -262,9 +262,9 @@ to see if it will work.&lt;/li&gt;
 <entry>
 	<title>2009-09-05</title>
 
-	<id>/blog//posts/2009-09-05/</id>
+	<id>http://rb.doesntexist.org/blog//posts/2009-09-05/</id>
 
-	<link href="/blog//posts/2009-09-05/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/2009-09-05/"/>
 
 
 
@@ -299,9 +299,9 @@ for MacOS X and so on. Always a pleasure to talk with him.&lt;/p&gt;
 <entry>
 	<title>2009-09-04</title>
 
-	<id>/blog//posts/2009-09-04/</id>
+	<id>http://rb.doesntexist.org/blog//posts/2009-09-04/</id>
 
-	<link href="/blog//posts/2009-09-04/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/2009-09-04/"/>
 
 
 
@@ -336,9 +336,9 @@ it had more ups than downs.&lt;/p&gt;
 <entry>
 	<title>2009-08-28</title>
 
-	<id>/blog//posts/2009-08-28/</id>
+	<id>http://rb.doesntexist.org/blog//posts/2009-08-28/</id>
 
-	<link href="/blog//posts/2009-08-28/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/2009-08-28/"/>
 
 
 
@@ -384,9 +384,9 @@ CD.&lt;/li&gt;
 <entry>
 	<title>2009-08-05</title>
 
-	<id>/blog//posts/2009-08-05/</id>
+	<id>http://rb.doesntexist.org/blog//posts/2009-08-05/</id>
 
-	<link href="/blog//posts/2009-08-05/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/2009-08-05/"/>
 
 
 
@@ -426,9 +426,9 @@ alien to myself.&lt;/p&gt;
 <entry>
 	<title>2009-08-04</title>
 
-	<id>/blog//posts/2009-08-04/</id>
+	<id>http://rb.doesntexist.org/blog//posts/2009-08-04/</id>
 
-	<link href="/blog//posts/2009-08-04/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/2009-08-04/"/>
 
 
 
@@ -471,9 +471,9 @@ when a security upload should be made to security.debian.org)?
 <entry>
 	<title>2009-08-03</title>
 
-	<id>/blog//posts/2009-08-03/</id>
+	<id>http://rb.doesntexist.org/blog//posts/2009-08-03/</id>
 
-	<link href="/blog//posts/2009-08-03/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/2009-08-03/"/>
 
 
 
@@ -527,9 +527,9 @@ link for the time-based releases. The concepts are close, though.&lt;/p&gt;
 <entry>
 	<title>2009-06-02</title>
 
-	<id>/blog//posts/2009-06-02/</id>
+	<id>http://rb.doesntexist.org/blog//posts/2009-06-02/</id>
 
-	<link href="/blog//posts/2009-06-02/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/2009-06-02/"/>
 
 
 

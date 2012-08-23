@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged development</title>
-<link>/blog//tags/development/</link>
+<link>http://rb.doesntexist.org/blog//tags/development/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>I am not going to DebConf 12</title>
 
 
-	<guid isPermaLink="false">/blog//posts/i-am-not-going-to-debconf-12/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/i-am-not-going-to-debconf-12/</guid>
 
-	<link>/blog//posts/i-am-not-going-to-debconf-12/</link>
+	<link>http://rb.doesntexist.org/blog//posts/i-am-not-going-to-debconf-12/</link>
 
 
 	<category>debconf</category>
@@ -70,9 +70,9 @@ stuff.&lt;/p&gt;
 	<title>Running GRUB2 on PowerPC Macs</title>
 
 
-	<guid isPermaLink="false">/blog//posts/running_grub2_on_powerpc_macs/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</guid>
 
-	<link>/blog//posts/running_grub2_on_powerpc_macs/</link>
+	<link>http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</link>
 
 
 	<category>configuration</category>
@@ -383,9 +383,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>Packaging fonts for a Debian-based system</title>
 
 
-	<guid isPermaLink="false">/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
 
-	<link>/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
+	<link>http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
 
 
 	<category>development</category>
@@ -518,9 +518,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>First post from DebConf 10</title>
 
 
-	<guid isPermaLink="false">/blog//posts/first-post-from-debconf-10/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/first-post-from-debconf-10/</guid>
 
-	<link>/blog//posts/first-post-from-debconf-10/</link>
+	<link>http://rb.doesntexist.org/blog//posts/first-post-from-debconf-10/</link>
 
 
 	<category>debian</category>
@@ -559,9 +559,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>I am going to DebConf 10</title>
 
 
-	<guid isPermaLink="false">/blog//posts/i-am-going-to-debconf-10/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</guid>
 
-	<link>/blog//posts/i-am-going-to-debconf-10/</link>
+	<link>http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</link>
 
 
 	<category>debian</category>
@@ -619,9 +619,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>A version of xpdf with the poppler backend available</title>
 
 
-	<guid isPermaLink="false">/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
 
-	<link>/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
+	<link>http://rb.doesntexist.org/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
 
 
 	<category>c++</category>
@@ -685,9 +685,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
 
-	<guid isPermaLink="false">/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
 
-	<link>/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
+	<link>http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
 
 
 	<category>configuration</category>

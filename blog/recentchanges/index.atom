@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>RecentChanges</title>
-<link href="/blog//recentchanges/"/>
-<link href="/blog//recentchanges/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://rb.doesntexist.org/blog//recentchanges/"/>
+<link href="http://rb.doesntexist.org/blog//recentchanges/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>/blog//recentchanges/</id>
+<id>http://rb.doesntexist.org/blog//recentchanges/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>change to .blog.setup templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_0b515875b2fdc7f0996ce7cfa58533fbb1d75800/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_0b515875b2fdc7f0996ce7cfa58533fbb1d75800/</id>
 
-	<link href="/blog/recentchanges/#change-0b515875b2fdc7f0996ce7cfa58533fbb1d75800"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-0b515875b2fdc7f0996ce7cfa58533fbb1d75800"/>
 
 	<author><name>rbrito</name></author>
 
@@ -81,9 +81,9 @@ Readd disqus.&lt;br /&gt;
 <entry>
 	<title>change to templates/inlinepage.tmpl templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_5bdb7aed8d9e0d5a44f52985506d25551bf23722/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_5bdb7aed8d9e0d5a44f52985506d25551bf23722/</id>
 
-	<link href="/blog/recentchanges/#change-5bdb7aed8d9e0d5a44f52985506d25551bf23722"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-5bdb7aed8d9e0d5a44f52985506d25551bf23722"/>
 
 	<author><name>rbrito</name></author>
 
@@ -141,9 +141,9 @@ templates: Refresh from a new ikiwiki installation.&lt;br /&gt;
 <entry>
 	<title>change to .blog.setup templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_395e2fdfc3a0f1b6ec5ef97aa515a9e7140e7634/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_395e2fdfc3a0f1b6ec5ef97aa515a9e7140e7634/</id>
 
-	<link href="/blog/recentchanges/#change-395e2fdfc3a0f1b6ec5ef97aa515a9e7140e7634"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-395e2fdfc3a0f1b6ec5ef97aa515a9e7140e7634"/>
 
 	<author><name>rbrito</name></author>
 
@@ -201,9 +201,9 @@ Use disqus plugin.&lt;br /&gt;
 <entry>
 	<title>change to .blog.setup on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_ea777443e5c144e79377d476e6d8a95d7410485c/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_ea777443e5c144e79377d476e6d8a95d7410485c/</id>
 
-	<link href="/blog/recentchanges/#change-ea777443e5c144e79377d476e6d8a95d7410485c"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-ea777443e5c144e79377d476e6d8a95d7410485c"/>
 
 	<author><name>rbrito</name></author>
 
@@ -259,9 +259,9 @@ Allow to use 3rd-party plugins.&lt;br /&gt;
 <entry>
 	<title>change to tags/debconf on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_9c81510434536fc2ec8c3a3b77daa7c971b81e69/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_9c81510434536fc2ec8c3a3b77daa7c971b81e69/</id>
 
-	<link href="/blog/recentchanges/#change-9c81510434536fc2ec8c3a3b77daa7c971b81e69"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-9c81510434536fc2ec8c3a3b77daa7c971b81e69"/>
 
 	<author><name>rbrito</name></author>
 
@@ -317,9 +317,9 @@ creating tag page tags/debconf&lt;br /&gt;
 <entry>
 	<title>change to tags/handbrake on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_870b0cb1c02471e498d827db4a7b752f5a77b85d/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_870b0cb1c02471e498d827db4a7b752f5a77b85d/</id>
 
-	<link href="/blog/recentchanges/#change-870b0cb1c02471e498d827db4a7b752f5a77b85d"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-870b0cb1c02471e498d827db4a7b752f5a77b85d"/>
 
 	<author><name>rbrito</name></author>
 
@@ -375,9 +375,9 @@ creating tag page tags/handbrake&lt;br /&gt;
 <entry>
 	<title>change to posts/i-am-not-going-to-debconf-12 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_7070a51876bfc90e1627f3d84189be8cc44ec6c4/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_7070a51876bfc90e1627f3d84189be8cc44ec6c4/</id>
 
-	<link href="/blog/recentchanges/#change-7070a51876bfc90e1627f3d84189be8cc44ec6c4"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-7070a51876bfc90e1627f3d84189be8cc44ec6c4"/>
 
 	<author><name>rbrito</name></author>
 
@@ -433,9 +433,9 @@ Add post about not going to DebConf 12.&lt;br /&gt;
 <entry>
 	<title>change to posts/about on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_86c59cb9825e80ce87929619391d9f2d79d25307/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_86c59cb9825e80ce87929619391d9f2d79d25307/</id>
 
-	<link href="/blog/recentchanges/#change-86c59cb9825e80ce87929619391d9f2d79d25307"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-86c59cb9825e80ce87929619391d9f2d79d25307"/>
 
 	<author><name>rbrito</name></author>
 
@@ -491,9 +491,9 @@ Update links to sites related to me.&lt;br /&gt;
 <entry>
 	<title>change to .blog.setup on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_cc984965e156a0639b9b4eb3a4a2b0820b10eca2/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_cc984965e156a0639b9b4eb3a4a2b0820b10eca2/</id>
 
-	<link href="/blog/recentchanges/#change-cc984965e156a0639b9b4eb3a4a2b0820b10eca2"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-cc984965e156a0639b9b4eb3a4a2b0820b10eca2"/>
 
 	<author><name>rbrito</name></author>
 
@@ -549,9 +549,9 @@ Revert modifications to the configuration.&lt;br /&gt;
 <entry>
 	<title>change to .blog.setup templates/inlinepage.tmpl templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_97d33009add866b7c7d317a7f06714bb20f53f0e/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_97d33009add866b7c7d317a7f06714bb20f53f0e/</id>
 
-	<link href="/blog/recentchanges/#change-97d33009add866b7c7d317a7f06714bb20f53f0e"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-97d33009add866b7c7d317a7f06714bb20f53f0e"/>
 
 	<author><name>rbrito</name></author>
 
@@ -611,9 +611,9 @@ Move around the disqus comment code.&lt;br /&gt;
 <entry>
 	<title>change to templates/inlinepage.tmpl templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_298d889a8197eea4e5e630b52242a55f6da4c24a/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_298d889a8197eea4e5e630b52242a55f6da4c24a/</id>
 
-	<link href="/blog/recentchanges/#change-298d889a8197eea4e5e630b52242a55f6da4c24a"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-298d889a8197eea4e5e630b52242a55f6da4c24a"/>
 
 	<author><name>rbrito</name></author>
 
@@ -671,9 +671,9 @@ Put the comments in the template for inlinepage.&lt;br /&gt;
 <entry>
 	<title>change to posts/about on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_539b74c53e2b6c16f31bf09bc1e562e3da3bed73/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_539b74c53e2b6c16f31bf09bc1e562e3da3bed73/</id>
 
-	<link href="/blog/recentchanges/#change-539b74c53e2b6c16f31bf09bc1e562e3da3bed73"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-539b74c53e2b6c16f31bf09bc1e562e3da3bed73"/>
 
 	<author><name>rbrito</name></author>
 
@@ -729,9 +729,9 @@ Update information about me.&lt;br /&gt;
 <entry>
 	<title>change to posts/installing_meego_on_the_n900 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_9df595a0b5bd742653c845c94dd06e565bc53aa7/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_9df595a0b5bd742653c845c94dd06e565bc53aa7/</id>
 
-	<link href="/blog/recentchanges/#change-9df595a0b5bd742653c845c94dd06e565bc53aa7"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-9df595a0b5bd742653c845c94dd06e565bc53aa7"/>
 
 	<author><name>rbrito</name></author>
 
@@ -787,9 +787,9 @@ Add post about Meego on the N900.&lt;br /&gt;
 <entry>
 	<title>change to .blog.setup templates/inlinepage.tmpl templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_cf5ebf93dfacba77235cb14d8dd73ec8ca893d7c/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_cf5ebf93dfacba77235cb14d8dd73ec8ca893d7c/</id>
 
-	<link href="/blog/recentchanges/#change-cf5ebf93dfacba77235cb14d8dd73ec8ca893d7c"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-cf5ebf93dfacba77235cb14d8dd73ec8ca893d7c"/>
 
 	<author><name>rbrito</name></author>
 
@@ -865,9 +865,9 @@ This was done after I visited&lt;br /&gt;
 <entry>
 	<title>change to .blog.setup on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_046a77f20a4828a95384c24ce610397c34c17350/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_046a77f20a4828a95384c24ce610397c34c17350/</id>
 
-	<link href="/blog/recentchanges/#change-046a77f20a4828a95384c24ce610397c34c17350"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-046a77f20a4828a95384c24ce610397c34c17350"/>
 
 	<author><name>rbrito</name></author>
 
@@ -947,9 +947,9 @@ I wish that Joey Hess allows this on future versions of ikiwiki.&lt;br /&gt;
 <entry>
 	<title>change to tags/ibook on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_7e57d8a4eea3eeaf7d41b19428cd93c131d0b824/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_7e57d8a4eea3eeaf7d41b19428cd93c131d0b824/</id>
 
-	<link href="/blog/recentchanges/#change-7e57d8a4eea3eeaf7d41b19428cd93c131d0b824"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-7e57d8a4eea3eeaf7d41b19428cd93c131d0b824"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1005,9 +1005,9 @@ creating tag page tags/ibook&lt;br /&gt;
 <entry>
 	<title>change to tags/mac on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_f130e9d60cb42fb3408536120bd7f6db36a84de5/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_f130e9d60cb42fb3408536120bd7f6db36a84de5/</id>
 
-	<link href="/blog/recentchanges/#change-f130e9d60cb42fb3408536120bd7f6db36a84de5"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-f130e9d60cb42fb3408536120bd7f6db36a84de5"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1063,9 +1063,9 @@ creating tag page tags/mac&lt;br /&gt;
 <entry>
 	<title>change to posts/running_grub2_on_powerpc_macs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_c3f42c23f433e09417d3d2a01c1eec3c42b0542e/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_c3f42c23f433e09417d3d2a01c1eec3c42b0542e/</id>
 
-	<link href="/blog/recentchanges/#change-c3f42c23f433e09417d3d2a01c1eec3c42b0542e"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-c3f42c23f433e09417d3d2a01c1eec3c42b0542e"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1121,9 +1121,9 @@ Forgot the tags in the last post.&lt;br /&gt;
 <entry>
 	<title>change to posts/running_grub2_on_powerpc_macs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_a87cd8c4740e82b77ee923cb0d4c3b234ba465b0/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_a87cd8c4740e82b77ee923cb0d4c3b234ba465b0/</id>
 
-	<link href="/blog/recentchanges/#change-a87cd8c4740e82b77ee923cb0d4c3b234ba465b0"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a87cd8c4740e82b77ee923cb0d4c3b234ba465b0"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1179,9 +1179,9 @@ Post: Add post on running GRUB2 on PowerPC Macs.&lt;br /&gt;
 <entry>
 	<title>change to tags/browsers on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_cfa810129493eca4a216963e608116f3e6ade03f/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_cfa810129493eca4a216963e608116f3e6ade03f/</id>
 
-	<link href="/blog/recentchanges/#change-cfa810129493eca4a216963e608116f3e6ade03f"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-cfa810129493eca4a216963e608116f3e6ade03f"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1237,9 +1237,9 @@ creating tag page tags/browsers&lt;br /&gt;
 <entry>
 	<title>change to tags/launchpad on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_6927158e3c42b34923e75b1f42aa8c4d8d4c4862/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_6927158e3c42b34923e75b1f42aa8c4d8d4c4862/</id>
 
-	<link href="/blog/recentchanges/#change-6927158e3c42b34923e75b1f42aa8c4d8d4c4862"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-6927158e3c42b34923e75b1f42aa8c4d8d4c4862"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1295,9 +1295,9 @@ creating tag page tags/launchpad&lt;br /&gt;
 <entry>
 	<title>change to tags/ubuntu on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_e33ce2c36a9e31463f022cf77efece2f58f0ec67/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_e33ce2c36a9e31463f022cf77efece2f58f0ec67/</id>
 
-	<link href="/blog/recentchanges/#change-e33ce2c36a9e31463f022cf77efece2f58f0ec67"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-e33ce2c36a9e31463f022cf77efece2f58f0ec67"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1353,9 +1353,9 @@ creating tag page tags/ubuntu&lt;br /&gt;
 <entry>
 	<title>change to tags/extensions on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_293efba1428b5f36fc14307752151de8bfe05963/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_293efba1428b5f36fc14307752151de8bfe05963/</id>
 
-	<link href="/blog/recentchanges/#change-293efba1428b5f36fc14307752151de8bfe05963"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-293efba1428b5f36fc14307752151de8bfe05963"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1411,9 +1411,9 @@ creating tag page tags/extensions&lt;br /&gt;
 <entry>
 	<title>change to posts/migrate-from-rcs-to-git posts/nobody-expects-the----stix-fonts-release- on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_537c11d058842cb91bac7c423642d40b2ae9fa90/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_537c11d058842cb91bac7c423642d40b2ae9fa90/</id>
 
-	<link href="/blog/recentchanges/#change-537c11d058842cb91bac7c423642d40b2ae9fa90"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-537c11d058842cb91bac7c423642d40b2ae9fa90"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1471,9 +1471,9 @@ Fix formatting and add some tags.&lt;br /&gt;
 <entry>
 	<title>change to posts/migrate-from-rcs-to-git posts/problems_with_chromium posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform posts/some_solutions_with_chromium on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_fc2c3f0f099eb1ec356087875eb16d774e1d2ddf/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_fc2c3f0f099eb1ec356087875eb16d774e1d2ddf/</id>
 
-	<link href="/blog/recentchanges/#change-fc2c3f0f099eb1ec356087875eb16d774e1d2ddf"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-fc2c3f0f099eb1ec356087875eb16d774e1d2ddf"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1535,9 +1535,9 @@ Fix some tags.&lt;br /&gt;
 <entry>
 	<title>change to tags/opentype on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_471c0c756b55d7543bf620cfd8a88d23477b8bf5/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_471c0c756b55d7543bf620cfd8a88d23477b8bf5/</id>
 
-	<link href="/blog/recentchanges/#change-471c0c756b55d7543bf620cfd8a88d23477b8bf5"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-471c0c756b55d7543bf620cfd8a88d23477b8bf5"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1593,9 +1593,9 @@ creating tag page tags/opentype&lt;br /&gt;
 <entry>
 	<title>change to tags/surgery on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_9314a8da36cb226462e4073a62a5947047808280/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_9314a8da36cb226462e4073a62a5947047808280/</id>
 
-	<link href="/blog/recentchanges/#change-9314a8da36cb226462e4073a62a5947047808280"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-9314a8da36cb226462e4073a62a5947047808280"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1651,9 +1651,9 @@ creating tag page tags/surgery&lt;br /&gt;
 <entry>
 	<title>change to posts/2005-07-08 posts/a-version-of-xpdf-with-the-poppler-backend-available posts/packaging-fonts-for-a-debian-based-system posts/please-let-me-zoom-my-documents- posts/preliminary-support-for-webm-in-youtube-dl posts/problems_with_chromium posts/some_solutions_with_chromium on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_aeefd4a2394b68a9320dcef7964c88eddc95bac1/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_aeefd4a2394b68a9320dcef7964c88eddc95bac1/</id>
 
-	<link href="/blog/recentchanges/#change-aeefd4a2394b68a9320dcef7964c88eddc95bac1"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-aeefd4a2394b68a9320dcef7964c88eddc95bac1"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1721,9 +1721,9 @@ Add some tags to the posts.&lt;br /&gt;
 <entry>
 	<title>change to tag/about tag/audio tag/bugs tag/c++ tag/configuration tag/debian tag/development tag/documents tag/emacs tag/embedded  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_88f09ec94c770f7a625277ebe5d1b5d15441c4b1/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_88f09ec94c770f7a625277ebe5d1b5d15441c4b1/</id>
 
-	<link href="/blog/recentchanges/#change-88f09ec94c770f7a625277ebe5d1b5d15441c4b1"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-88f09ec94c770f7a625277ebe5d1b5d15441c4b1"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1799,9 +1799,9 @@ Remove incorrect generation of tags.&lt;br /&gt;
 <entry>
 	<title>change to tags/about on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_e375d387744b34233612eff89cadf950068ab42f/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_e375d387744b34233612eff89cadf950068ab42f/</id>
 
-	<link href="/blog/recentchanges/#change-e375d387744b34233612eff89cadf950068ab42f"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-e375d387744b34233612eff89cadf950068ab42f"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1857,9 +1857,9 @@ creating tag page tags/about&lt;br /&gt;
 <entry>
 	<title>change to posts/some_solutions_with_chromium on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_02163cdb56504c1353458147bcf5e7189d936014/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_02163cdb56504c1353458147bcf5e7189d936014/</id>
 
-	<link href="/blog/recentchanges/#change-02163cdb56504c1353458147bcf5e7189d936014"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-02163cdb56504c1353458147bcf5e7189d936014"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1915,9 +1915,9 @@ Post on solutions with chromium.&lt;br /&gt;
 <entry>
 	<title>change to posts/problems_with_chromium on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_93a9ea1ee1de33afbd5d7a629615402a3d46a5db/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_93a9ea1ee1de33afbd5d7a629615402a3d46a5db/</id>
 
-	<link href="/blog/recentchanges/#change-93a9ea1ee1de33afbd5d7a629615402a3d46a5db"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-93a9ea1ee1de33afbd5d7a629615402a3d46a5db"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1973,9 +1973,9 @@ Update typography.&lt;br /&gt;
 <entry>
 	<title>change to tag/about on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_b87a4e40abec02a35964fb93cfbf1786ca6a18fc/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_b87a4e40abec02a35964fb93cfbf1786ca6a18fc/</id>
 
-	<link href="/blog/recentchanges/#change-b87a4e40abec02a35964fb93cfbf1786ca6a18fc"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-b87a4e40abec02a35964fb93cfbf1786ca6a18fc"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2031,9 +2031,9 @@ creating tag page tag/about&lt;br /&gt;
 <entry>
 	<title>change to posts/about on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_ebeed4659f9b7b133e0bcf905d60f7e21212070a/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_ebeed4659f9b7b133e0bcf905d60f7e21212070a/</id>
 
-	<link href="/blog/recentchanges/#change-ebeed4659f9b7b133e0bcf905d60f7e21212070a"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-ebeed4659f9b7b133e0bcf905d60f7e21212070a"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2089,9 +2089,9 @@ Rework slightly the description about me.&lt;br /&gt;
 <entry>
 	<title>change to index on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_cb865c9faeea2897d2d7fa338ccabb42c8216d8e/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_cb865c9faeea2897d2d7fa338ccabb42c8216d8e/</id>
 
-	<link href="/blog/recentchanges/#change-cb865c9faeea2897d2d7fa338ccabb42c8216d8e"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-cb865c9faeea2897d2d7fa338ccabb42c8216d8e"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2147,9 +2147,9 @@ Remove indication that this blog is ikiwiki powered. This is obvious.&lt;br /&gt
 <entry>
 	<title>change to posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_365165ba320ca5a7d4e5b7d7a32d0609f6583cd8/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_365165ba320ca5a7d4e5b7d7a32d0609f6583cd8/</id>
 
-	<link href="/blog/recentchanges/#change-365165ba320ca5a7d4e5b7d7a32d0609f6583cd8"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-365165ba320ca5a7d4e5b7d7a32d0609f6583cd8"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2205,9 +2205,9 @@ fix formatting of a post converted from wordpress.&lt;br /&gt;
 <entry>
 	<title>change to archives calendar/2000 archives calendar/2000/01 archives calendar/2000/02 archives calendar/2000/03 archives calendar/2000/04 archives calendar/2000/05 archives calendar/2000/06 archives calendar/2000/07 archives calendar/2000/08 archives calendar/2000/09  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_6b796a4e1b6e0a494460c536a628059881b15884/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_6b796a4e1b6e0a494460c536a628059881b15884/</id>
 
-	<link href="/blog/recentchanges/#change-6b796a4e1b6e0a494460c536a628059881b15884"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-6b796a4e1b6e0a494460c536a628059881b15884"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2283,9 +2283,9 @@ Remove erroneous calendar files.&lt;br /&gt;
 <entry>
 	<title>change to archives/2000 archives/2000/01 archives/2000/02 archives/2000/03 archives/2000/04 archives/2000/05 archives/2000/06 archives/2000/07 archives/2000/08 archives/2000/09  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_1356af11e1d31e42734788ee288464fc2878e8e4/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_1356af11e1d31e42734788ee288464fc2878e8e4/</id>
 
-	<link href="/blog/recentchanges/#change-1356af11e1d31e42734788ee288464fc2878e8e4"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-1356af11e1d31e42734788ee288464fc2878e8e4"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2361,9 +2361,9 @@ calendar update&lt;br /&gt;
 <entry>
 	<title>change to archives calendar/2000 archives calendar/2000/01 archives calendar/2000/02 archives calendar/2000/03 archives calendar/2000/04 archives calendar/2000/05 archives calendar/2000/06 archives calendar/2000/07 archives calendar/2000/08 archives calendar/2000/09  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_f85da97131fab5492d792c1ffee7c5324d4e1729/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_f85da97131fab5492d792c1ffee7c5324d4e1729/</id>
 
-	<link href="/blog/recentchanges/#change-f85da97131fab5492d792c1ffee7c5324d4e1729"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-f85da97131fab5492d792c1ffee7c5324d4e1729"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2439,9 +2439,9 @@ calendar update&lt;br /&gt;
 <entry>
 	<title>change to archives calendar/2011 archives calendar/2011/01 archives calendar/2011/02 archives calendar/2011/03 archives calendar/2011/04 archives calendar/2011/05 archives calendar/2011/06 archives calendar/2011/07 archives calendar/2011/08 archives calendar/2011/09  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_c2093baab6806c70abd5a09fd36b5d5e29809023/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_c2093baab6806c70abd5a09fd36b5d5e29809023/</id>
 
-	<link href="/blog/recentchanges/#change-c2093baab6806c70abd5a09fd36b5d5e29809023"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-c2093baab6806c70abd5a09fd36b5d5e29809023"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2517,9 +2517,9 @@ calendar update&lt;br /&gt;
 <entry>
 	<title>change to tag/uncategorized on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_4ff4c050d6750f69e0817c31d460a1685defa265/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_4ff4c050d6750f69e0817c31d460a1685defa265/</id>
 
-	<link href="/blog/recentchanges/#change-4ff4c050d6750f69e0817c31d460a1685defa265"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-4ff4c050d6750f69e0817c31d460a1685defa265"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2575,9 +2575,9 @@ creating tag page tag/uncategorized&lt;br /&gt;
 <entry>
 	<title>change to tag/audio on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_a8690ea7877dddab401c281739e3d3249e157f52/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_a8690ea7877dddab401c281739e3d3249e157f52/</id>
 
-	<link href="/blog/recentchanges/#change-a8690ea7877dddab401c281739e3d3249e157f52"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a8690ea7877dddab401c281739e3d3249e157f52"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2633,9 +2633,9 @@ creating tag page tag/audio&lt;br /&gt;
 <entry>
 	<title>change to tag/pdf on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_f01b5b0e9318169b5aecfd3fa1e6f4e6da7ba88c/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_f01b5b0e9318169b5aecfd3fa1e6f4e6da7ba88c/</id>
 
-	<link href="/blog/recentchanges/#change-f01b5b0e9318169b5aecfd3fa1e6f4e6da7ba88c"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-f01b5b0e9318169b5aecfd3fa1e6f4e6da7ba88c"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2691,9 +2691,9 @@ creating tag page tag/pdf&lt;br /&gt;
 <entry>
 	<title>change to tag/revision-control on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_416bd056c599b359c8c14a43eb5b2f71022f59b5/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_416bd056c599b359c8c14a43eb5b2f71022f59b5/</id>
 
-	<link href="/blog/recentchanges/#change-416bd056c599b359c8c14a43eb5b2f71022f59b5"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-416bd056c599b359c8c14a43eb5b2f71022f59b5"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2749,9 +2749,9 @@ creating tag page tag/revision-control&lt;br /&gt;
 <entry>
 	<title>change to tag/free-software on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_1910b8c075e28b1b3eb533d0fdf5bd93eb3b512b/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_1910b8c075e28b1b3eb533d0fdf5bd93eb3b512b/</id>
 
-	<link href="/blog/recentchanges/#change-1910b8c075e28b1b3eb533d0fdf5bd93eb3b512b"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-1910b8c075e28b1b3eb533d0fdf5bd93eb3b512b"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2807,9 +2807,9 @@ creating tag page tag/free-software&lt;br /&gt;
 <entry>
 	<title>change to tag/programming on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_941deb513ad53381dd3f9d1490f357fcbbe3a863/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_941deb513ad53381dd3f9d1490f357fcbbe3a863/</id>
 
-	<link href="/blog/recentchanges/#change-941deb513ad53381dd3f9d1490f357fcbbe3a863"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-941deb513ad53381dd3f9d1490f357fcbbe3a863"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2865,9 +2865,9 @@ creating tag page tag/programming&lt;br /&gt;
 <entry>
 	<title>change to tag/development on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_8a9e2fd4d49cc83c814f07a998d88df710d37e54/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_8a9e2fd4d49cc83c814f07a998d88df710d37e54/</id>
 
-	<link href="/blog/recentchanges/#change-8a9e2fd4d49cc83c814f07a998d88df710d37e54"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-8a9e2fd4d49cc83c814f07a998d88df710d37e54"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2923,9 +2923,9 @@ creating tag page tag/development&lt;br /&gt;
 <entry>
 	<title>change to tag/xetex on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_558b7c05a3593cb71b7856d65817c8a63a266ce5/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_558b7c05a3593cb71b7856d65817c8a63a266ce5/</id>
 
-	<link href="/blog/recentchanges/#change-558b7c05a3593cb71b7856d65817c8a63a266ce5"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-558b7c05a3593cb71b7856d65817c8a63a266ce5"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2981,9 +2981,9 @@ creating tag page tag/xetex&lt;br /&gt;
 <entry>
 	<title>change to tag/readline on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_d5073f645c22d2f9686a7bb38ca7c1312d1d7f6a/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_d5073f645c22d2f9686a7bb38ca7c1312d1d7f6a/</id>
 
-	<link href="/blog/recentchanges/#change-d5073f645c22d2f9686a7bb38ca7c1312d1d7f6a"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-d5073f645c22d2f9686a7bb38ca7c1312d1d7f6a"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3039,9 +3039,9 @@ creating tag page tag/readline&lt;br /&gt;
 <entry>
 	<title>change to tag/tex on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_39c0cc35756f2e0881c4ce76f84f9454f9636d65/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_39c0cc35756f2e0881c4ce76f84f9454f9636d65/</id>
 
-	<link href="/blog/recentchanges/#change-39c0cc35756f2e0881c4ce76f84f9454f9636d65"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-39c0cc35756f2e0881c4ce76f84f9454f9636d65"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3097,9 +3097,9 @@ creating tag page tag/tex&lt;br /&gt;
 <entry>
 	<title>change to tag/c++ on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_d9856e68c9e963eb77467dded8dbdacf723a0de4/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_d9856e68c9e963eb77467dded8dbdacf723a0de4/</id>
 
-	<link href="/blog/recentchanges/#change-d9856e68c9e963eb77467dded8dbdacf723a0de4"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-d9856e68c9e963eb77467dded8dbdacf723a0de4"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3155,9 +3155,9 @@ creating tag page tag/c++&lt;br /&gt;
 <entry>
 	<title>change to tag/powerpc on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_ab084272f28781de896e24990647e563e2b9b3f1/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_ab084272f28781de896e24990647e563e2b9b3f1/</id>
 
-	<link href="/blog/recentchanges/#change-ab084272f28781de896e24990647e563e2b9b3f1"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-ab084272f28781de896e24990647e563e2b9b3f1"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3213,9 +3213,9 @@ creating tag page tag/powerpc&lt;br /&gt;
 <entry>
 	<title>change to tag/kurobox on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_1ec7136f6a85bd5a0f043d60727ecf9250bec3b6/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_1ec7136f6a85bd5a0f043d60727ecf9250bec3b6/</id>
 
-	<link href="/blog/recentchanges/#change-1ec7136f6a85bd5a0f043d60727ecf9250bec3b6"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-1ec7136f6a85bd5a0f043d60727ecf9250bec3b6"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3271,9 +3271,9 @@ creating tag page tag/kurobox&lt;br /&gt;
 <entry>
 	<title>change to tag/typography on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_6ce3e176d723fb8425b7c585930ef2b5250b4f57/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_6ce3e176d723fb8425b7c585930ef2b5250b4f57/</id>
 
-	<link href="/blog/recentchanges/#change-6ce3e176d723fb8425b7c585930ef2b5250b4f57"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-6ce3e176d723fb8425b7c585930ef2b5250b4f57"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3329,9 +3329,9 @@ creating tag page tag/typography&lt;br /&gt;
 <entry>
 	<title>change to tag/configuration on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_5565da7df8b53053f811285729210056634630a1/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_5565da7df8b53053f811285729210056634630a1/</id>
 
-	<link href="/blog/recentchanges/#change-5565da7df8b53053f811285729210056634630a1"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-5565da7df8b53053f811285729210056634630a1"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3387,9 +3387,9 @@ creating tag page tag/configuration&lt;br /&gt;
 <entry>
 	<title>change to tag/linux on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_7ccd12f0bf7ffc47cd17f6c367f2ffde2583c1e1/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_7ccd12f0bf7ffc47cd17f6c367f2ffde2583c1e1/</id>
 
-	<link href="/blog/recentchanges/#change-7ccd12f0bf7ffc47cd17f6c367f2ffde2583c1e1"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-7ccd12f0bf7ffc47cd17f6c367f2ffde2583c1e1"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3445,9 +3445,9 @@ creating tag page tag/linux&lt;br /&gt;
 <entry>
 	<title>change to tag/people on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_efabe1e353fe76686c44bbb35e6b2cc06f7de97f/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_efabe1e353fe76686c44bbb35e6b2cc06f7de97f/</id>
 
-	<link href="/blog/recentchanges/#change-efabe1e353fe76686c44bbb35e6b2cc06f7de97f"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-efabe1e353fe76686c44bbb35e6b2cc06f7de97f"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3503,9 +3503,9 @@ creating tag page tag/people&lt;br /&gt;
 <entry>
 	<title>change to tag/embedded on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_a71906b52ff30a29835f05ea964ba38efb21c6bc/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_a71906b52ff30a29835f05ea964ba38efb21c6bc/</id>
 
-	<link href="/blog/recentchanges/#change-a71906b52ff30a29835f05ea964ba38efb21c6bc"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a71906b52ff30a29835f05ea964ba38efb21c6bc"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3561,9 +3561,9 @@ creating tag page tag/embedded&lt;br /&gt;
 <entry>
 	<title>change to tag/libraries on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_80c4025dbcaceb3dd5e615ad6633a4946ec3dc0b/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_80c4025dbcaceb3dd5e615ad6633a4946ec3dc0b/</id>
 
-	<link href="/blog/recentchanges/#change-80c4025dbcaceb3dd5e615ad6633a4946ec3dc0b"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-80c4025dbcaceb3dd5e615ad6633a4946ec3dc0b"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3619,9 +3619,9 @@ creating tag page tag/libraries&lt;br /&gt;
 <entry>
 	<title>change to tag/productivity on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_c06a421b39b09a6809af386cc55a0ddf12d66b18/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_c06a421b39b09a6809af386cc55a0ddf12d66b18/</id>
 
-	<link href="/blog/recentchanges/#change-c06a421b39b09a6809af386cc55a0ddf12d66b18"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-c06a421b39b09a6809af386cc55a0ddf12d66b18"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3677,9 +3677,9 @@ creating tag page tag/productivity&lt;br /&gt;
 <entry>
 	<title>change to tag/documents on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_d316f5851fd8c73b2228ae6727f582c9e5d2c077/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_d316f5851fd8c73b2228ae6727f582c9e5d2c077/</id>
 
-	<link href="/blog/recentchanges/#change-d316f5851fd8c73b2228ae6727f582c9e5d2c077"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-d316f5851fd8c73b2228ae6727f582c9e5d2c077"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3735,9 +3735,9 @@ creating tag page tag/documents&lt;br /&gt;
 <entry>
 	<title>change to tag/kernel on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_d663ab0ddb310b46dfc079ccd986ce463fd3e6fd/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_d663ab0ddb310b46dfc079ccd986ce463fd3e6fd/</id>
 
-	<link href="/blog/recentchanges/#change-d663ab0ddb310b46dfc079ccd986ce463fd3e6fd"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-d663ab0ddb310b46dfc079ccd986ce463fd3e6fd"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3793,9 +3793,9 @@ creating tag page tag/kernel&lt;br /&gt;
 <entry>
 	<title>change to archives calendar/2011 archives calendar/2011/01 archives calendar/2011/02 archives calendar/2011/03 archives calendar/2011/04 archives calendar/2011/05 archives calendar/2011/06 archives calendar/2011/07 archives calendar/2011/08 archives calendar/2011/09  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_3f200b01d73bd2cab72cb73448d14e6f9edcfb3a/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_3f200b01d73bd2cab72cb73448d14e6f9edcfb3a/</id>
 
-	<link href="/blog/recentchanges/#change-3f200b01d73bd2cab72cb73448d14e6f9edcfb3a"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-3f200b01d73bd2cab72cb73448d14e6f9edcfb3a"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3871,9 +3871,9 @@ calendar update&lt;br /&gt;
 <entry>
 	<title>change to tag/multimedia on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_1f19a00aecf6e1fb461abff195393bd2d930a740/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_1f19a00aecf6e1fb461abff195393bd2d930a740/</id>
 
-	<link href="/blog/recentchanges/#change-1f19a00aecf6e1fb461abff195393bd2d930a740"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-1f19a00aecf6e1fb461abff195393bd2d930a740"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3929,9 +3929,9 @@ creating tag page tag/multimedia&lt;br /&gt;
 <entry>
 	<title>change to tag/emacs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_e97d8614db9bac15c45398b19f1b8252d243533b/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_e97d8614db9bac15c45398b19f1b8252d243533b/</id>
 
-	<link href="/blog/recentchanges/#change-e97d8614db9bac15c45398b19f1b8252d243533b"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-e97d8614db9bac15c45398b19f1b8252d243533b"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3987,9 +3987,9 @@ creating tag page tag/emacs&lt;br /&gt;
 <entry>
 	<title>change to tag/video on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_a40abe49ae6a34c8c2f3e71cee478c18f1fd5393/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_a40abe49ae6a34c8c2f3e71cee478c18f1fd5393/</id>
 
-	<link href="/blog/recentchanges/#change-a40abe49ae6a34c8c2f3e71cee478c18f1fd5393"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a40abe49ae6a34c8c2f3e71cee478c18f1fd5393"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4045,9 +4045,9 @@ creating tag page tag/video&lt;br /&gt;
 <entry>
 	<title>change to tag/bugs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_26deec2c44cd234d5706e43585689ac08580c30b/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_26deec2c44cd234d5706e43585689ac08580c30b/</id>
 
-	<link href="/blog/recentchanges/#change-26deec2c44cd234d5706e43585689ac08580c30b"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-26deec2c44cd234d5706e43585689ac08580c30b"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4103,9 +4103,9 @@ creating tag page tag/bugs&lt;br /&gt;
 <entry>
 	<title>change to tag/git on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_e26e93be249dd220e575a1fced0c875d09d761cf/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_e26e93be249dd220e575a1fced0c875d09d761cf/</id>
 
-	<link href="/blog/recentchanges/#change-e26e93be249dd220e575a1fced0c875d09d761cf"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-e26e93be249dd220e575a1fced0c875d09d761cf"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4161,9 +4161,9 @@ creating tag page tag/git&lt;br /&gt;
 <entry>
 	<title>change to tag/web-of-trust on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_827d8de50d7b113478dbce58e0d0e21bfa76d4e5/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_827d8de50d7b113478dbce58e0d0e21bfa76d4e5/</id>
 
-	<link href="/blog/recentchanges/#change-827d8de50d7b113478dbce58e0d0e21bfa76d4e5"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-827d8de50d7b113478dbce58e0d0e21bfa76d4e5"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4219,9 +4219,9 @@ creating tag page tag/web-of-trust&lt;br /&gt;
 <entry>
 	<title>change to tag/debian on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_ec606d2f0660ad61c1d96e70e64c4440e7a9febb/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_ec606d2f0660ad61c1d96e70e64c4440e7a9febb/</id>
 
-	<link href="/blog/recentchanges/#change-ec606d2f0660ad61c1d96e70e64c4440e7a9febb"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-ec606d2f0660ad61c1d96e70e64c4440e7a9febb"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4277,9 +4277,9 @@ creating tag page tag/debian&lt;br /&gt;
 <entry>
 	<title>change to tag/fonts on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_225f4385dce86e85d6d9e99d0791310db20d8182/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_225f4385dce86e85d6d9e99d0791310db20d8182/</id>
 
-	<link href="/blog/recentchanges/#change-225f4385dce86e85d6d9e99d0791310db20d8182"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-225f4385dce86e85d6d9e99d0791310db20d8182"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4335,9 +4335,9 @@ creating tag page tag/fonts&lt;br /&gt;
 <entry>
 	<title>change to tag/hacks on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_11072dc3de7d3a74b3896b2710d6aa7698b4e898/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_11072dc3de7d3a74b3896b2710d6aa7698b4e898/</id>
 
-	<link href="/blog/recentchanges/#change-11072dc3de7d3a74b3896b2710d6aa7698b4e898"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-11072dc3de7d3a74b3896b2710d6aa7698b4e898"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4393,9 +4393,9 @@ creating tag page tag/hacks&lt;br /&gt;
 <entry>
 	<title>change to posts/problems_with_chromium on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_8d3f3d41b66bf71b5d57951f1117c41a1c7e2447/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_8d3f3d41b66bf71b5d57951f1117c41a1c7e2447/</id>
 
-	<link href="/blog/recentchanges/#change-8d3f3d41b66bf71b5d57951f1117c41a1c7e2447"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-8d3f3d41b66bf71b5d57951f1117c41a1c7e2447"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4451,9 +4451,9 @@ Add post on chromium.&lt;br /&gt;
 <entry>
 	<title>change to .gitignore on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_b9dc5c4d799a1d8abcd2396f09c40e6b71fe7ca7/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_b9dc5c4d799a1d8abcd2396f09c40e6b71fe7ca7/</id>
 
-	<link href="/blog/recentchanges/#change-b9dc5c4d799a1d8abcd2396f09c40e6b71fe7ca7"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-b9dc5c4d799a1d8abcd2396f09c40e6b71fe7ca7"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4509,9 +4509,9 @@ Ignore backup files.&lt;br /&gt;
 <entry>
 	<title>change to posts/packaging-fonts-for-a-debian-based-system on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_50292f5364f601ef501cf9bee920ae1b4e07d4c3/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_50292f5364f601ef501cf9bee920ae1b4e07d4c3/</id>
 
-	<link href="/blog/recentchanges/#change-50292f5364f601ef501cf9bee920ae1b4e07d4c3"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-50292f5364f601ef501cf9bee920ae1b4e07d4c3"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4567,9 +4567,9 @@ Add post regarding packaged fonts&lt;br /&gt;
 <entry>
 	<title>change to posts/first_post on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_0d5925b3a6a57a4e6926f91521292a21b22fdc07/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_0d5925b3a6a57a4e6926f91521292a21b22fdc07/</id>
 
-	<link href="/blog/recentchanges/#change-0d5925b3a6a57a4e6926f91521292a21b22fdc07"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-0d5925b3a6a57a4e6926f91521292a21b22fdc07"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4625,9 +4625,9 @@ Remove example of posting&lt;br /&gt;
 <entry>
 	<title>change to archives/2000 archives/2000/01 archives/2000/02 archives/2000/03 archives/2000/04 archives/2000/05 archives/2000/06 archives/2000/07 archives/2000/08 archives/2000/09  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_404674cadcb70228a7d58921da135a4ad2a72a99/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_404674cadcb70228a7d58921da135a4ad2a72a99/</id>
 
-	<link href="/blog/recentchanges/#change-404674cadcb70228a7d58921da135a4ad2a72a99"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-404674cadcb70228a7d58921da135a4ad2a72a99"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4703,9 +4703,9 @@ calendar update&lt;br /&gt;
 <entry>
 	<title>change to tags/multimedia on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_535ba4e25b3f3cfb6b67a53c28d81160d8e6bedf/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_535ba4e25b3f3cfb6b67a53c28d81160d8e6bedf/</id>
 
-	<link href="/blog/recentchanges/#change-535ba4e25b3f3cfb6b67a53c28d81160d8e6bedf"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-535ba4e25b3f3cfb6b67a53c28d81160d8e6bedf"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4761,9 +4761,9 @@ creating tag page tags/multimedia&lt;br /&gt;
 <entry>
 	<title>change to tags/video on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_06bc0a095508be642583e531e6e4d86911bbaf39/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_06bc0a095508be642583e531e6e4d86911bbaf39/</id>
 
-	<link href="/blog/recentchanges/#change-06bc0a095508be642583e531e6e4d86911bbaf39"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-06bc0a095508be642583e531e6e4d86911bbaf39"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4819,9 +4819,9 @@ creating tag page tags/video&lt;br /&gt;
 <entry>
 	<title>change to tags/embedded on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_cbf78f5d34d1502c570f1aa24a3a09ee2739bad9/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_cbf78f5d34d1502c570f1aa24a3a09ee2739bad9/</id>
 
-	<link href="/blog/recentchanges/#change-cbf78f5d34d1502c570f1aa24a3a09ee2739bad9"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-cbf78f5d34d1502c570f1aa24a3a09ee2739bad9"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4877,9 +4877,9 @@ creating tag page tags/embedded&lt;br /&gt;
 <entry>
 	<title>change to tags/libraries on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_17cc6605ee1d375e2880abfcb392db783eb89dc4/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_17cc6605ee1d375e2880abfcb392db783eb89dc4/</id>
 
-	<link href="/blog/recentchanges/#change-17cc6605ee1d375e2880abfcb392db783eb89dc4"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-17cc6605ee1d375e2880abfcb392db783eb89dc4"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4935,9 +4935,9 @@ creating tag page tags/libraries&lt;br /&gt;
 <entry>
 	<title>change to tags/emacs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_aa89e9ec5ee59522037d0c77e520b31a6ef8cdac/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_aa89e9ec5ee59522037d0c77e520b31a6ef8cdac/</id>
 
-	<link href="/blog/recentchanges/#change-aa89e9ec5ee59522037d0c77e520b31a6ef8cdac"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-aa89e9ec5ee59522037d0c77e520b31a6ef8cdac"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4993,9 +4993,9 @@ creating tag page tags/emacs&lt;br /&gt;
 <entry>
 	<title>change to tags/kernel on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_2ffc78aa8b9a152cc4bcf42cc85cebc093adb67e/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_2ffc78aa8b9a152cc4bcf42cc85cebc093adb67e/</id>
 
-	<link href="/blog/recentchanges/#change-2ffc78aa8b9a152cc4bcf42cc85cebc093adb67e"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-2ffc78aa8b9a152cc4bcf42cc85cebc093adb67e"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5051,9 +5051,9 @@ creating tag page tags/kernel&lt;br /&gt;
 <entry>
 	<title>change to tags/people on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_80808cabd23747f0059199f5e76bde9127691776/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_80808cabd23747f0059199f5e76bde9127691776/</id>
 
-	<link href="/blog/recentchanges/#change-80808cabd23747f0059199f5e76bde9127691776"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-80808cabd23747f0059199f5e76bde9127691776"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5109,9 +5109,9 @@ creating tag page tags/people&lt;br /&gt;
 <entry>
 	<title>change to tags/powerpc on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_a8561cc85d177ffce248c299311b2d80468a52eb/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_a8561cc85d177ffce248c299311b2d80468a52eb/</id>
 
-	<link href="/blog/recentchanges/#change-a8561cc85d177ffce248c299311b2d80468a52eb"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a8561cc85d177ffce248c299311b2d80468a52eb"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5167,9 +5167,9 @@ creating tag page tags/powerpc&lt;br /&gt;
 <entry>
 	<title>change to tags/typography on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_f3b7cf6e928b7b62f00b2c33bbe400b983e08c3e/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_f3b7cf6e928b7b62f00b2c33bbe400b983e08c3e/</id>
 
-	<link href="/blog/recentchanges/#change-f3b7cf6e928b7b62f00b2c33bbe400b983e08c3e"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-f3b7cf6e928b7b62f00b2c33bbe400b983e08c3e"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5225,9 +5225,9 @@ creating tag page tags/typography&lt;br /&gt;
 <entry>
 	<title>change to tags/readline on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_1b5d1c851ffc0752f2ac95ea609322ee5fb5236a/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_1b5d1c851ffc0752f2ac95ea609322ee5fb5236a/</id>
 
-	<link href="/blog/recentchanges/#change-1b5d1c851ffc0752f2ac95ea609322ee5fb5236a"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-1b5d1c851ffc0752f2ac95ea609322ee5fb5236a"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5283,9 +5283,9 @@ creating tag page tags/readline&lt;br /&gt;
 <entry>
 	<title>change to tags/pdf on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_f8b8689f14c7e3e89ba12d66024fe94fde81a0aa/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_f8b8689f14c7e3e89ba12d66024fe94fde81a0aa/</id>
 
-	<link href="/blog/recentchanges/#change-f8b8689f14c7e3e89ba12d66024fe94fde81a0aa"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-f8b8689f14c7e3e89ba12d66024fe94fde81a0aa"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5341,9 +5341,9 @@ creating tag page tags/pdf&lt;br /&gt;
 <entry>
 	<title>change to tags/git on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_f89e2ed04a612de3e3806e19f0ac119c9b50ef9d/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_f89e2ed04a612de3e3806e19f0ac119c9b50ef9d/</id>
 
-	<link href="/blog/recentchanges/#change-f89e2ed04a612de3e3806e19f0ac119c9b50ef9d"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-f89e2ed04a612de3e3806e19f0ac119c9b50ef9d"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5399,9 +5399,9 @@ creating tag page tags/git&lt;br /&gt;
 <entry>
 	<title>change to tags/documents on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_10efae2bf7750372bc110a39c799e9018e1edea0/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_10efae2bf7750372bc110a39c799e9018e1edea0/</id>
 
-	<link href="/blog/recentchanges/#change-10efae2bf7750372bc110a39c799e9018e1edea0"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-10efae2bf7750372bc110a39c799e9018e1edea0"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5457,9 +5457,9 @@ creating tag page tags/documents&lt;br /&gt;
 <entry>
 	<title>change to tags/hacks on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_a93e174d77d0ded7a84d261c72a885924201d4fd/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_a93e174d77d0ded7a84d261c72a885924201d4fd/</id>
 
-	<link href="/blog/recentchanges/#change-a93e174d77d0ded7a84d261c72a885924201d4fd"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a93e174d77d0ded7a84d261c72a885924201d4fd"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5515,9 +5515,9 @@ creating tag page tags/hacks&lt;br /&gt;
 <entry>
 	<title>change to tags/revision-control on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_00b8694fa5dfb47f219aafb8d3cfd39bc16ef54a/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_00b8694fa5dfb47f219aafb8d3cfd39bc16ef54a/</id>
 
-	<link href="/blog/recentchanges/#change-00b8694fa5dfb47f219aafb8d3cfd39bc16ef54a"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-00b8694fa5dfb47f219aafb8d3cfd39bc16ef54a"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5573,9 +5573,9 @@ creating tag page tags/revision-control&lt;br /&gt;
 <entry>
 	<title>change to tags/web-of-trust on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_854b2726b984d06d1cea0b1c3396780945b8cd79/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_854b2726b984d06d1cea0b1c3396780945b8cd79/</id>
 
-	<link href="/blog/recentchanges/#change-854b2726b984d06d1cea0b1c3396780945b8cd79"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-854b2726b984d06d1cea0b1c3396780945b8cd79"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5631,9 +5631,9 @@ creating tag page tags/web-of-trust&lt;br /&gt;
 <entry>
 	<title>change to tags/free-software on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_5f992329cad549777c9ddc203edfc52fdd0b360c/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_5f992329cad549777c9ddc203edfc52fdd0b360c/</id>
 
-	<link href="/blog/recentchanges/#change-5f992329cad549777c9ddc203edfc52fdd0b360c"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-5f992329cad549777c9ddc203edfc52fdd0b360c"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5689,9 +5689,9 @@ creating tag page tags/free-software&lt;br /&gt;
 <entry>
 	<title>change to tags/fonts on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_35881d015b1655316f7ec4683503993eb368f341/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_35881d015b1655316f7ec4683503993eb368f341/</id>
 
-	<link href="/blog/recentchanges/#change-35881d015b1655316f7ec4683503993eb368f341"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-35881d015b1655316f7ec4683503993eb368f341"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5747,9 +5747,9 @@ creating tag page tags/fonts&lt;br /&gt;
 <entry>
 	<title>change to tags/c++ on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_61919dda425fb355ec2d36600163f100e74859c1/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_61919dda425fb355ec2d36600163f100e74859c1/</id>
 
-	<link href="/blog/recentchanges/#change-61919dda425fb355ec2d36600163f100e74859c1"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-61919dda425fb355ec2d36600163f100e74859c1"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5805,9 +5805,9 @@ creating tag page tags/c++&lt;br /&gt;
 <entry>
 	<title>change to tags/xetex on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_83bb29f8a0eabb1b30683df5ac21f9fb8c84f993/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_83bb29f8a0eabb1b30683df5ac21f9fb8c84f993/</id>
 
-	<link href="/blog/recentchanges/#change-83bb29f8a0eabb1b30683df5ac21f9fb8c84f993"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-83bb29f8a0eabb1b30683df5ac21f9fb8c84f993"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5863,9 +5863,9 @@ creating tag page tags/xetex&lt;br /&gt;
 <entry>
 	<title>change to tags/configuration on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_f36009912672c7436373d18f47f82587849beaa0/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_f36009912672c7436373d18f47f82587849beaa0/</id>
 
-	<link href="/blog/recentchanges/#change-f36009912672c7436373d18f47f82587849beaa0"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-f36009912672c7436373d18f47f82587849beaa0"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5921,9 +5921,9 @@ creating tag page tags/configuration&lt;br /&gt;
 <entry>
 	<title>change to tags/debian on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_dfde9d10d4d212ea17f9a9234f8a4ae18a3c169b/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_dfde9d10d4d212ea17f9a9234f8a4ae18a3c169b/</id>
 
-	<link href="/blog/recentchanges/#change-dfde9d10d4d212ea17f9a9234f8a4ae18a3c169b"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-dfde9d10d4d212ea17f9a9234f8a4ae18a3c169b"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5979,9 +5979,9 @@ creating tag page tags/debian&lt;br /&gt;
 <entry>
 	<title>change to tags/linux on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>/blog//recentchanges/change_563ec4639daf7a8f6e9d0f2525689c5823bc6df8/</id>
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_563ec4639daf7a8f6e9d0f2525689c5823bc6df8/</id>
 
-	<link href="/blog/recentchanges/#change-563ec4639daf7a8f6e9d0f2525689c5823bc6df8"/>
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-563ec4639daf7a8f6e9d0f2525689c5823bc6df8"/>
 
 	<author><name>rbrito</name></author>
 

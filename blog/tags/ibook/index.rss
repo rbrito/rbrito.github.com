@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged ibook</title>
-<link>/blog//tags/ibook/</link>
+<link>http://rb.doesntexist.org/blog//tags/ibook/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Running GRUB2 on PowerPC Macs</title>
 
 
-	<guid isPermaLink="false">/blog//posts/running_grub2_on_powerpc_macs/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</guid>
 
-	<link>/blog//posts/running_grub2_on_powerpc_macs/</link>
+	<link>http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</link>
 
 
 	<category>configuration</category>

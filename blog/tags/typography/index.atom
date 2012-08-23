@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged typography</title>
-<link href="/blog//tags/typography/"/>
-<link href="/blog//tags/typography/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://rb.doesntexist.org/blog//tags/typography/"/>
+<link href="http://rb.doesntexist.org/blog//tags/typography/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>/blog//tags/typography/</id>
+<id>http://rb.doesntexist.org/blog//tags/typography/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>Packaging fonts for a Debian-based system</title>
 
-	<id>/blog//posts/packaging-fonts-for-a-debian-based-system/</id>
+	<id>http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/</id>
 
-	<link href="/blog//posts/packaging-fonts-for-a-debian-based-system/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/"/>
 
 
 
@@ -161,9 +161,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 <entry>
 	<title>Nobody expects the... STIX fonts release!</title>
 
-	<id>/blog//posts/nobody-expects-the----stix-fonts-release-/</id>
+	<id>http://rb.doesntexist.org/blog//posts/nobody-expects-the----stix-fonts-release-/</id>
 
-	<link href="/blog//posts/nobody-expects-the----stix-fonts-release-/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/nobody-expects-the----stix-fonts-release-/"/>
 
 
 

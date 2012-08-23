@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged launchpad</title>
-<link>/blog//tags/launchpad/</link>
+<link>http://rb.doesntexist.org/blog//tags/launchpad/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>My problems with Chromium</title>
 
 
-	<guid isPermaLink="false">/blog//posts/problems_with_chromium/</guid>
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/problems_with_chromium/</guid>
 
-	<link>/blog//posts/problems_with_chromium/</link>
+	<link>http://rb.doesntexist.org/blog//posts/problems_with_chromium/</link>
 
 
 	<category>browsers</category>

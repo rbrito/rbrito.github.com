@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged kernel</title>
-<link href="/blog//tags/kernel/"/>
-<link href="/blog//tags/kernel/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://rb.doesntexist.org/blog//tags/kernel/"/>
+<link href="http://rb.doesntexist.org/blog//tags/kernel/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>/blog//tags/kernel/</id>
+<id>http://rb.doesntexist.org/blog//tags/kernel/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
-	<id>/blog//posts/running_grub2_on_powerpc_macs/</id>
+	<id>http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</id>
 
-	<link href="/blog//posts/running_grub2_on_powerpc_macs/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/"/>
 
 
 
@@ -339,9 +339,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 <entry>
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
-	<id>/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</id>
+	<id>http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</id>
 
-	<link href="/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/"/>
 
 
 
