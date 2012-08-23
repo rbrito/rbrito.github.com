@@ -12,6 +12,114 @@
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
+	<guid isPermaLink="false">/blog//recentchanges/change_0b515875b2fdc7f0996ce7cfa58533fbb1d75800/</guid>
+
+	<link>/blog/recentchanges/#change-0b515875b2fdc7f0996ce7cfa58533fbb1d75800</link>
+
+	<pubDate>Thu, 23 Aug 2012 18:12:25 -0300</pubDate>
+	<dcterms:modified>2012-08-23T21:12:25Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-0b515875b2fdc7f0996ce7cfa58533fbb1d75800&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+.blog.setup
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;18:12:25 2012-08-23&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Readd disqus.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to templates/inlinepage.tmpl templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">/blog//recentchanges/change_5bdb7aed8d9e0d5a44f52985506d25551bf23722/</guid>
+
+	<link>/blog/recentchanges/#change-5bdb7aed8d9e0d5a44f52985506d25551bf23722</link>
+
+	<pubDate>Thu, 23 Aug 2012 17:57:30 -0300</pubDate>
+	<dcterms:modified>2012-08-23T20:57:30Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-5bdb7aed8d9e0d5a44f52985506d25551bf23722&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+templates/inlinepage.tmpl
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;17:57:30 2012-08-23&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+templates: Refresh from a new ikiwiki installation.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to .blog.setup templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
 	<guid isPermaLink="false">/blog//recentchanges/change_395e2fdfc3a0f1b6ec5ef97aa515a9e7140e7634/</guid>
 
 	<link>/blog/recentchanges/#change-395e2fdfc3a0f1b6ec5ef97aa515a9e7140e7634</link>
@@ -5108,58 +5216,6 @@ creating tag page tags/c++&lt;br /&gt;
 </item>
 <item>
 
-	<title>rbrito: change to tags/kurobox on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">/blog//recentchanges/change_1a959250f0e2143d67564c830acd1449fb91d5bc/</guid>
-
-	<link>/blog/recentchanges/#change-1a959250f0e2143d67564c830acd1449fb91d5bc</link>
-
-	<pubDate>Fri, 08 Oct 2010 14:13:24 -0300</pubDate>
-	<dcterms:modified>2010-10-08T17:13:24Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-1a959250f0e2143d67564c830acd1449fb91d5bc&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-tags/kurobox
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;14:13:24 2010-10-08&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/kurobox&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
 	<title>rbrito: change to tags/xetex on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 	<dcterms:creator>rbrito</dcterms:creator>
 
@@ -5357,58 +5413,6 @@ rbrito
 
 
 creating tag page tags/linux&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/uncategorized on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">/blog//recentchanges/change_6eb23268fa7032d9ba90faf4a5970faa9bf594c8/</guid>
-
-	<link>/blog/recentchanges/#change-6eb23268fa7032d9ba90faf4a5970faa9bf594c8</link>
-
-	<pubDate>Fri, 08 Oct 2010 14:13:24 -0300</pubDate>
-	<dcterms:modified>2010-10-08T17:13:24Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-6eb23268fa7032d9ba90faf4a5970faa9bf594c8&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-tags/uncategorized
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;14:13:24 2010-10-08&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/uncategorized&lt;br /&gt;
 
 
 &lt;/div&gt;
