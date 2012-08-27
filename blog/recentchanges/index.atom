@@ -17,7 +17,135 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2012-08-27T13:06:53Z</updated>
+<updated>2012-08-27T13:22:01Z</updated>
+<entry>
+	<title>change to about sidebar on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_ca9556273321347a0a58081423979b1a49776a94/</id>
+
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-ca9556273321347a0a58081423979b1a49776a94"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2012-08-27T13:22:01Z</updated>
+	<published>2012-08-27T13:22:01Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-ca9556273321347a0a58081423979b1a49776a94&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+about
+
+sidebar
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:22:01 2012-08-27&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Tweak information about me.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+&lt;!-- ca9556273321347a0a58081423979b1a49776a94 --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to about posts/about sidebar on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_794d110b534b2f66738b05f720d2fdd8166d2807/</id>
+
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-794d110b534b2f66738b05f720d2fdd8166d2807"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2012-08-27T13:17:25Z</updated>
+	<published>2012-08-27T13:17:25Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-794d110b534b2f66738b05f720d2fdd8166d2807&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+about
+
+posts/about
+
+sidebar
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:17:25 2012-08-27&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Reorganize information about me.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+&lt;!-- 794d110b534b2f66738b05f720d2fdd8166d2807 --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to comments sidebar on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -6147,128 +6275,6 @@ creating tag page tags/hacks&lt;br /&gt;
 
 
 &lt;!-- a93e174d77d0ded7a84d261c72a885924201d4fd --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to tags/revision-control on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_00b8694fa5dfb47f219aafb8d3cfd39bc16ef54a/</id>
-
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-00b8694fa5dfb47f219aafb8d3cfd39bc16ef54a"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2010-10-08T17:13:25Z</updated>
-	<published>2010-10-08T17:13:25Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-00b8694fa5dfb47f219aafb8d3cfd39bc16ef54a&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-tags/revision-control
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;14:13:25 2010-10-08&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/revision-control&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-&lt;!-- 00b8694fa5dfb47f219aafb8d3cfd39bc16ef54a --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to tags/web-of-trust on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_854b2726b984d06d1cea0b1c3396780945b8cd79/</id>
-
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-854b2726b984d06d1cea0b1c3396780945b8cd79"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2010-10-08T17:13:25Z</updated>
-	<published>2010-10-08T17:13:25Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-854b2726b984d06d1cea0b1c3396780945b8cd79&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-tags/web-of-trust
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;14:13:25 2010-10-08&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/web-of-trust&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-&lt;!-- 854b2726b984d06d1cea0b1c3396780945b8cd79 --&gt;
 
 	</content>
 
