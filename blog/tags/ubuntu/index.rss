@@ -61,7 +61,7 @@ makes me go to the URL that is the system clipboard, just like pasting
 stuff in X, in general, works.  I guess that there may be some way to
 enable this in Chromium, but, so far, I have not found it.&lt;/li&gt;
 &lt;li&gt;In Iceweasel, I have a way (without resorting to many extensions or
-hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &amp;gt; Page Style &amp;gt;
+hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &gt; Page Style &gt;
 No Style&quot; (i.e., to ignore any CSS sheet that the document author may have
 specified on the page).&lt;/li&gt;
 &lt;li&gt;In Iceweasel, my personal data is encrypted before being synced.&lt;/li&gt;

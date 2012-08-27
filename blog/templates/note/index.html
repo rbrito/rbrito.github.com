@@ -69,11 +69,11 @@ note
 
 <div id="content">
 <div class="notebox">
-
+<TMPL_VAR text>
 </div>
 
 
-<p>
+<p><TMPL_UNLESS text>
 Use this template to insert a note into a page. The note will be styled to
 float to the right of other text on the page. This template has one
 parameter:</p>
@@ -83,7 +83,7 @@ parameter:</p>
 </ul>
 
 
-<p></p>
+<p></TMPL_UNLESS></p>
 
 </div>
 

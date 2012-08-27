@@ -451,7 +451,7 @@ two times too many.&lt;/p&gt;
 
 &lt;blockquote&gt;&lt;ul&gt;
 &lt;li&gt;In Iceweasel, I have a way (without resorting to many extensions or
-hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &amp;gt; Page Style &amp;gt;
+hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &gt; Page Style &gt;
 No Style&quot; (i.e., to ignore any CSS sheet that the document author may have
 specified on the page).&lt;/li&gt;
 &lt;/ul&gt;
@@ -569,7 +569,7 @@ makes me go to the URL that is the system clipboard, just like pasting
 stuff in X, in general, works.  I guess that there may be some way to
 enable this in Chromium, but, so far, I have not found it.&lt;/li&gt;
 &lt;li&gt;In Iceweasel, I have a way (without resorting to many extensions or
-hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &amp;gt; Page Style &amp;gt;
+hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &gt; Page Style &gt;
 No Style&quot; (i.e., to ignore any CSS sheet that the document author may have
 specified on the page).&lt;/li&gt;
 &lt;li&gt;In Iceweasel, my personal data is encrypted before being synced.&lt;/li&gt;
@@ -810,7 +810,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
 
-&lt;p&gt;[caption id=&quot;attachment_55&quot; align=&quot;aligncenter&quot; width=&quot;200&quot; caption=&quot;I am going to DebConf10&quot;]&lt;a rel=&quot;attachment wp-att-55&quot; href=&quot;http://localhost/blog/2010/07/18/i-am-going-to-debconf-10/im_going_to_debconf10/&quot;&gt;&lt;img class=&quot;size-full wp-image-55 &quot; title=&quot;im_going_to_debconf10&quot; src=&quot;http://localhost/blog/wp-content/uploads/2010/07/im_going_to_debconf10.png&quot; alt=&quot;I am going to DebConf10&quot; width=&quot;200&quot; height=&quot;101&quot; /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&quot;attachment_55&quot; align=&quot;aligncenter&quot; width=&quot;200&quot; caption=&quot;I am going to DebConf10&quot;]&lt;a rel=&quot;attachment wp-att-55&quot; href=&quot;http://localhost/blog/2010/07/18/i-am-going-to-debconf-10/im_going_to_debconf10/&quot;&gt;&lt;img class=&quot;size-full wp-image-55 &quot; title=&quot;im_going_to_debconf10&quot; src=&quot;http://localhost/blog/wp-content/uploads/2010/07/im_going_to_debconf10.png&quot; alt=&quot;I am going to DebConf10&quot; width=&quot;200&quot; height=&quot;101&quot;  /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
 
 &lt;p&gt;The tickets have this information:&lt;/p&gt;
 
