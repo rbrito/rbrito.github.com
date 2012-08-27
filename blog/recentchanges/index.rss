@@ -8,6 +8,118 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>rbrito: change to comments sidebar on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_e9abfbb2d5d8a8ba49cf976cd741f3ed328f8c6c/</guid>
+
+	<link>http://rb.doesntexist.org/blog/recentchanges/#change-e9abfbb2d5d8a8ba49cf976cd741f3ed328f8c6c</link>
+
+	<pubDate>Mon, 27 Aug 2012 10:06:53 -0300</pubDate>
+	<dcterms:modified>2012-08-27T13:06:53Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-e9abfbb2d5d8a8ba49cf976cd741f3ed328f8c6c&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+comments
+
+sidebar
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:06:53 2012-08-27&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Remove comments, as we now use disqus.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+&lt;!-- e9abfbb2d5d8a8ba49cf976cd741f3ed328f8c6c --&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to .blog.setup on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_c7648d0623c8f84f85b480302356df87b86b348b/</guid>
+
+	<link>http://rb.doesntexist.org/blog/recentchanges/#change-c7648d0623c8f84f85b480302356df87b86b348b</link>
+
+	<pubDate>Mon, 27 Aug 2012 10:01:24 -0300</pubDate>
+	<dcterms:modified>2012-08-27T13:01:24Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-c7648d0623c8f84f85b480302356df87b86b348b&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+.blog.setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;10:01:24 2012-08-27&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Remove comment plugin from those active.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+&lt;!-- c7648d0623c8f84f85b480302356df87b86b348b --&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>rbrito: change to posts/about on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 	<dcterms:creator>rbrito</dcterms:creator>
 
@@ -4844,61 +4956,6 @@ calendar update&lt;br /&gt;
 </item>
 <item>
 
-	<title>rbrito: change to tags/video on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_06bc0a095508be642583e531e6e4d86911bbaf39/</guid>
-
-	<link>http://rb.doesntexist.org/blog/recentchanges/#change-06bc0a095508be642583e531e6e4d86911bbaf39</link>
-
-	<pubDate>Fri, 08 Oct 2010 14:13:25 -0300</pubDate>
-	<dcterms:modified>2010-10-08T17:13:25Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-06bc0a095508be642583e531e6e4d86911bbaf39&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-tags/video
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;14:13:25 2010-10-08&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/video&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-&lt;!-- 06bc0a095508be642583e531e6e4d86911bbaf39 --&gt;
-</description>
-
-
-</item>
-<item>
-
 	<title>rbrito: change to tags/embedded on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 	<dcterms:creator>rbrito</dcterms:creator>
 
@@ -5388,61 +5445,6 @@ creating tag page tags/pdf&lt;br /&gt;
 
 
 &lt;!-- f8b8689f14c7e3e89ba12d66024fe94fde81a0aa --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/git on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_f89e2ed04a612de3e3806e19f0ac119c9b50ef9d/</guid>
-
-	<link>http://rb.doesntexist.org/blog/recentchanges/#change-f89e2ed04a612de3e3806e19f0ac119c9b50ef9d</link>
-
-	<pubDate>Fri, 08 Oct 2010 14:13:25 -0300</pubDate>
-	<dcterms:modified>2010-10-08T17:13:25Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-f89e2ed04a612de3e3806e19f0ac119c9b50ef9d&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-tags/git
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;14:13:25 2010-10-08&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/git&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-&lt;!-- f89e2ed04a612de3e3806e19f0ac119c9b50ef9d --&gt;
 </description>
 
 
