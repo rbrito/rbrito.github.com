@@ -8,6 +8,281 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>rbrito: change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_4eb3f8aa13017bd4a7b950e093b8b41cb73c9128/</guid>
+
+	<link>http://rb.doesntexist.org/blog/recentchanges/#change-4eb3f8aa13017bd4a7b950e093b8b41cb73c9128</link>
+
+	<pubDate>Mon, 03 Sep 2012 20:26:41 -0300</pubDate>
+	<dcterms:modified>2012-09-03T23:26:41Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-4eb3f8aa13017bd4a7b950e093b8b41cb73c9128&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;20:26:41 2012-09-03&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add analytics code to the page template.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+&lt;!-- 4eb3f8aa13017bd4a7b950e093b8b41cb73c9128 --&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tags/debian-planet on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_198e013109d1c5f2739034c7c58fc00542125018/</guid>
+
+	<link>http://rb.doesntexist.org/blog/recentchanges/#change-198e013109d1c5f2739034c7c58fc00542125018</link>
+
+	<pubDate>Mon, 03 Sep 2012 20:17:22 -0300</pubDate>
+	<dcterms:modified>2012-09-03T23:17:22Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-198e013109d1c5f2739034c7c58fc00542125018&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+tags/debian-planet
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;20:17:22 2012-09-03&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tags/debian-planet&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+&lt;!-- 198e013109d1c5f2739034c7c58fc00542125018 --&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tags/adsense on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_b5ccb589220b0bff0a00a47584e685725edbfdc0/</guid>
+
+	<link>http://rb.doesntexist.org/blog/recentchanges/#change-b5ccb589220b0bff0a00a47584e685725edbfdc0</link>
+
+	<pubDate>Mon, 03 Sep 2012 20:17:18 -0300</pubDate>
+	<dcterms:modified>2012-09-03T23:17:18Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-b5ccb589220b0bff0a00a47584e685725edbfdc0&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+tags/adsense
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;20:17:18 2012-09-03&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tags/adsense&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+&lt;!-- b5ccb589220b0bff0a00a47584e685725edbfdc0 --&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tags/advertisements on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_9de80aaada7ab480601269ff005a43c3b2b52c5a/</guid>
+
+	<link>http://rb.doesntexist.org/blog/recentchanges/#change-9de80aaada7ab480601269ff005a43c3b2b52c5a</link>
+
+	<pubDate>Mon, 03 Sep 2012 20:17:14 -0300</pubDate>
+	<dcterms:modified>2012-09-03T23:17:14Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-9de80aaada7ab480601269ff005a43c3b2b52c5a&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+tags/advertisements
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;20:17:14 2012-09-03&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tags/advertisements&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+&lt;!-- 9de80aaada7ab480601269ff005a43c3b2b52c5a --&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tags/funding on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_a419171b92be9fe01ebed994dc5d39685f5aa33c/</guid>
+
+	<link>http://rb.doesntexist.org/blog/recentchanges/#change-a419171b92be9fe01ebed994dc5d39685f5aa33c</link>
+
+	<pubDate>Mon, 03 Sep 2012 20:17:09 -0300</pubDate>
+	<dcterms:modified>2012-09-03T23:17:09Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-a419171b92be9fe01ebed994dc5d39685f5aa33c&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+tags/funding
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;20:17:09 2012-09-03&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tags/funding&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+&lt;!-- a419171b92be9fe01ebed994dc5d39685f5aa33c --&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>rbrito: change to posts/trying_out_adsense on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 	<dcterms:creator>rbrito</dcterms:creator>
 
@@ -5286,281 +5561,6 @@ creating tag page tags/embedded&lt;br /&gt;
 
 
 &lt;!-- cbf78f5d34d1502c570f1aa24a3a09ee2739bad9 --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/emacs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_aa89e9ec5ee59522037d0c77e520b31a6ef8cdac/</guid>
-
-	<link>http://rb.doesntexist.org/blog/recentchanges/#change-aa89e9ec5ee59522037d0c77e520b31a6ef8cdac</link>
-
-	<pubDate>Fri, 08 Oct 2010 14:13:25 -0300</pubDate>
-	<dcterms:modified>2010-10-08T17:13:25Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-aa89e9ec5ee59522037d0c77e520b31a6ef8cdac&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-tags/emacs
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;14:13:25 2010-10-08&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/emacs&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-&lt;!-- aa89e9ec5ee59522037d0c77e520b31a6ef8cdac --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/kernel on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_2ffc78aa8b9a152cc4bcf42cc85cebc093adb67e/</guid>
-
-	<link>http://rb.doesntexist.org/blog/recentchanges/#change-2ffc78aa8b9a152cc4bcf42cc85cebc093adb67e</link>
-
-	<pubDate>Fri, 08 Oct 2010 14:13:25 -0300</pubDate>
-	<dcterms:modified>2010-10-08T17:13:25Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-2ffc78aa8b9a152cc4bcf42cc85cebc093adb67e&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-tags/kernel
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;14:13:25 2010-10-08&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/kernel&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-&lt;!-- 2ffc78aa8b9a152cc4bcf42cc85cebc093adb67e --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/people on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_80808cabd23747f0059199f5e76bde9127691776/</guid>
-
-	<link>http://rb.doesntexist.org/blog/recentchanges/#change-80808cabd23747f0059199f5e76bde9127691776</link>
-
-	<pubDate>Fri, 08 Oct 2010 14:13:25 -0300</pubDate>
-	<dcterms:modified>2010-10-08T17:13:25Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-80808cabd23747f0059199f5e76bde9127691776&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-tags/people
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;14:13:25 2010-10-08&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/people&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-&lt;!-- 80808cabd23747f0059199f5e76bde9127691776 --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/typography on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_f3b7cf6e928b7b62f00b2c33bbe400b983e08c3e/</guid>
-
-	<link>http://rb.doesntexist.org/blog/recentchanges/#change-f3b7cf6e928b7b62f00b2c33bbe400b983e08c3e</link>
-
-	<pubDate>Fri, 08 Oct 2010 14:13:25 -0300</pubDate>
-	<dcterms:modified>2010-10-08T17:13:25Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-f3b7cf6e928b7b62f00b2c33bbe400b983e08c3e&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-tags/typography
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;14:13:25 2010-10-08&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/typography&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-&lt;!-- f3b7cf6e928b7b62f00b2c33bbe400b983e08c3e --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/readline on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_1b5d1c851ffc0752f2ac95ea609322ee5fb5236a/</guid>
-
-	<link>http://rb.doesntexist.org/blog/recentchanges/#change-1b5d1c851ffc0752f2ac95ea609322ee5fb5236a</link>
-
-	<pubDate>Fri, 08 Oct 2010 14:13:25 -0300</pubDate>
-	<dcterms:modified>2010-10-08T17:13:25Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-1b5d1c851ffc0752f2ac95ea609322ee5fb5236a&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-tags/readline
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;14:13:25 2010-10-08&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/readline&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-&lt;!-- 1b5d1c851ffc0752f2ac95ea609322ee5fb5236a --&gt;
 </description>
 
 
