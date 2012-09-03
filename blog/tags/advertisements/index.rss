@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged advertisements</title>
+<link>http://rb.doesntexist.org/blog//tags/advertisements/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>Trying out AdSense</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/trying_out_adsense/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/trying_out_adsense/</link>
+
+
+	<category>adsense</category>
+
+	<category>advertisements</category>
+
+	<category>debian</category>
+
+	<category>debian-planet</category>
+
+	<category>free-software</category>
+
+	<category>funding</category>
+
+
+	<pubDate>Mon, 03 Sep 2012 20:12:42 -0300</pubDate>
+	<dcterms:modified>2012-09-03T23:16:29Z</dcterms:modified>
+
+	<description>&lt;p&gt;I have been having quite costly experiments with &lt;a href=&quot;http://buffalo.nas-central.org/wiki/LS_Hardware_and_Software_information&quot;&gt;(embeded) hardware&lt;/a&gt; in
+the last few weeks/months. To cover at least part of the expenses, I am
+trying out to use Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; with my blog.&lt;/p&gt;
+
+&lt;p&gt;I plan on blogging more frequently with the results of the experiments, but
+it will take me a few days, as I want to offer people only the &quot;meat&quot; of
+what I actually did, pointing out some pitfalls that made me waste a lot of
+time.&lt;/p&gt;
+
+&lt;p&gt;Anyway, back to AdSense, one interesting thing about trying it is that I
+applied to be part of the program for 3 or 4 times late in August and, due
+to unspecified reasons, my application was rejected for &quot;not complying with
+their policies&quot;.  I read the policies from left to side, from up and down
+and nowhere I saw anything that my blog infringed.&lt;/p&gt;
+
+&lt;p&gt;This morning, I tried once again and I&#39;m now in a sort of &quot;probation period&quot;
+for AdSense, which is progress I think.&lt;/p&gt;
+
+&lt;p&gt;So far, I only put one advertisement at the top of my pages, but I am
+curious to know how &quot;targeted&quot; those ads would be to a blog that has
+articles that were written more than a decade ago, with posts in at least
+two languages.&lt;/p&gt;
+
+&lt;p&gt;I guess that this is a weaker version of what &lt;a href=&quot;http://raphaelhertzog.com/&quot;&gt;Raphaël Hertzog&lt;/a&gt; is trying
+to do with his funding campaigns, except that I only expect to cover the
+costs of my hardware (even if I am skeptical that I will actually manage to
+reach that point of self-sufficiency).&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

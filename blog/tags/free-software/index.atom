@@ -17,7 +17,69 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2012-06-07T04:58:09Z</updated>
+<updated>2012-09-03T23:16:29Z</updated>
+<entry>
+	<title>Trying out AdSense</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/trying_out_adsense/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/trying_out_adsense/"/>
+
+
+
+
+
+
+	<category term="adsense" />
+
+	<category term="advertisements" />
+
+	<category term="debian" />
+
+	<category term="debian-planet" />
+
+	<category term="free-software" />
+
+	<category term="funding" />
+
+
+	<updated>2012-09-03T23:16:29Z</updated>
+	<published>2012-09-03T23:12:42Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I have been having quite costly experiments with &lt;a href=&quot;http://buffalo.nas-central.org/wiki/LS_Hardware_and_Software_information&quot;&gt;(embeded) hardware&lt;/a&gt; in
+the last few weeks/months. To cover at least part of the expenses, I am
+trying out to use Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; with my blog.&lt;/p&gt;
+
+&lt;p&gt;I plan on blogging more frequently with the results of the experiments, but
+it will take me a few days, as I want to offer people only the &quot;meat&quot; of
+what I actually did, pointing out some pitfalls that made me waste a lot of
+time.&lt;/p&gt;
+
+&lt;p&gt;Anyway, back to AdSense, one interesting thing about trying it is that I
+applied to be part of the program for 3 or 4 times late in August and, due
+to unspecified reasons, my application was rejected for &quot;not complying with
+their policies&quot;.  I read the policies from left to side, from up and down
+and nowhere I saw anything that my blog infringed.&lt;/p&gt;
+
+&lt;p&gt;This morning, I tried once again and I&#39;m now in a sort of &quot;probation period&quot;
+for AdSense, which is progress I think.&lt;/p&gt;
+
+&lt;p&gt;So far, I only put one advertisement at the top of my pages, but I am
+curious to know how &quot;targeted&quot; those ads would be to a blog that has
+articles that were written more than a decade ago, with posts in at least
+two languages.&lt;/p&gt;
+
+&lt;p&gt;I guess that this is a weaker version of what &lt;a href=&quot;http://raphaelhertzog.com/&quot;&gt;Raphaël Hertzog&lt;/a&gt; is trying
+to do with his funding campaigns, except that I only expect to cover the
+costs of my hardware (even if I am skeptical that I will actually manage to
+reach that point of self-sufficiency).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>I am not going to DebConf 12</title>
 
@@ -953,52 +1015,6 @@ Open Font Library.&lt;/p&gt;
 &lt;p&gt;This, together with Google&#39;s new &lt;a href=&quot;http://code.google.com/webfonts&quot;&gt;font directory&lt;/a&gt; of Free Software fonts
 (overshadowed by the release of VP8 codec, in the eyes of some), shows that
 the typographic arena is alive and going strong.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Preliminary support for webm in youtube-dl</title>
-
-	<id>http://rb.doesntexist.org/blog//posts/preliminary-support-for-webm-in-youtube-dl/</id>
-
-	<link href="http://rb.doesntexist.org/blog//posts/preliminary-support-for-webm-in-youtube-dl/"/>
-
-
-
-
-
-
-	<category term="audio" />
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="hacks" />
-
-	<category term="libraries" />
-
-	<category term="multimedia" />
-
-	<category term="video" />
-
-
-	<updated>2011-03-12T03:27:55Z</updated>
-	<published>2010-05-29T20:06:18Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
-
-&lt;p&gt;This way, at least people will have some material (in, fact, a chance) to play with this format.  I implemented this because, so far, I was only hoping here that a player for this would emerge. I guess that Debian&#39;s ffmpeg/mplayer will take some time, but I was pleased to see that Sebastian Dröge to upload a version of &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02596.html&quot;&gt;something&lt;/a&gt; that could use the new &lt;code&gt;libvpx&lt;/code&gt; codec.&lt;/p&gt;
-
-&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/free-software/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Well, it seems to be time to shape up that local build of mine of the &lt;a href=&quot;http://www.geocities.jp/aoyoume/aotuv/&quot;&gt;aotuv&lt;/a&gt; tuned version of Vorbis with &lt;a href=&quot;http://www.geocities.jp/aoyoume/&quot;&gt;Aoyumi&lt;/a&gt;&#39;s patches for libvorbis.&lt;/p&gt;
-
-&lt;p&gt;Exciting times in the multimedia world.&lt;/p&gt;
 
 	</content>
 
