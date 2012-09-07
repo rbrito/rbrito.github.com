@@ -176,6 +176,156 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 
 </item>
+<item>
+
+	<title>Debian Switching to EGLIBC</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/debian-switching-to-eglibc/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/debian-switching-to-eglibc/</link>
+
+
+	<category>computers</category>
+
+	<category>debian</category>
+
+	<category>embedded</category>
+
+	<category>linux</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Mon, 07 May 2007 23:00:00 -0300</pubDate>
+	<dcterms:modified>2012-09-07T06:55:12Z</dcterms:modified>
+
+	<description>&lt;p&gt;Having been playing with some new things in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;, like the
+&lt;a href=&quot;http://packages.debian.org/magicfilter&quot;&gt;magicfilter&lt;/a&gt; package, which is a superb, lightweight solution to
+all my printing problems: to use a PCL 3 printer. I think that I will also
+&quot;manufacture&quot; a solution with a metapackage of a live CD that includes the
+environment that I use frequently, with the packages that I use (this is
+probably quite leaner than what &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt; has done with their
+distribution, since I will mainly use some lighter packages).&lt;/p&gt;
+
+&lt;p&gt;Oh, talking about lighter packages, I see that Debian has adopted a new C
+library, namely &lt;a href=&quot;http://www.eglibc.org/&quot;&gt;EGLIBC&lt;/a&gt;, which stands for Embedded LIBC. Finally, it
+seems that Debian will focus a bit more on smaller systems (which is a good
+thing, because computing resources are limited).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>Happy News: A new Kurobox</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/happy-news-a-new-kurobox/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/happy-news-a-new-kurobox/</link>
+
+
+	<category>computers</category>
+
+	<category>debian</category>
+
+	<category>embedded</category>
+
+	<category>kurobox</category>
+
+	<category>linux</category>
+
+	<category>nas</category>
+
+
+	<pubDate>Sun, 22 Apr 2007 23:00:00 -0300</pubDate>
+	<dcterms:modified>2012-09-07T06:55:12Z</dcterms:modified>
+
+	<description>&lt;p&gt;Today I was pleasantly surprised that the Kurobox that &lt;a href=&quot;http://suihkulokki.blogspot.com/&quot;&gt;Riku Voipio&lt;/a&gt; sent
+me has arrived!  From the looks of it, it is a Kurobox HG, which, compared
+to my Kurobox HD, has a faster processor (it runs at 266MHz, instead of
+200MHz), has more RAM (128MB, instead of 64MB), and has a faster network
+connection (an 1Gbps instead of 100Mbps interface).&lt;/p&gt;
+
+&lt;p&gt;I&#39;m trying to see if I will be able to use a SATA drive with this Kurobox,
+as we can&#39;t find large IDE/PATA drives in the market today (almost). And the
+bigger capacity ones are only available with SATA interfaces.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>Playing with Package Proxies</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/</link>
+
+
+	<category>approx</category>
+
+	<category>apt-move</category>
+
+	<category>computers</category>
+
+	<category>debian</category>
+
+	<category>embedded</category>
+
+	<category>linux</category>
+
+	<category>proxy</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Thu, 15 Mar 2007 23:00:00 -0300</pubDate>
+	<dcterms:modified>2012-09-07T06:55:12Z</dcterms:modified>
+
+	<description>&lt;p&gt;Have been playing with the great idea of &lt;a
+href=&quot;http://lists.debian.org/debian-mentors/2009/03/msg00210.html&quot;&gt;caching&lt;/a&gt;
+&lt;a href=&quot;http://lwn.net/Articles/318658/&quot;&gt;deb&lt;/a&gt; packages. I finally
+settled for the option of using &lt;code&gt;&lt;a
+href=&quot;http://git.debian.org/?p=pkg-ocaml-maint/packages/approx.git&quot;&gt;approx&lt;/a&gt;&lt;/code&gt;,
+which does a really nice job of caching packages.&lt;/p&gt;
+
+&lt;p&gt;Actually, it fullfils quite a lot of requirements and even surpasses some of my expectations:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It supports multiple architectures (in fact, this is important for me, as
+I use &lt;code&gt;i386&lt;/code&gt;, &lt;code&gt;amd64&lt;/code&gt;, and &lt;code&gt;powerpc&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;It can support multiple distributions (both different versions of the same
+distribution and completely different distributions, as long as they use a
+repository like &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s, as is the
+case of &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;).&lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;It keeps its directory hierarchy neatly organized, like that of Debian, in
+a package pool, which saves space and makes everything easier and faster
+to find (and has the advantage of being fast with filesystems that don&#39;t
+cope well with many entries in one directory).&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;The transition wasn&#39;t painless from &lt;a href=&quot;http://packages.debian.org/apt%2Dmove&quot;&gt;apt-move&lt;/a&gt;, since apt-move
+moves the files, but renames them in a way that they don&#39;t keep epochs in
+their names, which makes &lt;code&gt;approx-import&lt;/code&gt; moan about the packages.&lt;/p&gt;
+
+&lt;p&gt;For places where I am too lazy to import the packages, I just filled the
+cache redownloading the packages with something approximately like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  apt-get -d --reinstall install $(dpkg -l | grep &quot;^ii&quot; | cut -d &quot; &quot; -f 3)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Well, I hope that this experience happens to be useful for other people, so
+that they can benefit from it. Rebuilding packages with a package cacher is
+much more pleasant, especially if the package has a lot of
+build-dependencies.&lt;/p&gt;
+</description>
+
+
+</item>
 
 </channel>
 </rss>

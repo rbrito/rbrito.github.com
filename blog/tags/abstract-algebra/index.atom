@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged abstract-algebra</title>
+<link href="http://rb.doesntexist.org/blog//tags/abstract-algebra/"/>
+<link href="http://rb.doesntexist.org/blog//tags/abstract-algebra/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://rb.doesntexist.org/blog//tags/abstract-algebra/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2012-09-07T06:55:12Z</updated>
+<entry>
+	<title>Music, Group Actions, Quilt and Debian Packages</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/music-group-actions-quilt-and-debian-packages/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/music-group-actions-quilt-and-debian-packages/"/>
+
+
+
+
+
+
+	<category term="abstract-algebra" />
+
+	<category term="class-equation" />
+
+	<category term="computers" />
+
+	<category term="debian" />
+
+	<category term="group-actions" />
+
+	<category term="math" />
+
+	<category term="quilt" />
+
+
+	<updated>2012-09-07T06:55:12Z</updated>
+	<published>2007-06-13T05:08:51Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;These are some short notes on what I&#39;ve doing these days.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, there isn&#39;t much to talk about. I think that one of the most
+relevant things that I did was to resurrect one of my best
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Digital%5Faudio%5Fextraction&quot;&gt;audio-extracting&lt;/a&gt; CD-ROM
+drives: just opened the case of my computer, took off the CD drive, opened,
+cleaned its lens, lubricated the moving parts and everything is back to
+normal operation.&lt;/p&gt;
+
+&lt;p&gt;This sense of &quot;getting something for nothing&quot; is hard to explain to those
+who have not experienced it already.&lt;/p&gt;
+
+&lt;p&gt;Other things that I did was to grab some old CDs that I had laying here
+(Radiohead&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/OK%20Computer&quot;&gt;OK Computer&lt;/a&gt;, Pantera&#39;s
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Far%5FBeyond%5FDriven&quot;&gt;Far Beyond Driven&lt;/a&gt;, the tribute to Queen called &quot;Dragon
+Attack&quot;, and Gentle Giant&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/Free%20Hand&quot;&gt;Free Hand&lt;/a&gt;, among others). Dream
+Theater&#39;s
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Systematic%5FChaos%20Edition%20of%20%22Systematic%20Chaos%22%22&quot;&gt;&quot;Special&lt;/a&gt;
+is quite good, but unfortunately I don&#39;t have a 5.1 system at my disposal.&lt;/p&gt;
+
+&lt;p&gt;I also selected some material for further studies. I&#39;m right now studying
+&lt;a href=&quot;https://en.wikipedia.org/wiki/group%20actions&quot;&gt;group actions&lt;/a&gt; (or G-sets as some seem to prefer). Soon, I
+will be finishing the basics of Group Theory (hey, really, why is the &lt;a
+href=&quot;http://en.wikipedia.org/wiki/Conjugacy_class&quot;&gt;&quot;Class Equation&quot;&lt;/a&gt; of
+groups that &quot;famous&quot;? It is just a matter of saying that $$|X| = \sum_{x\in
+X} 1$$, but with cardinality of orbits instead of with one&#39;s and with a
+transversal of the orbits in place of $$X$$ itself).&lt;/p&gt;
+
+&lt;p&gt;Actually, if the orbits of the elements of the $$G$$-set $$X$$ consist of
+just one element, then the equation above is the &lt;a
+href=&quot;http://en.wikipedia.org/wiki/Group_action&quot;&gt;&quot;Class Equation&quot;&lt;/a&gt; (what
+some people would call $$\mathop{\mathrm{Fix}}(X)$$, I would call the
+&quot;orbits being trivial&quot;).&lt;/p&gt;
+
+&lt;p&gt;Anyway, &lt;a href=&quot;http://en.wikipedia.org/wiki/Burnside%27s_lemma&quot;&gt;Burnside&#39;s
+lemma&lt;/a&gt; (which actually seems to be wrongly attributed, since it seems to
+be discovered independently by Cauchy and Frobenius) for counting orbits of
+a given action of a $$G$$-set has nice implications in combinatorics and it
+should be, at least, mentioned in any self-respecting introduction to Group
+Theory.&lt;/p&gt;
+
+&lt;p&gt;Oh, I almost forgot one of the major things that I did today (2007-06-12): I
+finally learned how to manipulate the &lt;a
+href=&quot;http://savannah.nongnu.org/projects/quilt&quot;&gt;quilt patch-system&lt;/a&gt;
+(initiated by &lt;a
+href=&quot;http://en.wikipedia.org/wiki/Andrew_Morton_%28computer_programmer%29&quot;&gt;Andrew
+Morton&lt;/a&gt;). The crucial point that is not written anywhere: the patches, by
+default, are applied with &lt;code&gt;-p1&lt;/code&gt; instead of &lt;code&gt;-p0&lt;/code&gt;. This
+took me quite some time to get, as the documentation isn&#39;t explicit about
+it. Installation of quilt in a &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS
+X&lt;/a&gt; system is not trivial, due to the demand of &lt;a
+href=&quot;http://www.gnu.org&quot;&gt;GNU&lt;/a&gt; tools.&lt;/p&gt;
+
+&lt;p&gt;But now I can keep some &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt; packages
+of mine in a better shape than if I were just applying a single monolithic
+patch.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Random Points on Group Theory</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/random-points-on-group-theory/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/random-points-on-group-theory/"/>
+
+
+
+
+
+
+	<category term="abstract-algebra" />
+
+	<category term="group-theory" />
+
+	<category term="math" />
+
+	<category term="quotient-groups" />
+
+
+	<updated>2012-09-07T06:55:12Z</updated>
+	<published>2007-05-24T17:07:11Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;It is not a surprise for anyone that I&#39;m reviewing a little bit of Abstract
+Algebra.&lt;/p&gt;
+
+&lt;p&gt;Reading Fraleigh&#39;s book is proving to be quite a good refresher, especially
+since my short-term goal is to study &lt;a href=&quot;https://en.wikipedia.org/wiki/Coding%20Theory&quot;&gt;Coding Theory&lt;/a&gt; and the
+finer aspects of Coding Theory do involve Algebra (actually, one could say
+that the finer aspects of Coding Theory, especially Error Correcting Codes,
+depend quite a lot on Algebra).&lt;/p&gt;
+
+&lt;p&gt;Well, while studying Group Theory, one can&#39;t avoid to be amazed by some
+results that are not exactly that intuitive. For instance, I just discovered
+that the additive group $$\mathbb Z[X]$$ of univariate polynomials with
+integer coefficients is isomorphic to the multiplicative group $$\mathbb
+Q^+$ of positive rationals.&lt;/p&gt;
+
+&lt;p&gt;I thought that this was a relatively easy exercise until I posed the problem
+to a very competent friend of mine and he had some problems trying to come
+up with the isomorphism. His failure maybe tells me that this is not as
+obvious as I once thought and I think that this exercise should be better
+known, as it can show that very differently looking algebraic structures can
+be &quot;the same&quot; and the most surprising fact here is that &lt;em&gt;we are &lt;strong&gt;not&lt;/strong&gt;
+dealing with any pathologically &quot;made up&quot; example&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;Another thing that maybe is hard for students to grasp is the concept of a
+factor group. Knowing that a subgroup is normal iff it is the kernel of some
+homomorphism of groups is a handy way to memorize and &quot;see&quot; what a
+&lt;a href=&quot;https://en.wikipedia.org/wiki/normal%20subgroup&quot;&gt;normal subgroup&lt;/a&gt; is. And students should be shown that there
+are some quite special (&quot;natural&quot;?) normal subgroups of a group: the &lt;em&gt;center
+of the group&lt;/em&gt; and the &lt;em&gt;commutator subgroup&lt;/em&gt;, just as two examples.&lt;/p&gt;
+
+&lt;p&gt;The latter one, together with a good explanation of what does it mean for
+taking &lt;a href=&quot;http://en.wikipedia.org/wiki/Quotient_group&quot;&gt;factor
+groups&lt;/a&gt; (i.e., taking the elements of the normal subgroup and equating
+them to the unity), leads to a better understanding of quotient/factor
+groups. A nice thing to prove (that is short and shows the &quot;mechanics&quot; of
+factor groups) is the fact that a quotient group is abelian iff the normal
+group used as the &quot;denominator&quot; contains the commutator subgroup.&lt;/p&gt;
+
+&lt;p&gt;Another thing that is worth doing is proving that a normal subgroup $$N$$ is
+maximal in a group $$G$ iff $$G/N$$ is simple. The proof of this fact is
+analogous to the proof of the quotient of a ring being a field iff a ring is
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Factor_ring&quot;&gt;factored&lt;/a&gt; by a maximal
+ideal (and that we get an &lt;a
+href=&quot;http://en.wikipedia.org/wiki/Integral_domain&quot;&gt;integral domain&lt;/a&gt; if
+the ideal is only prime instead of maximal).&lt;/p&gt;
+
+&lt;p&gt;Last, two groups that I feel that should merit way more attention than what
+I perceive as being given in a first course are the dihedral groups $$D_3$$
+and $$D_4$. Asking the students to draw the lattice of subgroups of such
+groups is quite enlightening, as they are &quot;natural&quot; groups that are not
+abelian (but with &lt;em&gt;all&lt;/em&gt; the proper subgroups being abelian). Nice examples
+to have in mind, without any shadow of doubt.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>On teaching Groups before Rings in Abstract Algebra</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/on-a-first-course-in-abstract-algebra/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/on-a-first-course-in-abstract-algebra/"/>
+
+
+
+
+
+
+	<category term="abstract-algebra" />
+
+	<category term="math" />
+
+
+	<updated>2012-09-07T06:55:12Z</updated>
+	<published>2007-04-22T20:46:52Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I&#39;ve been thinking about how one should teach &lt;a
+href=&quot;http://en.wikipedia.org/wiki/Abstract_algebra&quot;&gt;Abstract Algebra&lt;/a&gt;
+and it seems to me that John B. Fraleigh&#39;s book &quot;A First Course in Abstract
+Algebra&quot; is exactly what I would write if I confidently knew the subject and
+if the book were not written yet.&lt;/p&gt;
+
+&lt;p&gt;Of course, &lt;strong&gt;there is&lt;/strong&gt; room for improvement (and I think that I may have
+alternative proofs; in fact, I&#39;m fond of multiple different proofs for a
+given fact, as they shed a different light on the matter being discussed)
+and I would change some demonstrations or condense some of them, but the
+general outline of the book is superb.&lt;/p&gt;
+
+&lt;p&gt;I think that the choice (and order) of subjects is quite adequate, contrary
+to many people that think that students should be exposed to &lt;a
+href=&quot;http://en.wikipedia.org/wiki/Ring_%28mathematics%29&quot;&gt;Rings&lt;/a&gt; before
+being exposed to &lt;a
+href=&quot;http://en.wikipedia.org/wiki/Group_%28mathematics%29&quot;&gt;Groups&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;On the contrary, I think that, to foster the abstract thinking of students
+that may not yet have the so-called &quot;mathematical maturity&quot;, one should give
+them &quot;poor&quot; algebraic structures (satisfying just a few axioms) and then
+deducing things almost &quot;mechanically&quot;. This &quot;mechanic thinking&quot; and &quot;dealing
+with the unknown&quot; is quite important to dissociate the meaning that students
+are used to assign to objects that they already know.&lt;/p&gt;
+
+&lt;p&gt;For instance, what is the &quot;fun&quot; (or even the motivation) of proving that 1
+is greater than 0 on the integers? The students, quite correctly, assert
+that this is &quot;obviously true&quot;, for they can &quot;draw&quot;, say, a ball on a sheet
+of paper and no ball on another an say that &lt;em&gt;indeed&lt;/em&gt;, given their
+intuitive knowledge of what an order relation is, that there is no need to
+prove anything!&lt;/p&gt;
+
+&lt;p&gt;Only when presented with structures where this is not true is that one would
+appreciate the fact that there exists an example of an infinite integral
+domain (with unique factorization, which is also not to take for granted!)
+is that the proof of such a fact is perceived to be important.&lt;/p&gt;
+
+&lt;p&gt;Otherwise, if &quot;everything is normal&quot;, one could think that &quot;intuitive&quot; facts
+are indeed true and even disregard the necessity of proofs.&lt;/p&gt;
+
+&lt;p&gt;Beginning an abstract algebra book for freshmen or sophomores that had only
+&quot;computational&quot; courses on Calculus up to that point (what an unfortunate
+fact!) with a discussion of groups and spending a good amount of time with
+proofs on elementary facts, leads the students to develop the frequently
+cited prerequisite &quot;mathematical maturity&quot; needed for understanding anything
+non-trivial that needs a good amount of abstraction (and this includes the
+&lt;strong&gt;proper&lt;/strong&gt; programming of computers, of course).&lt;/p&gt;
+
+&lt;p&gt;This should not be interpreted as an attack on texts that cover rings before
+groups (or weaker structures). It just means that I think that, as a
+pedagogical tool, using rings first may not be as &quot;eye-opening&quot; (for the
+abstract world, and, therefore, for &lt;em&gt;Real Mathematics&lt;/em&gt;) as other
+approaches.&lt;/p&gt;
+
+&lt;p&gt;It is completely understadable for a graduate (or even advanced
+undergraduate) text to provide a &quot;fresh&quot; view on Rings (and the pathological
+cases &lt;em&gt;should&lt;/em&gt; be included), say, by giving, as motivation, the problem
+of writing primes as sums of two squares (which can be viewed as a problem
+of factorization on the Gaussian Integers integral domain).&lt;/p&gt;
+
+&lt;p&gt;I hope that other instructors actually read this and stop to think about the
+possibilities, even if they don&#39;t agree with my views (just causing thought
+is enough for me).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

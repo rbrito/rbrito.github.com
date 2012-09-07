@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged ssh</title>
+<link href="http://rb.doesntexist.org/blog//tags/ssh/"/>
+<link href="http://rb.doesntexist.org/blog//tags/ssh/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://rb.doesntexist.org/blog//tags/ssh/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2012-09-07T06:55:12Z</updated>
+<entry>
+	<title>Sourceforge, SSH keys, Free audiobooks, DVD&#x27;s</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/"/>
+
+
+
+
+
+
+	<category term="audiobooks" />
+
+	<category term="computers" />
+
+	<category term="descartes" />
+
+	<category term="dvds" />
+
+	<category term="hashes" />
+
+	<category term="music" />
+
+	<category term="opeth" />
+
+	<category term="pain-of-salvation" />
+
+	<category term="public-domain" />
+
+	<category term="security" />
+
+	<category term="ssh" />
+
+
+	<updated>2012-09-07T06:55:12Z</updated>
+	<published>2007-03-11T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Found out about &quot;The Right Way (TM)&quot; to hash an existing SSH&#39;s &lt;code&gt;known_hosts&lt;/code&gt;
+file (&lt;code&gt;ssh-keygen -H&lt;/code&gt;) and how to remove a hashed host entry from your
+&lt;code&gt;known_hosts&lt;/code&gt; file: &lt;code&gt;ssh-keygen -H -R host.name&lt;/code&gt;.  I needed this for newer
+checkouts of LAME&#39;s CVS repository at &lt;a href=&quot;http://sf.net/&quot;&gt;Sourceforge&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Oh, BTW, just to save myself the trouble of looking it up again, here is the
+link to the place where sourceforge keeps their &lt;a href=&quot;http://apps.sourceforge.net/trac/sitedocs/wiki/SSH%20key%20fingerprints&quot;&gt;SSH key fingerprints&lt;/a&gt;.
+I&#39;m always lost trying to find it, so I thought that it would be best to
+record it here.&lt;/p&gt;
+
+&lt;p&gt;Also discovered a &lt;em&gt;really&lt;/em&gt; amazing thing: a &lt;a href=&quot;http://librivox.org/&quot;&gt;free source of audiobooks&lt;/a&gt;
+in podcast format, while I was looking for René Descartes&#39; &quot;The Method&quot;.
+While surfing the net, I also found that there is this &lt;a href=&quot;http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&amp;amp;amp;co_obra=2274&quot;&gt;very same text&lt;/a&gt;
+in a &lt;a href=&quot;http://www.dominiopublico.gov.br/&quot;&gt;Brazilian site&lt;/a&gt; backed by the government that hosts works in the
+public domain.&lt;/p&gt;
+
+&lt;p&gt;Still downloading Pain of Salvation&#39;s Acoustic set. Now, I finally had some
+time to watch the somewhat incomplete VOBs and it, indeed, has the show. And
+it is an amazing piece of music. Recommended for all fans of good music.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

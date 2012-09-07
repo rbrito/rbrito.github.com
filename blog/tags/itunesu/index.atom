@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged itunesu</title>
+<link href="http://rb.doesntexist.org/blog//tags/itunesu/"/>
+<link href="http://rb.doesntexist.org/blog//tags/itunesu/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://rb.doesntexist.org/blog//tags/itunesu/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2012-09-07T06:55:12Z</updated>
+<entry>
+	<title>Getting things from the iTunes Music Store without iTunes</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="computers" />
+
+	<category term="itunesu" />
+
+	<category term="music" />
+
+	<category term="video" />
+
+
+	<updated>2012-09-07T06:55:12Z</updated>
+	<published>2009-02-24T14:11:54Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Being the &lt;a href=&quot;https://en.wikipedia.org/wiki/Free%20Software&quot;&gt;Free Software&lt;/a&gt; advocate that I am, I want to use as
+much Free Software as I can (and spread the world).&lt;/p&gt;
+
+&lt;p&gt;Disclaimer: no, I don&#39;t like to call what I use
+&quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/Open%20Source&quot;&gt;Open Source&lt;/a&gt;&quot;.  I prefer the things the RMS way and if you
+don&#39;t like the fact that I like his way, I&#39;m afraid that you may miss some
+of the things that I have here, even if you don&#39;t necessarily agree with me.&lt;/p&gt;
+
+&lt;p&gt;In particular, I would like to use, see etc., the material that is available
+on the Internet, that people has put available for others to see. In
+particular, many Universities around the world are making the shift of being
+only in the classroom to being present in their students&#39; lifes all the
+time. This is accomplished by putting their educational material available
+on-line.&lt;/p&gt;
+
+&lt;p&gt;A decade or two ago, this was usually accomplished by publishing the
+so-called &quot;lecture notes&quot; on the website of the course and maintaining
+mailing-lists with the currently enrolled students. The lecture notes were
+usually taken using the &quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/Scribe&quot;&gt;Scribe&lt;/a&gt; method&quot;, where, for each
+class, one student is responsible of taking notes of the material, writing
+it in a &quot;finished&quot; form and distributing it back for all the other
+students. This was made in a round-robin fashion, as a means to spread the
+responsibilities among the students taking the course. Also, the most common
+tool used to edit the material, especially in Mathematically-oriented
+courses, was to typeset everything in &lt;a href=&quot;https://en.wikipedia.org/wiki/LaTeX&quot;&gt;LaTeX&lt;/a&gt; (or even plain
+&lt;a href=&quot;https://en.wikipedia.org/wiki/TeX&quot;&gt;TeX&lt;/a&gt;, in some cases).&lt;/p&gt;
+
+&lt;p&gt;The lecturer frequently distributed a template, which the students used and,
+this way, all the notes written by the students had the same, uniform look
+and style. The work was usually revised by the lecturer and, many times, it
+resulted in a kind of a book, published in
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Device%5Findependent%5Ffile%5Fformat&quot;&gt;DVI&lt;/a&gt; or
+&lt;a href=&quot;https://en.wikipedia.org/wiki/PostScript&quot;&gt;PostScript&lt;/a&gt; form (latter, it became common to use
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Portable%5Fdocument%5Fformat&quot;&gt;PDF&lt;/a&gt;, as it is a format more
+popular).&lt;/p&gt;
+
+&lt;p&gt;Actually, it is still quite frequent (and welcome!) to produce such lecture
+notes. But, now, things have changed slightly. (I could discuss &lt;em&gt;why&lt;/em&gt; things
+have changed the way they have, but it is beyond the scope of these short
+notes here.) People have been recording lectures in audio and, after the
+technology became more accessible, in video. Now, a new term is used for
+distributing those contents: &lt;em&gt;podcasting&lt;/em&gt;. Essentially, a
+&lt;a href=&quot;https://en.wikipedia.org/wiki/podcast&quot;&gt;podcast&lt;/a&gt; is a way of publishing, say, audio so that people can
+subscribe to your &quot;podcast&quot; (sometimes also said to be a &quot;channel&quot;). It is
+very much like a radio program, where people tune in to listen to a given
+program.&lt;/p&gt;
+
+&lt;p&gt;The way most people use to distribute the &quot;episodes&quot; of such
+programs/podcasts is actually a combination of technologies, but nothing
+exactly new: the description of &lt;em&gt;what&lt;/em&gt; is available is given in a format
+called &lt;a href=&quot;https://en.wikipedia.org/wiki/RSS&quot;&gt;RSS&lt;/a&gt; (which is a specialization of &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;XML&lt;/a&gt;,
+but this isn&#39;t important for our subject matter) and the content is usually
+in form of &lt;a href=&quot;https://en.wikipedia.org/wiki/MP3&quot;&gt;MP3&lt;/a&gt; files (or some variation of that).&lt;/p&gt;
+
+&lt;p&gt;OK, enough background. Now, there are on-line stores on the Internet that
+make available podcasts. Those podcasts are usually free of charge for the
+listener. Some of the most prominent stores nowadays are
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Apple%5FInc%2E&quot;&gt;Apple&lt;/a&gt;&#39;s &quot;iTunes Store&quot; and Amazon&#39;s store.&lt;/p&gt;
+
+&lt;p&gt;Apple has created its &quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/iTunes%20Store&quot;&gt;iTunes Store&lt;/a&gt;&quot; to foster the use of its
+&lt;a href=&quot;https://en.wikipedia.org/wiki/iTunes&quot;&gt;iTunes&lt;/a&gt; program and to boost the sales of its
+&lt;a href=&quot;https://en.wikipedia.org/wiki/iPod&quot;&gt;iPod&lt;/a&gt; digital players (and, also, to make some extra money).
+But people in the education field have seen that using a podcast would be a
+good way of sharing knowledge and Apple wouldn&#39;t loose this market: they
+invented the &lt;a href=&quot;https://en.wikipedia.org/wiki/ITunes%5FStore%23iTunes%5FU&quot;&gt;iTunes U&lt;/a&gt;, which is
+a way for Universities around the world to publish their content on &quot;iTunes
+Store&quot;.&lt;/p&gt;
+
+&lt;p&gt;Several big Universities have been putting their content on Apple&#39;s
+iTunes-U. And, to see the directory of podcasts on iTunes-U, you have (in
+theory) to use Apple&#39;s proprietary program iTunes, only available for
+proprietary platforms: for Microsoft&#39;s Windows and for Apple&#39;s own
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Mac%20OS%20X&quot;&gt;Mac OS X&lt;/a&gt;. No Free Software alternative is officially
+supported, despite the fact that the blurb on the Universities pages say
+that only the access to the content has to be via iTunes and that the
+content can be used with any MP3 player or with programs other than
+iTunes. Yes, this means that the content is playable under
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Linux&quot;&gt;Linux&lt;/a&gt; and Linux plays a big role in higher education
+environments.&lt;/p&gt;
+
+&lt;p&gt;So, isn&#39;t there a way to access the blogs avoiding the use of proprietary
+software? What about people that only want to use Free Software solutions
+or, not even a matter of desiring to use Free Software, having only access
+to Free Software?&lt;/p&gt;
+
+&lt;p&gt;Well, there is. Apple has changed the way that people use to get the
+contents from its iTunes store during time, but, now, it seems to be quite
+easy to grab it under a 100% Free environment. I have used this recipe for
+two Universities only so far, but it has worked perfectly well. The
+Universities in question are &lt;a href=&quot;https://en.wikipedia.org/wiki/MIT&quot;&gt;MIT&lt;/a&gt; and
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Stanford%20University&quot;&gt;Stanford University&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s say that you come across a link with the format:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;itms://deimos3.apple.com/WebObjects/Core.woa/Browse/mit.edu.1330383747.01330383754.1330693646
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Such a link is &lt;em&gt;usually not&lt;/em&gt; recognized by browsers without the help of
+extra software. In platforms where iTunes is available, the browser sends it
+to iTunes and iTunes takes the duty of connecting to the &quot;iTunes Music
+Store&quot; (that&#39;s where the &quot;itms&quot; thing at the beginning of the URL comes
+from, by the way). Pay close attention to the part
+&lt;code&gt;mit.edu.1330383747.01330383754.1330693646&lt;/code&gt;. That is the important part of
+the URL here.&lt;/p&gt;
+
+&lt;p&gt;But it is quite easy to convert the link above to something that can be
+grabbed with a usual browser or, say, a program like wget or curl. Just
+write the link as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://deimos3.apple.com/WebObjects/Core.woa/DownloadTracksFile/mit.edu.1330383747.01330383754.1330693646.mp4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The part up to and including &lt;code&gt;DownloadTracksFile/&lt;/code&gt; is constant. Only the
+part after it is changed and taken from the original link.&lt;/p&gt;
+
+&lt;p&gt;There is another way of rewriting the link. Its format is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://deimos3.apple.com/WebObjects/Core.woa/FeedEnclosure/mit.edu.1330383747.01330383754.1330693646/enclosure.mp4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notice that the middle part of this URL is the actual part that we alluded
+to. The rest is simply a constant thing.&lt;/p&gt;
+
+&lt;p&gt;Well, this way, we can get the contents of podcasts with Free Software in an
+automated way. That is, until Apple changes its scheme of doing things. But,
+by that time, we will already have the things we want and newer solutions
+can be devised soon.&lt;/p&gt;
+
+&lt;p&gt;So, let&#39;s fire those wget&#39;s and start to study things (or prozilla&#39;s,
+aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

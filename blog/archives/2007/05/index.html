@@ -134,7 +134,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
     </tr>
     <tr>
         <td class="month-calendar-day-nolink Sunday">6</td>
-        <td class="month-calendar-day-nolink Monday">7</td>
+        <td class="month-calendar-day-link Monday"><a href="../../../posts/debian-switching-to-eglibc/" title="debian-switching-to-eglibc">7</a></td>
         <td class="month-calendar-day-nolink Tuesday">8</td>
         <td class="month-calendar-day-nolink Wednesday">9</td>
         <td class="month-calendar-day-nolink Thursday">10</td>
@@ -155,7 +155,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
         <td class="month-calendar-day-nolink Monday">21</td>
         <td class="month-calendar-day-nolink Tuesday">22</td>
         <td class="month-calendar-day-nolink Wednesday">23</td>
-        <td class="month-calendar-day-nolink Thursday">24</td>
+        <td class="month-calendar-day-link Thursday"><a href="../../../posts/random-points-on-group-theory/" title="random-points-on-group-theory">24</a></td>
         <td class="month-calendar-day-nolink Friday">25</td>
         <td class="month-calendar-day-nolink Saturday">26</td>
     </tr>
@@ -180,6 +180,162 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 <div id="content">
 
 
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="../../../posts/debian-switching-to-eglibc/">Debian Switching to EGLIBC</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>Having been playing with some new things in <a href="http://www.debian.org/">Debian</a>, like the
+<a href="http://packages.debian.org/magicfilter">magicfilter</a> package, which is a superb, lightweight solution to
+all my printing problems: to use a PCL 3 printer. I think that I will also
+"manufacture" a solution with a metapackage of a live CD that includes the
+environment that I use frequently, with the packages that I use (this is
+probably quite leaner than what <a href="http://www.ubuntu.com/">Ubuntu</a> has done with their
+distribution, since I will mainly use some lighter packages).</p>
+
+<p>Oh, talking about lighter packages, I see that Debian has adopted a new C
+library, namely <a href="http://www.eglibc.org/">EGLIBC</a>, which stands for Embedded LIBC. Finally, it
+seems that Debian will focus a bit more on smaller systems (which is a good
+thing, because computing resources are limited).</p>
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="date">2007-05-07T23:00:00 BRT</span>
+</span>
+
+
+<span class="tags">
+Tags:
+
+<a href="../../../tags/computers/" rel="tag">computers</a>
+
+<a href="../../../tags/debian/" rel="tag">debian</a>
+
+<a href="../../../tags/embedded/" rel="tag">embedded</a>
+
+<a href="../../../tags/linux/" rel="tag">linux</a>
+
+<a href="../../../tags/ubuntu/" rel="tag">ubuntu</a>
+
+</span>
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="../../../posts/random-points-on-group-theory/">Random Points on Group Theory</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>It is not a surprise for anyone that I'm reviewing a little bit of Abstract
+Algebra.</p>
+
+<p>Reading Fraleigh's book is proving to be quite a good refresher, especially
+since my short-term goal is to study <a href="https://en.wikipedia.org/wiki/Coding%20Theory">Coding Theory</a> and the
+finer aspects of Coding Theory do involve Algebra (actually, one could say
+that the finer aspects of Coding Theory, especially Error Correcting Codes,
+depend quite a lot on Algebra).</p>
+
+<p>Well, while studying Group Theory, one can't avoid to be amazed by some
+results that are not exactly that intuitive. For instance, I just discovered
+that the additive group $$\mathbb Z[X]$$ of univariate polynomials with
+integer coefficients is isomorphic to the multiplicative group $$\mathbb
+Q^+$ of positive rationals.</p>
+
+<p>I thought that this was a relatively easy exercise until I posed the problem
+to a very competent friend of mine and he had some problems trying to come
+up with the isomorphism. His failure maybe tells me that this is not as
+obvious as I once thought and I think that this exercise should be better
+known, as it can show that very differently looking algebraic structures can
+be "the same" and the most surprising fact here is that <em>we are <strong>not</strong>
+dealing with any pathologically "made up" example</em>!</p>
+
+<p>Another thing that maybe is hard for students to grasp is the concept of a
+factor group. Knowing that a subgroup is normal iff it is the kernel of some
+homomorphism of groups is a handy way to memorize and "see" what a
+<a href="https://en.wikipedia.org/wiki/normal%20subgroup">normal subgroup</a> is. And students should be shown that there
+are some quite special ("natural"?) normal subgroups of a group: the <em>center
+of the group</em> and the <em>commutator subgroup</em>, just as two examples.</p>
+
+<p>The latter one, together with a good explanation of what does it mean for
+taking <a href="http://en.wikipedia.org/wiki/Quotient_group">factor
+groups</a> (i.e., taking the elements of the normal subgroup and equating
+them to the unity), leads to a better understanding of quotient/factor
+groups. A nice thing to prove (that is short and shows the "mechanics" of
+factor groups) is the fact that a quotient group is abelian iff the normal
+group used as the "denominator" contains the commutator subgroup.</p>
+
+<p>Another thing that is worth doing is proving that a normal subgroup $$N$$ is
+maximal in a group $$G$ iff $$G/N$$ is simple. The proof of this fact is
+analogous to the proof of the quotient of a ring being a field iff a ring is
+<a href="http://en.wikipedia.org/wiki/Factor_ring">factored</a> by a maximal
+ideal (and that we get an <a
+href="http://en.wikipedia.org/wiki/Integral_domain">integral domain</a> if
+the ideal is only prime instead of maximal).</p>
+
+<p>Last, two groups that I feel that should merit way more attention than what
+I perceive as being given in a first course are the dihedral groups $$D_3$$
+and $$D_4$. Asking the students to draw the lattice of subgroups of such
+groups is quite enlightening, as they are "natural" groups that are not
+abelian (but with <em>all</em> the proper subgroups being abelian). Nice examples
+to have in mind, without any shadow of doubt.</p>
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="date">2007-05-24T14:07:11 BRT</span>
+</span>
+
+
+<span class="tags">
+Tags:
+
+<a href="../../../tags/abstract-algebra/" rel="tag">abstract-algebra</a>
+
+<a href="../../../tags/group-theory/" rel="tag">group-theory</a>
+
+<a href="../../../tags/math/" rel="tag">math</a>
+
+<a href="../../../tags/quotient-groups/" rel="tag">quotient-groups</a>
+
+</span>
+
+
+
+
+
+
+
+
+</div>
+
+</div>
 
 
 

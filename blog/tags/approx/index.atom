@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged approx</title>
+<link href="http://rb.doesntexist.org/blog//tags/approx/"/>
+<link href="http://rb.doesntexist.org/blog//tags/approx/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://rb.doesntexist.org/blog//tags/approx/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2012-09-07T06:55:12Z</updated>
+<entry>
+	<title>Playing with Package Proxies</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/"/>
+
+
+
+
+
+
+	<category term="approx" />
+
+	<category term="apt-move" />
+
+	<category term="computers" />
+
+	<category term="debian" />
+
+	<category term="embedded" />
+
+	<category term="linux" />
+
+	<category term="proxy" />
+
+	<category term="ubuntu" />
+
+
+	<updated>2012-09-07T06:55:12Z</updated>
+	<published>2007-03-16T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Have been playing with the great idea of &lt;a
+href=&quot;http://lists.debian.org/debian-mentors/2009/03/msg00210.html&quot;&gt;caching&lt;/a&gt;
+&lt;a href=&quot;http://lwn.net/Articles/318658/&quot;&gt;deb&lt;/a&gt; packages. I finally
+settled for the option of using &lt;code&gt;&lt;a
+href=&quot;http://git.debian.org/?p=pkg-ocaml-maint/packages/approx.git&quot;&gt;approx&lt;/a&gt;&lt;/code&gt;,
+which does a really nice job of caching packages.&lt;/p&gt;
+
+&lt;p&gt;Actually, it fullfils quite a lot of requirements and even surpasses some of my expectations:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It supports multiple architectures (in fact, this is important for me, as
+I use &lt;code&gt;i386&lt;/code&gt;, &lt;code&gt;amd64&lt;/code&gt;, and &lt;code&gt;powerpc&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;It can support multiple distributions (both different versions of the same
+distribution and completely different distributions, as long as they use a
+repository like &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s, as is the
+case of &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;).&lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;It keeps its directory hierarchy neatly organized, like that of Debian, in
+a package pool, which saves space and makes everything easier and faster
+to find (and has the advantage of being fast with filesystems that don&#39;t
+cope well with many entries in one directory).&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;The transition wasn&#39;t painless from &lt;a href=&quot;http://packages.debian.org/apt%2Dmove&quot;&gt;apt-move&lt;/a&gt;, since apt-move
+moves the files, but renames them in a way that they don&#39;t keep epochs in
+their names, which makes &lt;code&gt;approx-import&lt;/code&gt; moan about the packages.&lt;/p&gt;
+
+&lt;p&gt;For places where I am too lazy to import the packages, I just filled the
+cache redownloading the packages with something approximately like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  apt-get -d --reinstall install $(dpkg -l | grep &quot;^ii&quot; | cut -d &quot; &quot; -f 3)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Well, I hope that this experience happens to be useful for other people, so
+that they can benefit from it. Rebuilding packages with a package cacher is
+much more pleasant, especially if the package has a lot of
+build-dependencies.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

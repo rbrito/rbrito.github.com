@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged quotient-groups</title>
+<link>http://rb.doesntexist.org/blog//tags/quotient-groups/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>Random Points on Group Theory</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/random-points-on-group-theory/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/random-points-on-group-theory/</link>
+
+
+	<category>abstract-algebra</category>
+
+	<category>group-theory</category>
+
+	<category>math</category>
+
+	<category>quotient-groups</category>
+
+
+	<pubDate>Thu, 24 May 2007 14:07:11 -0300</pubDate>
+	<dcterms:modified>2012-09-07T06:55:12Z</dcterms:modified>
+
+	<description>&lt;p&gt;It is not a surprise for anyone that I&#39;m reviewing a little bit of Abstract
+Algebra.&lt;/p&gt;
+
+&lt;p&gt;Reading Fraleigh&#39;s book is proving to be quite a good refresher, especially
+since my short-term goal is to study &lt;a href=&quot;https://en.wikipedia.org/wiki/Coding%20Theory&quot;&gt;Coding Theory&lt;/a&gt; and the
+finer aspects of Coding Theory do involve Algebra (actually, one could say
+that the finer aspects of Coding Theory, especially Error Correcting Codes,
+depend quite a lot on Algebra).&lt;/p&gt;
+
+&lt;p&gt;Well, while studying Group Theory, one can&#39;t avoid to be amazed by some
+results that are not exactly that intuitive. For instance, I just discovered
+that the additive group $$\mathbb Z[X]$$ of univariate polynomials with
+integer coefficients is isomorphic to the multiplicative group $$\mathbb
+Q^+$ of positive rationals.&lt;/p&gt;
+
+&lt;p&gt;I thought that this was a relatively easy exercise until I posed the problem
+to a very competent friend of mine and he had some problems trying to come
+up with the isomorphism. His failure maybe tells me that this is not as
+obvious as I once thought and I think that this exercise should be better
+known, as it can show that very differently looking algebraic structures can
+be &quot;the same&quot; and the most surprising fact here is that &lt;em&gt;we are &lt;strong&gt;not&lt;/strong&gt;
+dealing with any pathologically &quot;made up&quot; example&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;Another thing that maybe is hard for students to grasp is the concept of a
+factor group. Knowing that a subgroup is normal iff it is the kernel of some
+homomorphism of groups is a handy way to memorize and &quot;see&quot; what a
+&lt;a href=&quot;https://en.wikipedia.org/wiki/normal%20subgroup&quot;&gt;normal subgroup&lt;/a&gt; is. And students should be shown that there
+are some quite special (&quot;natural&quot;?) normal subgroups of a group: the &lt;em&gt;center
+of the group&lt;/em&gt; and the &lt;em&gt;commutator subgroup&lt;/em&gt;, just as two examples.&lt;/p&gt;
+
+&lt;p&gt;The latter one, together with a good explanation of what does it mean for
+taking &lt;a href=&quot;http://en.wikipedia.org/wiki/Quotient_group&quot;&gt;factor
+groups&lt;/a&gt; (i.e., taking the elements of the normal subgroup and equating
+them to the unity), leads to a better understanding of quotient/factor
+groups. A nice thing to prove (that is short and shows the &quot;mechanics&quot; of
+factor groups) is the fact that a quotient group is abelian iff the normal
+group used as the &quot;denominator&quot; contains the commutator subgroup.&lt;/p&gt;
+
+&lt;p&gt;Another thing that is worth doing is proving that a normal subgroup $$N$$ is
+maximal in a group $$G$ iff $$G/N$$ is simple. The proof of this fact is
+analogous to the proof of the quotient of a ring being a field iff a ring is
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Factor_ring&quot;&gt;factored&lt;/a&gt; by a maximal
+ideal (and that we get an &lt;a
+href=&quot;http://en.wikipedia.org/wiki/Integral_domain&quot;&gt;integral domain&lt;/a&gt; if
+the ideal is only prime instead of maximal).&lt;/p&gt;
+
+&lt;p&gt;Last, two groups that I feel that should merit way more attention than what
+I perceive as being given in a first course are the dihedral groups $$D_3$$
+and $$D_4$. Asking the students to draw the lattice of subgroups of such
+groups is quite enlightening, as they are &quot;natural&quot; groups that are not
+abelian (but with &lt;em&gt;all&lt;/em&gt; the proper subgroups being abelian). Nice examples
+to have in mind, without any shadow of doubt.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

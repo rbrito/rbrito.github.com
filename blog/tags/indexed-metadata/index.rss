@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged indexed-metadata</title>
+<link>http://rb.doesntexist.org/blog//tags/indexed-metadata/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>A Wish: The Ability of Playing MP3 CDs/DVDs created by iTunes with Free Software</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</link>
+
+
+	<category>apple</category>
+
+	<category>computers</category>
+
+	<category>indexed-metadata</category>
+
+	<category>library</category>
+
+	<category>mp3</category>
+
+	<category>music</category>
+
+
+	<pubDate>Wed, 25 Feb 2009 20:34:09 -0300</pubDate>
+	<dcterms:modified>2012-09-07T06:55:12Z</dcterms:modified>
+
+	<description>&lt;p&gt;Apple&#39;s iTunes has a very cool feature that I would like to have and that I
+still have not yet noticed in any of the Linux music players (be them
+rhythmbox, amarok, quodlibet, audacious etc).&lt;/p&gt;
+
+&lt;p&gt;The feature is the following: Apple&#39;s iTunes player has the possibility of
+playing CD-DA, with the information about the tracks (in computer jargon,
+metadata) taken from on-line databases like Gracenote&#39;s CDDB.&lt;/p&gt;
+
+&lt;p&gt;The Free Software that I use doesn&#39;t have problems with this, at least
+regarding audio CDs. They check some free on-line databases (like gnudb.org
+or freedb.org, which, by the way, have CDs in their catalog that aren&#39;t
+available in the commercial CDDB).&lt;/p&gt;
+
+&lt;p&gt;But the nicest feature that iTunes has is the ability to burn MP3/AAC CDs
+taken from playlists composed by the user, neatly organized in a filesystem
+structure of the format:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;artist&amp;gt;/&amp;lt;album&amp;gt;/&amp;lt;song&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It also generates an XML file with the contents of the MP3 CD in a way that
+makes it playable just like a CD-DA, but with remarkable characteristics:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;it doesn&#39;t need a connection to the Internet to grab metadata (which is,
+of course, stored both in the XML file and in some file&#39;s metadata). This
+means that no network connection is necessary to have information about
+songs and the XML file acts like a cache to avoid the program reading the
+whole CD to show the information in a user-friendly fashion.&lt;/li&gt;
+&lt;li&gt;the MP3 CD is treated like a CD-DA, but with a much longer capacity (say,
+12 hours, depending on the bitrate of the songs and their lengths).&lt;/li&gt;
+&lt;li&gt;the songs don&#39;t have to be imported into playlists and not even queued for
+playing. Just selecting the first song to be played is enough for it to
+start plaing things (and, of course, it is not always that we want to
+import songs to our library).&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;In particular, I think that this would be a great thing for the GNOME
+Desktop (and for others too), since it would increase the interoperability
+with other Operating Systems.&lt;/p&gt;
+
+&lt;p&gt;Not only iTunes can create such CDs, but it can also create DVDs containing
+MP3/AAC files, which, of course, means that the capacity of such &quot;CDs&quot; is
+huge compared to that of usual audio CDs and it is also a convenient way to
+carry the discs around.&lt;/p&gt;
+
+&lt;p&gt;In my experience and workflow, it would be really nice to be able to play
+such CDs/DVDs with rhythmbox/amarok/quodlibet, as it would represent both a
+handy feature and a nice interoperability factor (and convenience).&lt;/p&gt;
+
+&lt;p&gt;In the case of Free Software players, more formats could be considered, of
+course, than just MP3 and Low Complexity AAC. Vorbis, Speex, MP2, AC-3 and
+other less-known formats would be possible (well, even Window&#39;s WMA files,
+as they are playable by a lot of set-top boxes and car players).&lt;/p&gt;
+
+&lt;p&gt;If, in addition to playing such CDs/DVDs, those programs could also create
+such CDs (say, by passing the responsibility to another program), then
+everything would be a dream come true and many other friends of mine would
+be one step further from being tied to Mac OS X or Windows and closer to
+Free Software.&lt;/p&gt;
+
+&lt;p&gt;I hope that this shows to be an improvement for the Free Software Desktop
+environments like GNOME and KDE.&lt;/p&gt;
+
+&lt;p&gt;P.S.: The same thing applies to Photo CDs created by iPhoto. It would be
+really exciting to have them be recognized by F-Spot or other similar Photo
+organizers.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged music</title>
+<link href="http://rb.doesntexist.org/blog//tags/music/"/>
+<link href="http://rb.doesntexist.org/blog//tags/music/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://rb.doesntexist.org/blog//tags/music/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2012-09-07T06:55:12Z</updated>
+<entry>
+	<title>A Wish: The Ability of Playing MP3 CDs/DVDs created by iTunes with Free Software</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="computers" />
+
+	<category term="indexed-metadata" />
+
+	<category term="library" />
+
+	<category term="mp3" />
+
+	<category term="music" />
+
+
+	<updated>2012-09-07T06:55:12Z</updated>
+	<published>2009-02-25T23:34:09Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Apple&#39;s iTunes has a very cool feature that I would like to have and that I
+still have not yet noticed in any of the Linux music players (be them
+rhythmbox, amarok, quodlibet, audacious etc).&lt;/p&gt;
+
+&lt;p&gt;The feature is the following: Apple&#39;s iTunes player has the possibility of
+playing CD-DA, with the information about the tracks (in computer jargon,
+metadata) taken from on-line databases like Gracenote&#39;s CDDB.&lt;/p&gt;
+
+&lt;p&gt;The Free Software that I use doesn&#39;t have problems with this, at least
+regarding audio CDs. They check some free on-line databases (like gnudb.org
+or freedb.org, which, by the way, have CDs in their catalog that aren&#39;t
+available in the commercial CDDB).&lt;/p&gt;
+
+&lt;p&gt;But the nicest feature that iTunes has is the ability to burn MP3/AAC CDs
+taken from playlists composed by the user, neatly organized in a filesystem
+structure of the format:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;artist&amp;gt;/&amp;lt;album&amp;gt;/&amp;lt;song&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It also generates an XML file with the contents of the MP3 CD in a way that
+makes it playable just like a CD-DA, but with remarkable characteristics:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;it doesn&#39;t need a connection to the Internet to grab metadata (which is,
+of course, stored both in the XML file and in some file&#39;s metadata). This
+means that no network connection is necessary to have information about
+songs and the XML file acts like a cache to avoid the program reading the
+whole CD to show the information in a user-friendly fashion.&lt;/li&gt;
+&lt;li&gt;the MP3 CD is treated like a CD-DA, but with a much longer capacity (say,
+12 hours, depending on the bitrate of the songs and their lengths).&lt;/li&gt;
+&lt;li&gt;the songs don&#39;t have to be imported into playlists and not even queued for
+playing. Just selecting the first song to be played is enough for it to
+start plaing things (and, of course, it is not always that we want to
+import songs to our library).&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;In particular, I think that this would be a great thing for the GNOME
+Desktop (and for others too), since it would increase the interoperability
+with other Operating Systems.&lt;/p&gt;
+
+&lt;p&gt;Not only iTunes can create such CDs, but it can also create DVDs containing
+MP3/AAC files, which, of course, means that the capacity of such &quot;CDs&quot; is
+huge compared to that of usual audio CDs and it is also a convenient way to
+carry the discs around.&lt;/p&gt;
+
+&lt;p&gt;In my experience and workflow, it would be really nice to be able to play
+such CDs/DVDs with rhythmbox/amarok/quodlibet, as it would represent both a
+handy feature and a nice interoperability factor (and convenience).&lt;/p&gt;
+
+&lt;p&gt;In the case of Free Software players, more formats could be considered, of
+course, than just MP3 and Low Complexity AAC. Vorbis, Speex, MP2, AC-3 and
+other less-known formats would be possible (well, even Window&#39;s WMA files,
+as they are playable by a lot of set-top boxes and car players).&lt;/p&gt;
+
+&lt;p&gt;If, in addition to playing such CDs/DVDs, those programs could also create
+such CDs (say, by passing the responsibility to another program), then
+everything would be a dream come true and many other friends of mine would
+be one step further from being tied to Mac OS X or Windows and closer to
+Free Software.&lt;/p&gt;
+
+&lt;p&gt;I hope that this shows to be an improvement for the Free Software Desktop
+environments like GNOME and KDE.&lt;/p&gt;
+
+&lt;p&gt;P.S.: The same thing applies to Photo CDs created by iPhoto. It would be
+really exciting to have them be recognized by F-Spot or other similar Photo
+organizers.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Getting things from the iTunes Music Store without iTunes</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="computers" />
+
+	<category term="itunesu" />
+
+	<category term="music" />
+
+	<category term="video" />
+
+
+	<updated>2012-09-07T06:55:12Z</updated>
+	<published>2009-02-24T14:11:54Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Being the &lt;a href=&quot;https://en.wikipedia.org/wiki/Free%20Software&quot;&gt;Free Software&lt;/a&gt; advocate that I am, I want to use as
+much Free Software as I can (and spread the world).&lt;/p&gt;
+
+&lt;p&gt;Disclaimer: no, I don&#39;t like to call what I use
+&quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/Open%20Source&quot;&gt;Open Source&lt;/a&gt;&quot;.  I prefer the things the RMS way and if you
+don&#39;t like the fact that I like his way, I&#39;m afraid that you may miss some
+of the things that I have here, even if you don&#39;t necessarily agree with me.&lt;/p&gt;
+
+&lt;p&gt;In particular, I would like to use, see etc., the material that is available
+on the Internet, that people has put available for others to see. In
+particular, many Universities around the world are making the shift of being
+only in the classroom to being present in their students&#39; lifes all the
+time. This is accomplished by putting their educational material available
+on-line.&lt;/p&gt;
+
+&lt;p&gt;A decade or two ago, this was usually accomplished by publishing the
+so-called &quot;lecture notes&quot; on the website of the course and maintaining
+mailing-lists with the currently enrolled students. The lecture notes were
+usually taken using the &quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/Scribe&quot;&gt;Scribe&lt;/a&gt; method&quot;, where, for each
+class, one student is responsible of taking notes of the material, writing
+it in a &quot;finished&quot; form and distributing it back for all the other
+students. This was made in a round-robin fashion, as a means to spread the
+responsibilities among the students taking the course. Also, the most common
+tool used to edit the material, especially in Mathematically-oriented
+courses, was to typeset everything in &lt;a href=&quot;https://en.wikipedia.org/wiki/LaTeX&quot;&gt;LaTeX&lt;/a&gt; (or even plain
+&lt;a href=&quot;https://en.wikipedia.org/wiki/TeX&quot;&gt;TeX&lt;/a&gt;, in some cases).&lt;/p&gt;
+
+&lt;p&gt;The lecturer frequently distributed a template, which the students used and,
+this way, all the notes written by the students had the same, uniform look
+and style. The work was usually revised by the lecturer and, many times, it
+resulted in a kind of a book, published in
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Device%5Findependent%5Ffile%5Fformat&quot;&gt;DVI&lt;/a&gt; or
+&lt;a href=&quot;https://en.wikipedia.org/wiki/PostScript&quot;&gt;PostScript&lt;/a&gt; form (latter, it became common to use
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Portable%5Fdocument%5Fformat&quot;&gt;PDF&lt;/a&gt;, as it is a format more
+popular).&lt;/p&gt;
+
+&lt;p&gt;Actually, it is still quite frequent (and welcome!) to produce such lecture
+notes. But, now, things have changed slightly. (I could discuss &lt;em&gt;why&lt;/em&gt; things
+have changed the way they have, but it is beyond the scope of these short
+notes here.) People have been recording lectures in audio and, after the
+technology became more accessible, in video. Now, a new term is used for
+distributing those contents: &lt;em&gt;podcasting&lt;/em&gt;. Essentially, a
+&lt;a href=&quot;https://en.wikipedia.org/wiki/podcast&quot;&gt;podcast&lt;/a&gt; is a way of publishing, say, audio so that people can
+subscribe to your &quot;podcast&quot; (sometimes also said to be a &quot;channel&quot;). It is
+very much like a radio program, where people tune in to listen to a given
+program.&lt;/p&gt;
+
+&lt;p&gt;The way most people use to distribute the &quot;episodes&quot; of such
+programs/podcasts is actually a combination of technologies, but nothing
+exactly new: the description of &lt;em&gt;what&lt;/em&gt; is available is given in a format
+called &lt;a href=&quot;https://en.wikipedia.org/wiki/RSS&quot;&gt;RSS&lt;/a&gt; (which is a specialization of &lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;XML&lt;/a&gt;,
+but this isn&#39;t important for our subject matter) and the content is usually
+in form of &lt;a href=&quot;https://en.wikipedia.org/wiki/MP3&quot;&gt;MP3&lt;/a&gt; files (or some variation of that).&lt;/p&gt;
+
+&lt;p&gt;OK, enough background. Now, there are on-line stores on the Internet that
+make available podcasts. Those podcasts are usually free of charge for the
+listener. Some of the most prominent stores nowadays are
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Apple%5FInc%2E&quot;&gt;Apple&lt;/a&gt;&#39;s &quot;iTunes Store&quot; and Amazon&#39;s store.&lt;/p&gt;
+
+&lt;p&gt;Apple has created its &quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/iTunes%20Store&quot;&gt;iTunes Store&lt;/a&gt;&quot; to foster the use of its
+&lt;a href=&quot;https://en.wikipedia.org/wiki/iTunes&quot;&gt;iTunes&lt;/a&gt; program and to boost the sales of its
+&lt;a href=&quot;https://en.wikipedia.org/wiki/iPod&quot;&gt;iPod&lt;/a&gt; digital players (and, also, to make some extra money).
+But people in the education field have seen that using a podcast would be a
+good way of sharing knowledge and Apple wouldn&#39;t loose this market: they
+invented the &lt;a href=&quot;https://en.wikipedia.org/wiki/ITunes%5FStore%23iTunes%5FU&quot;&gt;iTunes U&lt;/a&gt;, which is
+a way for Universities around the world to publish their content on &quot;iTunes
+Store&quot;.&lt;/p&gt;
+
+&lt;p&gt;Several big Universities have been putting their content on Apple&#39;s
+iTunes-U. And, to see the directory of podcasts on iTunes-U, you have (in
+theory) to use Apple&#39;s proprietary program iTunes, only available for
+proprietary platforms: for Microsoft&#39;s Windows and for Apple&#39;s own
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Mac%20OS%20X&quot;&gt;Mac OS X&lt;/a&gt;. No Free Software alternative is officially
+supported, despite the fact that the blurb on the Universities pages say
+that only the access to the content has to be via iTunes and that the
+content can be used with any MP3 player or with programs other than
+iTunes. Yes, this means that the content is playable under
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Linux&quot;&gt;Linux&lt;/a&gt; and Linux plays a big role in higher education
+environments.&lt;/p&gt;
+
+&lt;p&gt;So, isn&#39;t there a way to access the blogs avoiding the use of proprietary
+software? What about people that only want to use Free Software solutions
+or, not even a matter of desiring to use Free Software, having only access
+to Free Software?&lt;/p&gt;
+
+&lt;p&gt;Well, there is. Apple has changed the way that people use to get the
+contents from its iTunes store during time, but, now, it seems to be quite
+easy to grab it under a 100% Free environment. I have used this recipe for
+two Universities only so far, but it has worked perfectly well. The
+Universities in question are &lt;a href=&quot;https://en.wikipedia.org/wiki/MIT&quot;&gt;MIT&lt;/a&gt; and
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Stanford%20University&quot;&gt;Stanford University&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s say that you come across a link with the format:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;itms://deimos3.apple.com/WebObjects/Core.woa/Browse/mit.edu.1330383747.01330383754.1330693646
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Such a link is &lt;em&gt;usually not&lt;/em&gt; recognized by browsers without the help of
+extra software. In platforms where iTunes is available, the browser sends it
+to iTunes and iTunes takes the duty of connecting to the &quot;iTunes Music
+Store&quot; (that&#39;s where the &quot;itms&quot; thing at the beginning of the URL comes
+from, by the way). Pay close attention to the part
+&lt;code&gt;mit.edu.1330383747.01330383754.1330693646&lt;/code&gt;. That is the important part of
+the URL here.&lt;/p&gt;
+
+&lt;p&gt;But it is quite easy to convert the link above to something that can be
+grabbed with a usual browser or, say, a program like wget or curl. Just
+write the link as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://deimos3.apple.com/WebObjects/Core.woa/DownloadTracksFile/mit.edu.1330383747.01330383754.1330693646.mp4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The part up to and including &lt;code&gt;DownloadTracksFile/&lt;/code&gt; is constant. Only the
+part after it is changed and taken from the original link.&lt;/p&gt;
+
+&lt;p&gt;There is another way of rewriting the link. Its format is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://deimos3.apple.com/WebObjects/Core.woa/FeedEnclosure/mit.edu.1330383747.01330383754.1330693646/enclosure.mp4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notice that the middle part of this URL is the actual part that we alluded
+to. The rest is simply a constant thing.&lt;/p&gt;
+
+&lt;p&gt;Well, this way, we can get the contents of podcasts with Free Software in an
+automated way. That is, until Apple changes its scheme of doing things. But,
+by that time, we will already have the things we want and newer solutions
+can be devised soon.&lt;/p&gt;
+
+&lt;p&gt;So, let&#39;s fire those wget&#39;s and start to study things (or prozilla&#39;s,
+aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Seeing Opeth Live in Brazil</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/seeing-opeth-live-in-brazil/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/seeing-opeth-live-in-brazil/"/>
+
+
+
+
+
+
+	<category term="music" />
+
+	<category term="opeth" />
+
+	<category term="pain-of-salvation" />
+
+
+	<updated>2012-09-07T06:55:12Z</updated>
+	<published>2007-03-15T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;The acoustic show of Pain of Salvation is really nice. I didn&#39;t have enough
+time to watch it yet, but it is an amazing thing that should be kept, as the
+performance is superb (I did look quickly at some points of it and, of
+course, the expectations have been met---we are, after all, talking about a
+band that has a unique touch).&lt;/p&gt;
+
+&lt;p&gt;Oh, speaking about unique bands, I will be seeing Opeth playing live here in
+Brazil. Yes. This day has arrived. I will see my favourite band playing
+here. I guess that I have to get in touch with Mikael and see if I can sneak
+in a camera, so that I can shot and film the show.  This will be amazing, to
+say the least.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>Sourceforge, SSH keys, Free audiobooks, DVD&#x27;s</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/"/>
+
+
+
+
+
+
+	<category term="audiobooks" />
+
+	<category term="computers" />
+
+	<category term="descartes" />
+
+	<category term="dvds" />
+
+	<category term="hashes" />
+
+	<category term="music" />
+
+	<category term="opeth" />
+
+	<category term="pain-of-salvation" />
+
+	<category term="public-domain" />
+
+	<category term="security" />
+
+	<category term="ssh" />
+
+
+	<updated>2012-09-07T06:55:12Z</updated>
+	<published>2007-03-11T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Found out about &quot;The Right Way (TM)&quot; to hash an existing SSH&#39;s &lt;code&gt;known_hosts&lt;/code&gt;
+file (&lt;code&gt;ssh-keygen -H&lt;/code&gt;) and how to remove a hashed host entry from your
+&lt;code&gt;known_hosts&lt;/code&gt; file: &lt;code&gt;ssh-keygen -H -R host.name&lt;/code&gt;.  I needed this for newer
+checkouts of LAME&#39;s CVS repository at &lt;a href=&quot;http://sf.net/&quot;&gt;Sourceforge&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Oh, BTW, just to save myself the trouble of looking it up again, here is the
+link to the place where sourceforge keeps their &lt;a href=&quot;http://apps.sourceforge.net/trac/sitedocs/wiki/SSH%20key%20fingerprints&quot;&gt;SSH key fingerprints&lt;/a&gt;.
+I&#39;m always lost trying to find it, so I thought that it would be best to
+record it here.&lt;/p&gt;
+
+&lt;p&gt;Also discovered a &lt;em&gt;really&lt;/em&gt; amazing thing: a &lt;a href=&quot;http://librivox.org/&quot;&gt;free source of audiobooks&lt;/a&gt;
+in podcast format, while I was looking for René Descartes&#39; &quot;The Method&quot;.
+While surfing the net, I also found that there is this &lt;a href=&quot;http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&amp;amp;amp;co_obra=2274&quot;&gt;very same text&lt;/a&gt;
+in a &lt;a href=&quot;http://www.dominiopublico.gov.br/&quot;&gt;Brazilian site&lt;/a&gt; backed by the government that hosts works in the
+public domain.&lt;/p&gt;
+
+&lt;p&gt;Still downloading Pain of Salvation&#39;s Acoustic set. Now, I finally had some
+time to watch the somewhat incomplete VOBs and it, indeed, has the show. And
+it is an amazing piece of music. Recommended for all fans of good music.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>
