@@ -26,7 +26,7 @@
 
 
 	<pubDate>Thu, 24 May 2007 14:07:11 -0300</pubDate>
-	<dcterms:modified>2012-09-07T06:55:12Z</dcterms:modified>
+	<dcterms:modified>2012-09-07T07:17:08Z</dcterms:modified>
 
 	<description>&lt;p&gt;It is not a surprise for anyone that I&#39;m reviewing a little bit of Abstract
 Algebra.&lt;/p&gt;
@@ -39,9 +39,9 @@ depend quite a lot on Algebra).&lt;/p&gt;
 
 &lt;p&gt;Well, while studying Group Theory, one can&#39;t avoid to be amazed by some
 results that are not exactly that intuitive. For instance, I just discovered
-that the additive group $$\mathbb Z[X]$$ of univariate polynomials with
-integer coefficients is isomorphic to the multiplicative group $$\mathbb
-Q^+$ of positive rationals.&lt;/p&gt;
+that the additive group $\mathbb Z[X]$ of univariate polynomials with
+integer coefficients is isomorphic to the multiplicative group $\mathbb Q^+$
+of positive rationals.&lt;/p&gt;
 
 &lt;p&gt;I thought that this was a relatively easy exercise until I posed the problem
 to a very competent friend of mine and he had some problems trying to come
@@ -59,24 +59,23 @@ are some quite special (&quot;natural&quot;?) normal subgroups of a group: the &
 of the group&lt;/em&gt; and the &lt;em&gt;commutator subgroup&lt;/em&gt;, just as two examples.&lt;/p&gt;
 
 &lt;p&gt;The latter one, together with a good explanation of what does it mean for
-taking &lt;a href=&quot;http://en.wikipedia.org/wiki/Quotient_group&quot;&gt;factor
-groups&lt;/a&gt; (i.e., taking the elements of the normal subgroup and equating
-them to the unity), leads to a better understanding of quotient/factor
-groups. A nice thing to prove (that is short and shows the &quot;mechanics&quot; of
-factor groups) is the fact that a quotient group is abelian iff the normal
-group used as the &quot;denominator&quot; contains the commutator subgroup.&lt;/p&gt;
+taking &lt;a href=&quot;https://en.wikipedia.org/wiki/Quotient%20group&quot;&gt;factor groups&lt;/a&gt; (i.e., taking the
+elements of the normal subgroup and equating them to the unity), leads to a
+better understanding of quotient/factor groups. A nice thing to prove (that
+is short and shows the &quot;mechanics&quot; of factor groups) is the fact that a
+quotient group is abelian iff the normal group used as the &quot;denominator&quot;
+contains the commutator subgroup.&lt;/p&gt;
 
-&lt;p&gt;Another thing that is worth doing is proving that a normal subgroup $$N$$ is
-maximal in a group $$G$ iff $$G/N$$ is simple. The proof of this fact is
+&lt;p&gt;Another thing that is worth doing is proving that a normal subgroup $N$ is
+maximal in a group $G$ iff $G/N$ is simple. The proof of this fact is
 analogous to the proof of the quotient of a ring being a field iff a ring is
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Factor_ring&quot;&gt;factored&lt;/a&gt; by a maximal
-ideal (and that we get an &lt;a
-href=&quot;http://en.wikipedia.org/wiki/Integral_domain&quot;&gt;integral domain&lt;/a&gt; if
-the ideal is only prime instead of maximal).&lt;/p&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Factor%20ring&quot;&gt;factored&lt;/a&gt; by a maximal ideal (and that we
+get an &lt;a href=&quot;https://en.wikipedia.org/wiki/integral%20domain&quot;&gt;integral domain&lt;/a&gt; if the ideal is only prime instead of
+maximal).&lt;/p&gt;
 
 &lt;p&gt;Last, two groups that I feel that should merit way more attention than what
-I perceive as being given in a first course are the dihedral groups $$D_3$$
-and $$D_4$. Asking the students to draw the lattice of subgroups of such
+I perceive as being given in a first course are the dihedral groups $D_3$
+and $D_4$. Asking the students to draw the lattice of subgroups of such
 groups is quite enlightening, as they are &quot;natural&quot; groups that are not
 abelian (but with &lt;em&gt;all&lt;/em&gt; the proper subgroups being abelian). Nice examples
 to have in mind, without any shadow of doubt.&lt;/p&gt;
