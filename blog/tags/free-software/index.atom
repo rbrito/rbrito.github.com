@@ -17,7 +17,110 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2012-09-04T03:21:59Z</updated>
+<updated>2012-09-07T16:16:32Z</updated>
+<entry>
+	<title>NOT Trying out AdSense</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/trying_out_adsense_not/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/trying_out_adsense_not/"/>
+
+
+
+
+
+
+	<category term="adsense" />
+
+	<category term="advertisements" />
+
+	<category term="debian" />
+
+	<category term="debian-planet" />
+
+	<category term="free-software" />
+
+	<category term="funding" />
+
+	<category term="google" />
+
+
+	<updated>2012-09-07T16:16:32Z</updated>
+	<published>2012-09-07T16:16:18Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;On the 3rd of September, I applied to Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; program, as I
+told in my &lt;a href=&quot;http://rb.doesntexist.org/blog/posts/trying_out_adsense/&quot;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Well, that was a short-lived experience. On the 5th of September, I received
+the following e-mail, which, sincerely, is as uninformative as it could get:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Date: Wed, 05 Sep 2012 16:52:22 -0000
+From: adsense-noreply@google.com
+To: rbrito@gmail.com
+Subject: Google AdSense Support
+
+Hello,
+
+As mentioned in our welcome email, we conduct a second review of your
+AdSense application once AdSense code is placed on your site(s). As a
+result of this review, we have disapproved your account for the following
+violation(s):
+
+Issues:
+
+- Site does not comply with Google policies
+
+
+---------------------
+
+Further detail:
+
+
+Site does not comply with Google policies: We&#39;re unable to approve your
+AdSense application at this time because we feel that your site does not
+comply with Google AdSense policies or webmaster quality guidelines. It&#39;s
+our goal to provide our advertisers sites that offer rich and meaningful
+content, receive organic traffic, and allow us to serve well-targeted ads
+to users. We believe that currently your site does not fulfill this
+criteria. 
+
+For more details, please read the webmaster quality guidelines at
+http://www.google.com/support/webmasters/bin/answer.py?answer=35769 and
+the AdSense program policies at
+http://support.google.com/adsense/bin/answer.py?answer=48182,
+https://support.google.com/adsense/bin/topic.py?topic=1271507
+
+(...)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;OK, I went on and read &lt;strong&gt;all&lt;/strong&gt; the documentation on program policies
+etc.  I investigate each point here:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Invalid clicks and impressions: No violation here.&lt;/li&gt;
+&lt;li&gt;Encouraging clicks: No violation here.&lt;/li&gt;
+&lt;li&gt;Content guidelines: No violation here.&lt;/li&gt;
+&lt;li&gt;Copyrighted material: No violation here.&lt;/li&gt;
+&lt;li&gt;Webmaster guidelines: No violation here.&lt;/li&gt;
+&lt;li&gt;Traffic sources: No violation here.&lt;/li&gt;
+&lt;li&gt;Ad behavior: No violation here.&lt;/li&gt;
+&lt;li&gt;Ad placement: No violation here.&lt;/li&gt;
+&lt;li&gt;Site behavior: No violation here.&lt;/li&gt;
+&lt;li&gt;Competitive ads and services: No violation here.&lt;/li&gt;
+&lt;li&gt;Google advertising cookies: No violation here.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;To cut a long story short, I RTFM and did everything correctly. So, dear
+lazyweb, what would my options be to fund a tiny bit of my software
+contributions?&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Trying out AdSense</title>
 
@@ -969,52 +1072,6 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 &lt;p&gt;I appreciate it if you could help spread the word.&lt;/p&gt;
 
 &lt;p&gt;Thanks.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Nobody expects the... STIX fonts release!</title>
-
-	<id>http://rb.doesntexist.org/blog//posts/nobody-expects-the----stix-fonts-release-/</id>
-
-	<link href="http://rb.doesntexist.org/blog//posts/nobody-expects-the----stix-fonts-release-/"/>
-
-
-
-
-
-
-	<category term="fonts" />
-
-	<category term="free-software" />
-
-	<category term="tex" />
-
-	<category term="typography" />
-
-
-	<updated>2011-03-12T03:53:18Z</updated>
-	<published>2010-05-29T20:54:56Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Please, excuse me if you are a connoisseur of fonts and typography. You will
-find this boring, but other people may not know.&lt;/p&gt;
-
-&lt;p&gt;With that said, something that has been the subject of a joke for
-&lt;a href=&quot;http://stixfonts.org/proj_timeline.html&quot;&gt;many years&lt;/a&gt; is the release of a set of fonts designed by a consortium of
-pulishers to create a typeface that would &quot;match&quot; the visual of Times, but
-that would have many (all?) of the glyphs needed by scientists.&lt;/p&gt;
-
-&lt;p&gt;Well, &lt;a href=&quot;http://www.stixfonts.org/&quot;&gt;the wait is over&lt;/a&gt; (surprisingly). I didn&#39;t expect that. And the
-Free Software part of this is that the fonts were released under the SIL
-Open Font Library.&lt;/p&gt;
-
-&lt;p&gt;This, together with Google&#39;s new &lt;a href=&quot;http://code.google.com/webfonts&quot;&gt;font directory&lt;/a&gt; of Free Software fonts
-(overshadowed by the release of VP8 codec, in the eyes of some), shows that
-the typographic arena is alive and going strong.&lt;/p&gt;
 
 	</content>
 

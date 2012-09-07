@@ -8,6 +8,104 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>NOT Trying out AdSense</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/trying_out_adsense_not/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/trying_out_adsense_not/</link>
+
+
+	<category>adsense</category>
+
+	<category>advertisements</category>
+
+	<category>debian</category>
+
+	<category>debian-planet</category>
+
+	<category>free-software</category>
+
+	<category>funding</category>
+
+	<category>google</category>
+
+
+	<pubDate>Fri, 07 Sep 2012 13:16:18 -0300</pubDate>
+	<dcterms:modified>2012-09-07T16:16:32Z</dcterms:modified>
+
+	<description>&lt;p&gt;On the 3rd of September, I applied to Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; program, as I
+told in my &lt;a href=&quot;http://rb.doesntexist.org/blog/posts/trying_out_adsense/&quot;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Well, that was a short-lived experience. On the 5th of September, I received
+the following e-mail, which, sincerely, is as uninformative as it could get:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Date: Wed, 05 Sep 2012 16:52:22 -0000
+From: adsense-noreply@google.com
+To: rbrito@gmail.com
+Subject: Google AdSense Support
+
+Hello,
+
+As mentioned in our welcome email, we conduct a second review of your
+AdSense application once AdSense code is placed on your site(s). As a
+result of this review, we have disapproved your account for the following
+violation(s):
+
+Issues:
+
+- Site does not comply with Google policies
+
+
+---------------------
+
+Further detail:
+
+
+Site does not comply with Google policies: We&#39;re unable to approve your
+AdSense application at this time because we feel that your site does not
+comply with Google AdSense policies or webmaster quality guidelines. It&#39;s
+our goal to provide our advertisers sites that offer rich and meaningful
+content, receive organic traffic, and allow us to serve well-targeted ads
+to users. We believe that currently your site does not fulfill this
+criteria. 
+
+For more details, please read the webmaster quality guidelines at
+http://www.google.com/support/webmasters/bin/answer.py?answer=35769 and
+the AdSense program policies at
+http://support.google.com/adsense/bin/answer.py?answer=48182,
+https://support.google.com/adsense/bin/topic.py?topic=1271507
+
+(...)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;OK, I went on and read &lt;strong&gt;all&lt;/strong&gt; the documentation on program policies
+etc.  I investigate each point here:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Invalid clicks and impressions: No violation here.&lt;/li&gt;
+&lt;li&gt;Encouraging clicks: No violation here.&lt;/li&gt;
+&lt;li&gt;Content guidelines: No violation here.&lt;/li&gt;
+&lt;li&gt;Copyrighted material: No violation here.&lt;/li&gt;
+&lt;li&gt;Webmaster guidelines: No violation here.&lt;/li&gt;
+&lt;li&gt;Traffic sources: No violation here.&lt;/li&gt;
+&lt;li&gt;Ad behavior: No violation here.&lt;/li&gt;
+&lt;li&gt;Ad placement: No violation here.&lt;/li&gt;
+&lt;li&gt;Site behavior: No violation here.&lt;/li&gt;
+&lt;li&gt;Competitive ads and services: No violation here.&lt;/li&gt;
+&lt;li&gt;Google advertising cookies: No violation here.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;To cut a long story short, I RTFM and did everything correctly. So, dear
+lazyweb, what would my options be to fund a tiny bit of my software
+contributions?&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>Trying out AdSense</title>
 
 
@@ -984,66 +1082,6 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 &lt;p&gt;Thanks!&lt;/p&gt;
 
 &lt;p&gt;P.S.: I just created an account on flickr that I hope to populate with some photos that I took here. And even with a nice squirrel. &lt;code&gt;:-)&lt;/code&gt;&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>I am going to DebConf 10</title>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</guid>
-
-	<link>http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</link>
-
-
-	<category>debian</category>
-
-	<category>development</category>
-
-	<category>fonts</category>
-
-	<category>free-software</category>
-
-	<category>hacks</category>
-
-	<category>powerpc</category>
-
-	<category>web-of-trust</category>
-
-
-	<pubDate>Sun, 18 Jul 2010 03:34:40 -0300</pubDate>
-	<dcterms:modified>2010-07-18T06:34:40Z</dcterms:modified>
-
-	<description>&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
-
-&lt;p&gt;[caption id=&quot;attachment_55&quot; align=&quot;aligncenter&quot; width=&quot;200&quot; caption=&quot;I am going to DebConf10&quot;]&lt;a rel=&quot;attachment wp-att-55&quot; href=&quot;http://localhost/blog/2010/07/18/i-am-going-to-debconf-10/im_going_to_debconf10/&quot;&gt;&lt;img class=&quot;size-full wp-image-55 &quot; title=&quot;im_going_to_debconf10&quot; src=&quot;http://localhost/blog/wp-content/uploads/2010/07/im_going_to_debconf10.png&quot; alt=&quot;I am going to DebConf10&quot; width=&quot;200&quot; height=&quot;101&quot;  /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
-
-&lt;p&gt;The tickets have this information:&lt;/p&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;GRU-&amp;gt;JFK:&lt;/strong&gt; Departure: 2010-07-30, 21:25; Arrival: 2010-07-31, 6:10, Flight AA950&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;JFK-&amp;gt;GRU:&lt;/strong&gt; Departure: 2010-08-09, 21:40; Arrival: 2010-08-10, 8:35, Flight AA951&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;This represents a personal milestone for me, as I have many plans for the conference. In fact, this will be a trip of many &quot;firsts&quot; for me:&lt;/p&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;this will be my first international trip by airplaine.&lt;/li&gt;
-    &lt;li&gt;this will be my first DebConf ever (despite the fact that I could not apply for the &lt;a href=&quot;http://upsilon.cc/~zack/blog/posts/2010/04/the_DebConf_Newbies_initiative/&quot;&gt;DebConf Newbies initiative&lt;/a&gt;, due to my visa interview being delayed until the 7th of this month).&lt;/li&gt;
-    &lt;li&gt;this will be the first time to see many people with whom I work together for some years now, but have not yet had the opportunity to meet in person.&lt;/li&gt;
-    &lt;li&gt;this will be a nice opportunity to work hard on &lt;a href=&quot;http://lwn.net/Articles/396079/&quot;&gt;some issues that threaten the PowerPC port&lt;/a&gt; of Debian.&lt;/li&gt;
-    &lt;li&gt;this will be a nice opportunity to do some QA work with some packages that I would like to have sponsored; also to &lt;a href=&quot;http://bugs.debian.org/551955&quot;&gt;upload&lt;/a&gt; some of the &lt;a href=&quot;http://bugs.debian.org/580005&quot;&gt;fonts&lt;/a&gt; that I &lt;a href=&quot;http://git.debian.org/?p=pkg-fonts/ttf-paratype-sans.git&quot;&gt;already packaged&lt;/a&gt; (or &lt;a href=&quot;http://bugs.debian.org/581839&quot;&gt;intend&lt;/a&gt; to &lt;a href=&quot;http://bugs.debian.org/589094&quot;&gt;take care&lt;/a&gt;) and that will be maintained under the &lt;a href=&quot;http://pkg-fonts.alioth.debian.org/&quot;&gt;Debian Fonts Task Force umbrella&lt;/a&gt;.&lt;/li&gt;
-    &lt;li&gt;this will be a very nice opportunity to get myself in a &quot;big&quot; &lt;a href=&quot;http://en.wikipedia.org/wiki/Strongly_connected_component&quot;&gt;strongly connected component &lt;/a&gt; of the &lt;a href=&quot;http://en.wikipedia.org/wiki/Web_of_trust&quot;&gt;Web-of-Trust&lt;/a&gt; with as many arcs as feasible, by means of the &lt;a href=&quot;http://people.debian.org/~anibal/ksp-dc10/ksp-dc10.html&quot;&gt;key signing party.&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;and many, many other things that I would like to do for the project.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;I am thankful for the DebConf team sponsoring both accomodation and food.  It is highly appreciated.&lt;/p&gt;
-
-&lt;p&gt;See you in NYC! Any hints that you may happen to have are warmly welcome.&lt;/p&gt;
 </description>
 
 
