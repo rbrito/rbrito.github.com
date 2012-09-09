@@ -143,7 +143,7 @@ Rogério Brito's Digital Junkyard
         <td class="month-calendar-day-nolink Wednesday">5</td>
         <td class="month-calendar-day-nolink Thursday">6</td>
         <td class="month-calendar-day-link Friday"><a href="./posts/trying_out_adsense_not/" title="trying out adsense not">7</a></td>
-        <td class="month-calendar-day-this-day Saturday">8</td>
+        <td class="month-calendar-day-this-day Saturday"><a href="./posts/some_experiences_with_zfs/" title="some experiences with zfs">8</a></td>
     </tr>
     <tr>
         <td class="month-calendar-day-future Sunday">9</td>
@@ -206,11 +206,13 @@ Rogério Brito's Digital Junkyard
 </li><li><span class="smallestPC"><a href="./tags/bugs/">bugs</a></span>
 </li><li><span class="smallestPC"><a href="./tags/c++/">c++</a></span>
 </li><li><span class="smallestPC"><a href="./tags/class-equation/">class-equation</a></span>
+</li><li><span class="smallestPC"><a href="./tags/compression/">compression</a></span>
 </li><li><span class="smallestPC"><a href="./tags/computers/">computers</a></span>
 </li><li><span class="smallestPC"><a href="./tags/configuration/">configuration</a></span>
 </li><li><span class="smallestPC"><a href="./tags/debconf/">debconf</a></span>
 </li><li><span class="smallestPC"><a href="./tags/debian/">debian</a></span>
 </li><li><span class="smallestPC"><a href="./tags/debian-planet/">debian-planet</a></span>
+</li><li><span class="smallestPC"><a href="./tags/deduplication/">deduplication</a></span>
 </li><li><span class="smallestPC"><a href="./tags/descartes/">descartes</a></span>
 </li><li><span class="smallestPC"><a href="./tags/development/">development</a></span>
 </li><li><span class="smallestPC"><a href="./tags/documents/">documents</a></span>
@@ -218,6 +220,7 @@ Rogério Brito's Digital Junkyard
 </li><li><span class="smallestPC"><a href="./tags/emacs/">emacs</a></span>
 </li><li><span class="smallestPC"><a href="./tags/embedded/">embedded</a></span>
 </li><li><span class="smallestPC"><a href="./tags/extensions/">extensions</a></span>
+</li><li><span class="smallestPC"><a href="./tags/filesystems/">filesystems</a></span>
 </li><li><span class="smallestPC"><a href="./tags/fonts/">fonts</a></span>
 </li><li><span class="smallestPC"><a href="./tags/free-software/">free-software</a></span>
 </li><li><span class="smallestPC"><a href="./tags/funding/">funding</a></span>
@@ -268,6 +271,7 @@ Rogério Brito's Digital Junkyard
 </li><li><span class="smallestPC"><a href="./tags/video/">video</a></span>
 </li><li><span class="smallestPC"><a href="./tags/web-of-trust/">web-of-trust</a></span>
 </li><li><span class="smallestPC"><a href="./tags/xetex/">xetex</a></span>
+</li><li><span class="smallestPC"><a href="./tags/zfs/">zfs</a></span>
 </li></ul>
 
 
@@ -287,6 +291,98 @@ Rogério Brito's Digital Junkyard
 
 
 <a class="feedbutton" type="application/atom+xml" rel="alternate" title="Rogério Brito's Digital Junkyard (Atom feed)" href="index.atom">Atom</a>
+
+</div>
+<div class="inlinepage">
+
+<div class="inlineheader">
+
+<span class="header">
+
+<a href="./posts/some_experiences_with_zfs/">Some experiences with ZFS</a>
+
+</span>
+</div>
+
+<div class="inlinecontent">
+<p>Continuing the <a href="https://plus.google.com/117659222649141007981/posts/T3BcxA7wKjK">ZFS evaluation journey</a> (which I will summarize here with
+the things that I learned), I was able to fit about 2.5TB of data on a
+single 2TB drive, with deduplication enabled.</p>
+
+<p>Unfortunately, even <em>moving</em> files around in ZFS (which you would think
+would be a cheap operation) takes ages. Removing files also takes ages.</p>
+
+<p>In a <em>completely</em> unloaded Phenom II X4 910 system running Linux 3.5.2
+(actually, from Debian's experimental), and zfsonlinux version
+0.6.0.71-0ubuntu1~precise1 (recompiled from source to work with my Debian
+system), I tried to remove a subdirectory that had about 4000
+files. According to time, it took:</p>
+
+<pre><code>real    42m51.487s
+user    0m0.188s
+sys     0m16.769s
+</code></pre>
+
+<p>Which is a bit too slow.</p>
+
+<p>I just (read: "yesterday") upgraded this machine from 4GB to 6GB of RAM
+(well, I would have updated it to 8GB of RAM as that is what I ordered, but
+it one of the RAM chips arrived dead here and I simply took one of the new
+4GB card and one of the older 2GB card).</p>
+
+<p>But, honestly, I don't see change in upgrading the RAM from 4GB to 6GB and,
+unless something magic happens with 2GB more, I wouldn't expect a whole
+different story with 8GB of RAM. Oh, no swap is being used (well, it is an
+unloaded machine after all), and the Linux kernel swappiness knob is at its
+default of 60.</p>
+
+<p>What I <em>do</em> see, though, is that even for a single file removal, the disk is
+thrashing a lot. I mean <em>like</em> crazy and that is, of course, the prime
+suspect of the bad performance (of course, of course). So, there must be
+some really crazy metadata churning going on here and I guess that the
+people from the LLNL would like to know of their modules producing this
+behavior.</p>
+
+<p>Keep tuned for some future impressions.</p>
+
+</div>
+
+<div class="inlinefooter">
+
+<span class="pagedate">
+Posted <span class="date">2012-09-08T23:42:24 BRT</span>
+</span>
+
+
+<span class="tags">
+Tags:
+
+<a href="./tags/compression/" rel="tag">compression</a>
+
+<a href="./tags/debian/" rel="tag">debian</a>
+
+<a href="./tags/debian-planet/" rel="tag">debian-planet</a>
+
+<a href="./tags/deduplication/" rel="tag">deduplication</a>
+
+<a href="./tags/filesystems/" rel="tag">filesystems</a>
+
+<a href="./tags/free-software/" rel="tag">free-software</a>
+
+<a href="./tags/linux/" rel="tag">linux</a>
+
+<a href="./tags/zfs/" rel="tag">zfs</a>
+
+</span>
+
+
+
+
+
+
+
+
+</div>
 
 </div>
 <div class="inlinepage">
@@ -1483,66 +1579,6 @@ Tags:
 <a href="./tags/tex/" rel="tag">tex</a>
 
 <a href="./tags/typography/" rel="tag">typography</a>
-
-</span>
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-<div class="inlinepage">
-
-<div class="inlineheader">
-
-<span class="header">
-
-<a href="./posts/first-post-from-debconf-10/">First post from DebConf 10</a>
-
-</span>
-</div>
-
-<div class="inlinecontent">
-<p>Even though I am late with this post, it is nice to say that I am writing here from this year's DebConf10, in NYC.</p>
-
-<p>Today (well, yesterday) was the day of the Cheese and Wine party and I think that it was cool, at least for the moments that I were there. This post, though, isn't technical in any sense. I only talks shortly about my impressions of the community, as this is my first DebConf ever (despite the fact that I have been using Debian since the late nineties).</p>
-
-<p>I was very pleased to have met Bdale Garbee. I saw him the other day arriving with Keith Packard, but I just didn't want to disturb them at that point. We only talked for, say, 2 minutes, and his was one of the nicest receptions that I had here.</p>
-
-<p>And there were some other people that were equally easy to approach, nice to talk with and, to my surprise, knew my name after some brief moments (yes, this <em>does</em> make a difference, especially when you are in a strange country, when you don't know anybody with whom you have worked for some years). Being involved in the organization stuff, one would think that Jimmy Kaplowitz would be so busy, but he was so kind.</p>
-
-<p>I had longer conversations with Tássia Camões, Tiago Vaz (as always) and some other people that I had not yet had the pleasure of meeting in person. In particular, Daniel Baumann (who apparently is now crazy about our FISL and wants to drink all Guaraná that he can get <code>:-)</code>), Chris Lamb and Otávio Salvador and his mom. Those people are so cool and it is nice to discuss some legal issues among different continents in the lounge of their building at late night. <code>:-)</code> Too bad that I am allocated to the other building. <code>:-)</code></p>
-
-<p>I <em>am</em> forgetting many other people (hey, it is 2 am here in NYC), but I would feel guilty if I had not mentioned at least three people more: Martin Michlmayr, Phil Hands, and Reinhard Tartler (who is uploading lame to the debian repository, as the patents regarding it are expiring or expired already).</p>
-
-<p>Thanks!</p>
-
-<p>P.S.: I just created an account on flickr that I hope to populate with some photos that I took here. And even with a nice squirrel. <code>:-)</code></p>
-
-</div>
-
-<div class="inlinefooter">
-
-<span class="pagedate">
-Posted <span class="date">2010-08-03T06:09:46 BRT</span>
-</span>
-
-
-<span class="tags">
-Tags:
-
-<a href="./tags/debian/" rel="tag">debian</a>
-
-<a href="./tags/development/" rel="tag">development</a>
-
-<a href="./tags/free-software/" rel="tag">free-software</a>
-
-<a href="./tags/people/" rel="tag">people</a>
 
 </span>
 

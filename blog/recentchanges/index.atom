@@ -17,7 +17,68 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2012-09-08T19:27:28Z</updated>
+<updated>2012-09-09T02:48:33Z</updated>
+<entry>
+	<title>change to posts/some_experiences_with_zfs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_45a90f3218c5671c05c8a8deabd3b4c10275c2fc/</id>
+
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-45a90f3218c5671c05c8a8deabd3b4c10275c2fc"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2012-09-09T02:48:33Z</updated>
+	<published>2012-09-09T02:48:33Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-45a90f3218c5671c05c8a8deabd3b4c10275c2fc&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+posts/some experiences with zfs
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;23:48:33 2012-09-08&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add post with experiences with ZFS.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+
+
+&lt;!-- 45a90f3218c5671c05c8a8deabd3b4c10275c2fc --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to .blog.setup on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -5451,67 +5512,6 @@ Post on solutions with chromium.&lt;br /&gt;
 
 
 &lt;!-- 02163cdb56504c1353458147bcf5e7189d936014 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to posts/problems_with_chromium on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_93a9ea1ee1de33afbd5d7a629615402a3d46a5db/</id>
-
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-93a9ea1ee1de33afbd5d7a629615402a3d46a5db"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2011-02-27T01:47:35Z</updated>
-	<published>2011-02-27T01:47:35Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-93a9ea1ee1de33afbd5d7a629615402a3d46a5db&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-posts/problems with chromium
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;span class=&quot;date&quot;&gt;22:47:35 2011-02-26&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Update typography.&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-&lt;!-- 93a9ea1ee1de33afbd5d7a629615402a3d46a5db --&gt;
 
 	</content>
 
