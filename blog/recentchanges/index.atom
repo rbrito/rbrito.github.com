@@ -17,7 +17,125 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2012-09-11T10:44:45Z</updated>
+<updated>2012-11-01T04:39:22Z</updated>
+<entry>
+	<title>change to posts/another_meme_the_geektest on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_faf702202683a101d8497fb4750a093821a7aa1c/</id>
+
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-faf702202683a101d8497fb4750a093821a7aa1c"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2012-11-01T04:39:22Z</updated>
+	<published>2012-11-01T04:39:22Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-faf702202683a101d8497fb4750a093821a7aa1c&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+posts/another meme the geektest
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-11-01T04:39:22Z&quot;&gt;02:39:22 2012-11-01&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Another meme: The Geektest.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- faf702202683a101d8497fb4750a093821a7aa1c --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to .blog.setup on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_65321167902081aa15c688b45748cb69bef63d5c/</id>
+
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-65321167902081aa15c688b45748cb69bef63d5c"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2012-10-13T17:09:39Z</updated>
+	<published>2012-10-13T17:09:39Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-65321167902081aa15c688b45748cb69bef63d5c&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+.blog.setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-10-13T17:09:39Z&quot;&gt;14:09:39 2012-10-13&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Enable use of HTML5.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 65321167902081aa15c688b45748cb69bef63d5c --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -69,8 +187,6 @@ Add search box.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- d815184cd4dcab773be22cb477fca2791a6211fe --&gt;
 
@@ -131,8 +247,6 @@ creating tag page tags/zfs&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 588f194c5db063a075601ac6507936a3b6ea1030 --&gt;
 
 	</content>
@@ -191,8 +305,6 @@ creating tag page tags/filesystems&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- dfc3ae615642e359445490b94741049abd5b9b13 --&gt;
 
@@ -253,8 +365,6 @@ creating tag page tags/deduplication&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 50887ba1a5830b23809f89554dd10bd7e3a0df20 --&gt;
 
 	</content>
@@ -313,8 +423,6 @@ creating tag page tags/compression&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 62bc4f312efa587ed284ba7bfb33edb75a2e920c --&gt;
 
@@ -375,8 +483,6 @@ Add post with experiences with ZFS.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 45a90f3218c5671c05c8a8deabd3b4c10275c2fc --&gt;
 
 	</content>
@@ -435,8 +541,6 @@ To ease navigation allow sidebars on all pages.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 27a70b973553d0f606163be20aac46a13c612bc8 --&gt;
 
@@ -499,8 +603,6 @@ Add privacy policy statement.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 2f4f552a3a5d0e39c099a8b296d8f05f7fdd2f2f --&gt;
 
 	</content>
@@ -560,8 +662,6 @@ creating tag page tags/google&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- d271bc15cc73ee5c84b9eb8563d4d16cc36ffc08 --&gt;
 
 	</content>
@@ -620,8 +720,6 @@ Add post on not using AdSense.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 4439e1bf1974c6aeaf5b08e71525096ae75aa532 --&gt;
 
@@ -684,8 +782,6 @@ Fix some markup.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 3e9da7b11c12d00865d7791fdaca203e1407c3bf --&gt;
 
 	</content>
@@ -744,8 +840,6 @@ Add support for mathjax on the page template.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- c840af3a0eb72c5f910b6a0d1d6aac0e6bea5588 --&gt;
 
@@ -806,8 +900,6 @@ creating tag page tags/public-domain&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- a232038266502dfd5bf39ec5066c60faa4a4ec8b --&gt;
 
 	</content>
@@ -866,8 +958,6 @@ creating tag page tags/mp3&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- c3495037769c6af8e0cbe70596ba34dbb890f11a --&gt;
 
@@ -928,8 +1018,6 @@ creating tag page tags/library&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 80bf1a83931fde6c9b2f065aba88834858329016 --&gt;
 
 	</content>
@@ -988,8 +1076,6 @@ creating tag page tags/apt-move&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 0fc954f4bd39a70ceb837b6cc1976eaaf995f281 --&gt;
 
@@ -1050,8 +1136,6 @@ creating tag page tags/proxy&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 3eaa3502eefbf7409ac957187c8cb4f344b6b1a9 --&gt;
 
 	</content>
@@ -1110,8 +1194,6 @@ creating tag page tags/audiobooks&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 2d487d590b081b22c3d04838b1207d195ed041d9 --&gt;
 
@@ -1172,8 +1254,6 @@ creating tag page tags/quotient-groups&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 72aac9eb66240eaa597eaaa6f6284940242a783a --&gt;
 
 	</content>
@@ -1232,8 +1312,6 @@ creating tag page tags/abstract-algebra&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 7779d7dea371348e06c0a7829b9d10fcee16e03e --&gt;
 
@@ -1294,8 +1372,6 @@ creating tag page tags/hashes&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 48ec4b3bea915a45aba9c3465fe670c7d4863a98 --&gt;
 
 	</content>
@@ -1354,8 +1430,6 @@ creating tag page tags/group-theory&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 75dedbe41e258fc1b76bbddc3741824c33fd48ee --&gt;
 
@@ -1416,8 +1490,6 @@ creating tag page tags/itunesu&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 7dd54c4dd237982e6e7355b1b759e357f4e6efca --&gt;
 
 	</content>
@@ -1476,8 +1548,6 @@ creating tag page tags/descartes&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- b3d6845fca7395c5908f895a69ca8bb3c0f80037 --&gt;
 
@@ -1538,8 +1608,6 @@ creating tag page tags/music&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 82badf4c110778989baa5ac5def24c02f2ec3cf5 --&gt;
 
 	</content>
@@ -1598,8 +1666,6 @@ creating tag page tags/security&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- e70b4b8abd25e0d15ba6a10c32c454a59b26ac91 --&gt;
 
@@ -1660,8 +1726,6 @@ creating tag page tags/indexed-metadata&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- f95043adbbfa7489f1058930b03b3075cb0aea29 --&gt;
 
 	</content>
@@ -1720,8 +1784,6 @@ creating tag page tags/opeth&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- a35f2345684f125f2f240dcce0f1297ce5f25cf8 --&gt;
 
@@ -1782,8 +1844,6 @@ creating tag page tags/pain-of-salvation&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- f91ee4645d95ba8d32813b3d566b46b7c8627464 --&gt;
 
 	</content>
@@ -1842,8 +1902,6 @@ creating tag page tags/group-actions&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 69c297cfab4df40e5e355eaeb80a8790c7a98f8b --&gt;
 
@@ -1904,8 +1962,6 @@ creating tag page tags/quilt&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 049bfa82e1cbd734c2350c7458a89127cc588df5 --&gt;
 
 	</content>
@@ -1964,8 +2020,6 @@ creating tag page tags/ssh&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 458ca7759bb12031d251d086053b554925d7bda0 --&gt;
 
@@ -2026,8 +2080,6 @@ creating tag page tags/math&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 850d68d0ce47699519d7a00c9e33940d247bd727 --&gt;
 
 	</content>
@@ -2086,8 +2138,6 @@ creating tag page tags/apple&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- b826536b5c62181e61cec336a6127996d73de066 --&gt;
 
@@ -2148,8 +2198,6 @@ creating tag page tags/nas&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 7a5cc4dd2d718b774c3a09f483f8e1c306f1d150 --&gt;
 
 	</content>
@@ -2208,8 +2256,6 @@ creating tag page tags/approx&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- a4de33c7c49da2f634eafb001ab1ce63d2b74a02 --&gt;
 
@@ -2270,8 +2316,6 @@ creating tag page tags/class-equation&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 46e12ec9cd4e54c9ecad79ed5fc588ff363c0be9 --&gt;
 
 	</content>
@@ -2331,8 +2375,6 @@ creating tag page tags/dvds&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 0525df9412fabedec95abca36f03fb30fb0d877f --&gt;
 
 	</content>
@@ -2391,8 +2433,6 @@ creating tag page tags/computers&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 3b5ae02590caa15f0aacf0b01d6e88645e89fb4e --&gt;
 
@@ -2471,8 +2511,6 @@ Reformat in markdown&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- bda81a13d1e18b7ae1a04660190a8b4f092eb48d --&gt;
 
 	</content>
@@ -2531,8 +2569,6 @@ Fix header on the about page.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- d1dc61edbad38071640318f1b31654877ca543ff --&gt;
 
@@ -2599,8 +2635,6 @@ Try to make cheaper regeneration of pages.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- dd6ba5f32bd6dbbbc8a9d7f6d7b3574109e9aa91 --&gt;
 
 	</content>
@@ -2659,8 +2693,6 @@ First try at putting the +1 button to the page template.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- c2a5664f428cc4c76362f8029aa30452406c0a53 --&gt;
 
@@ -2721,8 +2753,6 @@ Add analytics code to the page template.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 4eb3f8aa13017bd4a7b950e093b8b41cb73c9128 --&gt;
 
 	</content>
@@ -2781,8 +2811,6 @@ creating tag page tags/debian-planet&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 198e013109d1c5f2739034c7c58fc00542125018 --&gt;
 
@@ -2843,8 +2871,6 @@ creating tag page tags/adsense&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- b5ccb589220b0bff0a00a47584e685725edbfdc0 --&gt;
 
 	</content>
@@ -2903,8 +2929,6 @@ creating tag page tags/advertisements&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 9de80aaada7ab480601269ff005a43c3b2b52c5a --&gt;
 
@@ -2965,8 +2989,6 @@ creating tag page tags/funding&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- a419171b92be9fe01ebed994dc5d39685f5aa33c --&gt;
 
 	</content>
@@ -3025,8 +3047,6 @@ Add post on adsense.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- d4e73f709ccf5c776d35d3ca41e95ad4f7d48e6b --&gt;
 
@@ -3087,8 +3107,6 @@ Add first unit of ads to the page template.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 01626b06a6d41c4a5ded3a72664b255f0deb5b8e --&gt;
 
 	</content>
@@ -3147,8 +3165,6 @@ Fix title on about me page.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- ebbd574dccaa39989db46bf378391482b99e53dd --&gt;
 
@@ -3210,8 +3226,6 @@ Tweak information about me.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- ca9556273321347a0a58081423979b1a49776a94 --&gt;
 
@@ -3276,8 +3290,6 @@ Reorganize information about me.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 794d110b534b2f66738b05f720d2fdd8166d2807 --&gt;
 
 	</content>
@@ -3339,8 +3351,6 @@ Remove comments, as we now use disqus.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- e9abfbb2d5d8a8ba49cf976cd741f3ed328f8c6c --&gt;
 
 	</content>
@@ -3399,8 +3409,6 @@ Remove comment plugin from those active.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- c7648d0623c8f84f85b480302356df87b86b348b --&gt;
 
@@ -3461,8 +3469,6 @@ Add my profile on Google Scholar.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 682237212a6fe8f319b08c38681ce9754d55ebd4 --&gt;
 
 	</content>
@@ -3521,8 +3527,6 @@ Disable sanitization.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 02be95b37c1bb1151e53d736a8b05dec6da7113f --&gt;
 
@@ -3583,8 +3587,6 @@ Fix&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- c74af17d025bfac29a46c501c682522dd2bb9b9d --&gt;
 
 	</content>
@@ -3643,8 +3645,6 @@ creating tag page tags/meme&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 08012f410a6be0d8c273187e897d7651fba5c322 --&gt;
 
@@ -3705,8 +3705,6 @@ Add post on american accent meme.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 5ecf628a721afdd2d424eb2478c63516de2c0b44 --&gt;
 
 	</content>
@@ -3766,8 +3764,6 @@ Change the position of the comments.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 3713f4aef2db6d60d1444f325ab5bed20ed1990b --&gt;
 
 	</content>
@@ -3826,8 +3822,6 @@ Disqus doesn&amp;#39;t like relative URLs.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- a3bca097d8fc202dc239f4d9afd4752cd7d96931 --&gt;
 
@@ -3890,8 +3884,6 @@ Readd disqus.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 0b515875b2fdc7f0996ce7cfa58533fbb1d75800 --&gt;
 
 	</content>
@@ -3952,8 +3944,6 @@ templates: Refresh from a new ikiwiki installation.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 5bdb7aed8d9e0d5a44f52985506d25551bf23722 --&gt;
 
@@ -4016,8 +4006,6 @@ Use disqus plugin.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 395e2fdfc3a0f1b6ec5ef97aa515a9e7140e7634 --&gt;
 
 	</content>
@@ -4076,8 +4064,6 @@ Allow to use 3rd-party plugins.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- ea777443e5c144e79377d476e6d8a95d7410485c --&gt;
 
@@ -4138,8 +4124,6 @@ creating tag page tags/debconf&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 9c81510434536fc2ec8c3a3b77daa7c971b81e69 --&gt;
 
 	</content>
@@ -4198,8 +4182,6 @@ creating tag page tags/handbrake&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 870b0cb1c02471e498d827db4a7b752f5a77b85d --&gt;
 
@@ -4260,8 +4242,6 @@ Add post about not going to DebConf 12.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 7070a51876bfc90e1627f3d84189be8cc44ec6c4 --&gt;
 
 	</content>
@@ -4321,8 +4301,6 @@ Update links to sites related to me.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 86c59cb9825e80ce87929619391d9f2d79d25307 --&gt;
 
 	</content>
@@ -4381,8 +4359,6 @@ Revert modifications to the configuration.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- cc984965e156a0639b9b4eb3a4a2b0820b10eca2 --&gt;
 
@@ -4447,8 +4423,6 @@ Move around the disqus comment code.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 97d33009add866b7c7d317a7f06714bb20f53f0e --&gt;
 
 	</content>
@@ -4510,8 +4484,6 @@ Put the comments in the template for inlinepage.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 298d889a8197eea4e5e630b52242a55f6da4c24a --&gt;
 
 	</content>
@@ -4571,8 +4543,6 @@ Update information about me.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 539b74c53e2b6c16f31bf09bc1e562e3da3bed73 --&gt;
 
 	</content>
@@ -4631,8 +4601,6 @@ Add post about Meego on the N900.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 9df595a0b5bd742653c845c94dd06e565bc53aa7 --&gt;
 
@@ -4712,8 +4680,6 @@ This was done after I visited&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- cf5ebf93dfacba77235cb14d8dd73ec8ca893d7c --&gt;
 
@@ -4798,8 +4764,6 @@ I wish that Joey Hess allows this on future versions of ikiwiki.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 046a77f20a4828a95384c24ce610397c34c17350 --&gt;
 
 	</content>
@@ -4858,8 +4822,6 @@ creating tag page tags/ibook&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 7e57d8a4eea3eeaf7d41b19428cd93c131d0b824 --&gt;
 
@@ -4920,8 +4882,6 @@ creating tag page tags/mac&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- f130e9d60cb42fb3408536120bd7f6db36a84de5 --&gt;
 
 	</content>
@@ -4980,8 +4940,6 @@ Forgot the tags in the last post.&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- c3f42c23f433e09417d3d2a01c1eec3c42b0542e --&gt;
 
@@ -5042,8 +5000,6 @@ Post: Add post on running GRUB2 on PowerPC Macs.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- a87cd8c4740e82b77ee923cb0d4c3b234ba465b0 --&gt;
 
 	</content>
@@ -5102,8 +5058,6 @@ creating tag page tags/browsers&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- cfa810129493eca4a216963e608116f3e6ade03f --&gt;
 
@@ -5164,8 +5118,6 @@ creating tag page tags/launchpad&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 6927158e3c42b34923e75b1f42aa8c4d8d4c4862 --&gt;
 
 	</content>
@@ -5225,8 +5177,6 @@ creating tag page tags/ubuntu&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- e33ce2c36a9e31463f022cf77efece2f58f0ec67 --&gt;
 
 	</content>
@@ -5285,8 +5235,6 @@ creating tag page tags/extensions&lt;br /&gt;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 293efba1428b5f36fc14307752151de8bfe05963 --&gt;
 
@@ -5349,137 +5297,7 @@ Fix formatting and add some tags.&lt;br /&gt;
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 537c11d058842cb91bac7c423642d40b2ae9fa90 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to posts/migrate-from-rcs-to-git posts/problems_with_chromium posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform posts/some_solutions_with_chromium on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_fc2c3f0f099eb1ec356087875eb16d774e1d2ddf/</id>
-
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-fc2c3f0f099eb1ec356087875eb16d774e1d2ddf"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2011-03-12T03:52:56Z</updated>
-	<published>2011-03-12T03:52:56Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-fc2c3f0f099eb1ec356087875eb16d774e1d2ddf&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-posts/migrate-from-rcs-to-git
-
-posts/problems with chromium
-
-posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform
-
-posts/some solutions with chromium
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2011-03-12T03:52:56Z&quot;&gt;00:52:56 2011-03-12&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Fix some tags.&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-&lt;!-- fc2c3f0f099eb1ec356087875eb16d774e1d2ddf --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to tags/opentype on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_471c0c756b55d7543bf620cfd8a88d23477b8bf5/</id>
-
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-471c0c756b55d7543bf620cfd8a88d23477b8bf5"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2011-03-12T03:29:15Z</updated>
-	<published>2011-03-12T03:29:15Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-471c0c756b55d7543bf620cfd8a88d23477b8bf5&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-tags/opentype
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2011-03-12T03:29:15Z&quot;&gt;00:29:15 2011-03-12&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/opentype&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-
-
-&lt;!-- 471c0c756b55d7543bf620cfd8a88d23477b8bf5 --&gt;
 
 	</content>
 
@@ -5537,8 +5355,6 @@ Importing WordPress post &amp;quot;A Wish: The Ability of Playing MP3 CDs/DVDs c
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 85b05e718c3f64c11a2a561a1a2f6123afa39269 --&gt;
 
@@ -5603,8 +5419,6 @@ Importing WordPress post &amp;quot;Getting things from the iTunes Music Store wi
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 04a7135c804afa5208a2afded97420d6f547bf35 --&gt;
 
 	</content>
@@ -5668,8 +5482,6 @@ Importing WordPress post &amp;quot;Music, Group Actions, Quilt and Debian Packag
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 306baf8815ffea26bb7293111d2f02f9b6aea320 --&gt;
 
 	</content>
@@ -5728,8 +5540,6 @@ Importing WordPress post &amp;quot;Random Points on Group Theory&amp;quot; &amp;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- bce5576a28addea968d568e5ef0574c0a26882c0 --&gt;
 
@@ -5790,8 +5600,6 @@ Importing WordPress post &amp;quot;Debian Switching to EGLIBC&amp;quot; &amp;#91
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 09cdb02d616a25523cb272053163b5fbc3048952 --&gt;
 
 	</content>
@@ -5850,8 +5658,6 @@ Importing WordPress post &amp;quot;Happy News: A new Kurobox&amp;quot; &amp;#91;
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 0c87804ea9aaff3a8c00f4a48d3a93d56e427ded --&gt;
 
@@ -5914,8 +5720,6 @@ Importing WordPress post &amp;quot;On teaching Groups before Rings in Abstract A
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 4055a75136f75fbce9668da8bfd7a6149d4bf421 --&gt;
 
 	</content>
@@ -5974,8 +5778,6 @@ Importing WordPress post &amp;quot;About&amp;quot; &amp;#91;None&amp;#93;&lt;br 
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- a9c3ae428393c92284b694fb2275cb0b6d1e7992 --&gt;
 
@@ -6036,8 +5838,6 @@ Importing WordPress post &amp;quot;Playing with Package Proxies&amp;quot; &amp;#
 
 &lt;/div&gt;
 
-
-
 &lt;!-- 5ac6736be75e114f70153ef617b3e6ad8790de70 --&gt;
 
 	</content>
@@ -6097,8 +5897,6 @@ Importing WordPress post &amp;quot;Seeing Opeth Live in Brazil&amp;quot; &amp;#9
 
 &lt;/div&gt;
 
-
-
 &lt;!-- b614ef483ec25eb9539ab5136adebc3cb69dd1bb --&gt;
 
 	</content>
@@ -6157,8 +5955,6 @@ Importing WordPress post &amp;quot;Sourceforge, SSH keys, Free audiobooks, DVD&a
 
 
 &lt;/div&gt;
-
-
 
 &lt;!-- 233c923f5904cd011cb049c7c4686ad552782383 --&gt;
 
