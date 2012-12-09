@@ -8,6 +8,59 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>rbrito: change to sidebar on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_a3b2a93389f1a278bc9d41c3b5298ecce6904faf/</guid>
+
+	<link>http://rb.doesntexist.org/blog/recentchanges/#change-a3b2a93389f1a278bc9d41c3b5298ecce6904faf</link>
+
+	<pubDate>Sun, 09 Dec 2012 00:02:03 -0200</pubDate>
+	<dcterms:modified>2012-12-09T02:02:03Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-a3b2a93389f1a278bc9d41c3b5298ecce6904faf&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+sidebar
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-12-09T02:02:03Z&quot;&gt;00:02:03 2012-12-09&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add github badge to sidebar.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- a3b2a93389f1a278bc9d41c3b5298ecce6904faf --&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>rbrito: change to posts/another_meme_the_geektest on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 	<dcterms:creator>rbrito</dcterms:creator>
 
@@ -4705,61 +4758,6 @@ creating tag page tags/extensions&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 293efba1428b5f36fc14307752151de8bfe05963 --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/migrate-from-rcs-to-git posts/nobody-expects-the----stix-fonts-release- on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_537c11d058842cb91bac7c423642d40b2ae9fa90/</guid>
-
-	<link>http://rb.doesntexist.org/blog/recentchanges/#change-537c11d058842cb91bac7c423642d40b2ae9fa90</link>
-
-	<pubDate>Sat, 12 Mar 2011 00:53:18 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:53:18Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-537c11d058842cb91bac7c423642d40b2ae9fa90&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-posts/migrate-from-rcs-to-git
-
-posts/nobody-expects-the----stix-fonts-release-
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2011-03-12T03:53:18Z&quot;&gt;00:53:18 2011-03-12&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Fix formatting and add some tags.&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 537c11d058842cb91bac7c423642d40b2ae9fa90 --&gt;
 </description>
 
 
