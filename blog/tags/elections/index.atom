@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged elections</title>
+<link href="http://rb.doesntexist.org/blog//tags/elections/"/>
+<link href="http://rb.doesntexist.org/blog//tags/elections/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://rb.doesntexist.org/blog//tags/elections/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2012-12-09T02:50:17Z</updated>
+<entry>
+	<title>2000-10-01</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-10-01/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-10-01/"/>
+
+
+
+
+
+
+	<category term="elections" />
+
+	<category term="life" />
+
+	<category term="music" />
+
+
+	<updated>2012-12-09T02:50:17Z</updated>
+	<published>2000-10-01T03:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Watched a tiny bit of the men marathon up to the point were the
+African athletes won. This made me sleepy all the day. To make
+matters worse, I woke up many times today. Noisy neighbors.&lt;/p&gt;
+
+&lt;p&gt;Election day today. It&#39;s funny that I thought I&#39;d have problems
+standing in huge lines, but it seems that computers can indeed be
+helpful to humanity. Everything was fast and no annoyances. I&#39;m
+impressed.&lt;/p&gt;
+
+&lt;p&gt;Tomorrow may be a sad day for &lt;a href=&quot;http://www.napster.com&quot;&gt;Napster&lt;/a&gt;.
+Like they say,
+&lt;a href=&quot;http://gnutella.wego.com&quot;&gt;&quot;Hope for the best, prepare for worst&quot;&lt;/a&gt;.
+This may mean that my ADSL may not be as useful as I&#39;d like it to
+be...&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged lame</title>
+<link href="http://rb.doesntexist.org/blog//tags/lame/"/>
+<link href="http://rb.doesntexist.org/blog//tags/lame/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://rb.doesntexist.org/blog//tags/lame/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2012-12-09T02:41:16Z</updated>
+<entry>
+	<title>2000-09-12</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-09-12/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-09-12/"/>
+
+
+
+
+
+
+	<category term="lame" />
+
+	<category term="linux" />
+
+	<category term="music" />
+
+	<category term="study" />
+
+
+	<updated>2012-12-09T02:41:16Z</updated>
+	<published>2000-09-12T03:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;My aunt&#39;s birthday today. Tried to call her, but who said it would
+be possible?&lt;/p&gt;
+
+&lt;p&gt;It seems that a customer of mine that was giving me headaches when
+I tried to receive for a job that I did for him (interconnecting
+his computers with other places) finally gave up avoiding to pay
+me. Nothing like a good threat.&lt;/p&gt;
+
+&lt;p&gt;One of my &lt;a href=&quot;http://www.ime.usp.br/~lymber/&quot;&gt;best friends&lt;/a&gt; (if not
+the best) lent me some Vivaldi and I&#39;ve ripped everything and
+encoded with a version of &lt;a href=&quot;http://www.sulaco.org/mp3/&quot;&gt;LAME&lt;/a&gt; that
+I&#39;ve packaged for Debian.&lt;/p&gt;
+
+&lt;p&gt;My &lt;a href=&quot;http://www.ime.usp.br/~jose/&quot;&gt;advisor&lt;/a&gt; and I decided that we
+should start with my research. Now I need a subject.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

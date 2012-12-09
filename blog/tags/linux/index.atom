@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2012-09-09T02:48:33Z</updated>
+<updated>2012-12-09T02:46:34Z</updated>
 <entry>
 	<title>Some experiences with ZFS</title>
 
@@ -748,6 +748,224 @@ cache redownloading the packages with something approximately like this:&lt;/p&g
 that they can benefit from it. Rebuilding packages with a package cacher is
 much more pleasant, especially if the package has a lot of
 build-dependencies.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-09-29</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-09-29/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-09-29/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="linux" />
+
+	<category term="work" />
+
+
+	<updated>2012-12-09T02:46:34Z</updated>
+	<published>2000-09-29T03:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;An unusual day. First things first, I had the news that one of my
+favourite sites, &lt;a href=&quot;http://www.slashdot.org&quot;&gt;Slashdot&lt;/a&gt; was cracked
+(&lt;em&gt;not&lt;/em&gt; hacked) by some guys from Netherlands. According to the
+reports from Slashdot themselves, it was their careless setting
+that allowed that and that they&#39;ve now learned the lesson and
+secured their boxes. The sad state of computer security. Or
+security in general.&lt;/p&gt;
+
+&lt;p&gt;I don&#39;t know what happened to my mind, but I cleaned my car. Hell&#39;s
+temperature must be getting lower now.&lt;/p&gt;
+
+&lt;p&gt;Then I had to return a Celeron 400MHz that I was using to a place
+&lt;a href=&quot;http://www.linuxcenter.com.br&quot;&gt;where I occasionally work&lt;/a&gt;. It was
+my guinea pig and I used it to test Debian&#39;s woody and, when I felt
+brave, Linux 2.4 pre-releases. Now, I put my good, old, trustworthy
+486 DX/2 66 back to use. It only has 8MB of RAM and a 120MB HD that
+is not sufficient for demanding applications people use nowadays,
+but I made a minimal install of Debian&#39;s slink and upgraded it to
+potato (only 50 megs!), together with a custom compiled kernel.
+Soon it will have 2 NICs and I&#39;ll use it as my router/firewall for
+an ADSL connection (after Slashdot&#39;s fate, I&#39;m willing to put a lot
+of effort in the &quot;firewall&quot; part of it).&lt;/p&gt;
+
+&lt;p&gt;I took the time to see what loads it could handle and I&#39;m more or
+less satisfied with the results I got. I used it to transfer a 50MB
+file to my Pentium MMX via
+&lt;a href=&quot;http://cr.yp.to/publicfile.html&quot;&gt;publicfile&lt;/a&gt; many times and it
+sustained 550KB/s. While I suspect it will not handle the situation
+so gracefully with 2 NICs, it seemed to me that the real bottleneck
+for higher speeds was the disk task, which as a router is close to
+zero.&lt;/p&gt;
+
+&lt;p&gt;All this means that I have no idea what I can expect from it. Oh,
+well.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-09-13</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-09-13/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-09-13/"/>
+
+
+
+
+
+
+	<category term="filesystems" />
+
+	<category term="life" />
+
+	<category term="linux" />
+
+	<category term="music" />
+
+
+	<updated>2012-12-09T02:42:35Z</updated>
+	<published>2000-09-13T03:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;The nice thing today is that I have slept for 14 hours. I needed
+that. And I still need yet another dose of it.&lt;/p&gt;
+
+&lt;p&gt;It stinks to see that
+&lt;a href=&quot;http://www.ajato.com.br&quot;&gt;broadbrand providers&lt;/a&gt; don&#39;t know their
+shit, when one asks them for it. When I asked them for some not so
+standard technical details, the support got all confused (all of a
+sudden the line becomes silent). Anyway, I could understand that
+they don&#39;t provide me with a fixed IP (but what do they use? DHCP?
+PPP-over-Ethernet?). I&#39;ve sent them an e-mail. I know that I&#39;ll
+receive a &quot;canned&quot; answer.&lt;/p&gt;
+
+&lt;p&gt;Reiserfs 3.5.25 is released and now I can upgrade my kernel to
+2.2.17 with reiserfs and André&#39;s patch.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve been listening to Vivaldi all day long today. Talking about
+music, I want to order Agalloch&#39;s &quot;Pale Folklore&quot; from
+&lt;a href=&quot;http://www.theendrecords.com&quot;&gt;The End Record&lt;/a&gt;&#39;s on-line form, but
+it seems that their shopping cart doesn&#39;t get anything included
+when I select the album (am I using it correctly?).&lt;/p&gt;
+
+&lt;p&gt;A new Gnapster is released and now I can connect to the main
+&lt;a href=&quot;http://www.napster.com/&quot;&gt;Napster&lt;/a&gt; server again. Woohoo.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-09-12</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-09-12/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-09-12/"/>
+
+
+
+
+
+
+	<category term="lame" />
+
+	<category term="linux" />
+
+	<category term="music" />
+
+	<category term="study" />
+
+
+	<updated>2012-12-09T02:41:16Z</updated>
+	<published>2000-09-12T03:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;My aunt&#39;s birthday today. Tried to call her, but who said it would
+be possible?&lt;/p&gt;
+
+&lt;p&gt;It seems that a customer of mine that was giving me headaches when
+I tried to receive for a job that I did for him (interconnecting
+his computers with other places) finally gave up avoiding to pay
+me. Nothing like a good threat.&lt;/p&gt;
+
+&lt;p&gt;One of my &lt;a href=&quot;http://www.ime.usp.br/~lymber/&quot;&gt;best friends&lt;/a&gt; (if not
+the best) lent me some Vivaldi and I&#39;ve ripped everything and
+encoded with a version of &lt;a href=&quot;http://www.sulaco.org/mp3/&quot;&gt;LAME&lt;/a&gt; that
+I&#39;ve packaged for Debian.&lt;/p&gt;
+
+&lt;p&gt;My &lt;a href=&quot;http://www.ime.usp.br/~jose/&quot;&gt;advisor&lt;/a&gt; and I decided that we
+should start with my research. Now I need a subject.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-09-04</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-09-04/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-09-04/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="filesystems" />
+
+	<category term="kde" />
+
+	<category term="life" />
+
+	<category term="linux" />
+
+	<category term="qt" />
+
+
+	<updated>2012-12-09T02:39:22Z</updated>
+	<published>2000-09-04T03:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Wow, what a day! I&#39;m getting a bit older today. Some kind people
+have sent me some cards (and some e-cards).&lt;/p&gt;
+
+&lt;p&gt;After the day began that way, I was pleased to learn that my
+September issue of &lt;a href=&quot;http://www.linuxjournal.com&quot;&gt;Linux Journal&lt;/a&gt;
+arrived.&lt;/p&gt;
+
+&lt;p&gt;Then, it was so nice to see a birthday present in form of a new
+kernel (&lt;a href=&quot;http://www.linux.com&quot;&gt;Linux 2.2.17&lt;/a&gt;) being released.
+Hopefully it will make the feedback and VM system a bit easier on
+the user (now, I just need
+&lt;a href=&quot;http://www.linux-ide.org&quot;&gt;André Hedrick&#39;s IDE&lt;/a&gt; patch and
+&lt;a href=&quot;http://devlinux.net/namesys/&quot;&gt;Reiser FS&lt;/a&gt; ported to 2.2.17). And
+there&#39;s the news that &lt;a href=&quot;http://www.kde.org&quot;&gt;KDE&lt;/a&gt; may be packaged to
+&lt;a href=&quot;http://www.debian.org&quot;&gt;Debian&lt;/a&gt;, now that Qt is being dually
+licensed, which is übercool.&lt;/p&gt;
+
+&lt;p&gt;The day is not over yet and I just got my glasses fixed and now I
+can see the world much clearer. Uh... If all days were like
+this...&lt;/p&gt;
 
 	</content>
 

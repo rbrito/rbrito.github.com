@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged movies</title>
+<link href="http://rb.doesntexist.org/blog//tags/movies/"/>
+<link href="http://rb.doesntexist.org/blog//tags/movies/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://rb.doesntexist.org/blog//tags/movies/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2012-12-09T02:48:56Z</updated>
+<entry>
+	<title>2000-09-30</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-09-30/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-09-30/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+	<category term="movies" />
+
+
+	<updated>2012-12-09T02:48:56Z</updated>
+	<published>2000-09-30T03:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Today it is &lt;a href=&quot;http://www.ime.usp.br/~lymber/&quot;&gt;Alexandre&lt;/a&gt;&#39;s birthday!
+Happy birthday, pal! Too bad we&#39;re not together today!&lt;/p&gt;
+
+&lt;p&gt;Finally went to catch a flick: &quot;What Lies Beneath&quot; (in Portuguese,
+&quot;Premonição&quot;). It was supposed to be scary. Ok. Some parts were.
+Came back home rightly after the movie was done (which means that
+I&#39;d like to get home not so fast next time).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged gnome</title>
+<link>http://rb.doesntexist.org/blog//tags/gnome/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>2000-08-12</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-08-12/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-08-12/</link>
+
+
+	<category>debian</category>
+
+	<category>gnome</category>
+
+	<category>graphics-card</category>
+
+	<category>linux</category>
+
+
+	<pubDate>Sat, 12 Aug 2000 00:00:00 -0300</pubDate>
+	<dcterms:modified>2012-12-09T02:29:02Z</dcterms:modified>
+
+	<description>&lt;p&gt;Took the day to go to my uncle&#39;s computer shop and installed
+&lt;a href=&quot;http://www.debian.org&quot;&gt;Debian GNU/Linux&lt;/a&gt; Potato (which is a beta
+release with final release quality) for him with Helix Code&#39;s
+&lt;a href=&quot;http://www.helixcode.com&quot;&gt;Gnome&lt;/a&gt;. This is the n-th attempt at
+converting him to see the light, but, for some reason, it appears
+that he was not as scared as in the previous attempts. Since my
+trustworthy S3 Trio64+ is giving signals of its age, I got a newer
+Tridend 3DImage750 to substitute it.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

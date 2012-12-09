@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged work</title>
+<link>http://rb.doesntexist.org/blog//tags/work/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>2000-09-29</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-09-29/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-09-29/</link>
+
+
+	<category>debian</category>
+
+	<category>linux</category>
+
+	<category>work</category>
+
+
+	<pubDate>Fri, 29 Sep 2000 00:00:00 -0300</pubDate>
+	<dcterms:modified>2012-12-09T02:46:34Z</dcterms:modified>
+
+	<description>&lt;p&gt;An unusual day. First things first, I had the news that one of my
+favourite sites, &lt;a href=&quot;http://www.slashdot.org&quot;&gt;Slashdot&lt;/a&gt; was cracked
+(&lt;em&gt;not&lt;/em&gt; hacked) by some guys from Netherlands. According to the
+reports from Slashdot themselves, it was their careless setting
+that allowed that and that they&#39;ve now learned the lesson and
+secured their boxes. The sad state of computer security. Or
+security in general.&lt;/p&gt;
+
+&lt;p&gt;I don&#39;t know what happened to my mind, but I cleaned my car. Hell&#39;s
+temperature must be getting lower now.&lt;/p&gt;
+
+&lt;p&gt;Then I had to return a Celeron 400MHz that I was using to a place
+&lt;a href=&quot;http://www.linuxcenter.com.br&quot;&gt;where I occasionally work&lt;/a&gt;. It was
+my guinea pig and I used it to test Debian&#39;s woody and, when I felt
+brave, Linux 2.4 pre-releases. Now, I put my good, old, trustworthy
+486 DX/2 66 back to use. It only has 8MB of RAM and a 120MB HD that
+is not sufficient for demanding applications people use nowadays,
+but I made a minimal install of Debian&#39;s slink and upgraded it to
+potato (only 50 megs!), together with a custom compiled kernel.
+Soon it will have 2 NICs and I&#39;ll use it as my router/firewall for
+an ADSL connection (after Slashdot&#39;s fate, I&#39;m willing to put a lot
+of effort in the &quot;firewall&quot; part of it).&lt;/p&gt;
+
+&lt;p&gt;I took the time to see what loads it could handle and I&#39;m more or
+less satisfied with the results I got. I used it to transfer a 50MB
+file to my Pentium MMX via
+&lt;a href=&quot;http://cr.yp.to/publicfile.html&quot;&gt;publicfile&lt;/a&gt; many times and it
+sustained 550KB/s. While I suspect it will not handle the situation
+so gracefully with 2 NICs, it seemed to me that the real bottleneck
+for higher speeds was the disk task, which as a router is close to
+zero.&lt;/p&gt;
+
+&lt;p&gt;All this means that I have no idea what I can expect from it. Oh,
+well.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

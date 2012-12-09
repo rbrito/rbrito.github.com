@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged graphics-card</title>
+<link>http://rb.doesntexist.org/blog//tags/graphics-card/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>2000-08-14</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-08-14/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-08-14/</link>
+
+
+	<category>debian</category>
+
+	<category>graphics-card</category>
+
+	<category>linux</category>
+
+
+	<pubDate>Mon, 14 Aug 2000 00:00:00 -0300</pubDate>
+	<dcterms:modified>2012-12-09T02:30:54Z</dcterms:modified>
+
+	<description>&lt;p&gt;I guess that I should really take some time to experiment with
+&lt;a href=&quot;http://www.openbsd.org&quot;&gt;OpenBSD&lt;/a&gt;. If not for anything else, it
+seems that the system is so well documented that I found a site
+pointed by their FAQ with an on-line engine that generated a
+Modeline for whooping 1024x768 @85Hz with the Trident card. I had
+never really pushed my monitor that far. On the low side, it seems
+the Trident card is made by some RIAA people and just generates
+some noise when I&#39;m playing some MP3s. Looking forward to see if X4
+can help me with acceleration.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2000-08-13</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-08-13/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-08-13/</link>
+
+
+	<category>debian</category>
+
+	<category>graphics-card</category>
+
+	<category>linux</category>
+
+
+	<pubDate>Sun, 13 Aug 2000 00:00:00 -0300</pubDate>
+	<dcterms:modified>2012-12-09T02:29:46Z</dcterms:modified>
+
+	<description>&lt;p&gt;Oh, my! I stayed up to 7am without any sleep to get the card to do
+just a sucky 1024x768x16bits with a similarly bad refresh rate. And
+the card is sloooow. Or so it seems. But
+&lt;a href=&quot;http://www.google.com&quot;&gt;Google&lt;/a&gt; tells me other people are also
+having problems with it, which makes me a little bit more
+comfortable (at least I&#39;m not going nuts thinking that I&#39;m
+consistently making stupid mistakes -- which are more common than
+what I&#39;d like to admit).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2000-08-12</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-08-12/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-08-12/</link>
+
+
+	<category>debian</category>
+
+	<category>gnome</category>
+
+	<category>graphics-card</category>
+
+	<category>linux</category>
+
+
+	<pubDate>Sat, 12 Aug 2000 00:00:00 -0300</pubDate>
+	<dcterms:modified>2012-12-09T02:29:02Z</dcterms:modified>
+
+	<description>&lt;p&gt;Took the day to go to my uncle&#39;s computer shop and installed
+&lt;a href=&quot;http://www.debian.org&quot;&gt;Debian GNU/Linux&lt;/a&gt; Potato (which is a beta
+release with final release quality) for him with Helix Code&#39;s
+&lt;a href=&quot;http://www.helixcode.com&quot;&gt;Gnome&lt;/a&gt;. This is the n-th attempt at
+converting him to see the light, but, for some reason, it appears
+that he was not as scared as in the previous attempts. Since my
+trustworthy S3 Trio64+ is giving signals of its age, I got a newer
+Tridend 3DImage750 to substitute it.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>
