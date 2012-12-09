@@ -12,6 +12,59 @@
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_2959e0e21a375e84208539169ba0cdb6aad9fce8/</guid>
+
+	<link>http://rb.doesntexist.org/blog/recentchanges/#change-2959e0e21a375e84208539169ba0cdb6aad9fce8</link>
+
+	<pubDate>Sun, 09 Dec 2012 00:20:39 -0200</pubDate>
+	<dcterms:modified>2012-12-09T02:20:39Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-2959e0e21a375e84208539169ba0cdb6aad9fce8&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-12-09T02:20:39Z&quot;&gt;00:20:39 2012-12-09&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Removed custom search.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 2959e0e21a375e84208539169ba0cdb6aad9fce8 --&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
 	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_bd9533e73c1c70f638d898250dc73de757acbec1/</guid>
 
 	<link>http://rb.doesntexist.org/blog/recentchanges/#change-bd9533e73c1c70f638d898250dc73de757acbec1</link>
@@ -4739,59 +4792,6 @@ creating tag page tags/browsers&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- cfa810129493eca4a216963e608116f3e6ade03f --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/launchpad on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_6927158e3c42b34923e75b1f42aa8c4d8d4c4862/</guid>
-
-	<link>http://rb.doesntexist.org/blog/recentchanges/#change-6927158e3c42b34923e75b1f42aa8c4d8d4c4862</link>
-
-	<pubDate>Sat, 12 Mar 2011 00:53:48 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:53:48Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-6927158e3c42b34923e75b1f42aa8c4d8d4c4862&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-tags/launchpad
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2011-03-12T03:53:48Z&quot;&gt;00:53:48 2011-03-12&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/launchpad&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 6927158e3c42b34923e75b1f42aa8c4d8d4c4862 --&gt;
 </description>
 
 

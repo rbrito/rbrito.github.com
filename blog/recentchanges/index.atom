@@ -17,7 +17,66 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2012-12-09T02:14:50Z</updated>
+<updated>2012-12-09T02:20:39Z</updated>
+<entry>
+	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_2959e0e21a375e84208539169ba0cdb6aad9fce8/</id>
+
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-2959e0e21a375e84208539169ba0cdb6aad9fce8"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2012-12-09T02:20:39Z</updated>
+	<published>2012-12-09T02:20:39Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-2959e0e21a375e84208539169ba0cdb6aad9fce8&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-12-09T02:20:39Z&quot;&gt;00:20:39 2012-12-09&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Removed custom search.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 2959e0e21a375e84208539169ba0cdb6aad9fce8 --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -5271,65 +5330,6 @@ creating tag page tags/browsers&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- cfa810129493eca4a216963e608116f3e6ade03f --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to tags/launchpad on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_6927158e3c42b34923e75b1f42aa8c4d8d4c4862/</id>
-
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-6927158e3c42b34923e75b1f42aa8c4d8d4c4862"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2011-03-12T03:53:48Z</updated>
-	<published>2011-03-12T03:53:48Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-6927158e3c42b34923e75b1f42aa8c4d8d4c4862&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-tags/launchpad
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2011-03-12T03:53:48Z&quot;&gt;00:53:48 2011-03-12&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/launchpad&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 6927158e3c42b34923e75b1f42aa8c4d8d4c4862 --&gt;
 
 	</content>
 
