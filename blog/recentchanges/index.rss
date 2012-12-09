@@ -8,6 +8,146 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>rbrito: change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_bd9533e73c1c70f638d898250dc73de757acbec1/</guid>
+
+	<link>http://rb.doesntexist.org/blog/recentchanges/#change-bd9533e73c1c70f638d898250dc73de757acbec1</link>
+
+	<pubDate>Sun, 09 Dec 2012 00:14:50 -0200</pubDate>
+	<dcterms:modified>2012-12-09T02:14:50Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-bd9533e73c1c70f638d898250dc73de757acbec1&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-12-09T02:14:50Z&quot;&gt;00:14:50 2012-12-09&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Revert &amp;quot;Add first unit of ads to the page template.&amp;quot;&lt;br /&gt;
+
+
+
+
+
+Remove ads from my pages.&lt;br /&gt;
+
+
+
+
+
+This reverts commit 01626b06a6d41c4a5ded3a72664b255f0deb5b8e.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- bd9533e73c1c70f638d898250dc73de757acbec1 --&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_1f1440727f6e8a4632ed517078f1420d66caafe1/</guid>
+
+	<link>http://rb.doesntexist.org/blog/recentchanges/#change-1f1440727f6e8a4632ed517078f1420d66caafe1</link>
+
+	<pubDate>Sun, 09 Dec 2012 00:14:10 -0200</pubDate>
+	<dcterms:modified>2012-12-09T02:14:10Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-1f1440727f6e8a4632ed517078f1420d66caafe1&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-12-09T02:14:10Z&quot;&gt;00:14:10 2012-12-09&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Revert &amp;quot;First try at putting the +1 button to the page template.&amp;quot;&lt;br /&gt;
+
+
+
+
+
+Remove +1 button from my pages.&lt;br /&gt;
+
+
+
+
+
+This reverts commit c2a5664f428cc4c76362f8029aa30452406c0a53.&lt;br /&gt;
+
+
+
+
+
+Conflicts:&lt;br /&gt;
+
+
+
+	templates/page.tmpl&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 1f1440727f6e8a4632ed517078f1420d66caafe1 --&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>rbrito: change to sidebar on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 	<dcterms:creator>rbrito</dcterms:creator>
 
@@ -4652,112 +4792,6 @@ creating tag page tags/launchpad&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 6927158e3c42b34923e75b1f42aa8c4d8d4c4862 --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/ubuntu on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_e33ce2c36a9e31463f022cf77efece2f58f0ec67/</guid>
-
-	<link>http://rb.doesntexist.org/blog/recentchanges/#change-e33ce2c36a9e31463f022cf77efece2f58f0ec67</link>
-
-	<pubDate>Sat, 12 Mar 2011 00:53:45 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:53:45Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-e33ce2c36a9e31463f022cf77efece2f58f0ec67&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-tags/ubuntu
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2011-03-12T03:53:45Z&quot;&gt;00:53:45 2011-03-12&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/ubuntu&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- e33ce2c36a9e31463f022cf77efece2f58f0ec67 --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/extensions on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_293efba1428b5f36fc14307752151de8bfe05963/</guid>
-
-	<link>http://rb.doesntexist.org/blog/recentchanges/#change-293efba1428b5f36fc14307752151de8bfe05963</link>
-
-	<pubDate>Sat, 12 Mar 2011 00:53:43 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:53:43Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-293efba1428b5f36fc14307752151de8bfe05963&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-tags/extensions
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2011-03-12T03:53:43Z&quot;&gt;00:53:43 2011-03-12&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/extensions&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 293efba1428b5f36fc14307752151de8bfe05963 --&gt;
 </description>
 
 
