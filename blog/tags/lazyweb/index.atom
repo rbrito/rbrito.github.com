@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged lazyweb</title>
+<link href="http://rb.doesntexist.org/blog//tags/lazyweb/"/>
+<link href="http://rb.doesntexist.org/blog//tags/lazyweb/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://rb.doesntexist.org/blog//tags/lazyweb/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2013-01-30T00:16:17Z</updated>
+<entry>
+	<title>Looking for (Free) a Video Editor</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="lazyweb" />
+
+	<category term="multimedia" />
+
+	<category term="video" />
+
+
+	<updated>2013-01-30T00:16:17Z</updated>
+	<published>2013-01-30T00:16:07Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
+you were able to sneak in a camera (well, in those times, cell phones
+weren&#39;t able to record much more than 176x144 pixels at 12fps).&lt;/p&gt;
+
+&lt;p&gt;But, then, you suddenly found that some people uploaded (short) fragments of
+that very same show to youtube and, collecting those, you may be able to
+create a &quot;multi-camera&quot; version of the video that you can record to keep of
+your memorable concert.&lt;/p&gt;
+
+&lt;p&gt;The multi-camera, in the sense above, is not the same as
+&lt;a href=&quot;https://en.wikipedia.org/wiki/DVD-Video#Chapters_and_angles&quot;&gt;multiple angles&lt;/a&gt; (like some DVDs), but something like a TV broadcast,
+where the stage is filmed by cameras positioned at some places and the image
+that is broadcast is switched from time to time according to that who is
+singing, or playing etc.&lt;/p&gt;
+
+&lt;p&gt;So, Dear Lazyweb, do we happen to have any Free Software (preferably already
+packaged in Debian) that is able to help with the task of &quot;aligning&quot; (in
+time) videos from various (different) sources so as to produce one
+multi-camera video?&lt;/p&gt;
+
+&lt;p&gt;What would my options be? I &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT43j64jh8zLRYCMVRnJQgINcgSOhf-5Ozg&quot;&gt;asked this&lt;/a&gt; on youtube for a person that
+&lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&quot;&gt;did exactly what I want&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT6jkGhCF9g1RzmZAsFIGmYzChDJwqwovNc&quot;&gt;their answer&lt;/a&gt; was &lt;a href=&quot;https://en.wikipedia.org/wiki/Sony_Vegas_Pro&quot;&gt;Sony Vegas&lt;/a&gt;,
+which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/lazyweb/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Any comments are welcome, thanks, and if I am successful, I will upload the
+final video. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/lazyweb/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

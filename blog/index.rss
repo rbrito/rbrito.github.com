@@ -8,6 +8,60 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>Looking for (Free) a Video Editor</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</link>
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>lazyweb</category>
+
+	<category>multimedia</category>
+
+	<category>video</category>
+
+
+	<pubDate>Tue, 29 Jan 2013 22:16:07 -0200</pubDate>
+	<dcterms:modified>2013-01-30T00:16:17Z</dcterms:modified>
+
+	<description>&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
+you were able to sneak in a camera (well, in those times, cell phones
+weren&#39;t able to record much more than 176x144 pixels at 12fps).&lt;/p&gt;
+
+&lt;p&gt;But, then, you suddenly found that some people uploaded (short) fragments of
+that very same show to youtube and, collecting those, you may be able to
+create a &quot;multi-camera&quot; version of the video that you can record to keep of
+your memorable concert.&lt;/p&gt;
+
+&lt;p&gt;The multi-camera, in the sense above, is not the same as
+&lt;a href=&quot;https://en.wikipedia.org/wiki/DVD-Video#Chapters_and_angles&quot;&gt;multiple angles&lt;/a&gt; (like some DVDs), but something like a TV broadcast,
+where the stage is filmed by cameras positioned at some places and the image
+that is broadcast is switched from time to time according to that who is
+singing, or playing etc.&lt;/p&gt;
+
+&lt;p&gt;So, Dear Lazyweb, do we happen to have any Free Software (preferably already
+packaged in Debian) that is able to help with the task of &quot;aligning&quot; (in
+time) videos from various (different) sources so as to produce one
+multi-camera video?&lt;/p&gt;
+
+&lt;p&gt;What would my options be? I &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT43j64jh8zLRYCMVRnJQgINcgSOhf-5Ozg&quot;&gt;asked this&lt;/a&gt; on youtube for a person that
+&lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&quot;&gt;did exactly what I want&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT6jkGhCF9g1RzmZAsFIGmYzChDJwqwovNc&quot;&gt;their answer&lt;/a&gt; was &lt;a href=&quot;https://en.wikipedia.org/wiki/Sony_Vegas_Pro&quot;&gt;Sony Vegas&lt;/a&gt;,
+which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://rb.doesntexist.org/blog//./smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Any comments are welcome, thanks, and if I am successful, I will upload the
+final video. &lt;img src=&quot;http://rb.doesntexist.org/blog//./smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>Another meme: The Geek test</title>
 
 
@@ -942,81 +996,6 @@ Chromium.&lt;/p&gt;
 &lt;p&gt;So, there I am: way more satisfied than with earlier with Chromium, but
 still having Firefox/Iceweasel as my primary browser. Good to have two
 usable browsers now.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>My problems with Chromium</title>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/problems_with_chromium/</guid>
-
-	<link>http://rb.doesntexist.org/blog//posts/problems_with_chromium/</link>
-
-
-	<category>browsers</category>
-
-	<category>debian</category>
-
-	<category>extensions</category>
-
-	<category>free-software</category>
-
-	<category>launchpad</category>
-
-	<category>ubuntu</category>
-
-
-	<pubDate>Sat, 26 Feb 2011 11:55:06 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
-
-	<description>&lt;p&gt;Given that Chromium/Chrome is used more and more (as became apparent
-&lt;a href=&quot;https://lists.debian.org/debian-release/2010/09/msg00610.html&quot;&gt;with the discussion of including it in Debian&#39;s squeeze&lt;/a&gt;), I decided to
-give it some tries, mainly Giuseppe Iuculano&#39;s &lt;a href=&quot;http://packages.qa.debian.org/c/chromium-browser.html&quot;&gt;version&lt;/a&gt;. I occasionally
-install Chromium from Fabien Tassin&#39;s &lt;a href=&quot;https://launchpad.net/~chromium-daily/+archive/ppa&quot;&gt;daily builds&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;And, to be honest, I have also contributed a good amount (about 400) of
-&lt;a href=&quot;https://launchpad.net/~rbrito/+karma&quot;&gt;translated strings&lt;/a&gt; to the Brazilian Portuguese part of Chromium. As a
-matter of fact, I have even done some &quot;activism&quot; and &lt;a href=&quot;https://launchpad.net/~savanabifulco&quot;&gt;incentivated&lt;/a&gt;
-&lt;a href=&quot;https://launchpad.net/~bifulcojunior&quot;&gt;other&lt;/a&gt; &lt;a href=&quot;https://launchpad.net/~victor.westmann/+karma&quot;&gt;people&lt;/a&gt; to create their accounts on Launchpad and help with
-the projects.&lt;/p&gt;
-
-&lt;p&gt;But I always come back to Iceweasel/Firefox, especially with Mike Hommey&#39;s
-frequently updated &lt;a href=&quot;http://mozilla.debian.net/&quot;&gt;repository&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;What are my reasons for staying with Iceweasel, and not with Chromium?&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I can disable full zoom in Iceweasel (i.e., I only want to zoom the text,
-not the images). According to Chromium&#39;s project BTS, it seems that this
-will be a &lt;code&gt;WONTFIX&lt;/code&gt; bug, despite many people asking for it (and it having
-a lot of duplicates).&lt;/li&gt;
-&lt;li&gt;I can, in Iceweasel, set my preferred fonts without resorting to hacks on
-the system level, like say, having to lie with fontconfig or other stuff.
-And I really want Deja Vu Sans, not a serifed font.&lt;/li&gt;
-&lt;li&gt;In Iceweasel, a middle mouse click on &quot;an inactive portion&quot; of the page
-makes me go to the URL that is the system clipboard, just like pasting
-stuff in X, in general, works.  I guess that there may be some way to
-enable this in Chromium, but, so far, I have not found it.&lt;/li&gt;
-&lt;li&gt;In Iceweasel, I have a way (without resorting to many extensions or
-hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &gt; Page Style &gt;
-No Style&quot; (i.e., to ignore any CSS sheet that the document author may have
-specified on the page).&lt;/li&gt;
-&lt;li&gt;In Iceweasel, my personal data is encrypted before being synced.&lt;/li&gt;
-&lt;li&gt;In Iceweasel, I can press &lt;code&gt;Ctrl+Q&lt;/code&gt; and make the damn browser quit, instead
-of me having to use the mouse/trackpad/pointing device. This is probably a
-lack of my understanding on how to associate key bindings to Chromium, but
-the problem still stands.&lt;/li&gt;
-&lt;li&gt;Similarly, when there is only one tab open, pressing &lt;code&gt;Ctrl+W&lt;/code&gt; in Chromium
-does not close the tab (say, presenting me a blank tab or the list of most
-visited sites), nor it closes the application.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;I would be satisfied if any of the above were fixed or better documented,
-but it seems that some of those are, at best, going to wait a long time.&lt;/p&gt;
 </description>
 
 

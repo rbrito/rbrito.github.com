@@ -8,6 +8,60 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>Looking for (Free) a Video Editor</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</link>
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>lazyweb</category>
+
+	<category>multimedia</category>
+
+	<category>video</category>
+
+
+	<pubDate>Tue, 29 Jan 2013 22:16:07 -0200</pubDate>
+	<dcterms:modified>2013-01-30T00:16:17Z</dcterms:modified>
+
+	<description>&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
+you were able to sneak in a camera (well, in those times, cell phones
+weren&#39;t able to record much more than 176x144 pixels at 12fps).&lt;/p&gt;
+
+&lt;p&gt;But, then, you suddenly found that some people uploaded (short) fragments of
+that very same show to youtube and, collecting those, you may be able to
+create a &quot;multi-camera&quot; version of the video that you can record to keep of
+your memorable concert.&lt;/p&gt;
+
+&lt;p&gt;The multi-camera, in the sense above, is not the same as
+&lt;a href=&quot;https://en.wikipedia.org/wiki/DVD-Video#Chapters_and_angles&quot;&gt;multiple angles&lt;/a&gt; (like some DVDs), but something like a TV broadcast,
+where the stage is filmed by cameras positioned at some places and the image
+that is broadcast is switched from time to time according to that who is
+singing, or playing etc.&lt;/p&gt;
+
+&lt;p&gt;So, Dear Lazyweb, do we happen to have any Free Software (preferably already
+packaged in Debian) that is able to help with the task of &quot;aligning&quot; (in
+time) videos from various (different) sources so as to produce one
+multi-camera video?&lt;/p&gt;
+
+&lt;p&gt;What would my options be? I &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT43j64jh8zLRYCMVRnJQgINcgSOhf-5Ozg&quot;&gt;asked this&lt;/a&gt; on youtube for a person that
+&lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&quot;&gt;did exactly what I want&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT6jkGhCF9g1RzmZAsFIGmYzChDJwqwovNc&quot;&gt;their answer&lt;/a&gt; was &lt;a href=&quot;https://en.wikipedia.org/wiki/Sony_Vegas_Pro&quot;&gt;Sony Vegas&lt;/a&gt;,
+which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/debian/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Any comments are welcome, thanks, and if I am successful, I will upload the
+final video. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/debian/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>Some experiences with ZFS</title>
 
 
@@ -884,72 +938,6 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 &lt;p&gt;I am thankful for the DebConf team sponsoring both accomodation and food.  It is highly appreciated.&lt;/p&gt;
 
 &lt;p&gt;See you in NYC! Any hints that you may happen to have are warmly welcome.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>A version of xpdf with the poppler backend available</title>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
-
-	<link>http://rb.doesntexist.org/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
-
-
-	<category>c++</category>
-
-	<category>debian</category>
-
-	<category>development</category>
-
-	<category>documents</category>
-
-	<category>free-software</category>
-
-	<category>hacks</category>
-
-	<category>libraries</category>
-
-	<category>programming</category>
-
-
-	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
-
-	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
-
-&lt;h2&gt;Announcement&lt;/h2&gt;
-
-
-&lt;p&gt;For those people that are insterested in a &lt;em&gt;small&lt;/em&gt; PDF viewer, based on &lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;an actively maintained backend&lt;/a&gt;, and that &lt;a href=&quot;http://localhost/blog/2010/05/27/please-let-me-zoom-my-documents/&quot;&gt;doesn&#39;t bring your computer to a halt&lt;/a&gt; when you try to zoom your documents when you need to see some details, then you might want to give &lt;a href=&quot;http://github.com/rbrito/xpdf-poppler&quot;&gt;this version of xpdf&lt;/a&gt; a try.&lt;/p&gt;
-
-&lt;p&gt;I already received some reports for some bugs and fixed them, with one of them being a problem related by a kind user of &lt;a href=&quot;http://www.gentoo.org/&quot;&gt;Gentoo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Motivation&lt;/h2&gt;
-
-
-&lt;p&gt;Some people have asked me why this even needs to exist in the first place and I agree that it would be better if it didn&#39;t: I would love to spend my time actually &lt;em&gt;using&lt;/em&gt; my computers rather than &lt;em&gt;fixing&lt;/em&gt; my computers for better tasks (read: studying Mathematics, etc).&lt;/p&gt;
-
-&lt;p&gt;The upstream maintainer of xpdf uses it as one source of income and keeps it running across many system (even legacy ones).  I &lt;em&gt;imagine&lt;/em&gt; that this one of the reasons why he tries to keep xpdf almost self contained, with many parts that could be delegated to other libraries, and with some abstraction code that makes the code compile even in the presence of &lt;em&gt;very&lt;/em&gt; broken compilers.  Of course, this means, in part, that as long as you take more duties, maintaing the code becomes more and more complex.&lt;/p&gt;
-
-&lt;p&gt;He told me that he doesn&#39;t offer an open development tree because he wants to give his customers some advantages over the public version and his reasons are perfectly justifiable, of course.  He also manifested the interest of possibly basing xpdf on a &quot;more modern toolkit&quot; and, when I asked him what that would be, he mentioned that, perhaps, it would be Qt. The development of xpdf will, quite probably, take newer directions.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, xpdf has not seen a new upstream release since &lt;a href=&quot;http://www.foolabs.com/xpdf/CHANGES&quot;&gt;2007-02-27&lt;/a&gt;.  It did, though, have &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl1.patch&quot;&gt;some&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl2.patch&quot;&gt;patchlevel&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl3.patch&quot;&gt;updates&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl4.patch&quot;&gt;released&lt;/a&gt;. Taking care of the maintainance of the code is a &lt;a href=&quot;http://bugs.debian.org/527840&quot;&gt;high concern&lt;/a&gt; for distributions.&lt;/p&gt;
-
-&lt;p&gt;Some people, though, would like to &lt;a href=&quot;http://en.wikipedia.org/wiki/KISS_principle&quot;&gt;keep it simple&lt;/a&gt; (me included).  Unfortunately, &lt;a href=&quot;http://bugs.debian.org/351279&quot;&gt;some efforts&lt;/a&gt; to &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00046.html&quot;&gt;maintain&lt;/a&gt; it had &lt;a href=&quot;http://bugs.gentoo.org/show_bug.cgi?id=289803&quot;&gt;not had&lt;/a&gt; the &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00068.html&quot;&gt;necessary coordination&lt;/a&gt; and duplication of effort has occured.&lt;/p&gt;
-
-&lt;h2&gt;Proposal&lt;/h2&gt;
-
-
-&lt;p&gt;I am willing to become a patch aggregator for the code in xpdf with a poppler backend. I would love to give it some refactoring too, drop some of the legacy code that is not used (and only serves to make the code hard to read), and adopt some good coding style standard (I particularly &lt;a href=&quot;http://www.kernel.org/doc/Documentation/CodingStyle&quot;&gt;like the one from the Linux Kernel&lt;/a&gt;---with the proper adaptations for C++).&lt;/p&gt;
-
-&lt;p&gt;I have already &lt;a href=&quot;https://bugs.gentoo.org/show_bug.cgi?id=323469&quot;&gt;contacted the people at Gentoo&lt;/a&gt;, and I would love to get people from Fedora, Ubuntu, and Suse involved also. Alas,  the last time I tried to mail their mailing lists, I got  messages telling me that my messages were rejected or waiting for moderation, because I was not a subscriber. I never heard back, since.&lt;/p&gt;
-
-&lt;p&gt;I appreciate it if you could help spread the word.&lt;/p&gt;
-
-&lt;p&gt;Thanks.&lt;/p&gt;
 </description>
 
 
