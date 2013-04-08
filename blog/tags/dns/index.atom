@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged dns</title>
+<link href="http://rb.doesntexist.org/blog//tags/dns/"/>
+<link href="http://rb.doesntexist.org/blog//tags/dns/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://rb.doesntexist.org/blog//tags/dns/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2013-04-08T12:12:43Z</updated>
+<entry>
+	<title>2000-10-10</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-10-10/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-10-10/"/>
+
+
+
+
+
+
+	<category term="dns" />
+
+	<category term="isp" />
+
+
+	<updated>2013-04-08T12:12:43Z</updated>
+	<published>2000-10-10T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Hallelujah! After I complained so much, they&#39;ve finally let me
+explain the problem to their technical staff and in a matter of
+some minutes, the person did the zone file update and
+synchronization with their secondaries.&lt;/p&gt;
+
+&lt;p&gt;Ok, I&#39;ve threatened them that I&#39;d bad mouth them &lt;strong&gt;and&lt;/strong&gt; use their
+competitor&#39;s services. I guess that it worked.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-10-09</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-10-09/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-10-09/"/>
+
+
+
+
+
+
+	<category term="dns" />
+
+	<category term="isp" />
+
+
+	<updated>2013-04-08T12:12:09Z</updated>
+	<published>2000-10-09T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Still complaining about my reverse DNS. Now they&#39;ve promised to see
+things as fast as they can. I don&#39;t believe them.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-10-07</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-10-07/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-10-07/"/>
+
+
+
+
+
+
+	<category term="dns" />
+
+	<category term="isp" />
+
+
+	<updated>2013-04-08T12:11:27Z</updated>
+	<published>2000-10-07T03:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Still complaining about my reverse DNS.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-10-06</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-10-06/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-10-06/"/>
+
+
+
+
+
+
+	<category term="dns" />
+
+	<category term="isp" />
+
+
+	<updated>2013-04-08T12:10:56Z</updated>
+	<published>2000-10-06T03:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Still complaining about my reverse DNS.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-10-05</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-10-05/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-10-05/"/>
+
+
+
+
+
+
+	<category term="dns" />
+
+	<category term="isp" />
+
+
+	<updated>2013-04-08T12:10:31Z</updated>
+	<published>2000-10-05T03:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I tried to communicate with my provider via e-mail and via phone to
+get them to straighten their DNS entries, but I didn&#39;t have much
+success, apparently.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

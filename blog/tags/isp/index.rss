@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged isp</title>
+<link>http://rb.doesntexist.org/blog//tags/isp/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>2000-10-10</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-10-10/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-10-10/</link>
+
+
+	<category>dns</category>
+
+	<category>isp</category>
+
+
+	<pubDate>Tue, 10 Oct 2000 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-08T12:12:43Z</dcterms:modified>
+
+	<description>&lt;p&gt;Hallelujah! After I complained so much, they&#39;ve finally let me
+explain the problem to their technical staff and in a matter of
+some minutes, the person did the zone file update and
+synchronization with their secondaries.&lt;/p&gt;
+
+&lt;p&gt;Ok, I&#39;ve threatened them that I&#39;d bad mouth them &lt;strong&gt;and&lt;/strong&gt; use their
+competitor&#39;s services. I guess that it worked.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2000-10-09</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-10-09/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-10-09/</link>
+
+
+	<category>dns</category>
+
+	<category>isp</category>
+
+
+	<pubDate>Mon, 09 Oct 2000 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-08T12:12:09Z</dcterms:modified>
+
+	<description>&lt;p&gt;Still complaining about my reverse DNS. Now they&#39;ve promised to see
+things as fast as they can. I don&#39;t believe them.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2000-10-07</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-10-07/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-10-07/</link>
+
+
+	<category>dns</category>
+
+	<category>isp</category>
+
+
+	<pubDate>Sat, 07 Oct 2000 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-04-08T12:11:27Z</dcterms:modified>
+
+	<description>&lt;p&gt;Still complaining about my reverse DNS.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2000-10-06</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-10-06/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-10-06/</link>
+
+
+	<category>dns</category>
+
+	<category>isp</category>
+
+
+	<pubDate>Fri, 06 Oct 2000 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-04-08T12:10:56Z</dcterms:modified>
+
+	<description>&lt;p&gt;Still complaining about my reverse DNS.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2000-10-05</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-10-05/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-10-05/</link>
+
+
+	<category>dns</category>
+
+	<category>isp</category>
+
+
+	<pubDate>Thu, 05 Oct 2000 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-04-08T12:10:31Z</dcterms:modified>
+
+	<description>&lt;p&gt;I tried to communicate with my provider via e-mail and via phone to
+get them to straighten their DNS entries, but I didn&#39;t have much
+success, apparently.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2000-10-04</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-10-04/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-10-04/</link>
+
+
+	<category>isp</category>
+
+
+	<pubDate>Wed, 04 Oct 2000 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-04-08T12:10:05Z</dcterms:modified>
+
+	<description>&lt;p&gt;Oh, I&#39;m finally surfing the web at mach speed. Great. Ok, not so
+great. My fuckning provider (which is not the same as the telco
+co.) has my DNS entries messed up and I need to log in my
+University&#39;s computer running SSH to stablish my SSH tunnel for
+gathering my mail via POP.&lt;/p&gt;
+
+&lt;p&gt;The catch: my University&#39;s computer runs in PARANOID mode and I
+don&#39;t even get prompted for my pass{phrase,word}.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2000-10-03</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-10-03/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-10-03/</link>
+
+
+	<category>isp</category>
+
+
+	<pubDate>Tue, 03 Oct 2000 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-04-08T12:09:05Z</dcterms:modified>
+
+	<description>&lt;p&gt;The telco company was supposed to install my ADSL (256kbits down,
+128kbits up) today, but, alas, they didn&#39;t. Apparently, they had a
+problem with their central and after the modem was installed, it
+didn&#39;t see the other side. Needless to say, I was quite angry with
+this.&lt;/p&gt;
+
+&lt;p&gt;The technician will be coming tomorrow morning to finish the
+installation.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

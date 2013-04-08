@@ -8,6 +8,61 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>2000-10-24</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-10-24/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-10-24/</link>
+
+
+	<category>complexity-theory</category>
+
+	<category>math</category>
+
+	<category>study</category>
+
+
+	<pubDate>Tue, 24 Oct 2000 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-08T12:14:58Z</dcterms:modified>
+
+	<description>&lt;p&gt;Whew! One of the longest homeworks that I&#39;ve ever had was finished
+today. Programmning Turing Machines takes time.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2000-10-16</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-10-16/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-10-16/</link>
+
+
+	<category>math</category>
+
+	<category>study</category>
+
+
+	<pubDate>Mon, 16 Oct 2000 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-08T12:13:34Z</dcterms:modified>
+
+	<description>&lt;p&gt;After a lot of time doing this Combinatorial Optimization homework,
+I found out that a lot of my colleagues didn&#39;t even bother to prove
+that their algorithms worked, while I&#39;ve spent a lot of time
+finding algorithm invariants and proving that they were actually
+maintained from interation to iteration. This is the Right
+Thing(tm) to do, but it also takes a lot of time. What should I do
+next time?&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>2000-09-24</title>
 
 
@@ -150,13 +205,17 @@ should start with my research. Now I need a subject.&lt;/p&gt;
 	<link>http://rb.doesntexist.org/blog//posts/2000-08-31/</link>
 
 
+	<category>internet</category>
+
 	<category>life</category>
+
+	<category>math</category>
 
 	<category>study</category>
 
 
 	<pubDate>Thu, 31 Aug 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:36:44Z</dcterms:modified>
+	<dcterms:modified>2013-04-08T12:05:41Z</dcterms:modified>
 
 	<description>&lt;p&gt;&lt;code&gt;&amp;lt;rant&amp;gt;&lt;/code&gt;
 Ugh! Discovered that the
@@ -189,11 +248,13 @@ then more painful hours to go back home.
 
 	<category>life</category>
 
+	<category>math</category>
+
 	<category>study</category>
 
 
 	<pubDate>Wed, 30 Aug 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:35:44Z</dcterms:modified>
+	<dcterms:modified>2013-04-08T12:04:42Z</dcterms:modified>
 
 	<description>&lt;p&gt;Humm... I fear that I won&#39;t be able to handle this
 &lt;a href=&quot;http://www.ime.usp.br/~yoshi/mac5775/&quot;&gt;&quot;Probabilistic Method&quot;&lt;/a&gt;

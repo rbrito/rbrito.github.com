@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged internet</title>
+<link>http://rb.doesntexist.org/blog//tags/internet/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>2000-08-31</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-08-31/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-08-31/</link>
+
+
+	<category>internet</category>
+
+	<category>life</category>
+
+	<category>math</category>
+
+	<category>study</category>
+
+
+	<pubDate>Thu, 31 Aug 2000 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-04-08T12:05:41Z</dcterms:modified>
+
+	<description>&lt;p&gt;&lt;code&gt;&amp;lt;rant&amp;gt;&lt;/code&gt;
+Ugh! Discovered that the
+&lt;a href=&quot;http://www.speedy.com.br&quot;&gt;ADSL service I was planning to sign&lt;/a&gt;
+blocks incoming calls to SMTP and HTTP ports -- since I don&#39;t trust
+anyone to receive and manage my e-mails, I had a plan of setting up
+my own e-mail server. Fsck! If the providers can&#39;t get their
+freaking job done The Right Way (tm), why do they prevent their
+customers from doing it themselves?? It costs them absolutely
+nothing. I mean &lt;em&gt;nothing&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also discovered that I&#39;ll have a class of &quot;Probabilistic Method&quot;
+during my birthday and only this class. This means that I&#39;ll have
+to endure hours of traffic just to get here to see the class and
+then more painful hours to go back home.
+&lt;code&gt;&amp;lt;/rant&amp;gt;&lt;/code&gt;&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>
