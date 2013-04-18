@@ -8,6 +8,227 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>2005-11-19</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2005-11-19/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2005-11-19/</link>
+
+
+	<category>books</category>
+
+	<category>lisp</category>
+
+	<category>study</category>
+
+
+	<pubDate>Sat, 19 Nov 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-18T21:08:06Z</dcterms:modified>
+
+	<description>&lt;p&gt;Purchased some books at discount prices. Nice. Now I can learn
+Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&gt;&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2001-01-31</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-01-31/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2001-01-31/</link>
+
+
+	<category>debian</category>
+
+	<category>hardware</category>
+
+	<category>linux</category>
+
+	<category>study</category>
+
+
+	<pubDate>Wed, 31 Jan 2001 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-18T21:04:51Z</dcterms:modified>
+
+	<description>&lt;p&gt;Happy New Millennium! So many things have happened since the last
+time I&#39;ve updated my diary and I guess that since I can&#39;t summarize
+everything accurately, I&#39;ll just list what I think are the
+remarkable facts:&lt;/p&gt;
+
+&lt;p&gt;I have now put my new computer (a &lt;a href=&quot;http://www.amd.com&quot;&gt;Duron&lt;/a&gt;
+600MHz with a lovely &lt;a href=&quot;http://www.asus.com&quot;&gt;Asus&lt;/a&gt; A7V motherboard)
+to actual use. Of course, I made a backup of my older computer, so
+that I was prepared for worst (read on);
+&lt;a href=&quot;http://www.kernel.org&quot;&gt;Linux 2.4.0&lt;/a&gt; has finally been released and
+it includes a lot of new goodies. While I think that it is still
+not the right time to switch to the new version, it is indeed quite
+tempting (but I&#39;ll resist that temptation, since I&#39;ve read a lot of
+people complaining of data corruption with the new IDE drivers when
+used with VIA chipsets -- and my motherboard features, guess what,
+a VIA chipset, of course).
+At the time of this writing (Feb 4th), Linux 2.4.1 was already
+released, with many minor fixes;
+A &lt;a href=&quot;http://www.debian.org/releases/testing&quot;&gt;new version&lt;/a&gt; of the
+Linux Distribution that I use,
+&lt;a href=&quot;http://www.debian.org&quot;&gt;Debian GNU/Linux&lt;/a&gt; is now getting more and
+more functionality. It is ready for the new Linux 2.4.0 kernel, but
+still under development (read: prone to break). Oh, why can&#39;t new
+software be stable? In the mean time, I&#39;m using Debian&#39;s
+&lt;a href=&quot;http://www.debian.org/releases/potato&quot;&gt;potato&lt;/a&gt;.
+One week after I have started to use my new computer, my 40GB
+Samsung drive broke. Ouch. Fortunately, I had taken backups of
+everything from my old computer and any new data that I had on my
+new computer was still readable. So, now, I&#39;m using a new 30GB
+&lt;a href=&quot;http://www.quantum.com&quot;&gt;Quantum&lt;/a&gt; drive and everything seems to be
+working fine again. Nice.
+I am now reading more and more things about my Mastership work. It
+will be in a sub-area of computer science called
+&lt;a href=&quot;http://rb.doesntexist.org/blog//tags/study/../compbio/index.html&quot;&gt;Computational (Molecular) Biology&lt;/a&gt;. In
+particular, I&#39;m studying now alignments of multiple sequences. The
+theory is quite general and applies to alignments of sequences over
+any alphabets, but the biological motivation is to study and
+compare (sub)sequences of DNA and of proteins;
+I must confess that while I was reading slowly in the beginning,
+without much motivation, now I&#39;m quite excited about the subject.
+It has really grown on me and now I see how much I still have to
+catch up to read bleading edge papers (it is also surprising that
+this area of knowledge has evolved so much in so little time, but I
+guess that this is natural whenever there are economic interests in
+a given field). Now, I want to learn more!&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2000-12-05</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-12-05/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-12-05/</link>
+
+
+	<category>complexity-theory</category>
+
+	<category>study</category>
+
+
+	<pubDate>Tue, 05 Dec 2000 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-18T21:01:13Z</dcterms:modified>
+
+	<description>&lt;p&gt;The last day of classes of Computational Complexity. I&#39;m both happy
+and sad. I&#39;m happy because it was quite demanding, with loads of
+homework. But on the other hand, the subject is so cool and I&#39;ll
+certainly miss it.&lt;/p&gt;
+
+&lt;p&gt;I plan to buy Papadimitrou&#39;s book &quot;Computational Complexity&quot;, but I
+must be sincere here and say that I&#39;m quite scared of the sheer
+amount of typos and small errors that this book contains. Indeed if
+you ignore those errors, then the book is really good. I guess that
+it needs a beta-testing phase as it is feature complete.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2000-10-30</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-10-30/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-10-30/</link>
+
+
+	<category>music</category>
+
+	<category>study</category>
+
+
+	<pubDate>Mon, 30 Oct 2000 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-18T20:55:02Z</dcterms:modified>
+
+	<description>&lt;p&gt;I didn&#39;t have any classes today and it was good.&lt;/p&gt;
+
+&lt;p&gt;Trying to see what to do with my huge amount of MP3 files.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2000-10-26</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-10-26/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-10-26/</link>
+
+
+	<category>complexity-theory</category>
+
+	<category>math</category>
+
+	<category>study</category>
+
+
+	<pubDate>Thu, 26 Oct 2000 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-18T20:54:03Z</dcterms:modified>
+
+	<description>&lt;p&gt;I had the &quot;midterm&quot; today. I thought that while the subjects
+covered were well chosen, it was not very well planned regarding
+time. I mean, only 1h40min for all those proofs? A comfortable
+period would be, say, 3h or 4h, but, then, maybe I&#39;m a
+perfectionist. Maybe I&#39;m slow. Maybe both.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2000-10-25</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-10-25/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-10-25/</link>
+
+
+	<category>complexity-theory</category>
+
+	<category>math</category>
+
+	<category>study</category>
+
+
+	<pubDate>Wed, 25 Oct 2000 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-18T20:53:36Z</dcterms:modified>
+
+	<description>&lt;p&gt;Tomorrow I&#39;ll have the &quot;midterm&quot; of Combinatorial Optimization.
+It&#39;s not exactly a midterm, since it is considerably skewed towards
+the end of the semester and I&#39;ll have 3 other tests until the
+course is finished, but I guess that having this many tests is
+actually better than having only two.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m terribly tired, sad (I&#39;m not emotionally very well) and without
+much motivation to study for my test. I have a reasonbly good grasp
+of the theory, but some details of the subject didn&#39;t &quot;sink in&quot; up
+till now and I&#39;m not very much optimistic regarding what I can do
+until tomorrow. In particular, finding negative cycles efficiently
+(i.e., in polynomial time) is still a mystery for me. I have some
+intuition of why the O(nm) algorithm works, but I have still to sit
+down and write a complete, detailed a proof. I wish I had time.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>2000-10-24</title>
 
 
@@ -24,7 +245,7 @@
 
 
 	<pubDate>Tue, 24 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-08T12:14:58Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
 
 	<description>&lt;p&gt;Whew! One of the longest homeworks that I&#39;ve ever had was finished
 today. Programmning Turing Machines takes time.&lt;/p&gt;
@@ -48,7 +269,7 @@ today. Programmning Turing Machines takes time.&lt;/p&gt;
 
 
 	<pubDate>Mon, 16 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-08T12:13:34Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
 
 	<description>&lt;p&gt;After a lot of time doing this Combinatorial Optimization homework,
 I found out that a lot of my colleagues didn&#39;t even bother to prove
@@ -77,7 +298,7 @@ next time?&lt;/p&gt;
 
 
 	<pubDate>Sun, 24 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:45:06Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
 
 	<description>&lt;p&gt;Still doing homework.&lt;/p&gt;
 </description>
@@ -100,7 +321,7 @@ next time?&lt;/p&gt;
 
 
 	<pubDate>Sat, 23 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:44:50Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
 
 	<description>&lt;p&gt;Spent a good part of the day doing homework. Two of &#39;em, in fact.
 One, due Monday. The other, due Tuesday. I&#39;m more enthusiastic
@@ -108,212 +329,6 @@ about Combinatorial Optimization than programming Turing Machines,
 but both classes I&#39;m attending are cool. For someone that enjoys
 theoretical Computer Science, that is. Amazingly, the theory is not
 far from the Real World (tm).&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-09-14</title>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-09-14/</guid>
-
-	<link>http://rb.doesntexist.org/blog//posts/2000-09-14/</link>
-
-
-	<category>life</category>
-
-	<category>music</category>
-
-	<category>study</category>
-
-
-	<pubDate>Thu, 14 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:43:31Z</dcterms:modified>
-
-	<description>&lt;p&gt;Tired. Tired. Tired.&lt;/p&gt;
-
-&lt;p&gt;It seems that my Mastership will have something to do with
-phylogenetic trees. But that is only a wild guess. I&#39;ll have first
-to understand the seemingly (for a Mathematician, at least)
-confusing problems.&lt;/p&gt;
-
-&lt;p&gt;Still haven&#39;t received an answer for my e-mail to Ajato. So much
-for a timely answer.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://rb.doesntexist.org/blog//tags/study/../nectar/index.html&quot;&gt;Nectar&lt;/a&gt; is temporarily disabled. I&#39;m still
-thinking where to host it (e-groups?).&lt;/p&gt;
-
-&lt;p&gt;Still listening to &quot;Classical&quot; Music today: Symphony X and Yngwie
-Malmsteen&#39;s Concerto.&lt;/p&gt;
-
-&lt;p&gt;For some reason, it seems that today I can order from The End
-Records. Weird.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-09-12</title>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-09-12/</guid>
-
-	<link>http://rb.doesntexist.org/blog//posts/2000-09-12/</link>
-
-
-	<category>lame</category>
-
-	<category>linux</category>
-
-	<category>music</category>
-
-	<category>study</category>
-
-
-	<pubDate>Tue, 12 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:41:16Z</dcterms:modified>
-
-	<description>&lt;p&gt;My aunt&#39;s birthday today. Tried to call her, but who said it would
-be possible?&lt;/p&gt;
-
-&lt;p&gt;It seems that a customer of mine that was giving me headaches when
-I tried to receive for a job that I did for him (interconnecting
-his computers with other places) finally gave up avoiding to pay
-me. Nothing like a good threat.&lt;/p&gt;
-
-&lt;p&gt;One of my &lt;a href=&quot;http://www.ime.usp.br/~lymber/&quot;&gt;best friends&lt;/a&gt; (if not
-the best) lent me some Vivaldi and I&#39;ve ripped everything and
-encoded with a version of &lt;a href=&quot;http://www.sulaco.org/mp3/&quot;&gt;LAME&lt;/a&gt; that
-I&#39;ve packaged for Debian.&lt;/p&gt;
-
-&lt;p&gt;My &lt;a href=&quot;http://www.ime.usp.br/~jose/&quot;&gt;advisor&lt;/a&gt; and I decided that we
-should start with my research. Now I need a subject.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-08-31</title>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-08-31/</guid>
-
-	<link>http://rb.doesntexist.org/blog//posts/2000-08-31/</link>
-
-
-	<category>internet</category>
-
-	<category>life</category>
-
-	<category>math</category>
-
-	<category>study</category>
-
-
-	<pubDate>Thu, 31 Aug 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-04-08T12:05:41Z</dcterms:modified>
-
-	<description>&lt;p&gt;&lt;code&gt;&amp;lt;rant&amp;gt;&lt;/code&gt;
-Ugh! Discovered that the
-&lt;a href=&quot;http://www.speedy.com.br&quot;&gt;ADSL service I was planning to sign&lt;/a&gt;
-blocks incoming calls to SMTP and HTTP ports -- since I don&#39;t trust
-anyone to receive and manage my e-mails, I had a plan of setting up
-my own e-mail server. Fsck! If the providers can&#39;t get their
-freaking job done The Right Way (tm), why do they prevent their
-customers from doing it themselves?? It costs them absolutely
-nothing. I mean &lt;em&gt;nothing&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Also discovered that I&#39;ll have a class of &quot;Probabilistic Method&quot;
-during my birthday and only this class. This means that I&#39;ll have
-to endure hours of traffic just to get here to see the class and
-then more painful hours to go back home.
-&lt;code&gt;&amp;lt;/rant&amp;gt;&lt;/code&gt;&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-08-30</title>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-08-30/</guid>
-
-	<link>http://rb.doesntexist.org/blog//posts/2000-08-30/</link>
-
-
-	<category>life</category>
-
-	<category>math</category>
-
-	<category>study</category>
-
-
-	<pubDate>Wed, 30 Aug 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-04-08T12:04:42Z</dcterms:modified>
-
-	<description>&lt;p&gt;Humm... I fear that I won&#39;t be able to handle this
-&lt;a href=&quot;http://www.ime.usp.br/~yoshi/mac5775/&quot;&gt;&quot;Probabilistic Method&quot;&lt;/a&gt;
-course at all. I haven&#39;t felt this lost in classes for quite some
-time (the last time, as I recall, was when I was just entering the
-University). Let&#39;s see what happens as things progress.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-08-23</title>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-08-23/</guid>
-
-	<link>http://rb.doesntexist.org/blog//posts/2000-08-23/</link>
-
-
-	<category>life</category>
-
-	<category>study</category>
-
-
-	<pubDate>Wed, 23 Aug 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:35:24Z</dcterms:modified>
-
-	<description>&lt;p&gt;My mind is getting (even) fuzzier: haven&#39;t got enough sleep all
-these days (an average of 5 or 4 hours) and this is really not
-sufficient for me. This can be attributed to the huge number of
-classes I&#39;m now taking (6). Some of them are interesting, some are
-not. And some were able to scare the shit out of me. I could be
-taking yet another class if I were able to wake up on time today.
-But I wasn&#39;t. I&#39;ll dump some of them anyway, but this week is quite
-hectic. The problem is: there are still two days left for the
-weekend, let alone the fact that I&#39;ll probably have to work this
-Sunday. Oh, well...&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-08-21</title>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-08-21/</guid>
-
-	<link>http://rb.doesntexist.org/blog//posts/2000-08-21/</link>
-
-
-	<category>study</category>
-
-
-	<pubDate>Mon, 21 Aug 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:34:36Z</dcterms:modified>
-
-	<description>&lt;p&gt;Humm... Classes starting today. Waking up early (hate that).&lt;/p&gt;
 </description>
 
 

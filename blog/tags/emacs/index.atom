@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2011-03-12T03:53:18Z</updated>
+<updated>2013-04-18T21:07:26Z</updated>
 <entry>
 	<title>Changing Some Configuration from Defaults</title>
 
@@ -179,6 +179,54 @@ to something that is modern and with many features (and is distributed).&lt;/p&g
 RCS/CVS register to proper (people) names, which git uses. Read the
 &lt;code&gt;git-cvsimport&lt;/code&gt; manpage for more details on this and other options mentioned
 above.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-11-20</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2005-11-20/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2005-11-20/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="emacs" />
+
+	<category term="free-software" />
+
+
+	<updated>2013-04-18T21:07:26Z</updated>
+	<published>2005-11-20T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I&#39;m &lt;em&gt;so&lt;/em&gt; impressed with the
+&lt;a href=&quot;http://packages.debian.org/emacs-snapshot-gtk&quot;&gt;recent improvements&lt;/a&gt;
+in &lt;a href=&quot;http://www.gnu.org/&quot;&gt;GNU&lt;/a&gt; &lt;a href=&quot;http://www.emacswiki.org/&quot;&gt;Emacs&lt;/a&gt;
+that I am sincerely considering using it as my &quot;default operating
+system&quot;.&lt;/p&gt;
+
+&lt;p&gt;Many people say that joking, but the new features along with a more
+user-friendly, really make that an interesting option.&lt;/p&gt;
+
+&lt;p&gt;I use, by the way, the following extra packages from
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rbrito@dumont:~$ COLUMNS=88 dpkg -l | grep -- -el
+ii  debian-el        26.3-1           Emacs helpers specific to Debian users
+ii  emacs-goodies-el 26.3-1           Miscellaneous add-ons for Emacs
+ii  gettext-el       0.14.5-2         Emacs po-mode for editing .po files
+ii  post-el          2004.07.23-2     emacs major mode for editing mail
+rbrito@dumont:~$
+&lt;/code&gt;&lt;/pre&gt;
 
 	</content>
 

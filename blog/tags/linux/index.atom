@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2012-12-09T02:46:34Z</updated>
+<updated>2013-04-18T21:06:09Z</updated>
 <entry>
 	<title>Some experiences with ZFS</title>
 
@@ -47,7 +47,7 @@
 	<category term="zfs" />
 
 
-	<updated>2012-09-09T02:48:33Z</updated>
+	<updated>2012-09-09T02:47:46Z</updated>
 	<published>2012-09-09T02:42:24Z</published>
 
 	<content type="html" xml:lang="en">
@@ -755,16 +755,18 @@ build-dependencies.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2000-09-29</title>
+	<title>2001-02-04</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-09-29/</id>
+	<id>http://rb.doesntexist.org/blog//posts/2001-02-04/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-09-29/"/>
-
-
+	<link href="http://rb.doesntexist.org/blog//posts/2001-02-04/"/>
 
 
 
+
+
+
+	<category term="bind" />
 
 	<category term="debian" />
 
@@ -773,44 +775,14 @@ build-dependencies.&lt;/p&gt;
 	<category term="work" />
 
 
-	<updated>2012-12-09T02:46:34Z</updated>
-	<published>2000-09-29T03:00:00Z</published>
+	<updated>2013-04-18T21:06:09Z</updated>
+	<published>2001-02-04T02:00:00Z</published>
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;An unusual day. First things first, I had the news that one of my
-favourite sites, &lt;a href=&quot;http://www.slashdot.org&quot;&gt;Slashdot&lt;/a&gt; was cracked
-(&lt;em&gt;not&lt;/em&gt; hacked) by some guys from Netherlands. According to the
-reports from Slashdot themselves, it was their careless setting
-that allowed that and that they&#39;ve now learned the lesson and
-secured their boxes. The sad state of computer security. Or
-security in general.&lt;/p&gt;
-
-&lt;p&gt;I don&#39;t know what happened to my mind, but I cleaned my car. Hell&#39;s
-temperature must be getting lower now.&lt;/p&gt;
-
-&lt;p&gt;Then I had to return a Celeron 400MHz that I was using to a place
-&lt;a href=&quot;http://www.linuxcenter.com.br&quot;&gt;where I occasionally work&lt;/a&gt;. It was
-my guinea pig and I used it to test Debian&#39;s woody and, when I felt
-brave, Linux 2.4 pre-releases. Now, I put my good, old, trustworthy
-486 DX/2 66 back to use. It only has 8MB of RAM and a 120MB HD that
-is not sufficient for demanding applications people use nowadays,
-but I made a minimal install of Debian&#39;s slink and upgraded it to
-potato (only 50 megs!), together with a custom compiled kernel.
-Soon it will have 2 NICs and I&#39;ll use it as my router/firewall for
-an ADSL connection (after Slashdot&#39;s fate, I&#39;m willing to put a lot
-of effort in the &quot;firewall&quot; part of it).&lt;/p&gt;
-
-&lt;p&gt;I took the time to see what loads it could handle and I&#39;m more or
-less satisfied with the results I got. I used it to transfer a 50MB
-file to my Pentium MMX via
-&lt;a href=&quot;http://cr.yp.to/publicfile.html&quot;&gt;publicfile&lt;/a&gt; many times and it
-sustained 550KB/s. While I suspect it will not handle the situation
-so gracefully with 2 NICs, it seemed to me that the real bottleneck
-for higher speeds was the disk task, which as a router is close to
-zero.&lt;/p&gt;
-
-&lt;p&gt;All this means that I have no idea what I can expect from it. Oh,
-well.&lt;/p&gt;
+	&lt;p&gt;Tomorrow, I am going to a customer of mine to update his server.
+With the BIND breakage, I&#39;ll have some packages to
+&lt;code&gt;apt-get upgrade&lt;/code&gt;. I&#39;ll also put backups in a systematic way and
+make time updates with NTP.&lt;/p&gt;
 
 	</content>
 
@@ -818,111 +790,11 @@ well.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2000-09-13</title>
+	<title>2001-01-31</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-09-13/</id>
+	<id>http://rb.doesntexist.org/blog//posts/2001-01-31/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-09-13/"/>
-
-
-
-
-
-
-	<category term="filesystems" />
-
-	<category term="life" />
-
-	<category term="linux" />
-
-	<category term="music" />
-
-
-	<updated>2012-12-09T02:42:35Z</updated>
-	<published>2000-09-13T03:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;The nice thing today is that I have slept for 14 hours. I needed
-that. And I still need yet another dose of it.&lt;/p&gt;
-
-&lt;p&gt;It stinks to see that
-&lt;a href=&quot;http://www.ajato.com.br&quot;&gt;broadbrand providers&lt;/a&gt; don&#39;t know their
-shit, when one asks them for it. When I asked them for some not so
-standard technical details, the support got all confused (all of a
-sudden the line becomes silent). Anyway, I could understand that
-they don&#39;t provide me with a fixed IP (but what do they use? DHCP?
-PPP-over-Ethernet?). I&#39;ve sent them an e-mail. I know that I&#39;ll
-receive a &quot;canned&quot; answer.&lt;/p&gt;
-
-&lt;p&gt;Reiserfs 3.5.25 is released and now I can upgrade my kernel to
-2.2.17 with reiserfs and André&#39;s patch.&lt;/p&gt;
-
-&lt;p&gt;I&#39;ve been listening to Vivaldi all day long today. Talking about
-music, I want to order Agalloch&#39;s &quot;Pale Folklore&quot; from
-&lt;a href=&quot;http://www.theendrecords.com&quot;&gt;The End Record&lt;/a&gt;&#39;s on-line form, but
-it seems that their shopping cart doesn&#39;t get anything included
-when I select the album (am I using it correctly?).&lt;/p&gt;
-
-&lt;p&gt;A new Gnapster is released and now I can connect to the main
-&lt;a href=&quot;http://www.napster.com/&quot;&gt;Napster&lt;/a&gt; server again. Woohoo.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2000-09-12</title>
-
-	<id>http://rb.doesntexist.org/blog//posts/2000-09-12/</id>
-
-	<link href="http://rb.doesntexist.org/blog//posts/2000-09-12/"/>
-
-
-
-
-
-
-	<category term="lame" />
-
-	<category term="linux" />
-
-	<category term="music" />
-
-	<category term="study" />
-
-
-	<updated>2012-12-09T02:41:16Z</updated>
-	<published>2000-09-12T03:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;My aunt&#39;s birthday today. Tried to call her, but who said it would
-be possible?&lt;/p&gt;
-
-&lt;p&gt;It seems that a customer of mine that was giving me headaches when
-I tried to receive for a job that I did for him (interconnecting
-his computers with other places) finally gave up avoiding to pay
-me. Nothing like a good threat.&lt;/p&gt;
-
-&lt;p&gt;One of my &lt;a href=&quot;http://www.ime.usp.br/~lymber/&quot;&gt;best friends&lt;/a&gt; (if not
-the best) lent me some Vivaldi and I&#39;ve ripped everything and
-encoded with a version of &lt;a href=&quot;http://www.sulaco.org/mp3/&quot;&gt;LAME&lt;/a&gt; that
-I&#39;ve packaged for Debian.&lt;/p&gt;
-
-&lt;p&gt;My &lt;a href=&quot;http://www.ime.usp.br/~jose/&quot;&gt;advisor&lt;/a&gt; and I decided that we
-should start with my research. Now I need a subject.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2000-09-04</title>
-
-	<id>http://rb.doesntexist.org/blog//posts/2000-09-04/</id>
-
-	<link href="http://rb.doesntexist.org/blog//posts/2000-09-04/"/>
+	<link href="http://rb.doesntexist.org/blog//posts/2001-01-31/"/>
 
 
 
@@ -931,41 +803,154 @@ should start with my research. Now I need a subject.&lt;/p&gt;
 
 	<category term="debian" />
 
-	<category term="filesystems" />
-
-	<category term="kde" />
-
-	<category term="life" />
+	<category term="hardware" />
 
 	<category term="linux" />
 
-	<category term="qt" />
+	<category term="study" />
 
 
-	<updated>2012-12-09T02:39:22Z</updated>
-	<published>2000-09-04T03:00:00Z</published>
+	<updated>2013-04-18T21:04:51Z</updated>
+	<published>2001-01-31T02:00:00Z</published>
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Wow, what a day! I&#39;m getting a bit older today. Some kind people
-have sent me some cards (and some e-cards).&lt;/p&gt;
+	&lt;p&gt;Happy New Millennium! So many things have happened since the last
+time I&#39;ve updated my diary and I guess that since I can&#39;t summarize
+everything accurately, I&#39;ll just list what I think are the
+remarkable facts:&lt;/p&gt;
 
-&lt;p&gt;After the day began that way, I was pleased to learn that my
-September issue of &lt;a href=&quot;http://www.linuxjournal.com&quot;&gt;Linux Journal&lt;/a&gt;
-arrived.&lt;/p&gt;
+&lt;p&gt;I have now put my new computer (a &lt;a href=&quot;http://www.amd.com&quot;&gt;Duron&lt;/a&gt;
+600MHz with a lovely &lt;a href=&quot;http://www.asus.com&quot;&gt;Asus&lt;/a&gt; A7V motherboard)
+to actual use. Of course, I made a backup of my older computer, so
+that I was prepared for worst (read on);
+&lt;a href=&quot;http://www.kernel.org&quot;&gt;Linux 2.4.0&lt;/a&gt; has finally been released and
+it includes a lot of new goodies. While I think that it is still
+not the right time to switch to the new version, it is indeed quite
+tempting (but I&#39;ll resist that temptation, since I&#39;ve read a lot of
+people complaining of data corruption with the new IDE drivers when
+used with VIA chipsets -- and my motherboard features, guess what,
+a VIA chipset, of course).
+At the time of this writing (Feb 4th), Linux 2.4.1 was already
+released, with many minor fixes;
+A &lt;a href=&quot;http://www.debian.org/releases/testing&quot;&gt;new version&lt;/a&gt; of the
+Linux Distribution that I use,
+&lt;a href=&quot;http://www.debian.org&quot;&gt;Debian GNU/Linux&lt;/a&gt; is now getting more and
+more functionality. It is ready for the new Linux 2.4.0 kernel, but
+still under development (read: prone to break). Oh, why can&#39;t new
+software be stable? In the mean time, I&#39;m using Debian&#39;s
+&lt;a href=&quot;http://www.debian.org/releases/potato&quot;&gt;potato&lt;/a&gt;.
+One week after I have started to use my new computer, my 40GB
+Samsung drive broke. Ouch. Fortunately, I had taken backups of
+everything from my old computer and any new data that I had on my
+new computer was still readable. So, now, I&#39;m using a new 30GB
+&lt;a href=&quot;http://www.quantum.com&quot;&gt;Quantum&lt;/a&gt; drive and everything seems to be
+working fine again. Nice.
+I am now reading more and more things about my Mastership work. It
+will be in a sub-area of computer science called
+&lt;a href=&quot;http://rb.doesntexist.org/blog//tags/linux/../compbio/index.html&quot;&gt;Computational (Molecular) Biology&lt;/a&gt;. In
+particular, I&#39;m studying now alignments of multiple sequences. The
+theory is quite general and applies to alignments of sequences over
+any alphabets, but the biological motivation is to study and
+compare (sub)sequences of DNA and of proteins;
+I must confess that while I was reading slowly in the beginning,
+without much motivation, now I&#39;m quite excited about the subject.
+It has really grown on me and now I see how much I still have to
+catch up to read bleading edge papers (it is also surprising that
+this area of knowledge has evolved so much in so little time, but I
+guess that this is natural whenever there are economic interests in
+a given field). Now, I want to learn more!&lt;/p&gt;
 
-&lt;p&gt;Then, it was so nice to see a birthday present in form of a new
-kernel (&lt;a href=&quot;http://www.linux.com&quot;&gt;Linux 2.2.17&lt;/a&gt;) being released.
-Hopefully it will make the feedback and VM system a bit easier on
-the user (now, I just need
-&lt;a href=&quot;http://www.linux-ide.org&quot;&gt;André Hedrick&#39;s IDE&lt;/a&gt; patch and
-&lt;a href=&quot;http://devlinux.net/namesys/&quot;&gt;Reiser FS&lt;/a&gt; ported to 2.2.17). And
-there&#39;s the news that &lt;a href=&quot;http://www.kde.org&quot;&gt;KDE&lt;/a&gt; may be packaged to
-&lt;a href=&quot;http://www.debian.org&quot;&gt;Debian&lt;/a&gt;, now that Qt is being dually
-licensed, which is übercool.&lt;/p&gt;
+	</content>
 
-&lt;p&gt;The day is not over yet and I just got my glasses fixed and now I
-can see the world much clearer. Uh... If all days were like
-this...&lt;/p&gt;
+
+
+</entry>
+<entry>
+	<title>2000-12-12</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-12-12/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-12-12/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="kernel" />
+
+	<category term="linux" />
+
+
+	<updated>2013-04-18T21:02:58Z</updated>
+	<published>2000-12-12T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Went to a customer to upgrade his system, which was using a frozen
+potato. I must confess that I love Debian indeed. The upgrades are
+painless, fast, clean.&lt;/p&gt;
+
+&lt;p&gt;I also upgraded the kernel of the server from 2.2.16 to 2.2.18, now
+that the stable Linux version was just released. And it performs so
+well, serving files to a whole slew of MICROS\~1 machines, despite
+the fact that it only has 32MB of memory. And even more remarkable
+is the fact that it is a server running with lots of things
+on-board. A quite modest machine. Getting its job done. Reliably.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-12-07</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-12-07/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-12-07/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="linux" />
+
+
+	<updated>2013-04-18T21:02:00Z</updated>
+	<published>2000-12-07T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Woohoo! Got Debian&#39;s XFree86 4.0.1 packaged for potato. It&#39;s faster
+with my Trident 3D Imàge 975 than XFree86 3.3.6, because it uses
+more hardware acceleration (in fact, this was the main reason I
+tried to find it).&lt;/p&gt;
+
+&lt;p&gt;Of course, it couldn&#39;t be a painless experience.&lt;/p&gt;
+
+&lt;p&gt;For configuration, dexter didn&#39;t work (it died reproducibly when I
+was configuring it) and xf86cfg didn&#39;t work (I can&#39;t remember the
+reason why it didn&#39;t work). So, I was &quot;forced&quot; to use X&#39;s internal
+autoprobing. But then, my old, 2-button, serial mouse couldn&#39;t be
+used with 3 button emulation. It took me a lot of time to figure
+out how to do that (since the documentation -- both man pages and
+extra documents -- don&#39;t mention it). After some painful hours,
+I&#39;ve discovered the magical line `Option &quot;Emulate3Buttons&quot;&#39;. It
+then worked.&lt;/p&gt;
+
+&lt;p&gt;But then, there were remaining problems: some dock WindowMaker
+utilities were removed when I installed the new X (due to
+dependendy problems). I had to recompile them. Then, rxvt was
+strange. Recompile time again.&lt;/p&gt;
+
+&lt;p&gt;Now, everything seems fine. Another thing to throw on that &quot;extras&quot;
+CD.&lt;/p&gt;
 
 	</content>
 

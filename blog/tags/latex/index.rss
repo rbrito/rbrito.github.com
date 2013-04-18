@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged latex</title>
+<link>http://rb.doesntexist.org/blog//tags/latex/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>2005-11-17</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2005-11-17/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2005-11-17/</link>
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>latex</category>
+
+	<category>tex</category>
+
+
+	<pubDate>Thu, 17 Nov 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-18T21:09:12Z</dcterms:modified>
+
+	<description>&lt;p&gt;It seems that one post of mine to the
+&lt;a href=&quot;http://lists.debian.org/debian-user&quot;&gt;debian-user&lt;/a&gt; mailing list
+stimulated at least one reader to try
+&lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;From: Clive Menzies &amp;lt;clive@xxxxxxxxxxxx.xx.xx&amp;gt;
+To: debian-user@lists.debian.org
+Date: Wed, 16 Nov 2005 00:25:33 +0000
+Subject: Re: Using LaTeX (was: Re: Writing technical text - THANKS !)
+Message-ID: &amp;lt;20051116002533.GI4285@clivemenzies.co.uk&amp;gt;
+User-Agent: Mutt/1.5.11
+
+On (15/11/05 20:49), Rogério Brito wrote:
+
+[snip]
+&amp;gt; I would say that many people learn LaTeX the wrong way: getting a poorly
+&amp;gt; designed document and just changing it quickly until it contains more or
+&amp;gt; less what the person wants it to have.
+&amp;gt;
+&amp;gt; This is wrong in, at least, two aspects:
+&amp;gt;
+&amp;gt; 1 - this is not in line with the philosophy of LaTeX of separation of
+&amp;gt;     content and presentation (which was here for a loooong time before
+&amp;gt;     people in the Web decided to use Cascading Style Sheets with their
+&amp;gt;     pages and all the technology that accompanies XML);
+&amp;gt;
+&amp;gt; 2 - as an extension of point 1, I&#39;d say that writers should learn at
+&amp;gt;     least a modicum of how to use LaTeX macro, so that they create new
+&amp;gt;     environments for their necessities instead of hardcoding things.
+&amp;gt;
+&amp;gt;     See, if you have a good macro, you can even put that in a style file
+&amp;gt;     of your own and forget about formatting something in that way in the
+&amp;gt;     future. In this sense, you can regard your style file as a &quot;library&quot;
+&amp;gt;     (in the computer programming sense) of distilled knowledge.
+&amp;gt;
+&amp;gt;     And this also implies that a good approach to using LaTeX is to
+&amp;gt;     regard the text as &quot;the source code&quot; of your text and even use tools
+&amp;gt;     like control revision systems (e.g., RCS, CVS, Subversion etc).
+&amp;gt;
+&amp;gt; &amp;gt; &quot;apt-get install&quot; is great here, since installing from source has got
+&amp;gt; &amp;gt; to be a nightmare.
+&amp;gt;
+&amp;gt; Don&#39;t forget to install tetex-doc and use the &quot;TeX Catalogue on-line&quot;
+&amp;gt; for looking for packages to accomplish what you want. Also, a *very*
+&amp;gt; good source of information here is the UK TeX FAQ (search in Google).
+&amp;gt; Not only it is very good, but it is quite entertaining.
+
+Thanks Rogerio
+
+I flirted with LaTex briefly, a while ago, but didn&#39;t get very far.
+Your advice prompts me to revisit it :)
+
+Regards
+
+Clive
+
+--
+www.clivemenzies.co.uk ...
+...strategies for business
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the mean time, I&#39;m swamped with middle terms.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

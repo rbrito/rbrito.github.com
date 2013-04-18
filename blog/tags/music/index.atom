@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-04-08T12:08:38Z</updated>
+<updated>2013-04-18T20:56:28Z</updated>
 <entry>
 	<title>A Wish: The Ability of Playing MP3 CDs/DVDs created by iTunes with Free Software</title>
 
@@ -389,6 +389,134 @@ it is an amazing piece of music. Recommended for all fans of good music.&lt;/p&g
 
 </entry>
 <entry>
+	<title>2000-12-01</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-12-01/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-12-01/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="freebsd" />
+
+	<category term="hardware" />
+
+	<category term="linux" />
+
+	<category term="music" />
+
+
+	<updated>2013-04-18T20:56:28Z</updated>
+	<published>2000-12-01T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;After a long time without updates, I&#39;m now back to &quot;work&quot;.
+&lt;a href=&quot;http://www.vai.com&quot;&gt;Steve Vai&lt;/a&gt; is making some concerts here in São
+Paulo, but unfortunately, I didn&#39;t attend it (the tickets&#39; prices
+were a bit on the steep side) and as I&#39;ve just bought myself a new
+new computer (woohoo), I&#39;m saving a bit of money.&lt;/p&gt;
+
+&lt;p&gt;My new machine is a virgin &lt;a href=&quot;http://www.amd.com&quot;&gt;AMD&lt;/a&gt; Duron 600MHz,
+with an &lt;a href=&quot;http://www.asus.com&quot;&gt;Asus&lt;/a&gt; A7V motherboard (which, among
+other things, includes an UDMA/100 controller, FSB frequency
+controls and multiplier control), 128MB of SDRAM/PC133, a great
+&lt;a href=&quot;http://www.matrox.com&quot;&gt;Matrox&lt;/a&gt; G400 card (monohead) with 16MB of
+SGRAM and a &lt;a href=&quot;http://www.samsung.com&quot;&gt;Samsung&lt;/a&gt; HD of 40GB.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m actually quite excited and aside from some problems that I had
+with a defective Matrox (that I&#39;ve now returned), it&#39;s working
+wonderfully. It&#39;s so good that it even runs
+&lt;a href=&quot;http://www.mozilla.org&quot;&gt;Mozilla&lt;/a&gt; quite fast! I can&#39;t wait for
+&lt;a href=&quot;http://www.kde.org&quot;&gt;KDE&lt;/a&gt; 2.0.1 to be released on Monday (Dec 4th)
+so that I can try the latest incarnation of
+&lt;a href=&quot;http://www.konqueror.org&quot;&gt;Konqueror&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;BTW, &lt;a href=&quot;http://www.openbsd.org&quot;&gt;OpenBSD&lt;/a&gt; 2.8 was released today and
+I&#39;ve already downloaded a copy and burned onto CD. I think that
+I&#39;ve made everything right to get a bootable CD, but the CD that
+I&#39;ve made is only able to boot in my new computer. Strange.&lt;/p&gt;
+
+&lt;p&gt;And speaking of BSD, I also have &lt;a href=&quot;http://www.freebsd.org&quot;&gt;FreeBSD&lt;/a&gt;
+4.2-RELEASE downloaded and burned. In fact, I think that I&#39;m
+spending way too much time with this Internet thing (I downloaded
+FreeBSD the very same day it was released -- that&#39;s Nov 21st).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-10-30</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-10-30/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-10-30/"/>
+
+
+
+
+
+
+	<category term="music" />
+
+	<category term="study" />
+
+
+	<updated>2013-04-18T20:55:02Z</updated>
+	<published>2000-10-30T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I didn&#39;t have any classes today and it was good.&lt;/p&gt;
+
+&lt;p&gt;Trying to see what to do with my huge amount of MP3 files.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-10-29</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-10-29/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-10-29/"/>
+
+
+
+
+
+
+	<category term="music" />
+
+	<category term="voting" />
+
+
+	<updated>2013-04-18T20:54:45Z</updated>
+	<published>2000-10-29T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Today is election day again (the city where I live had a second
+turn of elections) and surprisingly computers have helped again. I
+thought the only thing they did was take our free time. It took me
+less than one minute to vote and I didn&#39;t stand in line for hours.
+Something must be wrong.&lt;/p&gt;
+
+&lt;p&gt;I also kept downloading more things from Napster. And my 13GB HD is
+almost completely full. I guess that I&#39;m obessed with broadband.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>2000-10-02</title>
 
 	<id>http://rb.doesntexist.org/blog//posts/2000-10-02/</id>
@@ -405,7 +533,7 @@ it is an amazing piece of music. Recommended for all fans of good music.&lt;/p&g
 	<category term="unix" />
 
 
-	<updated>2013-04-08T12:08:38Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2000-10-02T03:00:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -445,7 +573,7 @@ Napster.&lt;/p&gt;
 	<category term="music" />
 
 
-	<updated>2012-12-09T02:50:17Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2000-10-01T03:00:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -488,7 +616,7 @@ be...&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2012-12-09T02:43:31Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2000-09-14T03:00:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -510,138 +638,6 @@ Malmsteen&#39;s Concerto.&lt;/p&gt;
 
 &lt;p&gt;For some reason, it seems that today I can order from The End
 Records. Weird.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2000-09-13</title>
-
-	<id>http://rb.doesntexist.org/blog//posts/2000-09-13/</id>
-
-	<link href="http://rb.doesntexist.org/blog//posts/2000-09-13/"/>
-
-
-
-
-
-
-	<category term="filesystems" />
-
-	<category term="life" />
-
-	<category term="linux" />
-
-	<category term="music" />
-
-
-	<updated>2012-12-09T02:42:35Z</updated>
-	<published>2000-09-13T03:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;The nice thing today is that I have slept for 14 hours. I needed
-that. And I still need yet another dose of it.&lt;/p&gt;
-
-&lt;p&gt;It stinks to see that
-&lt;a href=&quot;http://www.ajato.com.br&quot;&gt;broadbrand providers&lt;/a&gt; don&#39;t know their
-shit, when one asks them for it. When I asked them for some not so
-standard technical details, the support got all confused (all of a
-sudden the line becomes silent). Anyway, I could understand that
-they don&#39;t provide me with a fixed IP (but what do they use? DHCP?
-PPP-over-Ethernet?). I&#39;ve sent them an e-mail. I know that I&#39;ll
-receive a &quot;canned&quot; answer.&lt;/p&gt;
-
-&lt;p&gt;Reiserfs 3.5.25 is released and now I can upgrade my kernel to
-2.2.17 with reiserfs and André&#39;s patch.&lt;/p&gt;
-
-&lt;p&gt;I&#39;ve been listening to Vivaldi all day long today. Talking about
-music, I want to order Agalloch&#39;s &quot;Pale Folklore&quot; from
-&lt;a href=&quot;http://www.theendrecords.com&quot;&gt;The End Record&lt;/a&gt;&#39;s on-line form, but
-it seems that their shopping cart doesn&#39;t get anything included
-when I select the album (am I using it correctly?).&lt;/p&gt;
-
-&lt;p&gt;A new Gnapster is released and now I can connect to the main
-&lt;a href=&quot;http://www.napster.com/&quot;&gt;Napster&lt;/a&gt; server again. Woohoo.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2000-09-12</title>
-
-	<id>http://rb.doesntexist.org/blog//posts/2000-09-12/</id>
-
-	<link href="http://rb.doesntexist.org/blog//posts/2000-09-12/"/>
-
-
-
-
-
-
-	<category term="lame" />
-
-	<category term="linux" />
-
-	<category term="music" />
-
-	<category term="study" />
-
-
-	<updated>2012-12-09T02:41:16Z</updated>
-	<published>2000-09-12T03:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;My aunt&#39;s birthday today. Tried to call her, but who said it would
-be possible?&lt;/p&gt;
-
-&lt;p&gt;It seems that a customer of mine that was giving me headaches when
-I tried to receive for a job that I did for him (interconnecting
-his computers with other places) finally gave up avoiding to pay
-me. Nothing like a good threat.&lt;/p&gt;
-
-&lt;p&gt;One of my &lt;a href=&quot;http://www.ime.usp.br/~lymber/&quot;&gt;best friends&lt;/a&gt; (if not
-the best) lent me some Vivaldi and I&#39;ve ripped everything and
-encoded with a version of &lt;a href=&quot;http://www.sulaco.org/mp3/&quot;&gt;LAME&lt;/a&gt; that
-I&#39;ve packaged for Debian.&lt;/p&gt;
-
-&lt;p&gt;My &lt;a href=&quot;http://www.ime.usp.br/~jose/&quot;&gt;advisor&lt;/a&gt; and I decided that we
-should start with my research. Now I need a subject.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2000-09-11</title>
-
-	<id>http://rb.doesntexist.org/blog//posts/2000-09-11/</id>
-
-	<link href="http://rb.doesntexist.org/blog//posts/2000-09-11/"/>
-
-
-
-
-
-
-	<category term="life" />
-
-	<category term="music" />
-
-
-	<updated>2012-12-09T02:39:54Z</updated>
-	<published>2000-09-11T03:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Yes, another week is about to begin. And I haven&#39;t slept today.
-Yes, I&#39;m tired. Yes, I&#39;d like to be in bed.&lt;/p&gt;
-
-&lt;p&gt;This is &quot;Classical&quot; Music week. Beethoven&#39;s 5th piano concerto
-today. Hummm! I love the first movement! Simply amazing.&lt;/p&gt;
 
 	</content>
 

@@ -8,6 +8,99 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>2000-12-04</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-12-04/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-12-04/</link>
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>kde</category>
+
+	<category>linux</category>
+
+
+	<pubDate>Mon, 04 Dec 2000 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-18T21:00:15Z</dcterms:modified>
+
+	<description>&lt;p&gt;Today, &lt;a href=&quot;http://www.kde.org&quot;&gt;KDE 2.0.1&lt;/a&gt; was released. To be honest,
+I didn&#39;t notice any changes between KDE 2.0.1 and KDE 2.0, but at
+least the packages are newer and potentially contain new packaging
+fixes also. So, I&#39;m keeping it updated.&lt;/p&gt;
+
+&lt;p&gt;As I said earlier, I&#39;m keeping a local mirror of it with rsync and
+I&#39;m planning on putting a CD with these sweet extra things for
+Debian potato (and my locally packaged programs, of course). Now,
+if I only could get XFree86 4.0.1 for potato, I&#39;d be very happy.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2000-12-02</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-12-02/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-12-02/</link>
+
+
+	<category>debian</category>
+
+	<category>hardware</category>
+
+	<category>kde</category>
+
+	<category>lame</category>
+
+	<category>linux</category>
+
+
+	<pubDate>Sat, 02 Dec 2000 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-18T20:58:40Z</dcterms:modified>
+
+	<description>&lt;p&gt;I&#39;m now mirroring both a repository of
+&lt;a href=&quot;http://kde.tdyc.com&quot;&gt;Debian KDE packages&lt;/a&gt; for potato and
+&lt;a href=&quot;http://www.helixcode.com&quot;&gt;Helix Gnome&lt;/a&gt; for Debian with rsync. It&#39;s
+&lt;em&gt;way&lt;/em&gt; better than mirroring with wget, that&#39;s for sure.&lt;/p&gt;
+
+&lt;p&gt;I was expecting to go to the movies today, but due to some (ahem)
+&quot;technical problems&quot;, I wasn&#39;t able to go. And this made me quite
+sad, but that&#39;s not actually a problem. Perhaps next week.&lt;/p&gt;
+
+&lt;p&gt;Repackaged &lt;a href=&quot;http://lame.sourceforge.net/&quot;&gt;LAME&lt;/a&gt; 3.87beta for
+Debian/potato and it is lintian-clean (!). So far, it seems to be
+good and I think that I&#39;ll post a message to debian-mentors asking
+what could be improved. In fact, the only thing that I don&#39;t like
+in my package is the fact that I&#39;ve hardcoded a Build-Depends:
+libncurses5-dev line in the control file. That&#39;s not quite right,
+IMO, and I&#39;ll learn how to change it soon.&lt;/p&gt;
+
+&lt;p&gt;My next step is to package &lt;a href=&quot;http://cr.yp.to/djb.html&quot;&gt;DJB&lt;/a&gt;&#39;s
+utilities qmail, ucspi-tcp, serialmail and checkpassword. The
+former seems to be quite involved, but the latters seem to be
+trivial enough to package in one afternoon only (am I optimistic or
+what?) and then I&#39;ll be able to switch to my brand new computer
+(MICROS\~1 free) with Debian 2.2 + KDE 2.2 + my local packages (I
+still won&#39;t have XFree86 4.0.1 and all its nifty features, since
+I&#39;ll be waiting for a version of it to be compiled for potato;
+using woody is scary).&lt;/p&gt;
+
+&lt;p&gt;Another package that I may be interested in packaging is a
+ftpparse-ified version of wget (for mirroring
+&lt;a href=&quot;http://cr.yp.to/publicfile.html&quot;&gt;publicfile&lt;/a&gt; repositories).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>2000-09-15</title>
 
 
@@ -22,7 +115,7 @@
 
 
 	<pubDate>Fri, 15 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:44:13Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
 
 	<description>&lt;p&gt;&lt;em&gt;Moz... What!?!&lt;/em&gt; &lt;a href=&quot;http://www.konqueror.org&quot;&gt;Konqueror&lt;/a&gt; all the way!
 Fast and small. It seems that KDE 2 (now, also packaged for Debian)
@@ -57,7 +150,7 @@ haven&#39;t had any problems using it for the last few hours. And
 
 
 	<pubDate>Mon, 04 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:39:22Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
 
 	<description>&lt;p&gt;Wow, what a day! I&#39;m getting a bit older today. Some kind people
 have sent me some cards (and some e-cards).&lt;/p&gt;

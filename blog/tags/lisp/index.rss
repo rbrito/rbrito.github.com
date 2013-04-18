@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged lisp</title>
+<link>http://rb.doesntexist.org/blog//tags/lisp/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>2005-11-19</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2005-11-19/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2005-11-19/</link>
+
+
+	<category>books</category>
+
+	<category>lisp</category>
+
+	<category>study</category>
+
+
+	<pubDate>Sat, 19 Nov 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-18T21:08:06Z</dcterms:modified>
+
+	<description>&lt;p&gt;Purchased some books at discount prices. Nice. Now I can learn
+Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&gt;&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

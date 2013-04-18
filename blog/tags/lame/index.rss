@@ -8,6 +8,64 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>2000-12-02</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-12-02/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2000-12-02/</link>
+
+
+	<category>debian</category>
+
+	<category>hardware</category>
+
+	<category>kde</category>
+
+	<category>lame</category>
+
+	<category>linux</category>
+
+
+	<pubDate>Sat, 02 Dec 2000 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-18T20:58:40Z</dcterms:modified>
+
+	<description>&lt;p&gt;I&#39;m now mirroring both a repository of
+&lt;a href=&quot;http://kde.tdyc.com&quot;&gt;Debian KDE packages&lt;/a&gt; for potato and
+&lt;a href=&quot;http://www.helixcode.com&quot;&gt;Helix Gnome&lt;/a&gt; for Debian with rsync. It&#39;s
+&lt;em&gt;way&lt;/em&gt; better than mirroring with wget, that&#39;s for sure.&lt;/p&gt;
+
+&lt;p&gt;I was expecting to go to the movies today, but due to some (ahem)
+&quot;technical problems&quot;, I wasn&#39;t able to go. And this made me quite
+sad, but that&#39;s not actually a problem. Perhaps next week.&lt;/p&gt;
+
+&lt;p&gt;Repackaged &lt;a href=&quot;http://lame.sourceforge.net/&quot;&gt;LAME&lt;/a&gt; 3.87beta for
+Debian/potato and it is lintian-clean (!). So far, it seems to be
+good and I think that I&#39;ll post a message to debian-mentors asking
+what could be improved. In fact, the only thing that I don&#39;t like
+in my package is the fact that I&#39;ve hardcoded a Build-Depends:
+libncurses5-dev line in the control file. That&#39;s not quite right,
+IMO, and I&#39;ll learn how to change it soon.&lt;/p&gt;
+
+&lt;p&gt;My next step is to package &lt;a href=&quot;http://cr.yp.to/djb.html&quot;&gt;DJB&lt;/a&gt;&#39;s
+utilities qmail, ucspi-tcp, serialmail and checkpassword. The
+former seems to be quite involved, but the latters seem to be
+trivial enough to package in one afternoon only (am I optimistic or
+what?) and then I&#39;ll be able to switch to my brand new computer
+(MICROS\~1 free) with Debian 2.2 + KDE 2.2 + my local packages (I
+still won&#39;t have XFree86 4.0.1 and all its nifty features, since
+I&#39;ll be waiting for a version of it to be compiled for potato;
+using woody is scary).&lt;/p&gt;
+
+&lt;p&gt;Another package that I may be interested in packaging is a
+ftpparse-ified version of wget (for mirroring
+&lt;a href=&quot;http://cr.yp.to/publicfile.html&quot;&gt;publicfile&lt;/a&gt; repositories).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>2000-09-12</title>
 
 
@@ -26,7 +84,7 @@
 
 
 	<pubDate>Tue, 12 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:41:16Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
 
 	<description>&lt;p&gt;My aunt&#39;s birthday today. Tried to call her, but who said it would
 be possible?&lt;/p&gt;

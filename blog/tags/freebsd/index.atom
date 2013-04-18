@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged freebsd</title>
+<link href="http://rb.doesntexist.org/blog//tags/freebsd/"/>
+<link href="http://rb.doesntexist.org/blog//tags/freebsd/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://rb.doesntexist.org/blog//tags/freebsd/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2013-04-18T20:56:28Z</updated>
+<entry>
+	<title>2000-12-01</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-12-01/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-12-01/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="freebsd" />
+
+	<category term="hardware" />
+
+	<category term="linux" />
+
+	<category term="music" />
+
+
+	<updated>2013-04-18T20:56:28Z</updated>
+	<published>2000-12-01T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;After a long time without updates, I&#39;m now back to &quot;work&quot;.
+&lt;a href=&quot;http://www.vai.com&quot;&gt;Steve Vai&lt;/a&gt; is making some concerts here in São
+Paulo, but unfortunately, I didn&#39;t attend it (the tickets&#39; prices
+were a bit on the steep side) and as I&#39;ve just bought myself a new
+new computer (woohoo), I&#39;m saving a bit of money.&lt;/p&gt;
+
+&lt;p&gt;My new machine is a virgin &lt;a href=&quot;http://www.amd.com&quot;&gt;AMD&lt;/a&gt; Duron 600MHz,
+with an &lt;a href=&quot;http://www.asus.com&quot;&gt;Asus&lt;/a&gt; A7V motherboard (which, among
+other things, includes an UDMA/100 controller, FSB frequency
+controls and multiplier control), 128MB of SDRAM/PC133, a great
+&lt;a href=&quot;http://www.matrox.com&quot;&gt;Matrox&lt;/a&gt; G400 card (monohead) with 16MB of
+SGRAM and a &lt;a href=&quot;http://www.samsung.com&quot;&gt;Samsung&lt;/a&gt; HD of 40GB.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m actually quite excited and aside from some problems that I had
+with a defective Matrox (that I&#39;ve now returned), it&#39;s working
+wonderfully. It&#39;s so good that it even runs
+&lt;a href=&quot;http://www.mozilla.org&quot;&gt;Mozilla&lt;/a&gt; quite fast! I can&#39;t wait for
+&lt;a href=&quot;http://www.kde.org&quot;&gt;KDE&lt;/a&gt; 2.0.1 to be released on Monday (Dec 4th)
+so that I can try the latest incarnation of
+&lt;a href=&quot;http://www.konqueror.org&quot;&gt;Konqueror&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;BTW, &lt;a href=&quot;http://www.openbsd.org&quot;&gt;OpenBSD&lt;/a&gt; 2.8 was released today and
+I&#39;ve already downloaded a copy and burned onto CD. I think that
+I&#39;ve made everything right to get a bootable CD, but the CD that
+I&#39;ve made is only able to boot in my new computer. Strange.&lt;/p&gt;
+
+&lt;p&gt;And speaking of BSD, I also have &lt;a href=&quot;http://www.freebsd.org&quot;&gt;FreeBSD&lt;/a&gt;
+4.2-RELEASE downloaded and burned. In fact, I think that I&#39;m
+spending way too much time with this Internet thing (I downloaded
+FreeBSD the very same day it was released -- that&#39;s Nov 21st).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

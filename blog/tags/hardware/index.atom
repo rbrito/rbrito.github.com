@@ -17,7 +17,302 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-04-08T12:04:01Z</updated>
+<updated>2013-04-18T21:04:51Z</updated>
+<entry>
+	<title>2001-01-31</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2001-01-31/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2001-01-31/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="hardware" />
+
+	<category term="linux" />
+
+	<category term="study" />
+
+
+	<updated>2013-04-18T21:04:51Z</updated>
+	<published>2001-01-31T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Happy New Millennium! So many things have happened since the last
+time I&#39;ve updated my diary and I guess that since I can&#39;t summarize
+everything accurately, I&#39;ll just list what I think are the
+remarkable facts:&lt;/p&gt;
+
+&lt;p&gt;I have now put my new computer (a &lt;a href=&quot;http://www.amd.com&quot;&gt;Duron&lt;/a&gt;
+600MHz with a lovely &lt;a href=&quot;http://www.asus.com&quot;&gt;Asus&lt;/a&gt; A7V motherboard)
+to actual use. Of course, I made a backup of my older computer, so
+that I was prepared for worst (read on);
+&lt;a href=&quot;http://www.kernel.org&quot;&gt;Linux 2.4.0&lt;/a&gt; has finally been released and
+it includes a lot of new goodies. While I think that it is still
+not the right time to switch to the new version, it is indeed quite
+tempting (but I&#39;ll resist that temptation, since I&#39;ve read a lot of
+people complaining of data corruption with the new IDE drivers when
+used with VIA chipsets -- and my motherboard features, guess what,
+a VIA chipset, of course).
+At the time of this writing (Feb 4th), Linux 2.4.1 was already
+released, with many minor fixes;
+A &lt;a href=&quot;http://www.debian.org/releases/testing&quot;&gt;new version&lt;/a&gt; of the
+Linux Distribution that I use,
+&lt;a href=&quot;http://www.debian.org&quot;&gt;Debian GNU/Linux&lt;/a&gt; is now getting more and
+more functionality. It is ready for the new Linux 2.4.0 kernel, but
+still under development (read: prone to break). Oh, why can&#39;t new
+software be stable? In the mean time, I&#39;m using Debian&#39;s
+&lt;a href=&quot;http://www.debian.org/releases/potato&quot;&gt;potato&lt;/a&gt;.
+One week after I have started to use my new computer, my 40GB
+Samsung drive broke. Ouch. Fortunately, I had taken backups of
+everything from my old computer and any new data that I had on my
+new computer was still readable. So, now, I&#39;m using a new 30GB
+&lt;a href=&quot;http://www.quantum.com&quot;&gt;Quantum&lt;/a&gt; drive and everything seems to be
+working fine again. Nice.
+I am now reading more and more things about my Mastership work. It
+will be in a sub-area of computer science called
+&lt;a href=&quot;http://rb.doesntexist.org/blog//tags/hardware/../compbio/index.html&quot;&gt;Computational (Molecular) Biology&lt;/a&gt;. In
+particular, I&#39;m studying now alignments of multiple sequences. The
+theory is quite general and applies to alignments of sequences over
+any alphabets, but the biological motivation is to study and
+compare (sub)sequences of DNA and of proteins;
+I must confess that while I was reading slowly in the beginning,
+without much motivation, now I&#39;m quite excited about the subject.
+It has really grown on me and now I see how much I still have to
+catch up to read bleading edge papers (it is also surprising that
+this area of knowledge has evolved so much in so little time, but I
+guess that this is natural whenever there are economic interests in
+a given field). Now, I want to learn more!&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-12-07</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-12-07/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-12-07/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="linux" />
+
+
+	<updated>2013-04-18T21:02:00Z</updated>
+	<published>2000-12-07T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Woohoo! Got Debian&#39;s XFree86 4.0.1 packaged for potato. It&#39;s faster
+with my Trident 3D Imàge 975 than XFree86 3.3.6, because it uses
+more hardware acceleration (in fact, this was the main reason I
+tried to find it).&lt;/p&gt;
+
+&lt;p&gt;Of course, it couldn&#39;t be a painless experience.&lt;/p&gt;
+
+&lt;p&gt;For configuration, dexter didn&#39;t work (it died reproducibly when I
+was configuring it) and xf86cfg didn&#39;t work (I can&#39;t remember the
+reason why it didn&#39;t work). So, I was &quot;forced&quot; to use X&#39;s internal
+autoprobing. But then, my old, 2-button, serial mouse couldn&#39;t be
+used with 3 button emulation. It took me a lot of time to figure
+out how to do that (since the documentation -- both man pages and
+extra documents -- don&#39;t mention it). After some painful hours,
+I&#39;ve discovered the magical line `Option &quot;Emulate3Buttons&quot;&#39;. It
+then worked.&lt;/p&gt;
+
+&lt;p&gt;But then, there were remaining problems: some dock WindowMaker
+utilities were removed when I installed the new X (due to
+dependendy problems). I had to recompile them. Then, rxvt was
+strange. Recompile time again.&lt;/p&gt;
+
+&lt;p&gt;Now, everything seems fine. Another thing to throw on that &quot;extras&quot;
+CD.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-12-03</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-12-03/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-12-03/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="linux" />
+
+
+	<updated>2013-04-18T20:59:35Z</updated>
+	<published>2000-12-03T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I can&#39;t believe, but I&#39;ve packaged &lt;em&gt;all&lt;/em&gt; those programs in just a
+day. Granted, I was really tired when I finished and that was the
+only thing I did today. But it was worth it, because now I can
+migrate my computer to the new one quite easily (I really love
+qmail and I sincerely depend on it to achieve happiness).&lt;/p&gt;
+
+&lt;p&gt;My qmail package is not as &quot;clean&quot; as I&#39;d like it be (for instance,
+it would be nice if I made its configuration use debconf, but I
+think that that is a task for another day).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-12-02</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-12-02/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-12-02/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="hardware" />
+
+	<category term="kde" />
+
+	<category term="lame" />
+
+	<category term="linux" />
+
+
+	<updated>2013-04-18T20:58:40Z</updated>
+	<published>2000-12-02T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I&#39;m now mirroring both a repository of
+&lt;a href=&quot;http://kde.tdyc.com&quot;&gt;Debian KDE packages&lt;/a&gt; for potato and
+&lt;a href=&quot;http://www.helixcode.com&quot;&gt;Helix Gnome&lt;/a&gt; for Debian with rsync. It&#39;s
+&lt;em&gt;way&lt;/em&gt; better than mirroring with wget, that&#39;s for sure.&lt;/p&gt;
+
+&lt;p&gt;I was expecting to go to the movies today, but due to some (ahem)
+&quot;technical problems&quot;, I wasn&#39;t able to go. And this made me quite
+sad, but that&#39;s not actually a problem. Perhaps next week.&lt;/p&gt;
+
+&lt;p&gt;Repackaged &lt;a href=&quot;http://lame.sourceforge.net/&quot;&gt;LAME&lt;/a&gt; 3.87beta for
+Debian/potato and it is lintian-clean (!). So far, it seems to be
+good and I think that I&#39;ll post a message to debian-mentors asking
+what could be improved. In fact, the only thing that I don&#39;t like
+in my package is the fact that I&#39;ve hardcoded a Build-Depends:
+libncurses5-dev line in the control file. That&#39;s not quite right,
+IMO, and I&#39;ll learn how to change it soon.&lt;/p&gt;
+
+&lt;p&gt;My next step is to package &lt;a href=&quot;http://cr.yp.to/djb.html&quot;&gt;DJB&lt;/a&gt;&#39;s
+utilities qmail, ucspi-tcp, serialmail and checkpassword. The
+former seems to be quite involved, but the latters seem to be
+trivial enough to package in one afternoon only (am I optimistic or
+what?) and then I&#39;ll be able to switch to my brand new computer
+(MICROS\~1 free) with Debian 2.2 + KDE 2.2 + my local packages (I
+still won&#39;t have XFree86 4.0.1 and all its nifty features, since
+I&#39;ll be waiting for a version of it to be compiled for potato;
+using woody is scary).&lt;/p&gt;
+
+&lt;p&gt;Another package that I may be interested in packaging is a
+ftpparse-ified version of wget (for mirroring
+&lt;a href=&quot;http://cr.yp.to/publicfile.html&quot;&gt;publicfile&lt;/a&gt; repositories).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-12-01</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-12-01/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-12-01/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="freebsd" />
+
+	<category term="hardware" />
+
+	<category term="linux" />
+
+	<category term="music" />
+
+
+	<updated>2013-04-18T20:56:28Z</updated>
+	<published>2000-12-01T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;After a long time without updates, I&#39;m now back to &quot;work&quot;.
+&lt;a href=&quot;http://www.vai.com&quot;&gt;Steve Vai&lt;/a&gt; is making some concerts here in São
+Paulo, but unfortunately, I didn&#39;t attend it (the tickets&#39; prices
+were a bit on the steep side) and as I&#39;ve just bought myself a new
+new computer (woohoo), I&#39;m saving a bit of money.&lt;/p&gt;
+
+&lt;p&gt;My new machine is a virgin &lt;a href=&quot;http://www.amd.com&quot;&gt;AMD&lt;/a&gt; Duron 600MHz,
+with an &lt;a href=&quot;http://www.asus.com&quot;&gt;Asus&lt;/a&gt; A7V motherboard (which, among
+other things, includes an UDMA/100 controller, FSB frequency
+controls and multiplier control), 128MB of SDRAM/PC133, a great
+&lt;a href=&quot;http://www.matrox.com&quot;&gt;Matrox&lt;/a&gt; G400 card (monohead) with 16MB of
+SGRAM and a &lt;a href=&quot;http://www.samsung.com&quot;&gt;Samsung&lt;/a&gt; HD of 40GB.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m actually quite excited and aside from some problems that I had
+with a defective Matrox (that I&#39;ve now returned), it&#39;s working
+wonderfully. It&#39;s so good that it even runs
+&lt;a href=&quot;http://www.mozilla.org&quot;&gt;Mozilla&lt;/a&gt; quite fast! I can&#39;t wait for
+&lt;a href=&quot;http://www.kde.org&quot;&gt;KDE&lt;/a&gt; 2.0.1 to be released on Monday (Dec 4th)
+so that I can try the latest incarnation of
+&lt;a href=&quot;http://www.konqueror.org&quot;&gt;Konqueror&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;BTW, &lt;a href=&quot;http://www.openbsd.org&quot;&gt;OpenBSD&lt;/a&gt; 2.8 was released today and
+I&#39;ve already downloaded a copy and burned onto CD. I think that
+I&#39;ve made everything right to get a bootable CD, but the CD that
+I&#39;ve made is only able to boot in my new computer. Strange.&lt;/p&gt;
+
+&lt;p&gt;And speaking of BSD, I also have &lt;a href=&quot;http://www.freebsd.org&quot;&gt;FreeBSD&lt;/a&gt;
+4.2-RELEASE downloaded and burned. In fact, I think that I&#39;m
+spending way too much time with this Internet thing (I downloaded
+FreeBSD the very same day it was released -- that&#39;s Nov 21st).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>2000-08-19</title>
 
@@ -43,7 +338,7 @@
 	<category term="symphony-x" />
 
 
-	<updated>2013-04-08T12:04:01Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2000-08-19T03:00:00Z</published>
 
 	<content type="html" xml:lang="en">

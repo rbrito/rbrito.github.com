@@ -8,6 +8,36 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>2001-02-04</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-02-04/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2001-02-04/</link>
+
+
+	<category>bind</category>
+
+	<category>debian</category>
+
+	<category>linux</category>
+
+	<category>work</category>
+
+
+	<pubDate>Sun, 04 Feb 2001 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-04-18T21:06:09Z</dcterms:modified>
+
+	<description>&lt;p&gt;Tomorrow, I am going to a customer of mine to update his server.
+With the BIND breakage, I&#39;ll have some packages to
+&lt;code&gt;apt-get upgrade&lt;/code&gt;. I&#39;ll also put backups in a systematic way and
+make time updates with NTP.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>2000-09-29</title>
 
 
@@ -24,7 +54,7 @@
 
 
 	<pubDate>Fri, 29 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:46:34Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
 
 	<description>&lt;p&gt;An unusual day. First things first, I had the news that one of my
 favourite sites, &lt;a href=&quot;http://www.slashdot.org&quot;&gt;Slashdot&lt;/a&gt; was cracked

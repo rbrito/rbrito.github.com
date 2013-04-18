@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged bind</title>
+<link href="http://rb.doesntexist.org/blog//tags/bind/"/>
+<link href="http://rb.doesntexist.org/blog//tags/bind/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://rb.doesntexist.org/blog//tags/bind/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2013-04-18T21:06:09Z</updated>
+<entry>
+	<title>2001-02-04</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2001-02-04/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2001-02-04/"/>
+
+
+
+
+
+
+	<category term="bind" />
+
+	<category term="debian" />
+
+	<category term="linux" />
+
+	<category term="work" />
+
+
+	<updated>2013-04-18T21:06:09Z</updated>
+	<published>2001-02-04T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Tomorrow, I am going to a customer of mine to update his server.
+With the BIND breakage, I&#39;ll have some packages to
+&lt;code&gt;apt-get upgrade&lt;/code&gt;. I&#39;ll also put backups in a systematic way and
+make time updates with NTP.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

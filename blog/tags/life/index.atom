@@ -17,7 +17,33 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-04-08T12:05:41Z</updated>
+<updated>2013-04-18T21:06:45Z</updated>
+<entry>
+	<title>2005-12-14</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2005-12-14/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2005-12-14/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+
+	<updated>2013-04-18T21:06:45Z</updated>
+	<published>2005-12-14T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Ich bin müde.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>2000-10-01</title>
 
@@ -37,7 +63,7 @@
 	<category term="music" />
 
 
-	<updated>2012-12-09T02:50:17Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2000-10-01T03:00:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -78,7 +104,7 @@ be...&lt;/p&gt;
 	<category term="movies" />
 
 
-	<updated>2012-12-09T02:48:56Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2000-09-30T03:00:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -112,7 +138,7 @@ I&#39;d like to get home not so fast next time).&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2012-12-09T02:45:06Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2000-09-24T03:00:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -140,7 +166,7 @@ I&#39;d like to get home not so fast next time).&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2012-12-09T02:44:50Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2000-09-23T03:00:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -175,7 +201,7 @@ far from the Real World (tm).&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2012-12-09T02:43:31Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2000-09-14T03:00:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -224,7 +250,7 @@ Records. Weird.&lt;/p&gt;
 	<category term="music" />
 
 
-	<updated>2012-12-09T02:42:35Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2000-09-13T03:00:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -274,7 +300,7 @@ when I select the album (am I using it correctly?).&lt;/p&gt;
 	<category term="music" />
 
 
-	<updated>2012-12-09T02:39:54Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2000-09-11T03:00:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -314,7 +340,7 @@ today. Hummm! I love the first movement! Simply amazing.&lt;/p&gt;
 	<category term="qt" />
 
 
-	<updated>2012-12-09T02:39:22Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2000-09-04T03:00:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -359,7 +385,7 @@ this...&lt;/p&gt;
 	<category term="life" />
 
 
-	<updated>2012-12-09T02:37:23Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2000-09-01T03:00:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -371,52 +397,6 @@ past night, just when I was going to sleep my brand new glasses got
 broken. I&#39;m now using some old glasses and I can&#39;t see very well.
 The interesting thing: I didn&#39;t even pay all parcels of my new
 glasses. I just wish I didn&#39;t have this huge shortsightedness.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2000-08-31</title>
-
-	<id>http://rb.doesntexist.org/blog//posts/2000-08-31/</id>
-
-	<link href="http://rb.doesntexist.org/blog//posts/2000-08-31/"/>
-
-
-
-
-
-
-	<category term="internet" />
-
-	<category term="life" />
-
-	<category term="math" />
-
-	<category term="study" />
-
-
-	<updated>2013-04-08T12:05:41Z</updated>
-	<published>2000-08-31T03:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;&lt;code&gt;&amp;lt;rant&amp;gt;&lt;/code&gt;
-Ugh! Discovered that the
-&lt;a href=&quot;http://www.speedy.com.br&quot;&gt;ADSL service I was planning to sign&lt;/a&gt;
-blocks incoming calls to SMTP and HTTP ports -- since I don&#39;t trust
-anyone to receive and manage my e-mails, I had a plan of setting up
-my own e-mail server. Fsck! If the providers can&#39;t get their
-freaking job done The Right Way (tm), why do they prevent their
-customers from doing it themselves?? It costs them absolutely
-nothing. I mean &lt;em&gt;nothing&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Also discovered that I&#39;ll have a class of &quot;Probabilistic Method&quot;
-during my birthday and only this class. This means that I&#39;ll have
-to endure hours of traffic just to get here to see the class and
-then more painful hours to go back home.
-&lt;code&gt;&amp;lt;/rant&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 	</content>
 

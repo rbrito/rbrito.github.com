@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2011-04-03T01:21:31Z</updated>
+<updated>2013-04-18T21:02:58Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -505,6 +505,45 @@ your system and, if not known, discovery by trial-and-error. (For x86
 systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2000-12-12</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2000-12-12/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2000-12-12/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="kernel" />
+
+	<category term="linux" />
+
+
+	<updated>2013-04-18T21:02:58Z</updated>
+	<published>2000-12-12T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Went to a customer to upgrade his system, which was using a frozen
+potato. I must confess that I love Debian indeed. The upgrades are
+painless, fast, clean.&lt;/p&gt;
+
+&lt;p&gt;I also upgraded the kernel of the server from 2.2.16 to 2.2.18, now
+that the stable Linux version was just released. And it performs so
+well, serving files to a whole slew of MICROS\~1 machines, despite
+the fact that it only has 32MB of memory. And even more remarkable
+is the fact that it is a server running with lots of things
+on-board. A quite modest machine. Getting its job done. Reliably.&lt;/p&gt;
 
 	</content>
 
