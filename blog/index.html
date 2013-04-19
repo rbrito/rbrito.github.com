@@ -123,9 +123,9 @@ Rogério Brito's Digital Junkyard
         <td class="month-calendar-day-nolink Monday">15</td>
         <td class="month-calendar-day-nolink Tuesday">16</td>
         <td class="month-calendar-day-nolink Wednesday">17</td>
-        <td class="month-calendar-day-this-day Thursday">18</td>
-        <td class="month-calendar-day-future Friday">19</td>
-        <td class="month-calendar-day-nolink Saturday">20</td>
+        <td class="month-calendar-day-nolink Thursday">18</td>
+        <td class="month-calendar-day-this-day Friday"><a href="./posts/debian_activities/" title="debian activities">19</a></td>
+        <td class="month-calendar-day-future Saturday">20</td>
     </tr>
     <tr>
         <td class="month-calendar-day-nolink Sunday">21</td>
@@ -284,6 +284,124 @@ Rogério Brito's Digital Junkyard
 <a class="feedbutton" type="application/atom+xml" rel="alternate" title="Rogério Brito's Digital Junkyard (Atom feed)" href="index.atom">Atom</a>
 
 </div>
+<article class="inlinepage">
+
+<section class="inlineheader">
+
+<header class="header">
+
+<a href="./posts/debian_activities/">Some recent Debian activities</a>
+
+</header>
+</section>
+
+<section class="inlinecontent">
+<p>I have been occasionally working on some Debian-related tasks.</p>
+
+<h1>Chrony</h1>
+
+<p>One of those was to get chrony is a slightly better shape, by using, at
+least, a patch system (indeed, I "modernized" its packaging with the format
+"3.0 (quilt)"), put it in <a href="http://anonscm.debian.org/gitweb/?p=users/rbrito-guest/chrony.git">a git repository</a> and would like to receive some
+comments on what I have so far.</p>
+
+<p>The bug <a href="http://bugs.debian.org/694690">Debian bug #694690</a> contains a very brief description of my
+intentions and of the problems that I see in the current package. IMVHO, it
+is a very nice NTP client and server and it could even be used as the
+default for Debian, once it gets in shape.  There is at least another
+high-profile distribution, namely Fedora, that
+<a href="http://fedoraproject.org/wiki/Features/ChronyDefaultNTP">switched to chrony as its default NTP software</a>. We can certainly take a
+look at what they are doing and join forces here.</p>
+
+<h1>MongoDB</h1>
+
+<p>Another package where I spent some time was with <a href="http://packages.qa.debian.org/mongodb">mongodb</a>:
+MongoDB is a tricky package that is only built for 2 arches: amd64 and
+i386.  The version in unstable for i386 was 2.0.x (roughly the same as for
+wheezy), which the version in unstable for amd64 was 2.4.1, which has many
+features that 2.0 lacks.</p>
+
+<p>The packaging of it is a bit tricky, since the source tree has bazillion
+embedded/convenience libraries (e.g., Google's v8, Mozilla's spidermonkey,
+BOOST, Google's Snappy, PCRE 3 etc.). Up to version 2.4.1-2, it used all
+these convenience copies, which is of course, a problem for a distribution
+like Debian.</p>
+
+<p><a href="http://packages.qa.debian.org/m/mongodb/news/20130417T171917Z.html">I changed</a> part of the build process to use the libraries that we
+already have in Debian and, as Antonin Kral uploaded this newer version,
+unsurprisingly the binary packages are smaller (especially if you take into
+account that a handful of the libraries may already be installed on the
+system).</p>
+
+<p>A few hours later, Antonin uploaded a new upstream version, which means that
+we now have better MongoDB packages to play with.  I am, in fact, really
+playing with MongoDB as my first NoSQL database, since
+[10gen is giving an introductory course][2.5] on how it works and my
+motivation was to get what we have in Debian in shape for the course.</p>
+
+<p>You can say that I am a firm believer of the "eat your own dogfood"
+principle.</p>
+
+<p>Regarding MongoDB only being built for i386 and amd64, the BTS
+<a href="http://bugs.debian.org/703061">has a patch</a> to enable building for kFreeBSD, but the patch is for the
+2.0 series and the code has changed so drastically in relation to the 2.4
+series that there is no hope of it applying.  It would be super nice to have
+MongoDB working on kFreeBSD and on HURD also, though.</p>
+
+<h1>nocache</h1>
+
+<p>There is a very nice command line program called <code>nocache</code> that was packaged
+by Dmitry Smirnov (and just approved by the FTP masters!) whose packaging I
+briefly reviewed per Dmitry's request and this is an amazing utility whose
+purpose is to bypass/minimize file system caching for a program.</p>
+
+<p>This is especially useful when you are making backups (reading lots of files
+that would, otherwise, fill the filesystem cache, even if they are not used
+frequently) or if you are just streaming one file (possibly larger than the
+system's RAM) to another computer and you have no need to use the file
+immediately after that.</p>
+
+<p>It performs its job by using the <code>LD_PRELOAD</code> mechanism and using
+<code>posix_fadvise</code>'s flag <code>POSIX_FADV_DONTNEED</code> for the files that will be
+touched.</p>
+
+<h1>Post note</h1>
+
+<p>Oh, just one aside: for the readers of Debian Planet and other aggregation
+services which are not Debian Developers/Maintainers, I contributed to these
+packages without being the maintainer of them, just scratching some itches
+and contributing back what I produced.</p>
+
+</section>
+
+<footer class="inlinefooter">
+
+<span class="pagedate">
+Posted <time datetime="2013-04-19T07:29:23Z" pubdate="pubdate">2013-04-19T04:29:23 BRT</time>
+</span>
+
+
+<nav class="tags">
+Tags:
+
+<a href="./tags/debian/" rel="tag">debian</a>
+
+<a href="./tags/free-software/" rel="tag">free-software</a>
+
+<a href="./tags/linux/" rel="tag">linux</a>
+
+</nav>
+
+
+
+
+
+
+
+
+</footer>
+
+</article>
 <article class="inlinepage">
 
 <section class="inlineheader">
@@ -1327,131 +1445,6 @@ Tags:
 <a href="./tags/mac/" rel="tag">mac</a>
 
 <a href="./tags/powerpc/" rel="tag">powerpc</a>
-
-</nav>
-
-
-
-
-
-
-
-
-</footer>
-
-</article>
-<article class="inlinepage">
-
-<section class="inlineheader">
-
-<header class="header">
-
-<a href="./posts/some_solutions_with_chromium/">(Some) Solutions with Chromium</a>
-
-</header>
-</section>
-
-<section class="inlinecontent">
-<p>In <a href="./posts/problems_with_chromium/">my previous post</a>, I was pointing out some of
-my frustrations with Chromium/Chrome.  A very kind reader, Timo Juhani
-Lindfors, gave me answers to many of the problems that I pointed out and got
-me straight on some issues:</p>
-
-<blockquote><ul>
-<li>I can disable full zoom in Iceweasel (i.e., I only want to zoom the text,
-not the images). According to Chromium's project BTS, it seems that this
-will be a <code>WONTFIX</code> bug, despite many people asking for it (and it having
-a lot of duplicates).</li>
-</ul>
-</blockquote>
-
-<p>Timo told me that there is an extension called <a href="https://chrome.google.com/webstore/detail/ombpcpigmndepfckcifdblemkabaoihk">"Font Size Increase"</a>
-(ID: ombpcpigmndepfckcifdblemkabaoihk) that adds a button on the side of the
-URL bar that you can click to increase the size of the text, without
-affecting the size of the images. Highly recommended.</p>
-
-<p>Not that I need this one as much as "Font Size Increase", but there is also
-a <a href="https://chrome.google.com/webstore/detail/mpajngnpcmjjeoflljdjpnehcfaldcia">"Font Size Decrease"</a> (ID: mpajngnpcmjjeoflljdjpnehcfaldcia) that,
-as the name implies, decreases the size of the text. It is nice to have this
-one when you clicked on the button to increase the size of the font one or
-two times too many.</p>
-
-<blockquote><ul>
-<li>In Iceweasel, I have a way (without resorting to many extensions or
-hackish solutions) to use the equivalent of Firefox's "View > Page Style >
-No Style" (i.e., to ignore any CSS sheet that the document author may have
-specified on the page).</li>
-</ul>
-</blockquote>
-
-<p>Timo also told me that there is a very cool extension called
-<a href="https://chrome.google.com/webstore/detail/ddpkgkegfklikkmfmneldonhldahhacb">"Chrome Page Style"</a> (ID: ddpkgkegfklikkmfmneldonhldahhacb) that
-allows you to alternate between stylesheets provided by the page (see Joey
-Hess's <a href="http://ikiwiki.info/css_market/">ikiwiki's CSS Market</a> for an example of that).</p>
-
-<p>It also has the possibility of disabling all the CSS'es that a page may
-have, which, in many cases around the web <em>actually improves</em> the
-readability of the pages, for many "fancy" things detract from readability,
-especially if you have poor eyesight.</p>
-
-<p>Although I had said that I didn't want to resort to extensions, this was a
-simple solution enough that made me consider revisit my requirements.  I do,
-though, wonder why some frequently used extensions are not built into the
-programs from stock.</p>
-
-<blockquote><ul>
-<li>In Iceweasel, I can press <code>Ctrl+Q</code> and make the damn browser quit, instead
-of me having to use the mouse/trackpad/pointing device. This is probably a
-lack of my understanding on how to associate key bindings to Chromium, but
-the problem still stands.</li>
-</ul>
-</blockquote>
-
-<p>Of course, Timo also set me straight and told me about <code>Ctrl+Shift+Q</code> for
-that purpose, which I had missed completely.</p>
-
-<blockquote><ul>
-<li>Similarly, when there is only one tab open, pressing <code>Ctrl+W</code> in Chromium
-does not close the tab (say, presenting me a blank tab or the list of most
-visited sites), nor it closes the application.</li>
-</ul>
-</blockquote>
-
-<p>As a poor writing of my part, <code>Ctrl+W</code> does close the tabs. But when there
-is only one tab present, it doesn't close the window. I'm OK with that,
-since I now know the way to close the window. Thanks again Timo.</p>
-
-<p>Oh, and one point that may not be known by many is that using <code>about:flags</code>
-in Chrome does something analogue to Firefox's <code>about:config</code> (even with the
-warning).</p>
-
-<p>And tweaking with it you can try to see if you can enable hardware
-acceleration of some parts of your pages, as present in newer releases of
-Chromium.</p>
-
-<p>So, there I am: way more satisfied than with earlier with Chromium, but
-still having Firefox/Iceweasel as my primary browser. Good to have two
-usable browsers now.</p>
-
-</section>
-
-<footer class="inlinefooter">
-
-<span class="pagedate">
-Posted <time datetime="2011-03-09T17:33:00Z" pubdate="pubdate">2011-03-09T14:33:00 BRT</time>
-</span>
-
-
-<nav class="tags">
-Tags:
-
-<a href="./tags/browsers/" rel="tag">browsers</a>
-
-<a href="./tags/debian/" rel="tag">debian</a>
-
-<a href="./tags/extensions/" rel="tag">extensions</a>
-
-<a href="./tags/free-software/" rel="tag">free-software</a>
 
 </nav>
 

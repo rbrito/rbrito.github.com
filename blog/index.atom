@@ -17,7 +17,111 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-04-18T20:50:59Z</updated>
+<updated>2013-04-19T07:39:20Z</updated>
+<entry>
+	<title>Some recent Debian activities</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/debian_activities/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/debian_activities/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="linux" />
+
+
+	<updated>2013-04-19T07:39:20Z</updated>
+	<published>2013-04-19T07:29:23Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
+
+&lt;h1&gt;Chrony&lt;/h1&gt;
+
+&lt;p&gt;One of those was to get chrony is a slightly better shape, by using, at
+least, a patch system (indeed, I &quot;modernized&quot; its packaging with the format
+&quot;3.0 (quilt)&quot;), put it in &lt;a href=&quot;http://anonscm.debian.org/gitweb/?p=users/rbrito-guest/chrony.git&quot;&gt;a git repository&lt;/a&gt; and would like to receive some
+comments on what I have so far.&lt;/p&gt;
+
+&lt;p&gt;The bug &lt;a href=&quot;http://bugs.debian.org/694690&quot;&gt;Debian bug #694690&lt;/a&gt; contains a very brief description of my
+intentions and of the problems that I see in the current package. IMVHO, it
+is a very nice NTP client and server and it could even be used as the
+default for Debian, once it gets in shape.  There is at least another
+high-profile distribution, namely Fedora, that
+&lt;a href=&quot;http://fedoraproject.org/wiki/Features/ChronyDefaultNTP&quot;&gt;switched to chrony as its default NTP software&lt;/a&gt;. We can certainly take a
+look at what they are doing and join forces here.&lt;/p&gt;
+
+&lt;h1&gt;MongoDB&lt;/h1&gt;
+
+&lt;p&gt;Another package where I spent some time was with &lt;a href=&quot;http://packages.qa.debian.org/mongodb&quot;&gt;mongodb&lt;/a&gt;:
+MongoDB is a tricky package that is only built for 2 arches: amd64 and
+i386.  The version in unstable for i386 was 2.0.x (roughly the same as for
+wheezy), which the version in unstable for amd64 was 2.4.1, which has many
+features that 2.0 lacks.&lt;/p&gt;
+
+&lt;p&gt;The packaging of it is a bit tricky, since the source tree has bazillion
+embedded/convenience libraries (e.g., Google&#39;s v8, Mozilla&#39;s spidermonkey,
+BOOST, Google&#39;s Snappy, PCRE 3 etc.). Up to version 2.4.1-2, it used all
+these convenience copies, which is of course, a problem for a distribution
+like Debian.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://packages.qa.debian.org/m/mongodb/news/20130417T171917Z.html&quot;&gt;I changed&lt;/a&gt; part of the build process to use the libraries that we
+already have in Debian and, as Antonin Kral uploaded this newer version,
+unsurprisingly the binary packages are smaller (especially if you take into
+account that a handful of the libraries may already be installed on the
+system).&lt;/p&gt;
+
+&lt;p&gt;A few hours later, Antonin uploaded a new upstream version, which means that
+we now have better MongoDB packages to play with.  I am, in fact, really
+playing with MongoDB as my first NoSQL database, since
+[10gen is giving an introductory course][2.5] on how it works and my
+motivation was to get what we have in Debian in shape for the course.&lt;/p&gt;
+
+&lt;p&gt;You can say that I am a firm believer of the &quot;eat your own dogfood&quot;
+principle.&lt;/p&gt;
+
+&lt;p&gt;Regarding MongoDB only being built for i386 and amd64, the BTS
+&lt;a href=&quot;http://bugs.debian.org/703061&quot;&gt;has a patch&lt;/a&gt; to enable building for kFreeBSD, but the patch is for the
+2.0 series and the code has changed so drastically in relation to the 2.4
+series that there is no hope of it applying.  It would be super nice to have
+MongoDB working on kFreeBSD and on HURD also, though.&lt;/p&gt;
+
+&lt;h1&gt;nocache&lt;/h1&gt;
+
+&lt;p&gt;There is a very nice command line program called &lt;code&gt;nocache&lt;/code&gt; that was packaged
+by Dmitry Smirnov (and just approved by the FTP masters!) whose packaging I
+briefly reviewed per Dmitry&#39;s request and this is an amazing utility whose
+purpose is to bypass/minimize file system caching for a program.&lt;/p&gt;
+
+&lt;p&gt;This is especially useful when you are making backups (reading lots of files
+that would, otherwise, fill the filesystem cache, even if they are not used
+frequently) or if you are just streaming one file (possibly larger than the
+system&#39;s RAM) to another computer and you have no need to use the file
+immediately after that.&lt;/p&gt;
+
+&lt;p&gt;It performs its job by using the &lt;code&gt;LD_PRELOAD&lt;/code&gt; mechanism and using
+&lt;code&gt;posix_fadvise&lt;/code&gt;&#39;s flag &lt;code&gt;POSIX_FADV_DONTNEED&lt;/code&gt; for the files that will be
+touched.&lt;/p&gt;
+
+&lt;h1&gt;Post note&lt;/h1&gt;
+
+&lt;p&gt;Oh, just one aside: for the readers of Debian Planet and other aggregation
+services which are not Debian Developers/Maintainers, I contributed to these
+packages without being the maintainer of them, just scratching some itches
+and contributing back what I produced.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Looking for (Free) a Video Editor</title>
 
@@ -945,117 +1049,6 @@ not everybody who wants to use GRUB2 have to learn about its workings.&lt;/p&gt;
 
 &lt;p&gt;Oh, of course, you can now have your kernels in ext4, btrfs, xfs
 etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>(Some) Solutions with Chromium</title>
-
-	<id>http://rb.doesntexist.org/blog//posts/some_solutions_with_chromium/</id>
-
-	<link href="http://rb.doesntexist.org/blog//posts/some_solutions_with_chromium/"/>
-
-
-
-
-
-
-	<category term="browsers" />
-
-	<category term="debian" />
-
-	<category term="extensions" />
-
-	<category term="free-software" />
-
-
-	<updated>2011-03-12T03:52:56Z</updated>
-	<published>2011-03-09T17:33:00Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;In &lt;a href=&quot;http://rb.doesntexist.org/blog//./posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
-my frustrations with Chromium/Chrome.  A very kind reader, Timo Juhani
-Lindfors, gave me answers to many of the problems that I pointed out and got
-me straight on some issues:&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;ul&gt;
-&lt;li&gt;I can disable full zoom in Iceweasel (i.e., I only want to zoom the text,
-not the images). According to Chromium&#39;s project BTS, it seems that this
-will be a &lt;code&gt;WONTFIX&lt;/code&gt; bug, despite many people asking for it (and it having
-a lot of duplicates).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Timo told me that there is an extension called &lt;a href=&quot;https://chrome.google.com/webstore/detail/ombpcpigmndepfckcifdblemkabaoihk&quot;&gt;&quot;Font Size Increase&quot;&lt;/a&gt;
-(ID: ombpcpigmndepfckcifdblemkabaoihk) that adds a button on the side of the
-URL bar that you can click to increase the size of the text, without
-affecting the size of the images. Highly recommended.&lt;/p&gt;
-
-&lt;p&gt;Not that I need this one as much as &quot;Font Size Increase&quot;, but there is also
-a &lt;a href=&quot;https://chrome.google.com/webstore/detail/mpajngnpcmjjeoflljdjpnehcfaldcia&quot;&gt;&quot;Font Size Decrease&quot;&lt;/a&gt; (ID: mpajngnpcmjjeoflljdjpnehcfaldcia) that,
-as the name implies, decreases the size of the text. It is nice to have this
-one when you clicked on the button to increase the size of the font one or
-two times too many.&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;ul&gt;
-&lt;li&gt;In Iceweasel, I have a way (without resorting to many extensions or
-hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &gt; Page Style &gt;
-No Style&quot; (i.e., to ignore any CSS sheet that the document author may have
-specified on the page).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Timo also told me that there is a very cool extension called
-&lt;a href=&quot;https://chrome.google.com/webstore/detail/ddpkgkegfklikkmfmneldonhldahhacb&quot;&gt;&quot;Chrome Page Style&quot;&lt;/a&gt; (ID: ddpkgkegfklikkmfmneldonhldahhacb) that
-allows you to alternate between stylesheets provided by the page (see Joey
-Hess&#39;s &lt;a href=&quot;http://ikiwiki.info/css_market/&quot;&gt;ikiwiki&#39;s CSS Market&lt;/a&gt; for an example of that).&lt;/p&gt;
-
-&lt;p&gt;It also has the possibility of disabling all the CSS&#39;es that a page may
-have, which, in many cases around the web &lt;em&gt;actually improves&lt;/em&gt; the
-readability of the pages, for many &quot;fancy&quot; things detract from readability,
-especially if you have poor eyesight.&lt;/p&gt;
-
-&lt;p&gt;Although I had said that I didn&#39;t want to resort to extensions, this was a
-simple solution enough that made me consider revisit my requirements.  I do,
-though, wonder why some frequently used extensions are not built into the
-programs from stock.&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;ul&gt;
-&lt;li&gt;In Iceweasel, I can press &lt;code&gt;Ctrl+Q&lt;/code&gt; and make the damn browser quit, instead
-of me having to use the mouse/trackpad/pointing device. This is probably a
-lack of my understanding on how to associate key bindings to Chromium, but
-the problem still stands.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Of course, Timo also set me straight and told me about &lt;code&gt;Ctrl+Shift+Q&lt;/code&gt; for
-that purpose, which I had missed completely.&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;ul&gt;
-&lt;li&gt;Similarly, when there is only one tab open, pressing &lt;code&gt;Ctrl+W&lt;/code&gt; in Chromium
-does not close the tab (say, presenting me a blank tab or the list of most
-visited sites), nor it closes the application.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;As a poor writing of my part, &lt;code&gt;Ctrl+W&lt;/code&gt; does close the tabs. But when there
-is only one tab present, it doesn&#39;t close the window. I&#39;m OK with that,
-since I now know the way to close the window. Thanks again Timo.&lt;/p&gt;
-
-&lt;p&gt;Oh, and one point that may not be known by many is that using &lt;code&gt;about:flags&lt;/code&gt;
-in Chrome does something analogue to Firefox&#39;s &lt;code&gt;about:config&lt;/code&gt; (even with the
-warning).&lt;/p&gt;
-
-&lt;p&gt;And tweaking with it you can try to see if you can enable hardware
-acceleration of some parts of your pages, as present in newer releases of
-Chromium.&lt;/p&gt;
-
-&lt;p&gt;So, there I am: way more satisfied than with earlier with Chromium, but
-still having Firefox/Iceweasel as my primary browser. Good to have two
-usable browsers now.&lt;/p&gt;
 
 	</content>
 
