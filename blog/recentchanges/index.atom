@@ -17,7 +17,68 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-04-19T07:40:20Z</updated>
+<updated>2013-04-20T01:47:03Z</updated>
+<entry>
+	<title>change to posts/lack_of_cooperation_from_ubuntu on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://rb.doesntexist.org/blog//recentchanges/change_df5637cc4c750ee9fba4ff0c0b2e222a3e400d2b/</id>
+
+	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-df5637cc4c750ee9fba4ff0c0b2e222a3e400d2b"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-04-20T01:47:03Z</updated>
+	<published>2013-04-20T01:47:03Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-df5637cc4c750ee9fba4ff0c0b2e222a3e400d2b&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+posts/lack of cooperation from ubuntu
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-04-20T01:47:03Z&quot;&gt;22:47:03 2013-04-19&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add post on Ubuntu vs. MongoDB.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- df5637cc4c750ee9fba4ff0c0b2e222a3e400d2b --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to posts/debian_activities on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -5453,67 +5514,6 @@ Add post on adsense.&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- d4e73f709ccf5c776d35d3ca41e95ad4f7d48e6b --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_01626b06a6d41c4a5ded3a72664b255f0deb5b8e/</id>
-
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-01626b06a6d41c4a5ded3a72664b255f0deb5b8e"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2012-09-03T18:45:17Z</updated>
-	<published>2012-09-03T18:45:17Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-01626b06a6d41c4a5ded3a72664b255f0deb5b8e&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-templates/page.tmpl
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-03T18:45:17Z&quot;&gt;15:45:17 2012-09-03&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Add first unit of ads to the page template.&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 01626b06a6d41c4a5ded3a72664b255f0deb5b8e --&gt;
 
 	</content>
 

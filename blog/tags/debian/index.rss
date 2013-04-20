@@ -8,6 +8,73 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>Lack of cooperation from Ubuntu?</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/lack_of_cooperation_from_ubuntu/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/lack_of_cooperation_from_ubuntu/</link>
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>kfreebsd</category>
+
+	<category>linux</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
+	<dcterms:modified>2013-04-20T01:46:43Z</dcterms:modified>
+
+	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
+reproduced on Planet. I&#39;m editing it a bit, as it is a followup to my
+previous post.&lt;/p&gt;
+
+&lt;p&gt;While &lt;a href=&quot;http://rb.doesntexist.org/blog/posts/debian_activities/&quot;&gt;improving the packaging of MongoDB&lt;/a&gt;, there was one thing that
+caught my attention: that Ubuntu
+&lt;a href=&quot;http://changelogs.ubuntu.com/changelogs/pool/universe/m/mongodb/mongodb_2.0.4-1ubuntu2.1/changelog&quot;&gt;had already done some of the embedded/convenience libraries work&lt;/a&gt;, but
+they had &lt;em&gt;not&lt;/em&gt; pushed that work to Debian.&lt;/p&gt;
+
+&lt;p&gt;Of course, discovered this only after I started working on the improvements
+of the package.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What gives, Ubuntu people?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Another thing that I saw is that
+&lt;a href=&quot;https://launchpad.net/ubuntu/+source/mongodb/1:2.2.4-0ubuntu1/+build/4470136&quot;&gt;they have patches enabling mongodb working on armhf&lt;/a&gt;. Again, they did
+&lt;em&gt;not&lt;/em&gt; push those to Debian.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why this lack of cooperation?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Another thing that I saw is that they had packages for version 2.2 (more
+precisely, &lt;a href=&quot;http://packages.ubuntu.com/raring/mongodb&quot;&gt;raring has 1:2.2.4-0ubuntu1&lt;/a&gt;), while Debian sid
+&lt;a href=&quot;http://packages.debian.org/changelogs/pool/main/m/mongodb/mongodb_2.4.1-2/changelog.html&quot;&gt;just had 2.0&lt;/a&gt; until very recently.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why not push this work and avoid duplication of work?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;By being a good downstream, I intend to push some of the patches to MongoDB
+upstream (if they want it), so that we (Debian) have a smaller delta. This
+will benefit you Ubuntu guys. Why not join forces and help have a
+world-class set of packages?&lt;/p&gt;
+
+&lt;p&gt;Please, be good netizens and share the work that you have.  I firmly believe
+that the armhf people will be happy to have one of the fancy &quot;cloud&quot;
+software available on ARM, especially since the prospects of having ARM
+machines on datacenters.&lt;/p&gt;
+
+&lt;p&gt;Oh, just for the record, the
+&lt;a href=&quot;https://github.com/rbrito/mongo-debian/pull/2&quot;&gt;kFreeBSD people have sent their contribution&lt;/a&gt; and I would love to see
+(if possible) this running on the HURD.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>Some recent Debian activities</title>
 
 
@@ -24,7 +91,7 @@
 
 
 	<pubDate>Fri, 19 Apr 2013 04:29:23 -0300</pubDate>
-	<dcterms:modified>2013-04-19T07:39:20Z</dcterms:modified>
+	<dcterms:modified>2013-04-20T01:06:20Z</dcterms:modified>
 
 	<description>&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
 
@@ -127,7 +194,7 @@ and contributing back what I produced.&lt;/p&gt;
 
 
 	<pubDate>Tue, 29 Jan 2013 22:16:07 -0200</pubDate>
-	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+	<dcterms:modified>2013-01-30T00:16:17Z</dcterms:modified>
 
 	<description>&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
 you were able to sneak in a camera (well, in those times, cell phones
@@ -187,7 +254,7 @@ final video. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/debian/../..
 
 
 	<pubDate>Sat, 08 Sep 2012 23:42:24 -0300</pubDate>
-	<dcterms:modified>2012-09-09T02:47:46Z</dcterms:modified>
+	<dcterms:modified>2012-09-09T02:48:33Z</dcterms:modified>
 
 	<description>&lt;p&gt;Continuing the &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/T3BcxA7wKjK&quot;&gt;ZFS evaluation journey&lt;/a&gt; (which I will summarize here with
 the things that I learned), I was able to fit about 2.5TB of data on a
@@ -936,47 +1003,6 @@ visited sites), nor it closes the application.&lt;/li&gt;
 
 &lt;p&gt;I would be satisfied if any of the above were fixed or better documented,
 but it seems that some of those are, at best, going to wait a long time.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>First post from DebConf 10</title>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/first-post-from-debconf-10/</guid>
-
-	<link>http://rb.doesntexist.org/blog//posts/first-post-from-debconf-10/</link>
-
-
-	<category>debian</category>
-
-	<category>development</category>
-
-	<category>free-software</category>
-
-	<category>people</category>
-
-
-	<pubDate>Tue, 03 Aug 2010 06:09:46 -0300</pubDate>
-	<dcterms:modified>2010-08-03T09:09:46Z</dcterms:modified>
-
-	<description>&lt;p&gt;Even though I am late with this post, it is nice to say that I am writing here from this year&#39;s DebConf10, in NYC.&lt;/p&gt;
-
-&lt;p&gt;Today (well, yesterday) was the day of the Cheese and Wine party and I think that it was cool, at least for the moments that I were there. This post, though, isn&#39;t technical in any sense. I only talks shortly about my impressions of the community, as this is my first DebConf ever (despite the fact that I have been using Debian since the late nineties).&lt;/p&gt;
-
-&lt;p&gt;I was very pleased to have met Bdale Garbee. I saw him the other day arriving with Keith Packard, but I just didn&#39;t want to disturb them at that point. We only talked for, say, 2 minutes, and his was one of the nicest receptions that I had here.&lt;/p&gt;
-
-&lt;p&gt;And there were some other people that were equally easy to approach, nice to talk with and, to my surprise, knew my name after some brief moments (yes, this &lt;em&gt;does&lt;/em&gt; make a difference, especially when you are in a strange country, when you don&#39;t know anybody with whom you have worked for some years). Being involved in the organization stuff, one would think that Jimmy Kaplowitz would be so busy, but he was so kind.&lt;/p&gt;
-
-&lt;p&gt;I had longer conversations with Tássia Camões, Tiago Vaz (as always) and some other people that I had not yet had the pleasure of meeting in person. In particular, Daniel Baumann (who apparently is now crazy about our FISL and wants to drink all Guaraná that he can get &lt;code&gt;:-)&lt;/code&gt;), Chris Lamb and Otávio Salvador and his mom. Those people are so cool and it is nice to discuss some legal issues among different continents in the lounge of their building at late night. &lt;code&gt;:-)&lt;/code&gt; Too bad that I am allocated to the other building. &lt;code&gt;:-)&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;I &lt;em&gt;am&lt;/em&gt; forgetting many other people (hey, it is 2 am here in NYC), but I would feel guilty if I had not mentioned at least three people more: Martin Michlmayr, Phil Hands, and Reinhard Tartler (who is uploading lame to the debian repository, as the patents regarding it are expiring or expired already).&lt;/p&gt;
-
-&lt;p&gt;Thanks!&lt;/p&gt;
-
-&lt;p&gt;P.S.: I just created an account on flickr that I hope to populate with some photos that I took here. And even with a nice squirrel. &lt;code&gt;:-)&lt;/code&gt;&lt;/p&gt;
 </description>
 
 
