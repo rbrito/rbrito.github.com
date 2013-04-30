@@ -8,6 +8,116 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>rbrito: change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_88940a7aa88b3df354e3a7c7c94ad6386543b76a/</guid>
+
+	<link>http://rb.doesntexist.org/blog/recentchanges/#change-88940a7aa88b3df354e3a7c7c94ad6386543b76a</link>
+
+	<pubDate>Tue, 30 Apr 2013 13:46:25 -0300</pubDate>
+	<dcterms:modified>2013-04-30T16:46:25Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-88940a7aa88b3df354e3a7c7c94ad6386543b76a&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-04-30T16:46:25Z&quot;&gt;13:46:25 2013-04-30&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Remove analytics code.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 88940a7aa88b3df354e3a7c7c94ad6386543b76a --&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tags/kfreebsd on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_f980a3955a57e13149eaa26215c9429f7d15e7c5/</guid>
+
+	<link>http://rb.doesntexist.org/blog/recentchanges/#change-f980a3955a57e13149eaa26215c9429f7d15e7c5</link>
+
+	<pubDate>Fri, 19 Apr 2013 22:47:36 -0300</pubDate>
+	<dcterms:modified>2013-04-20T01:47:36Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-f980a3955a57e13149eaa26215c9429f7d15e7c5&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+tags/kfreebsd
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-04-20T01:47:36Z&quot;&gt;22:47:36 2013-04-19&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tags/kfreebsd&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- f980a3955a57e13149eaa26215c9429f7d15e7c5 --&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>rbrito: change to posts/lack_of_cooperation_from_ubuntu on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 	<dcterms:creator>rbrito</dcterms:creator>
 
@@ -4866,116 +4976,6 @@ creating tag page tags/advertisements&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 9de80aaada7ab480601269ff005a43c3b2b52c5a --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/funding on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_a419171b92be9fe01ebed994dc5d39685f5aa33c/</guid>
-
-	<link>http://rb.doesntexist.org/blog/recentchanges/#change-a419171b92be9fe01ebed994dc5d39685f5aa33c</link>
-
-	<pubDate>Mon, 03 Sep 2012 20:17:09 -0300</pubDate>
-	<dcterms:modified>2012-09-03T23:17:09Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-a419171b92be9fe01ebed994dc5d39685f5aa33c&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-tags/funding
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-03T23:17:09Z&quot;&gt;20:17:09 2012-09-03&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/funding&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- a419171b92be9fe01ebed994dc5d39685f5aa33c --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to posts/trying_out_adsense on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_d4e73f709ccf5c776d35d3ca41e95ad4f7d48e6b/</guid>
-
-	<link>http://rb.doesntexist.org/blog/recentchanges/#change-d4e73f709ccf5c776d35d3ca41e95ad4f7d48e6b</link>
-
-	<pubDate>Mon, 03 Sep 2012 20:16:51 -0300</pubDate>
-	<dcterms:modified>2012-09-03T23:16:51Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-d4e73f709ccf5c776d35d3ca41e95ad4f7d48e6b&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-posts/trying out adsense
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-03T23:16:51Z&quot;&gt;20:16:51 2012-09-03&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Add post on adsense.&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- d4e73f709ccf5c776d35d3ca41e95ad4f7d48e6b --&gt;
 </description>
 
 
