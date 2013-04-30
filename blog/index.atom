@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-04-20T01:46:43Z</updated>
+<updated>2013-04-30T17:15:33Z</updated>
 <entry>
 	<title>Lack of cooperation from Ubuntu?</title>
 
@@ -109,7 +109,7 @@ machines on datacenters.&lt;/p&gt;
 	<category term="linux" />
 
 
-	<updated>2013-04-20T01:06:20Z</updated>
+	<updated>2013-04-30T17:15:33Z</updated>
 	<published>2013-04-19T07:29:23Z</published>
 
 	<content type="html" xml:lang="en">
@@ -153,7 +153,7 @@ system).&lt;/p&gt;
 &lt;p&gt;A few hours later, Antonin uploaded a new upstream version, which means that
 we now have better MongoDB packages to play with.  I am, in fact, really
 playing with MongoDB as my first NoSQL database, since
-[10gen is giving an introductory course][2.5] on how it works and my
+&lt;a href=&quot;https://education.10gen.com/courses/10gen/M101/2012_Fall/about&quot;&gt;10gen is giving an introductory course&lt;/a&gt; on how it works and my
 motivation was to get what we have in Debian in shape for the course.&lt;/p&gt;
 
 &lt;p&gt;You can say that I am a firm believer of the &quot;eat your own dogfood&quot;

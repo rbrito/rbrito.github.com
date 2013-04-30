@@ -91,7 +91,7 @@ machines on datacenters.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 04:29:23 -0300</pubDate>
-	<dcterms:modified>2013-04-20T01:06:20Z</dcterms:modified>
+	<dcterms:modified>2013-04-30T17:15:33Z</dcterms:modified>
 
 	<description>&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
 
@@ -133,7 +133,7 @@ system).&lt;/p&gt;
 &lt;p&gt;A few hours later, Antonin uploaded a new upstream version, which means that
 we now have better MongoDB packages to play with.  I am, in fact, really
 playing with MongoDB as my first NoSQL database, since
-[10gen is giving an introductory course][2.5] on how it works and my
+&lt;a href=&quot;https://education.10gen.com/courses/10gen/M101/2012_Fall/about&quot;&gt;10gen is giving an introductory course&lt;/a&gt; on how it works and my
 motivation was to get what we have in Debian in shape for the course.&lt;/p&gt;
 
 &lt;p&gt;You can say that I am a firm believer of the &quot;eat your own dogfood&quot;
