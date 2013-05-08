@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged macos</title>
+<link>http://rb.doesntexist.org/blog//tags/macos/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>2001-07-11</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-07-11/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2001-07-11/</link>
+
+
+	<category>apple</category>
+
+	<category>debian</category>
+
+	<category>hardware</category>
+
+	<category>linux</category>
+
+	<category>macos</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Wed, 11 Jul 2001 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-05-08T00:21:05Z</dcterms:modified>
+
+	<description>&lt;p&gt;Some weeks ago, my uncle that sells and fixes computers,
+&lt;a href=&quot;mailto:startmicro@uol.com.br&quot;&gt;Isaac&lt;/a&gt;, got a pair of old
+&lt;a href=&quot;http://www.info.apple.com/applespec/applespec.taf?RID=204&quot;&gt;Power Macintosh 9500/180MP&lt;/a&gt;
+from a customer. His customer said that if he fixed one of them,
+the other would be his as payment. So he kind of fixed one of them
+and lent me the other, which means that I&#39;m now going to play with
+both
+&lt;a href=&quot;http://download.info.apple.com/Apple_Support_Area/Apple_Software_Updates/English-North_American/Macintosh/System/Mac_OS_8.1_Update/&quot;&gt;MacOS 8.0&lt;/a&gt;
+and a Unix-like OS with it.&lt;/p&gt;
+
+&lt;p&gt;It came with two PowerPC 604e processors of 180MHz (or so the specs
+say), 64MB of RAM (where am I going to get more of it?), an
+&lt;a href=&quot;http://www.ati.com&quot;&gt;ATI&lt;/a&gt; graphics card with 2MB of memory, and a
+4-speed CD-ROM. It features two SCSI interfaces, an Ethernet
+adapter, a MacOS 8.0 CD, a keyboard and the (in)famous 1-button
+mouse from &lt;a href=&quot;http://www.apple.com&quot;&gt;Apple&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is the first dual-head machine over which I am able to get my
+greasy pawls. As welcome additionals, it is also the first time I
+get to play with a non-x86 machine in a System Administrator
+position (of course, I also use Solaris 2.x with
+&lt;a href=&quot;http://www.ime.usp.br/&quot;&gt;my University&#39;s&lt;/a&gt; workstations, but that
+doesn&#39;t count, since I&#39;m just a luser there).&lt;/p&gt;
+
+&lt;p&gt;The PowerPC machines are actually quite different from their ix86
+counterparts. First of all, they don&#39;t have a BIOS setup, but you
+can interface with the hardware before any Operating System gets
+loaded with
+&lt;a href=&quot;http://playground.sun.com/1275/home.html&quot;&gt;Open Firmware&lt;/a&gt;, which is
+written in FORTH. You should be able to get into OF pressing
+Command-Option-O-F while the machine chimes, or right after it
+chimes. But, to be honest, I still couldn&#39;t see the damned OF
+prompt, despite my numerous attempts and ways of pressing the
+combination of keys.&lt;/p&gt;
+
+&lt;p&gt;Anyway, the first task to make it work would, obviously, be to
+install MacOS 8.0 on this machine. Well, this sounds great, but my
+experience with it is a tiny bit different.&lt;/p&gt;
+
+&lt;p&gt;The first of the problems is that the machine doesn&#39;t boot while
+the HD is connected to it. Weird, huh? I agree. If, on the other
+hand, I disconnect the machine, put the MacOS CD on the CD drive,
+let MacOS start loading and &lt;em&gt;immediately&lt;/em&gt; plug the power connector
+on the HD, &lt;em&gt;then&lt;/em&gt; the machine will boot MacOS and see the HD,
+partition it and I am able to install MacOS on it. But on the next
+reboot, I am not able to get things working without disconnecting
+the power of the HD again.&lt;/p&gt;
+
+&lt;p&gt;Conformed to be working with the machine this way, I downloaded a
+huge load of ISO images for it, including the
+&lt;a href=&quot;http://www.netbsd.org/Ports/macppc/&quot;&gt;NetBSD port for PPC&lt;/a&gt;, the
+&lt;a href=&quot;http://www.debian.org/ports/powerpc/&quot;&gt;Debian 2.2r3 port for PPC&lt;/a&gt;,
+&lt;a href=&quot;http://www.linuxppc.org&quot;&gt;LinuxPPC 2000 Q4&lt;/a&gt; and
+&lt;a href=&quot;http://www.yellowdoglinux.com&quot;&gt;Yellow Dog Linux 2.0&lt;/a&gt;. I made sure
+the images I downloaded all had the right MD5SUMs and even used
+rsync on the images after I had downloaded them, just to make sure
+everything got alright.&lt;/p&gt;
+
+&lt;p&gt;Well, of all those images, the only one that booted on the Apple
+was the &lt;a href=&quot;http://www.linuxppc.org&quot;&gt;LinuxPPC 2000 Q4 image&lt;/a&gt;, which
+was quite frustrating. The Debian CDs that I burned (I burned two:
+one from a US site and another with non-US programs) didn&#39;t even
+boot, including boot floppies generated from them -- quite a shame,
+since that is, by far, my preferred operating system.&lt;/p&gt;
+
+&lt;p&gt;Anyway, back to LinuxPPC. Seeing the machine boot with a
+framebuffer with that little penguin holding a mug of beer and
+telling me many things about the hardware that I didn&#39;t even know
+is actually quite refreshing (no pun intended). After the kernel
+boots, an X installer is started, a little menu appears and
+things... ...STOP! That&#39;s right. After investigating a bit, I
+discovered that programs are segfaulting consistenly in a reboot,
+but in different reboots, the applications that segfault are not
+necessarily the same that segfaulted in previous reboots. This may
+be a hint that its memory is not OK, although I&#39;m not so sure.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I subscribed to the
+&lt;a href=&quot;http://lists.debian.org/#debian-powerpc&quot;&gt;Debian PowerPC mailing list&lt;/a&gt;
+and I have been following it daily, learning a lot of things about
+PPC in general.&lt;/p&gt;
+
+&lt;p&gt;My faith is restored now that
+&lt;a href=&quot;http://penguinppc.org/~eb/&quot;&gt;Ethan Benson&lt;/a&gt; has posted CVS-snapshots
+of the woody boot floppies on his page &lt;em&gt;AND&lt;/em&gt;, with them, I &lt;strong&gt;can&lt;/strong&gt;
+boot my machine.&lt;/p&gt;
+
+&lt;p&gt;I still have those problems with the HD, although its days are
+counted on this machine: I&#39;ll be soon getting a 2GB SCSI HD for it
+(I hope!), so that I can continue my journey of installing Debian
+potato/woody (or any other operating system!) on this machine. I
+can&#39;t wait to have the beautiful &lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE 2.2&lt;/a&gt;,
+the highly anticipated &lt;a href=&quot;http://www.debian.org/&quot;&gt;Mozilla&lt;/a&gt; and the
+amazing &lt;a href=&quot;http://www.qmail.org/&quot;&gt;qmail&lt;/a&gt; running on this machine
+(things that this machine designers never dreamt of running on this
+old machine).&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

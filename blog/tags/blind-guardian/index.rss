@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged blind-guardian</title>
+<link>http://rb.doesntexist.org/blog//tags/blind-guardian/</link>
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<item>
+
+	<title>2001-07-16</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-07-16/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2001-07-16/</link>
+
+
+	<category>blind-guardian</category>
+
+	<category>life</category>
+
+	<category>linux</category>
+
+	<category>music</category>
+
+	<category>netbsd</category>
+
+	<category>powerpc</category>
+
+	<category>study</category>
+
+
+	<pubDate>Mon, 16 Jul 2001 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-05-08T00:27:02Z</dcterms:modified>
+
+	<description>&lt;p&gt;Busy day. Woke up as soon as possible to see
+&lt;a href=&quot;http://www.ime.usp.br/~jose/&quot;&gt;my advisor&lt;/a&gt; and decide the furture
+of my Master&#39;s degree. Then, at almost 4pm, had a ridicule lunch,
+met my girlfriend and went to a shopping mall with her. While I was
+there, I was attacked by the capitalist bug and had to buy me
+something. I was looking for some &lt;a href=&quot;http://www.ora.com&quot;&gt;O&#39;Reilly&lt;/a&gt;
+books, but they were way too expensive (I was expecting to get a
+&lt;a href=&quot;http://perl.ora.com&quot;&gt;Perl&lt;/a&gt; book or
+&lt;a href=&quot;http://www.oreilly.com/catalog/lpython/&quot;&gt;Learning Python&lt;/a&gt;, but
+decided not to).&lt;/p&gt;
+
+&lt;p&gt;I talked to the salesman and asked if he had
+&lt;a href=&quot;http://www.csse.monash.edu.au/~damian/&quot;&gt;Damian Conway&#39;s&lt;/a&gt;
+&lt;a href=&quot;http://www.manning.com/Conway/&quot;&gt;Object Oriented Perl&lt;/a&gt;, but he told
+me &lt;em&gt;&quot;the printing was cancelled&quot;&lt;/em&gt;. I told him that
+&lt;a href=&quot;http://www.manning.com&quot;&gt;Manning Publications&lt;/a&gt; wasn&#39;t told about
+that and got some garbage as a response that I didn&#39;t even make an
+effort to save in any part of my brain.&lt;/p&gt;
+
+&lt;p&gt;Since I had the mission to buy myself something, I got me
+&lt;a href=&quot;http://www.blind-guardian.com&quot;&gt;Blind Guardian&lt;/a&gt;&#39;s &quot;Nightfall in
+Middle Earth&quot;. Wonderful.&lt;/p&gt;
+
+&lt;p&gt;To finish my day, I went to my uncle&#39;s store and got another SCSI
+HD for the Powermac, but it was also defective. But now I&#39;m a lot
+more confident that the problem isn&#39;t with the mac itself, but with
+the HDs (the mac would boot with the HD attached and see it while
+in MacOS 8, but trying to install it on the HD evidenced that the
+head was hitting the platters -- tomorrow I&#39;ll be getting another
+SCSI HD). Let me cross my fingers. If I actually install Linux on
+it, I&#39;ll grab &lt;a href=&quot;http://www.penguinppc.org/~benh/&quot;&gt;BenH&lt;/a&gt;&#39;s 2.4.6
+Linux and get &quot;my&quot; mac a fresh kernel.&lt;/p&gt;
+
+&lt;p&gt;Oh, NetBSD 1.5.1
+&lt;a href=&quot;http://www.netbsd.org/Releases/formal-1.5/NetBSD-1.5.1.html&quot;&gt;is released&lt;/a&gt;.
+I still can&#39;t get ISO images, though.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged health</title>
+<link href="http://rb.doesntexist.org/blog//tags/health/"/>
+<link href="http://rb.doesntexist.org/blog//tags/health/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://rb.doesntexist.org/blog//tags/health/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2013-05-08T00:18:54Z</updated>
+<entry>
+	<title>2001-03-10</title>
+
+	<id>http://rb.doesntexist.org/blog//posts/2001-03-10/</id>
+
+	<link href="http://rb.doesntexist.org/blog//posts/2001-03-10/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="hardware" />
+
+	<category term="health" />
+
+	<category term="kde" />
+
+	<category term="linux" />
+
+	<category term="network" />
+
+	<category term="study" />
+
+
+	<updated>2013-05-08T00:18:54Z</updated>
+	<published>2001-03-10T03:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Didn&#39;t do many important things today, besides making a brand new
+installation of Debian&#39;s sid/unstable to see how things were going
+with the bleeding edge. It turned out to be better than I expected
+(I had some problems experiencing unstable before, so I was
+scared).&lt;/p&gt;
+
+&lt;p&gt;Some of the nicest things are that it features XFree86 4.0.2 (with
+the RENDER extension, since I have a Matrox G400) and that, coupled
+with KDE 2.1/qt 2.3.0, makes it possible to use antialised fonts,
+which make one&#39;s surfing experience much more pleasing, for
+instance. If you are on the same boat, don&#39;t forget to visit
+&lt;a href=&quot;http://keithp.com/~keithp/&quot;&gt;Keith Packard&#39;s homepage&lt;/a&gt;, as it
+features a handy
+&lt;a href=&quot;http://keithp.com/~keithp/fonts/XftConfig&quot;&gt;XftConfig file&lt;/a&gt;. The
+only lowpoint of KDE with antialiasing is that if AA is enabled,
+then you loose non-scalable fonts with KDE applications, which
+means that you can&#39;t make konsole use a 10x20 fixed font anymore.&lt;/p&gt;
+
+&lt;p&gt;BTW, talking about &lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE&lt;/a&gt;, KDE 2.1 allows one
+to use &lt;a href=&quot;http://www.windowmaker.org/&quot;&gt;Windowmaker&lt;/a&gt; Dock
+Applications, and this is a very welcome thing as I love wmifs. The
+more I use KDE, the more I&#39;m impressed with it, in many respects.&lt;/p&gt;
+
+&lt;p&gt;Managed also to find some sites explaining Androgenetic Alopecia
+and which are potential treatments for it. Frankly, I&#39;d love to not
+have to surf these sites... And keeping with the surfing thing,
+found a remarkable program called
+&lt;a href=&quot;http://vtun.sourceforge.net/&quot;&gt;vtun&lt;/a&gt;, for setting up encrypted
+TCP/IP tunnels. Handy for WANs.&lt;/p&gt;
+
+&lt;p&gt;And I&#39;m keeping reading about Multiple Sequence Alignment, which is
+getting more exciting day after day.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

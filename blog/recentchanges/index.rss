@@ -8,6 +8,79 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>rbrito: change to posts/2001-02-05 posts/2001-03-10 posts/2001-05-18 posts/2001-07-11 posts/2001-07-12 posts/2001-07-13 posts/2001-07-14 posts/2001-07-15 posts/2001-07-16 posts/2001-07-17 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_fa83a32c665ef7800bfc3c78f070f40650c7e5d4/</guid>
+
+	<link>http://rb.doesntexist.org/blog/recentchanges/#change-fa83a32c665ef7800bfc3c78f070f40650c7e5d4</link>
+
+	<pubDate>Tue, 07 May 2013 21:29:21 -0300</pubDate>
+	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-fa83a32c665ef7800bfc3c78f070f40650c7e5d4&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+posts/2001-02-05
+
+posts/2001-03-10
+
+posts/2001-05-18
+
+posts/2001-07-11
+
+posts/2001-07-12
+
+posts/2001-07-13
+
+posts/2001-07-14
+
+posts/2001-07-15
+
+posts/2001-07-16
+
+posts/2001-07-17
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-05-08T00:29:21Z&quot;&gt;21:29:21 2013-05-07&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Fix more tags.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- fa83a32c665ef7800bfc3c78f070f40650c7e5d4 --&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>rbrito: change to posts/debian_activities on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 	<dcterms:creator>rbrito</dcterms:creator>
 
@@ -4921,61 +4994,6 @@ creating tag page tags/debian-planet&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 198e013109d1c5f2739034c7c58fc00542125018 --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/adsense on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//recentchanges/change_b5ccb589220b0bff0a00a47584e685725edbfdc0/</guid>
-
-	<link>http://rb.doesntexist.org/blog/recentchanges/#change-b5ccb589220b0bff0a00a47584e685725edbfdc0</link>
-
-	<pubDate>Mon, 03 Sep 2012 20:17:18 -0300</pubDate>
-	<dcterms:modified>2012-09-03T23:17:18Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-b5ccb589220b0bff0a00a47584e685725edbfdc0&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-tags/adsense
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-03T23:17:18Z&quot;&gt;20:17:18 2012-09-03&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/adsense&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- b5ccb589220b0bff0a00a47584e685725edbfdc0 --&gt;
 </description>
 
 

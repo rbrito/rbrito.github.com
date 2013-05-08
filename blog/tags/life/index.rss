@@ -29,6 +29,206 @@
 </item>
 <item>
 
+	<title>2001-07-17</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-07-17/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2001-07-17/</link>
+
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+	<category>linux</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Tue, 17 Jul 2001 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-05-08T00:28:38Z</dcterms:modified>
+
+	<description>&lt;p&gt;This is the day that shouldn&#39;t have happened --- it was bad right
+from start. First of all, I couldn&#39;t sleep well because I dreamt
+with some perl scripts that didn&#39;t work and they took me almost all
+my sleep time (or so it seemed). Then, my kind neighbor started
+making lots of noises and I couldn&#39;t keep sleeping.&lt;/p&gt;
+
+&lt;p&gt;But the worst part of the day was still coming.&lt;/p&gt;
+
+&lt;p&gt;I went to my uncle&#39;s shop to get a new SCSI HD and he lent me a 4GB
+one, more than enough to hold both Linux and MacOS 8. I turned the
+thing on and it started making noises like the one I used
+yesterday, which wasn&#39;t good. Anyway, I left it on and decided to
+install MacOS on it. It was progressing nicely and I was getting
+happier and happier, but then the whole system froze. I turned the
+power off and tried to install Linux. At least this time Linux saw
+the HD and all partitions that it had (7, I think).&lt;/p&gt;
+
+&lt;p&gt;To install Linux, I used some CVS bootfloppies that will become
+bootfloppies of Debian woody. While trying to make the brand new
+ext2 filesystem, I got a kernel panic. I tried again. This time, I
+went up to the point of choosing which kernel modules I wanted. I
+was getting happy again. But then, when I chose the module for the
+ethernet card, a new kernel panic. Ouch!&lt;/p&gt;
+
+&lt;p&gt;I then tried to install MacOS again and a new freeze. Tried again,
+new freeze. Then, I noticed that the HD was getting hot and put a
+fan near it. I don&#39;t know if it was coincidence or not, but after
+that, I could finish the installation of MacOS. Ok, so time to boot
+this thing with no CDs in the CD-ROM drive. Nothing. Grrrr.&lt;/p&gt;
+
+&lt;p&gt;Things got strange after I tried to put the Linux PPC CD that I had
+burned and it didn&#39;t work. Washed the CD and no boot. But it did
+some days ago! It was not scratched, had no fingerprints and was
+absolutely clean. But couldn&#39;t boot. I tried using the floppies
+again, but this time, another surprise: the HD &lt;em&gt;was&lt;/em&gt; recognized,
+but a partition scan timed out, Linux told that it could not read
+read its beginning and that it assumed that the size of the HD was
+1GB, and showed &lt;em&gt;no&lt;/em&gt; partitions on the drive. On the other hand,
+MacOS is able to see it just before formatting it, perhaps because
+it re-scans the SCSI bus. Changing the SCSI-id of the drive didn&#39;t
+help. Is that the reason why it can&#39;t boot from the HD? Perhaps.&lt;/p&gt;
+
+&lt;p&gt;Anyway, my desire of seeing this thing encoding MP3s, using KDE, a
+brand new browser and typing some texts with LaTeX seems a bit
+farther than what I realized at first. I will still keep trying to
+make this damn thing work, but I&#39;m not confident anymore that I&#39;ll
+succeed. Well, I&#39;ll talk to my uncle tomorrow, perhaps and see if
+the other Mac behaves the same way. Enough for a day already.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2001-07-16</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-07-16/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2001-07-16/</link>
+
+
+	<category>blind-guardian</category>
+
+	<category>life</category>
+
+	<category>linux</category>
+
+	<category>music</category>
+
+	<category>netbsd</category>
+
+	<category>powerpc</category>
+
+	<category>study</category>
+
+
+	<pubDate>Mon, 16 Jul 2001 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-05-08T00:27:02Z</dcterms:modified>
+
+	<description>&lt;p&gt;Busy day. Woke up as soon as possible to see
+&lt;a href=&quot;http://www.ime.usp.br/~jose/&quot;&gt;my advisor&lt;/a&gt; and decide the furture
+of my Master&#39;s degree. Then, at almost 4pm, had a ridicule lunch,
+met my girlfriend and went to a shopping mall with her. While I was
+there, I was attacked by the capitalist bug and had to buy me
+something. I was looking for some &lt;a href=&quot;http://www.ora.com&quot;&gt;O&#39;Reilly&lt;/a&gt;
+books, but they were way too expensive (I was expecting to get a
+&lt;a href=&quot;http://perl.ora.com&quot;&gt;Perl&lt;/a&gt; book or
+&lt;a href=&quot;http://www.oreilly.com/catalog/lpython/&quot;&gt;Learning Python&lt;/a&gt;, but
+decided not to).&lt;/p&gt;
+
+&lt;p&gt;I talked to the salesman and asked if he had
+&lt;a href=&quot;http://www.csse.monash.edu.au/~damian/&quot;&gt;Damian Conway&#39;s&lt;/a&gt;
+&lt;a href=&quot;http://www.manning.com/Conway/&quot;&gt;Object Oriented Perl&lt;/a&gt;, but he told
+me &lt;em&gt;&quot;the printing was cancelled&quot;&lt;/em&gt;. I told him that
+&lt;a href=&quot;http://www.manning.com&quot;&gt;Manning Publications&lt;/a&gt; wasn&#39;t told about
+that and got some garbage as a response that I didn&#39;t even make an
+effort to save in any part of my brain.&lt;/p&gt;
+
+&lt;p&gt;Since I had the mission to buy myself something, I got me
+&lt;a href=&quot;http://www.blind-guardian.com&quot;&gt;Blind Guardian&lt;/a&gt;&#39;s &quot;Nightfall in
+Middle Earth&quot;. Wonderful.&lt;/p&gt;
+
+&lt;p&gt;To finish my day, I went to my uncle&#39;s store and got another SCSI
+HD for the Powermac, but it was also defective. But now I&#39;m a lot
+more confident that the problem isn&#39;t with the mac itself, but with
+the HDs (the mac would boot with the HD attached and see it while
+in MacOS 8, but trying to install it on the HD evidenced that the
+head was hitting the platters -- tomorrow I&#39;ll be getting another
+SCSI HD). Let me cross my fingers. If I actually install Linux on
+it, I&#39;ll grab &lt;a href=&quot;http://www.penguinppc.org/~benh/&quot;&gt;BenH&lt;/a&gt;&#39;s 2.4.6
+Linux and get &quot;my&quot; mac a fresh kernel.&lt;/p&gt;
+
+&lt;p&gt;Oh, NetBSD 1.5.1
+&lt;a href=&quot;http://www.netbsd.org/Releases/formal-1.5/NetBSD-1.5.1.html&quot;&gt;is released&lt;/a&gt;.
+I still can&#39;t get ISO images, though.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2001-07-15</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-07-15/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2001-07-15/</link>
+
+
+	<category>life</category>
+
+	<category>movies</category>
+
+
+	<pubDate>Sun, 15 Jul 2001 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-05-08T00:24:44Z</dcterms:modified>
+
+	<description>&lt;p&gt;Went to my SO&#39;s home to finish watching the unnamed movie and to
+see The Matrix. Had a great time with her, her parents, her brother
+and one of her sisters.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2001-07-13</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-07-13/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2001-07-13/</link>
+
+
+	<category>life</category>
+
+	<category>study</category>
+
+
+	<pubDate>Fri, 13 Jul 2001 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-05-08T00:22:57Z</dcterms:modified>
+
+	<description>&lt;p&gt;Didn&#39;t really got decent sleep (I actually went to bed at 6am+, no
+kidding) and woke up by 12pm to bring
+&lt;a href=&quot;http://www.ime.usp.br/~cris/&quot;&gt;my supervisor&lt;/a&gt; all the student&#39;s
+programs. After everything was finished, I felt like a slave seeing
+light and being free. Wow.&lt;/p&gt;
+
+&lt;p&gt;Went to my girlfriend&#39;s place (after renting two movies -- one
+whose name I can&#39;t remember but that had Bruce Willis and Michelle
+Pfeiffer on the leading roles and
+&lt;a href=&quot;http://www.thematrix.com&quot;&gt;&quot;The Matrix&quot;&lt;/a&gt;, which she hadn&#39;t seen)
+and watched half a movie. Came home to (try to) sleep.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>2000-10-01</title>
 
 
@@ -183,160 +383,6 @@ Malmsteen&#39;s Concerto.&lt;/p&gt;
 
 &lt;p&gt;For some reason, it seems that today I can order from The End
 Records. Weird.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-09-13</title>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-09-13/</guid>
-
-	<link>http://rb.doesntexist.org/blog//posts/2000-09-13/</link>
-
-
-	<category>filesystems</category>
-
-	<category>life</category>
-
-	<category>linux</category>
-
-	<category>music</category>
-
-
-	<pubDate>Wed, 13 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:42:35Z</dcterms:modified>
-
-	<description>&lt;p&gt;The nice thing today is that I have slept for 14 hours. I needed
-that. And I still need yet another dose of it.&lt;/p&gt;
-
-&lt;p&gt;It stinks to see that
-&lt;a href=&quot;http://www.ajato.com.br&quot;&gt;broadbrand providers&lt;/a&gt; don&#39;t know their
-shit, when one asks them for it. When I asked them for some not so
-standard technical details, the support got all confused (all of a
-sudden the line becomes silent). Anyway, I could understand that
-they don&#39;t provide me with a fixed IP (but what do they use? DHCP?
-PPP-over-Ethernet?). I&#39;ve sent them an e-mail. I know that I&#39;ll
-receive a &quot;canned&quot; answer.&lt;/p&gt;
-
-&lt;p&gt;Reiserfs 3.5.25 is released and now I can upgrade my kernel to
-2.2.17 with reiserfs and André&#39;s patch.&lt;/p&gt;
-
-&lt;p&gt;I&#39;ve been listening to Vivaldi all day long today. Talking about
-music, I want to order Agalloch&#39;s &quot;Pale Folklore&quot; from
-&lt;a href=&quot;http://www.theendrecords.com&quot;&gt;The End Record&lt;/a&gt;&#39;s on-line form, but
-it seems that their shopping cart doesn&#39;t get anything included
-when I select the album (am I using it correctly?).&lt;/p&gt;
-
-&lt;p&gt;A new Gnapster is released and now I can connect to the main
-&lt;a href=&quot;http://www.napster.com/&quot;&gt;Napster&lt;/a&gt; server again. Woohoo.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-09-11</title>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-09-11/</guid>
-
-	<link>http://rb.doesntexist.org/blog//posts/2000-09-11/</link>
-
-
-	<category>life</category>
-
-	<category>music</category>
-
-
-	<pubDate>Mon, 11 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:39:54Z</dcterms:modified>
-
-	<description>&lt;p&gt;Yes, another week is about to begin. And I haven&#39;t slept today.
-Yes, I&#39;m tired. Yes, I&#39;d like to be in bed.&lt;/p&gt;
-
-&lt;p&gt;This is &quot;Classical&quot; Music week. Beethoven&#39;s 5th piano concerto
-today. Hummm! I love the first movement! Simply amazing.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-09-04</title>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-09-04/</guid>
-
-	<link>http://rb.doesntexist.org/blog//posts/2000-09-04/</link>
-
-
-	<category>debian</category>
-
-	<category>filesystems</category>
-
-	<category>kde</category>
-
-	<category>life</category>
-
-	<category>linux</category>
-
-	<category>qt</category>
-
-
-	<pubDate>Mon, 04 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:39:22Z</dcterms:modified>
-
-	<description>&lt;p&gt;Wow, what a day! I&#39;m getting a bit older today. Some kind people
-have sent me some cards (and some e-cards).&lt;/p&gt;
-
-&lt;p&gt;After the day began that way, I was pleased to learn that my
-September issue of &lt;a href=&quot;http://www.linuxjournal.com&quot;&gt;Linux Journal&lt;/a&gt;
-arrived.&lt;/p&gt;
-
-&lt;p&gt;Then, it was so nice to see a birthday present in form of a new
-kernel (&lt;a href=&quot;http://www.linux.com&quot;&gt;Linux 2.2.17&lt;/a&gt;) being released.
-Hopefully it will make the feedback and VM system a bit easier on
-the user (now, I just need
-&lt;a href=&quot;http://www.linux-ide.org&quot;&gt;André Hedrick&#39;s IDE&lt;/a&gt; patch and
-&lt;a href=&quot;http://devlinux.net/namesys/&quot;&gt;Reiser FS&lt;/a&gt; ported to 2.2.17). And
-there&#39;s the news that &lt;a href=&quot;http://www.kde.org&quot;&gt;KDE&lt;/a&gt; may be packaged to
-&lt;a href=&quot;http://www.debian.org&quot;&gt;Debian&lt;/a&gt;, now that Qt is being dually
-licensed, which is übercool.&lt;/p&gt;
-
-&lt;p&gt;The day is not over yet and I just got my glasses fixed and now I
-can see the world much clearer. Uh... If all days were like
-this...&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-09-01</title>
-
-
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-09-01/</guid>
-
-	<link>http://rb.doesntexist.org/blog//posts/2000-09-01/</link>
-
-
-	<category>life</category>
-
-
-	<pubDate>Fri, 01 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:37:23Z</dcterms:modified>
-
-	<description>&lt;p&gt;I haven&#39;t been having as much time to update my diary as I&#39;d expect
-to have, but I&#39;m updating it in bursts as I can. Anyway, I strongly
-suspect the world is keeping a secret conspiration against me. This
-past week could surely be better. And to make matters worse, this
-past night, just when I was going to sleep my brand new glasses got
-broken. I&#39;m now using some old glasses and I can&#39;t see very well.
-The interesting thing: I didn&#39;t even pay all parcels of my new
-glasses. I just wish I didn&#39;t have this huge shortsightedness.&lt;/p&gt;
 </description>
 
 

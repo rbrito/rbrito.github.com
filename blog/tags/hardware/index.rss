@@ -8,6 +8,322 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>2001-07-17</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-07-17/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2001-07-17/</link>
+
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+	<category>linux</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Tue, 17 Jul 2001 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-05-08T00:28:38Z</dcterms:modified>
+
+	<description>&lt;p&gt;This is the day that shouldn&#39;t have happened --- it was bad right
+from start. First of all, I couldn&#39;t sleep well because I dreamt
+with some perl scripts that didn&#39;t work and they took me almost all
+my sleep time (or so it seemed). Then, my kind neighbor started
+making lots of noises and I couldn&#39;t keep sleeping.&lt;/p&gt;
+
+&lt;p&gt;But the worst part of the day was still coming.&lt;/p&gt;
+
+&lt;p&gt;I went to my uncle&#39;s shop to get a new SCSI HD and he lent me a 4GB
+one, more than enough to hold both Linux and MacOS 8. I turned the
+thing on and it started making noises like the one I used
+yesterday, which wasn&#39;t good. Anyway, I left it on and decided to
+install MacOS on it. It was progressing nicely and I was getting
+happier and happier, but then the whole system froze. I turned the
+power off and tried to install Linux. At least this time Linux saw
+the HD and all partitions that it had (7, I think).&lt;/p&gt;
+
+&lt;p&gt;To install Linux, I used some CVS bootfloppies that will become
+bootfloppies of Debian woody. While trying to make the brand new
+ext2 filesystem, I got a kernel panic. I tried again. This time, I
+went up to the point of choosing which kernel modules I wanted. I
+was getting happy again. But then, when I chose the module for the
+ethernet card, a new kernel panic. Ouch!&lt;/p&gt;
+
+&lt;p&gt;I then tried to install MacOS again and a new freeze. Tried again,
+new freeze. Then, I noticed that the HD was getting hot and put a
+fan near it. I don&#39;t know if it was coincidence or not, but after
+that, I could finish the installation of MacOS. Ok, so time to boot
+this thing with no CDs in the CD-ROM drive. Nothing. Grrrr.&lt;/p&gt;
+
+&lt;p&gt;Things got strange after I tried to put the Linux PPC CD that I had
+burned and it didn&#39;t work. Washed the CD and no boot. But it did
+some days ago! It was not scratched, had no fingerprints and was
+absolutely clean. But couldn&#39;t boot. I tried using the floppies
+again, but this time, another surprise: the HD &lt;em&gt;was&lt;/em&gt; recognized,
+but a partition scan timed out, Linux told that it could not read
+read its beginning and that it assumed that the size of the HD was
+1GB, and showed &lt;em&gt;no&lt;/em&gt; partitions on the drive. On the other hand,
+MacOS is able to see it just before formatting it, perhaps because
+it re-scans the SCSI bus. Changing the SCSI-id of the drive didn&#39;t
+help. Is that the reason why it can&#39;t boot from the HD? Perhaps.&lt;/p&gt;
+
+&lt;p&gt;Anyway, my desire of seeing this thing encoding MP3s, using KDE, a
+brand new browser and typing some texts with LaTeX seems a bit
+farther than what I realized at first. I will still keep trying to
+make this damn thing work, but I&#39;m not confident anymore that I&#39;ll
+succeed. Well, I&#39;ll talk to my uncle tomorrow, perhaps and see if
+the other Mac behaves the same way. Enough for a day already.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2001-07-11</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-07-11/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2001-07-11/</link>
+
+
+	<category>apple</category>
+
+	<category>debian</category>
+
+	<category>hardware</category>
+
+	<category>linux</category>
+
+	<category>macos</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Wed, 11 Jul 2001 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-05-08T00:21:05Z</dcterms:modified>
+
+	<description>&lt;p&gt;Some weeks ago, my uncle that sells and fixes computers,
+&lt;a href=&quot;mailto:startmicro@uol.com.br&quot;&gt;Isaac&lt;/a&gt;, got a pair of old
+&lt;a href=&quot;http://www.info.apple.com/applespec/applespec.taf?RID=204&quot;&gt;Power Macintosh 9500/180MP&lt;/a&gt;
+from a customer. His customer said that if he fixed one of them,
+the other would be his as payment. So he kind of fixed one of them
+and lent me the other, which means that I&#39;m now going to play with
+both
+&lt;a href=&quot;http://download.info.apple.com/Apple_Support_Area/Apple_Software_Updates/English-North_American/Macintosh/System/Mac_OS_8.1_Update/&quot;&gt;MacOS 8.0&lt;/a&gt;
+and a Unix-like OS with it.&lt;/p&gt;
+
+&lt;p&gt;It came with two PowerPC 604e processors of 180MHz (or so the specs
+say), 64MB of RAM (where am I going to get more of it?), an
+&lt;a href=&quot;http://www.ati.com&quot;&gt;ATI&lt;/a&gt; graphics card with 2MB of memory, and a
+4-speed CD-ROM. It features two SCSI interfaces, an Ethernet
+adapter, a MacOS 8.0 CD, a keyboard and the (in)famous 1-button
+mouse from &lt;a href=&quot;http://www.apple.com&quot;&gt;Apple&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is the first dual-head machine over which I am able to get my
+greasy pawls. As welcome additionals, it is also the first time I
+get to play with a non-x86 machine in a System Administrator
+position (of course, I also use Solaris 2.x with
+&lt;a href=&quot;http://www.ime.usp.br/&quot;&gt;my University&#39;s&lt;/a&gt; workstations, but that
+doesn&#39;t count, since I&#39;m just a luser there).&lt;/p&gt;
+
+&lt;p&gt;The PowerPC machines are actually quite different from their ix86
+counterparts. First of all, they don&#39;t have a BIOS setup, but you
+can interface with the hardware before any Operating System gets
+loaded with
+&lt;a href=&quot;http://playground.sun.com/1275/home.html&quot;&gt;Open Firmware&lt;/a&gt;, which is
+written in FORTH. You should be able to get into OF pressing
+Command-Option-O-F while the machine chimes, or right after it
+chimes. But, to be honest, I still couldn&#39;t see the damned OF
+prompt, despite my numerous attempts and ways of pressing the
+combination of keys.&lt;/p&gt;
+
+&lt;p&gt;Anyway, the first task to make it work would, obviously, be to
+install MacOS 8.0 on this machine. Well, this sounds great, but my
+experience with it is a tiny bit different.&lt;/p&gt;
+
+&lt;p&gt;The first of the problems is that the machine doesn&#39;t boot while
+the HD is connected to it. Weird, huh? I agree. If, on the other
+hand, I disconnect the machine, put the MacOS CD on the CD drive,
+let MacOS start loading and &lt;em&gt;immediately&lt;/em&gt; plug the power connector
+on the HD, &lt;em&gt;then&lt;/em&gt; the machine will boot MacOS and see the HD,
+partition it and I am able to install MacOS on it. But on the next
+reboot, I am not able to get things working without disconnecting
+the power of the HD again.&lt;/p&gt;
+
+&lt;p&gt;Conformed to be working with the machine this way, I downloaded a
+huge load of ISO images for it, including the
+&lt;a href=&quot;http://www.netbsd.org/Ports/macppc/&quot;&gt;NetBSD port for PPC&lt;/a&gt;, the
+&lt;a href=&quot;http://www.debian.org/ports/powerpc/&quot;&gt;Debian 2.2r3 port for PPC&lt;/a&gt;,
+&lt;a href=&quot;http://www.linuxppc.org&quot;&gt;LinuxPPC 2000 Q4&lt;/a&gt; and
+&lt;a href=&quot;http://www.yellowdoglinux.com&quot;&gt;Yellow Dog Linux 2.0&lt;/a&gt;. I made sure
+the images I downloaded all had the right MD5SUMs and even used
+rsync on the images after I had downloaded them, just to make sure
+everything got alright.&lt;/p&gt;
+
+&lt;p&gt;Well, of all those images, the only one that booted on the Apple
+was the &lt;a href=&quot;http://www.linuxppc.org&quot;&gt;LinuxPPC 2000 Q4 image&lt;/a&gt;, which
+was quite frustrating. The Debian CDs that I burned (I burned two:
+one from a US site and another with non-US programs) didn&#39;t even
+boot, including boot floppies generated from them -- quite a shame,
+since that is, by far, my preferred operating system.&lt;/p&gt;
+
+&lt;p&gt;Anyway, back to LinuxPPC. Seeing the machine boot with a
+framebuffer with that little penguin holding a mug of beer and
+telling me many things about the hardware that I didn&#39;t even know
+is actually quite refreshing (no pun intended). After the kernel
+boots, an X installer is started, a little menu appears and
+things... ...STOP! That&#39;s right. After investigating a bit, I
+discovered that programs are segfaulting consistenly in a reboot,
+but in different reboots, the applications that segfault are not
+necessarily the same that segfaulted in previous reboots. This may
+be a hint that its memory is not OK, although I&#39;m not so sure.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I subscribed to the
+&lt;a href=&quot;http://lists.debian.org/#debian-powerpc&quot;&gt;Debian PowerPC mailing list&lt;/a&gt;
+and I have been following it daily, learning a lot of things about
+PPC in general.&lt;/p&gt;
+
+&lt;p&gt;My faith is restored now that
+&lt;a href=&quot;http://penguinppc.org/~eb/&quot;&gt;Ethan Benson&lt;/a&gt; has posted CVS-snapshots
+of the woody boot floppies on his page &lt;em&gt;AND&lt;/em&gt;, with them, I &lt;strong&gt;can&lt;/strong&gt;
+boot my machine.&lt;/p&gt;
+
+&lt;p&gt;I still have those problems with the HD, although its days are
+counted on this machine: I&#39;ll be soon getting a 2GB SCSI HD for it
+(I hope!), so that I can continue my journey of installing Debian
+potato/woody (or any other operating system!) on this machine. I
+can&#39;t wait to have the beautiful &lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE 2.2&lt;/a&gt;,
+the highly anticipated &lt;a href=&quot;http://www.debian.org/&quot;&gt;Mozilla&lt;/a&gt; and the
+amazing &lt;a href=&quot;http://www.qmail.org/&quot;&gt;qmail&lt;/a&gt; running on this machine
+(things that this machine designers never dreamt of running on this
+old machine).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2001-05-18</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-05-18/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2001-05-18/</link>
+
+
+	<category>debian</category>
+
+	<category>hardware</category>
+
+	<category>study</category>
+
+
+	<pubDate>Fri, 18 May 2001 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-05-08T00:19:51Z</dcterms:modified>
+
+	<description>&lt;p&gt;It&#39;s been a long time since I last updated my diary. Let&#39;s see if I
+can get things up to date (and let me see if I can keep me
+organized and productive).&lt;/p&gt;
+
+&lt;p&gt;Today, the day started quite a bit messy: my computer, for some
+reason, didn&#39;t want to turn on. It was beeping with my monitor
+telling me to check the signal cable. &quot;Humm... Time to buy another
+graphics card&quot; (and just the thought of having to choose from among
+one less manufacturer of video cards scared me). I checked my
+mainboard manual and it confirmed that the beeps I heard were
+indeed problems with my graphics card (it&#39;s obvious that I didn&#39;t
+want to believe the unfortunate situation of buying another card).&lt;/p&gt;
+
+&lt;p&gt;Having to use my computer anyway, I just removed my card from its
+slot, and installed it again. Luckily, things started working
+again. Whew! That was close! Anyway, I&#39;m now watching this card
+closely. Very closely.&lt;/p&gt;
+
+&lt;p&gt;Learned how to set up cookies with CGI scripts. Found out about
+&lt;a href=&quot;http://www.recipesource.com/&quot;&gt;an site with recipes (for cooking)&lt;/a&gt;
+while having my daily dose of
+&lt;a href=&quot;http://www.slashdot.org/&quot;&gt;Slashdot.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Perhaps due to lousy system administrators,
+&lt;a href=&quot;http://www.iname.com/&quot;&gt;Iname&lt;/a&gt;/&lt;a href=&quot;http://www.mail.com/&quot;&gt;Mail.com&lt;/a&gt; is
+not delivering my e-mails. AGAIN. Enough.&lt;/p&gt;
+
+&lt;p&gt;BTW, I have to finish a take home exam on Approximation
+Algorithms.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2001-03-10</title>
+
+
+	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-03-10/</guid>
+
+	<link>http://rb.doesntexist.org/blog//posts/2001-03-10/</link>
+
+
+	<category>debian</category>
+
+	<category>hardware</category>
+
+	<category>health</category>
+
+	<category>kde</category>
+
+	<category>linux</category>
+
+	<category>network</category>
+
+	<category>study</category>
+
+
+	<pubDate>Sat, 10 Mar 2001 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-05-08T00:18:54Z</dcterms:modified>
+
+	<description>&lt;p&gt;Didn&#39;t do many important things today, besides making a brand new
+installation of Debian&#39;s sid/unstable to see how things were going
+with the bleeding edge. It turned out to be better than I expected
+(I had some problems experiencing unstable before, so I was
+scared).&lt;/p&gt;
+
+&lt;p&gt;Some of the nicest things are that it features XFree86 4.0.2 (with
+the RENDER extension, since I have a Matrox G400) and that, coupled
+with KDE 2.1/qt 2.3.0, makes it possible to use antialised fonts,
+which make one&#39;s surfing experience much more pleasing, for
+instance. If you are on the same boat, don&#39;t forget to visit
+&lt;a href=&quot;http://keithp.com/~keithp/&quot;&gt;Keith Packard&#39;s homepage&lt;/a&gt;, as it
+features a handy
+&lt;a href=&quot;http://keithp.com/~keithp/fonts/XftConfig&quot;&gt;XftConfig file&lt;/a&gt;. The
+only lowpoint of KDE with antialiasing is that if AA is enabled,
+then you loose non-scalable fonts with KDE applications, which
+means that you can&#39;t make konsole use a 10x20 fixed font anymore.&lt;/p&gt;
+
+&lt;p&gt;BTW, talking about &lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE&lt;/a&gt;, KDE 2.1 allows one
+to use &lt;a href=&quot;http://www.windowmaker.org/&quot;&gt;Windowmaker&lt;/a&gt; Dock
+Applications, and this is a very welcome thing as I love wmifs. The
+more I use KDE, the more I&#39;m impressed with it, in many respects.&lt;/p&gt;
+
+&lt;p&gt;Managed also to find some sites explaining Androgenetic Alopecia
+and which are potential treatments for it. Frankly, I&#39;d love to not
+have to surf these sites... And keeping with the surfing thing,
+found a remarkable program called
+&lt;a href=&quot;http://vtun.sourceforge.net/&quot;&gt;vtun&lt;/a&gt;, for setting up encrypted
+TCP/IP tunnels. Handy for WANs.&lt;/p&gt;
+
+&lt;p&gt;And I&#39;m keeping reading about Multiple Sequence Alignment, which is
+getting more exciting day after day.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>2001-01-31</title>
 
 
