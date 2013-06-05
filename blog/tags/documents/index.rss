@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged documents</title>
-<link>http://rb.doesntexist.org/blog//tags/documents/</link>
+<link>http://cynic.cc/blog//tags/documents/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Packaging fonts for a Debian-based system</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
+	<link>http://cynic.cc/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
 
 
 	<category>development</category>
@@ -146,9 +146,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>A version of xpdf with the poppler backend available</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
+	<link>http://cynic.cc/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
 
 
 	<category>c++</category>

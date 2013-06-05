@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged abstract-algebra</title>
-<link href="http://rb.doesntexist.org/blog//tags/abstract-algebra/"/>
-<link href="http://rb.doesntexist.org/blog//tags/abstract-algebra/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/abstract-algebra/"/>
+<link href="http://cynic.cc/blog//tags/abstract-algebra/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/abstract-algebra/</id>
+<id>http://cynic.cc/blog//tags/abstract-algebra/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>Music, Group Actions, Quilt and Debian Packages</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/music-group-actions-quilt-and-debian-packages/</id>
+	<id>http://cynic.cc/blog//posts/music-group-actions-quilt-and-debian-packages/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/music-group-actions-quilt-and-debian-packages/"/>
+	<link href="http://cynic.cc/blog//posts/music-group-actions-quilt-and-debian-packages/"/>
 
 
 
@@ -114,9 +114,9 @@ patch.&lt;/p&gt;
 <entry>
 	<title>Random Points on Group Theory</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/random-points-on-group-theory/</id>
+	<id>http://cynic.cc/blog//posts/random-points-on-group-theory/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/random-points-on-group-theory/"/>
+	<link href="http://cynic.cc/blog//posts/random-points-on-group-theory/"/>
 
 
 
@@ -196,9 +196,9 @@ to have in mind, without any shadow of doubt.&lt;/p&gt;
 <entry>
 	<title>On teaching Groups before Rings in Abstract Algebra</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/on-a-first-course-in-abstract-algebra/</id>
+	<id>http://cynic.cc/blog//posts/on-a-first-course-in-abstract-algebra/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/on-a-first-course-in-abstract-algebra/"/>
+	<link href="http://cynic.cc/blog//posts/on-a-first-course-in-abstract-algebra/"/>
 
 
 

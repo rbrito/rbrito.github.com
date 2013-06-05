@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged public-domain</title>
-<link href="http://rb.doesntexist.org/blog//tags/public-domain/"/>
-<link href="http://rb.doesntexist.org/blog//tags/public-domain/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/public-domain/"/>
+<link href="http://cynic.cc/blog//tags/public-domain/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/public-domain/</id>
+<id>http://cynic.cc/blog//tags/public-domain/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>Sourceforge, SSH keys, Free audiobooks, DVD&#x27;s</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/</id>
+	<id>http://cynic.cc/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/"/>
+	<link href="http://cynic.cc/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/"/>
 
 
 

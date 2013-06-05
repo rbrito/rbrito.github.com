@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged study</title>
-<link href="http://rb.doesntexist.org/blog//tags/study/"/>
-<link href="http://rb.doesntexist.org/blog//tags/study/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/study/"/>
+<link href="http://cynic.cc/blog//tags/study/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/study/</id>
+<id>http://cynic.cc/blog//tags/study/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>2005-11-19</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2005-11-19/</id>
+	<id>http://cynic.cc/blog//posts/2005-11-19/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2005-11-19/"/>
+	<link href="http://cynic.cc/blog//posts/2005-11-19/"/>
 
 
 
@@ -52,9 +52,9 @@ Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&
 <entry>
 	<title>2001-07-16</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-07-16/</id>
+	<id>http://cynic.cc/blog//posts/2001-07-16/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-07-16/"/>
+	<link href="http://cynic.cc/blog//posts/2001-07-16/"/>
 
 
 
@@ -125,9 +125,9 @@ I still can&#39;t get ISO images, though.&lt;/p&gt;
 <entry>
 	<title>2001-07-14</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-07-14/</id>
+	<id>http://cynic.cc/blog//posts/2001-07-14/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-07-14/"/>
+	<link href="http://cynic.cc/blog//posts/2001-07-14/"/>
 
 
 
@@ -170,9 +170,9 @@ compliment?).&lt;/p&gt;
 <entry>
 	<title>2001-07-13</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-07-13/</id>
+	<id>http://cynic.cc/blog//posts/2001-07-13/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-07-13/"/>
+	<link href="http://cynic.cc/blog//posts/2001-07-13/"/>
 
 
 
@@ -208,9 +208,9 @@ and watched half a movie. Came home to (try to) sleep.&lt;/p&gt;
 <entry>
 	<title>2001-07-12</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-07-12/</id>
+	<id>http://cynic.cc/blog//posts/2001-07-12/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-07-12/"/>
+	<link href="http://cynic.cc/blog//posts/2001-07-12/"/>
 
 
 
@@ -236,9 +236,9 @@ night.&lt;/p&gt;
 <entry>
 	<title>2001-05-18</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-05-18/</id>
+	<id>http://cynic.cc/blog//posts/2001-05-18/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-05-18/"/>
+	<link href="http://cynic.cc/blog//posts/2001-05-18/"/>
 
 
 
@@ -294,9 +294,9 @@ Algorithms.&lt;/p&gt;
 <entry>
 	<title>2001-03-10</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-03-10/</id>
+	<id>http://cynic.cc/blog//posts/2001-03-10/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-03-10/"/>
+	<link href="http://cynic.cc/blog//posts/2001-03-10/"/>
 
 
 
@@ -363,9 +363,9 @@ getting more exciting day after day.&lt;/p&gt;
 <entry>
 	<title>2001-02-05</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-02-05/</id>
+	<id>http://cynic.cc/blog//posts/2001-02-05/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-02-05/"/>
+	<link href="http://cynic.cc/blog//posts/2001-02-05/"/>
 
 
 
@@ -403,9 +403,9 @@ now.&lt;/p&gt;
 <entry>
 	<title>2001-01-31</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-01-31/</id>
+	<id>http://cynic.cc/blog//posts/2001-01-31/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-01-31/"/>
+	<link href="http://cynic.cc/blog//posts/2001-01-31/"/>
 
 
 
@@ -458,7 +458,7 @@ new computer was still readable. So, now, I&#39;m using a new 30GB
 working fine again. Nice.
 I am now reading more and more things about my Mastership work. It
 will be in a sub-area of computer science called
-&lt;a href=&quot;http://rb.doesntexist.org/blog//tags/study/../compbio/index.html&quot;&gt;Computational (Molecular) Biology&lt;/a&gt;. In
+&lt;a href=&quot;http://cynic.cc/blog//tags/study/../compbio/index.html&quot;&gt;Computational (Molecular) Biology&lt;/a&gt;. In
 particular, I&#39;m studying now alignments of multiple sequences. The
 theory is quite general and applies to alignments of sequences over
 any alphabets, but the biological motivation is to study and
@@ -479,9 +479,9 @@ a given field). Now, I want to learn more!&lt;/p&gt;
 <entry>
 	<title>2000-12-05</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-12-05/</id>
+	<id>http://cynic.cc/blog//posts/2000-12-05/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-12-05/"/>
+	<link href="http://cynic.cc/blog//posts/2000-12-05/"/>
 
 
 

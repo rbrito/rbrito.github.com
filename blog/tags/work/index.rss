@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged work</title>
-<link>http://rb.doesntexist.org/blog//tags/work/</link>
+<link>http://cynic.cc/blog//tags/work/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>2001-02-05</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-02-05/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-02-05/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/2001-02-05/</link>
+	<link>http://cynic.cc/blog//posts/2001-02-05/</link>
 
 
 	<category>study</category>
@@ -46,9 +46,9 @@ now.&lt;/p&gt;
 	<title>2001-02-04</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-02-04/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-02-04/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/2001-02-04/</link>
+	<link>http://cynic.cc/blog//posts/2001-02-04/</link>
 
 
 	<category>bind</category>
@@ -76,9 +76,9 @@ make time updates with NTP.&lt;/p&gt;
 	<title>2000-09-29</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-09-29/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-09-29/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/2000-09-29/</link>
+	<link>http://cynic.cc/blog//posts/2000-09-29/</link>
 
 
 	<category>debian</category>

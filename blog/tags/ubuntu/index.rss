@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged ubuntu</title>
-<link>http://rb.doesntexist.org/blog//tags/ubuntu/</link>
+<link>http://cynic.cc/blog//tags/ubuntu/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Lack of cooperation from Ubuntu?</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/lack_of_cooperation_from_ubuntu/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/lack_of_cooperation_from_ubuntu/</link>
+	<link>http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/</link>
 
 
 	<category>debian</category>
@@ -28,13 +28,13 @@
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-04-20T01:46:43Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:25:20Z</dcterms:modified>
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
 reproduced on Planet. I&#39;m editing it a bit, as it is a followup to my
 previous post.&lt;/p&gt;
 
-&lt;p&gt;While &lt;a href=&quot;http://rb.doesntexist.org/blog/posts/debian_activities/&quot;&gt;improving the packaging of MongoDB&lt;/a&gt;, there was one thing that
+&lt;p&gt;While &lt;a href=&quot;http://cynic.cc/blog/posts/debian_activities/&quot;&gt;improving the packaging of MongoDB&lt;/a&gt;, there was one thing that
 caught my attention: that Ubuntu
 &lt;a href=&quot;http://changelogs.ubuntu.com/changelogs/pool/universe/m/mongodb/mongodb_2.0.4-1ubuntu2.1/changelog&quot;&gt;had already done some of the embedded/convenience libraries work&lt;/a&gt;, but
 they had &lt;em&gt;not&lt;/em&gt; pushed that work to Debian.&lt;/p&gt;
@@ -78,9 +78,9 @@ machines on datacenters.&lt;/p&gt;
 	<title>My problems with Chromium</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/problems_with_chromium/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/problems_with_chromium/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/problems_with_chromium/</link>
+	<link>http://cynic.cc/blog//posts/problems_with_chromium/</link>
 
 
 	<category>browsers</category>
@@ -153,9 +153,9 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 	<title>Debian Switching to EGLIBC</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/debian-switching-to-eglibc/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/debian-switching-to-eglibc/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/debian-switching-to-eglibc/</link>
+	<link>http://cynic.cc/blog//posts/debian-switching-to-eglibc/</link>
 
 
 	<category>computers</category>
@@ -193,9 +193,9 @@ thing, because computing resources are limited).&lt;/p&gt;
 	<title>Playing with Package Proxies</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/playing-with-package-proxies/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/</link>
+	<link>http://cynic.cc/blog//posts/playing-with-package-proxies/</link>
 
 
 	<category>approx</category>

@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged debconf</title>
-<link href="http://rb.doesntexist.org/blog//tags/debconf/"/>
-<link href="http://rb.doesntexist.org/blog//tags/debconf/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/debconf/"/>
+<link href="http://cynic.cc/blog//tags/debconf/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/debconf/</id>
+<id>http://cynic.cc/blog//tags/debconf/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>I am not going to DebConf 12</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/i-am-not-going-to-debconf-12/</id>
+	<id>http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/i-am-not-going-to-debconf-12/"/>
+	<link href="http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/"/>
 
 
 

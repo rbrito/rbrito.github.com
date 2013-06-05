@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged kde</title>
-<link href="http://rb.doesntexist.org/blog//tags/kde/"/>
-<link href="http://rb.doesntexist.org/blog//tags/kde/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/kde/"/>
+<link href="http://cynic.cc/blog//tags/kde/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/kde/</id>
+<id>http://cynic.cc/blog//tags/kde/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>2001-03-10</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-03-10/</id>
+	<id>http://cynic.cc/blog//posts/2001-03-10/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-03-10/"/>
+	<link href="http://cynic.cc/blog//posts/2001-03-10/"/>
 
 
 
@@ -90,9 +90,9 @@ getting more exciting day after day.&lt;/p&gt;
 <entry>
 	<title>2000-12-04</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-12-04/</id>
+	<id>http://cynic.cc/blog//posts/2000-12-04/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-12-04/"/>
+	<link href="http://cynic.cc/blog//posts/2000-12-04/"/>
 
 
 
@@ -130,9 +130,9 @@ if I only could get XFree86 4.0.1 for potato, I&#39;d be very happy.&lt;/p&gt;
 <entry>
 	<title>2000-12-02</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-12-02/</id>
+	<id>http://cynic.cc/blog//posts/2000-12-02/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-12-02/"/>
+	<link href="http://cynic.cc/blog//posts/2000-12-02/"/>
 
 
 
@@ -193,9 +193,9 @@ ftpparse-ified version of wget (for mirroring
 <entry>
 	<title>2000-09-15</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-09-15/</id>
+	<id>http://cynic.cc/blog//posts/2000-09-15/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-09-15/"/>
+	<link href="http://cynic.cc/blog//posts/2000-09-15/"/>
 
 
 
@@ -225,9 +225,9 @@ haven&#39;t had any problems using it for the last few hours. And
 <entry>
 	<title>2000-09-04</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-09-04/</id>
+	<id>http://cynic.cc/blog//posts/2000-09-04/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-09-04/"/>
+	<link href="http://cynic.cc/blog//posts/2000-09-04/"/>
 
 
 

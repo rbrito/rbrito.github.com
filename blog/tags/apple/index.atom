@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged apple</title>
-<link href="http://rb.doesntexist.org/blog//tags/apple/"/>
-<link href="http://rb.doesntexist.org/blog//tags/apple/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/apple/"/>
+<link href="http://cynic.cc/blog//tags/apple/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/apple/</id>
+<id>http://cynic.cc/blog//tags/apple/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>A Wish: The Ability of Playing MP3 CDs/DVDs created by iTunes with Free Software</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</id>
+	<id>http://cynic.cc/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/"/>
+	<link href="http://cynic.cc/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/"/>
 
 
 
@@ -124,9 +124,9 @@ organizers.&lt;/p&gt;
 <entry>
 	<title>Getting things from the iTunes Music Store without iTunes</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</id>
+	<id>http://cynic.cc/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/"/>
+	<link href="http://cynic.cc/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/"/>
 
 
 
@@ -287,9 +287,9 @@ aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
 <entry>
 	<title>2001-07-11</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-07-11/</id>
+	<id>http://cynic.cc/blog//posts/2001-07-11/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-07-11/"/>
+	<link href="http://cynic.cc/blog//posts/2001-07-11/"/>
 
 
 

@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged compression</title>
-<link>http://rb.doesntexist.org/blog//tags/compression/</link>
+<link>http://cynic.cc/blog//tags/compression/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Some experiences with ZFS</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/some_experiences_with_zfs/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/some_experiences_with_zfs/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/some_experiences_with_zfs/</link>
+	<link>http://cynic.cc/blog//posts/some_experiences_with_zfs/</link>
 
 
 	<category>compression</category>

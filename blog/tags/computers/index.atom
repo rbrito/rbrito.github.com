@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged computers</title>
-<link href="http://rb.doesntexist.org/blog//tags/computers/"/>
-<link href="http://rb.doesntexist.org/blog//tags/computers/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/computers/"/>
+<link href="http://cynic.cc/blog//tags/computers/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/computers/</id>
+<id>http://cynic.cc/blog//tags/computers/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>A Wish: The Ability of Playing MP3 CDs/DVDs created by iTunes with Free Software</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</id>
+	<id>http://cynic.cc/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/"/>
+	<link href="http://cynic.cc/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/"/>
 
 
 
@@ -124,9 +124,9 @@ organizers.&lt;/p&gt;
 <entry>
 	<title>Getting things from the iTunes Music Store without iTunes</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</id>
+	<id>http://cynic.cc/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/"/>
+	<link href="http://cynic.cc/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/"/>
 
 
 
@@ -287,9 +287,9 @@ aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
 <entry>
 	<title>Music, Group Actions, Quilt and Debian Packages</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/music-group-actions-quilt-and-debian-packages/</id>
+	<id>http://cynic.cc/blog//posts/music-group-actions-quilt-and-debian-packages/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/music-group-actions-quilt-and-debian-packages/"/>
+	<link href="http://cynic.cc/blog//posts/music-group-actions-quilt-and-debian-packages/"/>
 
 
 
@@ -380,9 +380,9 @@ patch.&lt;/p&gt;
 <entry>
 	<title>Debian Switching to EGLIBC</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/debian-switching-to-eglibc/</id>
+	<id>http://cynic.cc/blog//posts/debian-switching-to-eglibc/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/debian-switching-to-eglibc/"/>
+	<link href="http://cynic.cc/blog//posts/debian-switching-to-eglibc/"/>
 
 
 
@@ -425,9 +425,9 @@ thing, because computing resources are limited).&lt;/p&gt;
 <entry>
 	<title>Happy News: A new Kurobox</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/happy-news-a-new-kurobox/</id>
+	<id>http://cynic.cc/blog//posts/happy-news-a-new-kurobox/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/happy-news-a-new-kurobox/"/>
+	<link href="http://cynic.cc/blog//posts/happy-news-a-new-kurobox/"/>
 
 
 
@@ -469,9 +469,9 @@ bigger capacity ones are only available with SATA interfaces.&lt;/p&gt;
 <entry>
 	<title>Playing with Package Proxies</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/</id>
+	<id>http://cynic.cc/blog//posts/playing-with-package-proxies/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/"/>
+	<link href="http://cynic.cc/blog//posts/playing-with-package-proxies/"/>
 
 
 
@@ -545,9 +545,9 @@ build-dependencies.&lt;/p&gt;
 <entry>
 	<title>Sourceforge, SSH keys, Free audiobooks, DVD&#x27;s</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/</id>
+	<id>http://cynic.cc/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/"/>
+	<link href="http://cynic.cc/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/"/>
 
 
 

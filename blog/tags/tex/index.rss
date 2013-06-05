@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged tex</title>
-<link>http://rb.doesntexist.org/blog//tags/tex/</link>
+<link>http://cynic.cc/blog//tags/tex/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Packaging fonts for a Debian-based system</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
+	<link>http://cynic.cc/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
 
 
 	<category>development</category>
@@ -146,9 +146,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<title>Nobody expects the... STIX fonts release!</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/nobody-expects-the----stix-fonts-release-/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/nobody-expects-the----stix-fonts-release-/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/nobody-expects-the----stix-fonts-release-/</link>
+	<link>http://cynic.cc/blog//posts/nobody-expects-the----stix-fonts-release-/</link>
 
 
 	<category>fonts</category>
@@ -187,9 +187,9 @@ the typographic arena is alive and going strong.&lt;/p&gt;
 	<title>Please let me zoom my documents!</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/please-let-me-zoom-my-documents-/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/please-let-me-zoom-my-documents-/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/please-let-me-zoom-my-documents-/</link>
+	<link>http://cynic.cc/blog//posts/please-let-me-zoom-my-documents-/</link>
 
 
 	<category>bugs</category>
@@ -246,9 +246,9 @@ the typographic arena is alive and going strong.&lt;/p&gt;
 	<title>2005-11-17</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2005-11-17/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-11-17/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/2005-11-17/</link>
+	<link>http://cynic.cc/blog//posts/2005-11-17/</link>
 
 
 	<category>debian</category>

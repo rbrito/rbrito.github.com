@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged browsers</title>
-<link href="http://rb.doesntexist.org/blog//tags/browsers/"/>
-<link href="http://rb.doesntexist.org/blog//tags/browsers/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/browsers/"/>
+<link href="http://cynic.cc/blog//tags/browsers/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/browsers/</id>
+<id>http://cynic.cc/blog//tags/browsers/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>(Some) Solutions with Chromium</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/some_solutions_with_chromium/</id>
+	<id>http://cynic.cc/blog//posts/some_solutions_with_chromium/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/some_solutions_with_chromium/"/>
+	<link href="http://cynic.cc/blog//posts/some_solutions_with_chromium/"/>
 
 
 
@@ -43,7 +43,7 @@
 	<published>2011-03-09T17:33:00Z</published>
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;In &lt;a href=&quot;http://rb.doesntexist.org/blog//tags/browsers/../../posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
+	&lt;p&gt;In &lt;a href=&quot;http://cynic.cc/blog//tags/browsers/../../posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
 my frustrations with Chromium/Chrome.  A very kind reader, Timo Juhani
 Lindfors, gave me answers to many of the problems that I pointed out and got
 me straight on some issues:&lt;/p&gt;
@@ -132,9 +132,9 @@ usable browsers now.&lt;/p&gt;
 <entry>
 	<title>My problems with Chromium</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/problems_with_chromium/</id>
+	<id>http://cynic.cc/blog//posts/problems_with_chromium/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/problems_with_chromium/"/>
+	<link href="http://cynic.cc/blog//posts/problems_with_chromium/"/>
 
 
 

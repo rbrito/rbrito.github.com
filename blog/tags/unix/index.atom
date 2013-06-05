@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged unix</title>
-<link href="http://rb.doesntexist.org/blog//tags/unix/"/>
-<link href="http://rb.doesntexist.org/blog//tags/unix/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/unix/"/>
+<link href="http://cynic.cc/blog//tags/unix/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/unix/</id>
+<id>http://cynic.cc/blog//tags/unix/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>2000-10-02</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-10-02/</id>
+	<id>http://cynic.cc/blog//posts/2000-10-02/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-10-02/"/>
+	<link href="http://cynic.cc/blog//posts/2000-10-02/"/>
 
 
 
@@ -41,7 +41,7 @@
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Another usual day, without much to say. I&#39;ve been struggling to use
 my University&#39;s network, but the system administrators take so
-little care of it... What a pity. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/unix/../../smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt; My home system is in better
+little care of it... What a pity. &lt;img src=&quot;http://cynic.cc/blog//tags/unix/../../smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt; My home system is in better
 shape, actually (ok, but them I&#39;m a nerd that almost lives for his
 computer and that may be an excuse, but I thought that it was a
 prerequisite for all system administrators to be one).&lt;/p&gt;

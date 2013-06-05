@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged linux</title>
-<link>http://rb.doesntexist.org/blog//tags/linux/</link>
+<link>http://cynic.cc/blog//tags/linux/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Lack of cooperation from Ubuntu?</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/lack_of_cooperation_from_ubuntu/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/lack_of_cooperation_from_ubuntu/</link>
+	<link>http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/</link>
 
 
 	<category>debian</category>
@@ -28,13 +28,13 @@
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-04-20T01:46:43Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:25:20Z</dcterms:modified>
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
 reproduced on Planet. I&#39;m editing it a bit, as it is a followup to my
 previous post.&lt;/p&gt;
 
-&lt;p&gt;While &lt;a href=&quot;http://rb.doesntexist.org/blog/posts/debian_activities/&quot;&gt;improving the packaging of MongoDB&lt;/a&gt;, there was one thing that
+&lt;p&gt;While &lt;a href=&quot;http://cynic.cc/blog/posts/debian_activities/&quot;&gt;improving the packaging of MongoDB&lt;/a&gt;, there was one thing that
 caught my attention: that Ubuntu
 &lt;a href=&quot;http://changelogs.ubuntu.com/changelogs/pool/universe/m/mongodb/mongodb_2.0.4-1ubuntu2.1/changelog&quot;&gt;had already done some of the embedded/convenience libraries work&lt;/a&gt;, but
 they had &lt;em&gt;not&lt;/em&gt; pushed that work to Debian.&lt;/p&gt;
@@ -78,9 +78,9 @@ machines on datacenters.&lt;/p&gt;
 	<title>Some recent Debian activities</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/debian_activities/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/debian_activities/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/debian_activities/</link>
+	<link>http://cynic.cc/blog//posts/debian_activities/</link>
 
 
 	<category>debian</category>
@@ -177,9 +177,9 @@ and contributing back what I produced.&lt;/p&gt;
 	<title>Some experiences with ZFS</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/some_experiences_with_zfs/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/some_experiences_with_zfs/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/some_experiences_with_zfs/</link>
+	<link>http://cynic.cc/blog//posts/some_experiences_with_zfs/</link>
 
 
 	<category>compression</category>
@@ -250,9 +250,9 @@ behavior.&lt;/p&gt;
 	<title>Running GRUB2 on PowerPC Macs</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/running_grub2_on_powerpc_macs/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</link>
+	<link>http://cynic.cc/blog//posts/running_grub2_on_powerpc_macs/</link>
 
 
 	<category>configuration</category>
@@ -563,9 +563,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
+	<link>http://cynic.cc/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
 
 
 	<category>configuration</category>
@@ -733,9 +733,9 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<title>Debian Switching to EGLIBC</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/debian-switching-to-eglibc/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/debian-switching-to-eglibc/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/debian-switching-to-eglibc/</link>
+	<link>http://cynic.cc/blog//posts/debian-switching-to-eglibc/</link>
 
 
 	<category>computers</category>
@@ -773,9 +773,9 @@ thing, because computing resources are limited).&lt;/p&gt;
 	<title>Happy News: A new Kurobox</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/happy-news-a-new-kurobox/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/happy-news-a-new-kurobox/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/happy-news-a-new-kurobox/</link>
+	<link>http://cynic.cc/blog//posts/happy-news-a-new-kurobox/</link>
 
 
 	<category>computers</category>
@@ -812,9 +812,9 @@ bigger capacity ones are only available with SATA interfaces.&lt;/p&gt;
 	<title>Playing with Package Proxies</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/playing-with-package-proxies/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/</link>
+	<link>http://cynic.cc/blog//posts/playing-with-package-proxies/</link>
 
 
 	<category>approx</category>
@@ -883,9 +883,9 @@ build-dependencies.&lt;/p&gt;
 	<title>2001-07-17</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-07-17/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-17/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/2001-07-17/</link>
+	<link>http://cynic.cc/blog//posts/2001-07-17/</link>
 
 
 	<category>hardware</category>
@@ -957,9 +957,9 @@ the other Mac behaves the same way. Enough for a day already.&lt;/p&gt;
 	<title>2001-07-16</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-07-16/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-16/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/2001-07-16/</link>
+	<link>http://cynic.cc/blog//posts/2001-07-16/</link>
 
 
 	<category>blind-guardian</category>

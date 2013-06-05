@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged linux</title>
-<link href="http://rb.doesntexist.org/blog//tags/linux/"/>
-<link href="http://rb.doesntexist.org/blog//tags/linux/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/linux/"/>
+<link href="http://cynic.cc/blog//tags/linux/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,17 +13,17 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/linux/</id>
+<id>http://cynic.cc/blog//tags/linux/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-05-08T00:28:38Z</updated>
+<updated>2013-06-05T08:25:20Z</updated>
 <entry>
 	<title>Lack of cooperation from Ubuntu?</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/lack_of_cooperation_from_ubuntu/</id>
+	<id>http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/lack_of_cooperation_from_ubuntu/"/>
+	<link href="http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/"/>
 
 
 
@@ -41,7 +41,7 @@
 	<category term="ubuntu" />
 
 
-	<updated>2013-04-20T01:46:43Z</updated>
+	<updated>2013-06-05T08:25:20Z</updated>
 	<published>2013-04-20T01:46:26Z</published>
 
 	<content type="html" xml:lang="en">
@@ -49,7 +49,7 @@
 reproduced on Planet. I&#39;m editing it a bit, as it is a followup to my
 previous post.&lt;/p&gt;
 
-&lt;p&gt;While &lt;a href=&quot;http://rb.doesntexist.org/blog/posts/debian_activities/&quot;&gt;improving the packaging of MongoDB&lt;/a&gt;, there was one thing that
+&lt;p&gt;While &lt;a href=&quot;http://cynic.cc/blog/posts/debian_activities/&quot;&gt;improving the packaging of MongoDB&lt;/a&gt;, there was one thing that
 caught my attention: that Ubuntu
 &lt;a href=&quot;http://changelogs.ubuntu.com/changelogs/pool/universe/m/mongodb/mongodb_2.0.4-1ubuntu2.1/changelog&quot;&gt;had already done some of the embedded/convenience libraries work&lt;/a&gt;, but
 they had &lt;em&gt;not&lt;/em&gt; pushed that work to Debian.&lt;/p&gt;
@@ -93,9 +93,9 @@ machines on datacenters.&lt;/p&gt;
 <entry>
 	<title>Some recent Debian activities</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/debian_activities/</id>
+	<id>http://cynic.cc/blog//posts/debian_activities/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/debian_activities/"/>
+	<link href="http://cynic.cc/blog//posts/debian_activities/"/>
 
 
 
@@ -197,9 +197,9 @@ and contributing back what I produced.&lt;/p&gt;
 <entry>
 	<title>Some experiences with ZFS</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/some_experiences_with_zfs/</id>
+	<id>http://cynic.cc/blog//posts/some_experiences_with_zfs/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/some_experiences_with_zfs/"/>
+	<link href="http://cynic.cc/blog//posts/some_experiences_with_zfs/"/>
 
 
 
@@ -275,9 +275,9 @@ behavior.&lt;/p&gt;
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</id>
+	<id>http://cynic.cc/blog//posts/running_grub2_on_powerpc_macs/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/"/>
+	<link href="http://cynic.cc/blog//posts/running_grub2_on_powerpc_macs/"/>
 
 
 
@@ -593,9 +593,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 <entry>
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</id>
+	<id>http://cynic.cc/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/"/>
+	<link href="http://cynic.cc/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/"/>
 
 
 
@@ -768,9 +768,9 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 <entry>
 	<title>Debian Switching to EGLIBC</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/debian-switching-to-eglibc/</id>
+	<id>http://cynic.cc/blog//posts/debian-switching-to-eglibc/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/debian-switching-to-eglibc/"/>
+	<link href="http://cynic.cc/blog//posts/debian-switching-to-eglibc/"/>
 
 
 
@@ -813,9 +813,9 @@ thing, because computing resources are limited).&lt;/p&gt;
 <entry>
 	<title>Happy News: A new Kurobox</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/happy-news-a-new-kurobox/</id>
+	<id>http://cynic.cc/blog//posts/happy-news-a-new-kurobox/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/happy-news-a-new-kurobox/"/>
+	<link href="http://cynic.cc/blog//posts/happy-news-a-new-kurobox/"/>
 
 
 
@@ -857,9 +857,9 @@ bigger capacity ones are only available with SATA interfaces.&lt;/p&gt;
 <entry>
 	<title>Playing with Package Proxies</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/</id>
+	<id>http://cynic.cc/blog//posts/playing-with-package-proxies/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/"/>
+	<link href="http://cynic.cc/blog//posts/playing-with-package-proxies/"/>
 
 
 
@@ -933,9 +933,9 @@ build-dependencies.&lt;/p&gt;
 <entry>
 	<title>2001-07-17</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-07-17/</id>
+	<id>http://cynic.cc/blog//posts/2001-07-17/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-07-17/"/>
+	<link href="http://cynic.cc/blog//posts/2001-07-17/"/>
 
 
 
@@ -1012,9 +1012,9 @@ the other Mac behaves the same way. Enough for a day already.&lt;/p&gt;
 <entry>
 	<title>2001-07-16</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-07-16/</id>
+	<id>http://cynic.cc/blog//posts/2001-07-16/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-07-16/"/>
+	<link href="http://cynic.cc/blog//posts/2001-07-16/"/>
 
 
 

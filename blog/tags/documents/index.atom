@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged documents</title>
-<link href="http://rb.doesntexist.org/blog//tags/documents/"/>
-<link href="http://rb.doesntexist.org/blog//tags/documents/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/documents/"/>
+<link href="http://cynic.cc/blog//tags/documents/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/documents/</id>
+<id>http://cynic.cc/blog//tags/documents/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>Packaging fonts for a Debian-based system</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/</id>
+	<id>http://cynic.cc/blog//posts/packaging-fonts-for-a-debian-based-system/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/packaging-fonts-for-a-debian-based-system/"/>
+	<link href="http://cynic.cc/blog//posts/packaging-fonts-for-a-debian-based-system/"/>
 
 
 
@@ -161,9 +161,9 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 <entry>
 	<title>A version of xpdf with the poppler backend available</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</id>
+	<id>http://cynic.cc/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/"/>
+	<link href="http://cynic.cc/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/"/>
 
 
 

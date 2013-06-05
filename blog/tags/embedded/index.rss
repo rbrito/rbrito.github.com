@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged embedded</title>
-<link>http://rb.doesntexist.org/blog//tags/embedded/</link>
+<link>http://cynic.cc/blog//tags/embedded/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
+	<link>http://cynic.cc/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
 
 
 	<category>configuration</category>
@@ -181,9 +181,9 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<title>Debian Switching to EGLIBC</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/debian-switching-to-eglibc/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/debian-switching-to-eglibc/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/debian-switching-to-eglibc/</link>
+	<link>http://cynic.cc/blog//posts/debian-switching-to-eglibc/</link>
 
 
 	<category>computers</category>
@@ -221,9 +221,9 @@ thing, because computing resources are limited).&lt;/p&gt;
 	<title>Happy News: A new Kurobox</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/happy-news-a-new-kurobox/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/happy-news-a-new-kurobox/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/happy-news-a-new-kurobox/</link>
+	<link>http://cynic.cc/blog//posts/happy-news-a-new-kurobox/</link>
 
 
 	<category>computers</category>
@@ -260,9 +260,9 @@ bigger capacity ones are only available with SATA interfaces.&lt;/p&gt;
 	<title>Playing with Package Proxies</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/playing-with-package-proxies/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/</link>
+	<link>http://cynic.cc/blog//posts/playing-with-package-proxies/</link>
 
 
 	<category>approx</category>

@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged ubuntu</title>
-<link href="http://rb.doesntexist.org/blog//tags/ubuntu/"/>
-<link href="http://rb.doesntexist.org/blog//tags/ubuntu/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/ubuntu/"/>
+<link href="http://cynic.cc/blog//tags/ubuntu/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,17 +13,17 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/ubuntu/</id>
+<id>http://cynic.cc/blog//tags/ubuntu/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-04-20T01:46:43Z</updated>
+<updated>2013-06-05T08:25:20Z</updated>
 <entry>
 	<title>Lack of cooperation from Ubuntu?</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/lack_of_cooperation_from_ubuntu/</id>
+	<id>http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/lack_of_cooperation_from_ubuntu/"/>
+	<link href="http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/"/>
 
 
 
@@ -41,7 +41,7 @@
 	<category term="ubuntu" />
 
 
-	<updated>2013-04-20T01:46:43Z</updated>
+	<updated>2013-06-05T08:25:20Z</updated>
 	<published>2013-04-20T01:46:26Z</published>
 
 	<content type="html" xml:lang="en">
@@ -49,7 +49,7 @@
 reproduced on Planet. I&#39;m editing it a bit, as it is a followup to my
 previous post.&lt;/p&gt;
 
-&lt;p&gt;While &lt;a href=&quot;http://rb.doesntexist.org/blog/posts/debian_activities/&quot;&gt;improving the packaging of MongoDB&lt;/a&gt;, there was one thing that
+&lt;p&gt;While &lt;a href=&quot;http://cynic.cc/blog/posts/debian_activities/&quot;&gt;improving the packaging of MongoDB&lt;/a&gt;, there was one thing that
 caught my attention: that Ubuntu
 &lt;a href=&quot;http://changelogs.ubuntu.com/changelogs/pool/universe/m/mongodb/mongodb_2.0.4-1ubuntu2.1/changelog&quot;&gt;had already done some of the embedded/convenience libraries work&lt;/a&gt;, but
 they had &lt;em&gt;not&lt;/em&gt; pushed that work to Debian.&lt;/p&gt;
@@ -93,9 +93,9 @@ machines on datacenters.&lt;/p&gt;
 <entry>
 	<title>My problems with Chromium</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/problems_with_chromium/</id>
+	<id>http://cynic.cc/blog//posts/problems_with_chromium/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/problems_with_chromium/"/>
+	<link href="http://cynic.cc/blog//posts/problems_with_chromium/"/>
 
 
 
@@ -173,9 +173,9 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 <entry>
 	<title>Debian Switching to EGLIBC</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/debian-switching-to-eglibc/</id>
+	<id>http://cynic.cc/blog//posts/debian-switching-to-eglibc/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/debian-switching-to-eglibc/"/>
+	<link href="http://cynic.cc/blog//posts/debian-switching-to-eglibc/"/>
 
 
 
@@ -218,9 +218,9 @@ thing, because computing resources are limited).&lt;/p&gt;
 <entry>
 	<title>Playing with Package Proxies</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/</id>
+	<id>http://cynic.cc/blog//posts/playing-with-package-proxies/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/playing-with-package-proxies/"/>
+	<link href="http://cynic.cc/blog//posts/playing-with-package-proxies/"/>
 
 
 

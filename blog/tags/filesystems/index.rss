@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged filesystems</title>
-<link>http://rb.doesntexist.org/blog//tags/filesystems/</link>
+<link>http://cynic.cc/blog//tags/filesystems/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Some experiences with ZFS</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/some_experiences_with_zfs/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/some_experiences_with_zfs/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/some_experiences_with_zfs/</link>
+	<link>http://cynic.cc/blog//posts/some_experiences_with_zfs/</link>
 
 
 	<category>compression</category>
@@ -84,9 +84,9 @@ behavior.&lt;/p&gt;
 	<title>2000-09-13</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-09-13/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-09-13/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/2000-09-13/</link>
+	<link>http://cynic.cc/blog//posts/2000-09-13/</link>
 
 
 	<category>filesystems</category>
@@ -133,9 +133,9 @@ when I select the album (am I using it correctly?).&lt;/p&gt;
 	<title>2000-09-04</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-09-04/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-09-04/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/2000-09-04/</link>
+	<link>http://cynic.cc/blog//posts/2000-09-04/</link>
 
 
 	<category>debian</category>

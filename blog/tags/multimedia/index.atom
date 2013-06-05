@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged multimedia</title>
-<link href="http://rb.doesntexist.org/blog//tags/multimedia/"/>
-<link href="http://rb.doesntexist.org/blog//tags/multimedia/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/multimedia/"/>
+<link href="http://cynic.cc/blog//tags/multimedia/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/multimedia/</id>
+<id>http://cynic.cc/blog//tags/multimedia/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>Looking for (Free) a Video Editor</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</id>
+	<id>http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/"/>
+	<link href="http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/"/>
 
 
 
@@ -67,10 +67,10 @@ multi-camera video?&lt;/p&gt;
 
 &lt;p&gt;What would my options be? I &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT43j64jh8zLRYCMVRnJQgINcgSOhf-5Ozg&quot;&gt;asked this&lt;/a&gt; on youtube for a person that
 &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&quot;&gt;did exactly what I want&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT6jkGhCF9g1RzmZAsFIGmYzChDJwqwovNc&quot;&gt;their answer&lt;/a&gt; was &lt;a href=&quot;https://en.wikipedia.org/wiki/Sony_Vegas_Pro&quot;&gt;Sony Vegas&lt;/a&gt;,
-which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/multimedia/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://cynic.cc/blog//tags/multimedia/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Any comments are welcome, thanks, and if I am successful, I will upload the
-final video. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/multimedia/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+final video. &lt;img src=&quot;http://cynic.cc/blog//tags/multimedia/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 
 	</content>
 
@@ -80,9 +80,9 @@ final video. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/multimedia/.
 <entry>
 	<title>I am not going to DebConf 12</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/i-am-not-going-to-debconf-12/</id>
+	<id>http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/i-am-not-going-to-debconf-12/"/>
+	<link href="http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/"/>
 
 
 
@@ -144,9 +144,9 @@ stuff.&lt;/p&gt;
 <entry>
 	<title>Preliminary support for webm in youtube-dl</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/preliminary-support-for-webm-in-youtube-dl/</id>
+	<id>http://cynic.cc/blog//posts/preliminary-support-for-webm-in-youtube-dl/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/preliminary-support-for-webm-in-youtube-dl/"/>
+	<link href="http://cynic.cc/blog//posts/preliminary-support-for-webm-in-youtube-dl/"/>
 
 
 
@@ -176,7 +176,7 @@ stuff.&lt;/p&gt;
 
 &lt;p&gt;This way, at least people will have some material (in, fact, a chance) to play with this format.  I implemented this because, so far, I was only hoping here that a player for this would emerge. I guess that Debian&#39;s ffmpeg/mplayer will take some time, but I was pleased to see that Sebastian Dröge to upload a version of &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02596.html&quot;&gt;something&lt;/a&gt; that could use the new &lt;code&gt;libvpx&lt;/code&gt; codec.&lt;/p&gt;
 
-&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/multimedia/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;http://cynic.cc/blog//tags/multimedia/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Well, it seems to be time to shape up that local build of mine of the &lt;a href=&quot;http://www.geocities.jp/aoyoume/aotuv/&quot;&gt;aotuv&lt;/a&gt; tuned version of Vorbis with &lt;a href=&quot;http://www.geocities.jp/aoyoume/&quot;&gt;Aoyumi&lt;/a&gt;&#39;s patches for libvorbis.&lt;/p&gt;
 

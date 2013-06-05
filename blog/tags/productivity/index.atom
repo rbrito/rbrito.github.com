@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged productivity</title>
-<link href="http://rb.doesntexist.org/blog//tags/productivity/"/>
-<link href="http://rb.doesntexist.org/blog//tags/productivity/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/productivity/"/>
+<link href="http://cynic.cc/blog//tags/productivity/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/productivity/</id>
+<id>http://cynic.cc/blog//tags/productivity/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>Changing Some Configuration from Defaults</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/changing-some-configuration-from-defaults/</id>
+	<id>http://cynic.cc/blog//posts/changing-some-configuration-from-defaults/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/changing-some-configuration-from-defaults/"/>
+	<link href="http://cynic.cc/blog//posts/changing-some-configuration-from-defaults/"/>
 
 
 

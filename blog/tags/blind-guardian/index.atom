@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged blind-guardian</title>
-<link href="http://rb.doesntexist.org/blog//tags/blind-guardian/"/>
-<link href="http://rb.doesntexist.org/blog//tags/blind-guardian/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/blind-guardian/"/>
+<link href="http://cynic.cc/blog//tags/blind-guardian/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/blind-guardian/</id>
+<id>http://cynic.cc/blog//tags/blind-guardian/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>2001-07-16</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-07-16/</id>
+	<id>http://cynic.cc/blog//posts/2001-07-16/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-07-16/"/>
+	<link href="http://cynic.cc/blog//posts/2001-07-16/"/>
 
 
 

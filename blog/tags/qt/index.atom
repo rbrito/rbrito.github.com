@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged qt</title>
-<link href="http://rb.doesntexist.org/blog//tags/qt/"/>
-<link href="http://rb.doesntexist.org/blog//tags/qt/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/qt/"/>
+<link href="http://cynic.cc/blog//tags/qt/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/qt/</id>
+<id>http://cynic.cc/blog//tags/qt/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>2000-09-04</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-09-04/</id>
+	<id>http://cynic.cc/blog//posts/2000-09-04/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-09-04/"/>
+	<link href="http://cynic.cc/blog//posts/2000-09-04/"/>
 
 
 

@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged lame</title>
-<link>http://rb.doesntexist.org/blog//tags/lame/</link>
+<link>http://cynic.cc/blog//tags/lame/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>2000-12-02</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-12-02/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-12-02/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/2000-12-02/</link>
+	<link>http://cynic.cc/blog//posts/2000-12-02/</link>
 
 
 	<category>debian</category>
@@ -69,9 +69,9 @@ ftpparse-ified version of wget (for mirroring
 	<title>2000-09-12</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2000-09-12/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-09-12/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/2000-09-12/</link>
+	<link>http://cynic.cc/blog//posts/2000-09-12/</link>
 
 
 	<category>lame</category>

@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>RecentChanges</title>
-<link href="http://rb.doesntexist.org/blog//recentchanges/"/>
-<link href="http://rb.doesntexist.org/blog//recentchanges/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//recentchanges/"/>
+<link href="http://cynic.cc/blog//recentchanges/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,17 +13,387 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//recentchanges/</id>
+<id>http://cynic.cc/blog//recentchanges/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-05-08T00:29:21Z</updated>
+<updated>2013-06-05T08:25:51Z</updated>
+<entry>
+	<title>change to .blog.setup posts/lack_of_cooperation_from_ubuntu posts/trying_out_adsense_not on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_06c6fa5af9b93ea38a4af29855eeb7b0d3712aa7/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-06c6fa5af9b93ea38a4af29855eeb7b0d3712aa7"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-06-05T08:25:51Z</updated>
+	<published>2013-06-05T08:25:51Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-06c6fa5af9b93ea38a4af29855eeb7b0d3712aa7&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+.blog.setup
+
+posts/lack of cooperation from ubuntu
+
+posts/trying out adsense not
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-06-05T08:25:51Z&quot;&gt;05:25:51 2013-06-05&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Update domain.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 06c6fa5af9b93ea38a4af29855eeb7b0d3712aa7 --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to tags/network on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_0dad69d44d1a8eed3004f36895f1479d35a72b8b/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-0dad69d44d1a8eed3004f36895f1479d35a72b8b"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-05-08T00:29:52Z</updated>
+	<published>2013-05-08T00:29:52Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-0dad69d44d1a8eed3004f36895f1479d35a72b8b&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+tags/network
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-05-08T00:29:52Z&quot;&gt;21:29:52 2013-05-07&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tags/network&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 0dad69d44d1a8eed3004f36895f1479d35a72b8b --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to tags/blind-guardian on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_d3ace1d7d1de3e75c0f6b884f4f6182b21ec8b90/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-d3ace1d7d1de3e75c0f6b884f4f6182b21ec8b90"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-05-08T00:29:48Z</updated>
+	<published>2013-05-08T00:29:48Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-d3ace1d7d1de3e75c0f6b884f4f6182b21ec8b90&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+tags/blind-guardian
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-05-08T00:29:48Z&quot;&gt;21:29:48 2013-05-07&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tags/blind-guardian&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- d3ace1d7d1de3e75c0f6b884f4f6182b21ec8b90 --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to tags/netbsd on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_4f12ee6a698e17f84d535b84c32031958b6651d0/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-4f12ee6a698e17f84d535b84c32031958b6651d0"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-05-08T00:29:44Z</updated>
+	<published>2013-05-08T00:29:44Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-4f12ee6a698e17f84d535b84c32031958b6651d0&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+tags/netbsd
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-05-08T00:29:44Z&quot;&gt;21:29:44 2013-05-07&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tags/netbsd&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 4f12ee6a698e17f84d535b84c32031958b6651d0 --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to tags/macos on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_04dea2b36f8f727bc16e60183c0b1e00f8072466/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-04dea2b36f8f727bc16e60183c0b1e00f8072466"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-05-08T00:29:40Z</updated>
+	<published>2013-05-08T00:29:40Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-04dea2b36f8f727bc16e60183c0b1e00f8072466&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+tags/macos
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-05-08T00:29:40Z&quot;&gt;21:29:40 2013-05-07&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tags/macos&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 04dea2b36f8f727bc16e60183c0b1e00f8072466 --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to tags/health on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_76945178ae4d622d72d5cc94652ee2f4d298f990/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-76945178ae4d622d72d5cc94652ee2f4d298f990"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-05-08T00:29:35Z</updated>
+	<published>2013-05-08T00:29:35Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-76945178ae4d622d72d5cc94652ee2f4d298f990&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+tags/health
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-05-08T00:29:35Z&quot;&gt;21:29:35 2013-05-07&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tags/health&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 76945178ae4d622d72d5cc94652ee2f4d298f990 --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to posts/2001-02-05 posts/2001-03-10 posts/2001-05-18 posts/2001-07-11 posts/2001-07-12 posts/2001-07-13 posts/2001-07-14 posts/2001-07-15 posts/2001-07-16 posts/2001-07-17 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_fa83a32c665ef7800bfc3c78f070f40650c7e5d4/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_fa83a32c665ef7800bfc3c78f070f40650c7e5d4/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-fa83a32c665ef7800bfc3c78f070f40650c7e5d4"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-fa83a32c665ef7800bfc3c78f070f40650c7e5d4"/>
 
 	<author><name>rbrito</name></author>
 
@@ -100,9 +470,9 @@ Fix more tags.&lt;br /&gt;
 <entry>
 	<title>change to posts/debian_activities on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_73069e8814f71a6f3a30d3743885522b1e7fc09c/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_73069e8814f71a6f3a30d3743885522b1e7fc09c/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-73069e8814f71a6f3a30d3743885522b1e7fc09c"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-73069e8814f71a6f3a30d3743885522b1e7fc09c"/>
 
 	<author><name>rbrito</name></author>
 
@@ -161,9 +531,9 @@ Fix wrong markdown link.&lt;br /&gt;
 <entry>
 	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_88940a7aa88b3df354e3a7c7c94ad6386543b76a/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_88940a7aa88b3df354e3a7c7c94ad6386543b76a/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-88940a7aa88b3df354e3a7c7c94ad6386543b76a"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-88940a7aa88b3df354e3a7c7c94ad6386543b76a"/>
 
 	<author><name>rbrito</name></author>
 
@@ -222,9 +592,9 @@ Remove analytics code.&lt;br /&gt;
 <entry>
 	<title>change to tags/kfreebsd on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_f980a3955a57e13149eaa26215c9429f7d15e7c5/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_f980a3955a57e13149eaa26215c9429f7d15e7c5/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-f980a3955a57e13149eaa26215c9429f7d15e7c5"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-f980a3955a57e13149eaa26215c9429f7d15e7c5"/>
 
 	<author><name>rbrito</name></author>
 
@@ -283,9 +653,9 @@ creating tag page tags/kfreebsd&lt;br /&gt;
 <entry>
 	<title>change to posts/lack_of_cooperation_from_ubuntu on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_df5637cc4c750ee9fba4ff0c0b2e222a3e400d2b/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_df5637cc4c750ee9fba4ff0c0b2e222a3e400d2b/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-df5637cc4c750ee9fba4ff0c0b2e222a3e400d2b"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-df5637cc4c750ee9fba4ff0c0b2e222a3e400d2b"/>
 
 	<author><name>rbrito</name></author>
 
@@ -344,9 +714,9 @@ Add post on Ubuntu vs. MongoDB.&lt;br /&gt;
 <entry>
 	<title>change to posts/debian_activities on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_4dd2013c0f6bee185445fc76a35d8e3658bb4179/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_4dd2013c0f6bee185445fc76a35d8e3658bb4179/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-4dd2013c0f6bee185445fc76a35d8e3658bb4179"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-4dd2013c0f6bee185445fc76a35d8e3658bb4179"/>
 
 	<author><name>rbrito</name></author>
 
@@ -405,9 +775,9 @@ Add post on my recent debian activities.&lt;br /&gt;
 <entry>
 	<title>change to tags/voting on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_c0c9dae9c1094a48533ee020bffd2ff91165783c/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_c0c9dae9c1094a48533ee020bffd2ff91165783c/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-c0c9dae9c1094a48533ee020bffd2ff91165783c"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-c0c9dae9c1094a48533ee020bffd2ff91165783c"/>
 
 	<author><name>rbrito</name></author>
 
@@ -466,9 +836,9 @@ creating tag page tags/voting&lt;br /&gt;
 <entry>
 	<title>change to tags/bind on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_a4ce653ffe629e47ed88d41e67dce2f4f0c799bd/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_a4ce653ffe629e47ed88d41e67dce2f4f0c799bd/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a4ce653ffe629e47ed88d41e67dce2f4f0c799bd"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-a4ce653ffe629e47ed88d41e67dce2f4f0c799bd"/>
 
 	<author><name>rbrito</name></author>
 
@@ -527,9 +897,9 @@ creating tag page tags/bind&lt;br /&gt;
 <entry>
 	<title>change to tags/latex on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_9733ea1fb2b24e12b60dfb28d99bc4e850421613/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_9733ea1fb2b24e12b60dfb28d99bc4e850421613/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-9733ea1fb2b24e12b60dfb28d99bc4e850421613"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-9733ea1fb2b24e12b60dfb28d99bc4e850421613"/>
 
 	<author><name>rbrito</name></author>
 
@@ -588,9 +958,9 @@ creating tag page tags/latex&lt;br /&gt;
 <entry>
 	<title>change to tags/books on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_d507d902e9a649f21b40205f3b12c8450b659f70/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_d507d902e9a649f21b40205f3b12c8450b659f70/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-d507d902e9a649f21b40205f3b12c8450b659f70"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-d507d902e9a649f21b40205f3b12c8450b659f70"/>
 
 	<author><name>rbrito</name></author>
 
@@ -649,9 +1019,9 @@ creating tag page tags/books&lt;br /&gt;
 <entry>
 	<title>change to tags/lisp on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_73379490ab01347b8d0026530b804cc13d678db0/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_73379490ab01347b8d0026530b804cc13d678db0/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-73379490ab01347b8d0026530b804cc13d678db0"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-73379490ab01347b8d0026530b804cc13d678db0"/>
 
 	<author><name>rbrito</name></author>
 
@@ -710,9 +1080,9 @@ creating tag page tags/lisp&lt;br /&gt;
 <entry>
 	<title>change to tags/freebsd on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_d36587ab3c5d47e36c44ceeef76c93c664d521f3/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_d36587ab3c5d47e36c44ceeef76c93c664d521f3/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-d36587ab3c5d47e36c44ceeef76c93c664d521f3"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-d36587ab3c5d47e36c44ceeef76c93c664d521f3"/>
 
 	<author><name>rbrito</name></author>
 
@@ -771,9 +1141,9 @@ creating tag page tags/freebsd&lt;br /&gt;
 <entry>
 	<title>change to posts/2000-10-25 posts/2000-10-26 posts/2000-10-29 posts/2000-10-30 posts/2000-12-01 posts/2000-12-02 posts/2000-12-03 posts/2000-12-04 posts/2000-12-05 posts/2000-12-07  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_f6425cc65c4deb594a7a8d3ec0f9a015cc41fc12/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_f6425cc65c4deb594a7a8d3ec0f9a015cc41fc12/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-f6425cc65c4deb594a7a8d3ec0f9a015cc41fc12"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-f6425cc65c4deb594a7a8d3ec0f9a015cc41fc12"/>
 
 	<author><name>rbrito</name></author>
 
@@ -852,9 +1222,9 @@ Update/add tags to posts.&lt;br /&gt;
 <entry>
 	<title>change to tags/internet on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_a0bb7825a40de334d18c4912260297d5c66b9411/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_a0bb7825a40de334d18c4912260297d5c66b9411/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a0bb7825a40de334d18c4912260297d5c66b9411"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-a0bb7825a40de334d18c4912260297d5c66b9411"/>
 
 	<author><name>rbrito</name></author>
 
@@ -913,9 +1283,9 @@ creating tag page tags/internet&lt;br /&gt;
 <entry>
 	<title>change to tags/dns on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_5f540ba773202cc00721e024ccdbeedc8e9ad5c8/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_5f540ba773202cc00721e024ccdbeedc8e9ad5c8/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-5f540ba773202cc00721e024ccdbeedc8e9ad5c8"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-5f540ba773202cc00721e024ccdbeedc8e9ad5c8"/>
 
 	<author><name>rbrito</name></author>
 
@@ -974,9 +1344,9 @@ creating tag page tags/dns&lt;br /&gt;
 <entry>
 	<title>change to tags/unix on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_99d09d6b5b5e9c9c3b2c45b450297e7d928359bc/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_99d09d6b5b5e9c9c3b2c45b450297e7d928359bc/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-99d09d6b5b5e9c9c3b2c45b450297e7d928359bc"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-99d09d6b5b5e9c9c3b2c45b450297e7d928359bc"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1035,9 +1405,9 @@ creating tag page tags/unix&lt;br /&gt;
 <entry>
 	<title>change to tags/isp on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_a345dde99b0026a2863fd03a78d474205257c165/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_a345dde99b0026a2863fd03a78d474205257c165/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a345dde99b0026a2863fd03a78d474205257c165"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-a345dde99b0026a2863fd03a78d474205257c165"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1096,9 +1466,9 @@ creating tag page tags/isp&lt;br /&gt;
 <entry>
 	<title>change to tags/complexity-theory on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_1246829a450686fae06ec200e188e14d1e1f1d07/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_1246829a450686fae06ec200e188e14d1e1f1d07/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-1246829a450686fae06ec200e188e14d1e1f1d07"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-1246829a450686fae06ec200e188e14d1e1f1d07"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1157,9 +1527,9 @@ creating tag page tags/complexity-theory&lt;br /&gt;
 <entry>
 	<title>change to posts/2000-08-19 posts/2000-08-30 posts/2000-08-31 posts/2000-10-02 posts/2000-10-03 posts/2000-10-04 posts/2000-10-05 posts/2000-10-06 posts/2000-10-07 posts/2000-10-09  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_0d39c787fb03a71acff06dee3ae17c0f2a2bfcc8/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_0d39c787fb03a71acff06dee3ae17c0f2a2bfcc8/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-0d39c787fb03a71acff06dee3ae17c0f2a2bfcc8"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-0d39c787fb03a71acff06dee3ae17c0f2a2bfcc8"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1238,9 +1608,9 @@ Add some tags to posts.&lt;br /&gt;
 <entry>
 	<title>change to privacy_policy sidebar on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_37dba3cf669eac4d6c07d0702e01b71baf7e4f71/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_37dba3cf669eac4d6c07d0702e01b71baf7e4f71/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-37dba3cf669eac4d6c07d0702e01b71baf7e4f71"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-37dba3cf669eac4d6c07d0702e01b71baf7e4f71"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1311,9 +1681,9 @@ and I won&amp;#39;t be carrying this extra baggage.&lt;br /&gt;
 <entry>
 	<title>change to tags/lazyweb on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_5b40c1e7265a202191934faac3e80faae6c3d1b4/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_5b40c1e7265a202191934faac3e80faae6c3d1b4/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-5b40c1e7265a202191934faac3e80faae6c3d1b4"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-5b40c1e7265a202191934faac3e80faae6c3d1b4"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1372,9 +1742,9 @@ creating tag page tags/lazyweb&lt;br /&gt;
 <entry>
 	<title>change to posts/dear_lazyweb_what_is_a_good_free_video_editor on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_326f85db4abc0758ab782cea52d113a3a81d0e10/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_326f85db4abc0758ab782cea52d113a3a81d0e10/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-326f85db4abc0758ab782cea52d113a3a81d0e10"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-326f85db4abc0758ab782cea52d113a3a81d0e10"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1433,9 +1803,9 @@ Add post on video editors.&lt;br /&gt;
 <entry>
 	<title>change to tags/kde on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_a4d4abf1f4a23e7d7c6a4f2e43dd7d26bfb49b10/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_a4d4abf1f4a23e7d7c6a4f2e43dd7d26bfb49b10/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a4d4abf1f4a23e7d7c6a4f2e43dd7d26bfb49b10"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-a4d4abf1f4a23e7d7c6a4f2e43dd7d26bfb49b10"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1494,9 +1864,9 @@ creating tag page tags/kde&lt;br /&gt;
 <entry>
 	<title>change to tags/elections on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_0eb2f32f8eb1033371de0be35144a294c1bd738d/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_0eb2f32f8eb1033371de0be35144a294c1bd738d/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-0eb2f32f8eb1033371de0be35144a294c1bd738d"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-0eb2f32f8eb1033371de0be35144a294c1bd738d"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1555,9 +1925,9 @@ creating tag page tags/elections&lt;br /&gt;
 <entry>
 	<title>change to tags/broadband on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_a09e5a5ed98ab408b1f5eb731c114748680c6290/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_a09e5a5ed98ab408b1f5eb731c114748680c6290/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a09e5a5ed98ab408b1f5eb731c114748680c6290"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-a09e5a5ed98ab408b1f5eb731c114748680c6290"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1616,9 +1986,9 @@ creating tag page tags/broadband&lt;br /&gt;
 <entry>
 	<title>change to tags/lame on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_dc2ecbbf5eb361cd742cbfa4fbe5da5528916b8d/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_dc2ecbbf5eb361cd742cbfa4fbe5da5528916b8d/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-dc2ecbbf5eb361cd742cbfa4fbe5da5528916b8d"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-dc2ecbbf5eb361cd742cbfa4fbe5da5528916b8d"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1677,9 +2047,9 @@ creating tag page tags/lame&lt;br /&gt;
 <entry>
 	<title>change to tags/study on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_54000f55a137872d631a1ba45fd837b68c5824ce/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_54000f55a137872d631a1ba45fd837b68c5824ce/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-54000f55a137872d631a1ba45fd837b68c5824ce"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-54000f55a137872d631a1ba45fd837b68c5824ce"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1738,9 +2108,9 @@ creating tag page tags/study&lt;br /&gt;
 <entry>
 	<title>change to tags/hack on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_b78903dd4ffb9f6d5548272c7e230ea83409b810/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_b78903dd4ffb9f6d5548272c7e230ea83409b810/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-b78903dd4ffb9f6d5548272c7e230ea83409b810"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-b78903dd4ffb9f6d5548272c7e230ea83409b810"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1799,9 +2169,9 @@ creating tag page tags/hack&lt;br /&gt;
 <entry>
 	<title>change to tags/graphics-card on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_43f8c19a4799670e89ca1e7dd4fa42d6fe61ff52/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_43f8c19a4799670e89ca1e7dd4fa42d6fe61ff52/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-43f8c19a4799670e89ca1e7dd4fa42d6fe61ff52"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-43f8c19a4799670e89ca1e7dd4fa42d6fe61ff52"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1860,9 +2230,9 @@ creating tag page tags/graphics-card&lt;br /&gt;
 <entry>
 	<title>change to tags/qt on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_3a60952c77646aab1e80a352f70f8d2157d47c6d/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_3a60952c77646aab1e80a352f70f8d2157d47c6d/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-3a60952c77646aab1e80a352f70f8d2157d47c6d"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-3a60952c77646aab1e80a352f70f8d2157d47c6d"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1921,9 +2291,9 @@ creating tag page tags/qt&lt;br /&gt;
 <entry>
 	<title>change to tags/hardware on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_e495a2d728e0e057f1ff7d1a62213d440ffc9a2b/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_e495a2d728e0e057f1ff7d1a62213d440ffc9a2b/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-e495a2d728e0e057f1ff7d1a62213d440ffc9a2b"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-e495a2d728e0e057f1ff7d1a62213d440ffc9a2b"/>
 
 	<author><name>rbrito</name></author>
 
@@ -1982,9 +2352,9 @@ creating tag page tags/hardware&lt;br /&gt;
 <entry>
 	<title>change to tags/life on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_39e7f08b8dafa218fba52dbb18dc196ce1445df6/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_39e7f08b8dafa218fba52dbb18dc196ce1445df6/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-39e7f08b8dafa218fba52dbb18dc196ce1445df6"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-39e7f08b8dafa218fba52dbb18dc196ce1445df6"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2043,9 +2413,9 @@ creating tag page tags/life&lt;br /&gt;
 <entry>
 	<title>change to tags/movies on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_8516f75466440bef6879f130484a3c630a543ce6/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_8516f75466440bef6879f130484a3c630a543ce6/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-8516f75466440bef6879f130484a3c630a543ce6"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-8516f75466440bef6879f130484a3c630a543ce6"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2104,9 +2474,9 @@ creating tag page tags/movies&lt;br /&gt;
 <entry>
 	<title>change to tags/work on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_12e5a0ed2568062aa41a77d5785e3e37d36eb4ed/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_12e5a0ed2568062aa41a77d5785e3e37d36eb4ed/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-12e5a0ed2568062aa41a77d5785e3e37d36eb4ed"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-12e5a0ed2568062aa41a77d5785e3e37d36eb4ed"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2165,9 +2535,9 @@ creating tag page tags/work&lt;br /&gt;
 <entry>
 	<title>change to tags/symphony-x on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_8009c16c7e41a5c1c1fc77d2a2f6cd790ea193c5/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_8009c16c7e41a5c1c1fc77d2a2f6cd790ea193c5/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-8009c16c7e41a5c1c1fc77d2a2f6cd790ea193c5"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-8009c16c7e41a5c1c1fc77d2a2f6cd790ea193c5"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2226,9 +2596,9 @@ creating tag page tags/symphony-x&lt;br /&gt;
 <entry>
 	<title>change to tags/gnome on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_87488f1702544d84e730e8857f01f20aa4b16cac/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_87488f1702544d84e730e8857f01f20aa4b16cac/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-87488f1702544d84e730e8857f01f20aa4b16cac"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-87488f1702544d84e730e8857f01f20aa4b16cac"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2287,9 +2657,9 @@ creating tag page tags/gnome&lt;br /&gt;
 <entry>
 	<title>change to posts/2000-08-12 posts/2000-08-13 posts/2000-08-14 posts/2000-08-15 posts/2000-08-18 posts/2000-08-19 posts/2000-08-20 posts/2000-08-21 posts/2000-08-23 posts/2000-08-30  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_3f01506cc9522016638e5557509033db9e339cf3/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_3f01506cc9522016638e5557509033db9e339cf3/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-3f01506cc9522016638e5557509033db9e339cf3"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-3f01506cc9522016638e5557509033db9e339cf3"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2368,9 +2738,9 @@ Add tags to some of the first posts.&lt;br /&gt;
 <entry>
 	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_2959e0e21a375e84208539169ba0cdb6aad9fce8/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_2959e0e21a375e84208539169ba0cdb6aad9fce8/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-2959e0e21a375e84208539169ba0cdb6aad9fce8"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-2959e0e21a375e84208539169ba0cdb6aad9fce8"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2429,9 +2799,9 @@ Removed custom search.&lt;br /&gt;
 <entry>
 	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_bd9533e73c1c70f638d898250dc73de757acbec1/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_bd9533e73c1c70f638d898250dc73de757acbec1/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-bd9533e73c1c70f638d898250dc73de757acbec1"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-bd9533e73c1c70f638d898250dc73de757acbec1"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2502,9 +2872,9 @@ This reverts commit 01626b06a6d41c4a5ded3a72664b255f0deb5b8e.&lt;br /&gt;
 <entry>
 	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_1f1440727f6e8a4632ed517078f1420d66caafe1/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_1f1440727f6e8a4632ed517078f1420d66caafe1/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-1f1440727f6e8a4632ed517078f1420d66caafe1"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-1f1440727f6e8a4632ed517078f1420d66caafe1"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2585,9 +2955,9 @@ Conflicts:&lt;br /&gt;
 <entry>
 	<title>change to sidebar on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_a3b2a93389f1a278bc9d41c3b5298ecce6904faf/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_a3b2a93389f1a278bc9d41c3b5298ecce6904faf/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a3b2a93389f1a278bc9d41c3b5298ecce6904faf"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-a3b2a93389f1a278bc9d41c3b5298ecce6904faf"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2646,9 +3016,9 @@ Add github badge to sidebar.&lt;br /&gt;
 <entry>
 	<title>change to posts/another_meme_the_geektest on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_faf702202683a101d8497fb4750a093821a7aa1c/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_faf702202683a101d8497fb4750a093821a7aa1c/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-faf702202683a101d8497fb4750a093821a7aa1c"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-faf702202683a101d8497fb4750a093821a7aa1c"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2707,9 +3077,9 @@ Another meme: The Geektest.&lt;br /&gt;
 <entry>
 	<title>change to .blog.setup on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_65321167902081aa15c688b45748cb69bef63d5c/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_65321167902081aa15c688b45748cb69bef63d5c/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-65321167902081aa15c688b45748cb69bef63d5c"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-65321167902081aa15c688b45748cb69bef63d5c"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2768,9 +3138,9 @@ Enable use of HTML5.&lt;br /&gt;
 <entry>
 	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_d815184cd4dcab773be22cb477fca2791a6211fe/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_d815184cd4dcab773be22cb477fca2791a6211fe/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-d815184cd4dcab773be22cb477fca2791a6211fe"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-d815184cd4dcab773be22cb477fca2791a6211fe"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2829,9 +3199,9 @@ Add search box.&lt;br /&gt;
 <entry>
 	<title>change to tags/zfs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_588f194c5db063a075601ac6507936a3b6ea1030/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_588f194c5db063a075601ac6507936a3b6ea1030/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-588f194c5db063a075601ac6507936a3b6ea1030"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-588f194c5db063a075601ac6507936a3b6ea1030"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2890,9 +3260,9 @@ creating tag page tags/zfs&lt;br /&gt;
 <entry>
 	<title>change to tags/filesystems on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_dfc3ae615642e359445490b94741049abd5b9b13/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_dfc3ae615642e359445490b94741049abd5b9b13/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-dfc3ae615642e359445490b94741049abd5b9b13"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-dfc3ae615642e359445490b94741049abd5b9b13"/>
 
 	<author><name>rbrito</name></author>
 
@@ -2951,9 +3321,9 @@ creating tag page tags/filesystems&lt;br /&gt;
 <entry>
 	<title>change to tags/deduplication on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_50887ba1a5830b23809f89554dd10bd7e3a0df20/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_50887ba1a5830b23809f89554dd10bd7e3a0df20/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-50887ba1a5830b23809f89554dd10bd7e3a0df20"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-50887ba1a5830b23809f89554dd10bd7e3a0df20"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3012,9 +3382,9 @@ creating tag page tags/deduplication&lt;br /&gt;
 <entry>
 	<title>change to tags/compression on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_62bc4f312efa587ed284ba7bfb33edb75a2e920c/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_62bc4f312efa587ed284ba7bfb33edb75a2e920c/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-62bc4f312efa587ed284ba7bfb33edb75a2e920c"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-62bc4f312efa587ed284ba7bfb33edb75a2e920c"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3073,9 +3443,9 @@ creating tag page tags/compression&lt;br /&gt;
 <entry>
 	<title>change to posts/some_experiences_with_zfs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_45a90f3218c5671c05c8a8deabd3b4c10275c2fc/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_45a90f3218c5671c05c8a8deabd3b4c10275c2fc/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-45a90f3218c5671c05c8a8deabd3b4c10275c2fc"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-45a90f3218c5671c05c8a8deabd3b4c10275c2fc"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3134,9 +3504,9 @@ Add post with experiences with ZFS.&lt;br /&gt;
 <entry>
 	<title>change to .blog.setup on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_27a70b973553d0f606163be20aac46a13c612bc8/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_27a70b973553d0f606163be20aac46a13c612bc8/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-27a70b973553d0f606163be20aac46a13c612bc8"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-27a70b973553d0f606163be20aac46a13c612bc8"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3195,9 +3565,9 @@ To ease navigation allow sidebars on all pages.&lt;br /&gt;
 <entry>
 	<title>change to privacy_policy sidebar on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_2f4f552a3a5d0e39c099a8b296d8f05f7fdd2f2f/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_2f4f552a3a5d0e39c099a8b296d8f05f7fdd2f2f/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-2f4f552a3a5d0e39c099a8b296d8f05f7fdd2f2f"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-2f4f552a3a5d0e39c099a8b296d8f05f7fdd2f2f"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3258,9 +3628,9 @@ Add privacy policy statement.&lt;br /&gt;
 <entry>
 	<title>change to tags/google on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_d271bc15cc73ee5c84b9eb8563d4d16cc36ffc08/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_d271bc15cc73ee5c84b9eb8563d4d16cc36ffc08/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-d271bc15cc73ee5c84b9eb8563d4d16cc36ffc08"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-d271bc15cc73ee5c84b9eb8563d4d16cc36ffc08"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3319,9 +3689,9 @@ creating tag page tags/google&lt;br /&gt;
 <entry>
 	<title>change to posts/trying_out_adsense_not on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_4439e1bf1974c6aeaf5b08e71525096ae75aa532/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_4439e1bf1974c6aeaf5b08e71525096ae75aa532/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-4439e1bf1974c6aeaf5b08e71525096ae75aa532"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-4439e1bf1974c6aeaf5b08e71525096ae75aa532"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3380,9 +3750,9 @@ Add post on not using AdSense.&lt;br /&gt;
 <entry>
 	<title>change to posts/music-group-actions-quilt-and-debian-packages posts/random-points-on-group-theory on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_3e9da7b11c12d00865d7791fdaca203e1407c3bf/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_3e9da7b11c12d00865d7791fdaca203e1407c3bf/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-3e9da7b11c12d00865d7791fdaca203e1407c3bf"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-3e9da7b11c12d00865d7791fdaca203e1407c3bf"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3443,9 +3813,9 @@ Fix some markup.&lt;br /&gt;
 <entry>
 	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_c840af3a0eb72c5f910b6a0d1d6aac0e6bea5588/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_c840af3a0eb72c5f910b6a0d1d6aac0e6bea5588/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-c840af3a0eb72c5f910b6a0d1d6aac0e6bea5588"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-c840af3a0eb72c5f910b6a0d1d6aac0e6bea5588"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3504,9 +3874,9 @@ Add support for mathjax on the page template.&lt;br /&gt;
 <entry>
 	<title>change to tags/public-domain on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_a232038266502dfd5bf39ec5066c60faa4a4ec8b/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_a232038266502dfd5bf39ec5066c60faa4a4ec8b/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a232038266502dfd5bf39ec5066c60faa4a4ec8b"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-a232038266502dfd5bf39ec5066c60faa4a4ec8b"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3565,9 +3935,9 @@ creating tag page tags/public-domain&lt;br /&gt;
 <entry>
 	<title>change to tags/mp3 on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_c3495037769c6af8e0cbe70596ba34dbb890f11a/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_c3495037769c6af8e0cbe70596ba34dbb890f11a/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-c3495037769c6af8e0cbe70596ba34dbb890f11a"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-c3495037769c6af8e0cbe70596ba34dbb890f11a"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3626,9 +3996,9 @@ creating tag page tags/mp3&lt;br /&gt;
 <entry>
 	<title>change to tags/library on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_80bf1a83931fde6c9b2f065aba88834858329016/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_80bf1a83931fde6c9b2f065aba88834858329016/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-80bf1a83931fde6c9b2f065aba88834858329016"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-80bf1a83931fde6c9b2f065aba88834858329016"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3687,9 +4057,9 @@ creating tag page tags/library&lt;br /&gt;
 <entry>
 	<title>change to tags/apt-move on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_0fc954f4bd39a70ceb837b6cc1976eaaf995f281/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_0fc954f4bd39a70ceb837b6cc1976eaaf995f281/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-0fc954f4bd39a70ceb837b6cc1976eaaf995f281"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-0fc954f4bd39a70ceb837b6cc1976eaaf995f281"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3748,9 +4118,9 @@ creating tag page tags/apt-move&lt;br /&gt;
 <entry>
 	<title>change to tags/proxy on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_3eaa3502eefbf7409ac957187c8cb4f344b6b1a9/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_3eaa3502eefbf7409ac957187c8cb4f344b6b1a9/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-3eaa3502eefbf7409ac957187c8cb4f344b6b1a9"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-3eaa3502eefbf7409ac957187c8cb4f344b6b1a9"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3809,9 +4179,9 @@ creating tag page tags/proxy&lt;br /&gt;
 <entry>
 	<title>change to tags/audiobooks on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_2d487d590b081b22c3d04838b1207d195ed041d9/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_2d487d590b081b22c3d04838b1207d195ed041d9/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-2d487d590b081b22c3d04838b1207d195ed041d9"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-2d487d590b081b22c3d04838b1207d195ed041d9"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3870,9 +4240,9 @@ creating tag page tags/audiobooks&lt;br /&gt;
 <entry>
 	<title>change to tags/quotient-groups on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_72aac9eb66240eaa597eaaa6f6284940242a783a/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_72aac9eb66240eaa597eaaa6f6284940242a783a/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-72aac9eb66240eaa597eaaa6f6284940242a783a"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-72aac9eb66240eaa597eaaa6f6284940242a783a"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3931,9 +4301,9 @@ creating tag page tags/quotient-groups&lt;br /&gt;
 <entry>
 	<title>change to tags/abstract-algebra on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_7779d7dea371348e06c0a7829b9d10fcee16e03e/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_7779d7dea371348e06c0a7829b9d10fcee16e03e/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-7779d7dea371348e06c0a7829b9d10fcee16e03e"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-7779d7dea371348e06c0a7829b9d10fcee16e03e"/>
 
 	<author><name>rbrito</name></author>
 
@@ -3992,9 +4362,9 @@ creating tag page tags/abstract-algebra&lt;br /&gt;
 <entry>
 	<title>change to tags/hashes on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_48ec4b3bea915a45aba9c3465fe670c7d4863a98/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_48ec4b3bea915a45aba9c3465fe670c7d4863a98/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-48ec4b3bea915a45aba9c3465fe670c7d4863a98"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-48ec4b3bea915a45aba9c3465fe670c7d4863a98"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4053,9 +4423,9 @@ creating tag page tags/hashes&lt;br /&gt;
 <entry>
 	<title>change to tags/group-theory on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_75dedbe41e258fc1b76bbddc3741824c33fd48ee/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_75dedbe41e258fc1b76bbddc3741824c33fd48ee/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-75dedbe41e258fc1b76bbddc3741824c33fd48ee"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-75dedbe41e258fc1b76bbddc3741824c33fd48ee"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4114,9 +4484,9 @@ creating tag page tags/group-theory&lt;br /&gt;
 <entry>
 	<title>change to tags/itunesu on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_7dd54c4dd237982e6e7355b1b759e357f4e6efca/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_7dd54c4dd237982e6e7355b1b759e357f4e6efca/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-7dd54c4dd237982e6e7355b1b759e357f4e6efca"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-7dd54c4dd237982e6e7355b1b759e357f4e6efca"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4175,9 +4545,9 @@ creating tag page tags/itunesu&lt;br /&gt;
 <entry>
 	<title>change to tags/descartes on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_b3d6845fca7395c5908f895a69ca8bb3c0f80037/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_b3d6845fca7395c5908f895a69ca8bb3c0f80037/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-b3d6845fca7395c5908f895a69ca8bb3c0f80037"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-b3d6845fca7395c5908f895a69ca8bb3c0f80037"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4236,9 +4606,9 @@ creating tag page tags/descartes&lt;br /&gt;
 <entry>
 	<title>change to tags/music on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_82badf4c110778989baa5ac5def24c02f2ec3cf5/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_82badf4c110778989baa5ac5def24c02f2ec3cf5/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-82badf4c110778989baa5ac5def24c02f2ec3cf5"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-82badf4c110778989baa5ac5def24c02f2ec3cf5"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4297,9 +4667,9 @@ creating tag page tags/music&lt;br /&gt;
 <entry>
 	<title>change to tags/security on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_e70b4b8abd25e0d15ba6a10c32c454a59b26ac91/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_e70b4b8abd25e0d15ba6a10c32c454a59b26ac91/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-e70b4b8abd25e0d15ba6a10c32c454a59b26ac91"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-e70b4b8abd25e0d15ba6a10c32c454a59b26ac91"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4358,9 +4728,9 @@ creating tag page tags/security&lt;br /&gt;
 <entry>
 	<title>change to tags/indexed-metadata on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_f95043adbbfa7489f1058930b03b3075cb0aea29/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_f95043adbbfa7489f1058930b03b3075cb0aea29/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-f95043adbbfa7489f1058930b03b3075cb0aea29"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-f95043adbbfa7489f1058930b03b3075cb0aea29"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4419,9 +4789,9 @@ creating tag page tags/indexed-metadata&lt;br /&gt;
 <entry>
 	<title>change to tags/opeth on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_a35f2345684f125f2f240dcce0f1297ce5f25cf8/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_a35f2345684f125f2f240dcce0f1297ce5f25cf8/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a35f2345684f125f2f240dcce0f1297ce5f25cf8"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-a35f2345684f125f2f240dcce0f1297ce5f25cf8"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4480,9 +4850,9 @@ creating tag page tags/opeth&lt;br /&gt;
 <entry>
 	<title>change to tags/pain-of-salvation on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_f91ee4645d95ba8d32813b3d566b46b7c8627464/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_f91ee4645d95ba8d32813b3d566b46b7c8627464/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-f91ee4645d95ba8d32813b3d566b46b7c8627464"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-f91ee4645d95ba8d32813b3d566b46b7c8627464"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4541,9 +4911,9 @@ creating tag page tags/pain-of-salvation&lt;br /&gt;
 <entry>
 	<title>change to tags/group-actions on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_69c297cfab4df40e5e355eaeb80a8790c7a98f8b/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_69c297cfab4df40e5e355eaeb80a8790c7a98f8b/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-69c297cfab4df40e5e355eaeb80a8790c7a98f8b"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-69c297cfab4df40e5e355eaeb80a8790c7a98f8b"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4602,9 +4972,9 @@ creating tag page tags/group-actions&lt;br /&gt;
 <entry>
 	<title>change to tags/quilt on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_049bfa82e1cbd734c2350c7458a89127cc588df5/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_049bfa82e1cbd734c2350c7458a89127cc588df5/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-049bfa82e1cbd734c2350c7458a89127cc588df5"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-049bfa82e1cbd734c2350c7458a89127cc588df5"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4663,9 +5033,9 @@ creating tag page tags/quilt&lt;br /&gt;
 <entry>
 	<title>change to tags/ssh on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_458ca7759bb12031d251d086053b554925d7bda0/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_458ca7759bb12031d251d086053b554925d7bda0/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-458ca7759bb12031d251d086053b554925d7bda0"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-458ca7759bb12031d251d086053b554925d7bda0"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4724,9 +5094,9 @@ creating tag page tags/ssh&lt;br /&gt;
 <entry>
 	<title>change to tags/math on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_850d68d0ce47699519d7a00c9e33940d247bd727/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_850d68d0ce47699519d7a00c9e33940d247bd727/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-850d68d0ce47699519d7a00c9e33940d247bd727"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-850d68d0ce47699519d7a00c9e33940d247bd727"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4785,9 +5155,9 @@ creating tag page tags/math&lt;br /&gt;
 <entry>
 	<title>change to tags/apple on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_b826536b5c62181e61cec336a6127996d73de066/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_b826536b5c62181e61cec336a6127996d73de066/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-b826536b5c62181e61cec336a6127996d73de066"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-b826536b5c62181e61cec336a6127996d73de066"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4846,9 +5216,9 @@ creating tag page tags/apple&lt;br /&gt;
 <entry>
 	<title>change to tags/nas on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_7a5cc4dd2d718b774c3a09f483f8e1c306f1d150/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_7a5cc4dd2d718b774c3a09f483f8e1c306f1d150/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-7a5cc4dd2d718b774c3a09f483f8e1c306f1d150"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-7a5cc4dd2d718b774c3a09f483f8e1c306f1d150"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4907,9 +5277,9 @@ creating tag page tags/nas&lt;br /&gt;
 <entry>
 	<title>change to tags/approx on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_a4de33c7c49da2f634eafb001ab1ce63d2b74a02/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_a4de33c7c49da2f634eafb001ab1ce63d2b74a02/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a4de33c7c49da2f634eafb001ab1ce63d2b74a02"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-a4de33c7c49da2f634eafb001ab1ce63d2b74a02"/>
 
 	<author><name>rbrito</name></author>
 
@@ -4968,9 +5338,9 @@ creating tag page tags/approx&lt;br /&gt;
 <entry>
 	<title>change to tags/class-equation on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_46e12ec9cd4e54c9ecad79ed5fc588ff363c0be9/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_46e12ec9cd4e54c9ecad79ed5fc588ff363c0be9/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-46e12ec9cd4e54c9ecad79ed5fc588ff363c0be9"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-46e12ec9cd4e54c9ecad79ed5fc588ff363c0be9"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5029,9 +5399,9 @@ creating tag page tags/class-equation&lt;br /&gt;
 <entry>
 	<title>change to tags/dvds on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_0525df9412fabedec95abca36f03fb30fb0d877f/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_0525df9412fabedec95abca36f03fb30fb0d877f/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-0525df9412fabedec95abca36f03fb30fb0d877f"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-0525df9412fabedec95abca36f03fb30fb0d877f"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5090,9 +5460,9 @@ creating tag page tags/dvds&lt;br /&gt;
 <entry>
 	<title>change to tags/computers on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_3b5ae02590caa15f0aacf0b01d6e88645e89fb4e/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_3b5ae02590caa15f0aacf0b01d6e88645e89fb4e/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-3b5ae02590caa15f0aacf0b01d6e88645e89fb4e"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-3b5ae02590caa15f0aacf0b01d6e88645e89fb4e"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5151,9 +5521,9 @@ creating tag page tags/computers&lt;br /&gt;
 <entry>
 	<title>change to posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software posts/debian-switching-to-eglibc posts/getting-things-from-the-itunes-music-store-without-itunes posts/happy-news-a-new-kurobox posts/music-group-actions-quilt-and-debian-packages posts/on-a-first-course-in-abstract-algebra posts/playing-with-package-proxies posts/random-points-on-group-theory posts/seeing-opeth-live-in-brazil posts/sourceforge-ssh-keys-free-audiobooks-dvds on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_bda81a13d1e18b7ae1a04660190a8b4f092eb48d/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_bda81a13d1e18b7ae1a04660190a8b4f092eb48d/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-bda81a13d1e18b7ae1a04660190a8b4f092eb48d"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-bda81a13d1e18b7ae1a04660190a8b4f092eb48d"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5228,322 +5598,11 @@ Reformat in markdown&lt;br /&gt;
 
 </entry>
 <entry>
-	<title>change to about on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_d1dc61edbad38071640318f1b31654877ca543ff/</id>
-
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-d1dc61edbad38071640318f1b31654877ca543ff"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2012-09-05T12:18:26Z</updated>
-	<published>2012-09-05T12:18:26Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-d1dc61edbad38071640318f1b31654877ca543ff&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-about
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-05T12:18:26Z&quot;&gt;09:18:26 2012-09-05&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Fix header on the about page.&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- d1dc61edbad38071640318f1b31654877ca543ff --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to archives index posts sidebar on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_dd6ba5f32bd6dbbbc8a9d7f6d7b3574109e9aa91/</id>
-
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-dd6ba5f32bd6dbbbc8a9d7f6d7b3574109e9aa91"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2012-09-05T12:17:10Z</updated>
-	<published>2012-09-05T12:17:10Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-dd6ba5f32bd6dbbbc8a9d7f6d7b3574109e9aa91&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-archives
-
-index
-
-posts
-
-sidebar
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-05T12:17:10Z&quot;&gt;09:17:10 2012-09-05&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Try to make cheaper regeneration of pages.&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- dd6ba5f32bd6dbbbc8a9d7f6d7b3574109e9aa91 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_c2a5664f428cc4c76362f8029aa30452406c0a53/</id>
-
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-c2a5664f428cc4c76362f8029aa30452406c0a53"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2012-09-04T19:29:04Z</updated>
-	<published>2012-09-04T19:29:04Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-c2a5664f428cc4c76362f8029aa30452406c0a53&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-templates/page.tmpl
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-04T19:29:04Z&quot;&gt;16:29:04 2012-09-04&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-First try at putting the +1 button to the page template.&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- c2a5664f428cc4c76362f8029aa30452406c0a53 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_4eb3f8aa13017bd4a7b950e093b8b41cb73c9128/</id>
-
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-4eb3f8aa13017bd4a7b950e093b8b41cb73c9128"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2012-09-03T23:26:41Z</updated>
-	<published>2012-09-03T23:26:41Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-4eb3f8aa13017bd4a7b950e093b8b41cb73c9128&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-templates/page.tmpl
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-03T23:26:41Z&quot;&gt;20:26:41 2012-09-03&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Add analytics code to the page template.&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 4eb3f8aa13017bd4a7b950e093b8b41cb73c9128 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to tags/debian-planet on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_198e013109d1c5f2739034c7c58fc00542125018/</id>
-
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-198e013109d1c5f2739034c7c58fc00542125018"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2012-09-03T23:17:22Z</updated>
-	<published>2012-09-03T23:17:22Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-198e013109d1c5f2739034c7c58fc00542125018&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-tags/debian-planet
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-03T23:17:22Z&quot;&gt;20:17:22 2012-09-03&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/debian-planet&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 198e013109d1c5f2739034c7c58fc00542125018 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>change to posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_85b05e718c3f64c11a2a561a1a2f6123afa39269/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_85b05e718c3f64c11a2a561a1a2f6123afa39269/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-85b05e718c3f64c11a2a561a1a2f6123afa39269"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-85b05e718c3f64c11a2a561a1a2f6123afa39269"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5602,9 +5661,9 @@ Importing WordPress post &amp;quot;A Wish: The Ability of Playing MP3 CDs/DVDs c
 <entry>
 	<title>change to posts/getting-things-from-the-itunes-music-store-without-itunes posts/getting-things-from-the-itunes-music-store-without-itunes/comment_1._comment posts/getting-things-from-the-itunes-music-store-without-itunes/comment_2._comment on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_04a7135c804afa5208a2afded97420d6f547bf35/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_04a7135c804afa5208a2afded97420d6f547bf35/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-04a7135c804afa5208a2afded97420d6f547bf35"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-04a7135c804afa5208a2afded97420d6f547bf35"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5667,9 +5726,9 @@ Importing WordPress post &amp;quot;Getting things from the iTunes Music Store wi
 <entry>
 	<title>change to posts/music-group-actions-quilt-and-debian-packages posts/music-group-actions-quilt-and-debian-packages/comment_1._comment posts/music-group-actions-quilt-and-debian-packages/comment_2._comment on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_306baf8815ffea26bb7293111d2f02f9b6aea320/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_306baf8815ffea26bb7293111d2f02f9b6aea320/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-306baf8815ffea26bb7293111d2f02f9b6aea320"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-306baf8815ffea26bb7293111d2f02f9b6aea320"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5732,9 +5791,9 @@ Importing WordPress post &amp;quot;Music, Group Actions, Quilt and Debian Packag
 <entry>
 	<title>change to posts/random-points-on-group-theory on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_bce5576a28addea968d568e5ef0574c0a26882c0/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_bce5576a28addea968d568e5ef0574c0a26882c0/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-bce5576a28addea968d568e5ef0574c0a26882c0"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-bce5576a28addea968d568e5ef0574c0a26882c0"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5793,9 +5852,9 @@ Importing WordPress post &amp;quot;Random Points on Group Theory&amp;quot; &amp;
 <entry>
 	<title>change to posts/debian-switching-to-eglibc on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_09cdb02d616a25523cb272053163b5fbc3048952/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_09cdb02d616a25523cb272053163b5fbc3048952/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-09cdb02d616a25523cb272053163b5fbc3048952"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-09cdb02d616a25523cb272053163b5fbc3048952"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5854,9 +5913,9 @@ Importing WordPress post &amp;quot;Debian Switching to EGLIBC&amp;quot; &amp;#91
 <entry>
 	<title>change to posts/happy-news-a-new-kurobox on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_0c87804ea9aaff3a8c00f4a48d3a93d56e427ded/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_0c87804ea9aaff3a8c00f4a48d3a93d56e427ded/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-0c87804ea9aaff3a8c00f4a48d3a93d56e427ded"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-0c87804ea9aaff3a8c00f4a48d3a93d56e427ded"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5915,9 +5974,9 @@ Importing WordPress post &amp;quot;Happy News: A new Kurobox&amp;quot; &amp;#91;
 <entry>
 	<title>change to posts/on-a-first-course-in-abstract-algebra posts/on-a-first-course-in-abstract-algebra/comment_1._comment on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_4055a75136f75fbce9668da8bfd7a6149d4bf421/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_4055a75136f75fbce9668da8bfd7a6149d4bf421/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-4055a75136f75fbce9668da8bfd7a6149d4bf421"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-4055a75136f75fbce9668da8bfd7a6149d4bf421"/>
 
 	<author><name>rbrito</name></author>
 
@@ -5978,9 +6037,9 @@ Importing WordPress post &amp;quot;On teaching Groups before Rings in Abstract A
 <entry>
 	<title>change to posts/ on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_a9c3ae428393c92284b694fb2275cb0b6d1e7992/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_a9c3ae428393c92284b694fb2275cb0b6d1e7992/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-a9c3ae428393c92284b694fb2275cb0b6d1e7992"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-a9c3ae428393c92284b694fb2275cb0b6d1e7992"/>
 
 	<author><name>rbrito</name></author>
 
@@ -6037,72 +6096,11 @@ Importing WordPress post &amp;quot;About&amp;quot; &amp;#91;None&amp;#93;&lt;br 
 
 </entry>
 <entry>
-	<title>change to posts/playing-with-package-proxies on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_5ac6736be75e114f70153ef617b3e6ad8790de70/</id>
-
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-5ac6736be75e114f70153ef617b3e6ad8790de70"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2007-03-16T02:00:00Z</updated>
-	<published>2007-03-16T02:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-5ac6736be75e114f70153ef617b3e6ad8790de70&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-posts/playing-with-package-proxies
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2007-03-16T02:00:00Z&quot;&gt;23:00:00 2007-03-15&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Importing WordPress post &amp;quot;Playing with Package Proxies&amp;quot; &amp;#91;http://mathandmadness.wordpress.com/2009/03/15/playing-with-package-proxies/&amp;#93;&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 5ac6736be75e114f70153ef617b3e6ad8790de70 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
 	<title>change to posts/seeing-opeth-live-in-brazil on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_b614ef483ec25eb9539ab5136adebc3cb69dd1bb/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_b614ef483ec25eb9539ab5136adebc3cb69dd1bb/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-b614ef483ec25eb9539ab5136adebc3cb69dd1bb"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-b614ef483ec25eb9539ab5136adebc3cb69dd1bb"/>
 
 	<author><name>rbrito</name></author>
 
@@ -6161,9 +6159,9 @@ Importing WordPress post &amp;quot;Seeing Opeth Live in Brazil&amp;quot; &amp;#9
 <entry>
 	<title>change to posts/sourceforge-ssh-keys-free-audiobooks-dvds on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
-	<id>http://rb.doesntexist.org/blog//recentchanges/change_233c923f5904cd011cb049c7c4686ad552782383/</id>
+	<id>http://cynic.cc/blog//recentchanges/change_233c923f5904cd011cb049c7c4686ad552782383/</id>
 
-	<link href="http://rb.doesntexist.org/blog/recentchanges/#change-233c923f5904cd011cb049c7c4686ad552782383"/>
+	<link href="http://cynic.cc/blog/recentchanges/#change-233c923f5904cd011cb049c7c4686ad552782383"/>
 
 	<author><name>rbrito</name></author>
 

@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged emacs</title>
-<link>http://rb.doesntexist.org/blog//tags/emacs/</link>
+<link>http://cynic.cc/blog//tags/emacs/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Changing Some Configuration from Defaults</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/changing-some-configuration-from-defaults/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/changing-some-configuration-from-defaults/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/changing-some-configuration-from-defaults/</link>
+	<link>http://cynic.cc/blog//posts/changing-some-configuration-from-defaults/</link>
 
 
 	<category>configuration</category>
@@ -80,9 +80,9 @@
 	<title>Migrate from RCS to git</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/migrate-from-rcs-to-git/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/migrate-from-rcs-to-git/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/migrate-from-rcs-to-git/</link>
+	<link>http://cynic.cc/blog//posts/migrate-from-rcs-to-git/</link>
 
 
 	<category>debian</category>
@@ -168,9 +168,9 @@ above.&lt;/p&gt;
 	<title>2005-11-20</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2005-11-20/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-11-20/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/2005-11-20/</link>
+	<link>http://cynic.cc/blog//posts/2005-11-20/</link>
 
 
 	<category>debian</category>

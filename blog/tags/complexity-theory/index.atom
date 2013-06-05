@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged complexity-theory</title>
-<link href="http://rb.doesntexist.org/blog//tags/complexity-theory/"/>
-<link href="http://rb.doesntexist.org/blog//tags/complexity-theory/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/complexity-theory/"/>
+<link href="http://cynic.cc/blog//tags/complexity-theory/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/complexity-theory/</id>
+<id>http://cynic.cc/blog//tags/complexity-theory/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>2000-12-05</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-12-05/</id>
+	<id>http://cynic.cc/blog//posts/2000-12-05/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-12-05/"/>
+	<link href="http://cynic.cc/blog//posts/2000-12-05/"/>
 
 
 
@@ -58,9 +58,9 @@ it needs a beta-testing phase as it is feature complete.&lt;/p&gt;
 <entry>
 	<title>2000-10-26</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-10-26/</id>
+	<id>http://cynic.cc/blog//posts/2000-10-26/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-10-26/"/>
+	<link href="http://cynic.cc/blog//posts/2000-10-26/"/>
 
 
 
@@ -92,9 +92,9 @@ perfectionist. Maybe I&#39;m slow. Maybe both.&lt;/p&gt;
 <entry>
 	<title>2000-10-25</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-10-25/</id>
+	<id>http://cynic.cc/blog//posts/2000-10-25/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-10-25/"/>
+	<link href="http://cynic.cc/blog//posts/2000-10-25/"/>
 
 
 
@@ -135,9 +135,9 @@ down and write a complete, detailed a proof. I wish I had time.&lt;/p&gt;
 <entry>
 	<title>2000-10-24</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-10-24/</id>
+	<id>http://cynic.cc/blog//posts/2000-10-24/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-10-24/"/>
+	<link href="http://cynic.cc/blog//posts/2000-10-24/"/>
 
 
 

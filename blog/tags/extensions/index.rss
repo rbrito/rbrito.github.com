@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged extensions</title>
-<link>http://rb.doesntexist.org/blog//tags/extensions/</link>
+<link>http://cynic.cc/blog//tags/extensions/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>(Some) Solutions with Chromium</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/some_solutions_with_chromium/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/some_solutions_with_chromium/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/some_solutions_with_chromium/</link>
+	<link>http://cynic.cc/blog//posts/some_solutions_with_chromium/</link>
 
 
 	<category>browsers</category>
@@ -28,7 +28,7 @@
 	<pubDate>Wed, 09 Mar 2011 14:33:00 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
 
-	<description>&lt;p&gt;In &lt;a href=&quot;http://rb.doesntexist.org/blog//tags/extensions/../../posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
+	<description>&lt;p&gt;In &lt;a href=&quot;http://cynic.cc/blog//tags/extensions/../../posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
 my frustrations with Chromium/Chrome.  A very kind reader, Timo Juhani
 Lindfors, gave me answers to many of the problems that I pointed out and got
 me straight on some issues:&lt;/p&gt;
@@ -117,9 +117,9 @@ usable browsers now.&lt;/p&gt;
 	<title>My problems with Chromium</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/problems_with_chromium/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/problems_with_chromium/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/problems_with_chromium/</link>
+	<link>http://cynic.cc/blog//posts/problems_with_chromium/</link>
 
 
 	<category>browsers</category>

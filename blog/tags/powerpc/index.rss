@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged powerpc</title>
-<link>http://rb.doesntexist.org/blog//tags/powerpc/</link>
+<link>http://cynic.cc/blog//tags/powerpc/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Running GRUB2 on PowerPC Macs</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/running_grub2_on_powerpc_macs/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</link>
+	<link>http://cynic.cc/blog//posts/running_grub2_on_powerpc_macs/</link>
 
 
 	<category>configuration</category>
@@ -324,9 +324,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>I am going to DebConf 10</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/i-am-going-to-debconf-10/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/i-am-going-to-debconf-10/</link>
+	<link>http://cynic.cc/blog//posts/i-am-going-to-debconf-10/</link>
 
 
 	<category>debian</category>
@@ -384,9 +384,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
+	<link>http://cynic.cc/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
 
 
 	<category>configuration</category>
@@ -554,9 +554,9 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<title>2001-07-17</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-07-17/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-17/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/2001-07-17/</link>
+	<link>http://cynic.cc/blog//posts/2001-07-17/</link>
 
 
 	<category>hardware</category>
@@ -628,9 +628,9 @@ the other Mac behaves the same way. Enough for a day already.&lt;/p&gt;
 	<title>2001-07-16</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-07-16/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-16/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/2001-07-16/</link>
+	<link>http://cynic.cc/blog//posts/2001-07-16/</link>
 
 
 	<category>blind-guardian</category>
@@ -696,9 +696,9 @@ I still can&#39;t get ISO images, though.&lt;/p&gt;
 	<title>2001-07-11</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/2001-07-11/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-11/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/2001-07-11/</link>
+	<link>http://cynic.cc/blog//posts/2001-07-11/</link>
 
 
 	<category>apple</category>

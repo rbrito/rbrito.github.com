@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged music</title>
-<link href="http://rb.doesntexist.org/blog//tags/music/"/>
-<link href="http://rb.doesntexist.org/blog//tags/music/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/music/"/>
+<link href="http://cynic.cc/blog//tags/music/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/music/</id>
+<id>http://cynic.cc/blog//tags/music/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>A Wish: The Ability of Playing MP3 CDs/DVDs created by iTunes with Free Software</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</id>
+	<id>http://cynic.cc/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/"/>
+	<link href="http://cynic.cc/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/"/>
 
 
 
@@ -124,9 +124,9 @@ organizers.&lt;/p&gt;
 <entry>
 	<title>Getting things from the iTunes Music Store without iTunes</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</id>
+	<id>http://cynic.cc/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/"/>
+	<link href="http://cynic.cc/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/"/>
 
 
 
@@ -287,9 +287,9 @@ aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
 <entry>
 	<title>Seeing Opeth Live in Brazil</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/seeing-opeth-live-in-brazil/</id>
+	<id>http://cynic.cc/blog//posts/seeing-opeth-live-in-brazil/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/seeing-opeth-live-in-brazil/"/>
+	<link href="http://cynic.cc/blog//posts/seeing-opeth-live-in-brazil/"/>
 
 
 
@@ -327,9 +327,9 @@ say the least.&lt;/p&gt;
 <entry>
 	<title>Sourceforge, SSH keys, Free audiobooks, DVD&#x27;s</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/</id>
+	<id>http://cynic.cc/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/"/>
+	<link href="http://cynic.cc/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/"/>
 
 
 
@@ -391,9 +391,9 @@ it is an amazing piece of music. Recommended for all fans of good music.&lt;/p&g
 <entry>
 	<title>2001-07-16</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-07-16/</id>
+	<id>http://cynic.cc/blog//posts/2001-07-16/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-07-16/"/>
+	<link href="http://cynic.cc/blog//posts/2001-07-16/"/>
 
 
 
@@ -464,9 +464,9 @@ I still can&#39;t get ISO images, though.&lt;/p&gt;
 <entry>
 	<title>2000-12-01</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-12-01/</id>
+	<id>http://cynic.cc/blog//posts/2000-12-01/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-12-01/"/>
+	<link href="http://cynic.cc/blog//posts/2000-12-01/"/>
 
 
 
@@ -527,9 +527,9 @@ FreeBSD the very same day it was released -- that&#39;s Nov 21st).&lt;/p&gt;
 <entry>
 	<title>2000-10-30</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-10-30/</id>
+	<id>http://cynic.cc/blog//posts/2000-10-30/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-10-30/"/>
+	<link href="http://cynic.cc/blog//posts/2000-10-30/"/>
 
 
 
@@ -557,9 +557,9 @@ FreeBSD the very same day it was released -- that&#39;s Nov 21st).&lt;/p&gt;
 <entry>
 	<title>2000-10-29</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-10-29/</id>
+	<id>http://cynic.cc/blog//posts/2000-10-29/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-10-29/"/>
+	<link href="http://cynic.cc/blog//posts/2000-10-29/"/>
 
 
 
@@ -592,9 +592,9 @@ almost completely full. I guess that I&#39;m obessed with broadband.&lt;/p&gt;
 <entry>
 	<title>2000-10-02</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-10-02/</id>
+	<id>http://cynic.cc/blog//posts/2000-10-02/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-10-02/"/>
+	<link href="http://cynic.cc/blog//posts/2000-10-02/"/>
 
 
 
@@ -612,7 +612,7 @@ almost completely full. I guess that I&#39;m obessed with broadband.&lt;/p&gt;
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Another usual day, without much to say. I&#39;ve been struggling to use
 my University&#39;s network, but the system administrators take so
-little care of it... What a pity. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/music/../../smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt; My home system is in better
+little care of it... What a pity. &lt;img src=&quot;http://cynic.cc/blog//tags/music/../../smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt; My home system is in better
 shape, actually (ok, but them I&#39;m a nerd that almost lives for his
 computer and that may be an excuse, but I thought that it was a
 prerequisite for all system administrators to be one).&lt;/p&gt;
@@ -630,9 +630,9 @@ Napster.&lt;/p&gt;
 <entry>
 	<title>2000-10-01</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-10-01/</id>
+	<id>http://cynic.cc/blog//posts/2000-10-01/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-10-01/"/>
+	<link href="http://cynic.cc/blog//posts/2000-10-01/"/>
 
 
 

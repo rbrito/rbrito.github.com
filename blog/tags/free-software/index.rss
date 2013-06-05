@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged free-software</title>
-<link>http://rb.doesntexist.org/blog//tags/free-software/</link>
+<link>http://cynic.cc/blog//tags/free-software/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Lack of cooperation from Ubuntu?</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/lack_of_cooperation_from_ubuntu/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/lack_of_cooperation_from_ubuntu/</link>
+	<link>http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/</link>
 
 
 	<category>debian</category>
@@ -28,13 +28,13 @@
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-04-20T01:46:43Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:25:20Z</dcterms:modified>
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
 reproduced on Planet. I&#39;m editing it a bit, as it is a followup to my
 previous post.&lt;/p&gt;
 
-&lt;p&gt;While &lt;a href=&quot;http://rb.doesntexist.org/blog/posts/debian_activities/&quot;&gt;improving the packaging of MongoDB&lt;/a&gt;, there was one thing that
+&lt;p&gt;While &lt;a href=&quot;http://cynic.cc/blog/posts/debian_activities/&quot;&gt;improving the packaging of MongoDB&lt;/a&gt;, there was one thing that
 caught my attention: that Ubuntu
 &lt;a href=&quot;http://changelogs.ubuntu.com/changelogs/pool/universe/m/mongodb/mongodb_2.0.4-1ubuntu2.1/changelog&quot;&gt;had already done some of the embedded/convenience libraries work&lt;/a&gt;, but
 they had &lt;em&gt;not&lt;/em&gt; pushed that work to Debian.&lt;/p&gt;
@@ -78,9 +78,9 @@ machines on datacenters.&lt;/p&gt;
 	<title>Some recent Debian activities</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/debian_activities/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/debian_activities/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/debian_activities/</link>
+	<link>http://cynic.cc/blog//posts/debian_activities/</link>
 
 
 	<category>debian</category>
@@ -177,9 +177,9 @@ and contributing back what I produced.&lt;/p&gt;
 	<title>Looking for (Free) a Video Editor</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</link>
+	<link>http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</link>
 
 
 	<category>debian</category>
@@ -218,10 +218,10 @@ multi-camera video?&lt;/p&gt;
 
 &lt;p&gt;What would my options be? I &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT43j64jh8zLRYCMVRnJQgINcgSOhf-5Ozg&quot;&gt;asked this&lt;/a&gt; on youtube for a person that
 &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&quot;&gt;did exactly what I want&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT6jkGhCF9g1RzmZAsFIGmYzChDJwqwovNc&quot;&gt;their answer&lt;/a&gt; was &lt;a href=&quot;https://en.wikipedia.org/wiki/Sony_Vegas_Pro&quot;&gt;Sony Vegas&lt;/a&gt;,
-which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/free-software/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://cynic.cc/blog//tags/free-software/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Any comments are welcome, thanks, and if I am successful, I will upload the
-final video. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/free-software/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+final video. &lt;img src=&quot;http://cynic.cc/blog//tags/free-software/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 </description>
 
 
@@ -231,9 +231,9 @@ final video. &lt;img src=&quot;http://rb.doesntexist.org/blog//tags/free-softwar
 	<title>Some experiences with ZFS</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/some_experiences_with_zfs/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/some_experiences_with_zfs/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/some_experiences_with_zfs/</link>
+	<link>http://cynic.cc/blog//posts/some_experiences_with_zfs/</link>
 
 
 	<category>compression</category>
@@ -304,9 +304,9 @@ behavior.&lt;/p&gt;
 	<title>NOT Trying out AdSense</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/trying_out_adsense_not/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/trying_out_adsense_not/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/trying_out_adsense_not/</link>
+	<link>http://cynic.cc/blog//posts/trying_out_adsense_not/</link>
 
 
 	<category>adsense</category>
@@ -325,10 +325,10 @@ behavior.&lt;/p&gt;
 
 
 	<pubDate>Fri, 07 Sep 2012 13:16:18 -0300</pubDate>
-	<dcterms:modified>2012-09-07T16:17:48Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:24:59Z</dcterms:modified>
 
 	<description>&lt;p&gt;On the 3rd of September, I applied to Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; program, as I
-told in my &lt;a href=&quot;http://rb.doesntexist.org/blog/posts/trying_out_adsense/&quot;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
+told in my &lt;a href=&quot;http://cynic.cc/blog/posts/trying_out_adsense/&quot;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Well, that was a short-lived experience. On the 5th of September, I received
 the following e-mail, which, sincerely, is as uninformative as it could get:&lt;/p&gt;
@@ -402,9 +402,9 @@ contributions?&lt;/p&gt;
 	<title>Trying out AdSense</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/trying_out_adsense/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/trying_out_adsense/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/trying_out_adsense/</link>
+	<link>http://cynic.cc/blog//posts/trying_out_adsense/</link>
 
 
 	<category>adsense</category>
@@ -459,9 +459,9 @@ reach that point of self-sufficiency).&lt;/p&gt;
 	<title>I am not going to DebConf 12</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/i-am-not-going-to-debconf-12/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/i-am-not-going-to-debconf-12/</link>
+	<link>http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</link>
 
 
 	<category>debconf</category>
@@ -518,9 +518,9 @@ stuff.&lt;/p&gt;
 	<title>Running GRUB2 on PowerPC Macs</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/running_grub2_on_powerpc_macs/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/running_grub2_on_powerpc_macs/</link>
+	<link>http://cynic.cc/blog//posts/running_grub2_on_powerpc_macs/</link>
 
 
 	<category>configuration</category>
@@ -831,9 +831,9 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<title>(Some) Solutions with Chromium</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/some_solutions_with_chromium/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/some_solutions_with_chromium/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/some_solutions_with_chromium/</link>
+	<link>http://cynic.cc/blog//posts/some_solutions_with_chromium/</link>
 
 
 	<category>browsers</category>
@@ -848,7 +848,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<pubDate>Wed, 09 Mar 2011 14:33:00 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
 
-	<description>&lt;p&gt;In &lt;a href=&quot;http://rb.doesntexist.org/blog//tags/free-software/../../posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
+	<description>&lt;p&gt;In &lt;a href=&quot;http://cynic.cc/blog//tags/free-software/../../posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
 my frustrations with Chromium/Chrome.  A very kind reader, Timo Juhani
 Lindfors, gave me answers to many of the problems that I pointed out and got
 me straight on some issues:&lt;/p&gt;
@@ -937,9 +937,9 @@ usable browsers now.&lt;/p&gt;
 	<title>My problems with Chromium</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/problems_with_chromium/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/problems_with_chromium/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/problems_with_chromium/</link>
+	<link>http://cynic.cc/blog//posts/problems_with_chromium/</link>
 
 
 	<category>browsers</category>

@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Rogério Brito's Digital Junkyard</title>
-<link href="http://rb.doesntexist.org/blog//"/>
-<link href="http://rb.doesntexist.org/blog//index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//"/>
+<link href="http://cynic.cc/blog//index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,17 +13,17 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//</id>
+<id>http://cynic.cc/blog//</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-04-30T17:15:33Z</updated>
+<updated>2013-06-05T08:25:20Z</updated>
 <entry>
 	<title>Lack of cooperation from Ubuntu?</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/lack_of_cooperation_from_ubuntu/</id>
+	<id>http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/lack_of_cooperation_from_ubuntu/"/>
+	<link href="http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/"/>
 
 
 
@@ -41,7 +41,7 @@
 	<category term="ubuntu" />
 
 
-	<updated>2013-04-20T01:46:43Z</updated>
+	<updated>2013-06-05T08:25:20Z</updated>
 	<published>2013-04-20T01:46:26Z</published>
 
 	<content type="html" xml:lang="en">
@@ -49,7 +49,7 @@
 reproduced on Planet. I&#39;m editing it a bit, as it is a followup to my
 previous post.&lt;/p&gt;
 
-&lt;p&gt;While &lt;a href=&quot;http://rb.doesntexist.org/blog/posts/debian_activities/&quot;&gt;improving the packaging of MongoDB&lt;/a&gt;, there was one thing that
+&lt;p&gt;While &lt;a href=&quot;http://cynic.cc/blog/posts/debian_activities/&quot;&gt;improving the packaging of MongoDB&lt;/a&gt;, there was one thing that
 caught my attention: that Ubuntu
 &lt;a href=&quot;http://changelogs.ubuntu.com/changelogs/pool/universe/m/mongodb/mongodb_2.0.4-1ubuntu2.1/changelog&quot;&gt;had already done some of the embedded/convenience libraries work&lt;/a&gt;, but
 they had &lt;em&gt;not&lt;/em&gt; pushed that work to Debian.&lt;/p&gt;
@@ -93,9 +93,9 @@ machines on datacenters.&lt;/p&gt;
 <entry>
 	<title>Some recent Debian activities</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/debian_activities/</id>
+	<id>http://cynic.cc/blog//posts/debian_activities/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/debian_activities/"/>
+	<link href="http://cynic.cc/blog//posts/debian_activities/"/>
 
 
 
@@ -197,9 +197,9 @@ and contributing back what I produced.&lt;/p&gt;
 <entry>
 	<title>Looking for (Free) a Video Editor</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</id>
+	<id>http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/"/>
+	<link href="http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/"/>
 
 
 
@@ -243,10 +243,10 @@ multi-camera video?&lt;/p&gt;
 
 &lt;p&gt;What would my options be? I &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT43j64jh8zLRYCMVRnJQgINcgSOhf-5Ozg&quot;&gt;asked this&lt;/a&gt; on youtube for a person that
 &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&quot;&gt;did exactly what I want&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT6jkGhCF9g1RzmZAsFIGmYzChDJwqwovNc&quot;&gt;their answer&lt;/a&gt; was &lt;a href=&quot;https://en.wikipedia.org/wiki/Sony_Vegas_Pro&quot;&gt;Sony Vegas&lt;/a&gt;,
-which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://rb.doesntexist.org/blog//./smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://cynic.cc/blog//./smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Any comments are welcome, thanks, and if I am successful, I will upload the
-final video. &lt;img src=&quot;http://rb.doesntexist.org/blog//./smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+final video. &lt;img src=&quot;http://cynic.cc/blog//./smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 
 	</content>
 
@@ -256,9 +256,9 @@ final video. &lt;img src=&quot;http://rb.doesntexist.org/blog//./smileys/smile.p
 <entry>
 	<title>Another meme: The Geek test</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/another_meme_the_geektest/</id>
+	<id>http://cynic.cc/blog//posts/another_meme_the_geektest/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/another_meme_the_geektest/"/>
+	<link href="http://cynic.cc/blog//posts/another_meme_the_geektest/"/>
 
 
 
@@ -274,7 +274,7 @@ final video. &lt;img src=&quot;http://rb.doesntexist.org/blog//./smileys/smile.p
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I was with some spare time a few days ago and I took one of those stupid
 tests that are so popular in the Internet. Well, here are the results,
-saying that I am, indeed, a Geek, which does not surprise me that much. &lt;img src=&quot;http://rb.doesntexist.org/blog//./smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+saying that I am, indeed, a Geek, which does not surprise me that much. &lt;img src=&quot;http://cynic.cc/blog//./smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -289,7 +289,7 @@ the 90th percentile with respect to this), while I am high on the Computer
 side of things (in the 97th percentile).&lt;/p&gt;
 
 &lt;p&gt;I guess that I should devote myself to more Mathematics and writing less
-code. &lt;img src=&quot;http://rb.doesntexist.org/blog//./smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+code. &lt;img src=&quot;http://cynic.cc/blog//./smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 
 	</content>
 
@@ -299,9 +299,9 @@ code. &lt;img src=&quot;http://rb.doesntexist.org/blog//./smileys/smile.png&quot
 <entry>
 	<title>Some experiences with ZFS</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/some_experiences_with_zfs/</id>
+	<id>http://cynic.cc/blog//posts/some_experiences_with_zfs/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/some_experiences_with_zfs/"/>
+	<link href="http://cynic.cc/blog//posts/some_experiences_with_zfs/"/>
 
 
 
@@ -377,9 +377,9 @@ behavior.&lt;/p&gt;
 <entry>
 	<title>NOT Trying out AdSense</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/trying_out_adsense_not/</id>
+	<id>http://cynic.cc/blog//posts/trying_out_adsense_not/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/trying_out_adsense_not/"/>
+	<link href="http://cynic.cc/blog//posts/trying_out_adsense_not/"/>
 
 
 
@@ -401,12 +401,12 @@ behavior.&lt;/p&gt;
 	<category term="google" />
 
 
-	<updated>2012-09-07T16:17:48Z</updated>
+	<updated>2013-06-05T08:24:59Z</updated>
 	<published>2012-09-07T16:16:18Z</published>
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;On the 3rd of September, I applied to Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; program, as I
-told in my &lt;a href=&quot;http://rb.doesntexist.org/blog/posts/trying_out_adsense/&quot;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
+told in my &lt;a href=&quot;http://cynic.cc/blog/posts/trying_out_adsense/&quot;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Well, that was a short-lived experience. On the 5th of September, I received
 the following e-mail, which, sincerely, is as uninformative as it could get:&lt;/p&gt;
@@ -480,9 +480,9 @@ contributions?&lt;/p&gt;
 <entry>
 	<title>Trying out AdSense</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/trying_out_adsense/</id>
+	<id>http://cynic.cc/blog//posts/trying_out_adsense/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/trying_out_adsense/"/>
+	<link href="http://cynic.cc/blog//posts/trying_out_adsense/"/>
 
 
 
@@ -542,9 +542,9 @@ reach that point of self-sufficiency).&lt;/p&gt;
 <entry>
 	<title>American accent meme</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/american_accent_meme/</id>
+	<id>http://cynic.cc/blog//posts/american_accent_meme/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/american_accent_meme/"/>
+	<link href="http://cynic.cc/blog//posts/american_accent_meme/"/>
 
 
 
@@ -654,9 +654,9 @@ Judging by how you talk you are probably from north Jersey, New York City, Conne
 <entry>
 	<title>I am not going to DebConf 12</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/i-am-not-going-to-debconf-12/</id>
+	<id>http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/i-am-not-going-to-debconf-12/"/>
+	<link href="http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/"/>
 
 
 
@@ -718,9 +718,9 @@ stuff.&lt;/p&gt;
 <entry>
 	<title>Installing Meego on the N900</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/installing_meego_on_the_n900/</id>
+	<id>http://cynic.cc/blog//posts/installing_meego_on_the_n900/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/installing_meego_on_the_n900/"/>
+	<link href="http://cynic.cc/blog//posts/installing_meego_on_the_n900/"/>
 
 
 

@@ -4,16 +4,16 @@
      xmlns:dcterms="http://purl.org/dc/terms/" >
 <channel>
 <title>pages tagged revision-control</title>
-<link>http://rb.doesntexist.org/blog//tags/revision-control/</link>
+<link>http://cynic.cc/blog//tags/revision-control/</link>
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
 	<title>Migrate from RCS to git</title>
 
 
-	<guid isPermaLink="false">http://rb.doesntexist.org/blog//posts/migrate-from-rcs-to-git/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/migrate-from-rcs-to-git/</guid>
 
-	<link>http://rb.doesntexist.org/blog//posts/migrate-from-rcs-to-git/</link>
+	<link>http://cynic.cc/blog//posts/migrate-from-rcs-to-git/</link>
 
 
 	<category>debian</category>

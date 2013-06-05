@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged graphics-card</title>
-<link href="http://rb.doesntexist.org/blog//tags/graphics-card/"/>
-<link href="http://rb.doesntexist.org/blog//tags/graphics-card/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/graphics-card/"/>
+<link href="http://cynic.cc/blog//tags/graphics-card/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/graphics-card/</id>
+<id>http://cynic.cc/blog//tags/graphics-card/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>2000-08-14</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-08-14/</id>
+	<id>http://cynic.cc/blog//posts/2000-08-14/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-08-14/"/>
+	<link href="http://cynic.cc/blog//posts/2000-08-14/"/>
 
 
 
@@ -59,9 +59,9 @@ can help me with acceleration.&lt;/p&gt;
 <entry>
 	<title>2000-08-13</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-08-13/</id>
+	<id>http://cynic.cc/blog//posts/2000-08-13/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-08-13/"/>
+	<link href="http://cynic.cc/blog//posts/2000-08-13/"/>
 
 
 
@@ -96,9 +96,9 @@ what I&#39;d like to admit).&lt;/p&gt;
 <entry>
 	<title>2000-08-12</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-08-12/</id>
+	<id>http://cynic.cc/blog//posts/2000-08-12/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-08-12/"/>
+	<link href="http://cynic.cc/blog//posts/2000-08-12/"/>
 
 
 

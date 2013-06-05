@@ -2,8 +2,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>pages tagged hardware</title>
-<link href="http://rb.doesntexist.org/blog//tags/hardware/"/>
-<link href="http://rb.doesntexist.org/blog//tags/hardware/index.atom" rel="self" type="application/atom+xml"/>
+<link href="http://cynic.cc/blog//tags/hardware/"/>
+<link href="http://cynic.cc/blog//tags/hardware/index.atom" rel="self" type="application/atom+xml"/>
 <author>
 
 <name>Rogério Brito's Digital Junkyard</name>
@@ -13,7 +13,7 @@
 
 
 
-<id>http://rb.doesntexist.org/blog//tags/hardware/</id>
+<id>http://cynic.cc/blog//tags/hardware/</id>
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
@@ -21,9 +21,9 @@
 <entry>
 	<title>2001-07-17</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-07-17/</id>
+	<id>http://cynic.cc/blog//posts/2001-07-17/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-07-17/"/>
+	<link href="http://cynic.cc/blog//posts/2001-07-17/"/>
 
 
 
@@ -100,9 +100,9 @@ the other Mac behaves the same way. Enough for a day already.&lt;/p&gt;
 <entry>
 	<title>2001-07-11</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-07-11/</id>
+	<id>http://cynic.cc/blog//posts/2001-07-11/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-07-11/"/>
+	<link href="http://cynic.cc/blog//posts/2001-07-11/"/>
 
 
 
@@ -230,9 +230,9 @@ old machine).&lt;/p&gt;
 <entry>
 	<title>2001-05-18</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-05-18/</id>
+	<id>http://cynic.cc/blog//posts/2001-05-18/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-05-18/"/>
+	<link href="http://cynic.cc/blog//posts/2001-05-18/"/>
 
 
 
@@ -288,9 +288,9 @@ Algorithms.&lt;/p&gt;
 <entry>
 	<title>2001-03-10</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-03-10/</id>
+	<id>http://cynic.cc/blog//posts/2001-03-10/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-03-10/"/>
+	<link href="http://cynic.cc/blog//posts/2001-03-10/"/>
 
 
 
@@ -357,9 +357,9 @@ getting more exciting day after day.&lt;/p&gt;
 <entry>
 	<title>2001-01-31</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2001-01-31/</id>
+	<id>http://cynic.cc/blog//posts/2001-01-31/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2001-01-31/"/>
+	<link href="http://cynic.cc/blog//posts/2001-01-31/"/>
 
 
 
@@ -412,7 +412,7 @@ new computer was still readable. So, now, I&#39;m using a new 30GB
 working fine again. Nice.
 I am now reading more and more things about my Mastership work. It
 will be in a sub-area of computer science called
-&lt;a href=&quot;http://rb.doesntexist.org/blog//tags/hardware/../compbio/index.html&quot;&gt;Computational (Molecular) Biology&lt;/a&gt;. In
+&lt;a href=&quot;http://cynic.cc/blog//tags/hardware/../compbio/index.html&quot;&gt;Computational (Molecular) Biology&lt;/a&gt;. In
 particular, I&#39;m studying now alignments of multiple sequences. The
 theory is quite general and applies to alignments of sequences over
 any alphabets, but the biological motivation is to study and
@@ -433,9 +433,9 @@ a given field). Now, I want to learn more!&lt;/p&gt;
 <entry>
 	<title>2000-12-07</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-12-07/</id>
+	<id>http://cynic.cc/blog//posts/2000-12-07/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-12-07/"/>
+	<link href="http://cynic.cc/blog//posts/2000-12-07/"/>
 
 
 
@@ -486,9 +486,9 @@ CD.&lt;/p&gt;
 <entry>
 	<title>2000-12-03</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-12-03/</id>
+	<id>http://cynic.cc/blog//posts/2000-12-03/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-12-03/"/>
+	<link href="http://cynic.cc/blog//posts/2000-12-03/"/>
 
 
 
@@ -526,9 +526,9 @@ think that that is a task for another day).&lt;/p&gt;
 <entry>
 	<title>2000-12-02</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-12-02/</id>
+	<id>http://cynic.cc/blog//posts/2000-12-02/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-12-02/"/>
+	<link href="http://cynic.cc/blog//posts/2000-12-02/"/>
 
 
 
@@ -589,9 +589,9 @@ ftpparse-ified version of wget (for mirroring
 <entry>
 	<title>2000-12-01</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-12-01/</id>
+	<id>http://cynic.cc/blog//posts/2000-12-01/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-12-01/"/>
+	<link href="http://cynic.cc/blog//posts/2000-12-01/"/>
 
 
 
@@ -652,9 +652,9 @@ FreeBSD the very same day it was released -- that&#39;s Nov 21st).&lt;/p&gt;
 <entry>
 	<title>2000-08-19</title>
 
-	<id>http://rb.doesntexist.org/blog//posts/2000-08-19/</id>
+	<id>http://cynic.cc/blog//posts/2000-08-19/</id>
 
-	<link href="http://rb.doesntexist.org/blog//posts/2000-08-19/"/>
+	<link href="http://cynic.cc/blog//posts/2000-08-19/"/>
 
 
 
