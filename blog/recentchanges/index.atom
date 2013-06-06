@@ -5598,6 +5598,67 @@ Reformat in markdown&lt;br /&gt;
 
 </entry>
 <entry>
+	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_03f55c9f105049311b1c08a81b30f9e090198491/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-03f55c9f105049311b1c08a81b30f9e090198491"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2012-09-03T18:45:17Z</updated>
+	<published>2012-09-03T18:45:17Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-03f55c9f105049311b1c08a81b30f9e090198491&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-03T18:45:17Z&quot;&gt;15:45:17 2012-09-03&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Add first unit of ads to the page template.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 03f55c9f105049311b1c08a81b30f9e090198491 --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>change to posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
 	<id>http://cynic.cc/blog//recentchanges/change_85b05e718c3f64c11a2a561a1a2f6123afa39269/</id>
@@ -6028,67 +6089,6 @@ Importing WordPress post &amp;quot;On teaching Groups before Rings in Abstract A
 &lt;/div&gt;
 
 &lt;!-- 4055a75136f75fbce9668da8bfd7a6149d4bf421 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to posts/ on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://cynic.cc/blog//recentchanges/change_a9c3ae428393c92284b694fb2275cb0b6d1e7992/</id>
-
-	<link href="http://cynic.cc/blog/recentchanges/#change-a9c3ae428393c92284b694fb2275cb0b6d1e7992"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2007-04-22T20:24:57Z</updated>
-	<published>2007-04-22T20:24:57Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-a9c3ae428393c92284b694fb2275cb0b6d1e7992&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-posts/
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2007-04-22T20:24:57Z&quot;&gt;17:24:57 2007-04-22&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Importing WordPress post &amp;quot;About&amp;quot; &amp;#91;None&amp;#93;&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- a9c3ae428393c92284b694fb2275cb0b6d1e7992 --&gt;
 
 	</content>
 
