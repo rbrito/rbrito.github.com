@@ -17,7 +17,80 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-06-05T08:25:51Z</updated>
+<updated>2013-06-06T01:10:59Z</updated>
+<entry>
+	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_0af2e645b5adb052cf925ddd2d1ba7dbe9c3322f/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-0af2e645b5adb052cf925ddd2d1ba7dbe9c3322f"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-06-06T01:10:59Z</updated>
+	<published>2013-06-06T01:10:59Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-0af2e645b5adb052cf925ddd2d1ba7dbe9c3322f&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-06-06T01:10:59Z&quot;&gt;22:10:59 2013-06-05&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Let&amp;#39;s try adding analytics again.&lt;br /&gt;
+
+
+
+
+
+(Revert &amp;quot;Remove analytics code.&amp;quot;)&lt;br /&gt;
+
+
+
+
+
+This reverts commit 88940a7aa88b3df354e3a7c7c94ad6386543b76a.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 0af2e645b5adb052cf925ddd2d1ba7dbe9c3322f --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to .blog.setup posts/lack_of_cooperation_from_ubuntu posts/trying_out_adsense_not on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -6026,69 +6099,6 @@ Importing WordPress post &amp;quot;Happy News: A new Kurobox&amp;quot; &amp;#91;
 &lt;/div&gt;
 
 &lt;!-- 0c87804ea9aaff3a8c00f4a48d3a93d56e427ded --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to posts/on-a-first-course-in-abstract-algebra posts/on-a-first-course-in-abstract-algebra/comment_1._comment on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://cynic.cc/blog//recentchanges/change_4055a75136f75fbce9668da8bfd7a6149d4bf421/</id>
-
-	<link href="http://cynic.cc/blog/recentchanges/#change-4055a75136f75fbce9668da8bfd7a6149d4bf421"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2007-04-22T20:46:52Z</updated>
-	<published>2007-04-22T20:46:52Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-4055a75136f75fbce9668da8bfd7a6149d4bf421&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-posts/on-a-first-course-in-abstract-algebra
-
-posts/on-a-first-course-in-abstract-algebra/comment 1. comment
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2007-04-22T20:46:52Z&quot;&gt;17:46:52 2007-04-22&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Importing WordPress post &amp;quot;On teaching Groups before Rings in Abstract Algebra&amp;quot; &amp;#91;http://mathandmadness.wordpress.com/2007/04/22/on-a-first-course-in-abstract-algebra/&amp;#93;&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 4055a75136f75fbce9668da8bfd7a6149d4bf421 --&gt;
 
 	</content>
 
