@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-05-08T00:24:20Z</updated>
+<updated>2013-06-06T21:13:52Z</updated>
 <entry>
 	<title>Seeing Opeth Live in Brazil</title>
 
@@ -116,6 +116,114 @@ public domain.&lt;/p&gt;
 &lt;p&gt;Still downloading Pain of Salvation&#39;s Acoustic set. Now, I finally had some
 time to watch the somewhat incomplete VOBs and it, indeed, has the show. And
 it is an amazing piece of music. Recommended for all fans of good music.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2001-08-18</title>
+
+	<id>http://cynic.cc/blog//posts/2001-08-18/</id>
+
+	<link href="http://cynic.cc/blog//posts/2001-08-18/"/>
+
+
+
+
+
+
+	<category term="crypto" />
+
+	<category term="drm" />
+
+	<category term="dvds" />
+
+	<category term="linux" />
+
+	<category term="opeth" />
+
+
+	<updated>2013-06-06T21:13:52Z</updated>
+	<published>2001-08-18T03:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Well, it&#39;s been quite a while since I last wrote an entry of my
+weblog. Anyway, much has happened since then.&lt;/p&gt;
+
+&lt;p&gt;One of the most interesting things was that I spent some 18 hours
+just trying to grab a rare video in VHS format to a digital file.
+It was a very special show from
+&lt;a href=&quot;http://www.opeth.com&quot;&gt;my favorite band&lt;/a&gt;&#39;s appearance in July 28th
+of 2000, at the Milwaukee Metalfest festival.&lt;/p&gt;
+
+&lt;p&gt;I borrowed a bt878a-based capture from my uncle and used it to grab
+the video. After much strugles with the computer and programs to
+save the video, I finally ended up with the job done. I compressed
+the video in an amazing fast-motion
+&lt;a href=&quot;http://www.divx.com&quot;&gt;DivX &lt;img src=&quot;http://cynic.cc/blog//tags/opeth/../../smileys/smile4.png&quot; alt=&quot;;-)&quot; /&gt; 3.11&lt;/a&gt; stream of high bitrate.
+Unfortunately, I couldn&#39;t get the sound better than mono, 11kHz,
+8bit, but since the VHS was already a bootleg, it sounds almost the
+same as the original tape that I have (indeed, it is actually quite
+hard to tell them apart just by the sound). So, I&#39;m now happier
+with a 500MB file of the whole concert (which lasts for 54:59).&lt;/p&gt;
+
+&lt;p&gt;I have also bought myself an
+&lt;a href=&quot;http://www.asus.com/&quot;&gt;Asus DVD-ROM E608&lt;/a&gt;, which is an RPC-1 drive
+that reads up to 8x. It is cool to have a DVD drive that ignores
+all the region cruft established by the MPAA. Thus, now I can play
+all DVDs of my preferred bands... Almost!&lt;/p&gt;
+
+&lt;p&gt;DVD support under Linux is way behind DVD support under Windows.
+Cyberlink&#39;s &lt;a href=&quot;http://www.gocyberlink.com/&quot;&gt;PowerDVD&lt;/a&gt; generates quite
+smooth movies with the hardware that I have (and I don&#39;t even know
+if it uses the Matrox in any way to accelerate the output).&lt;/p&gt;
+
+&lt;p&gt;On the other hand, there are many programs to play DVDs under
+Linux, with some of them bein &lt;a href=&quot;http://xine.sourceforge.net/&quot;&gt;Xine&lt;/a&gt;,
+&lt;a href=&quot;http://www.videolan.org/&quot;&gt;Videolan&lt;/a&gt; and
+&lt;a href=&quot;http://www.dtek.chalmers.se/groups/dvd/&quot;&gt;Ogle&lt;/a&gt;. All of them quite
+immature as the time of this writing and there&#39;s also the whole
+problem with &lt;a href=&quot;http://www.lemuria.org/DeCSS/&quot;&gt;CSS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Xine is packaged for &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;, but the
+package is quite old in the Debian repository. It also does not
+incorportate DeCSS. It does not interpret DVD menus. And subtitles
+bring the player down to its knees (is it disabling overlay mode?).
+It can play the subtitles using the little controls at the side of
+the &quot;off&quot; word. A command line option to use subtitles is available
+on version 0.4.3.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, only Videolan supports DeCSS out of the box, has
+Debian packages on its site, but also has problems with subtitles
+(they are not available in overlay mode -- only usable using
+command line switches &lt;code&gt;--vout x11&lt;/code&gt; or or &lt;code&gt;--vout sdl&lt;/code&gt;). Videolan&#39;s
+subtitles are ugly. Overall, it seems to be a player with a good
+potential and better user interface than xine.&lt;/p&gt;
+
+&lt;p&gt;Last, ogle is the only player that supports DVD menus. I haven&#39;t
+used it as much as the other ones, but not all DVD menus are usable
+(ogle sometimes skips menus). It seems that the future of this
+player is just to serve to other players as a source for
+menu-handling.&lt;/p&gt;
+
+&lt;p&gt;The DVD output on Linux is also quite bad: the video shows clear
+signs of being interlaced, with, say, odd lines shifted to the
+right some 10-20 pixels in relation to even lines. This artifact is
+especially bad on fast-moving scenes. Since this is a problem with
+all players under Linux, is there any library that is doing
+something wrong? PowerDVD for Windows is also not perfect: the
+image is not as crisp as I&#39;d expect from a DVD: while it doesn&#39;t
+show the effects just mentioned above, its image is a bit blurred,
+like if someone used a &quot;gaussian blur&quot; filter on the image.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I still don&#39;t know how things are handled with regions
+under Linux: are region codes simply ignored by both the drive and
+the application? Is the application (say, xine) responsible for
+setting it/lying to the drive? Shouldn&#39;t I care? It seems that I&#39;ll
+have to use that dreaded trial-and-error again to discover.
+Humpft.&lt;/p&gt;
 
 	</content>
 

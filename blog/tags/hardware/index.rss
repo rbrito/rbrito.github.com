@@ -8,6 +8,197 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>2002-01-01</title>
+
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-01-01/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-01-01/</link>
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>linux</category>
+
+	<category>macos</category>
+
+	<category>perl</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Tue, 01 Jan 2002 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-06-06T21:22:51Z</dcterms:modified>
+
+	<description>&lt;p&gt;Well, some progress on the PPC front. I&#39;ve just configured the PMac
+to use the &lt;code&gt;imstt&lt;/code&gt; driver instead of the &lt;code&gt;fbdev&lt;/code&gt;. Due to this, the
+X server is now &lt;em&gt;much&lt;/em&gt; faster. In fact, the whole computer is much
+faster. Before, it spent a lot of processing power just to update
+the screen. Since it is not exactly the most powerful computer in
+the world, those few moments indeed were important.&lt;/p&gt;
+
+&lt;p&gt;It is very fast and now it is almost able to play AVI files with
+MPlayer. Almost.&lt;/p&gt;
+
+&lt;p&gt;This Mac is now very usable and I&#39;d even dare to say that it would
+be a good workstation, were it not that outdated (well, if one
+could find replacement hardware for it easily...)&lt;/p&gt;
+
+&lt;p&gt;I think that&#39;ll end summarizing all the &quot;Mac Journey&quot; in a homepage
+to save future souls enduring the problems that I&#39;ve experienced
+(kernel configuration file, XF86Config file etc). It seems that
+Linux running on PPC is indeed a quite nice alternative to paying
+huge prices just for being able to run MacOS 9.&lt;/p&gt;
+
+&lt;p&gt;Also installed the superb
+&lt;a href=&quot;http://www.mosfet.org/liquid.html&quot;&gt;Liquid Theme&lt;/a&gt; for KDE2. It&#39;s
+amazingly beautiful and quite fast, despite all the eye-candy. It
+makes your Linux desktop seem like you are running
+&lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&#39;s Acqua&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;On the down side of things, I guess that I&#39;m just encountering many
+aspects of Perl that I don&#39;t like. It&#39;s saddening that I&#39;ve spent
+so much time and money (buying books) for something that I&#39;m not
+really enjoying (but it&#39;s ok).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2001-12-29</title>
+
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-12-29/</guid>
+
+	<link>http://cynic.cc/blog//posts/2001-12-29/</link>
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>lame</category>
+
+	<category>linux</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Sat, 29 Dec 2001 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-06-06T21:21:44Z</dcterms:modified>
+
+	<description>&lt;p&gt;Today I finally got the Power Macintosh 9500/180MP with
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian testing&lt;/a&gt; installed in a semi-decent
+way: I&#39;m using BenH&#39;s 2.4.17-ben0 kernel which finally has the mace
+driver working again. What does this mean? Well, it means that I&#39;m
+now not confined to 2.2.x kernels anymore. A 2.4 kernel has many
+advantages, especially, for the PowerPC platform. Among other
+things, they are faster for the same hardware, have good SMP
+support, the IMSTT pci card is recognized (which wasn&#39;t in the 2.2
+kernels) and a lot of other nice goodies like a journalling
+filesystem (ext3) etc.
+Also got &lt;a href=&quot;http://www.mp3dev.org/mp3/&quot;&gt;lame 3.90.1&lt;/a&gt; compiled for the
+PowerPC in a decent way.&lt;/p&gt;
+
+&lt;p&gt;A collateral effect of having lame compiled for the ppc is that now
+I have a have a good benchmark that shows me roughly how much
+slower this thing is in relation to my Duron 600MHz. The sad news:
+it is 5 or 6 times slower than the Duron. If lame were
+multithreaded, then it could be up to 2.5 times slower, which would
+be acceptable for day-to-day use.&lt;/p&gt;
+
+&lt;p&gt;As a side note, got some work done to make the Debian packaging
+scripts a bit nicer (read: closer to being lintian clean).
+Unfortunately, lintian still complains about the shared library
+package having an rpath and I don&#39;t know how to get rid of that
+(not even a kludgy solution).&lt;/p&gt;
+
+&lt;p&gt;Since &lt;a href=&quot;http://mplayer.sf.net&quot;&gt;MPlayer&lt;/a&gt; released another version
+(0.60pre2), I downloaded the sources and, to my surprise, it
+compiles on PPC (the 0.60pre1 didn&#39;t). And it even plays, errr,
+tries to play DivX movies! Amazing job these guys are
+accomplishing.&lt;/p&gt;
+
+&lt;p&gt;After struggling a lot with the configuration files, also got X
+4.1.0 working on a framebuffer device (the imstt driver doesn&#39;t
+work). So, now I even have a reasonably fast, modest GUI working
+(or a slower GUI if I load &lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE 2&lt;/a&gt;). And I can
+even use &lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt; here, although the
+swapping doesn&#39;t make it a pleasant experience. In this respect,
+&lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt;, while non-free, is much better.&lt;/p&gt;
+
+&lt;p&gt;All in all, this can now be a poor&#39;s man desktop machine. If it
+only consumed power proportional to its speed, it would be nicer.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2001-07-18</title>
+
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-18/</guid>
+
+	<link>http://cynic.cc/blog//posts/2001-07-18/</link>
+
+
+	<category>debian</category>
+
+	<category>hardware</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Wed, 18 Jul 2001 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-06-06T21:11:53Z</dcterms:modified>
+
+	<description>&lt;p&gt;Ok, I know I messed up. My girlfriend told me that we were in July,
+not June. What a shame! Anyway, I&#39;ve corrected my diary entries and
+got things straight (I think). I guess that the problem was that
+both months start with a &quot;J&quot;.&lt;/p&gt;
+
+&lt;p&gt;Now, to the next (and final?) chapter on the mac: I returned it to
+my uncle and set up the other mac on his store just to see if I
+could get Debian installed. Well, I kind of could: I got the
+bootfloppies installed in 1GB HD and was very surprised to see an
+almost entire setup with the network. Amazing. I&#39;m almost without
+words: just grab 4 FDs and install a whole operating system in your
+machine with them. &lt;a href=&quot;http://www.debian.org&quot;&gt;Debian&lt;/a&gt; definitely keeps
+its lead over other distributions this way.&lt;/p&gt;
+
+&lt;p&gt;Well, enough ads. I could get almost everything installed, but the
+HD died (for good?) soon after the packages were being extracted
+onto the new filesystem. I tried the other (4GB) HD, but it wasn&#39;t
+being seen by &lt;code&gt;mac-fdisk&lt;/code&gt; for an unknown reason (despite it being
+recognized during the SCSI bus scan and the partition check).&lt;/p&gt;
+
+&lt;p&gt;Well, I guess that I can consider this as my first installation of
+Linux on a PowerPC architecture, which could not be concluded only
+because the hardware didn&#39;t help, but both the operator (that&#39;s me!
+&amp;lt;grin&gt;) and the software were right.&lt;/p&gt;
+
+&lt;p&gt;Watched &quot;Monty Python&#39;s Life of Brian&quot; after that. Sent both my VCR
+and TV set to the technician. For some strange reason, both
+&lt;a href=&quot;http://www.konqueror.org&quot;&gt;Konqueror&lt;/a&gt; and
+&lt;a href=&quot;http://www.opera.com&quot;&gt;Opera&lt;/a&gt; are not rendering this page
+justified, while &lt;a href=&quot;http://www.netscape.com&quot;&gt;Netscape 4.77&lt;/a&gt;,
+&lt;a href=&quot;http://www.mozilla.org&quot;&gt;Mozilla 0.9.2&lt;/a&gt; and
+&lt;a href=&quot;http://www.microsoft.com&quot;&gt;Internet Explorer&lt;/a&gt; are.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>2001-07-17</title>
 
 
@@ -15,6 +206,8 @@
 
 	<link>http://cynic.cc/blog//posts/2001-07-17/</link>
 
+
+	<category>debian</category>
 
 	<category>hardware</category>
 
@@ -26,7 +219,7 @@
 
 
 	<pubDate>Tue, 17 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:28:38Z</dcterms:modified>
+	<dcterms:modified>2013-06-06T21:10:21Z</dcterms:modified>
 
 	<description>&lt;p&gt;This is the day that shouldn&#39;t have happened --- it was bad right
 from start. First of all, I couldn&#39;t sleep well because I dreamt
@@ -472,162 +665,6 @@ qmail and I sincerely depend on it to achieve happiness).&lt;/p&gt;
 &lt;p&gt;My qmail package is not as &quot;clean&quot; as I&#39;d like it be (for instance,
 it would be nice if I made its configuration use debconf, but I
 think that that is a task for another day).&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-12-02</title>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-12-02/</guid>
-
-	<link>http://cynic.cc/blog//posts/2000-12-02/</link>
-
-
-	<category>debian</category>
-
-	<category>hardware</category>
-
-	<category>kde</category>
-
-	<category>lame</category>
-
-	<category>linux</category>
-
-
-	<pubDate>Sat, 02 Dec 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-20T01:06:20Z</dcterms:modified>
-
-	<description>&lt;p&gt;I&#39;m now mirroring both a repository of
-&lt;a href=&quot;http://kde.tdyc.com&quot;&gt;Debian KDE packages&lt;/a&gt; for potato and
-&lt;a href=&quot;http://www.helixcode.com&quot;&gt;Helix Gnome&lt;/a&gt; for Debian with rsync. It&#39;s
-&lt;em&gt;way&lt;/em&gt; better than mirroring with wget, that&#39;s for sure.&lt;/p&gt;
-
-&lt;p&gt;I was expecting to go to the movies today, but due to some (ahem)
-&quot;technical problems&quot;, I wasn&#39;t able to go. And this made me quite
-sad, but that&#39;s not actually a problem. Perhaps next week.&lt;/p&gt;
-
-&lt;p&gt;Repackaged &lt;a href=&quot;http://lame.sourceforge.net/&quot;&gt;LAME&lt;/a&gt; 3.87beta for
-Debian/potato and it is lintian-clean (!). So far, it seems to be
-good and I think that I&#39;ll post a message to debian-mentors asking
-what could be improved. In fact, the only thing that I don&#39;t like
-in my package is the fact that I&#39;ve hardcoded a Build-Depends:
-libncurses5-dev line in the control file. That&#39;s not quite right,
-IMO, and I&#39;ll learn how to change it soon.&lt;/p&gt;
-
-&lt;p&gt;My next step is to package &lt;a href=&quot;http://cr.yp.to/djb.html&quot;&gt;DJB&lt;/a&gt;&#39;s
-utilities qmail, ucspi-tcp, serialmail and checkpassword. The
-former seems to be quite involved, but the latters seem to be
-trivial enough to package in one afternoon only (am I optimistic or
-what?) and then I&#39;ll be able to switch to my brand new computer
-(MICROS\~1 free) with Debian 2.2 + KDE 2.2 + my local packages (I
-still won&#39;t have XFree86 4.0.1 and all its nifty features, since
-I&#39;ll be waiting for a version of it to be compiled for potato;
-using woody is scary).&lt;/p&gt;
-
-&lt;p&gt;Another package that I may be interested in packaging is a
-ftpparse-ified version of wget (for mirroring
-&lt;a href=&quot;http://cr.yp.to/publicfile.html&quot;&gt;publicfile&lt;/a&gt; repositories).&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-12-01</title>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-12-01/</guid>
-
-	<link>http://cynic.cc/blog//posts/2000-12-01/</link>
-
-
-	<category>free-software</category>
-
-	<category>freebsd</category>
-
-	<category>hardware</category>
-
-	<category>linux</category>
-
-	<category>music</category>
-
-
-	<pubDate>Fri, 01 Dec 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-20T01:06:20Z</dcterms:modified>
-
-	<description>&lt;p&gt;After a long time without updates, I&#39;m now back to &quot;work&quot;.
-&lt;a href=&quot;http://www.vai.com&quot;&gt;Steve Vai&lt;/a&gt; is making some concerts here in São
-Paulo, but unfortunately, I didn&#39;t attend it (the tickets&#39; prices
-were a bit on the steep side) and as I&#39;ve just bought myself a new
-new computer (woohoo), I&#39;m saving a bit of money.&lt;/p&gt;
-
-&lt;p&gt;My new machine is a virgin &lt;a href=&quot;http://www.amd.com&quot;&gt;AMD&lt;/a&gt; Duron 600MHz,
-with an &lt;a href=&quot;http://www.asus.com&quot;&gt;Asus&lt;/a&gt; A7V motherboard (which, among
-other things, includes an UDMA/100 controller, FSB frequency
-controls and multiplier control), 128MB of SDRAM/PC133, a great
-&lt;a href=&quot;http://www.matrox.com&quot;&gt;Matrox&lt;/a&gt; G400 card (monohead) with 16MB of
-SGRAM and a &lt;a href=&quot;http://www.samsung.com&quot;&gt;Samsung&lt;/a&gt; HD of 40GB.&lt;/p&gt;
-
-&lt;p&gt;I&#39;m actually quite excited and aside from some problems that I had
-with a defective Matrox (that I&#39;ve now returned), it&#39;s working
-wonderfully. It&#39;s so good that it even runs
-&lt;a href=&quot;http://www.mozilla.org&quot;&gt;Mozilla&lt;/a&gt; quite fast! I can&#39;t wait for
-&lt;a href=&quot;http://www.kde.org&quot;&gt;KDE&lt;/a&gt; 2.0.1 to be released on Monday (Dec 4th)
-so that I can try the latest incarnation of
-&lt;a href=&quot;http://www.konqueror.org&quot;&gt;Konqueror&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;BTW, &lt;a href=&quot;http://www.openbsd.org&quot;&gt;OpenBSD&lt;/a&gt; 2.8 was released today and
-I&#39;ve already downloaded a copy and burned onto CD. I think that
-I&#39;ve made everything right to get a bootable CD, but the CD that
-I&#39;ve made is only able to boot in my new computer. Strange.&lt;/p&gt;
-
-&lt;p&gt;And speaking of BSD, I also have &lt;a href=&quot;http://www.freebsd.org&quot;&gt;FreeBSD&lt;/a&gt;
-4.2-RELEASE downloaded and burned. In fact, I think that I&#39;m
-spending way too much time with this Internet thing (I downloaded
-FreeBSD the very same day it was released -- that&#39;s Nov 21st).&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-08-19</title>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-08-19/</guid>
-
-	<link>http://cynic.cc/blog//posts/2000-08-19/</link>
-
-
-	<category>broadband</category>
-
-	<category>hack</category>
-
-	<category>hardware</category>
-
-	<category>life</category>
-
-	<category>music</category>
-
-	<category>symphony-x</category>
-
-
-	<pubDate>Sat, 19 Aug 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-04-08T12:04:01Z</dcterms:modified>
-
-	<description>&lt;p&gt;After waking up at 2pm, I found myself pondering if I should or not
-go to McDonald&#39;s to get those 10 Big Macs that mom had bought for
-Mc Dia Feliz. I went and then, after being stuffed, went again to
-my uncle&#39;s shop. I brought him my comp and he made a cool hack to
-change my computer&#39;s battery. My computer seems happier and
-healthier. Ok, not sure about happier, but it sure looks healthier.
-And just found out that my uncle had a cool, brand-new
-&lt;a href=&quot;http://www.speedy.com.br&quot;&gt;ADSL&lt;/a&gt; installed in his office. Wow!
-Those things kick some major ass! Downloading MP3s faster than I
-can play them. It&#39;s officially a Good Thing(tm).&lt;/p&gt;
 </description>
 
 

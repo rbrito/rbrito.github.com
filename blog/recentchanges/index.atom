@@ -17,7 +17,88 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-06-06T01:10:59Z</updated>
+<updated>2013-06-06T21:23:31Z</updated>
+<entry>
+	<title>change to posts/2001-07-17 posts/2001-07-18 posts/2001-08-18 posts/2001-09-16 posts/2001-09-17 posts/2001-09-18 posts/2001-12-04 posts/2001-12-12 posts/2001-12-16 posts/2001-12-28  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_f1387d64d707a8c1e2f19ef5c5ec35a7cb0e597e/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-f1387d64d707a8c1e2f19ef5c5ec35a7cb0e597e"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-06-06T21:23:31Z</updated>
+	<published>2013-06-06T21:23:31Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-f1387d64d707a8c1e2f19ef5c5ec35a7cb0e597e&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+posts/2001-07-17
+
+posts/2001-07-18
+
+posts/2001-08-18
+
+posts/2001-09-16
+
+posts/2001-09-17
+
+posts/2001-09-18
+
+posts/2001-12-04
+
+posts/2001-12-12
+
+posts/2001-12-16
+
+posts/2001-12-28
+
+...
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-06-06T21:23:31Z&quot;&gt;18:23:31 2013-06-06&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+posts: Categorize some more.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- f1387d64d707a8c1e2f19ef5c5ec35a7cb0e597e --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -5916,67 +5997,6 @@ Importing WordPress post &amp;quot;Music, Group Actions, Quilt and Debian Packag
 &lt;/div&gt;
 
 &lt;!-- 306baf8815ffea26bb7293111d2f02f9b6aea320 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to posts/random-points-on-group-theory on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://cynic.cc/blog//recentchanges/change_bce5576a28addea968d568e5ef0574c0a26882c0/</id>
-
-	<link href="http://cynic.cc/blog/recentchanges/#change-bce5576a28addea968d568e5ef0574c0a26882c0"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2007-05-24T17:07:11Z</updated>
-	<published>2007-05-24T17:07:11Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-bce5576a28addea968d568e5ef0574c0a26882c0&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-posts/random-points-on-group-theory
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2007-05-24T17:07:11Z&quot;&gt;14:07:11 2007-05-24&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Importing WordPress post &amp;quot;Random Points on Group Theory&amp;quot; &amp;#91;http://mathandmadness.wordpress.com/2007/05/24/random-points-on-group-theory/&amp;#93;&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- bce5576a28addea968d568e5ef0574c0a26882c0 --&gt;
 
 	</content>
 

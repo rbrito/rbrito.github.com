@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-05-08T00:27:02Z</updated>
+<updated>2013-06-06T21:17:57Z</updated>
 <entry>
 	<title>2005-11-19</title>
 
@@ -43,6 +43,110 @@
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Purchased some books at discount prices. Nice. Now I can learn
 Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2001-12-04</title>
+
+	<id>http://cynic.cc/blog//posts/2001-12-04/</id>
+
+	<link href="http://cynic.cc/blog//posts/2001-12-04/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="perl" />
+
+	<category term="study" />
+
+
+	<updated>2013-06-06T21:17:57Z</updated>
+	<published>2001-12-04T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Um dia um pouco inútil. Acordei mais tarde do que o usual (17h) e
+fui ler os sites de costume (&lt;a href=&quot;http://slashdot.org/&quot;&gt;slashdot.org&lt;/a&gt;,
+&lt;a href=&quot;http://lwn.net/daily/&quot;&gt;LWN Daily Updates&lt;/a&gt; e
+&lt;a href=&quot;http://www.agestado.com.br/agestado/?rf&quot;&gt;Agência Estado&lt;/a&gt;). A
+propósito, eu gosto tanto do Agência Estado (principalmente da
+cobertura econômica, dos comentários acessíveis ao público leigo em
+economia e do uso de poucos plugins nas páginas -- muito melhor do
+que a &lt;a href=&quot;http://noticias.uol.com.br/ultnot/&quot;&gt;concorrência&lt;/a&gt;) que uma
+das coisas que eu mais gostaria de ver seria um canal de RSS com as
+notícias para eu usar em algum cliente
+(&lt;a href=&quot;http://www.ximian.com/images/screenshots/ximian_evolution/summary.png&quot;&gt;Evolution&lt;/a&gt;,
+junto com a temperatura e resumos de outros sites) e não perder
+mais tempo na Web do que eu já perco. Entretanto, achar algo como
+isto em algum site não é muito fácil em geral, até mesmo nos sites
+que &lt;em&gt;fornecem&lt;/em&gt; os canais.&lt;/p&gt;
+
+&lt;p&gt;A solução é, portanto, fazer um script em
+&lt;a href=&quot;http://www.perl.com&quot;&gt;Perl&lt;/a&gt; para transformar a página de notícias
+em um canal e, daí, usar o resultado. Fiz dois scripts, um para o
+UOL e outro para o Agência Estado.&lt;/p&gt;
+
+&lt;p&gt;Acho que eu tenho uma relação de amor e ódio com Perl. Hoje foi um
+dia de amor.&lt;/p&gt;
+
+&lt;p&gt;Anunciei &lt;a href=&quot;http://www.ime.usp.br/~rbrito/listas/bio/&quot;&gt;a lista&lt;/a&gt;,
+comecei uma leitura (desordenada) de coisas sobre Alinhamentos de
+Várias Seqüências e me toquei de uma coisa bem elementar mas muito
+legal a respeito do algoritmo de programação dinâmica (que eu acho
+que já deveria ter percebido há algum tempo -- como é bom
+estudar).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2001-09-17</title>
+
+	<id>http://cynic.cc/blog//posts/2001-09-17/</id>
+
+	<link href="http://cynic.cc/blog//posts/2001-09-17/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="music" />
+
+	<category term="study" />
+
+
+	<updated>2013-06-06T21:15:55Z</updated>
+	<published>2001-09-17T03:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Finally, the text that I have been writing for some time now was
+submitted for the Qualifying Examination of my Master&#39;s Degree!
+This is a landmark in my career and many doors may be open for me
+now, with many more professional possibilities. It also means that
+I&#39;ll soon be having to present my work.&lt;/p&gt;
+
+&lt;p&gt;So I have already downloaded the whole
+&lt;a href=&quot;http://www.openoffice.org&quot;&gt;OpenOffice suite&lt;/a&gt; for Linux, which
+enables me to make presentations compatible with Microsoft&#39;s
+Powerpoint without ever touching Microsoft software. OpenOffice has
+already reached the beta status and I think that now is the time to
+give it a try.&lt;/p&gt;
+
+&lt;p&gt;Went to the shopping mall and later to the supermarket with my
+sweet girlfriend and bought CDs that I found in the bargain bin for
+only R$ 2.80 a piece. Got Paul Dianno&#39;s solo CD in the bunch.&lt;/p&gt;
 
 	</content>
 
@@ -394,119 +498,6 @@ support for my studies and a status update to advisor).&lt;/p&gt;
 sincerely, I don&#39;t know what they are looking for in people
 applying for the positions. I guess that I should study more right
 now.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2001-01-31</title>
-
-	<id>http://cynic.cc/blog//posts/2001-01-31/</id>
-
-	<link href="http://cynic.cc/blog//posts/2001-01-31/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="hardware" />
-
-	<category term="linux" />
-
-	<category term="study" />
-
-
-	<updated>2013-04-20T01:06:20Z</updated>
-	<published>2001-01-31T02:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Happy New Millennium! So many things have happened since the last
-time I&#39;ve updated my diary and I guess that since I can&#39;t summarize
-everything accurately, I&#39;ll just list what I think are the
-remarkable facts:&lt;/p&gt;
-
-&lt;p&gt;I have now put my new computer (a &lt;a href=&quot;http://www.amd.com&quot;&gt;Duron&lt;/a&gt;
-600MHz with a lovely &lt;a href=&quot;http://www.asus.com&quot;&gt;Asus&lt;/a&gt; A7V motherboard)
-to actual use. Of course, I made a backup of my older computer, so
-that I was prepared for worst (read on);
-&lt;a href=&quot;http://www.kernel.org&quot;&gt;Linux 2.4.0&lt;/a&gt; has finally been released and
-it includes a lot of new goodies. While I think that it is still
-not the right time to switch to the new version, it is indeed quite
-tempting (but I&#39;ll resist that temptation, since I&#39;ve read a lot of
-people complaining of data corruption with the new IDE drivers when
-used with VIA chipsets -- and my motherboard features, guess what,
-a VIA chipset, of course).
-At the time of this writing (Feb 4th), Linux 2.4.1 was already
-released, with many minor fixes;
-A &lt;a href=&quot;http://www.debian.org/releases/testing&quot;&gt;new version&lt;/a&gt; of the
-Linux Distribution that I use,
-&lt;a href=&quot;http://www.debian.org&quot;&gt;Debian GNU/Linux&lt;/a&gt; is now getting more and
-more functionality. It is ready for the new Linux 2.4.0 kernel, but
-still under development (read: prone to break). Oh, why can&#39;t new
-software be stable? In the mean time, I&#39;m using Debian&#39;s
-&lt;a href=&quot;http://www.debian.org/releases/potato&quot;&gt;potato&lt;/a&gt;.
-One week after I have started to use my new computer, my 40GB
-Samsung drive broke. Ouch. Fortunately, I had taken backups of
-everything from my old computer and any new data that I had on my
-new computer was still readable. So, now, I&#39;m using a new 30GB
-&lt;a href=&quot;http://www.quantum.com&quot;&gt;Quantum&lt;/a&gt; drive and everything seems to be
-working fine again. Nice.
-I am now reading more and more things about my Mastership work. It
-will be in a sub-area of computer science called
-&lt;a href=&quot;http://cynic.cc/blog//tags/study/../compbio/index.html&quot;&gt;Computational (Molecular) Biology&lt;/a&gt;. In
-particular, I&#39;m studying now alignments of multiple sequences. The
-theory is quite general and applies to alignments of sequences over
-any alphabets, but the biological motivation is to study and
-compare (sub)sequences of DNA and of proteins;
-I must confess that while I was reading slowly in the beginning,
-without much motivation, now I&#39;m quite excited about the subject.
-It has really grown on me and now I see how much I still have to
-catch up to read bleading edge papers (it is also surprising that
-this area of knowledge has evolved so much in so little time, but I
-guess that this is natural whenever there are economic interests in
-a given field). Now, I want to learn more!&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2000-12-05</title>
-
-	<id>http://cynic.cc/blog//posts/2000-12-05/</id>
-
-	<link href="http://cynic.cc/blog//posts/2000-12-05/"/>
-
-
-
-
-
-
-	<category term="complexity-theory" />
-
-	<category term="study" />
-
-
-	<updated>2013-04-20T01:06:20Z</updated>
-	<published>2000-12-05T02:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;The last day of classes of Computational Complexity. I&#39;m both happy
-and sad. I&#39;m happy because it was quite demanding, with loads of
-homework. But on the other hand, the subject is so cool and I&#39;ll
-certainly miss it.&lt;/p&gt;
-
-&lt;p&gt;I plan to buy Papadimitrou&#39;s book &quot;Computational Complexity&quot;, but I
-must be sincere here and say that I&#39;m quite scared of the sheer
-amount of typos and small errors that this book contains. Indeed if
-you ignore those errors, then the book is really good. I guess that
-it needs a beta-testing phase as it is feature complete.&lt;/p&gt;
 
 	</content>
 

@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-05-08T00:28:38Z</updated>
+<updated>2013-06-06T21:19:57Z</updated>
 <entry>
 	<title>2005-12-14</title>
 
@@ -45,6 +45,102 @@
 
 </entry>
 <entry>
+	<title>2001-12-16</title>
+
+	<id>http://cynic.cc/blog//posts/2001-12-16/</id>
+
+	<link href="http://cynic.cc/blog//posts/2001-12-16/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+
+	<updated>2013-06-06T21:19:57Z</updated>
+	<published>2001-12-16T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;É duro participar de uma sociedade e o bom funcionamento dela
+recair sobre você. É ruim ser o ponto de equilíbrio, &lt;strong&gt;&lt;em&gt;o único&lt;/em&gt;&lt;/strong&gt;
+lugar que se verga incessantemente para absorver os problemas.
+Causa estresse. Isto quando não frusta. É assim que me sinto.
+Triste. Mais triste do que eu deveria estar, mais triste do que o
+que eu mereço.&lt;/p&gt;
+
+&lt;p&gt;Às vezes, negócios que parecem bons no começo revelam-se muito
+custosos com o tempo... Que tristeza!&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2001-12-12</title>
+
+	<id>http://cynic.cc/blog//posts/2001-12-12/</id>
+
+	<link href="http://cynic.cc/blog//posts/2001-12-12/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+	<category term="linux" />
+
+	<category term="macos" />
+
+	<category term="perl" />
+
+	<category term="powerpc" />
+
+
+	<updated>2013-06-06T21:19:41Z</updated>
+	<published>2001-12-12T02:00:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Lots of things going on. I&#39;m now even more sure that I do want one
+of those &lt;a href=&quot;http://www.apple.com/ibook/&quot;&gt;new and sweet iBooks&lt;/a&gt;. They
+are so sweet, come with a long-lasting battery, have a 1024x768 res
+LCD, a Firewire port, a 10/100 Ethernet port, a reasonably big HD
+and an ATI card. In my opinion, it&#39;s only drawback: it doesn&#39;t have
+a PCMCIA slot.&lt;/p&gt;
+
+&lt;p&gt;As an added bonus, what could be cooler than Apple now selling its
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;new Operating System&lt;/a&gt; as the
+&quot;World&#39;s Most Advanced Operating System&quot;, when, in fact, it is a
+&lt;a href=&quot;http://www.apple.com/darwin/&quot;&gt;Unix&lt;/a&gt; under the hood?&lt;/p&gt;
+
+&lt;p&gt;And it &lt;strong&gt;&lt;a href=&quot;http://www.tuxppc.org/&quot;&gt;runs Linux&lt;/a&gt;&lt;/strong&gt;! Not only that, but
+if I ever get tired of Linux and want MacOS X, I can have
+&lt;a href=&quot;http://fink.sf.net&quot;&gt;it with the power of Debian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But well, there &lt;em&gt;is&lt;/em&gt; another drawback. Nothing can be perfect. Of
+course. These things are so damn expensive here in my country,
+mostly due to the absurd exchange rates and to the
+&lt;a href=&quot;http://www.receita.fazenda.gov.br&quot;&gt;huge taxes&lt;/a&gt;. Anything that
+isn&#39;t obtained with the welcome, kind help of the &quot;gray markets&quot; is
+so damn expensive (to the point of quickly becoming intangible).
+Which means that I&#39;ll probably not have one iBook unless I go
+travel and come back with one.&lt;/p&gt;
+
+&lt;p&gt;Learned a bit more about Perl. Became a bit scared with the amound
+of things it does at run-time. Isn&#39;t there a switch for the
+compiler/optimizer to tell it: &quot;perform only what I tell you and
+optimize the hell out of this code&quot;?&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>2001-07-17</title>
 
 	<id>http://cynic.cc/blog//posts/2001-07-17/</id>
@@ -56,6 +152,8 @@
 
 
 
+	<category term="debian" />
+
 	<category term="hardware" />
 
 	<category term="life" />
@@ -65,7 +163,7 @@
 	<category term="powerpc" />
 
 
-	<updated>2013-05-08T00:28:38Z</updated>
+	<updated>2013-06-06T21:10:21Z</updated>
 	<published>2001-07-17T03:00:00Z</published>
 
 	<content type="html" xml:lang="en">
@@ -363,86 +461,6 @@ I&#39;d like to get home not so fast next time).&lt;/p&gt;
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Still doing homework.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2000-09-23</title>
-
-	<id>http://cynic.cc/blog//posts/2000-09-23/</id>
-
-	<link href="http://cynic.cc/blog//posts/2000-09-23/"/>
-
-
-
-
-
-
-	<category term="life" />
-
-	<category term="study" />
-
-
-	<updated>2012-12-09T02:44:50Z</updated>
-	<published>2000-09-23T03:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Spent a good part of the day doing homework. Two of &#39;em, in fact.
-One, due Monday. The other, due Tuesday. I&#39;m more enthusiastic
-about Combinatorial Optimization than programming Turing Machines,
-but both classes I&#39;m attending are cool. For someone that enjoys
-theoretical Computer Science, that is. Amazingly, the theory is not
-far from the Real World (tm).&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2000-09-14</title>
-
-	<id>http://cynic.cc/blog//posts/2000-09-14/</id>
-
-	<link href="http://cynic.cc/blog//posts/2000-09-14/"/>
-
-
-
-
-
-
-	<category term="life" />
-
-	<category term="music" />
-
-	<category term="study" />
-
-
-	<updated>2012-12-09T02:43:31Z</updated>
-	<published>2000-09-14T03:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Tired. Tired. Tired.&lt;/p&gt;
-
-&lt;p&gt;It seems that my Mastership will have something to do with
-phylogenetic trees. But that is only a wild guess. I&#39;ll have first
-to understand the seemingly (for a Mathematician, at least)
-confusing problems.&lt;/p&gt;
-
-&lt;p&gt;Still haven&#39;t received an answer for my e-mail to Ajato. So much
-for a timely answer.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://cynic.cc/blog//tags/life/../nectar/index.html&quot;&gt;Nectar&lt;/a&gt; is temporarily disabled. I&#39;m still
-thinking where to host it (e-groups?).&lt;/p&gt;
-
-&lt;p&gt;Still listening to &quot;Classical&quot; Music today: Symphony X and Yngwie
-Malmsteen&#39;s Concerto.&lt;/p&gt;
-
-&lt;p&gt;For some reason, it seems that today I can order from The End
-Records. Weird.&lt;/p&gt;
 
 	</content>
 

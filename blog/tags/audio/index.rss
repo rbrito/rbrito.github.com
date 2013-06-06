@@ -47,6 +47,42 @@
 
 
 </item>
+<item>
+
+	<title>2001-12-28</title>
+
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-12-28/</guid>
+
+	<link>http://cynic.cc/blog//posts/2001-12-28/</link>
+
+
+	<category>audio</category>
+
+	<category>free-software</category>
+
+
+	<pubDate>Fri, 28 Dec 2001 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-06-06T21:20:36Z</dcterms:modified>
+
+	<description>&lt;p&gt;A &lt;a href=&quot;http://www.bbc.co.uk/&quot;&gt;BBC&lt;/a&gt;, famosa rádio inglesa,
+&lt;a href=&quot;http://support.bbc.co.uk/ogg/&quot;&gt;está transmitindo sua programação&lt;/a&gt;
+em caráter experimental usando o formato
+&lt;a href=&quot;http://www.vorbis.com/faq.psp&quot;&gt;Ogg Vorbis&lt;/a&gt;, superior ao formato
+MP3 em diversos aspectos. E, de bônus, o formato é &lt;strong&gt;100% livre&lt;/strong&gt;.
+Isto significa, de tabela, que as pessoas não precisam mais ficar
+restritas ao uso de PCs com Windows para ouvir áudio na Internet.
+Elas podem escolher tanto o hardware quanto o sistema operacional
+de sua preferência, seja ele Linux, *BSD, Solaris, MacOS, MacOS X
+ou até mesmo Windows. Tomara que a iniciativa seja adotada por
+outros lugares.&lt;/p&gt;
+
+&lt;p&gt;Para ouvir a programação, e
+&lt;a href=&quot;http://support.bbc.co.uk/ogg/&quot;&gt;clique aqui&lt;/a&gt; e relaxe.&lt;/p&gt;
+</description>
+
+
+</item>
 
 </channel>
 </rss>

@@ -880,142 +880,135 @@ build-dependencies.&lt;/p&gt;
 </item>
 <item>
 
-	<title>2001-07-17</title>
+	<title>2002-01-01</title>
 
 
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-17/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-01-01/</guid>
 
-	<link>http://cynic.cc/blog//posts/2001-07-17/</link>
+	<link>http://cynic.cc/blog//posts/2002-01-01/</link>
 
+
+	<category>debian</category>
+
+	<category>free-software</category>
 
 	<category>hardware</category>
 
-	<category>life</category>
-
 	<category>linux</category>
+
+	<category>macos</category>
+
+	<category>perl</category>
 
 	<category>powerpc</category>
 
 
-	<pubDate>Tue, 17 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:28:38Z</dcterms:modified>
+	<pubDate>Tue, 01 Jan 2002 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-06-06T21:22:51Z</dcterms:modified>
 
-	<description>&lt;p&gt;This is the day that shouldn&#39;t have happened --- it was bad right
-from start. First of all, I couldn&#39;t sleep well because I dreamt
-with some perl scripts that didn&#39;t work and they took me almost all
-my sleep time (or so it seemed). Then, my kind neighbor started
-making lots of noises and I couldn&#39;t keep sleeping.&lt;/p&gt;
+	<description>&lt;p&gt;Well, some progress on the PPC front. I&#39;ve just configured the PMac
+to use the &lt;code&gt;imstt&lt;/code&gt; driver instead of the &lt;code&gt;fbdev&lt;/code&gt;. Due to this, the
+X server is now &lt;em&gt;much&lt;/em&gt; faster. In fact, the whole computer is much
+faster. Before, it spent a lot of processing power just to update
+the screen. Since it is not exactly the most powerful computer in
+the world, those few moments indeed were important.&lt;/p&gt;
 
-&lt;p&gt;But the worst part of the day was still coming.&lt;/p&gt;
+&lt;p&gt;It is very fast and now it is almost able to play AVI files with
+MPlayer. Almost.&lt;/p&gt;
 
-&lt;p&gt;I went to my uncle&#39;s shop to get a new SCSI HD and he lent me a 4GB
-one, more than enough to hold both Linux and MacOS 8. I turned the
-thing on and it started making noises like the one I used
-yesterday, which wasn&#39;t good. Anyway, I left it on and decided to
-install MacOS on it. It was progressing nicely and I was getting
-happier and happier, but then the whole system froze. I turned the
-power off and tried to install Linux. At least this time Linux saw
-the HD and all partitions that it had (7, I think).&lt;/p&gt;
+&lt;p&gt;This Mac is now very usable and I&#39;d even dare to say that it would
+be a good workstation, were it not that outdated (well, if one
+could find replacement hardware for it easily...)&lt;/p&gt;
 
-&lt;p&gt;To install Linux, I used some CVS bootfloppies that will become
-bootfloppies of Debian woody. While trying to make the brand new
-ext2 filesystem, I got a kernel panic. I tried again. This time, I
-went up to the point of choosing which kernel modules I wanted. I
-was getting happy again. But then, when I chose the module for the
-ethernet card, a new kernel panic. Ouch!&lt;/p&gt;
+&lt;p&gt;I think that&#39;ll end summarizing all the &quot;Mac Journey&quot; in a homepage
+to save future souls enduring the problems that I&#39;ve experienced
+(kernel configuration file, XF86Config file etc). It seems that
+Linux running on PPC is indeed a quite nice alternative to paying
+huge prices just for being able to run MacOS 9.&lt;/p&gt;
 
-&lt;p&gt;I then tried to install MacOS again and a new freeze. Tried again,
-new freeze. Then, I noticed that the HD was getting hot and put a
-fan near it. I don&#39;t know if it was coincidence or not, but after
-that, I could finish the installation of MacOS. Ok, so time to boot
-this thing with no CDs in the CD-ROM drive. Nothing. Grrrr.&lt;/p&gt;
+&lt;p&gt;Also installed the superb
+&lt;a href=&quot;http://www.mosfet.org/liquid.html&quot;&gt;Liquid Theme&lt;/a&gt; for KDE2. It&#39;s
+amazingly beautiful and quite fast, despite all the eye-candy. It
+makes your Linux desktop seem like you are running
+&lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&#39;s Acqua&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Things got strange after I tried to put the Linux PPC CD that I had
-burned and it didn&#39;t work. Washed the CD and no boot. But it did
-some days ago! It was not scratched, had no fingerprints and was
-absolutely clean. But couldn&#39;t boot. I tried using the floppies
-again, but this time, another surprise: the HD &lt;em&gt;was&lt;/em&gt; recognized,
-but a partition scan timed out, Linux told that it could not read
-read its beginning and that it assumed that the size of the HD was
-1GB, and showed &lt;em&gt;no&lt;/em&gt; partitions on the drive. On the other hand,
-MacOS is able to see it just before formatting it, perhaps because
-it re-scans the SCSI bus. Changing the SCSI-id of the drive didn&#39;t
-help. Is that the reason why it can&#39;t boot from the HD? Perhaps.&lt;/p&gt;
-
-&lt;p&gt;Anyway, my desire of seeing this thing encoding MP3s, using KDE, a
-brand new browser and typing some texts with LaTeX seems a bit
-farther than what I realized at first. I will still keep trying to
-make this damn thing work, but I&#39;m not confident anymore that I&#39;ll
-succeed. Well, I&#39;ll talk to my uncle tomorrow, perhaps and see if
-the other Mac behaves the same way. Enough for a day already.&lt;/p&gt;
+&lt;p&gt;On the down side of things, I guess that I&#39;m just encountering many
+aspects of Perl that I don&#39;t like. It&#39;s saddening that I&#39;ve spent
+so much time and money (buying books) for something that I&#39;m not
+really enjoying (but it&#39;s ok).&lt;/p&gt;
 </description>
 
 
 </item>
 <item>
 
-	<title>2001-07-16</title>
+	<title>2001-12-29</title>
 
 
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-16/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-12-29/</guid>
 
-	<link>http://cynic.cc/blog//posts/2001-07-16/</link>
+	<link>http://cynic.cc/blog//posts/2001-12-29/</link>
 
 
-	<category>blind-guardian</category>
+	<category>debian</category>
 
-	<category>life</category>
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>lame</category>
 
 	<category>linux</category>
 
-	<category>music</category>
-
-	<category>netbsd</category>
-
 	<category>powerpc</category>
 
-	<category>study</category>
 
+	<pubDate>Sat, 29 Dec 2001 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-06-06T21:21:44Z</dcterms:modified>
 
-	<pubDate>Mon, 16 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:27:02Z</dcterms:modified>
+	<description>&lt;p&gt;Today I finally got the Power Macintosh 9500/180MP with
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian testing&lt;/a&gt; installed in a semi-decent
+way: I&#39;m using BenH&#39;s 2.4.17-ben0 kernel which finally has the mace
+driver working again. What does this mean? Well, it means that I&#39;m
+now not confined to 2.2.x kernels anymore. A 2.4 kernel has many
+advantages, especially, for the PowerPC platform. Among other
+things, they are faster for the same hardware, have good SMP
+support, the IMSTT pci card is recognized (which wasn&#39;t in the 2.2
+kernels) and a lot of other nice goodies like a journalling
+filesystem (ext3) etc.
+Also got &lt;a href=&quot;http://www.mp3dev.org/mp3/&quot;&gt;lame 3.90.1&lt;/a&gt; compiled for the
+PowerPC in a decent way.&lt;/p&gt;
 
-	<description>&lt;p&gt;Busy day. Woke up as soon as possible to see
-&lt;a href=&quot;http://www.ime.usp.br/~jose/&quot;&gt;my advisor&lt;/a&gt; and decide the furture
-of my Master&#39;s degree. Then, at almost 4pm, had a ridicule lunch,
-met my girlfriend and went to a shopping mall with her. While I was
-there, I was attacked by the capitalist bug and had to buy me
-something. I was looking for some &lt;a href=&quot;http://www.ora.com&quot;&gt;O&#39;Reilly&lt;/a&gt;
-books, but they were way too expensive (I was expecting to get a
-&lt;a href=&quot;http://perl.ora.com&quot;&gt;Perl&lt;/a&gt; book or
-&lt;a href=&quot;http://www.oreilly.com/catalog/lpython/&quot;&gt;Learning Python&lt;/a&gt;, but
-decided not to).&lt;/p&gt;
+&lt;p&gt;A collateral effect of having lame compiled for the ppc is that now
+I have a have a good benchmark that shows me roughly how much
+slower this thing is in relation to my Duron 600MHz. The sad news:
+it is 5 or 6 times slower than the Duron. If lame were
+multithreaded, then it could be up to 2.5 times slower, which would
+be acceptable for day-to-day use.&lt;/p&gt;
 
-&lt;p&gt;I talked to the salesman and asked if he had
-&lt;a href=&quot;http://www.csse.monash.edu.au/~damian/&quot;&gt;Damian Conway&#39;s&lt;/a&gt;
-&lt;a href=&quot;http://www.manning.com/Conway/&quot;&gt;Object Oriented Perl&lt;/a&gt;, but he told
-me &lt;em&gt;&quot;the printing was cancelled&quot;&lt;/em&gt;. I told him that
-&lt;a href=&quot;http://www.manning.com&quot;&gt;Manning Publications&lt;/a&gt; wasn&#39;t told about
-that and got some garbage as a response that I didn&#39;t even make an
-effort to save in any part of my brain.&lt;/p&gt;
+&lt;p&gt;As a side note, got some work done to make the Debian packaging
+scripts a bit nicer (read: closer to being lintian clean).
+Unfortunately, lintian still complains about the shared library
+package having an rpath and I don&#39;t know how to get rid of that
+(not even a kludgy solution).&lt;/p&gt;
 
-&lt;p&gt;Since I had the mission to buy myself something, I got me
-&lt;a href=&quot;http://www.blind-guardian.com&quot;&gt;Blind Guardian&lt;/a&gt;&#39;s &quot;Nightfall in
-Middle Earth&quot;. Wonderful.&lt;/p&gt;
+&lt;p&gt;Since &lt;a href=&quot;http://mplayer.sf.net&quot;&gt;MPlayer&lt;/a&gt; released another version
+(0.60pre2), I downloaded the sources and, to my surprise, it
+compiles on PPC (the 0.60pre1 didn&#39;t). And it even plays, errr,
+tries to play DivX movies! Amazing job these guys are
+accomplishing.&lt;/p&gt;
 
-&lt;p&gt;To finish my day, I went to my uncle&#39;s store and got another SCSI
-HD for the Powermac, but it was also defective. But now I&#39;m a lot
-more confident that the problem isn&#39;t with the mac itself, but with
-the HDs (the mac would boot with the HD attached and see it while
-in MacOS 8, but trying to install it on the HD evidenced that the
-head was hitting the platters -- tomorrow I&#39;ll be getting another
-SCSI HD). Let me cross my fingers. If I actually install Linux on
-it, I&#39;ll grab &lt;a href=&quot;http://www.penguinppc.org/~benh/&quot;&gt;BenH&lt;/a&gt;&#39;s 2.4.6
-Linux and get &quot;my&quot; mac a fresh kernel.&lt;/p&gt;
+&lt;p&gt;After struggling a lot with the configuration files, also got X
+4.1.0 working on a framebuffer device (the imstt driver doesn&#39;t
+work). So, now I even have a reasonably fast, modest GUI working
+(or a slower GUI if I load &lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE 2&lt;/a&gt;). And I can
+even use &lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt; here, although the
+swapping doesn&#39;t make it a pleasant experience. In this respect,
+&lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt;, while non-free, is much better.&lt;/p&gt;
 
-&lt;p&gt;Oh, NetBSD 1.5.1
-&lt;a href=&quot;http://www.netbsd.org/Releases/formal-1.5/NetBSD-1.5.1.html&quot;&gt;is released&lt;/a&gt;.
-I still can&#39;t get ISO images, though.&lt;/p&gt;
+&lt;p&gt;All in all, this can now be a poor&#39;s man desktop machine. If it
+only consumed power proportional to its speed, it would be nicer.&lt;/p&gt;
 </description>
 
 
