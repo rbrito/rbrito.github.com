@@ -17,7 +17,88 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-06-06T23:41:13Z</updated>
+<updated>2013-06-06T23:47:05Z</updated>
+<entry>
+	<title>change to archives/2013 archives/2013/01 archives/2013/02 archives/2013/03 archives/2013/04 archives/2013/05 archives/2013/06 archives/2013/07 archives/2013/08 archives/2013/09  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_ca866fdb32a84720faf78e08086bdacbbcb7dfe2/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-ca866fdb32a84720faf78e08086bdacbbcb7dfe2"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-06-06T23:47:05Z</updated>
+	<published>2013-06-06T23:47:05Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-ca866fdb32a84720faf78e08086bdacbbcb7dfe2&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+archives/2013
+
+archives/2013/01
+
+archives/2013/02
+
+archives/2013/03
+
+archives/2013/04
+
+archives/2013/05
+
+archives/2013/06
+
+archives/2013/07
+
+archives/2013/08
+
+archives/2013/09
+
+...
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-06-06T23:47:05Z&quot;&gt;20:47:05 2013-06-06&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+calendar update&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- ca866fdb32a84720faf78e08086bdacbbcb7dfe2 --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to sidebar on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -6060,67 +6141,6 @@ Add first unit of ads to the page template.&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 03f55c9f105049311b1c08a81b30f9e090198491 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to posts/debian-switching-to-eglibc on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://cynic.cc/blog//recentchanges/change_09cdb02d616a25523cb272053163b5fbc3048952/</id>
-
-	<link href="http://cynic.cc/blog/recentchanges/#change-09cdb02d616a25523cb272053163b5fbc3048952"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2007-05-08T02:00:00Z</updated>
-	<published>2007-05-08T02:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-09cdb02d616a25523cb272053163b5fbc3048952&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-posts/debian-switching-to-eglibc
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2007-05-08T02:00:00Z&quot;&gt;23:00:00 2007-05-07&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Importing WordPress post &amp;quot;Debian Switching to EGLIBC&amp;quot; &amp;#91;http://mathandmadness.wordpress.com/2009/05/02/debian-switching-to-eglibc/&amp;#93;&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 09cdb02d616a25523cb272053163b5fbc3048952 --&gt;
 
 	</content>
 
