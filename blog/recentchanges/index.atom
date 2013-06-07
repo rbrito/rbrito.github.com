@@ -17,7 +17,80 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-06-06T23:47:05Z</updated>
+<updated>2013-06-07T22:40:57Z</updated>
+<entry>
+	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_d37d3792bf0a42bb3248b4b7da2d6a7288d06627/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-d37d3792bf0a42bb3248b4b7da2d6a7288d06627"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-06-07T22:40:57Z</updated>
+	<published>2013-06-07T22:40:57Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-d37d3792bf0a42bb3248b4b7da2d6a7288d06627&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-06-07T22:40:57Z&quot;&gt;19:40:57 2013-06-07&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Revert &amp;quot;Add first unit of ads to the page template.&amp;quot;&lt;br /&gt;
+
+
+
+
+
+Google doesn&amp;#39;t want me to have ads, apparently.&lt;br /&gt;
+
+
+
+
+
+This reverts commit 03f55c9f105049311b1c08a81b30f9e090198491.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- d37d3792bf0a42bb3248b4b7da2d6a7288d06627 --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to archives/2013 archives/2013/01 archives/2013/02 archives/2013/03 archives/2013/04 archives/2013/05 archives/2013/06 archives/2013/07 archives/2013/08 archives/2013/09  on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -6141,67 +6214,6 @@ Add first unit of ads to the page template.&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 03f55c9f105049311b1c08a81b30f9e090198491 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to posts/seeing-opeth-live-in-brazil on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://cynic.cc/blog//recentchanges/change_b614ef483ec25eb9539ab5136adebc3cb69dd1bb/</id>
-
-	<link href="http://cynic.cc/blog/recentchanges/#change-b614ef483ec25eb9539ab5136adebc3cb69dd1bb"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2007-03-15T02:00:00Z</updated>
-	<published>2007-03-15T02:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-b614ef483ec25eb9539ab5136adebc3cb69dd1bb&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-posts/seeing-opeth-live-in-brazil
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2007-03-15T02:00:00Z&quot;&gt;23:00:00 2007-03-14&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Importing WordPress post &amp;quot;Seeing Opeth Live in Brazil&amp;quot; &amp;#91;http://mathandmadness.wordpress.com/2009/03/14/seeing-opeth-live-in-brazil/&amp;#93;&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- b614ef483ec25eb9539ab5136adebc3cb69dd1bb --&gt;
 
 	</content>
 
