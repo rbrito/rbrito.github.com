@@ -17,7 +17,68 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-06-11T07:52:54Z</updated>
+<updated>2013-06-11T07:53:26Z</updated>
+<entry>
+	<title>change to tags/cvs on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_e47e7c81aab8a09bfab76f24d8017f859a6a3366/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-e47e7c81aab8a09bfab76f24d8017f859a6a3366"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-06-11T07:53:26Z</updated>
+	<published>2013-06-11T07:53:26Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-e47e7c81aab8a09bfab76f24d8017f859a6a3366&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+tags/cvs
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-06-11T07:53:26Z&quot;&gt;04:53:26 2013-06-11&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tags/cvs&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- e47e7c81aab8a09bfab76f24d8017f859a6a3366 --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to posts/working_with_cvs_via_git on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -6135,85 +6196,6 @@ creating tag page tags/computers&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 3b5ae02590caa15f0aacf0b01d6e88645e89fb4e --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software posts/debian-switching-to-eglibc posts/getting-things-from-the-itunes-music-store-without-itunes posts/happy-news-a-new-kurobox posts/music-group-actions-quilt-and-debian-packages posts/on-a-first-course-in-abstract-algebra posts/playing-with-package-proxies posts/random-points-on-group-theory posts/seeing-opeth-live-in-brazil posts/sourceforge-ssh-keys-free-audiobooks-dvds on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://cynic.cc/blog//recentchanges/change_bda81a13d1e18b7ae1a04660190a8b4f092eb48d/</id>
-
-	<link href="http://cynic.cc/blog/recentchanges/#change-bda81a13d1e18b7ae1a04660190a8b4f092eb48d"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2012-09-07T06:54:06Z</updated>
-	<published>2012-09-07T06:54:06Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-bda81a13d1e18b7ae1a04660190a8b4f092eb48d&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software
-
-posts/debian-switching-to-eglibc
-
-posts/getting-things-from-the-itunes-music-store-without-itunes
-
-posts/happy-news-a-new-kurobox
-
-posts/music-group-actions-quilt-and-debian-packages
-
-posts/on-a-first-course-in-abstract-algebra
-
-posts/playing-with-package-proxies
-
-posts/random-points-on-group-theory
-
-posts/seeing-opeth-live-in-brazil
-
-posts/sourceforge-ssh-keys-free-audiobooks-dvds
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-07T06:54:06Z&quot;&gt;03:54:06 2012-09-07&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Reformat in markdown&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- bda81a13d1e18b7ae1a04660190a8b4f092eb48d --&gt;
 
 	</content>
 
