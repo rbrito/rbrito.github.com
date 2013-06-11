@@ -115,14 +115,14 @@ Rogério Brito's Digital Junkyard
         <td class="month-calendar-day-nolink Tuesday">4</td>
         <td class="month-calendar-day-nolink Wednesday">5</td>
         <td class="month-calendar-day-nolink Thursday">6</td>
-        <td class="month-calendar-day-this-day Friday">7</td>
-        <td class="month-calendar-day-future Saturday">8</td>
+        <td class="month-calendar-day-nolink Friday">7</td>
+        <td class="month-calendar-day-nolink Saturday">8</td>
     </tr>
     <tr>
         <td class="month-calendar-day-nolink Sunday">9</td>
         <td class="month-calendar-day-nolink Monday">10</td>
-        <td class="month-calendar-day-nolink Tuesday">11</td>
-        <td class="month-calendar-day-nolink Wednesday">12</td>
+        <td class="month-calendar-day-this-day Tuesday"><a href="./posts/working_with_cvs_via_git/" title="working with cvs via git">11</a></td>
+        <td class="month-calendar-day-future Wednesday">12</td>
         <td class="month-calendar-day-nolink Thursday">13</td>
         <td class="month-calendar-day-nolink Friday">14</td>
         <td class="month-calendar-day-nolink Saturday">15</td>
@@ -181,6 +181,128 @@ Rogério Brito's Digital Junkyard
 <a class="feedbutton" type="application/atom+xml" rel="alternate" title="Rogério Brito's Digital Junkyard (Atom feed)" href="index.atom">Atom</a>
 
 </div>
+<article class="inlinepage">
+
+<section class="inlineheader">
+
+<header class="header">
+
+<a href="./posts/working_with_cvs_via_git/">working with cvs via git</a>
+
+</header>
+</section>
+
+<section class="inlinecontent">
+<p><span class="createlink">meta title&#61;&#34;Working with CVS via Git&#34;</span>
+<span class="createlink">meta date&#61;&#34;Tue&#44; 11 Jun 2013 04:49:56 -0300&#34;</span></p>
+
+<p>The easiest way of using git locally to commit to a CVS repository is to
+have <em>both</em> a git clone of the CVS repository <em>and</em> a CVS checkout of your
+repository.</p>
+
+<h1>Initial steps that Work for Me (TM)</h1>
+
+<ol>
+<li><p>Create your git clone of the CVS repository:</p>
+
+<p> git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
+     :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame</p></li>
+</ol>
+
+
+<p> The command above will create your clone of the CVS repository in the
+ current directory which we suppose, for the sake of this discussion, is
+ <code>/tmp/gitified</code>.</p>
+
+<p> If want to specify a directory different than what you're in, then you
+ should add the option <code>-C /path/to/git/repository</code>.</p>
+
+<ol>
+<li><p>Create a checkout of the CVS repository for CVS work stuff (I'm checking
+out things under <code>/tmp</code>):</p>
+
+<p>  cvs -z3 -d:ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame checkout lame</p>
+
+<p>This will create your CVS checkout on the directory <code>/tmp/lame</code>, assuming
+that you are working under <code>/tmp</code>, as I do.</p></li>
+</ol>
+
+
+<h1>Doing real work</h1>
+
+<ol>
+<li><p>Go to your git clone (<code>/tmp/gitified</code>) and start hacking, committing, etc.</p></li>
+<li><p>When it is time to send your patches to the CVS repo, you have to:</p>
+
+<p> export GIT_DIR=/tmp/gitified/.git
+ cd /tmp/lame
+ git cherry origin master | sed -n 's/^+ //p' | xargs -l1 git cvsexportcommit -c -p -v</p></li>
+</ol>
+
+
+<p>  This will automatically check in all the commits that you have made in
+  step 3.</p>
+
+<h1>Continuing your work afterwards</h1>
+
+<ol>
+<li>First, discard your commits in your git repository, so that you don't get
+further problems with <code>git cvsimport</code>.</li>
+<li><p>Update your git repository with the current contents of the CVS repo:</p>
+
+<p> cd /tmp/gitified
+ git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
+     :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame</p></li>
+<li><p>Update your CVS repository with the current contents of the CVS repo too:</p>
+
+<p> cd /tmp/lame
+ cvs update</p></li>
+</ol>
+
+
+<h1>Conclusion</h1>
+
+<p>Of course, I would prefer a simpler, leaner workflow. If you happen to have
+one, please let me know.</p>
+
+</section>
+
+<footer class="inlinefooter">
+
+<span class="pagedate">
+Posted <time datetime="2013-06-11T07:52:26Z" pubdate="pubdate">2013-06-11T04:52:26 BRT</time>
+</span>
+
+
+<nav class="tags">
+Tags:
+
+<a href="./tags/cvs/" rel="tag">cvs</a>
+
+<a href="./tags/debian/" rel="tag">debian</a>
+
+<a href="./tags/free-software/" rel="tag">free-software</a>
+
+<a href="./tags/git/" rel="tag">git</a>
+
+<a href="./tags/hacks/" rel="tag">hacks</a>
+
+<a href="./tags/lame/" rel="tag">lame</a>
+
+<a href="./tags/revision-control/" rel="tag">revision-control</a>
+
+</nav>
+
+
+
+
+
+
+
+
+</footer>
+
+</article>
 <article class="inlinepage">
 
 <section class="inlineheader">
@@ -993,111 +1115,6 @@ Tags:
 <a href="./tags/multimedia/" rel="tag">multimedia</a>
 
 </nav>
-
-
-
-
-
-
-
-
-</footer>
-
-</article>
-<article class="inlinepage">
-
-<section class="inlineheader">
-
-<header class="header">
-
-<a href="./posts/installing_meego_on_the_n900/">Installing Meego on the N900</a>
-
-</header>
-</section>
-
-<section class="inlinecontent">
-<p>My last cellphone was a dumb phone. I seem to remember that it was called
-something like Samsung Voicer. It didn't have those hip things like SIM
-cards.</p>
-
-<p>OK. Fast forward to December of 2010, and after a long hiatus, I decided to
-get a new phone.  It was this shiny Nokia N900. The biggest thing that made
-me want this one was that some people at DebConf 10 were praising it for
-having a Debian-like distribution in it, and that it worked very well.</p>
-
-<p>I saw that Phil Hands was
-<a href="https://gallery.debconf.org/v/debconf10/album/album_004/41-20100801T020944.JPG.html">enthusiastically talking about the bargain of getting one in New York</a>
-and that it would have cost him many pounds in the UK and, so, he was happy
-with it.</p>
-
-<p>Otávio Salvador also got one in NY and during
-<a href="http://www.flickr.com/photos/tiagovaz/4870648124/in/set-72157624676953084">one of the nights of that DebConf</a> with him, Tiago Vaz, Daniel Baumann,
-and Chris Lamb, I asked him to call my parents here in Brazil and he let me
-use his N900. I had more time with it and played a little bit with the
-command line, opened the stock media player and played a beautiful trailer
-of <a href="http://en.wikipedia.org/wiki/9_%282009_film%29">9 (2009 film)</a>, leaving me a very good impression.</p>
-
-<p>I bought one, and, indeed, it is a very good machine that can even make
-phone calls. The ability to run Linux on it (even if it contains some
-non-free pieces of software) was decisive in me getting it.  It runs this
-distribution called <a href="http://maemo.org/">Maemo 5</a> which is loosely based on Debian.</p>
-
-<p>But now, Maemo is not the "cool thing" to run, regarding Linux on these
-portable devices. <a href="http://wiki.meego.com/ARM/N900">Meego</a> is. But with the advent of many Internet forums
-has brought many people writing some long, convoluted howto documents for
-things that would be better done as, say, providing a script or, better yet,
-preparing a package.</p>
-
-<p>In the case of getting Meego running on the N900, only three things are
-required:</p>
-
-<ol>
-<li>Install <code>uboot-pr13</code> while in Maemo.</li>
-<li>Uncompress the <a href="http://repository.maemo.org/meego/n900-de/archive/1.2.0.90.6.20110630.4.DE.2011-07-01.1/images/mg-handset-armv7nhl-n900-ce-stable/">MeeGo 1.2 Community Edition for Nokia N900</a> image to a
-µSD card.</li>
-<li>Turn the phone off, plug in the µSD card, and <strong>PUT THE BACK COVER</strong> on
-the phone.</li>
-</ol>
-
-
-<p>The last bit of the third step is crucial, as, otherwise, the SD card won't
-be detected and you will get kernel panics with the device trying to mount
-the root filesystem from a device that is not there.</p>
-
-<p>As an aside, the official documentation tells us one should uncompress the
-available pre-made images and write them with <code>dd</code> to the device. In my
-experience, it is completely unnecessary to use it and, in fact, it is so 6
-times slower than using a simple shell redirection. That is, instead of:</p>
-
-<pre><code>bzip2 -d &lt; mg-handset-armv7nhl-n900-whateverwhatever-mmcblk0p.raw.bz2 | dd bs=4096 of=/dev/mmcblk0
-</code></pre>
-
-<p>you can get better results with the simpler:</p>
-
-<pre><code>bzip2 -d &lt; mg-handset-armv7nhl-n900-whateverwhatever-mmcblk0p.raw.bz2 &gt; /dev/mmcblk0
-</code></pre>
-
-<p>I actually used <a href="http://packages.debian.org/sid/lbzip2">lbzip2</a> instead of bzip2, but that shouldn't matter. The use
-of the small block size for the <code>dd</code> command is probably the culprit, but I
-don't see the need to write the uncompressed data in chunks this small. If
-there is a problem, I would love to be informed of that.</p>
-
-<p>As trying it with <code>uboot</code> and a µSD card doesn't mess with your "safe" Maemo
-installation, this is a good way to play with the successor of Maemo.
-Perhaps, if we give good feedback to the project, we can influence the
-direction that it is taking.</p>
-
-<p>It will surely be nice to learn about this new "consumer-oriented"
-distribution.</p>
-
-</section>
-
-<footer class="inlinefooter">
-
-<span class="pagedate">
-Posted <time datetime="2011-07-03T06:55:50Z" pubdate="pubdate">2011-07-03T03:55:50 BRT</time>
-</span>
-
 
 
 

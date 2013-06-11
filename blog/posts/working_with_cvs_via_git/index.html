@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- MathJax -->
+
+
+<meta charset="utf-8" />
+<title>working with cvs via git</title>
+
+<link rel="stylesheet" href="../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../local.css" type="text/css" />
+
+
+
+
+
+
+
+<!-- Analytics code -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34541429-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+<body>
+
+<article class="page">
+
+<section class="pageheader">
+<header class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../">Rogério Brito's Digital Junkyard</a>/
+
+<a href="../">posts</a>/
+
+</span>
+<span class="title">
+working with cvs via git
+
+</span>
+</span>
+
+</header>
+
+
+<nav class="actions">
+<ul>
+
+
+<li><a href="../../recentchanges/">RecentChanges</a></li>
+
+
+
+
+
+
+
+
+</ul>
+</nav>
+
+
+
+
+
+
+</section>
+
+
+<aside class="sidebar">
+
+
+<div><div class="calendar"><table class="month-calendar">
+    <tr>
+    <th class="month-calendar-arrow"><a href="../../archives/2013/05/" title="May">&larr;</a></th>
+    <th class="month-calendar-head" colspan="5"><a href="../../archives/2013/06/" title="June">Jun 2013</a></th>
+    <th class="month-calendar-arrow"><a href="../../archives/2013/07/" title="July">&rarr;</a></th>
+    </tr>
+    <tr>
+        <th class="month-calendar-day-head Sunday" title="Sunday">S</th>
+        <th class="month-calendar-day-head Monday" title="Monday">M</th>
+        <th class="month-calendar-day-head Tuesday" title="Tuesday">T</th>
+        <th class="month-calendar-day-head Wednesday" title="Wednesday">W</th>
+        <th class="month-calendar-day-head Thursday" title="Thursday">T</th>
+        <th class="month-calendar-day-head Friday" title="Friday">F</th>
+        <th class="month-calendar-day-head Saturday" title="Saturday">S</th>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-noday Sunday">&nbsp;</td>
+        <td class="month-calendar-day-noday Monday">&nbsp;</td>
+        <td class="month-calendar-day-noday Tuesday">&nbsp;</td>
+        <td class="month-calendar-day-noday Wednesday">&nbsp;</td>
+        <td class="month-calendar-day-noday Thursday">&nbsp;</td>
+        <td class="month-calendar-day-noday Friday">&nbsp;</td>
+        <td class="month-calendar-day-nolink Saturday">1</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">2</td>
+        <td class="month-calendar-day-nolink Monday">3</td>
+        <td class="month-calendar-day-nolink Tuesday">4</td>
+        <td class="month-calendar-day-nolink Wednesday">5</td>
+        <td class="month-calendar-day-nolink Thursday">6</td>
+        <td class="month-calendar-day-nolink Friday">7</td>
+        <td class="month-calendar-day-nolink Saturday">8</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">9</td>
+        <td class="month-calendar-day-nolink Monday">10</td>
+        <td class="month-calendar-day-this-day Tuesday"><span class="selflink">11</span></td>
+        <td class="month-calendar-day-future Wednesday">12</td>
+        <td class="month-calendar-day-nolink Thursday">13</td>
+        <td class="month-calendar-day-nolink Friday">14</td>
+        <td class="month-calendar-day-nolink Saturday">15</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">16</td>
+        <td class="month-calendar-day-nolink Monday">17</td>
+        <td class="month-calendar-day-nolink Tuesday">18</td>
+        <td class="month-calendar-day-nolink Wednesday">19</td>
+        <td class="month-calendar-day-nolink Thursday">20</td>
+        <td class="month-calendar-day-nolink Friday">21</td>
+        <td class="month-calendar-day-nolink Saturday">22</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">23</td>
+        <td class="month-calendar-day-nolink Monday">24</td>
+        <td class="month-calendar-day-nolink Tuesday">25</td>
+        <td class="month-calendar-day-nolink Wednesday">26</td>
+        <td class="month-calendar-day-nolink Thursday">27</td>
+        <td class="month-calendar-day-nolink Friday">28</td>
+        <td class="month-calendar-day-nolink Saturday">29</td>
+    </tr>
+    <tr>
+        <td class="month-calendar-day-nolink Sunday">30</td>
+        <td class="month-calendar-day-noday Monday">&nbsp;</td>
+        <td class="month-calendar-day-noday Tuesday">&nbsp;</td>
+        <td class="month-calendar-day-noday Wednesday">&nbsp;</td>
+        <td class="month-calendar-day-noday Thursday">&nbsp;</td>
+        <td class="month-calendar-day-noday Friday">&nbsp;</td>
+        <td class="month-calendar-day-noday Saturday">&nbsp;</td>
+    </tr>
+</table>
+</div></div>
+
+
+<p><a href="../../about/">About Me</a></p>
+
+<iframe src="http://githubbadge.appspot.com/badge/rbrito" style="border: 0;height: 150px;width: 200px;overflow: hidden"></iframe>
+
+
+<p><a href="../../archives/">Archives</a></p>
+
+</aside>
+
+
+<div id="pagebody">
+
+<section id="content">
+<p><span class="createlink">meta title&#61;&#34;Working with CVS via Git&#34;</span>
+<span class="createlink">meta date&#61;&#34;Tue&#44; 11 Jun 2013 04:49:56 -0300&#34;</span></p>
+
+<p>The easiest way of using git locally to commit to a CVS repository is to
+have <em>both</em> a git clone of the CVS repository <em>and</em> a CVS checkout of your
+repository.</p>
+
+<h1>Initial steps that Work for Me (TM)</h1>
+
+<ol>
+<li><p>Create your git clone of the CVS repository:</p>
+
+<p> git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
+     :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame</p></li>
+</ol>
+
+
+<p> The command above will create your clone of the CVS repository in the
+ current directory which we suppose, for the sake of this discussion, is
+ <code>/tmp/gitified</code>.</p>
+
+<p> If want to specify a directory different than what you're in, then you
+ should add the option <code>-C /path/to/git/repository</code>.</p>
+
+<ol>
+<li><p>Create a checkout of the CVS repository for CVS work stuff (I'm checking
+out things under <code>/tmp</code>):</p>
+
+<p>  cvs -z3 -d:ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame checkout lame</p>
+
+<p>This will create your CVS checkout on the directory <code>/tmp/lame</code>, assuming
+that you are working under <code>/tmp</code>, as I do.</p></li>
+</ol>
+
+
+<h1>Doing real work</h1>
+
+<ol>
+<li><p>Go to your git clone (<code>/tmp/gitified</code>) and start hacking, committing, etc.</p></li>
+<li><p>When it is time to send your patches to the CVS repo, you have to:</p>
+
+<p> export GIT_DIR=/tmp/gitified/.git
+ cd /tmp/lame
+ git cherry origin master | sed -n 's/^+ //p' | xargs -l1 git cvsexportcommit -c -p -v</p></li>
+</ol>
+
+
+<p>  This will automatically check in all the commits that you have made in
+  step 3.</p>
+
+<h1>Continuing your work afterwards</h1>
+
+<ol>
+<li>First, discard your commits in your git repository, so that you don't get
+further problems with <code>git cvsimport</code>.</li>
+<li><p>Update your git repository with the current contents of the CVS repo:</p>
+
+<p> cd /tmp/gitified
+ git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
+     :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame</p></li>
+<li><p>Update your CVS repository with the current contents of the CVS repo too:</p>
+
+<p> cd /tmp/lame
+ cvs update</p></li>
+</ol>
+
+
+<h1>Conclusion</h1>
+
+<p>Of course, I would prefer a simpler, leaner workflow. If you happen to have
+one, please let me know.</p>
+
+</section>
+
+
+
+
+
+<div id="comments">
+
+<div id="disqus_comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'digitaljunkyard'; // required: replace example with your forum shortname
+    var discus_identifier = 'posts/working_with_cvs_via_git';
+    var disqus_url = 'http://cynic.cc/blog//posts/working_with_cvs_via_git/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer id="footer" class="pagefooter">
+
+<nav id="pageinfo">
+
+
+
+
+<nav class="tags">
+Tags:
+
+<a href="../../tags/cvs/" rel="tag">cvs</a>
+
+<a href="../../tags/debian/" rel="tag">debian</a>
+
+<a href="../../tags/free-software/" rel="tag">free-software</a>
+
+<a href="../../tags/git/" rel="tag">git</a>
+
+<a href="../../tags/hacks/" rel="tag">hacks</a>
+
+<a href="../../tags/lame/" rel="tag">lame</a>
+
+<a href="../../tags/revision-control/" rel="tag">revision-control</a>
+
+</nav>
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <time datetime="2013-06-11T07:52:26Z">2013-06-11T04:52:26 BRT</time>
+<!-- Created <time datetime="2013-06-11T07:52:26Z" pubdate="pubdate">2013-06-11T04:52:26 BRT</time> -->
+</div>
+
+</nav>
+
+
+<!-- from Rogério Brito's Digital Junkyard -->
+</footer>
+
+</article>
+
+</body>
+</html>

@@ -17,7 +17,68 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-06-07T22:40:57Z</updated>
+<updated>2013-06-11T07:52:54Z</updated>
+<entry>
+	<title>change to posts/working_with_cvs_via_git on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_abedf71190762b383db373ca15e61a6f55a1ad1a/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-abedf71190762b383db373ca15e61a6f55a1ad1a"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-06-11T07:52:54Z</updated>
+	<published>2013-06-11T07:52:54Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-abedf71190762b383db373ca15e61a6f55a1ad1a&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+posts/working with cvs via git
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-06-11T07:52:54Z&quot;&gt;04:52:54 2013-06-11&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+posts: Add post on working with cvs via git.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- abedf71190762b383db373ca15e61a6f55a1ad1a --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -6214,67 +6275,6 @@ Add first unit of ads to the page template.&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 03f55c9f105049311b1c08a81b30f9e090198491 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to posts/sourceforge-ssh-keys-free-audiobooks-dvds on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://cynic.cc/blog//recentchanges/change_233c923f5904cd011cb049c7c4686ad552782383/</id>
-
-	<link href="http://cynic.cc/blog/recentchanges/#change-233c923f5904cd011cb049c7c4686ad552782383"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2007-03-11T02:00:00Z</updated>
-	<published>2007-03-11T02:00:00Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-233c923f5904cd011cb049c7c4686ad552782383&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-posts/sourceforge-ssh-keys-free-audiobooks-dvds
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2007-03-11T02:00:00Z&quot;&gt;23:00:00 2007-03-10&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-Importing WordPress post &amp;quot;Sourceforge, SSH keys, Free audiobooks, DVD&amp;#39;s&amp;quot; &amp;#91;http://mathandmadness.wordpress.com/2009/03/10/sourceforge-ssh-keys-free-audiobooks-dvds/&amp;#93;&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 233c923f5904cd011cb049c7c4686ad552782383 --&gt;
 
 	</content>
 
