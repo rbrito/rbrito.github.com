@@ -175,71 +175,88 @@ Working with CVS via Git
 <div id="pagebody">
 
 <section id="content">
+
+
+<div class="toc">
+<ol>
+	<li class="L1"><a href="#index1h1">Initial steps that Work for Me (TM)</a>
+	</li>
+	<li class="L1"><a href="#index2h1">Doing real work</a>
+	</li>
+	<li class="L1"><a href="#index3h1">Continuing your work afterwards</a>
+	</li>
+	<li class="L1"><a href="#index4h1">Conclusion</a>
+	</li>
+</ol>
+</div>
+
+
 <p>The easiest way of using git locally to commit to a CVS repository is to
 have <em>both</em> a git clone of the CVS repository <em>and</em> a CVS checkout of your
 repository.</p>
 
-<h1>Initial steps that Work for Me (TM)</h1>
+<h1><a name="index1h1"></a>Initial steps that Work for Me (TM)</h1>
 
 <ol>
 <li><p>Create your git clone of the CVS repository:</p>
 
-<p> git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
-     :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame</p></li>
-</ol>
+<pre><code> git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
+     :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
+</code></pre>
 
+<p>The command above will create your clone of the CVS repository in the
+current directory which we suppose, for the sake of this discussion, is
+<code>/tmp/gitified</code>.</p>
 
-<p> The command above will create your clone of the CVS repository in the
- current directory which we suppose, for the sake of this discussion, is
- <code>/tmp/gitified</code>.</p>
-
-<p> If want to specify a directory different than what you're in, then you
- should add the option <code>-C /path/to/git/repository</code>.</p>
-
-<ol>
+<p>If want to specify a directory different than what you're in, then you
+should add the option <code>-C /path/to/git/repository</code>.</p></li>
 <li><p>Create a checkout of the CVS repository for CVS work stuff (I'm checking
 out things under <code>/tmp</code>):</p>
 
-<p>  cvs -z3 -d:ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame checkout lame</p>
+<pre><code> cvs -z3 -d:ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame checkout lame
+</code></pre>
 
 <p>This will create your CVS checkout on the directory <code>/tmp/lame</code>, assuming
 that you are working under <code>/tmp</code>, as I do.</p></li>
 </ol>
 
 
-<h1>Doing real work</h1>
+<h1><a name="index2h1"></a>Doing real work</h1>
 
 <ol>
 <li><p>Go to your git clone (<code>/tmp/gitified</code>) and start hacking, committing, etc.</p></li>
 <li><p>When it is time to send your patches to the CVS repo, you have to:</p>
 
-<p> export GIT_DIR=/tmp/gitified/.git
+<pre><code> export GIT_DIR=/tmp/gitified/.git
  cd /tmp/lame
- git cherry origin master | sed -n 's/^+ //p' | xargs -l1 git cvsexportcommit -c -p -v</p></li>
+ git cherry origin master | sed -n 's/^+ //p' | xargs -l1 git cvsexportcommit -c -p -v
+</code></pre>
+
+<p>This will automatically check in all the commits that you have made in
+the previous step.</p></li>
 </ol>
 
 
-<p>  This will automatically check in all the commits that you have made in
-  step 3.</p>
-
-<h1>Continuing your work afterwards</h1>
+<h1><a name="index3h1"></a>Continuing your work afterwards</h1>
 
 <ol>
 <li>First, discard your commits in your git repository, so that you don't get
 further problems with <code>git cvsimport</code>.</li>
 <li><p>Update your git repository with the current contents of the CVS repo:</p>
 
-<p> cd /tmp/gitified
+<pre><code> cd /tmp/gitified
  git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
-     :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame</p></li>
+     :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
+</code></pre></li>
 <li><p>Update your CVS repository with the current contents of the CVS repo too:</p>
 
-<p> cd /tmp/lame
- cvs update</p></li>
+<pre><code> cd /tmp/lame
+ cvs update
+</code></pre></li>
 </ol>
 
 
-<h1>Conclusion</h1>
+<h1><a name="index4h1"></a>Conclusion</h1>
 
 <p>Of course, I would prefer a simpler, leaner workflow. If you happen to have
 one, please let me know.</p>
@@ -308,7 +325,7 @@ Tags:
 
 
 <div class="pagedate">
-Last edited <time datetime="2013-06-11T07:57:38Z">2013-06-11T04:57:38 BRT</time>
+Last edited <time datetime="2013-06-11T08:25:39Z">2013-06-11T05:25:39 BRT</time>
 <!-- Created <time datetime="2013-06-11T07:49:56Z" pubdate="pubdate">2013-06-11T04:49:56 BRT</time> -->
 </div>
 
