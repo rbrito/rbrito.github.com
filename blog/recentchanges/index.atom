@@ -17,7 +17,129 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-06-11T08:22:42Z</updated>
+<updated>2013-06-29T05:18:31Z</updated>
+<entry>
+	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_1f4cd975b572f8f864ea0326eb9ff5d1ae8b1a7f/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-1f4cd975b572f8f864ea0326eb9ff5d1ae8b1a7f"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-06-29T05:18:31Z</updated>
+	<published>2013-06-29T05:18:31Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-1f4cd975b572f8f864ea0326eb9ff5d1ae8b1a7f&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-06-29T05:18:31Z&quot;&gt;02:18:31 2013-06-29&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Remove analytics code.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 1f4cd975b572f8f864ea0326eb9ff5d1ae8b1a7f --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_dca2dde234d005bf88ab1b3494dc9dd1d37c6f67/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-dca2dde234d005bf88ab1b3494dc9dd1d37c6f67"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-06-29T05:09:19Z</updated>
+	<published>2013-06-29T05:09:19Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-dca2dde234d005bf88ab1b3494dc9dd1d37c6f67&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-06-29T05:09:19Z&quot;&gt;02:09:19 2013-06-29&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Remove use a local stylesheet.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- dca2dde234d005bf88ab1b3494dc9dd1d37c6f67 --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to posts/working_with_cvs_via_git on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -6074,128 +6196,6 @@ creating tag page tags/nas&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 7a5cc4dd2d718b774c3a09f483f8e1c306f1d150 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to tags/approx on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://cynic.cc/blog//recentchanges/change_a4de33c7c49da2f634eafb001ab1ce63d2b74a02/</id>
-
-	<link href="http://cynic.cc/blog/recentchanges/#change-a4de33c7c49da2f634eafb001ab1ce63d2b74a02"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2012-09-07T06:56:09Z</updated>
-	<published>2012-09-07T06:56:09Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-a4de33c7c49da2f634eafb001ab1ce63d2b74a02&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-tags/approx
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-07T06:56:09Z&quot;&gt;03:56:09 2012-09-07&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/approx&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- a4de33c7c49da2f634eafb001ab1ce63d2b74a02 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to tags/class-equation on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://cynic.cc/blog//recentchanges/change_46e12ec9cd4e54c9ecad79ed5fc588ff363c0be9/</id>
-
-	<link href="http://cynic.cc/blog/recentchanges/#change-46e12ec9cd4e54c9ecad79ed5fc588ff363c0be9"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2012-09-07T06:56:04Z</updated>
-	<published>2012-09-07T06:56:04Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-46e12ec9cd4e54c9ecad79ed5fc588ff363c0be9&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-tags/class-equation
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-07T06:56:04Z&quot;&gt;03:56:04 2012-09-07&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/class-equation&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 46e12ec9cd4e54c9ecad79ed5fc588ff363c0be9 --&gt;
 
 	</content>
 
