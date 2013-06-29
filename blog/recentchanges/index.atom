@@ -17,7 +17,70 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-06-29T05:18:31Z</updated>
+<updated>2013-06-29T05:40:25Z</updated>
+<entry>
+	<title>change to about sidebar on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_85c300f16c64797e88b6805e4bf23654db61aa22/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-85c300f16c64797e88b6805e4bf23654db61aa22"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-06-29T05:40:25Z</updated>
+	<published>2013-06-29T05:40:25Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-85c300f16c64797e88b6805e4bf23654db61aa22&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+about
+
+sidebar
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-06-29T05:40:25Z&quot;&gt;02:40:25 2013-06-29&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Move github badge to about page.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 85c300f16c64797e88b6805e4bf23654db61aa22 --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -6135,67 +6198,6 @@ creating tag page tags/apple&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- b826536b5c62181e61cec336a6127996d73de066 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to tags/nas on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://cynic.cc/blog//recentchanges/change_7a5cc4dd2d718b774c3a09f483f8e1c306f1d150/</id>
-
-	<link href="http://cynic.cc/blog/recentchanges/#change-7a5cc4dd2d718b774c3a09f483f8e1c306f1d150"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2012-09-07T06:56:13Z</updated>
-	<published>2012-09-07T06:56:13Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-7a5cc4dd2d718b774c3a09f483f8e1c306f1d150&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-tags/nas
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-07T06:56:13Z&quot;&gt;03:56:13 2012-09-07&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/nas&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 7a5cc4dd2d718b774c3a09f483f8e1c306f1d150 --&gt;
 
 	</content>
 
