@@ -32,7 +32,7 @@
 
 
 	<pubDate>Tue, 11 Jun 2013 04:49:56 -0300</pubDate>
-	<dcterms:modified>2013-06-11T08:25:39Z</dcterms:modified>
+	<dcterms:modified>2013-06-11T08:22:42Z</dcterms:modified>
 
 	<description>&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
 have &lt;em&gt;both&lt;/em&gt; a git clone of the CVS repository &lt;em&gt;and&lt;/em&gt; a CVS checkout of your

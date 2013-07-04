@@ -8,6 +8,97 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>Playing with MOOCs</title>
+
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/playing_with_moocs/</guid>
+
+	<link>http://cynic.cc/blog//posts/playing_with_moocs/</link>
+
+
+	<category>debian</category>
+
+	<category>education</category>
+
+	<category>free-software</category>
+
+	<category>git</category>
+
+	<category>mooc</category>
+
+	<category>python</category>
+
+	<category>study</category>
+
+
+	<pubDate>Thu, 04 Jul 2013 08:33:00 -0300</pubDate>
+	<dcterms:modified>2013-07-04T12:25:16Z</dcterms:modified>
+
+	<description>&lt;p&gt;Not so much ago, we had a boom of new enterprises offering Massive Online
+Open Courses (MOOCs for short).&lt;/p&gt;
+
+&lt;p&gt;First were Thrun and Norvig (Artificial Intelligence), with Widom
+(Introduction to Databases) and Ng (Machine Learning). Then, these initial
+experiments led to the creation of Udacity (founded by Thrun) and Coursera
+(founded by Ng and Koller).&lt;/p&gt;
+
+&lt;p&gt;I have been keeping an eye on them for some time and, in fact, I have been
+contributing to a project similar to &lt;a href=&quot;https://github.com/rg3/youtube-dl&quot;&gt;youtube-dl&lt;/a&gt; (which
+&lt;a href=&quot;http://packages.debian.org/sid/youtube-dl&quot;&gt;I package for Debian&lt;/a&gt;), but focused on downloading videos from
+Cousera, called &lt;a href=&quot;https://github.com/jplehmann/coursera&quot;&gt;&lt;code&gt;coursera-dl&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I started contributing to &lt;code&gt;coursera-dl&lt;/code&gt; because I wanted to stratch some
+itches with downloading with &lt;a href=&quot;http://aria2.sourceforge.net/&quot;&gt;&lt;code&gt;aria2c&lt;/code&gt;&lt;/a&gt;, but soon the original
+author of the project granted me write permission to the repository and I
+have been one of the persons that commits the most, which is strange, since
+I was not the original creator of the program.&lt;/p&gt;
+
+&lt;p&gt;So far, from the courses that grant certificates, I have concluded the
+following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Algorithms: Design and Analysis, Part 1 (Coursera)&lt;/li&gt;
+&lt;li&gt;Machine Learning (Coursera)&lt;/li&gt;
+&lt;li&gt;Introduction to Databases (Coursera)&lt;/li&gt;
+&lt;li&gt;Quantum Mechanics and Quantum Computation (Coursera)&lt;/li&gt;
+&lt;li&gt;Introduction to Cryptography I (Coursera)&lt;/li&gt;
+&lt;li&gt;M101P: MongoDB for Developers (10gen)&lt;/li&gt;
+&lt;li&gt;M102: MongoDB for DBAs (10gen)&lt;/li&gt;
+&lt;li&gt;M101J: MongoDB for Java Developers (10gen)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;I have to say that this have been a pleasant experience, with some of the
+courses being challenging, but not up to what an undergraduate course would
+be (and the fears of some people that such courses would threaten the
+conventional University-style model are a bit far at this point).&lt;/p&gt;
+
+&lt;p&gt;Anyway, talking about challenging courses, in particular, prof. Umesh
+Vazirani&#39;s &quot;Quantum Mechanics and Quantum Computation&quot; had a lot of
+(computational) work and this was one of the courses that prompted me to use
+a computer algebra system for manipulating some tedious calculations.&lt;/p&gt;
+
+&lt;p&gt;In particular, I used a mix of the &lt;a href=&quot;http://www.sagenb.org/&quot;&gt;online SAGE math server&lt;/a&gt; and
+&lt;a href=&quot;http://www.wolframalpha.com/&quot;&gt;Wolfram Alpha&lt;/a&gt;, whichever I found the syntax to be easier to use for
+the problem in question. It is with happiness that I see that there are
+efforts to &lt;a href=&quot;http://people.debian.org/~thansen/debian-sage-status.html&quot;&gt;get SAGE again packaged in Debian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Another (positively) surprising course has been Dan Boneh&#39;s &quot;Introduction to
+Cryptography I&quot;, which was more theoretical and more serious than what I was
+expecting. It even included some nice proof sketches and discussion of
+recent results. The last course on cryptography that I took was in 1998 and
+&lt;em&gt;a lot&lt;/em&gt; of things changed since then, including the way to think about
+cryptography. But more on that on a future post.&lt;/p&gt;
+
+&lt;p&gt;There are some other courses that I may be completing soon and that I will
+post more about, with some reviews of the good and the bad parts of select
+ones.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>2005-11-19</title>
 
 
@@ -24,7 +115,7 @@
 
 
 	<pubDate>Sat, 19 Nov 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-20T01:06:20Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
 
 	<description>&lt;p&gt;Purchased some books at discount prices. Nice. Now I can learn
 Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&gt;&lt;/p&gt;
@@ -50,7 +141,7 @@ Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&
 
 
 	<pubDate>Tue, 04 Dec 2001 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-06-06T21:17:57Z</dcterms:modified>
+	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
 
 	<description>&lt;p&gt;Um dia um pouco inútil. Acordei mais tarde do que o usual (17h) e
 fui ler os sites de costume (&lt;a href=&quot;http://slashdot.org/&quot;&gt;slashdot.org&lt;/a&gt;,
@@ -104,7 +195,7 @@ estudar).&lt;/p&gt;
 
 
 	<pubDate>Mon, 17 Sep 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-06-06T21:15:55Z</dcterms:modified>
+	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
 
 	<description>&lt;p&gt;Finally, the text that I have been writing for some time now was
 submitted for the Qualifying Examination of my Master&#39;s Degree!
@@ -152,7 +243,7 @@ only R$ 2.80 a piece. Got Paul Dianno&#39;s solo CD in the bunch.&lt;/p&gt;
 
 
 	<pubDate>Mon, 16 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:27:02Z</dcterms:modified>
+	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
 
 	<description>&lt;p&gt;Busy day. Woke up as soon as possible to see
 &lt;a href=&quot;http://www.ime.usp.br/~jose/&quot;&gt;my advisor&lt;/a&gt; and decide the furture
@@ -212,7 +303,7 @@ I still can&#39;t get ISO images, though.&lt;/p&gt;
 
 
 	<pubDate>Sat, 14 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:24:20Z</dcterms:modified>
+	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
 
 	<description>&lt;p&gt;Oh, what a day! I was &lt;em&gt;so&lt;/em&gt; tired that I woke up at (almost) 5pm.
 And, surprise: no light. Yes, a power outage. Anyway, my parents
@@ -250,7 +341,7 @@ compliment?).&lt;/p&gt;
 
 
 	<pubDate>Fri, 13 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:22:57Z</dcterms:modified>
+	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
 
 	<description>&lt;p&gt;Didn&#39;t really got decent sleep (I actually went to bed at 6am+, no
 kidding) and woke up by 12pm to bring
@@ -281,7 +372,7 @@ and watched half a movie. Came home to (try to) sleep.&lt;/p&gt;
 
 
 	<pubDate>Thu, 12 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:21:57Z</dcterms:modified>
+	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
 
 	<description>&lt;p&gt;Spent all day reading and rating some exercises and programs of
 Analysis of Algorithms, since I&#39;m the oh-so-great TA. All day. All
@@ -308,7 +399,7 @@ night.&lt;/p&gt;
 
 
 	<pubDate>Fri, 18 May 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:19:51Z</dcterms:modified>
+	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
 
 	<description>&lt;p&gt;It&#39;s been a long time since I last updated my diary. Let&#39;s see if I
 can get things up to date (and let me see if I can keep me
@@ -369,7 +460,7 @@ Algorithms.&lt;/p&gt;
 
 
 	<pubDate>Sat, 10 Mar 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:18:54Z</dcterms:modified>
+	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
 
 	<description>&lt;p&gt;Didn&#39;t do many important things today, besides making a brand new
 installation of Debian&#39;s sid/unstable to see how things were going
@@ -403,41 +494,6 @@ TCP/IP tunnels. Handy for WANs.&lt;/p&gt;
 
 &lt;p&gt;And I&#39;m keeping reading about Multiple Sequence Alignment, which is
 getting more exciting day after day.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2001-02-05</title>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-02-05/</guid>
-
-	<link>http://cynic.cc/blog//posts/2001-02-05/</link>
-
-
-	<category>study</category>
-
-	<category>work</category>
-
-
-	<pubDate>Mon, 05 Feb 2001 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-05-08T00:17:17Z</dcterms:modified>
-
-	<description>&lt;p&gt;Well, I didn&#39;t go to my customer today, as I expected. I received a
-call telling me that they wouldn&#39;t be able to receive me.&lt;/p&gt;
-
-&lt;p&gt;Anyway, I think that today was a modestly productive day: I spent a
-lot of time sending e-mails dealing with bureaucratic matters (like
-the English proficiency exam, my quest in trying to get a financial
-support for my studies and a status update to advisor).&lt;/p&gt;
-
-&lt;p&gt;I&#39;m really, really crossing my fingers to go to IBM&#39;s
-&lt;a href=&quot;http://www.research.ibm.com/summerjobs/&quot;&gt;Summer Jobs&lt;/a&gt;, but,
-sincerely, I don&#39;t know what they are looking for in people
-applying for the positions. I guess that I should study more right
-now.&lt;/p&gt;
 </description>
 
 

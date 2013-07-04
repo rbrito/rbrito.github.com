@@ -8,6 +8,97 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>Playing with MOOCs</title>
+
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/playing_with_moocs/</guid>
+
+	<link>http://cynic.cc/blog//posts/playing_with_moocs/</link>
+
+
+	<category>debian</category>
+
+	<category>education</category>
+
+	<category>free-software</category>
+
+	<category>git</category>
+
+	<category>mooc</category>
+
+	<category>python</category>
+
+	<category>study</category>
+
+
+	<pubDate>Thu, 04 Jul 2013 08:33:00 -0300</pubDate>
+	<dcterms:modified>2013-07-04T12:25:16Z</dcterms:modified>
+
+	<description>&lt;p&gt;Not so much ago, we had a boom of new enterprises offering Massive Online
+Open Courses (MOOCs for short).&lt;/p&gt;
+
+&lt;p&gt;First were Thrun and Norvig (Artificial Intelligence), with Widom
+(Introduction to Databases) and Ng (Machine Learning). Then, these initial
+experiments led to the creation of Udacity (founded by Thrun) and Coursera
+(founded by Ng and Koller).&lt;/p&gt;
+
+&lt;p&gt;I have been keeping an eye on them for some time and, in fact, I have been
+contributing to a project similar to &lt;a href=&quot;https://github.com/rg3/youtube-dl&quot;&gt;youtube-dl&lt;/a&gt; (which
+&lt;a href=&quot;http://packages.debian.org/sid/youtube-dl&quot;&gt;I package for Debian&lt;/a&gt;), but focused on downloading videos from
+Cousera, called &lt;a href=&quot;https://github.com/jplehmann/coursera&quot;&gt;&lt;code&gt;coursera-dl&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I started contributing to &lt;code&gt;coursera-dl&lt;/code&gt; because I wanted to stratch some
+itches with downloading with &lt;a href=&quot;http://aria2.sourceforge.net/&quot;&gt;&lt;code&gt;aria2c&lt;/code&gt;&lt;/a&gt;, but soon the original
+author of the project granted me write permission to the repository and I
+have been one of the persons that commits the most, which is strange, since
+I was not the original creator of the program.&lt;/p&gt;
+
+&lt;p&gt;So far, from the courses that grant certificates, I have concluded the
+following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Algorithms: Design and Analysis, Part 1 (Coursera)&lt;/li&gt;
+&lt;li&gt;Machine Learning (Coursera)&lt;/li&gt;
+&lt;li&gt;Introduction to Databases (Coursera)&lt;/li&gt;
+&lt;li&gt;Quantum Mechanics and Quantum Computation (Coursera)&lt;/li&gt;
+&lt;li&gt;Introduction to Cryptography I (Coursera)&lt;/li&gt;
+&lt;li&gt;M101P: MongoDB for Developers (10gen)&lt;/li&gt;
+&lt;li&gt;M102: MongoDB for DBAs (10gen)&lt;/li&gt;
+&lt;li&gt;M101J: MongoDB for Java Developers (10gen)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;I have to say that this have been a pleasant experience, with some of the
+courses being challenging, but not up to what an undergraduate course would
+be (and the fears of some people that such courses would threaten the
+conventional University-style model are a bit far at this point).&lt;/p&gt;
+
+&lt;p&gt;Anyway, talking about challenging courses, in particular, prof. Umesh
+Vazirani&#39;s &quot;Quantum Mechanics and Quantum Computation&quot; had a lot of
+(computational) work and this was one of the courses that prompted me to use
+a computer algebra system for manipulating some tedious calculations.&lt;/p&gt;
+
+&lt;p&gt;In particular, I used a mix of the &lt;a href=&quot;http://www.sagenb.org/&quot;&gt;online SAGE math server&lt;/a&gt; and
+&lt;a href=&quot;http://www.wolframalpha.com/&quot;&gt;Wolfram Alpha&lt;/a&gt;, whichever I found the syntax to be easier to use for
+the problem in question. It is with happiness that I see that there are
+efforts to &lt;a href=&quot;http://people.debian.org/~thansen/debian-sage-status.html&quot;&gt;get SAGE again packaged in Debian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Another (positively) surprising course has been Dan Boneh&#39;s &quot;Introduction to
+Cryptography I&quot;, which was more theoretical and more serious than what I was
+expecting. It even included some nice proof sketches and discussion of
+recent results. The last course on cryptography that I took was in 1998 and
+&lt;em&gt;a lot&lt;/em&gt; of things changed since then, including the way to think about
+cryptography. But more on that on a future post.&lt;/p&gt;
+
+&lt;p&gt;There are some other courses that I may be completing soon and that I will
+post more about, with some reviews of the good and the bad parts of select
+ones.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>Working with CVS via Git</title>
 
 
@@ -32,7 +123,7 @@
 
 
 	<pubDate>Tue, 11 Jun 2013 04:49:56 -0300</pubDate>
-	<dcterms:modified>2013-06-11T08:25:39Z</dcterms:modified>
+	<dcterms:modified>2013-06-11T08:22:42Z</dcterms:modified>
 
 	<description>&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
 have &lt;em&gt;both&lt;/em&gt; a git clone of the CVS repository &lt;em&gt;and&lt;/em&gt; a CVS checkout of your
@@ -129,7 +220,7 @@ one, please let me know.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-06-05T08:25:20Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
 reproduced on Planet. I&#39;m editing it a bit, as it is a followup to my
@@ -192,7 +283,7 @@ machines on datacenters.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 04:29:23 -0300</pubDate>
-	<dcterms:modified>2013-04-30T17:15:33Z</dcterms:modified>
+	<dcterms:modified>2013-04-30T17:16:01Z</dcterms:modified>
 
 	<description>&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
 
@@ -295,7 +386,7 @@ and contributing back what I produced.&lt;/p&gt;
 
 
 	<pubDate>Tue, 29 Jan 2013 22:16:07 -0200</pubDate>
-	<dcterms:modified>2013-01-30T00:16:17Z</dcterms:modified>
+	<dcterms:modified>2013-01-30T00:16:56Z</dcterms:modified>
 
 	<description>&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
 you were able to sneak in a camera (well, in those times, cell phones
@@ -464,7 +555,7 @@ behavior.&lt;/p&gt;
 
 
 	<pubDate>Fri, 07 Sep 2012 13:16:18 -0300</pubDate>
-	<dcterms:modified>2013-06-05T08:24:59Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
 
 	<description>&lt;p&gt;On the 3rd of September, I applied to Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; program, as I
 told in my &lt;a href=&quot;http://cynic.cc/blog/posts/trying_out_adsense/&quot;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
@@ -696,65 +787,6 @@ Judging by how you talk you are probably from north Jersey, New York City, Conne
 
 
 
-</description>
-
-
-</item>
-<item>
-
-	<title>I am not going to DebConf 12</title>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</guid>
-
-	<link>http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</link>
-
-
-	<category>debconf</category>
-
-	<category>debian</category>
-
-	<category>development</category>
-
-	<category>fonts</category>
-
-	<category>free-software</category>
-
-	<category>handbrake</category>
-
-	<category>multimedia</category>
-
-
-	<pubDate>Thu, 07 Jun 2012 01:59:42 -0300</pubDate>
-	<dcterms:modified>2012-06-07T04:58:09Z</dcterms:modified>
-
-	<description>&lt;p&gt;Due to some real life impediments (including a beautiful one with just over
-2 months of life called Daniel), I will not be able to go to this year&#39;s
-DebConf, even though it seems that this DebConf will exceed many
-expectations with the support that the governement of Nicaragua just
-offered.&lt;/p&gt;
-
-&lt;h1&gt;Things that I would like to have worked on&lt;/h1&gt;
-
-&lt;p&gt;Unfortunately, this means that I will not be working with some fellows that
-may be there, like people from the &lt;code&gt;pkg-multimedia&lt;/code&gt; team.&lt;/p&gt;
-
-&lt;p&gt;In particular, as I am working on some packages that are not that well
-suited to distributions (especially regarding &lt;a href=&quot;http://handbrake.fr/&quot;&gt;HandBrake&lt;/a&gt;), it would be
-highly productive to have a hacking session or two with other people
-interested in having this popular and easy-to-use video ripper/transcoder on
-Debian.&lt;/p&gt;
-
-&lt;p&gt;I would also like to be able to talk in person with other people (including
-&lt;a href=&quot;http://joeyh.name/blog/&quot;&gt;Joey Hess&lt;/a&gt;) about controversial packaging of some programs, like GNU
-Parallel, &lt;a href=&quot;http://packages.debian.org/sid/parallel&quot;&gt;which I maintain in Debian&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;There are many things else that I would love to work on, besides helping a
-bit with some of the still pending transitions of the the
-&lt;a href=&quot;http://pkg-fonts.alioth.debian.org/&quot;&gt;Debian Fonts Task Force umbrella&lt;/a&gt;, meeting friends and other social
-stuff.&lt;/p&gt;
-
-&lt;p&gt;Oh, well. I guess that working at home will be the solution for some time.&lt;/p&gt;
 </description>
 
 

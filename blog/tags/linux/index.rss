@@ -28,7 +28,7 @@
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-06-05T08:25:20Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
 reproduced on Planet. I&#39;m editing it a bit, as it is a followup to my
@@ -91,7 +91,7 @@ machines on datacenters.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 04:29:23 -0300</pubDate>
-	<dcterms:modified>2013-04-30T17:15:33Z</dcterms:modified>
+	<dcterms:modified>2013-04-30T17:16:01Z</dcterms:modified>
 
 	<description>&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
 
@@ -904,7 +904,7 @@ build-dependencies.&lt;/p&gt;
 
 
 	<pubDate>Tue, 01 Jan 2002 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-06-06T21:22:51Z</dcterms:modified>
+	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
 
 	<description>&lt;p&gt;Well, some progress on the PPC front. I&#39;ve just configured the PMac
 to use the &lt;code&gt;imstt&lt;/code&gt; driver instead of the &lt;code&gt;fbdev&lt;/code&gt;. Due to this, the
@@ -965,7 +965,7 @@ really enjoying (but it&#39;s ok).&lt;/p&gt;
 
 
 	<pubDate>Sat, 29 Dec 2001 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-06-06T21:21:44Z</dcterms:modified>
+	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
 
 	<description>&lt;p&gt;Today I finally got the Power Macintosh 9500/180MP with
 &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian testing&lt;/a&gt; installed in a semi-decent

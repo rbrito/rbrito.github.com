@@ -32,7 +32,7 @@
 
 
 	<pubDate>Tue, 11 Jun 2013 04:49:56 -0300</pubDate>
-	<dcterms:modified>2013-06-11T08:25:39Z</dcterms:modified>
+	<dcterms:modified>2013-06-11T08:22:42Z</dcterms:modified>
 
 	<description>&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
 have &lt;em&gt;both&lt;/em&gt; a git clone of the CVS repository &lt;em&gt;and&lt;/em&gt; a CVS checkout of your
@@ -131,7 +131,7 @@ one, please let me know.&lt;/p&gt;
 
 
 	<pubDate>Sat, 29 Dec 2001 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-06-06T21:21:44Z</dcterms:modified>
+	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
 
 	<description>&lt;p&gt;Today I finally got the Power Macintosh 9500/180MP with
 &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian testing&lt;/a&gt; installed in a semi-decent
@@ -201,7 +201,7 @@ only consumed power proportional to its speed, it would be nicer.&lt;/p&gt;
 
 
 	<pubDate>Sat, 02 Dec 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-20T01:06:20Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
 
 	<description>&lt;p&gt;I&#39;m now mirroring both a repository of
 &lt;a href=&quot;http://kde.tdyc.com&quot;&gt;Debian KDE packages&lt;/a&gt; for potato and
@@ -257,7 +257,7 @@ ftpparse-ified version of wget (for mirroring
 
 
 	<pubDate>Tue, 12 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:41:16Z</dcterms:modified>
+	<dcterms:modified>2012-12-09T02:51:00Z</dcterms:modified>
 
 	<description>&lt;p&gt;My aunt&#39;s birthday today. Tried to call her, but who said it would
 be possible?&lt;/p&gt;

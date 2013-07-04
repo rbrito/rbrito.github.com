@@ -32,7 +32,7 @@
 
 
 	<pubDate>Tue, 01 Jan 2002 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-06-06T21:22:51Z</dcterms:modified>
+	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
 
 	<description>&lt;p&gt;Well, some progress on the PPC front. I&#39;ve just configured the PMac
 to use the &lt;code&gt;imstt&lt;/code&gt; driver instead of the &lt;code&gt;fbdev&lt;/code&gt;. Due to this, the
@@ -93,7 +93,7 @@ really enjoying (but it&#39;s ok).&lt;/p&gt;
 
 
 	<pubDate>Sat, 29 Dec 2001 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-06-06T21:21:44Z</dcterms:modified>
+	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
 
 	<description>&lt;p&gt;Today I finally got the Power Macintosh 9500/180MP with
 &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian testing&lt;/a&gt; installed in a semi-decent
@@ -159,7 +159,7 @@ only consumed power proportional to its speed, it would be nicer.&lt;/p&gt;
 
 
 	<pubDate>Wed, 18 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-06-06T21:11:53Z</dcterms:modified>
+	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
 
 	<description>&lt;p&gt;Ok, I know I messed up. My girlfriend told me that we were in July,
 not June. What a shame! Anyway, I&#39;ve corrected my diary entries and
@@ -219,7 +219,7 @@ justified, while &lt;a href=&quot;http://www.netscape.com&quot;&gt;Netscape 4.77
 
 
 	<pubDate>Tue, 17 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-06-06T21:10:21Z</dcterms:modified>
+	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
 
 	<description>&lt;p&gt;This is the day that shouldn&#39;t have happened --- it was bad right
 from start. First of all, I couldn&#39;t sleep well because I dreamt
@@ -297,7 +297,7 @@ the other Mac behaves the same way. Enough for a day already.&lt;/p&gt;
 
 
 	<pubDate>Wed, 11 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:21:05Z</dcterms:modified>
+	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
 
 	<description>&lt;p&gt;Some weeks ago, my uncle that sells and fixes computers,
 &lt;a href=&quot;mailto:startmicro@uol.com.br&quot;&gt;Isaac&lt;/a&gt;, got a pair of old
@@ -416,7 +416,7 @@ old machine).&lt;/p&gt;
 
 
 	<pubDate>Fri, 18 May 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:19:51Z</dcterms:modified>
+	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
 
 	<description>&lt;p&gt;It&#39;s been a long time since I last updated my diary. Let&#39;s see if I
 can get things up to date (and let me see if I can keep me
@@ -477,7 +477,7 @@ Algorithms.&lt;/p&gt;
 
 
 	<pubDate>Sat, 10 Mar 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:18:54Z</dcterms:modified>
+	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
 
 	<description>&lt;p&gt;Didn&#39;t do many important things today, besides making a brand new
 installation of Debian&#39;s sid/unstable to see how things were going
@@ -535,7 +535,7 @@ getting more exciting day after day.&lt;/p&gt;
 
 
 	<pubDate>Wed, 31 Jan 2001 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-20T01:06:20Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
 
 	<description>&lt;p&gt;Happy New Millennium! So many things have happened since the last
 time I&#39;ve updated my diary and I guess that since I can&#39;t summarize
@@ -604,7 +604,7 @@ a given field). Now, I want to learn more!&lt;/p&gt;
 
 
 	<pubDate>Thu, 07 Dec 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-20T01:06:20Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
 
 	<description>&lt;p&gt;Woohoo! Got Debian&#39;s XFree86 4.0.1 packaged for potato. It&#39;s faster
 with my Trident 3D Imàge 975 than XFree86 3.3.6, because it uses
@@ -654,7 +654,7 @@ CD.&lt;/p&gt;
 
 
 	<pubDate>Sun, 03 Dec 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-20T01:06:20Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
 
 	<description>&lt;p&gt;I can&#39;t believe, but I&#39;ve packaged &lt;em&gt;all&lt;/em&gt; those programs in just a
 day. Granted, I was really tired when I finished and that was the

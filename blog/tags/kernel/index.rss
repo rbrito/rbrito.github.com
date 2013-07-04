@@ -507,7 +507,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 
 	<pubDate>Tue, 12 Dec 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-20T01:06:20Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
 
 	<description>&lt;p&gt;Went to a customer to upgrade his system, which was using a frozen
 potato. I must confess that I love Debian indeed. The upgrades are

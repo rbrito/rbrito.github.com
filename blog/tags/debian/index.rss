@@ -8,6 +8,97 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>Playing with MOOCs</title>
+
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/playing_with_moocs/</guid>
+
+	<link>http://cynic.cc/blog//posts/playing_with_moocs/</link>
+
+
+	<category>debian</category>
+
+	<category>education</category>
+
+	<category>free-software</category>
+
+	<category>git</category>
+
+	<category>mooc</category>
+
+	<category>python</category>
+
+	<category>study</category>
+
+
+	<pubDate>Thu, 04 Jul 2013 08:33:00 -0300</pubDate>
+	<dcterms:modified>2013-07-04T12:25:16Z</dcterms:modified>
+
+	<description>&lt;p&gt;Not so much ago, we had a boom of new enterprises offering Massive Online
+Open Courses (MOOCs for short).&lt;/p&gt;
+
+&lt;p&gt;First were Thrun and Norvig (Artificial Intelligence), with Widom
+(Introduction to Databases) and Ng (Machine Learning). Then, these initial
+experiments led to the creation of Udacity (founded by Thrun) and Coursera
+(founded by Ng and Koller).&lt;/p&gt;
+
+&lt;p&gt;I have been keeping an eye on them for some time and, in fact, I have been
+contributing to a project similar to &lt;a href=&quot;https://github.com/rg3/youtube-dl&quot;&gt;youtube-dl&lt;/a&gt; (which
+&lt;a href=&quot;http://packages.debian.org/sid/youtube-dl&quot;&gt;I package for Debian&lt;/a&gt;), but focused on downloading videos from
+Cousera, called &lt;a href=&quot;https://github.com/jplehmann/coursera&quot;&gt;&lt;code&gt;coursera-dl&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I started contributing to &lt;code&gt;coursera-dl&lt;/code&gt; because I wanted to stratch some
+itches with downloading with &lt;a href=&quot;http://aria2.sourceforge.net/&quot;&gt;&lt;code&gt;aria2c&lt;/code&gt;&lt;/a&gt;, but soon the original
+author of the project granted me write permission to the repository and I
+have been one of the persons that commits the most, which is strange, since
+I was not the original creator of the program.&lt;/p&gt;
+
+&lt;p&gt;So far, from the courses that grant certificates, I have concluded the
+following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Algorithms: Design and Analysis, Part 1 (Coursera)&lt;/li&gt;
+&lt;li&gt;Machine Learning (Coursera)&lt;/li&gt;
+&lt;li&gt;Introduction to Databases (Coursera)&lt;/li&gt;
+&lt;li&gt;Quantum Mechanics and Quantum Computation (Coursera)&lt;/li&gt;
+&lt;li&gt;Introduction to Cryptography I (Coursera)&lt;/li&gt;
+&lt;li&gt;M101P: MongoDB for Developers (10gen)&lt;/li&gt;
+&lt;li&gt;M102: MongoDB for DBAs (10gen)&lt;/li&gt;
+&lt;li&gt;M101J: MongoDB for Java Developers (10gen)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;I have to say that this have been a pleasant experience, with some of the
+courses being challenging, but not up to what an undergraduate course would
+be (and the fears of some people that such courses would threaten the
+conventional University-style model are a bit far at this point).&lt;/p&gt;
+
+&lt;p&gt;Anyway, talking about challenging courses, in particular, prof. Umesh
+Vazirani&#39;s &quot;Quantum Mechanics and Quantum Computation&quot; had a lot of
+(computational) work and this was one of the courses that prompted me to use
+a computer algebra system for manipulating some tedious calculations.&lt;/p&gt;
+
+&lt;p&gt;In particular, I used a mix of the &lt;a href=&quot;http://www.sagenb.org/&quot;&gt;online SAGE math server&lt;/a&gt; and
+&lt;a href=&quot;http://www.wolframalpha.com/&quot;&gt;Wolfram Alpha&lt;/a&gt;, whichever I found the syntax to be easier to use for
+the problem in question. It is with happiness that I see that there are
+efforts to &lt;a href=&quot;http://people.debian.org/~thansen/debian-sage-status.html&quot;&gt;get SAGE again packaged in Debian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Another (positively) surprising course has been Dan Boneh&#39;s &quot;Introduction to
+Cryptography I&quot;, which was more theoretical and more serious than what I was
+expecting. It even included some nice proof sketches and discussion of
+recent results. The last course on cryptography that I took was in 1998 and
+&lt;em&gt;a lot&lt;/em&gt; of things changed since then, including the way to think about
+cryptography. But more on that on a future post.&lt;/p&gt;
+
+&lt;p&gt;There are some other courses that I may be completing soon and that I will
+post more about, with some reviews of the good and the bad parts of select
+ones.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>Working with CVS via Git</title>
 
 
@@ -32,7 +123,7 @@
 
 
 	<pubDate>Tue, 11 Jun 2013 04:49:56 -0300</pubDate>
-	<dcterms:modified>2013-06-11T08:25:39Z</dcterms:modified>
+	<dcterms:modified>2013-06-11T08:22:42Z</dcterms:modified>
 
 	<description>&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
 have &lt;em&gt;both&lt;/em&gt; a git clone of the CVS repository &lt;em&gt;and&lt;/em&gt; a CVS checkout of your
@@ -129,7 +220,7 @@ one, please let me know.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-06-05T08:25:20Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
 reproduced on Planet. I&#39;m editing it a bit, as it is a followup to my
@@ -192,7 +283,7 @@ machines on datacenters.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 04:29:23 -0300</pubDate>
-	<dcterms:modified>2013-04-30T17:15:33Z</dcterms:modified>
+	<dcterms:modified>2013-04-30T17:16:01Z</dcterms:modified>
 
 	<description>&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
 
@@ -295,7 +386,7 @@ and contributing back what I produced.&lt;/p&gt;
 
 
 	<pubDate>Tue, 29 Jan 2013 22:16:07 -0200</pubDate>
-	<dcterms:modified>2013-01-30T00:16:17Z</dcterms:modified>
+	<dcterms:modified>2013-01-30T00:16:56Z</dcterms:modified>
 
 	<description>&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
 you were able to sneak in a camera (well, in those times, cell phones
@@ -426,7 +517,7 @@ behavior.&lt;/p&gt;
 
 
 	<pubDate>Fri, 07 Sep 2012 13:16:18 -0300</pubDate>
-	<dcterms:modified>2013-06-05T08:24:59Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
 
 	<description>&lt;p&gt;On the 3rd of September, I applied to Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; program, as I
 told in my &lt;a href=&quot;http://cynic.cc/blog/posts/trying_out_adsense/&quot;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
@@ -923,112 +1014,6 @@ not everybody who wants to use GRUB2 have to learn about its workings.&lt;/p&gt;
 
 &lt;p&gt;Oh, of course, you can now have your kernels in ext4, btrfs, xfs
 etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>(Some) Solutions with Chromium</title>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/some_solutions_with_chromium/</guid>
-
-	<link>http://cynic.cc/blog//posts/some_solutions_with_chromium/</link>
-
-
-	<category>browsers</category>
-
-	<category>debian</category>
-
-	<category>extensions</category>
-
-	<category>free-software</category>
-
-
-	<pubDate>Wed, 09 Mar 2011 14:33:00 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
-
-	<description>&lt;p&gt;In &lt;a href=&quot;http://cynic.cc/blog//tags/debian/../../posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
-my frustrations with Chromium/Chrome.  A very kind reader, Timo Juhani
-Lindfors, gave me answers to many of the problems that I pointed out and got
-me straight on some issues:&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;ul&gt;
-&lt;li&gt;I can disable full zoom in Iceweasel (i.e., I only want to zoom the text,
-not the images). According to Chromium&#39;s project BTS, it seems that this
-will be a &lt;code&gt;WONTFIX&lt;/code&gt; bug, despite many people asking for it (and it having
-a lot of duplicates).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Timo told me that there is an extension called &lt;a href=&quot;https://chrome.google.com/webstore/detail/ombpcpigmndepfckcifdblemkabaoihk&quot;&gt;&quot;Font Size Increase&quot;&lt;/a&gt;
-(ID: ombpcpigmndepfckcifdblemkabaoihk) that adds a button on the side of the
-URL bar that you can click to increase the size of the text, without
-affecting the size of the images. Highly recommended.&lt;/p&gt;
-
-&lt;p&gt;Not that I need this one as much as &quot;Font Size Increase&quot;, but there is also
-a &lt;a href=&quot;https://chrome.google.com/webstore/detail/mpajngnpcmjjeoflljdjpnehcfaldcia&quot;&gt;&quot;Font Size Decrease&quot;&lt;/a&gt; (ID: mpajngnpcmjjeoflljdjpnehcfaldcia) that,
-as the name implies, decreases the size of the text. It is nice to have this
-one when you clicked on the button to increase the size of the font one or
-two times too many.&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;ul&gt;
-&lt;li&gt;In Iceweasel, I have a way (without resorting to many extensions or
-hackish solutions) to use the equivalent of Firefox&#39;s &quot;View &gt; Page Style &gt;
-No Style&quot; (i.e., to ignore any CSS sheet that the document author may have
-specified on the page).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Timo also told me that there is a very cool extension called
-&lt;a href=&quot;https://chrome.google.com/webstore/detail/ddpkgkegfklikkmfmneldonhldahhacb&quot;&gt;&quot;Chrome Page Style&quot;&lt;/a&gt; (ID: ddpkgkegfklikkmfmneldonhldahhacb) that
-allows you to alternate between stylesheets provided by the page (see Joey
-Hess&#39;s &lt;a href=&quot;http://ikiwiki.info/css_market/&quot;&gt;ikiwiki&#39;s CSS Market&lt;/a&gt; for an example of that).&lt;/p&gt;
-
-&lt;p&gt;It also has the possibility of disabling all the CSS&#39;es that a page may
-have, which, in many cases around the web &lt;em&gt;actually improves&lt;/em&gt; the
-readability of the pages, for many &quot;fancy&quot; things detract from readability,
-especially if you have poor eyesight.&lt;/p&gt;
-
-&lt;p&gt;Although I had said that I didn&#39;t want to resort to extensions, this was a
-simple solution enough that made me consider revisit my requirements.  I do,
-though, wonder why some frequently used extensions are not built into the
-programs from stock.&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;ul&gt;
-&lt;li&gt;In Iceweasel, I can press &lt;code&gt;Ctrl+Q&lt;/code&gt; and make the damn browser quit, instead
-of me having to use the mouse/trackpad/pointing device. This is probably a
-lack of my understanding on how to associate key bindings to Chromium, but
-the problem still stands.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Of course, Timo also set me straight and told me about &lt;code&gt;Ctrl+Shift+Q&lt;/code&gt; for
-that purpose, which I had missed completely.&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;ul&gt;
-&lt;li&gt;Similarly, when there is only one tab open, pressing &lt;code&gt;Ctrl+W&lt;/code&gt; in Chromium
-does not close the tab (say, presenting me a blank tab or the list of most
-visited sites), nor it closes the application.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;As a poor writing of my part, &lt;code&gt;Ctrl+W&lt;/code&gt; does close the tabs. But when there
-is only one tab present, it doesn&#39;t close the window. I&#39;m OK with that,
-since I now know the way to close the window. Thanks again Timo.&lt;/p&gt;
-
-&lt;p&gt;Oh, and one point that may not be known by many is that using &lt;code&gt;about:flags&lt;/code&gt;
-in Chrome does something analogue to Firefox&#39;s &lt;code&gt;about:config&lt;/code&gt; (even with the
-warning).&lt;/p&gt;
-
-&lt;p&gt;And tweaking with it you can try to see if you can enable hardware
-acceleration of some parts of your pages, as present in newer releases of
-Chromium.&lt;/p&gt;
-
-&lt;p&gt;So, there I am: way more satisfied than with earlier with Chromium, but
-still having Firefox/Iceweasel as my primary browser. Good to have two
-usable browsers now.&lt;/p&gt;
 </description>
 
 
