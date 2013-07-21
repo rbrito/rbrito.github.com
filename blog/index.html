@@ -250,9 +250,9 @@ argument.</li>
 <p>note that it ends with the word <code>end</code>, there are no need for parentheses, no
 braces, no colons, and the keyword for "else if" is <code>elsif</code> (different
 from Python's <code>elif</code>).</p></li>
-<li><p>The "<code>if</code>" can also be started with the keyword <code>unless</code> instead, which
+<li>The "<code>if</code>" can also be started with the keyword <code>unless</code> instead, which
 checks if the expression is false rather than true (as is the case of
-<code>if</code>).</p></li>
+<code>if</code>).</li>
 </ul>
 
 
@@ -305,8 +305,8 @@ condition is false, instead of true.</p></li>
 </code></pre></li>
 <li><p>It is useful to use <code>break</code> when using loop to break out of the infinite
 iterations.</p></li>
-<li><p>Similarly, we can use <code>next</code> as in other languages (the same as <code>continue</code>
-in C or C++).</p></li>
+<li>Similarly, we can use <code>next</code> as in other languages (the same as <code>continue</code>
+in C or C++).</li>
 </ul>
 
 
@@ -346,10 +346,10 @@ Example:</p>
    my_array.sort! {|a, b| b &lt;=&gt; a} # Descending order
 </code></pre></li>
 <li><p>The <code>.push</code> method appends an element to an Array (similar to Python's
-<code>.append</code>)</p></li>
-<li><p>The empty Array is denoted by <code>[]</code>, like an empty list in Python.</p></li>
-<li><p>An iterator (like <code>(1..10)</code>) can be converted to an array with the <code>.to_a</code>
-method.</p></li>
+<code>.append</code>).</p></li>
+<li>The empty Array is denoted by <code>[]</code>, like an empty list in Python.</li>
+<li>An iterator (like <code>(1..10)</code>) can be converted to an array with the <code>.to_a</code>
+method.</li>
 </ul>
 
 
@@ -400,13 +400,13 @@ class <code>Hash</code>:</p>
 </code></pre></li>
 <li><p>To iterate only on keys, we use the method <code>.each_key</code>. To iterate only on
 values, we use the method <code>.each_value</code>.</p></li>
-<li><p>A hash can be sorted with the <code>.sort_by</code> method (to sort by keys, values
+<li>A hash can be sorted with the <code>.sort_by</code> method (to sort by keys, values
 or any expression involving them) and since it can be ordered, we can
 reverse (in-place) the order of its elements with the <code>.reverse!</code> method.
-This makes Ruby's hashes to "taste" like Python's <code>OrderedDict</code>'s.</p></li>
-<li><p>When one initializes a hash, one can specify a default value to the <code>.new</code>
+This makes Ruby's hashes to "taste" like Python's <code>OrderedDict</code>'s.</li>
+<li>When one initializes a hash, one can specify a default value to the <code>.new</code>
 method (e.g., <code>foo = Hash.new(0)</code>), which makes it convenient to do the
-equivalent of Python's <code>defaultdict</code> or <code>Counter</code>.</p></li>
+equivalent of Python's <code>defaultdict</code> or <code>Counter</code>.</li>
 <li><p>You can select part of a hash by using the <code>.select</code> method and giving it
 a block. For example:</p>
 
@@ -433,14 +433,14 @@ call the function above one can use any of the following:</p>
 </code></pre></li>
 <li><p>A function can take a block as a parameter (and this is what <code>.each</code> does,
 for instance).</p></li>
-<li><p>Functions can take a variable number of elements with the <em>splash</em>
+<li>Functions can take a variable number of elements with the <em>splash</em>
 operator (denoted by <code>*</code>), which puts the extra parameters in an Array
-(like Python).</p></li>
-<li><p>Functions can have default parameters, which are set in the "prototype",
-just like in Python or C++.</p></li>
-<li><p>If the <code>return</code> keyword is omitted from the method, Ruby uses an implicit
+(like Python).</li>
+<li>Functions can have default parameters, which are set in the "prototype",
+just like in Python or C++.</li>
+<li>If the <code>return</code> keyword is omitted from the method, Ruby uses an implicit
 return, where the value of the last executed expression is returned to the
-caller of the method.</p></li>
+caller of the method.</li>
 </ul>
 
 
@@ -488,14 +488,14 @@ from the function that called the proc.</li>
 <h1>Classes</h1>
 
 <ul>
-<li><p>"Everything is an object in Ruby." (At least one exception are blocks).</p></li>
-<li><p>To test if an object is of a given class, you use the method <code>.is_a?</code> on
-the object and the type as argument (e.g., <code>foo.is_a? Integer</code>)</p></li>
-<li><p>The "null" value in Ruby is <code>nil</code>. It is equivalent to <code>None</code> in Python.</p></li>
-<li><p>The only "falsy" values in Ruby are <code>false</code> and <code>nil</code>. The others are
-"truthy", differently from C/C++/Perl/Python.</p></li>
-<li><p>For a given object, the method <code>.object_id</code> returns what is the "address"
-of that object.</p></li>
+<li>"Everything is an object in Ruby." (At least one exception are blocks).</li>
+<li>To test if an object is of a given class, you use the method <code>.is_a?</code> on
+the object and the type as argument (e.g., <code>foo.is_a? Integer</code>)</li>
+<li>The "null" value in Ruby is <code>nil</code>. It is equivalent to <code>None</code> in Python.</li>
+<li>The only "falsy" values in Ruby are <code>false</code> and <code>nil</code>. The others are
+"truthy", differently from C/C++/Perl/Python.</li>
+<li>For a given object, the method <code>.object_id</code> returns what is the "address"
+of that object.</li>
 <li><p>Classes in Ruby are created with the syntax</p>
 
 <pre><code>  class ClassExample
@@ -504,20 +504,20 @@ of that object.</p></li>
 </code></pre>
 
 <p>(That is for a class that has is not derived from other regular classes).</p></li>
-<li><p>Constructors in Ruby are called <code>initialize</code>. An instance of a class is
+<li>Constructors in Ruby are called <code>initialize</code>. An instance of a class is
 created by calling the method <code>.new</code> on the class name (and passing
-parameters as needed for the <code>initialize</code> method).</p></li>
-<li><p>Instance variables are named with 1 at sign (<code>@</code>) as a prefix. Class
+parameters as needed for the <code>initialize</code> method).</li>
+<li>Instance variables are named with 1 at sign (<code>@</code>) as a prefix. Class
 variables are named with 2 at signs (<code>@@</code>) as a prefix. Global variables
-are named with a dollar sign (<code>$</code>) as a prefix.</p></li>
-<li><p>Class methods are declared inside a class prefixed with <code>self.</code> and they
+are named with a dollar sign (<code>$</code>) as a prefix.</li>
+<li>Class methods are declared inside a class prefixed with <code>self.</code> and they
 are called with the class name suffixed with the name of the method. For
 example, for a class <code>MyClass</code>, with a class method <code>class_method</code>, we
-call it as <code>MyClass.class_method</code>.</p></li>
-<li><p>When overriding a method in a subclass, one can call the method from the
-parent class with the keyword <code>super</code>, as in <code>super(arg1, arg2)</code>.</p></li>
-<li><p>Ruby doesn't support multiple inheritance. In place of multiple
-inheritance, Ruby offers mixins.</p></li>
+call it as <code>MyClass.class_method</code>.</li>
+<li>When overriding a method in a subclass, one can call the method from the
+parent class with the keyword <code>super</code>, as in <code>super(arg1, arg2)</code>.</li>
+<li>Ruby doesn't support multiple inheritance. In place of multiple
+inheritance, Ruby offers mixins.</li>
 <li><p>To access one attribute, say <code>@my_attrib</code>, in Ruby classes, one usually
 creates two methods to manipulate it: a method with the name <code>my_attrib</code>,
 that returns the value of <code>@my_attrib</code> (a getter) and a method with the
@@ -533,24 +533,24 @@ symbol).</p>
 
 <p>If you need both a getter and a setter, then you can abbreviate them with
 <code>attr_accessor</code>.</p></li>
-<li><p>All methods, by default, are public in Ruby. To explicitly mark something
+<li>All methods, by default, are public in Ruby. To explicitly mark something
 as public, you use the keyword <code>public</code>. To mark something as private, you
-use the keyword <code>private</code>.</p></li>
+use the keyword <code>private</code>.</li>
 </ul>
 
 
 <h1>Modules</h1>
 
 <ul>
-<li><p>You can import a module with the keyword <code>require</code> (as in Perl) and the
-name of the module in quotes.</p></li>
-<li><p>One example of a module is the <code>benchmark</code> module, which provides the
+<li>You can import a module with the keyword <code>require</code> (as in Perl) and the
+name of the module in quotes.</li>
+<li>One example of a module is the <code>benchmark</code> module, which provides the
 <code>Benchmark</code> class, which has the method <code>.realtime</code>, which takes a block
-and reports how much time it used.</p></li>
-<li><p>To create a module, use a syntax similar to that of a class, but
-substituting the keyword <code>class</code> with <code>module</code>.</p></li>
-<li><p>The scope resolution operator in Ruby is the double colon (<code>::</code>), like in
-Perl.</p></li>
+and reports how much time it used.</li>
+<li>To create a module, use a syntax similar to that of a class, but
+substituting the keyword <code>class</code> with <code>module</code>.</li>
+<li>The scope resolution operator in Ruby is the double colon (<code>::</code>), like in
+Perl.</li>
 <li><p>To create a method inside a module, you have to prefix it by the name of
 the module with a dot or with <code>self.</code>, if you want to create a method to
 be called outside the module.</p>
@@ -558,9 +558,9 @@ be called outside the module.</p>
 <p>The same also holds for creating class methods (as opposed to <em>instance</em>
 methods): they can be simply named <code>self.foo</code> to get a class method called
 <code>foo</code>.</p></li>
-<li><p>While some modules are already "preloaded" by the interpreter (e.g.,
+<li>While some modules are already "preloaded" by the interpreter (e.g.,
 <code>Math</code>), others need to be explicitly loaded. We do this by using <code>require
-'foo'</code> to load the module (in the file <code>foo</code>?).</p></li>
+'foo'</code> to load the module (in the file <code>foo</code>?).</li>
 </ul>
 
 
@@ -572,30 +572,30 @@ methods of the module to the class.</p>
 
 <p>It is, in a sense, a way to have some of multiple inheritance in Ruby
 (without its headaches?)</p></li>
-<li><p>Using the word <code>include Foo</code> imports the items of the module <code>Foo</code> in the
-current namespace for <em>instances</em> of a class.</p></li>
-<li><p>Using the word <code>extend Foo</code> imports the items of the module <code>Foo</code> in the
-current namespace as class methods/attributes.</p></li>
+<li>Using the word <code>include Foo</code> imports the items of the module <code>Foo</code> in the
+current namespace for <em>instances</em> of a class.</li>
+<li>Using the word <code>extend Foo</code> imports the items of the module <code>Foo</code> in the
+current namespace as class methods/attributes.</li>
 </ul>
 
 
 <h1>Conventions</h1>
 
 <ul>
-<li><p>Local variables are named in lower case, with parts separated by
-underscores, as in <code>my_name</code>.</p></li>
-<li><p>Methods that return boolean values have a question mark (<code>?</code>) at the end
-of their name.</p></li>
-<li><p>Methods that have destructive side-effects (like changing their input)
-have an exclamation mark (<code>!</code>) at the end of their name.</p></li>
-<li><p>Code is indented by 2 spaces</p></li>
-<li><p>Like other languages, constants are written in all caps, with words
-separated by underscores. For example, <code>MAX_VALUE</code>.</p></li>
-<li><p>Global variables are prefixed with a dollar sign (e.g., <code>$Foo</code>).</p></li>
-<li><p>Classes are named in camel case (no initial lowercase).</p></li>
-<li><p>The "poetic mode" in Ruby recommends one to omit the parentheses on
+<li>Local variables are named in lower case, with parts separated by
+underscores, as in <code>my_name</code>.</li>
+<li>Methods that return boolean values have a question mark (<code>?</code>) at the end
+of their name.</li>
+<li>Methods that have destructive side-effects (like changing their input)
+have an exclamation mark (<code>!</code>) at the end of their name.</li>
+<li>Code is indented by 2 spaces</li>
+<li>Like other languages, constants are written in all caps, with words
+separated by underscores. For example, <code>MAX_VALUE</code>.</li>
+<li>Global variables are prefixed with a dollar sign (e.g., <code>$Foo</code>).</li>
+<li>Classes are named in camel case (no initial lowercase).</li>
+<li>The "poetic mode" in Ruby recommends one to omit the parentheses on
 function calls (whenever unambiguous) and, in essence, to write as little
-"bureaucracy" (like the explicit <code>return</code> keyword in methods).</p></li>
+"bureaucracy" (like the explicit <code>return</code> keyword in methods).</li>
 </ul>
 
 

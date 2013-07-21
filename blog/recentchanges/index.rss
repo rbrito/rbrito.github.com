@@ -12,6 +12,116 @@
 	<dcterms:creator>rbrito</dcterms:creator>
 
 
+	<guid isPermaLink="false">http://cynic.cc/blog//recentchanges/change_ebb25ea667ff827644f970d5b9d9bd1f31fd7e6a/</guid>
+
+	<link>http://cynic.cc/blog/recentchanges/#change-ebb25ea667ff827644f970d5b9d9bd1f31fd7e6a</link>
+
+	<pubDate>Sat, 20 Jul 2013 22:11:43 -0300</pubDate>
+	<dcterms:modified>2013-07-21T01:11:43Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-ebb25ea667ff827644f970d5b9d9bd1f31fd7e6a&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+posts/beginning ruby
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-07-21T01:11:43Z&quot;&gt;22:11:43 2013-07-20&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Remove excessive blanks that end up in the HTML.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- ebb25ea667ff827644f970d5b9d9bd1f31fd7e6a --&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to tags/ruby on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://cynic.cc/blog//recentchanges/change_bd1402010b1f45da17b1186d4c7fc08fbd56f030/</guid>
+
+	<link>http://cynic.cc/blog/recentchanges/#change-bd1402010b1f45da17b1186d4c7fc08fbd56f030</link>
+
+	<pubDate>Sat, 20 Jul 2013 21:59:15 -0300</pubDate>
+	<dcterms:modified>2013-07-21T00:59:15Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-bd1402010b1f45da17b1186d4c7fc08fbd56f030&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+tags/ruby
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-07-21T00:59:15Z&quot;&gt;21:59:15 2013-07-20&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+creating tag page tags/ruby&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- bd1402010b1f45da17b1186d4c7fc08fbd56f030 --&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to posts/beginning_ruby on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
 	<guid isPermaLink="false">http://cynic.cc/blog//recentchanges/change_cf41a1409ab9dcb406ae0fc9a0f9323cc8da2032/</guid>
 
 	<link>http://cynic.cc/blog/recentchanges/#change-cf41a1409ab9dcb406ae0fc9a0f9323cc8da2032</link>
@@ -5502,116 +5612,6 @@ creating tag page tags/music&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 82badf4c110778989baa5ac5def24c02f2ec3cf5 --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/security on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//recentchanges/change_e70b4b8abd25e0d15ba6a10c32c454a59b26ac91/</guid>
-
-	<link>http://cynic.cc/blog/recentchanges/#change-e70b4b8abd25e0d15ba6a10c32c454a59b26ac91</link>
-
-	<pubDate>Fri, 07 Sep 2012 03:56:45 -0300</pubDate>
-	<dcterms:modified>2012-09-07T06:56:45Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-e70b4b8abd25e0d15ba6a10c32c454a59b26ac91&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-tags/security
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-07T06:56:45Z&quot;&gt;03:56:45 2012-09-07&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/security&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- e70b4b8abd25e0d15ba6a10c32c454a59b26ac91 --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/indexed-metadata on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//recentchanges/change_f95043adbbfa7489f1058930b03b3075cb0aea29/</guid>
-
-	<link>http://cynic.cc/blog/recentchanges/#change-f95043adbbfa7489f1058930b03b3075cb0aea29</link>
-
-	<pubDate>Fri, 07 Sep 2012 03:56:41 -0300</pubDate>
-	<dcterms:modified>2012-09-07T06:56:41Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-f95043adbbfa7489f1058930b03b3075cb0aea29&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-tags/indexed-metadata
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-07T06:56:41Z&quot;&gt;03:56:41 2012-09-07&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/indexed-metadata&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- f95043adbbfa7489f1058930b03b3075cb0aea29 --&gt;
 </description>
 
 
