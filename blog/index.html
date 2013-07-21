@@ -18,6 +18,9 @@ src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorM
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
+<link rel="stylesheet" href="local.css" type="text/css" />
+
+
 <link rel="alternate" type="application/rss+xml" title="Rogério Brito's Digital Junkyard (RSS feed)" href="index.rss" /><link rel="alternate" type="application/atom+xml" title="Rogério Brito's Digital Junkyard (Atom feed)" href="index.atom" />
 
 
@@ -110,11 +113,11 @@ Rogério Brito's Digital Junkyard
         <td class="month-calendar-day-nolink Wednesday">17</td>
         <td class="month-calendar-day-nolink Thursday">18</td>
         <td class="month-calendar-day-nolink Friday">19</td>
-        <td class="month-calendar-day-this-day Saturday"><a href="./posts/beginning_ruby/" title="beginning ruby">20</a></td>
+        <td class="month-calendar-day-link Saturday"><a href="./posts/beginning_ruby/" title="beginning ruby">20</a></td>
     </tr>
     <tr>
-        <td class="month-calendar-day-future Sunday">21</td>
-        <td class="month-calendar-day-nolink Monday">22</td>
+        <td class="month-calendar-day-this-day Sunday">21</td>
+        <td class="month-calendar-day-future Monday">22</td>
         <td class="month-calendar-day-nolink Tuesday">23</td>
         <td class="month-calendar-day-nolink Wednesday">24</td>
         <td class="month-calendar-day-nolink Thursday">25</td>
@@ -247,8 +250,8 @@ argument.</li>
   end
 </code></pre>
 
-<p>note that it ends with the word <code>end</code>, there are no need for parentheses, no
-braces, no colons, and the keyword for "else if" is <code>elsif</code> (different
+<p>note that it ends with the word <code>end</code>, there are no need for parentheses,
+no braces, no colons, and the keyword for "else if" is <code>elsif</code> (different
 from Python's <code>elif</code>).</p></li>
 <li>The "<code>if</code>" can also be started with the keyword <code>unless</code> instead, which
 checks if the expression is false rather than true (as is the case of
@@ -334,7 +337,7 @@ is:</p>
 <code>object</code> in turn. The equivalent in Python would be:</p>
 
 <pre><code>  for item in object:
-    block
+      block
 </code></pre></li>
 <li><p>Arrays can be sorted with the <code>.sort</code> method (or its sibling <code>.sort!</code>).
 When passing a parameter, it is useful to use the spaceship operator
@@ -426,7 +429,7 @@ with the word <code>end</code>, as other composite constructs. Example:</p>
   end
 </code></pre></li>
 <li><p>Parentheses are optional in Ruby, unless they create ambiguity. So, to
-call the function above one can use any of the following:</p>
+call the function above, one can use any of the following:</p>
 
 <pre><code>  square(2)
   square 2
@@ -470,7 +473,8 @@ with <code>=begin</code> and a line beginning with <code>=end</code>.</li>
 <ul>
 <li><p>A lambda function in Ruby is defined, as expected, as, for example:</p>
 
-<p>  foo = lambda { |x| x.to_sym }</p></li>
+<pre><code>  foo = lambda { |x| x.to_sym }
+</code></pre></li>
 <li><p>The basic differences between a lambda and a proc is that:</p>
 
 <ul>
@@ -588,7 +592,7 @@ underscores, as in <code>my_name</code>.</li>
 of their name.</li>
 <li>Methods that have destructive side-effects (like changing their input)
 have an exclamation mark (<code>!</code>) at the end of their name.</li>
-<li>Code is indented by 2 spaces</li>
+<li>Code is indented by 2 spaces.</li>
 <li>Like other languages, constants are written in all caps, with words
 separated by underscores. For example, <code>MAX_VALUE</code>.</li>
 <li>Global variables are prefixed with a dollar sign (e.g., <code>$Foo</code>).</li>

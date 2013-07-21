@@ -17,7 +17,141 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-07-21T01:36:26Z</updated>
+<updated>2013-07-21T12:18:29Z</updated>
+<entry>
+	<title>change to posts/beginning_ruby on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_d32b75ae0a43196594bebb56143b935f578bf3f7/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-d32b75ae0a43196594bebb56143b935f578bf3f7"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-07-21T12:18:29Z</updated>
+	<published>2013-07-21T12:18:29Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-d32b75ae0a43196594bebb56143b935f578bf3f7&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+posts/beginning ruby
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-07-21T12:18:29Z&quot;&gt;09:18:29 2013-07-21&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Fix markup/typos.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- d32b75ae0a43196594bebb56143b935f578bf3f7 --&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_b92df601da9fea386e3d4178caf9d238dcc5799a/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-b92df601da9fea386e3d4178caf9d238dcc5799a"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-07-21T03:28:40Z</updated>
+	<published>2013-07-21T03:28:40Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-b92df601da9fea386e3d4178caf9d238dcc5799a&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-07-21T03:28:40Z&quot;&gt;00:28:40 2013-07-21&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Revert &amp;quot;Remove use a local stylesheet.&amp;quot;&lt;br /&gt;
+
+
+
+
+
+I now want to make the code sections prettier.&lt;br /&gt;
+
+
+
+
+
+This reverts commit dca2dde234d005bf88ab1b3494dc9dd1d37c6f67.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- b92df601da9fea386e3d4178caf9d238dcc5799a --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to .blog.setup on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -6108,128 +6242,6 @@ creating tag page tags/abstract-algebra&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 7779d7dea371348e06c0a7829b9d10fcee16e03e --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to tags/hashes on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://cynic.cc/blog//recentchanges/change_48ec4b3bea915a45aba9c3465fe670c7d4863a98/</id>
-
-	<link href="http://cynic.cc/blog/recentchanges/#change-48ec4b3bea915a45aba9c3465fe670c7d4863a98"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2012-09-07T06:57:03Z</updated>
-	<published>2012-09-07T06:57:03Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-48ec4b3bea915a45aba9c3465fe670c7d4863a98&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-tags/hashes
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-07T06:57:03Z&quot;&gt;03:57:03 2012-09-07&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/hashes&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 48ec4b3bea915a45aba9c3465fe670c7d4863a98 --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to tags/group-theory on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://cynic.cc/blog//recentchanges/change_75dedbe41e258fc1b76bbddc3741824c33fd48ee/</id>
-
-	<link href="http://cynic.cc/blog/recentchanges/#change-75dedbe41e258fc1b76bbddc3741824c33fd48ee"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2012-09-07T06:56:59Z</updated>
-	<published>2012-09-07T06:56:59Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-75dedbe41e258fc1b76bbddc3741824c33fd48ee&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-tags/group-theory
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-07T06:56:59Z&quot;&gt;03:56:59 2012-09-07&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/group-theory&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 75dedbe41e258fc1b76bbddc3741824c33fd48ee --&gt;
 
 	</content>
 

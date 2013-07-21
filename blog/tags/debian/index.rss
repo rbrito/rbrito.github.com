@@ -26,7 +26,7 @@
 
 
 	<pubDate>Sat, 20 Jul 2013 21:50:00 -0300</pubDate>
-	<dcterms:modified>2013-07-21T01:38:05Z</dcterms:modified>
+	<dcterms:modified>2013-07-21T12:18:29Z</dcterms:modified>
 
 	<description>&lt;p&gt;These are some very rough/sketchy notes that I took while doing the
 exercises on the introductory track of the Ruby language at
@@ -109,8 +109,8 @@ argument.&lt;/li&gt;
   end
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;note that it ends with the word &lt;code&gt;end&lt;/code&gt;, there are no need for parentheses, no
-braces, no colons, and the keyword for &quot;else if&quot; is &lt;code&gt;elsif&lt;/code&gt; (different
+&lt;p&gt;note that it ends with the word &lt;code&gt;end&lt;/code&gt;, there are no need for parentheses,
+no braces, no colons, and the keyword for &quot;else if&quot; is &lt;code&gt;elsif&lt;/code&gt; (different
 from Python&#39;s &lt;code&gt;elif&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;The &quot;&lt;code&gt;if&lt;/code&gt;&quot; can also be started with the keyword &lt;code&gt;unless&lt;/code&gt; instead, which
 checks if the expression is false rather than true (as is the case of
@@ -196,7 +196,7 @@ is:&lt;/p&gt;
 &lt;code&gt;object&lt;/code&gt; in turn. The equivalent in Python would be:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;  for item in object:
-    block
+      block
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Arrays can be sorted with the &lt;code&gt;.sort&lt;/code&gt; method (or its sibling &lt;code&gt;.sort!&lt;/code&gt;).
 When passing a parameter, it is useful to use the spaceship operator
@@ -288,7 +288,7 @@ with the word &lt;code&gt;end&lt;/code&gt;, as other composite constructs. Examp
   end
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Parentheses are optional in Ruby, unless they create ambiguity. So, to
-call the function above one can use any of the following:&lt;/p&gt;
+call the function above, one can use any of the following:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;  square(2)
   square 2
@@ -332,7 +332,8 @@ with &lt;code&gt;=begin&lt;/code&gt; and a line beginning with &lt;code&gt;=end&
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;A lambda function in Ruby is defined, as expected, as, for example:&lt;/p&gt;
 
-&lt;p&gt;  foo = lambda { |x| x.to_sym }&lt;/p&gt;&lt;/li&gt;
+&lt;pre&gt;&lt;code&gt;  foo = lambda { |x| x.to_sym }
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The basic differences between a lambda and a proc is that:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -450,7 +451,7 @@ underscores, as in &lt;code&gt;my_name&lt;/code&gt;.&lt;/li&gt;
 of their name.&lt;/li&gt;
 &lt;li&gt;Methods that have destructive side-effects (like changing their input)
 have an exclamation mark (&lt;code&gt;!&lt;/code&gt;) at the end of their name.&lt;/li&gt;
-&lt;li&gt;Code is indented by 2 spaces&lt;/li&gt;
+&lt;li&gt;Code is indented by 2 spaces.&lt;/li&gt;
 &lt;li&gt;Like other languages, constants are written in all caps, with words
 separated by underscores. For example, &lt;code&gt;MAX_VALUE&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Global variables are prefixed with a dollar sign (e.g., &lt;code&gt;$Foo&lt;/code&gt;).&lt;/li&gt;
