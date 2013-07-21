@@ -100,8 +100,8 @@ pagespec
     </tr>
     <tr>
         <td class="month-calendar-day-nolink Sunday">7</td>
-        <td class="month-calendar-day-this-day Monday">8</td>
-        <td class="month-calendar-day-future Tuesday">9</td>
+        <td class="month-calendar-day-nolink Monday">8</td>
+        <td class="month-calendar-day-nolink Tuesday">9</td>
         <td class="month-calendar-day-nolink Wednesday">10</td>
         <td class="month-calendar-day-nolink Thursday">11</td>
         <td class="month-calendar-day-nolink Friday">12</td>
@@ -114,10 +114,10 @@ pagespec
         <td class="month-calendar-day-nolink Wednesday">17</td>
         <td class="month-calendar-day-nolink Thursday">18</td>
         <td class="month-calendar-day-nolink Friday">19</td>
-        <td class="month-calendar-day-nolink Saturday">20</td>
+        <td class="month-calendar-day-this-day Saturday"><a href="../../posts/beginning_ruby/" title="beginning ruby">20</a></td>
     </tr>
     <tr>
-        <td class="month-calendar-day-nolink Sunday">21</td>
+        <td class="month-calendar-day-future Sunday">21</td>
         <td class="month-calendar-day-nolink Monday">22</td>
         <td class="month-calendar-day-nolink Tuesday">23</td>
         <td class="month-calendar-day-nolink Wednesday">24</td>
@@ -208,7 +208,8 @@ to match all openid users, use <code>user(*://*)</code></li>
 <li>"<code>admin()</code>" - tests whether a modification is being made by one of the
 wiki admins.</li>
 <li>"<code>ip(address)</code>" - tests whether a modification is being made from the
-specified IP address.</li>
+specified IP address. Glob patterns can be used in the address. For
+example, <code>ip(127.0.0.*)</code></li>
 <li>"<code>comment(glob)</code>" - matches comments to a page matching the glob.</li>
 <li>"<code>comment_pending(glob)</code>" - matches unmoderated, pending comments.</li>
 <li>"<code>postcomment(glob)</code>" - matches only when comments are being
@@ -304,7 +305,7 @@ Links:
 
 
 <div class="pagedate">
-Last edited <time datetime="2010-10-20T22:53:50Z">2010-10-20T20:53:50 BRST</time>
+Last edited <time datetime="2013-07-08T15:49:38Z">2013-07-08T12:49:38 BRT</time>
 <!-- Created <time datetime="2010-10-20T22:53:50Z" pubdate="pubdate">2010-10-20T20:53:50 BRST</time> -->
 </div>
 

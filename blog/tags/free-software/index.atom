@@ -17,7 +17,470 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-07-04T12:25:16Z</updated>
+<updated>2013-07-21T00:57:59Z</updated>
+<entry>
+	<title>Beginning Ruby</title>
+
+	<id>http://cynic.cc/blog//posts/beginning_ruby/</id>
+
+	<link href="http://cynic.cc/blog//posts/beginning_ruby/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="ruby" />
+
+	<category term="study" />
+
+
+	<updated>2013-07-21T00:57:59Z</updated>
+	<published>2013-07-21T00:50:00Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;These are some very rough/sketchy notes that I took while doing the
+exercises on the introductory track of the Ruby language at
+&lt;a href=&quot;http://www.codeacademy.com/&quot;&gt;codeacademy&lt;/a&gt;.  They were written from the point-of-view of an amateur
+programmer in C and Python (read: &quot;me&quot;).&lt;/p&gt;
+
+&lt;p&gt;Since this is my first time with Ruby and I only have about 1 week of
+experience with it, these notes are likely to contain many mistakes, many
+simplifications, many omissions or simply gross errors.  I would love to be
+informed of such facts so that I can fix them and not write code that is
+burdensome for others to maintain.&lt;/p&gt;
+
+&lt;h1&gt;Operators&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Math operators: &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;, &lt;code&gt;%&lt;/code&gt;, &lt;code&gt;**&lt;/code&gt; (just like Python)&lt;/li&gt;
+&lt;li&gt;Relational operators: &lt;code&gt;==&lt;/code&gt;, &lt;code&gt;&amp;lt;&lt;/code&gt;, &lt;code&gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;=&lt;/code&gt;, &lt;code&gt;&amp;gt;=&lt;/code&gt; (just like other
+languages)&lt;/li&gt;
+&lt;li&gt;Boolean operators: &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;, &lt;code&gt;||&lt;/code&gt;, &lt;code&gt;!&lt;/code&gt; (just like C/C++/Perl)&lt;/li&gt;
+&lt;li&gt;The combined comparison operator (&quot;spaceship operator&quot;, like Perl): &lt;code&gt;&amp;lt;=&amp;gt;&lt;/code&gt;
+(follows the spirit of what &lt;code&gt;strcmp&lt;/code&gt; in C does)&lt;/li&gt;
+&lt;li&gt;Conditional assignment operator (&lt;code&gt;||=&lt;/code&gt;) only assigns a value to a variable
+if that variable is bound to &lt;code&gt;nil&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Numbers&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can write number literals embedding an underscore (&lt;code&gt;_&lt;/code&gt;) for
+readability purposes.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Basic I/O&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Output: &lt;code&gt;print&lt;/code&gt; and &lt;code&gt;puts&lt;/code&gt;. Both print strings to stdout, but &lt;code&gt;puts&lt;/code&gt; also
+appends a new line to the end.&lt;/li&gt;
+&lt;li&gt;Input: &lt;code&gt;gets&lt;/code&gt; accepts an input from stdin and returns a string.&lt;/li&gt;
+&lt;li&gt;To convert a string &lt;code&gt;foo&lt;/code&gt; to an integer, use the &lt;code&gt;Integer(foo)&lt;/code&gt;
+constructor. It throws an exception if it cannot convert the value.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Strings&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Strings have at least some methods: &lt;code&gt;.length&lt;/code&gt;, &lt;code&gt;.reverse&lt;/code&gt;, &lt;code&gt;.upcase&lt;/code&gt;,
+&lt;code&gt;.downcase&lt;/code&gt;, &lt;code&gt;.capitalize&lt;/code&gt;, &lt;code&gt;.chomp&lt;/code&gt; (like Perl, removes the trailing
+endline)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.upcase&lt;/code&gt; seems to have problems with non-ASCII characters, like &lt;code&gt;é&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Interpolation is performed by putting the name &lt;code&gt;name&lt;/code&gt; of the variable
+inside a string and delimited as &lt;code&gt;#{name}&lt;/code&gt; at the place we want the
+interpolation to occur.&lt;/li&gt;
+&lt;li&gt;Methods like &lt;code&gt;.capitalize&lt;/code&gt; don&#39;t change the string (they return a new
+string capitalized).  To change the string, you call the method
+&lt;code&gt;.capitalize!&lt;/code&gt; (with a &lt;code&gt;!&lt;/code&gt; at the end of the name of the method).&lt;/li&gt;
+&lt;li&gt;Other useful methods: &lt;code&gt;.gsub&lt;/code&gt; for globally substituting a regular
+expression (and its variant &lt;code&gt;.gsub!&lt;/code&gt; for inplace modification), and
+&lt;code&gt;.include?&lt;/code&gt; to verify if the first string includes another.&lt;/li&gt;
+&lt;li&gt;Another method: &lt;code&gt;.split(&quot; &quot;)&lt;/code&gt;, to split on the string specified as
+argument.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Control flow&lt;/h1&gt;
+
+&lt;h2&gt;If&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The syntax of a &lt;code&gt;if&lt;/code&gt; is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  if expression1
+    block1
+  elsif expression2
+    block2
+  else
+    block3
+  end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;note that it ends with the word &lt;code&gt;end&lt;/code&gt;, there are no need for parentheses, no
+braces, no colons, and the keyword for &quot;else if&quot; is &lt;code&gt;elsif&lt;/code&gt; (different
+from Python&#39;s &lt;code&gt;elif&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The &quot;&lt;code&gt;if&lt;/code&gt;&quot; can also be started with the keyword &lt;code&gt;unless&lt;/code&gt; instead, which
+checks if the expression is false rather than true (as is the case of
+&lt;code&gt;if&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;While&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The syntax of the &lt;code&gt;while&lt;/code&gt; is similar to other languages:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  while condition
+    block
+  end
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A variation of the &lt;code&gt;while&lt;/code&gt; is the &lt;code&gt;until&lt;/code&gt;, with the same syntax, except
+for the &lt;code&gt;until&lt;/code&gt; in place of the while, and that it iterates when the
+condition is false, instead of true.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;For&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The simple case of iterating over a range of numbers is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  for i in 1...10
+    block
+  end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; Like ranges in Python, the 10 is not included (the variable &lt;code&gt;i&lt;/code&gt; iterates
+ from 1 to 9).&lt;/p&gt;
+
+&lt;p&gt; For an &lt;em&gt;inclusive&lt;/em&gt; range, we use two dots (&lt;code&gt;1..10&lt;/code&gt;), instead of three
+ dots (&lt;code&gt;1...3&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Loop&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;To iterate a block, we can use the &lt;code&gt;loop&lt;/code&gt; keyword, as in:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  loop { block } # with braces
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or as in&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  loop do # note the pair do/end in place of braces
+    block
+  end
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It is useful to use &lt;code&gt;break&lt;/code&gt; when using loop to break out of the infinite
+iterations.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Similarly, we can use &lt;code&gt;next&lt;/code&gt; as in other languages (the same as &lt;code&gt;continue&lt;/code&gt;
+in C or C++).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Arrays&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The equivalent to Python&#39;s lists are arrays and they are declared in the
+same fashion:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  my_array = [1, 2, 3, 4, 5]
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Arrays in Ruby are 0-based.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Every array has an iterator called the &lt;code&gt;.each&lt;/code&gt; method. The basic syntax
+is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  object.each { |item| block } # do something
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which can be written as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  object.each do |item| block end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where the name between &lt;code&gt;| |&lt;/code&gt; is bound to (a copy of?) each element of
+&lt;code&gt;object&lt;/code&gt; in turn. The equivalent in Python would be:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  for item in object:
+    block
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Arrays can be sorted with the &lt;code&gt;.sort&lt;/code&gt; method (or its sibling &lt;code&gt;.sort!&lt;/code&gt;).
+When passing a parameter, it is useful to use the spaceship operator
+(&lt;code&gt;&amp;lt;=&amp;gt;&lt;/code&gt;) (like Perl) to specify a custom order (similar in spirit to what
+we do with Python&#39;s &lt;code&gt;key&lt;/code&gt; argument to the &lt;code&gt;sort&lt;/code&gt; method of a list).
+Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   my_array.sort! {|a, b| a &amp;lt;=&amp;gt; b} # Ascending order
+   my_array.sort! {|a, b| b &amp;lt;=&amp;gt; a} # Descending order
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The &lt;code&gt;.push&lt;/code&gt; method appends an element to an Array (similar to Python&#39;s
+&lt;code&gt;.append&lt;/code&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The empty Array is denoted by &lt;code&gt;[]&lt;/code&gt;, like an empty list in Python.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An iterator (like &lt;code&gt;(1..10)&lt;/code&gt;) can be converted to an array with the &lt;code&gt;.to_a&lt;/code&gt;
+method.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Hashes&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A literal hash is defined by the syntax:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  my_hash = {
+      &quot;key1&quot; =&amp;gt; &quot;abc&quot;,
+      &quot;key2&quot; =&amp;gt; 2,
+      &quot;key3&quot; =&amp;gt; false
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Quite similar to the version in Python:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  my_hash = {
+      &quot;key1&quot;: &quot;abc&quot;,
+      &quot;key2&quot;: 2,
+      &quot;key3&quot;: False
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In fact, in Ruby 1.9, you can write, instead:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  my_hash = {
+      key1: &quot;abc&quot;,
+      key2: 2,
+      key3: false
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which is very similar to Python or JSON.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The empty hash, OTOH, is defined by calling the constructor &lt;code&gt;.new&lt;/code&gt; of the
+class &lt;code&gt;Hash&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  my_hash = Hash.new
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The syntax used by Python can also be used: &lt;code&gt;my_hash = {}&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Iterating over a hash is done the same way as done for an array, but the
+&lt;code&gt;.each&lt;/code&gt; method gives &lt;em&gt;both&lt;/em&gt; the key &lt;em&gt;and&lt;/em&gt; the value, as in:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  my_hash.each do |k, v|
+    puts &quot;#{k}: #{v}&quot;
+  end
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;To iterate only on keys, we use the method &lt;code&gt;.each_key&lt;/code&gt;. To iterate only on
+values, we use the method &lt;code&gt;.each_value&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A hash can be sorted with the &lt;code&gt;.sort_by&lt;/code&gt; method (to sort by keys, values
+or any expression involving them) and since it can be ordered, we can
+reverse (in-place) the order of its elements with the &lt;code&gt;.reverse!&lt;/code&gt; method.
+This makes Ruby&#39;s hashes to &quot;taste&quot; like Python&#39;s &lt;code&gt;OrderedDict&lt;/code&gt;&#39;s.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When one initializes a hash, one can specify a default value to the &lt;code&gt;.new&lt;/code&gt;
+method (e.g., &lt;code&gt;foo = Hash.new(0)&lt;/code&gt;), which makes it convenient to do the
+equivalent of Python&#39;s &lt;code&gt;defaultdict&lt;/code&gt; or &lt;code&gt;Counter&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You can select part of a hash by using the &lt;code&gt;.select&lt;/code&gt; method and giving it
+a block. For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  good_movies = movie_ratings.select{|k, v| v &amp;gt; 3}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Functions/methods&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Functions in Ruby are defined with the word &lt;code&gt;def&lt;/code&gt; (as in Python) and end
+with the word &lt;code&gt;end&lt;/code&gt;, as other composite constructs. Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  def square(n)
+    return n*n
+  end
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Parentheses are optional in Ruby, unless they create ambiguity. So, to
+call the function above one can use any of the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  square(2)
+  square 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A function can take a block as a parameter (and this is what &lt;code&gt;.each&lt;/code&gt; does,
+for instance).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Functions can take a variable number of elements with the &lt;em&gt;splash&lt;/em&gt;
+operator (denoted by &lt;code&gt;*&lt;/code&gt;), which puts the extra parameters in an Array
+(like Python).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Functions can have default parameters, which are set in the &quot;prototype&quot;,
+just like in Python or C++.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If the &lt;code&gt;return&lt;/code&gt; keyword is omitted from the method, Ruby uses an implicit
+return, where the value of the last executed expression is returned to the
+caller of the method.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Symbols&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Any instances of a given symbol share the same ID. This is due to the fact
+that they are immutable.&lt;/li&gt;
+&lt;li&gt;Symbols start with a colon (&lt;code&gt;:&lt;/code&gt;) and they can contain any character that
+is valid for a variable name.&lt;/li&gt;
+&lt;li&gt;It is possible to convert between a symbol and a string with the methods
+&lt;code&gt;.to_s&lt;/code&gt; and &lt;code&gt;.to_sym&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Comments&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Single line comments use the hash symbol (&lt;code&gt;#&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Ruby also has multiline comments, which are delimited by a line beginning
+with &lt;code&gt;=begin&lt;/code&gt; and a line beginning with &lt;code&gt;=end&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Lambda functions&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A lambda function in Ruby is defined, as expected, as, for example:&lt;/p&gt;
+
+&lt;p&gt;  foo = lambda { |x| x.to_sym }&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The basic differences between a lambda and a proc is that:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A lambda checks the number of elements that it receives, while a proc
+doesn&#39;t and assigns &lt;code&gt;nil&lt;/code&gt; to parameters that it didn&#39;t receive (a proc
+seems to ignore extra parameter that it wasn&#39;t expecting).&lt;/li&gt;
+&lt;li&gt;When a lambda returns, the control goes back to the function that called
+the lambda, while when a proc returns, the control is returned &lt;em&gt;also&lt;/em&gt;
+from the function that called the proc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Classes&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&quot;Everything is an object in Ruby.&quot; (At least one exception are blocks).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;To test if an object is of a given class, you use the method &lt;code&gt;.is_a?&lt;/code&gt; on
+the object and the type as argument (e.g., &lt;code&gt;foo.is_a? Integer&lt;/code&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The &quot;null&quot; value in Ruby is &lt;code&gt;nil&lt;/code&gt;. It is equivalent to &lt;code&gt;None&lt;/code&gt; in Python.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The only &quot;falsy&quot; values in Ruby are &lt;code&gt;false&lt;/code&gt; and &lt;code&gt;nil&lt;/code&gt;. The others are
+&quot;truthy&quot;, differently from C/C++/Perl/Python.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For a given object, the method &lt;code&gt;.object_id&lt;/code&gt; returns what is the &quot;address&quot;
+of that object.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Classes in Ruby are created with the syntax&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  class ClassExample
+      # body
+  end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;(That is for a class that has is not derived from other regular classes).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Constructors in Ruby are called &lt;code&gt;initialize&lt;/code&gt;. An instance of a class is
+created by calling the method &lt;code&gt;.new&lt;/code&gt; on the class name (and passing
+parameters as needed for the &lt;code&gt;initialize&lt;/code&gt; method).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Instance variables are named with 1 at sign (&lt;code&gt;@&lt;/code&gt;) as a prefix. Class
+variables are named with 2 at signs (&lt;code&gt;@@&lt;/code&gt;) as a prefix. Global variables
+are named with a dollar sign (&lt;code&gt;$&lt;/code&gt;) as a prefix.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Class methods are declared inside a class prefixed with &lt;code&gt;self.&lt;/code&gt; and they
+are called with the class name suffixed with the name of the method. For
+example, for a class &lt;code&gt;MyClass&lt;/code&gt;, with a class method &lt;code&gt;class_method&lt;/code&gt;, we
+call it as &lt;code&gt;MyClass.class_method&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When overriding a method in a subclass, one can call the method from the
+parent class with the keyword &lt;code&gt;super&lt;/code&gt;, as in &lt;code&gt;super(arg1, arg2)&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ruby doesn&#39;t support multiple inheritance. In place of multiple
+inheritance, Ruby offers mixins.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;To access one attribute, say &lt;code&gt;@my_attrib&lt;/code&gt;, in Ruby classes, one usually
+creates two methods to manipulate it: a method with the name &lt;code&gt;my_attrib&lt;/code&gt;,
+that returns the value of &lt;code&gt;@my_attrib&lt;/code&gt; (a getter) and a method with the
+name &lt;code&gt;my_attrib=&lt;/code&gt; that accepts a parameter to set &lt;code&gt;@my_attrib&lt;/code&gt; to (a
+setter).&lt;/p&gt;
+
+&lt;p&gt;There is syntatic sugar for creating both getters or setters.&lt;/p&gt;
+
+&lt;p&gt;For a getter, you declare &lt;code&gt;attr_reader :my_attrib&lt;/code&gt; (the member name as a
+symbol).&lt;/p&gt;
+
+&lt;p&gt;For a setter, you declare &lt;code&gt;attr_writer :my_attrib&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you need both a getter and a setter, then you can abbreviate them with
+&lt;code&gt;attr_accessor&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;All methods, by default, are public in Ruby. To explicitly mark something
+as public, you use the keyword &lt;code&gt;public&lt;/code&gt;. To mark something as private, you
+use the keyword &lt;code&gt;private&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Modules&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;You can import a module with the keyword &lt;code&gt;require&lt;/code&gt; (as in Perl) and the
+name of the module in quotes.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;One example of a module is the &lt;code&gt;benchmark&lt;/code&gt; module, which provides the
+&lt;code&gt;Benchmark&lt;/code&gt; class, which has the method &lt;code&gt;.realtime&lt;/code&gt;, which takes a block
+and reports how much time it used.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;To create a module, use a syntax similar to that of a class, but
+substituting the keyword &lt;code&gt;class&lt;/code&gt; with &lt;code&gt;module&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The scope resolution operator in Ruby is the double colon (&lt;code&gt;::&lt;/code&gt;), like in
+Perl.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;To create a method inside a module, you have to prefix it by the name of
+the module with a dot or with &lt;code&gt;self.&lt;/code&gt;, if you want to create a method to
+be called outside the module.&lt;/p&gt;
+
+&lt;p&gt;The same also holds for creating class methods (as opposed to &lt;em&gt;instance&lt;/em&gt;
+methods): they can be simply named &lt;code&gt;self.foo&lt;/code&gt; to get a class method called
+&lt;code&gt;foo&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;While some modules are already &quot;preloaded&quot; by the interpreter (e.g.,
+&lt;code&gt;Math&lt;/code&gt;), others need to be explicitly loaded. We do this by using &lt;code&gt;require
+&#39;foo&#39;&lt;/code&gt; to load the module (in the file &lt;code&gt;foo&lt;/code&gt;?).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Mixins&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A mixin is the use of a module to &quot;enrich&quot; a class, adding &quot;instance&quot;
+methods of the module to the class.&lt;/p&gt;
+
+&lt;p&gt;It is, in a sense, a way to have some of multiple inheritance in Ruby
+(without its headaches?)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Using the word &lt;code&gt;include Foo&lt;/code&gt; imports the items of the module &lt;code&gt;Foo&lt;/code&gt; in the
+current namespace for &lt;em&gt;instances&lt;/em&gt; of a class.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Using the word &lt;code&gt;extend Foo&lt;/code&gt; imports the items of the module &lt;code&gt;Foo&lt;/code&gt; in the
+current namespace as class methods/attributes.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Conventions&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Local variables are named in lower case, with parts separated by
+underscores, as in &lt;code&gt;my_name&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Methods that return boolean values have a question mark (&lt;code&gt;?&lt;/code&gt;) at the end
+of their name.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Methods that have destructive side-effects (like changing their input)
+have an exclamation mark (&lt;code&gt;!&lt;/code&gt;) at the end of their name.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Code is indented by 2 spaces&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Like other languages, constants are written in all caps, with words
+separated by underscores. For example, &lt;code&gt;MAX_VALUE&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Global variables are prefixed with a dollar sign (e.g., &lt;code&gt;$Foo&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Classes are named in camel case (no initial lowercase).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The &quot;poetic mode&quot; in Ruby recommends one to omit the parentheses on
+function calls (whenever unambiguous) and, in essence, to write as little
+&quot;bureaucracy&quot; (like the explicit &lt;code&gt;return&lt;/code&gt; keyword in methods).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Playing with MOOCs</title>
 
@@ -756,324 +1219,6 @@ bit with some of the still pending transitions of the the
 stuff.&lt;/p&gt;
 
 &lt;p&gt;Oh, well. I guess that working at home will be the solution for some time.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Running GRUB2 on PowerPC Macs</title>
-
-	<id>http://cynic.cc/blog//posts/running_grub2_on_powerpc_macs/</id>
-
-	<link href="http://cynic.cc/blog//posts/running_grub2_on_powerpc_macs/"/>
-
-
-
-
-
-
-	<category term="configuration" />
-
-	<category term="debian" />
-
-	<category term="development" />
-
-	<category term="free-software" />
-
-	<category term="hacks" />
-
-	<category term="ibook" />
-
-	<category term="kernel" />
-
-	<category term="linux" />
-
-	<category term="mac" />
-
-	<category term="powerpc" />
-
-
-	<updated>2011-04-03T01:21:31Z</updated>
-	<published>2011-04-03T01:18:12Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
-Mac (actually, an iBook G4), since the current documentation is lacking in
-many places (outdated, incorrect, etc.).&lt;/p&gt;
-
-&lt;p&gt;Some of what I say is platform agnostic, though, and may be of interest to
-users of GRUB in general.&lt;/p&gt;
-
-&lt;h1&gt;Basics using GRUB2 with PowerPC&lt;/h1&gt;
-
-&lt;p&gt;First of all, it is important to understand (at least superficially) how
-botting on a Mac works.&lt;/p&gt;
-
-&lt;p&gt;One of the first programs that run in your Mac is the OpenFirmware. It works
-with more or less the same purpose of a BIOS in a regular x86 system. The
-basic idea is the same: get the computer running with whatever programs you
-want it to run. The implementation, though, differs quite a bit.&lt;/p&gt;
-
-&lt;p&gt;First of all, OpenFirmware (OF) usually presents itself as a command-line
-interface that is programmable, differently from the common day BIOSes from
-x86 boxes. As it is programmable, it is more flexible, but this flexibility
-comes at the price of an increased complexity.&lt;/p&gt;
-
-&lt;p&gt;I may write some things more in a future article, if there is any
-interest.&lt;/p&gt;
-
-&lt;p&gt;For now, it just suffices to say that to get to the OF prompt in a Mac, you
-have to press a combination keys during the time that your Mac gives a chime
-when you turn it on. At that moment, you have to press (simulaneously) Cmd +
-Option + O + F. (Note: the Cmd key is the key that has an Apple drawn on it,
-usually on the side of the space bar).&lt;/p&gt;
-
-&lt;h1&gt;Limitations of Open Firmware&lt;/h1&gt;
-
-&lt;p&gt;Differently from usual BIOSes of x86 computers, Open Firmware &lt;em&gt;can&lt;/em&gt; read the
-contents of a partition in your HD (or other devices), as long as it is
-formatted in the original HFS format (&lt;em&gt;not&lt;/em&gt; in HFS+ or one of its
-descendents).&lt;/p&gt;
-
-&lt;p&gt;This is the reason why some older versions of Linux create an HFS partition
-in your HD, even if you don&#39;t intent to run or use anything besides Linux.
-The &lt;code&gt;yaboot&lt;/code&gt; bootloader consists of, among other things, one binary that is
-understandable by OpenFirmware. That binary is a file called &lt;code&gt;yaboot&lt;/code&gt;, after
-the name of the booloader.&lt;/p&gt;
-
-&lt;p&gt;As an aside, you have to indicate to OF what is the file that you want it to
-load during the boot process, so that it knows what to do. The way to
-indicate this is to &quot;bless&quot; the file (and the folder that contains it).
-Some ways to bless a file are to, for example, use the &lt;code&gt;bless&lt;/code&gt; command in
-MacOS X or the &lt;code&gt;hattrib -b&lt;/code&gt; command from hfsutils.&lt;/p&gt;
-
-&lt;p&gt;Files in an HFS filesystem have two attributes that many other filesystems
-don&#39;t: a creator ID (the &quot;application&quot; that created the file) and the type
-ID (which determines what kind of file it is).&lt;/p&gt;
-
-&lt;p&gt;OpenFirmware, in particular, looks for files with the type &lt;code&gt;tbxi&lt;/code&gt; for the
-bootstrap process.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;yaboot&lt;/code&gt; binary is loaded by OF into memory and, then, control is passed
-to the yaboot program, which then reads its configuration file
-(&lt;code&gt;yaboot.conf&lt;/code&gt;) from the same folder where the binary was in. The file
-&lt;code&gt;yaboot.conf&lt;/code&gt; contains instructions for yaboot to do its job. The file
-yaboot.conf is &lt;em&gt;very&lt;/em&gt; similar in construction to configurations of an older
-bootloader for x86 computers, &lt;code&gt;lilo.conf&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Also, in a way similar to what LILO requires, after you install some new
-kernel, change some parameter in the configuration file, etc., you have to
-run a program that will set up everything so that the boot process can know
-of your new configuration. With LILO, this command was called &lt;code&gt;lilo&lt;/code&gt;, while
-with yaboot the command is called &lt;code&gt;ybin&lt;/code&gt; (which, essentially, takes care of
-putting &lt;code&gt;yaboot.conf&lt;/code&gt; in the bootstrap/HFS partition and blesses the
-&lt;code&gt;yaboot&lt;/code&gt; binary).&lt;/p&gt;
-
-&lt;h1&gt;Going to GRUB2&lt;/h1&gt;
-
-&lt;p&gt;One of the characteristics of yaboot (which is left as an exercise to the
-reader to determine if it is a drawback or not) is exactly the way that
-changes in the configuration have to be copied to the special HFS partition:
-the step of running &lt;code&gt;ybin&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;GRUB2 (and its older sibling, GRUB legacy) do away with that: during
-boot-time, it can understand the filesystems that you have in your computer
-and interactively load whatever you want from there, also from a
-command-line like OF, before any (regular) operating system has even been
-started.&lt;/p&gt;
-
-&lt;p&gt;But how do you &lt;em&gt;start&lt;/em&gt; GRUB2? Well, the way that this is performed is
-copying a binary to that special HFS partition. Here things start to be
-hairy, because GRUB2 has a lot of functionality, but it comes at the price
-of it consuming a lot of space (especially if you are using encrypted
-partitions or some kind of logical volume managements with some journalling
-filesystem that allows files to be compressed etc. on top of it).  The list
-goes on.&lt;/p&gt;
-
-&lt;p&gt;Usually, that special HFS partition only has 800KB, which, BTW, is the size
-of an old 3.5&quot; floppy used with older Macs (note: due to some contraints on
-partitions and aligments of such partitions on cylinders, it is not uncommon
-for disk partitioning software to create partitions slighly larger than
-800KB, but &lt;em&gt;not&lt;/em&gt; much larger than that).&lt;/p&gt;
-
-&lt;p&gt;A full-featured binary of GRUB2 to be placed on that HFS partition can have
-much more than those 800KB. But how do you get that binary, in the first
-place? And how do you fit that in the HFS partition?&lt;/p&gt;
-
-&lt;h2&gt;Creating the GRUB2 binary&lt;/h2&gt;
-
-&lt;p&gt;To answer the first question, you have to construct it from your
-&lt;code&gt;grub-ieee1275&lt;/code&gt; package (I&#39;m assuming here that you are using Debian or
-Ubuntu, but similar instructions may apply to other distributions). Then, a
-first step would be to create such binary with:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; mkdir /tmp/foo
- cd /tmp/foo
- cp -a /usr/lib/grub/powerpc-ieee1275/* .
- grub-mkimage -O powerpc-ieee1275 -o ../grub.img *.mod
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The last command of these create an executable named &lt;code&gt;grub.img&lt;/code&gt; that is
-callable from OF and which contains every module from &lt;code&gt;grub-ieee1275&lt;/code&gt;.  This
-executable that I call here &lt;code&gt;grub.img&lt;/code&gt; is called, in GRUB2 parlance,
-&lt;em&gt;the core image&lt;/em&gt; and it it seems to be named &lt;code&gt;core.img&lt;/code&gt; in many systems.&lt;/p&gt;
-
-&lt;p&gt;On my system, with those commands, the binary &lt;code&gt;grub.img&lt;/code&gt; is about 1208KB,
-which is 50% larger than that 800KB partition. And you would like it to be
-&lt;em&gt;much&lt;/em&gt; smaller, becase you want to still have your &lt;code&gt;yaboot&lt;/code&gt; bootloader by
-default while you are evaluating your bootloaders (or using it as a backup
-plan).&lt;/p&gt;
-
-&lt;p&gt;As GRUB2 follow a modular design, you can mix and match the features that
-you want. This already hints you to the way we can fit it in the HFS
-partition, and it is always the same story: just trim the fat.&lt;/p&gt;
-
-&lt;h2&gt;Creating the configuration file&lt;/h2&gt;
-
-&lt;p&gt;You will also have to have GRUB2 configuration&#39;s file (or you will have to
-play with way more commands than you&#39;d want to). An important distinction
-here is that you usually have 2 or more partitions on your Mac:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;the special bootstrap/HFS partition where OF is going to look at (I&#39;ll
-call it &lt;code&gt;/dev/hda2&lt;/code&gt; here);&lt;/li&gt;
-&lt;li&gt;the partition where your &lt;code&gt;/&lt;/code&gt; filesystem resides (denoted by &lt;code&gt;/dev/hda3&lt;/code&gt;
-here);&lt;/li&gt;
-&lt;li&gt;some partition to hold &lt;code&gt;/boot&lt;/code&gt; (I don&#39;t have one of these, but let&#39;s say
-that it is &lt;code&gt;/dev/hda7&lt;/code&gt; for our discussion purposes), usually containing
-your kernels and initial ramdisks.&lt;/li&gt;
-&lt;li&gt;other partitions.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;With this in mind, you can With Let&#39;s say that this last one, in Linux
-parlance, is &lt;code&gt;/dev/hda3&lt;/code&gt; (as is the case of this author), and optionally a
-partition where your Linux kernel resides (people usually use it to store
-the &lt;code&gt;/boot&lt;/code&gt; subtree of a Linux filesystem). Let&#39;s say that this last one is
-&lt;code&gt;/dev/hda7&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Then, you would compose something like the following as a configuration file
-for GRUB2 (named &lt;code&gt;grub.cfg&lt;/code&gt;):&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;insmod part_apple
-insmod ext2
-set root=&#39;(hd,apple7)&#39;
-
-menuentry &quot;Linux&quot; {
-    linux /vmlinux root=/dev/hda3
-    initrd /initrd
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;There are one two important points here that deserve more comments:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Note that, &lt;strong&gt;differently&lt;/strong&gt; from a regular x86 system, in a Mac system with
-only one HD the way that you specify an HD does &lt;em&gt;not&lt;/em&gt; have a trailing
-zero. For instance, in the case above of the variable &lt;code&gt;root&lt;/code&gt;, we have
-&lt;code&gt;(hd,apple7)&lt;/code&gt;, while in a &quot;common PC&quot; we would have the &lt;code&gt;(hd&lt;/code&gt; part
-replaced with &lt;code&gt;(hd0&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;That&#39;s something that you should make your distribution aware of, if they
-aren&#39;t yet.&lt;/p&gt;
-
-&lt;p&gt;As an addendum, I don&#39;t know how it works with systems with more than one
-HD, as I only have (PowerPC) Macs that are notebooks. If you can share any
-experiences, please do.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;One point of caution here: what GRUB2 calls &lt;code&gt;root&lt;/code&gt; is not necessarily the
-root of your filesystem (i.e., the partition that holds &lt;code&gt;/&lt;/code&gt;), but the
-&lt;em&gt;device&lt;/em&gt; that everything that is &quot;not fully qualified&quot; is interpreted as
-being relative to.&lt;/p&gt;
-
-&lt;p&gt;The &quot;not fully qualified&quot; above means anything that is not prefixed with
-&lt;a href=&quot;http://www.gnu.org/software/grub/manual/grub.html#Device-syntax&quot;&gt;GRUB&#39;s device notation&lt;/a&gt;.
-As an example, &lt;code&gt;(hd,apple2)/boot/vmlinux&lt;/code&gt; if fully qualified for GRUB&#39;s
-purpose, while &lt;code&gt;/boot/vmlinux&lt;/code&gt; is not.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;h2&gt;Putting it all together&lt;/h2&gt;
-
-&lt;p&gt;The next step is to just copy the files &lt;code&gt;grub.img&lt;/code&gt; and &lt;code&gt;grub.cfg&lt;/code&gt; to the
-special HFS partition. You can do that using &lt;code&gt;hmount&lt;/code&gt;, &lt;code&gt;hcopy&lt;/code&gt;, and
-&lt;code&gt;humount&lt;/code&gt; or you can use the regular Linux &lt;code&gt;hfs&lt;/code&gt; module to copy to that
-partition.&lt;/p&gt;
-
-&lt;p&gt;Then, boot your system, get into the OF prompt and execute:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;boot hd:2,grub.img
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Here, the &lt;code&gt;2&lt;/code&gt; above is a reference to my HFS partition. Substitute that with
-yours, appropriately. You will then see the common (familiar?) GRUB prompt
-and, from there, everything else that you know will (hopefully) work.&lt;/p&gt;
-
-&lt;h1&gt;The list of modules that &quot;Works for Me(TM)&quot;&lt;/h1&gt;
-
-&lt;p&gt;As I mentioned above, I use a subset of all modules that come with
-&lt;code&gt;grub-ieee1275&lt;/code&gt; to create my &lt;code&gt;grub.img&lt;/code&gt; binary. Here is the list of modules
-that I use and that gives me a reasonably sized bootloader:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;bitmap.mod        datehook.mod  gzio.mod         lsmmap.mod      reboot.mod          terminal.mod
-bitmap_scale.mod  datetime.mod  halt.mod         memdisk.mod     regexp.mod          test.mod
-blocklist.mod     echo.mod      help.mod         memrw.mod       relocator.mod       trig.mod
-boot.mod          elf.mod       hexdump.mod      minicmd.mod     scsi.mod            true.mod
-bufio.mod         ext2.mod      hfs.mod          msdospart.mod   search.mod          video.mod
-cat.mod           fat.mod       hfsplus.mod      normal.mod      search_fs_file.mod  video_fb.mod
-cmp.mod           font.mod      ieee1275_fb.mod  part_apple.mod  search_fs_uuid.mod  videoinfo.mod
-configfile.mod    fshelp.mod    linux.mod        part_msdos.mod  search_label.mod
-cpio.mod          gettext.mod   loadenv.mod      parttool.mod    setjmp.mod
-crypto.mod        gfxmenu.mod   loopback.mod     probe.mod       sleep.mod
-date.mod          gfxterm.mod   ls.mod           read.mod        suspend.mod
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Just for the record, my &lt;code&gt;grub.img&lt;/code&gt; file has 624KB, and that can certainly be
-shrunk.&lt;/p&gt;
-
-&lt;h1&gt;The command line that &quot;Works for Me(TM)&quot; to create the image&lt;/h1&gt;
-
-&lt;p&gt;Actually, I lied when I told you that I used the lines above to create my
-&lt;code&gt;grub.img&lt;/code&gt; file, because I&#39;m lazy and I don&#39;t want to type the &lt;code&gt;.img&lt;/code&gt;
-extension. I also &lt;em&gt;embed&lt;/em&gt; my configuration file in the binary that I create
-with GRUB2, so that I don&#39;t have two files to copy to my HFS partition, but
-only one. I do that with:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;grub-mkimage -c grub.cfg -o ../grub -O powerpc-ieee1275 -d . *.mod
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;OK. No more lies here.&lt;/p&gt;
-
-&lt;p&gt;The nice aspect of GRUB is that one you install that image, you don&#39;t have
-to touch that HFS partition anymore: you simply update your regular
-filesystem&#39;s &lt;code&gt;/boot/grub/grub.cfg&lt;/code&gt; file (which is usually performed when you
-install a new kernel, at least with Debian) and you&#39;re ready to go.&lt;/p&gt;
-
-&lt;p&gt;The good way to do that is to use a minimal configuration file embedded in
-your &lt;code&gt;grub&lt;/code&gt; binary in your HFS partition that will hook into the system&#39;s
-&lt;code&gt;/boot/grub/grub.cfg&lt;/code&gt; to read newer kernels and leave the HFS partition (and
-your system&#39;s NVRAM) alone.&lt;/p&gt;
-
-&lt;p&gt;Here is what I am using right now:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;search --no-floppy --fs-uuid --set=root 35d26869-f7c9-4852-a9b8-100314560c34
-set prefix=($root)/boot/grub
-configfile /boot/grub/grub.cfg
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You will, of course, want to modify the file above as you install newer
-kernels (perhaps even that unsupported operating system from that fruity
-company, who knows?). Don&#39;t forget to change the UUID&#39;s, and partition
-numbers to fit your needs.&lt;/p&gt;
-
-&lt;p&gt;Well, that&#39;s it. I hope that it helps somebody out there, as the information
-that I got otherwise was way outdated, incomplete, etc. to keep up with
-GRUB2 from these days. Now, let&#39;s go patch the tools that we have so that
-not everybody who wants to use GRUB2 have to learn about its workings.&lt;/p&gt;
-
-&lt;p&gt;Oh, of course, you can now have your kernels in ext4, btrfs, xfs
-etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p&gt;
 
 	</content>
 
