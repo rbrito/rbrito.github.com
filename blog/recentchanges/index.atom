@@ -17,7 +17,68 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-07-21T12:18:29Z</updated>
+<updated>2013-08-05T20:05:34Z</updated>
+<entry>
+	<title>change to templates/page.tmpl on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+
+	<id>http://cynic.cc/blog//recentchanges/change_3f8f10bf41af26cf1aec2d09dd9f1b07503e7947/</id>
+
+	<link href="http://cynic.cc/blog/recentchanges/#change-3f8f10bf41af26cf1aec2d09dd9f1b07503e7947"/>
+
+	<author><name>rbrito</name></author>
+
+
+
+
+
+	<updated>2013-08-05T20:05:34Z</updated>
+	<published>2013-08-05T20:05:34Z</published>
+
+	<content type="html" xml:lang="en">
+	
+
+
+
+
+
+&lt;div id=&quot;change-3f8f10bf41af26cf1aec2d09dd9f1b07503e7947&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+templates/page.tmpl
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-08-05T20:05:34Z&quot;&gt;17:05:34 2013-08-05&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+templates: page: Move loading mathjax to the bottom of the page.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 3f8f10bf41af26cf1aec2d09dd9f1b07503e7947 --&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>change to posts/beginning_ruby on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 
@@ -6181,67 +6242,6 @@ creating tag page tags/quotient-groups&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 72aac9eb66240eaa597eaaa6f6284940242a783a --&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>change to tags/abstract-algebra on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-
-	<id>http://cynic.cc/blog//recentchanges/change_7779d7dea371348e06c0a7829b9d10fcee16e03e/</id>
-
-	<link href="http://cynic.cc/blog/recentchanges/#change-7779d7dea371348e06c0a7829b9d10fcee16e03e"/>
-
-	<author><name>rbrito</name></author>
-
-
-
-
-
-	<updated>2012-09-07T06:57:07Z</updated>
-	<published>2012-09-07T06:57:07Z</published>
-
-	<content type="html" xml:lang="en">
-	
-
-
-
-
-
-&lt;div id=&quot;change-7779d7dea371348e06c0a7829b9d10fcee16e03e&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-tags/abstract-algebra
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-07T06:57:07Z&quot;&gt;03:57:07 2012-09-07&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/abstract-algebra&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 7779d7dea371348e06c0a7829b9d10fcee16e03e --&gt;
 
 	</content>
 
