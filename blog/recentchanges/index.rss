@@ -8,6 +8,191 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>rbrito: change to .blog.setup on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://cynic.cc/blog//recentchanges/change_7d4c276666a7e680d77e11fa8cad77ed1e6bb02f/</guid>
+
+	<link>http://cynic.cc/blog/recentchanges/#change-7d4c276666a7e680d77e11fa8cad77ed1e6bb02f</link>
+
+	<pubDate>Sat, 20 Jul 2013 22:36:26 -0300</pubDate>
+	<dcterms:modified>2013-07-21T01:36:26Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-7d4c276666a7e680d77e11fa8cad77ed1e6bb02f&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+.blog.setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-07-21T01:36:26Z&quot;&gt;22:36:26 2013-07-20&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+setup: Add some plugins which I may want to use.&lt;br /&gt;
+
+
+
+
+
+These are much less convenient to use than Github flavored markdown, but&lt;br /&gt;
+
+
+
+that&amp;#39;s what I have installed. Perhaps I may use the &amp;#91;code&amp;#93; plugin for&lt;br /&gt;
+
+
+
+ikiwiki.&lt;br /&gt;
+
+
+
+
+
+&amp;#91;code&amp;#93;: http://jblevins.org/projects/ikiwiki/code&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 7d4c276666a7e680d77e11fa8cad77ed1e6bb02f --&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to .blog.setup on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://cynic.cc/blog//recentchanges/change_7fa68db0660df73b2487ff3d72cd37595a9f34af/</guid>
+
+	<link>http://cynic.cc/blog/recentchanges/#change-7fa68db0660df73b2487ff3d72cd37595a9f34af</link>
+
+	<pubDate>Sat, 20 Jul 2013 22:35:40 -0300</pubDate>
+	<dcterms:modified>2013-07-21T01:35:40Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-7fa68db0660df73b2487ff3d72cd37595a9f34af&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+.blog.setup
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-07-21T01:35:40Z&quot;&gt;22:35:40 2013-07-20&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+setup: Disable multimarkdown, as I don&amp;#39;t have it installed.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- 7fa68db0660df73b2487ff3d72cd37595a9f34af --&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>rbrito: change to posts/beginning_ruby on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
+	<dcterms:creator>rbrito</dcterms:creator>
+
+
+	<guid isPermaLink="false">http://cynic.cc/blog//recentchanges/change_ca0c23d82bbf405ddad9b32b9b746ada929f0959/</guid>
+
+	<link>http://cynic.cc/blog/recentchanges/#change-ca0c23d82bbf405ddad9b32b9b746ada929f0959</link>
+
+	<pubDate>Sat, 20 Jul 2013 22:18:31 -0300</pubDate>
+	<dcterms:modified>2013-07-21T01:18:31Z</dcterms:modified>
+
+	<description>
+
+
+
+
+
+&lt;div id=&quot;change-ca0c23d82bbf405ddad9b32b9b746ada929f0959&quot; class=&quot;metadata&quot;&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
+&lt;span class=&quot;pagelinks&quot;&gt;
+
+
+
+
+posts/beginning ruby
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
+&lt;span class=&quot;committer&quot;&gt;
+
+rbrito
+
+&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
+&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
+&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2013-07-21T01:18:31Z&quot;&gt;22:18:31 2013-07-20&lt;/time&gt;&lt;/span&gt;
+&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;changelog&quot;&gt;
+
+
+Fix symmetry of examples.&lt;br /&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- ca0c23d82bbf405ddad9b32b9b746ada929f0959 --&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>rbrito: change to posts/beginning_ruby on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
 	<dcterms:creator>rbrito</dcterms:creator>
 
@@ -5447,171 +5632,6 @@ creating tag page tags/group-theory&lt;br /&gt;
 &lt;/div&gt;
 
 &lt;!-- 75dedbe41e258fc1b76bbddc3741824c33fd48ee --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/itunesu on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//recentchanges/change_7dd54c4dd237982e6e7355b1b759e357f4e6efca/</guid>
-
-	<link>http://cynic.cc/blog/recentchanges/#change-7dd54c4dd237982e6e7355b1b759e357f4e6efca</link>
-
-	<pubDate>Fri, 07 Sep 2012 03:56:55 -0300</pubDate>
-	<dcterms:modified>2012-09-07T06:56:55Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-7dd54c4dd237982e6e7355b1b759e357f4e6efca&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-tags/itunesu
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-07T06:56:55Z&quot;&gt;03:56:55 2012-09-07&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/itunesu&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 7dd54c4dd237982e6e7355b1b759e357f4e6efca --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/descartes on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//recentchanges/change_b3d6845fca7395c5908f895a69ca8bb3c0f80037/</guid>
-
-	<link>http://cynic.cc/blog/recentchanges/#change-b3d6845fca7395c5908f895a69ca8bb3c0f80037</link>
-
-	<pubDate>Fri, 07 Sep 2012 03:56:52 -0300</pubDate>
-	<dcterms:modified>2012-09-07T06:56:52Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-b3d6845fca7395c5908f895a69ca8bb3c0f80037&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-tags/descartes
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-07T06:56:52Z&quot;&gt;03:56:52 2012-09-07&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/descartes&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- b3d6845fca7395c5908f895a69ca8bb3c0f80037 --&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>rbrito: change to tags/music on Rog&#xE9;rio Brito&#x27;s Digital Junkyard</title>
-	<dcterms:creator>rbrito</dcterms:creator>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//recentchanges/change_82badf4c110778989baa5ac5def24c02f2ec3cf5/</guid>
-
-	<link>http://cynic.cc/blog/recentchanges/#change-82badf4c110778989baa5ac5def24c02f2ec3cf5</link>
-
-	<pubDate>Fri, 07 Sep 2012 03:56:48 -0300</pubDate>
-	<dcterms:modified>2012-09-07T06:56:48Z</dcterms:modified>
-
-	<description>
-
-
-
-
-
-&lt;div id=&quot;change-82badf4c110778989baa5ac5def24c02f2ec3cf5&quot; class=&quot;metadata&quot;&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed pages:&lt;/span&gt;
-&lt;span class=&quot;pagelinks&quot;&gt;
-
-
-
-
-tags/music
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Changed by:&lt;/span&gt;
-&lt;span class=&quot;committer&quot;&gt;
-
-rbrito
-
-&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Commit type:&lt;/span&gt;
-&lt;span class=&quot;committype&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;Date:&lt;/span&gt;
-&lt;span class=&quot;changedate&quot;&gt;&lt;time datetime=&quot;2012-09-07T06:56:48Z&quot;&gt;03:56:48 2012-09-07&lt;/time&gt;&lt;/span&gt;
-&lt;span class=&quot;desc&quot;&gt;&lt;br /&gt;&lt;/span&gt;
-
-&lt;/div&gt;
-&lt;div class=&quot;changelog&quot;&gt;
-
-
-creating tag page tags/music&lt;br /&gt;
-
-
-&lt;/div&gt;
-
-&lt;!-- 82badf4c110778989baa5ac5def24c02f2ec3cf5 --&gt;
 </description>
 
 

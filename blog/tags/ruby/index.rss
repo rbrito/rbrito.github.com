@@ -26,7 +26,7 @@
 
 
 	<pubDate>Sat, 20 Jul 2013 21:50:00 -0300</pubDate>
-	<dcterms:modified>2013-07-21T01:10:52Z</dcterms:modified>
+	<dcterms:modified>2013-07-21T01:38:05Z</dcterms:modified>
 
 	<description>&lt;p&gt;These are some very rough/sketchy notes that I took while doing the
 exercises on the introductory track of the Ruby language at
@@ -147,7 +147,7 @@ condition is false, instead of true.&lt;/p&gt;&lt;/li&gt;
  from 1 to 9).&lt;/p&gt;
 
 &lt;p&gt; For an &lt;em&gt;inclusive&lt;/em&gt; range, we use two dots (&lt;code&gt;1..10&lt;/code&gt;), instead of three
- dots (&lt;code&gt;1...3&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
+ dots (&lt;code&gt;1...10&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 
