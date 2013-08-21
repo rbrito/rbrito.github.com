@@ -8,6 +8,100 @@
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <item>
 
+	<title>SNA Acceleration vs. UXA Acceleration</title>
+
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/sna_acceleration_vs_uxa/</guid>
+
+	<link>http://cynic.cc/blog//posts/sna_acceleration_vs_uxa/</link>
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>linux</category>
+
+	<category>video</category>
+
+	<category>xorg</category>
+
+
+	<pubDate>Wed, 21 Aug 2013 13:44:19 -0300</pubDate>
+	<dcterms:modified>2013-08-21T16:44:29Z</dcterms:modified>
+
+	<description>&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
+I am using right now, instead of my usual sid installations), I decided to
+see what they would bring me in terms of performance, since they have the
+SNA acceleration implemented as well as the standard UXA acceleration.&lt;/p&gt;
+
+&lt;p&gt;Well, I did not have any other tests to perform, but below are the results
+on my wife&#39;s laptop (a Core i5 2410M), when running &lt;a href=&quot;http://packages.debian.org/gtkperf&quot;&gt;gtkperf&lt;/a&gt;:&lt;/p&gt;
+
+&lt;h1&gt;With UXA&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;GtkPerf 0.40 - Starting testing: Mon Aug 12 20:33:20 2013
+
+GtkEntry - time:  0.19
+GtkComboBox - time:  5.36
+GtkComboBoxEntry - time:  3.59
+GtkSpinButton - time:  0.60
+GtkProgressBar - time:  0.41
+GtkToggleButton - time:  0.73
+GtkCheckButton - time:  0.48
+GtkRadioButton - time:  0.97
+GtkTextView - Add text - time: 21.72
+GtkTextView - Scroll - time:  2.29
+GtkDrawingArea - Lines - time:  6.18
+GtkDrawingArea - Circles - time:  6.74
+GtkDrawingArea - Text - time:  4.32
+GtkDrawingArea - Pixbufs - time:  0.67
+ --- 
+Total time: 54.25
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1&gt;With SNA&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;GtkPerf 0.40 - Starting testing: Mon Aug 12 20:36:58 2013
+
+GtkEntry - time:  0.21
+GtkComboBox - time:  4.86
+GtkComboBoxEntry - time:  2.67
+GtkSpinButton - time:  0.59
+GtkProgressBar - time:  0.24
+GtkToggleButton - time:  0.61
+GtkCheckButton - time:  0.51
+GtkRadioButton - time:  1.00
+GtkTextView - Add text - time: 17.19
+GtkTextView - Scroll - time:  1.84
+GtkDrawingArea - Lines - time:  2.70
+GtkDrawingArea - Circles - time:  2.65
+GtkDrawingArea - Text - time:  1.72
+GtkDrawingArea - Pixbufs - time:  0.11
+ --- 
+Total time: 36.91
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So, with SNA, the timing that I get are almost 2 times lower, which is
+superb for a very simple &lt;code&gt;/etc/X11/xorg.conf&lt;/code&gt; config file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Section &quot;Device&quot;
+        Identifier &quot;Intel Graphics&quot;
+        Driver &quot;intel&quot;
+        Option &quot;AccelMethod&quot; &quot;sna&quot;
+EndSection
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I have not noticed any change, but if drawing graphics faster means that I
+get a bit more of battery life, then I will be super happy. I still have not
+tested if this works on my notebook with a Core2Duo T7250. Crossing my
+fingers so that it does.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+
 	<title>Lack of cooperation from Ubuntu?</title>
 
 
@@ -937,78 +1031,6 @@ makes your Linux desktop seem like you are running
 aspects of Perl that I don&#39;t like. It&#39;s saddening that I&#39;ve spent
 so much time and money (buying books) for something that I&#39;m not
 really enjoying (but it&#39;s ok).&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2001-12-29</title>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-12-29/</guid>
-
-	<link>http://cynic.cc/blog//posts/2001-12-29/</link>
-
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>hardware</category>
-
-	<category>lame</category>
-
-	<category>linux</category>
-
-	<category>powerpc</category>
-
-
-	<pubDate>Sat, 29 Dec 2001 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
-
-	<description>&lt;p&gt;Today I finally got the Power Macintosh 9500/180MP with
-&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian testing&lt;/a&gt; installed in a semi-decent
-way: I&#39;m using BenH&#39;s 2.4.17-ben0 kernel which finally has the mace
-driver working again. What does this mean? Well, it means that I&#39;m
-now not confined to 2.2.x kernels anymore. A 2.4 kernel has many
-advantages, especially, for the PowerPC platform. Among other
-things, they are faster for the same hardware, have good SMP
-support, the IMSTT pci card is recognized (which wasn&#39;t in the 2.2
-kernels) and a lot of other nice goodies like a journalling
-filesystem (ext3) etc.
-Also got &lt;a href=&quot;http://www.mp3dev.org/mp3/&quot;&gt;lame 3.90.1&lt;/a&gt; compiled for the
-PowerPC in a decent way.&lt;/p&gt;
-
-&lt;p&gt;A collateral effect of having lame compiled for the ppc is that now
-I have a have a good benchmark that shows me roughly how much
-slower this thing is in relation to my Duron 600MHz. The sad news:
-it is 5 or 6 times slower than the Duron. If lame were
-multithreaded, then it could be up to 2.5 times slower, which would
-be acceptable for day-to-day use.&lt;/p&gt;
-
-&lt;p&gt;As a side note, got some work done to make the Debian packaging
-scripts a bit nicer (read: closer to being lintian clean).
-Unfortunately, lintian still complains about the shared library
-package having an rpath and I don&#39;t know how to get rid of that
-(not even a kludgy solution).&lt;/p&gt;
-
-&lt;p&gt;Since &lt;a href=&quot;http://mplayer.sf.net&quot;&gt;MPlayer&lt;/a&gt; released another version
-(0.60pre2), I downloaded the sources and, to my surprise, it
-compiles on PPC (the 0.60pre1 didn&#39;t). And it even plays, errr,
-tries to play DivX movies! Amazing job these guys are
-accomplishing.&lt;/p&gt;
-
-&lt;p&gt;After struggling a lot with the configuration files, also got X
-4.1.0 working on a framebuffer device (the imstt driver doesn&#39;t
-work). So, now I even have a reasonably fast, modest GUI working
-(or a slower GUI if I load &lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE 2&lt;/a&gt;). And I can
-even use &lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt; here, although the
-swapping doesn&#39;t make it a pleasant experience. In this respect,
-&lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt;, while non-free, is much better.&lt;/p&gt;
-
-&lt;p&gt;All in all, this can now be a poor&#39;s man desktop machine. If it
-only consumed power proportional to its speed, it would be nicer.&lt;/p&gt;
 </description>
 
 

@@ -17,7 +17,106 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-08-02T09:12:26Z</updated>
+<updated>2013-08-21T16:44:29Z</updated>
+<entry>
+	<title>SNA Acceleration vs. UXA Acceleration</title>
+
+	<id>http://cynic.cc/blog//posts/sna_acceleration_vs_uxa/</id>
+
+	<link href="http://cynic.cc/blog//posts/sna_acceleration_vs_uxa/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="linux" />
+
+	<category term="video" />
+
+	<category term="xorg" />
+
+
+	<updated>2013-08-21T16:44:29Z</updated>
+	<published>2013-08-21T16:44:19Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
+I am using right now, instead of my usual sid installations), I decided to
+see what they would bring me in terms of performance, since they have the
+SNA acceleration implemented as well as the standard UXA acceleration.&lt;/p&gt;
+
+&lt;p&gt;Well, I did not have any other tests to perform, but below are the results
+on my wife&#39;s laptop (a Core i5 2410M), when running &lt;a href=&quot;http://packages.debian.org/gtkperf&quot;&gt;gtkperf&lt;/a&gt;:&lt;/p&gt;
+
+&lt;h1&gt;With UXA&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;GtkPerf 0.40 - Starting testing: Mon Aug 12 20:33:20 2013
+
+GtkEntry - time:  0.19
+GtkComboBox - time:  5.36
+GtkComboBoxEntry - time:  3.59
+GtkSpinButton - time:  0.60
+GtkProgressBar - time:  0.41
+GtkToggleButton - time:  0.73
+GtkCheckButton - time:  0.48
+GtkRadioButton - time:  0.97
+GtkTextView - Add text - time: 21.72
+GtkTextView - Scroll - time:  2.29
+GtkDrawingArea - Lines - time:  6.18
+GtkDrawingArea - Circles - time:  6.74
+GtkDrawingArea - Text - time:  4.32
+GtkDrawingArea - Pixbufs - time:  0.67
+ --- 
+Total time: 54.25
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1&gt;With SNA&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;GtkPerf 0.40 - Starting testing: Mon Aug 12 20:36:58 2013
+
+GtkEntry - time:  0.21
+GtkComboBox - time:  4.86
+GtkComboBoxEntry - time:  2.67
+GtkSpinButton - time:  0.59
+GtkProgressBar - time:  0.24
+GtkToggleButton - time:  0.61
+GtkCheckButton - time:  0.51
+GtkRadioButton - time:  1.00
+GtkTextView - Add text - time: 17.19
+GtkTextView - Scroll - time:  1.84
+GtkDrawingArea - Lines - time:  2.70
+GtkDrawingArea - Circles - time:  2.65
+GtkDrawingArea - Text - time:  1.72
+GtkDrawingArea - Pixbufs - time:  0.11
+ --- 
+Total time: 36.91
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So, with SNA, the timing that I get are almost 2 times lower, which is
+superb for a very simple &lt;code&gt;/etc/X11/xorg.conf&lt;/code&gt; config file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Section &quot;Device&quot;
+        Identifier &quot;Intel Graphics&quot;
+        Driver &quot;intel&quot;
+        Option &quot;AccelMethod&quot; &quot;sna&quot;
+EndSection
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I have not noticed any change, but if drawing graphics faster means that I
+get a bit more of battery life, then I will be super happy. I still have not
+tested if this works on my notebook with a Core2Duo T7250. Crossing my
+fingers so that it does.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Beginning Ruby</title>
 
@@ -1137,68 +1236,6 @@ etc.  I investigate each point here:&lt;/p&gt;
 &lt;p&gt;To cut a long story short, I RTFM and did everything correctly. So, dear
 lazyweb, what would my options be to fund a tiny bit of my software
 contributions?&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Trying out AdSense</title>
-
-	<id>http://cynic.cc/blog//posts/trying_out_adsense/</id>
-
-	<link href="http://cynic.cc/blog//posts/trying_out_adsense/"/>
-
-
-
-
-
-
-	<category term="adsense" />
-
-	<category term="advertisements" />
-
-	<category term="debian" />
-
-	<category term="debian-planet" />
-
-	<category term="free-software" />
-
-	<category term="funding" />
-
-
-	<updated>2012-09-03T23:16:51Z</updated>
-	<published>2012-09-03T23:12:42Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;I have been having quite costly experiments with &lt;a href=&quot;http://buffalo.nas-central.org/wiki/LS_Hardware_and_Software_information&quot;&gt;(embeded) hardware&lt;/a&gt; in
-the last few weeks/months. To cover at least part of the expenses, I am
-trying out to use Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; with my blog.&lt;/p&gt;
-
-&lt;p&gt;I plan on blogging more frequently with the results of the experiments, but
-it will take me a few days, as I want to offer people only the &quot;meat&quot; of
-what I actually did, pointing out some pitfalls that made me waste a lot of
-time.&lt;/p&gt;
-
-&lt;p&gt;Anyway, back to AdSense, one interesting thing about trying it is that I
-applied to be part of the program for 3 or 4 times late in August and, due
-to unspecified reasons, my application was rejected for &quot;not complying with
-their policies&quot;.  I read the policies from left to side, from up and down
-and nowhere I saw anything that my blog infringed.&lt;/p&gt;
-
-&lt;p&gt;This morning, I tried once again and I&#39;m now in a sort of &quot;probation period&quot;
-for AdSense, which is progress I think.&lt;/p&gt;
-
-&lt;p&gt;So far, I only put one advertisement at the top of my pages, but I am
-curious to know how &quot;targeted&quot; those ads would be to a blog that has
-articles that were written more than a decade ago, with posts in at least
-two languages.&lt;/p&gt;
-
-&lt;p&gt;I guess that this is a weaker version of what &lt;a href=&quot;http://raphaelhertzog.com/&quot;&gt;Raphaël Hertzog&lt;/a&gt; is trying
-to do with his funding campaigns, except that I only expect to cover the
-costs of my hardware (even if I am skeptical that I will actually manage to
-reach that point of self-sufficiency).&lt;/p&gt;
 
 	</content>
 

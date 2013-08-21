@@ -17,7 +17,106 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-08-02T09:12:26Z</updated>
+<updated>2013-08-21T16:44:29Z</updated>
+<entry>
+	<title>SNA Acceleration vs. UXA Acceleration</title>
+
+	<id>http://cynic.cc/blog//posts/sna_acceleration_vs_uxa/</id>
+
+	<link href="http://cynic.cc/blog//posts/sna_acceleration_vs_uxa/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="linux" />
+
+	<category term="video" />
+
+	<category term="xorg" />
+
+
+	<updated>2013-08-21T16:44:29Z</updated>
+	<published>2013-08-21T16:44:19Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
+I am using right now, instead of my usual sid installations), I decided to
+see what they would bring me in terms of performance, since they have the
+SNA acceleration implemented as well as the standard UXA acceleration.&lt;/p&gt;
+
+&lt;p&gt;Well, I did not have any other tests to perform, but below are the results
+on my wife&#39;s laptop (a Core i5 2410M), when running &lt;a href=&quot;http://packages.debian.org/gtkperf&quot;&gt;gtkperf&lt;/a&gt;:&lt;/p&gt;
+
+&lt;h1&gt;With UXA&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;GtkPerf 0.40 - Starting testing: Mon Aug 12 20:33:20 2013
+
+GtkEntry - time:  0.19
+GtkComboBox - time:  5.36
+GtkComboBoxEntry - time:  3.59
+GtkSpinButton - time:  0.60
+GtkProgressBar - time:  0.41
+GtkToggleButton - time:  0.73
+GtkCheckButton - time:  0.48
+GtkRadioButton - time:  0.97
+GtkTextView - Add text - time: 21.72
+GtkTextView - Scroll - time:  2.29
+GtkDrawingArea - Lines - time:  6.18
+GtkDrawingArea - Circles - time:  6.74
+GtkDrawingArea - Text - time:  4.32
+GtkDrawingArea - Pixbufs - time:  0.67
+ --- 
+Total time: 54.25
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1&gt;With SNA&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;GtkPerf 0.40 - Starting testing: Mon Aug 12 20:36:58 2013
+
+GtkEntry - time:  0.21
+GtkComboBox - time:  4.86
+GtkComboBoxEntry - time:  2.67
+GtkSpinButton - time:  0.59
+GtkProgressBar - time:  0.24
+GtkToggleButton - time:  0.61
+GtkCheckButton - time:  0.51
+GtkRadioButton - time:  1.00
+GtkTextView - Add text - time: 17.19
+GtkTextView - Scroll - time:  1.84
+GtkDrawingArea - Lines - time:  2.70
+GtkDrawingArea - Circles - time:  2.65
+GtkDrawingArea - Text - time:  1.72
+GtkDrawingArea - Pixbufs - time:  0.11
+ --- 
+Total time: 36.91
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So, with SNA, the timing that I get are almost 2 times lower, which is
+superb for a very simple &lt;code&gt;/etc/X11/xorg.conf&lt;/code&gt; config file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Section &quot;Device&quot;
+        Identifier &quot;Intel Graphics&quot;
+        Driver &quot;intel&quot;
+        Option &quot;AccelMethod&quot; &quot;sna&quot;
+EndSection
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I have not noticed any change, but if drawing graphics faster means that I
+get a bit more of battery life, then I will be super happy. I still have not
+tested if this works on my notebook with a Core2Duo T7250. Crossing my
+fingers so that it does.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Beginning Ruby</title>
 
@@ -1156,70 +1255,6 @@ two languages.&lt;/p&gt;
 to do with his funding campaigns, except that I only expect to cover the
 costs of my hardware (even if I am skeptical that I will actually manage to
 reach that point of self-sufficiency).&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>I am not going to DebConf 12</title>
-
-	<id>http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</id>
-
-	<link href="http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/"/>
-
-
-
-
-
-
-	<category term="debconf" />
-
-	<category term="debian" />
-
-	<category term="development" />
-
-	<category term="fonts" />
-
-	<category term="free-software" />
-
-	<category term="handbrake" />
-
-	<category term="multimedia" />
-
-
-	<updated>2012-06-07T04:58:09Z</updated>
-	<published>2012-06-07T04:59:42Z</published>
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Due to some real life impediments (including a beautiful one with just over
-2 months of life called Daniel), I will not be able to go to this year&#39;s
-DebConf, even though it seems that this DebConf will exceed many
-expectations with the support that the governement of Nicaragua just
-offered.&lt;/p&gt;
-
-&lt;h1&gt;Things that I would like to have worked on&lt;/h1&gt;
-
-&lt;p&gt;Unfortunately, this means that I will not be working with some fellows that
-may be there, like people from the &lt;code&gt;pkg-multimedia&lt;/code&gt; team.&lt;/p&gt;
-
-&lt;p&gt;In particular, as I am working on some packages that are not that well
-suited to distributions (especially regarding &lt;a href=&quot;http://handbrake.fr/&quot;&gt;HandBrake&lt;/a&gt;), it would be
-highly productive to have a hacking session or two with other people
-interested in having this popular and easy-to-use video ripper/transcoder on
-Debian.&lt;/p&gt;
-
-&lt;p&gt;I would also like to be able to talk in person with other people (including
-&lt;a href=&quot;http://joeyh.name/blog/&quot;&gt;Joey Hess&lt;/a&gt;) about controversial packaging of some programs, like GNU
-Parallel, &lt;a href=&quot;http://packages.debian.org/sid/parallel&quot;&gt;which I maintain in Debian&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;There are many things else that I would love to work on, besides helping a
-bit with some of the still pending transitions of the the
-&lt;a href=&quot;http://pkg-fonts.alioth.debian.org/&quot;&gt;Debian Fonts Task Force umbrella&lt;/a&gt;, meeting friends and other social
-stuff.&lt;/p&gt;
-
-&lt;p&gt;Oh, well. I guess that working at home will be the solution for some time.&lt;/p&gt;
 
 	</content>
 

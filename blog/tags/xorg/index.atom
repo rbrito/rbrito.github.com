@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged xorg</title>
+<link href="http://cynic.cc/blog//tags/xorg/"/>
+<link href="http://cynic.cc/blog//tags/xorg/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://cynic.cc/blog//tags/xorg/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2013-08-21T16:44:29Z</updated>
+<entry>
+	<title>SNA Acceleration vs. UXA Acceleration</title>
+
+	<id>http://cynic.cc/blog//posts/sna_acceleration_vs_uxa/</id>
+
+	<link href="http://cynic.cc/blog//posts/sna_acceleration_vs_uxa/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="linux" />
+
+	<category term="video" />
+
+	<category term="xorg" />
+
+
+	<updated>2013-08-21T16:44:29Z</updated>
+	<published>2013-08-21T16:44:19Z</published>
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
+I am using right now, instead of my usual sid installations), I decided to
+see what they would bring me in terms of performance, since they have the
+SNA acceleration implemented as well as the standard UXA acceleration.&lt;/p&gt;
+
+&lt;p&gt;Well, I did not have any other tests to perform, but below are the results
+on my wife&#39;s laptop (a Core i5 2410M), when running &lt;a href=&quot;http://packages.debian.org/gtkperf&quot;&gt;gtkperf&lt;/a&gt;:&lt;/p&gt;
+
+&lt;h1&gt;With UXA&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;GtkPerf 0.40 - Starting testing: Mon Aug 12 20:33:20 2013
+
+GtkEntry - time:  0.19
+GtkComboBox - time:  5.36
+GtkComboBoxEntry - time:  3.59
+GtkSpinButton - time:  0.60
+GtkProgressBar - time:  0.41
+GtkToggleButton - time:  0.73
+GtkCheckButton - time:  0.48
+GtkRadioButton - time:  0.97
+GtkTextView - Add text - time: 21.72
+GtkTextView - Scroll - time:  2.29
+GtkDrawingArea - Lines - time:  6.18
+GtkDrawingArea - Circles - time:  6.74
+GtkDrawingArea - Text - time:  4.32
+GtkDrawingArea - Pixbufs - time:  0.67
+ --- 
+Total time: 54.25
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1&gt;With SNA&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;GtkPerf 0.40 - Starting testing: Mon Aug 12 20:36:58 2013
+
+GtkEntry - time:  0.21
+GtkComboBox - time:  4.86
+GtkComboBoxEntry - time:  2.67
+GtkSpinButton - time:  0.59
+GtkProgressBar - time:  0.24
+GtkToggleButton - time:  0.61
+GtkCheckButton - time:  0.51
+GtkRadioButton - time:  1.00
+GtkTextView - Add text - time: 17.19
+GtkTextView - Scroll - time:  1.84
+GtkDrawingArea - Lines - time:  2.70
+GtkDrawingArea - Circles - time:  2.65
+GtkDrawingArea - Text - time:  1.72
+GtkDrawingArea - Pixbufs - time:  0.11
+ --- 
+Total time: 36.91
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So, with SNA, the timing that I get are almost 2 times lower, which is
+superb for a very simple &lt;code&gt;/etc/X11/xorg.conf&lt;/code&gt; config file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Section &quot;Device&quot;
+        Identifier &quot;Intel Graphics&quot;
+        Driver &quot;intel&quot;
+        Option &quot;AccelMethod&quot; &quot;sna&quot;
+EndSection
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I have not noticed any change, but if drawing graphics faster means that I
+get a bit more of battery life, then I will be super happy. I still have not
+tested if this works on my notebook with a Core2Duo T7250. Crossing my
+fingers so that it does.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

@@ -95,8 +95,8 @@
     </tr>
     <tr>
         <td class="month-calendar-day-nolink Sunday">4</td>
-        <td class="month-calendar-day-this-day Monday">5</td>
-        <td class="month-calendar-day-future Tuesday">6</td>
+        <td class="month-calendar-day-nolink Monday">5</td>
+        <td class="month-calendar-day-nolink Tuesday">6</td>
         <td class="month-calendar-day-nolink Wednesday">7</td>
         <td class="month-calendar-day-nolink Thursday">8</td>
         <td class="month-calendar-day-nolink Friday">9</td>
@@ -115,8 +115,8 @@
         <td class="month-calendar-day-nolink Sunday">18</td>
         <td class="month-calendar-day-nolink Monday">19</td>
         <td class="month-calendar-day-nolink Tuesday">20</td>
-        <td class="month-calendar-day-nolink Wednesday">21</td>
-        <td class="month-calendar-day-nolink Thursday">22</td>
+        <td class="month-calendar-day-this-day Wednesday"><a href="../../../posts/sna_acceleration_vs_uxa/" title="sna acceleration vs uxa">21</a></td>
+        <td class="month-calendar-day-future Thursday">22</td>
         <td class="month-calendar-day-nolink Friday">23</td>
         <td class="month-calendar-day-nolink Saturday">24</td>
     </tr>
@@ -141,6 +141,119 @@
 <section id="content">
 
 
+<article class="inlinepage">
+
+<section class="inlineheader">
+
+<header class="header">
+
+<a href="../../../posts/sna_acceleration_vs_uxa/">SNA Acceleration vs. UXA Acceleration</a>
+
+</header>
+</section>
+
+<section class="inlinecontent">
+<p>Seeing as recent versions of Xorg have made it into Debian's testing (which
+I am using right now, instead of my usual sid installations), I decided to
+see what they would bring me in terms of performance, since they have the
+SNA acceleration implemented as well as the standard UXA acceleration.</p>
+
+<p>Well, I did not have any other tests to perform, but below are the results
+on my wife's laptop (a Core i5 2410M), when running <a href="http://packages.debian.org/gtkperf">gtkperf</a>:</p>
+
+<h1>With UXA</h1>
+
+<pre><code>GtkPerf 0.40 - Starting testing: Mon Aug 12 20:33:20 2013
+
+GtkEntry - time:  0.19
+GtkComboBox - time:  5.36
+GtkComboBoxEntry - time:  3.59
+GtkSpinButton - time:  0.60
+GtkProgressBar - time:  0.41
+GtkToggleButton - time:  0.73
+GtkCheckButton - time:  0.48
+GtkRadioButton - time:  0.97
+GtkTextView - Add text - time: 21.72
+GtkTextView - Scroll - time:  2.29
+GtkDrawingArea - Lines - time:  6.18
+GtkDrawingArea - Circles - time:  6.74
+GtkDrawingArea - Text - time:  4.32
+GtkDrawingArea - Pixbufs - time:  0.67
+ --- 
+Total time: 54.25
+</code></pre>
+
+<h1>With SNA</h1>
+
+<pre><code>GtkPerf 0.40 - Starting testing: Mon Aug 12 20:36:58 2013
+
+GtkEntry - time:  0.21
+GtkComboBox - time:  4.86
+GtkComboBoxEntry - time:  2.67
+GtkSpinButton - time:  0.59
+GtkProgressBar - time:  0.24
+GtkToggleButton - time:  0.61
+GtkCheckButton - time:  0.51
+GtkRadioButton - time:  1.00
+GtkTextView - Add text - time: 17.19
+GtkTextView - Scroll - time:  1.84
+GtkDrawingArea - Lines - time:  2.70
+GtkDrawingArea - Circles - time:  2.65
+GtkDrawingArea - Text - time:  1.72
+GtkDrawingArea - Pixbufs - time:  0.11
+ --- 
+Total time: 36.91
+</code></pre>
+
+<p>So, with SNA, the timing that I get are almost 2 times lower, which is
+superb for a very simple <code>/etc/X11/xorg.conf</code> config file:</p>
+
+<pre><code>Section "Device"
+        Identifier "Intel Graphics"
+        Driver "intel"
+        Option "AccelMethod" "sna"
+EndSection
+</code></pre>
+
+<p>I have not noticed any change, but if drawing graphics faster means that I
+get a bit more of battery life, then I will be super happy. I still have not
+tested if this works on my notebook with a Core2Duo T7250. Crossing my
+fingers so that it does.</p>
+
+</section>
+
+<footer class="inlinefooter">
+
+<span class="pagedate">
+Posted <time datetime="2013-08-21T16:44:19Z" pubdate="pubdate">2013-08-21T13:44:19 BRT</time>
+</span>
+
+
+<nav class="tags">
+Tags:
+
+<a href="../../../tags/debian/" rel="tag">debian</a>
+
+<a href="../../../tags/free-software/" rel="tag">free-software</a>
+
+<a href="../../../tags/linux/" rel="tag">linux</a>
+
+<a href="../../../tags/video/" rel="tag">video</a>
+
+<a href="../../../tags/xorg/" rel="tag">xorg</a>
+
+</nav>
+
+
+
+
+
+
+
+
+</footer>
+
+</article>
 
 
 
