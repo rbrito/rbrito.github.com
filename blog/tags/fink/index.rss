@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged fink</title>
+<link>http://cynic.cc/blog//tags/fink/</link>
+
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:42:35 -0300</pubDate>
+<item>
+	<title>2002-12-29</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-12-29/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-12-29/</link>
+
+
+
+	<category>debian</category>
+
+	<category>fink</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>macosx</category>
+
+	<category>study</category>
+
+
+	<pubDate>Sun, 29 Dec 2002 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-10-11T06:42:35Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;It&#39;s been quite a while since I last updated my diary. Many things
+preventing me from updating it, which is good (well, at least part
+of the things are good).&lt;/p&gt;
+
+&lt;p&gt;Been working towards finishing my M.Sc. degree. It seems that the
+end never comes!&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve also been using &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;
+(Jaguar) a lot lately. In some ways, it is a nice operating system.
+But the lack of a real package management system is a bad thing. I
+think that I&#39;ve been spoiled by &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
+incredible (and clean) service. Unfortunately,
+&lt;a href=&quot;http://fink.sf.net/&quot;&gt;Fink&lt;/a&gt; isn&#39;t as good as Debian. And there are
+quite few programs in binary form from Fink. And they don&#39;t have a
+menu system like Debian&#39;s &lt;code&gt;menu&lt;/code&gt;. And they don&#39;t even have
+&lt;a href=&quot;http://www.windowmaker.org/&quot;&gt;Windowmaker&lt;/a&gt; available! And AUCTeX.
+etc&lt;/p&gt;
+
+&lt;p&gt;Saw that &lt;a href=&quot;http://www.limewire.com/&quot;&gt;Limewire&lt;/a&gt; is uploaded to
+Debian&#39;s incoming repository, which is cool. Also discovered this
+&lt;a href=&quot;http://muttprint.sf.net/&quot;&gt;&lt;code&gt;muttprint&lt;/code&gt;&lt;/a&gt; package, which sounds
+promising. Packaged for Debian also, of course.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

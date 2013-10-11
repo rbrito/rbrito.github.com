@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 11 Oct 2013 03:28:43 -0300</pubDate>
+<pubDate>Fri, 11 Oct 2013 03:38:33 -0300</pubDate>
 <item>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -553,6 +553,41 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 </item>
 <item>
+	<title>2002-08-22</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-08-22/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-08-22/</link>
+
+
+
+	<category>algorithms</category>
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+	<category>powerpc</category>
+
+	<category>study</category>
+
+
+	<pubDate>Thu, 22 Aug 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:38:33Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
+programming is able to achieve a complexity of $O(n&lt;sup&gt;2&lt;/sup&gt;/log n)$, which
+is a theoretical improvement over the classic dynamic programming
+method.&lt;/p&gt;
+
+&lt;p&gt;Who would guess that a person from a distant country can make you
+happier than most people from your own country?&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2002-07-27</title>
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-27/</guid>
@@ -903,52 +938,6 @@ from being expired).&lt;/p&gt;
 &lt;a href=&quot;http://www.apple.com/ibook/&quot;&gt;iBooks&lt;/a&gt; in
 &lt;a href=&quot;http://www.apple.com/br/appleensino/&quot;&gt;a promotion for education users&lt;/a&gt;.
 Damn!&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-03-17</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-03-17/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-03-17/</link>
-
-
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>hardware</category>
-
-	<category>ibook</category>
-
-	<category>linux</category>
-
-	<category>mac</category>
-
-	<category>powerpc</category>
-
-	<category>video</category>
-
-
-	<pubDate>Sun, 17 Mar 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Got &lt;a href=&quot;http://mplayer.sf.net/&quot;&gt;mplayer&lt;/a&gt; working well in PowerPC (G3,
-600MHz), with the new &lt;a href=&quot;http://ffmpeg.sf.net/&quot;&gt;ffmpeg&lt;/a&gt;. I had to use
--ao sdl to get it working. The video wasn&#39;t as smooth as with -ao
-null, but it was OK, at least. I am under the impression that using
--vo sdl:x11 is better than using -vo x11, at least with the Rage
-Mobility 128. BTW, it was also possible to play DivX 5 movies with
-this setup (the new Star Wars clip).&lt;/p&gt;
-
-&lt;p&gt;The USB keyboard and USB mouse work fine under Linux. It was just a
-simple matter of recompiling the &lt;a href=&quot;http://www.kernel.org/&quot;&gt;kernel&lt;/a&gt;
-with USB HID support enabled (in my case, as modules). They also
-work fine with &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;&lt;/p&gt;
 </description>
 
 

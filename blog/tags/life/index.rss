@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 11 Oct 2013 03:29:40 -0300</pubDate>
+<pubDate>Fri, 11 Oct 2013 03:42:35 -0300</pubDate>
 <item>
 	<title>2005-12-14</title>
 
@@ -26,6 +26,217 @@
 
 
 	<description>&lt;p&gt;Ich bin müde.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-12-29</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-12-29/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-12-29/</link>
+
+
+
+	<category>debian</category>
+
+	<category>fink</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>macosx</category>
+
+	<category>study</category>
+
+
+	<pubDate>Sun, 29 Dec 2002 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-10-11T06:42:35Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;It&#39;s been quite a while since I last updated my diary. Many things
+preventing me from updating it, which is good (well, at least part
+of the things are good).&lt;/p&gt;
+
+&lt;p&gt;Been working towards finishing my M.Sc. degree. It seems that the
+end never comes!&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve also been using &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;
+(Jaguar) a lot lately. In some ways, it is a nice operating system.
+But the lack of a real package management system is a bad thing. I
+think that I&#39;ve been spoiled by &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
+incredible (and clean) service. Unfortunately,
+&lt;a href=&quot;http://fink.sf.net/&quot;&gt;Fink&lt;/a&gt; isn&#39;t as good as Debian. And there are
+quite few programs in binary form from Fink. And they don&#39;t have a
+menu system like Debian&#39;s &lt;code&gt;menu&lt;/code&gt;. And they don&#39;t even have
+&lt;a href=&quot;http://www.windowmaker.org/&quot;&gt;Windowmaker&lt;/a&gt; available! And AUCTeX.
+etc&lt;/p&gt;
+
+&lt;p&gt;Saw that &lt;a href=&quot;http://www.limewire.com/&quot;&gt;Limewire&lt;/a&gt; is uploaded to
+Debian&#39;s incoming repository, which is cool. Also discovered this
+&lt;a href=&quot;http://muttprint.sf.net/&quot;&gt;&lt;code&gt;muttprint&lt;/code&gt;&lt;/a&gt; package, which sounds
+promising. Packaged for Debian also, of course.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-10-10</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-10-10/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-10-10/</link>
+
+
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+
+	<pubDate>Thu, 10 Oct 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:41:16Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;The BBC has a nice article about evolution. Of humans.
+&lt;a href=&quot;http://news.bbc.co.uk/2/hi/health/2190461.stm&quot;&gt;Here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some time ago, I found this nice argument (on
+&lt;a href=&quot;http://slashdot.org/&quot;&gt;Slashdot&lt;/a&gt;) for why people should use
+&lt;a href=&quot;http://www.openoffice.org/&quot;&gt;OpenOffice&lt;/a&gt; instead of Microsoft&#39;s
+Office suite:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&quot;I see you&#39;re still using traditional software on your computer,
+Bob. Don&#39;t you know that stuff is susceptible to Microsoft Outlook
+viruses? Have you tried Openoffice? It&#39;s free! It&#39;s free because it
+is developed using a leading-edge development method that&#39;s
+superior to the old-fashioned way that Microsoft develops software.
+Microsoft software is expensive because the conventional methods
+they use to create it are inefficient. That&#39;s why there are so many
+Microsoft viruses around. There aren&#39;t any OpenOffice viruses. Why
+don&#39;t you give it a try?&quot;&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-08-23</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-08-23/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-08-23/</link>
+
+
+
+	<category>algorithms</category>
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+	<category>study</category>
+
+
+	<pubDate>Fri, 23 Aug 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:39:43Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Tried to go to my university, to see a seminar on the Steiner
+Problem in Graphs, without success (the traffic didn&#39;t let me
+arrive). Came back home and decided that it would be nice to visit
+my uncle&#39;s store. He was leaving early to catch the last hours of
+this year&#39;s Comdex and I went with him (he gave me an pass).&lt;/p&gt;
+
+&lt;p&gt;Its always nice to see all those exposition stands &quot;competing&quot; to
+see which one has got the prettiest models. And it was also nice to
+see that flat panels are invading the market, but I wonder how much
+time it will take before they are &quot;purchaseable&quot;, especially for a
+graduate student.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-08-22</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-08-22/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-08-22/</link>
+
+
+
+	<category>algorithms</category>
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+	<category>powerpc</category>
+
+	<category>study</category>
+
+
+	<pubDate>Thu, 22 Aug 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:38:33Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
+programming is able to achieve a complexity of $O(n&lt;sup&gt;2&lt;/sup&gt;/log n)$, which
+is a theoretical improvement over the classic dynamic programming
+method.&lt;/p&gt;
+
+&lt;p&gt;Who would guess that a person from a distant country can make you
+happier than most people from your own country?&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-08-19</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-08-19/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-08-19/</link>
+
+
+
+	<category>life</category>
+
+
+	<pubDate>Mon, 19 Aug 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:35:32Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;My father travelled to Lucélia today.&lt;/p&gt;
+
+&lt;p&gt;To break the tradition, I took the later part of the day to visit
+my uncle&#39;s place with my mother to distract myself a bit, something
+that I need. My uncle cooked some pasta with bacon and we spent
+some quite nice moments having dinner. It is healthy to do
+different things in a while.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-08-18</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-08-18/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-08-18/</link>
+
+
+
+	<category>life</category>
+
+
+	<pubDate>Sun, 18 Aug 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:34:52Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;So, I guess that this is the end of an era. And this is sad.&lt;/p&gt;
 </description>
 
 
@@ -122,238 +333,6 @@ thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
 
 	<description>&lt;p&gt;Fixed some of my e-mail settings and now things seem to be
 simpler.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-07-25</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-25/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-07-25/</link>
-
-
-
-	<category>life</category>
-
-	<category>portuguese</category>
-
-	<category>surreal</category>
-
-
-	<pubDate>Thu, 25 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:26:20Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Did Luis Buñuel or Salvador Dali have dogs?&lt;/p&gt;
-
-&lt;p&gt;Hoje eu me senti invadido.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-07-17</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-17/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-07-17/</link>
-
-
-
-	<category>apple</category>
-
-	<category>life</category>
-
-	<category>macosx</category>
-
-	<category>portuguese</category>
-
-
-	<pubDate>Wed, 17 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:25:02Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Maldita &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;! Eu os odeio! Odeio $teve
-Job$. Vão começar a cobrar um rio de dinheiro pelo iTools, quero
-dizer, &lt;a href=&quot;http://www.mac.com/&quot;&gt;.Mac&lt;/a&gt;.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-07-06</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-06/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-07-06/</link>
-
-
-
-	<category>apple</category>
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>hacks</category>
-
-	<category>hardware</category>
-
-	<category>life</category>
-
-	<category>macosx</category>
-
-	<category>powerpc</category>
-
-
-	<pubDate>Sat, 06 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:20:31Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Took the day to see how things regarding the old PowerMac
-9500/180MP were with a
-&lt;a href=&quot;http://people.debian.org/~branden/&quot;&gt;newer XFree86&lt;/a&gt;. Apparently,
-&lt;a href=&quot;http://www.xfree86.org/&quot;&gt;XFree86 4.2&lt;/a&gt; doesn&#39;t support the XVideo
-extension for the &lt;code&gt;imst&lt;/code&gt;t adapter, which is quite a pity.&lt;/p&gt;
-
-&lt;p&gt;What this means is that I am not able to use
-&lt;a href=&quot;http://xine.sf.net/&quot;&gt;Xine&lt;/a&gt; or &lt;a href=&quot;http://www.mplayerhq.hu/&quot;&gt;Mplayer&lt;/a&gt;
-to efficiently play videos on this computer.&lt;/p&gt;
-
-&lt;p&gt;I can see some things that make this computer slow:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It has a modest amount of RAM for today&#39;s standards (64MB,
-which is particularly little for PowerPC);&lt;/li&gt;
-&lt;li&gt;I don&#39;t know if it&#39;s RAM chips are in an interleaved
-configuration or not;&lt;/li&gt;
-&lt;li&gt;If it had a faster/better supported video card (say, like a
-&lt;a href=&quot;http://www.ati.com/&quot;&gt;ATI&lt;/a&gt; Mach64), things would perhaps be better,
-but this is just a guess. I don&#39;t know if the Mach64 sports XVideo
-support under PowerPC, but perhaps the
-&lt;a href=&quot;http://gatos.sf.net/&quot;&gt;Gatos&lt;/a&gt; project might help here;&lt;/li&gt;
-&lt;li&gt;I have no idea why this computer, while having a SCSI interface
-and drive, is so slow while it is using the disk. I see two things:
-it freezes most things the user (that&#39;s me!) whenever it is writing
-(reading?) anything to (from?) the disk and the transfer speeds are
-quite sloooow. I wonder if this is a problem of the Linux SCSI
-infra-structure, if it is a problem of the hardware or if it is a
-problem of configuration. It probably isn&#39;t a problem with Linux,
-since I also see the slowness with &lt;a href=&quot;http://www.apple.com/&quot;&gt;MacOS&lt;/a&gt;
-Classic (8).&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;Anyway, just for fun, I tried to install
-&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X 10.1&lt;/a&gt; on this old computer.
-The catch is that MacOS X can&#39;t be installed on anything this old.
-Well, at least, that&#39;s what Apple says. I had to grab a copy of
-MacOS 9 (in German!) just to bootstrap the system. Then, using
-&lt;a href=&quot;http://eshop.macsales.com/OSXCenter/XPostFacto/&quot;&gt;XPostFacto&lt;/a&gt;, the
-installation was quite smooth (and slow). But with one gotcha at
-the first reboot: a kernel panic.&lt;/p&gt;
-
-&lt;p&gt;After that, I went to sleep.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-05-30</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-05-30/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-05-30/</link>
-
-
-
-	<category>life</category>
-
-
-	<pubDate>Thu, 30 May 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:29:40Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;&lt;em&gt;Sometimes I feel like a motherless child&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;Sometimes I feel like a motherless child&lt;/em&gt;&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-04-24</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-04-24/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-04-24/</link>
-
-
-
-	<category>life</category>
-
-
-	<pubDate>Wed, 24 Apr 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:29:34Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;&lt;em&gt;Sometimes I feel like a motherless child&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;Sometimes I feel like a motherless child&lt;/em&gt;&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-04-08</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-04-08/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-04-08/</link>
-
-
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>harware</category>
-
-	<category>java</category>
-
-	<category>life</category>
-
-	<category>linux</category>
-
-	<category>python</category>
-
-
-	<pubDate>Mon, 08 Apr 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:14:12Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Basically did nothing. But my blood went to analysis and a partial
-result is now available. I think that I&#39;ll have to start a diet,
-cut a bit of the chocolate and start doing (physical) exercises.&lt;/p&gt;
-
-&lt;p&gt;Also played a tiny bit with Python. It&#39;s starting to grow on me.
-I&#39;m a newbie right now, but I already found some problems where the
-&lt;a href=&quot;http://www.python.org/doc/current/tut/tut.html&quot;&gt;Standard Documentation&lt;/a&gt;
-is not entirely clear. And I also found differences of behavior
-between &lt;a href=&quot;http://www.python.org/&quot;&gt;CPython&lt;/a&gt; and
-&lt;a href=&quot;http://www.jython.org/&quot;&gt;Jython&lt;/a&gt; regarding the &lt;code&gt;readlines()&lt;/code&gt; method
-of a file object when called with an argument. Is that a bug,
-perhaps? If it is, then I&#39;m surprised that nobody found it yet.&lt;/p&gt;
-
-&lt;p&gt;Subscribed to the &lt;a href=&quot;http://www.python.org/&quot;&gt;Tutor&lt;/a&gt; mailing list to
-see if I am missing something. Cancelled some of my Yahoo!
-accounts.&lt;/p&gt;
-
-&lt;p&gt;Sent an e-mail to &lt;a href=&quot;http://www.bb.com.br/&quot;&gt;my bank&lt;/a&gt; telling them
-that they suck, because their site doesn&#39;t work with any of the
-Linux browsers that I tried (&lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt;,
-&lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt;, and
-&lt;a href=&quot;http://www.konqueror.org/&quot;&gt;Konqueror&lt;/a&gt;).&lt;/p&gt;
 </description>
 
 

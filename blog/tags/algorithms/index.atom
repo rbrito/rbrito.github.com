@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged algorithms</title>
+<link href="http://cynic.cc/blog//tags/algorithms/"/>
+<link href="http://cynic.cc/blog//tags/algorithms/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://cynic.cc/blog//tags/algorithms/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2013-10-11T06:39:43Z</updated>
+<entry>
+	<title>2002-08-23</title>
+
+	<id>http://cynic.cc/blog//posts/2002-08-23/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-08-23/"/>
+
+
+
+
+
+
+	<category term="algorithms" />
+
+	<category term="hardware" />
+
+	<category term="life" />
+
+	<category term="study" />
+
+
+	<updated>2013-10-11T06:39:43Z</updated>
+	<published>2002-08-23T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Tried to go to my university, to see a seminar on the Steiner
+Problem in Graphs, without success (the traffic didn&#39;t let me
+arrive). Came back home and decided that it would be nice to visit
+my uncle&#39;s store. He was leaving early to catch the last hours of
+this year&#39;s Comdex and I went with him (he gave me an pass).&lt;/p&gt;
+
+&lt;p&gt;Its always nice to see all those exposition stands &quot;competing&quot; to
+see which one has got the prettiest models. And it was also nice to
+see that flat panels are invading the market, but I wonder how much
+time it will take before they are &quot;purchaseable&quot;, especially for a
+graduate student.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2002-08-22</title>
+
+	<id>http://cynic.cc/blog//posts/2002-08-22/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-08-22/"/>
+
+
+
+
+
+
+	<category term="algorithms" />
+
+	<category term="hardware" />
+
+	<category term="life" />
+
+	<category term="powerpc" />
+
+	<category term="study" />
+
+
+	<updated>2013-10-11T06:38:33Z</updated>
+	<published>2002-08-22T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
+programming is able to achieve a complexity of $O(n&lt;sup&gt;2&lt;/sup&gt;/log n)$, which
+is a theoretical improvement over the classic dynamic programming
+method.&lt;/p&gt;
+
+&lt;p&gt;Who would guess that a person from a distant country can make you
+happier than most people from your own country?&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

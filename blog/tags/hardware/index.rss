@@ -8,7 +8,79 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 11 Oct 2013 03:23:45 -0300</pubDate>
+<pubDate>Fri, 11 Oct 2013 03:39:43 -0300</pubDate>
+<item>
+	<title>2002-08-23</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-08-23/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-08-23/</link>
+
+
+
+	<category>algorithms</category>
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+	<category>study</category>
+
+
+	<pubDate>Fri, 23 Aug 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:39:43Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Tried to go to my university, to see a seminar on the Steiner
+Problem in Graphs, without success (the traffic didn&#39;t let me
+arrive). Came back home and decided that it would be nice to visit
+my uncle&#39;s store. He was leaving early to catch the last hours of
+this year&#39;s Comdex and I went with him (he gave me an pass).&lt;/p&gt;
+
+&lt;p&gt;Its always nice to see all those exposition stands &quot;competing&quot; to
+see which one has got the prettiest models. And it was also nice to
+see that flat panels are invading the market, but I wonder how much
+time it will take before they are &quot;purchaseable&quot;, especially for a
+graduate student.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-08-22</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-08-22/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-08-22/</link>
+
+
+
+	<category>algorithms</category>
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+	<category>powerpc</category>
+
+	<category>study</category>
+
+
+	<pubDate>Thu, 22 Aug 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:38:33Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
+programming is able to achieve a complexity of $O(n&lt;sup&gt;2&lt;/sup&gt;/log n)$, which
+is a theoretical improvement over the classic dynamic programming
+method.&lt;/p&gt;
+
+&lt;p&gt;Who would guess that a person from a distant country can make you
+happier than most people from your own country?&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>2002-07-07</title>
 
@@ -430,138 +502,6 @@ swapping doesn&#39;t make it a pleasant experience. In this respect,
 
 &lt;p&gt;All in all, this can now be a poor&#39;s man desktop machine. If it
 only consumed power proportional to its speed, it would be nicer.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2001-07-18</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-18/</guid>
-
-	<link>http://cynic.cc/blog//posts/2001-07-18/</link>
-
-
-
-	<category>debian</category>
-
-	<category>hardware</category>
-
-	<category>powerpc</category>
-
-
-	<pubDate>Wed, 18 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Ok, I know I messed up. My girlfriend told me that we were in July,
-not June. What a shame! Anyway, I&#39;ve corrected my diary entries and
-got things straight (I think). I guess that the problem was that
-both months start with a &quot;J&quot;.&lt;/p&gt;
-
-&lt;p&gt;Now, to the next (and final?) chapter on the mac: I returned it to
-my uncle and set up the other mac on his store just to see if I
-could get Debian installed. Well, I kind of could: I got the
-bootfloppies installed in 1GB HD and was very surprised to see an
-almost entire setup with the network. Amazing. I&#39;m almost without
-words: just grab 4 FDs and install a whole operating system in your
-machine with them. &lt;a href=&quot;http://www.debian.org&quot;&gt;Debian&lt;/a&gt; definitely keeps
-its lead over other distributions this way.&lt;/p&gt;
-
-&lt;p&gt;Well, enough ads. I could get almost everything installed, but the
-HD died (for good?) soon after the packages were being extracted
-onto the new filesystem. I tried the other (4GB) HD, but it wasn&#39;t
-being seen by &lt;code&gt;mac-fdisk&lt;/code&gt; for an unknown reason (despite it being
-recognized during the SCSI bus scan and the partition check).&lt;/p&gt;
-
-&lt;p&gt;Well, I guess that I can consider this as my first installation of
-Linux on a PowerPC architecture, which could not be concluded only
-because the hardware didn&#39;t help, but both the operator (that&#39;s me!
-&amp;lt;grin&gt;) and the software were right.&lt;/p&gt;
-
-&lt;p&gt;Watched &quot;Monty Python&#39;s Life of Brian&quot; after that. Sent both my VCR
-and TV set to the technician. For some strange reason, both
-&lt;a href=&quot;http://www.konqueror.org&quot;&gt;Konqueror&lt;/a&gt; and
-&lt;a href=&quot;http://www.opera.com&quot;&gt;Opera&lt;/a&gt; are not rendering this page
-justified, while &lt;a href=&quot;http://www.netscape.com&quot;&gt;Netscape 4.77&lt;/a&gt;,
-&lt;a href=&quot;http://www.mozilla.org&quot;&gt;Mozilla 0.9.2&lt;/a&gt; and
-&lt;a href=&quot;http://www.microsoft.com&quot;&gt;Internet Explorer&lt;/a&gt; are.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2001-07-17</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-17/</guid>
-
-	<link>http://cynic.cc/blog//posts/2001-07-17/</link>
-
-
-
-	<category>debian</category>
-
-	<category>hardware</category>
-
-	<category>life</category>
-
-	<category>linux</category>
-
-	<category>powerpc</category>
-
-
-	<pubDate>Tue, 17 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;This is the day that shouldn&#39;t have happened --- it was bad right
-from start. First of all, I couldn&#39;t sleep well because I dreamt
-with some perl scripts that didn&#39;t work and they took me almost all
-my sleep time (or so it seemed). Then, my kind neighbor started
-making lots of noises and I couldn&#39;t keep sleeping.&lt;/p&gt;
-
-&lt;p&gt;But the worst part of the day was still coming.&lt;/p&gt;
-
-&lt;p&gt;I went to my uncle&#39;s shop to get a new SCSI HD and he lent me a 4GB
-one, more than enough to hold both Linux and MacOS 8. I turned the
-thing on and it started making noises like the one I used
-yesterday, which wasn&#39;t good. Anyway, I left it on and decided to
-install MacOS on it. It was progressing nicely and I was getting
-happier and happier, but then the whole system froze. I turned the
-power off and tried to install Linux. At least this time Linux saw
-the HD and all partitions that it had (7, I think).&lt;/p&gt;
-
-&lt;p&gt;To install Linux, I used some CVS bootfloppies that will become
-bootfloppies of Debian woody. While trying to make the brand new
-ext2 filesystem, I got a kernel panic. I tried again. This time, I
-went up to the point of choosing which kernel modules I wanted. I
-was getting happy again. But then, when I chose the module for the
-ethernet card, a new kernel panic. Ouch!&lt;/p&gt;
-
-&lt;p&gt;I then tried to install MacOS again and a new freeze. Tried again,
-new freeze. Then, I noticed that the HD was getting hot and put a
-fan near it. I don&#39;t know if it was coincidence or not, but after
-that, I could finish the installation of MacOS. Ok, so time to boot
-this thing with no CDs in the CD-ROM drive. Nothing. Grrrr.&lt;/p&gt;
-
-&lt;p&gt;Things got strange after I tried to put the Linux PPC CD that I had
-burned and it didn&#39;t work. Washed the CD and no boot. But it did
-some days ago! It was not scratched, had no fingerprints and was
-absolutely clean. But couldn&#39;t boot. I tried using the floppies
-again, but this time, another surprise: the HD &lt;em&gt;was&lt;/em&gt; recognized,
-but a partition scan timed out, Linux told that it could not read
-read its beginning and that it assumed that the size of the HD was
-1GB, and showed &lt;em&gt;no&lt;/em&gt; partitions on the drive. On the other hand,
-MacOS is able to see it just before formatting it, perhaps because
-it re-scans the SCSI bus. Changing the SCSI-id of the drive didn&#39;t
-help. Is that the reason why it can&#39;t boot from the HD? Perhaps.&lt;/p&gt;
-
-&lt;p&gt;Anyway, my desire of seeing this thing encoding MP3s, using KDE, a
-brand new browser and typing some texts with LaTeX seems a bit
-farther than what I realized at first. I will still keep trying to
-make this damn thing work, but I&#39;m not confident anymore that I&#39;ll
-succeed. Well, I&#39;ll talk to my uncle tomorrow, perhaps and see if
-the other Mac behaves the same way. Enough for a day already.&lt;/p&gt;
 </description>
 
 

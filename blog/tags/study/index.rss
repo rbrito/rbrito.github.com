@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 11 Oct 2013 03:28:43 -0300</pubDate>
+<pubDate>Fri, 11 Oct 2013 03:42:35 -0300</pubDate>
 <item>
 	<title>Beginning Ruby</title>
 
@@ -586,6 +586,130 @@ Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&
 
 </item>
 <item>
+	<title>2002-12-29</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-12-29/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-12-29/</link>
+
+
+
+	<category>debian</category>
+
+	<category>fink</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>macosx</category>
+
+	<category>study</category>
+
+
+	<pubDate>Sun, 29 Dec 2002 00:00:00 -0200</pubDate>
+	<dcterms:modified>2013-10-11T06:42:35Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;It&#39;s been quite a while since I last updated my diary. Many things
+preventing me from updating it, which is good (well, at least part
+of the things are good).&lt;/p&gt;
+
+&lt;p&gt;Been working towards finishing my M.Sc. degree. It seems that the
+end never comes!&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve also been using &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;
+(Jaguar) a lot lately. In some ways, it is a nice operating system.
+But the lack of a real package management system is a bad thing. I
+think that I&#39;ve been spoiled by &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
+incredible (and clean) service. Unfortunately,
+&lt;a href=&quot;http://fink.sf.net/&quot;&gt;Fink&lt;/a&gt; isn&#39;t as good as Debian. And there are
+quite few programs in binary form from Fink. And they don&#39;t have a
+menu system like Debian&#39;s &lt;code&gt;menu&lt;/code&gt;. And they don&#39;t even have
+&lt;a href=&quot;http://www.windowmaker.org/&quot;&gt;Windowmaker&lt;/a&gt; available! And AUCTeX.
+etc&lt;/p&gt;
+
+&lt;p&gt;Saw that &lt;a href=&quot;http://www.limewire.com/&quot;&gt;Limewire&lt;/a&gt; is uploaded to
+Debian&#39;s incoming repository, which is cool. Also discovered this
+&lt;a href=&quot;http://muttprint.sf.net/&quot;&gt;&lt;code&gt;muttprint&lt;/code&gt;&lt;/a&gt; package, which sounds
+promising. Packaged for Debian also, of course.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-08-23</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-08-23/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-08-23/</link>
+
+
+
+	<category>algorithms</category>
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+	<category>study</category>
+
+
+	<pubDate>Fri, 23 Aug 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:39:43Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Tried to go to my university, to see a seminar on the Steiner
+Problem in Graphs, without success (the traffic didn&#39;t let me
+arrive). Came back home and decided that it would be nice to visit
+my uncle&#39;s store. He was leaving early to catch the last hours of
+this year&#39;s Comdex and I went with him (he gave me an pass).&lt;/p&gt;
+
+&lt;p&gt;Its always nice to see all those exposition stands &quot;competing&quot; to
+see which one has got the prettiest models. And it was also nice to
+see that flat panels are invading the market, but I wonder how much
+time it will take before they are &quot;purchaseable&quot;, especially for a
+graduate student.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-08-22</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-08-22/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-08-22/</link>
+
+
+
+	<category>algorithms</category>
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+	<category>powerpc</category>
+
+	<category>study</category>
+
+
+	<pubDate>Thu, 22 Aug 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:38:33Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
+programming is able to achieve a complexity of $O(n&lt;sup&gt;2&lt;/sup&gt;/log n)$, which
+is a theoretical improvement over the classic dynamic programming
+method.&lt;/p&gt;
+
+&lt;p&gt;Who would guess that a person from a distant country can make you
+happier than most people from your own country?&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2002-07-27</title>
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-27/</guid>
@@ -720,149 +844,6 @@ way, way more) and the seminar on Computational Biology.&lt;/p&gt;
 
 &lt;p&gt;Also got the new speakers for my computer, Logitech&#39;s Soundman
 S-4.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-03-19</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-03-19/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-03-19/</link>
-
-
-
-	<category>debian</category>
-
-	<category>emacs</category>
-
-	<category>free-software</category>
-
-	<category>study</category>
-
-
-	<pubDate>Tue, 19 Mar 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Discovered the amazing
-&lt;a href=&quot;http://mirrors.sunsite.dk/auctex/www/auctex/&quot;&gt;AUCTeX&lt;/a&gt;. I just
-can&#39;t get enough of it and I&#39;m looking everywhere to find things
-that I can typeset with LaTeX, just to use AUCTeX. I don&#39;t know how
-I have lived without it this far.&lt;/p&gt;
-
-&lt;p&gt;Wrote a bit more of my Master&#39;s thesis.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-03-18</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-03-18/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-03-18/</link>
-
-
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>hardware</category>
-
-	<category>ibook</category>
-
-	<category>linux</category>
-
-	<category>mac</category>
-
-	<category>powerpc</category>
-
-	<category>study</category>
-
-
-	<pubDate>Mon, 18 Mar 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Typed the remaining bits of the first lecture on the
-&lt;em&gt;Theory of Matroids&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Read about how one makes a bootable CD for Newworlds with mkisofs:
-apparently, the needed things are the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;create a folder with &lt;code&gt;yaboot&lt;/code&gt;, &lt;code&gt;yaboot.conf&lt;/code&gt;, &lt;code&gt;vmlinux&lt;/code&gt;, &lt;code&gt;root.bin&lt;/code&gt;.
-I&#39;m not sure if &lt;code&gt;boot-floppy-hfs.img&lt;/code&gt; and &lt;code&gt;ofboot.b&lt;/code&gt; are necessary. I
-also don&#39;t have an idea of how OpenFirmware knows that it is
-supposed to load yaboot during the boot;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;code&gt;mkisofs -hfs -map &amp;lt;file\&amp;gt; -part -hfs-bless &amp;lt;folder\&amp;gt; -r -o &amp;lt;isoimage.iso\&amp;gt; &amp;lt;root-of-cd\&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;Sent an e-mail to the bastards at
-&lt;a href=&quot;http://www.linuxjournal.com/&quot;&gt;Linux Journal&lt;/a&gt;, complaining that I&#39;m
-not receiving my issues as I should (and my subscription is far
-from being expired).&lt;/p&gt;
-
-&lt;p&gt;Discovered that &lt;a href=&quot;http://www.apple.com.br/&quot;&gt;Apple Brasil&lt;/a&gt; is selling
-&lt;a href=&quot;http://www.apple.com/ibook/&quot;&gt;iBooks&lt;/a&gt; in
-&lt;a href=&quot;http://www.apple.com/br/appleensino/&quot;&gt;a promotion for education users&lt;/a&gt;.
-Damn!&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-02-25</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-02-25/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-02-25/</link>
-
-
-
-	<category>free-software</category>
-
-	<category>life</category>
-
-	<category>music</category>
-
-	<category>opeth</category>
-
-	<category>study</category>
-
-
-	<pubDate>Mon, 25 Feb 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;It&#39;s quite hard to study when one has an amazing number of new
-&lt;a href=&quot;http://www.opeth.com/&quot;&gt;Opeth&lt;/a&gt; bootlegs, including &lt;strong&gt;14&lt;/strong&gt; audio
-bootlegs and &lt;strong&gt;5&lt;/strong&gt; video bootlegs. I am simply shocked!&lt;/p&gt;
-
-&lt;p&gt;As if those things were not enough (and to make matters worse),
-&lt;strong&gt;2&lt;/strong&gt; new bootlegs in the
-&lt;a href=&quot;http://www.dreamtheater.net&quot;&gt;Dream Theater&lt;/a&gt; front appeared:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;one from Paris, 3 hours long, from the new tour;&lt;/li&gt;
-&lt;li&gt;the other, from Barcelona, where they played &lt;em&gt;the entire&lt;/em&gt;
-&quot;Master of Puppets&quot; album, from the band formerly called Metallica&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;Wow! I don&#39;t have this much bandwidth, damnit!!! I also need to
-study to present a
-&lt;a href=&quot;http://www.ime.usp.br/~rbrito/listas/bio/&quot;&gt;seminar&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It seems that &lt;a href=&quot;http://cr.yp.to/djb.html&quot;&gt;Dan Bernstein&lt;/a&gt; is
-&lt;a href=&quot;http://cr.yp.to/&quot;&gt;changing&lt;/a&gt; his computers from
-&lt;a href=&quot;http://www.openbsd.org/&quot;&gt;OpenBSD&lt;/a&gt; to
-&lt;a href=&quot;http://www.freebsd.org/&quot;&gt;FreeBSD&lt;/a&gt;. I wonder what the cause could
-be...&lt;/p&gt;
 </description>
 
 
