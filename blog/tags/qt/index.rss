@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged qt</title>
 <link>http://cynic.cc/blog//tags/qt/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Thu, 18 Apr 2013 17:50:59 -0300</pubDate>
 <item>
-
 	<title>2000-09-04</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-09-04/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-09-04/</link>
+
 
 
 	<category>debian</category>
@@ -30,7 +32,8 @@
 
 
 	<pubDate>Mon, 04 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:51:00Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Wow, what a day! I&#39;m getting a bit older today. Some kind people
 have sent me some cards (and some e-cards).&lt;/p&gt;

@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-06-11T08:22:42Z</updated>
+<updated>2013-10-11T06:23:45Z</updated>
 <entry>
 	<title>Working with CVS via Git</title>
 
@@ -45,8 +45,9 @@
 	<category term="revision-control" />
 
 
-	<updated>2013-06-11T08:22:42Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-06-11T07:49:56Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
@@ -159,6 +160,7 @@ one, please let me know.&lt;/p&gt;
 
 	<updated>2011-04-03T01:21:31Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
@@ -472,6 +474,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<updated>2010-07-18T06:34:40Z</updated>
 	<published>2010-07-18T06:34:40Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
 
@@ -538,6 +541,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-06-10T22:46:13Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
@@ -608,6 +612,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-05-29T20:06:18Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
 
@@ -657,6 +662,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-05-27T14:17:00Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;It all started when I tried to typeset my documents with the &lt;a href=&quot;http://en.wikipedia.org/wiki/Utopia (typeface)&quot;&gt;Utopia&lt;/a&gt; typeface, which is Free Software, since &lt;a&gt;Adobe liberated it to the TeX Users Group.&lt;/a&gt;&lt;/p&gt;
@@ -715,6 +721,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 	<updated>2010-05-22T23:36:42Z</updated>
 	<published>2010-05-22T23:36:42Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Two of my most frequently used tools are, hands down, Emacs and bash. Having a pleasant configuration of one&#39;s toolbox is necessary for long-term productivity.&lt;/p&gt;
@@ -797,6 +804,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 	<updated>2011-03-12T03:52:56Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
@@ -963,6 +971,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<updated>2011-03-12T03:53:18Z</updated>
 	<published>2010-02-11T07:39:37Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I have been keeping my &lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt; files under version control since I was
 introduced to &lt;a href=&quot;http://www.gnu.org/software/auctex/&quot;&gt;AUCTeX&lt;/a&gt; and I realized that a good way to approach the
@@ -1024,6 +1033,66 @@ to something that is modern and with many features (and is distributed).&lt;/p&g
 RCS/CVS register to proper (people) names, which git uses. Read the
 &lt;code&gt;git-cvsimport&lt;/code&gt; manpage for more details on this and other options mentioned
 above.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2002-07-07</title>
+
+	<id>http://cynic.cc/blog//posts/2002-07-07/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-07-07/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hacks" />
+
+	<category term="hardware" />
+
+	<category term="macosx" />
+
+	<category term="powerpc" />
+
+
+	<updated>2013-10-11T06:23:45Z</updated>
+	<published>2002-07-07T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Woke up quite early with that kernel panic bugging me. I read the
+documentation and the fix for it was to reboot MacOS 9 (which
+wasn&#39;t as simple as it should, since MacOS X apparently de-blessed
+MacOS 9&#39;s System Folder). Anyway, after reusing XPostFacto, the
+PowerMac booted with MacOS X! Woohoo!&lt;/p&gt;
+
+&lt;p&gt;Well, seeing this OS booting on this old computer is quite cool.
+Well,
+&lt;a href=&quot;http://slashdot.org/comments.pl?sid=33385&amp;amp;cid=3607384&quot;&gt;apart from some severe usability problems&lt;/a&gt;
+and slowness, MacOS X is an amazing operating system. The problem
+is: it &lt;strong&gt;is slow&lt;/strong&gt;. It is slow with a G3 600MHz (100MHz of bus)
+with 128MB of RAM and, obviously, much more so with a dual 604e
+180MHz with only 64MB of RAM.&lt;/p&gt;
+
+&lt;p&gt;BTW, MacOS X isn&#39;t able to use both processors when it is booted
+with XPostFacto.&lt;/p&gt;
+
+&lt;p&gt;BTW#2, XFree86&#39;s native driver for Mach64 doesn&#39;t include support
+for the XVideo extension.&lt;/p&gt;
+
+&lt;p&gt;Also used the client-side of NFS and SMB on MacOS X, which is quite
+easy to use.&lt;/p&gt;
 
 	</content>
 

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged opera</title>
+<link>http://cynic.cc/blog//tags/opera/</link>
+
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:15:09 -0300</pubDate>
+<item>
+	<title>2002-04-09</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-04-09/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-04-09/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>linux</category>
+
+	<category>opera</category>
+
+
+	<pubDate>Tue, 09 Apr 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:15:09Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Sent
+&lt;a href=&quot;http://mail.python.org/pipermail/tutor/2002-April/013664.html&quot;&gt;an e-mail&lt;/a&gt;
+to the Python Tutor mailing list regarding what I think is a bug. I
+still think it is.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt; is growing more and more on me. I
+think that I will register a copy in the future. It can at least
+&lt;a href=&quot;http://www.nupedia.com/article.phtml?id=678&quot;&gt;print things which Mozilla can&#39;t&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And I really like &lt;a href=&quot;http://www.nupedia.com/&quot;&gt;Nupedia&lt;/a&gt;. A great
+effort which deserves more input.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

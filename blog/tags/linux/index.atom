@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-08-21T16:44:29Z</updated>
+<updated>2013-10-11T06:28:43Z</updated>
 <entry>
 	<title>SNA Acceleration vs. UXA Acceleration</title>
 
@@ -41,8 +41,9 @@
 	<category term="xorg" />
 
 
-	<updated>2013-08-21T16:44:29Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-08-21T16:44:19Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
@@ -140,8 +141,9 @@ fingers so that it does.&lt;/p&gt;
 	<category term="ubuntu" />
 
 
-	<updated>2013-06-05T08:25:51Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-04-20T01:46:26Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
@@ -208,8 +210,9 @@ machines on datacenters.&lt;/p&gt;
 	<category term="linux" />
 
 
-	<updated>2013-04-30T17:16:01Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-04-19T07:29:23Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
@@ -322,8 +325,9 @@ and contributing back what I produced.&lt;/p&gt;
 	<category term="zfs" />
 
 
-	<updated>2012-09-09T02:48:33Z</updated>
+	<updated>2012-09-09T02:47:46Z</updated>
 	<published>2012-09-09T02:42:24Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Continuing the &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/T3BcxA7wKjK&quot;&gt;ZFS evaluation journey&lt;/a&gt; (which I will summarize here with
@@ -406,6 +410,7 @@ behavior.&lt;/p&gt;
 
 	<updated>2011-04-03T01:21:31Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
@@ -725,6 +730,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<updated>2011-03-12T03:52:56Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
 some embedded platforms. In other words, this is some of the stuff that is
@@ -890,6 +896,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<updated>2012-09-07T06:54:06Z</updated>
 	<published>2007-05-08T02:00:00Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Having been playing with some new things in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;, like the
 &lt;a href=&quot;http://packages.debian.org/magicfilter&quot;&gt;magicfilter&lt;/a&gt; package, which is a superb, lightweight solution to
@@ -936,6 +943,7 @@ thing, because computing resources are limited).&lt;/p&gt;
 
 	<updated>2012-09-07T06:54:06Z</updated>
 	<published>2007-04-23T02:00:00Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Today I was pleasantly surprised that the Kurobox that &lt;a href=&quot;http://suihkulokki.blogspot.com/&quot;&gt;Riku Voipio&lt;/a&gt; sent
@@ -985,6 +993,7 @@ bigger capacity ones are only available with SATA interfaces.&lt;/p&gt;
 	<updated>2012-09-07T06:54:06Z</updated>
 	<published>2007-03-16T02:00:00Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Have been playing with the great idea of &lt;a
 href=&quot;http://lists.debian.org/debian-mentors/2009/03/msg00210.html&quot;&gt;caching&lt;/a&gt;
@@ -1030,11 +1039,11 @@ build-dependencies.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2002-01-01</title>
+	<title>2002-07-27</title>
 
-	<id>http://cynic.cc/blog//posts/2002-01-01/</id>
+	<id>http://cynic.cc/blog//posts/2002-07-27/</id>
 
-	<link href="http://cynic.cc/blog//posts/2002-01-01/"/>
+	<link href="http://cynic.cc/blog//posts/2002-07-27/"/>
 
 
 
@@ -1045,52 +1054,33 @@ build-dependencies.&lt;/p&gt;
 
 	<category term="free-software" />
 
-	<category term="hardware" />
+	<category term="lame" />
+
+	<category term="life" />
 
 	<category term="linux" />
 
-	<category term="macos" />
-
-	<category term="perl" />
-
 	<category term="powerpc" />
 
+	<category term="study" />
 
-	<updated>2013-06-06T21:23:31Z</updated>
-	<published>2002-01-01T02:00:00Z</published>
+
+	<updated>2013-10-11T06:28:43Z</updated>
+	<published>2002-07-27T03:00:00Z</published>
+
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Well, some progress on the PPC front. I&#39;ve just configured the PMac
-to use the &lt;code&gt;imstt&lt;/code&gt; driver instead of the &lt;code&gt;fbdev&lt;/code&gt;. Due to this, the
-X server is now &lt;em&gt;much&lt;/em&gt; faster. In fact, the whole computer is much
-faster. Before, it spent a lot of processing power just to update
-the screen. Since it is not exactly the most powerful computer in
-the world, those few moments indeed were important.&lt;/p&gt;
+	&lt;p&gt;Updated &lt;a href=&quot;http://lame.sf.net/&quot;&gt;lame&lt;/a&gt;&#39;s Debian packaging a little
+bit. Now it correctly reports version 3.92. This closed a bug in
+&lt;a href=&quot;http://sf.net/projects/lame/&quot;&gt;sourceforge&lt;/a&gt;. Some other changes are
+on the pipeline (like getting rid of the dreaded &lt;code&gt;rpath&lt;/code&gt;, with
+&lt;a href=&quot;http://lists.debian.org/debian-devel/2002/debian-devel-200207/msg01792.html&quot;&gt;a recipe&lt;/a&gt;
+I got from &lt;a href=&quot;http://lists.debian.org/debian-devel/&quot;&gt;debian-devel&lt;/a&gt;).
+The only thing remaining is to test it on x86 and powerpc before I
+commit it.&lt;/p&gt;
 
-&lt;p&gt;It is very fast and now it is almost able to play AVI files with
-MPlayer. Almost.&lt;/p&gt;
-
-&lt;p&gt;This Mac is now very usable and I&#39;d even dare to say that it would
-be a good workstation, were it not that outdated (well, if one
-could find replacement hardware for it easily...)&lt;/p&gt;
-
-&lt;p&gt;I think that&#39;ll end summarizing all the &quot;Mac Journey&quot; in a homepage
-to save future souls enduring the problems that I&#39;ve experienced
-(kernel configuration file, XF86Config file etc). It seems that
-Linux running on PPC is indeed a quite nice alternative to paying
-huge prices just for being able to run MacOS 9.&lt;/p&gt;
-
-&lt;p&gt;Also installed the superb
-&lt;a href=&quot;http://www.mosfet.org/liquid.html&quot;&gt;Liquid Theme&lt;/a&gt; for KDE2. It&#39;s
-amazingly beautiful and quite fast, despite all the eye-candy. It
-makes your Linux desktop seem like you are running
-&lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;&#39;s
-&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&#39;s Acqua&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;On the down side of things, I guess that I&#39;m just encountering many
-aspects of Perl that I don&#39;t like. It&#39;s saddening that I&#39;ve spent
-so much time and money (buying books) for something that I&#39;m not
-really enjoying (but it&#39;s ok).&lt;/p&gt;
+&lt;p&gt;Worked a little bit (well, not &lt;em&gt;that&lt;/em&gt; little) on my Master&#39;s
+thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
 
 	</content>
 

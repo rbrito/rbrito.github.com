@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged pdf</title>
 <link>http://cynic.cc/blog//tags/pdf/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Sat, 12 Mar 2011 00:27:55 -0300</pubDate>
 <item>
-
 	<title>Please let me zoom my documents!</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/please-let-me-zoom-my-documents-/</guid>
 
 	<link>http://cynic.cc/blog//posts/please-let-me-zoom-my-documents-/</link>
+
 
 
 	<category>bugs</category>
@@ -37,6 +39,7 @@
 
 	<pubDate>Thu, 27 May 2010 11:17:00 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;It all started when I tried to typeset my documents with the &lt;a href=&quot;http://en.wikipedia.org/wiki/Utopia (typeface)&quot;&gt;Utopia&lt;/a&gt; typeface, which is Free Software, since &lt;a&gt;Adobe liberated it to the TeX Users Group.&lt;/a&gt;&lt;/p&gt;
 

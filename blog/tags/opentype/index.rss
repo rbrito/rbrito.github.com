@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged opentype</title>
 <link>http://cynic.cc/blog//tags/opentype/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Sat, 12 Mar 2011 00:27:55 -0300</pubDate>
 <item>
-
 	<title>Packaging fonts for a Debian-based system</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
 
 	<link>http://cynic.cc/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
+
 
 
 	<category>development</category>
@@ -33,6 +35,7 @@
 
 	<pubDate>Fri, 12 Nov 2010 11:23:55 -0200</pubDate>
 	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Seeing now that the situation regarding Free fonts is much better than in
 the past, I have started packaging some that are of high enough quality so

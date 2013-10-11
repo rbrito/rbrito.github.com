@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged handbrake</title>
 <link>http://cynic.cc/blog//tags/handbrake/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Thu, 07 Jun 2012 01:58:09 -0300</pubDate>
 <item>
-
 	<title>I am not going to DebConf 12</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</guid>
 
 	<link>http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</link>
+
 
 
 	<category>debconf</category>
@@ -33,6 +35,7 @@
 
 	<pubDate>Thu, 07 Jun 2012 01:59:42 -0300</pubDate>
 	<dcterms:modified>2012-06-07T04:58:09Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Due to some real life impediments (including a beautiful one with just over
 2 months of life called Daniel), I will not be able to go to this year&#39;s

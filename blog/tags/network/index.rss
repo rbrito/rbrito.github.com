@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged network</title>
 <link>http://cynic.cc/blog//tags/network/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:07:42 -0300</pubDate>
 <item>
-
 	<title>2001-03-10</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-03-10/</guid>
 
 	<link>http://cynic.cc/blog//posts/2001-03-10/</link>
+
 
 
 	<category>debian</category>
@@ -32,7 +34,8 @@
 
 
 	<pubDate>Sat, 10 Mar 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Didn&#39;t do many important things today, besides making a brand new
 installation of Debian&#39;s sid/unstable to see how things were going

@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged compression</title>
 <link>http://cynic.cc/blog//tags/compression/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Sat, 08 Sep 2012 23:47:46 -0300</pubDate>
 <item>
-
 	<title>Some experiences with ZFS</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/some_experiences_with_zfs/</guid>
 
 	<link>http://cynic.cc/blog//posts/some_experiences_with_zfs/</link>
+
 
 
 	<category>compression</category>
@@ -34,7 +36,8 @@
 
 
 	<pubDate>Sat, 08 Sep 2012 23:42:24 -0300</pubDate>
-	<dcterms:modified>2012-09-09T02:48:33Z</dcterms:modified>
+	<dcterms:modified>2012-09-09T02:47:46Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Continuing the &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/T3BcxA7wKjK&quot;&gt;ZFS evaluation journey&lt;/a&gt; (which I will summarize here with
 the things that I learned), I was able to fit about 2.5TB of data on a

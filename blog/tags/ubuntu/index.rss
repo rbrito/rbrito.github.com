@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged ubuntu</title>
 <link>http://cynic.cc/blog//tags/ubuntu/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:07:42 -0300</pubDate>
 <item>
-
 	<title>Lack of cooperation from Ubuntu?</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/</guid>
 
 	<link>http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/</link>
+
 
 
 	<category>debian</category>
@@ -28,7 +30,8 @@
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
 reproduced on Planet. I&#39;m editing it a bit, as it is a followup to my
@@ -74,13 +77,12 @@ machines on datacenters.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>My problems with Chromium</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/problems_with_chromium/</guid>
 
 	<link>http://cynic.cc/blog//posts/problems_with_chromium/</link>
+
 
 
 	<category>browsers</category>
@@ -98,6 +100,7 @@ machines on datacenters.&lt;/p&gt;
 
 	<pubDate>Sat, 26 Feb 2011 11:55:06 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Given that Chromium/Chrome is used more and more (as became apparent
 &lt;a href=&quot;https://lists.debian.org/debian-release/2010/09/msg00610.html&quot;&gt;with the discussion of including it in Debian&#39;s squeeze&lt;/a&gt;), I decided to
@@ -149,13 +152,12 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 
 </item>
 <item>
-
 	<title>Debian Switching to EGLIBC</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/debian-switching-to-eglibc/</guid>
 
 	<link>http://cynic.cc/blog//posts/debian-switching-to-eglibc/</link>
+
 
 
 	<category>computers</category>
@@ -171,6 +173,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 
 	<pubDate>Mon, 07 May 2007 23:00:00 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Having been playing with some new things in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;, like the
 &lt;a href=&quot;http://packages.debian.org/magicfilter&quot;&gt;magicfilter&lt;/a&gt; package, which is a superb, lightweight solution to
@@ -189,13 +192,12 @@ thing, because computing resources are limited).&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Playing with Package Proxies</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/playing-with-package-proxies/</guid>
 
 	<link>http://cynic.cc/blog//posts/playing-with-package-proxies/</link>
+
 
 
 	<category>approx</category>
@@ -217,6 +219,7 @@ thing, because computing resources are limited).&lt;/p&gt;
 
 	<pubDate>Thu, 15 Mar 2007 23:00:00 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Have been playing with the great idea of &lt;a
 href=&quot;http://lists.debian.org/debian-mentors/2009/03/msg00210.html&quot;&gt;caching&lt;/a&gt;

@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged complexity-theory</title>
 <link>http://cynic.cc/blog//tags/complexity-theory/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Thu, 18 Apr 2013 18:01:13 -0300</pubDate>
 <item>
-
 	<title>2000-12-05</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-12-05/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-12-05/</link>
+
 
 
 	<category>complexity-theory</category>
@@ -22,7 +24,8 @@
 
 
 	<pubDate>Tue, 05 Dec 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:01:13Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;The last day of classes of Computational Complexity. I&#39;m both happy
 and sad. I&#39;m happy because it was quite demanding, with loads of
@@ -39,13 +42,12 @@ it needs a beta-testing phase as it is feature complete.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-10-26</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-26/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-10-26/</link>
+
 
 
 	<category>complexity-theory</category>
@@ -56,7 +58,8 @@ it needs a beta-testing phase as it is feature complete.&lt;/p&gt;
 
 
 	<pubDate>Thu, 26 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:54:03Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;I had the &quot;midterm&quot; today. I thought that while the subjects
 covered were well chosen, it was not very well planned regarding
@@ -68,13 +71,12 @@ perfectionist. Maybe I&#39;m slow. Maybe both.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-10-25</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-25/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-10-25/</link>
+
 
 
 	<category>complexity-theory</category>
@@ -85,7 +87,8 @@ perfectionist. Maybe I&#39;m slow. Maybe both.&lt;/p&gt;
 
 
 	<pubDate>Wed, 25 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:53:36Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Tomorrow I&#39;ll have the &quot;midterm&quot; of Combinatorial Optimization.
 It&#39;s not exactly a midterm, since it is considerably skewed towards
@@ -106,13 +109,12 @@ down and write a complete, detailed a proof. I wish I had time.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-10-24</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-24/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-10-24/</link>
+
 
 
 	<category>complexity-theory</category>
@@ -123,7 +125,8 @@ down and write a complete, detailed a proof. I wish I had time.&lt;/p&gt;
 
 
 	<pubDate>Tue, 24 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Whew! One of the longest homeworks that I&#39;ve ever had was finished
 today. Programmning Turing Machines takes time.&lt;/p&gt;

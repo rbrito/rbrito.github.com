@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged nas</title>
 <link>http://cynic.cc/blog//tags/nas/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 07 Sep 2012 03:54:06 -0300</pubDate>
 <item>
-
 	<title>Happy News: A new Kurobox</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/happy-news-a-new-kurobox/</guid>
 
 	<link>http://cynic.cc/blog//posts/happy-news-a-new-kurobox/</link>
+
 
 
 	<category>computers</category>
@@ -31,6 +33,7 @@
 
 	<pubDate>Sun, 22 Apr 2007 23:00:00 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Today I was pleasantly surprised that the Kurobox that &lt;a href=&quot;http://suihkulokki.blogspot.com/&quot;&gt;Riku Voipio&lt;/a&gt; sent
 me has arrived!  From the looks of it, it is a Kurobox HG, which, compared

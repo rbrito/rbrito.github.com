@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged harware</title>
+<link href="http://cynic.cc/blog//tags/harware/"/>
+<link href="http://cynic.cc/blog//tags/harware/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://cynic.cc/blog//tags/harware/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2013-10-11T06:14:12Z</updated>
+<entry>
+	<title>2002-04-08</title>
+
+	<id>http://cynic.cc/blog//posts/2002-04-08/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-04-08/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="harware" />
+
+	<category term="java" />
+
+	<category term="life" />
+
+	<category term="linux" />
+
+	<category term="python" />
+
+
+	<updated>2013-10-11T06:14:12Z</updated>
+	<published>2002-04-08T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Basically did nothing. But my blood went to analysis and a partial
+result is now available. I think that I&#39;ll have to start a diet,
+cut a bit of the chocolate and start doing (physical) exercises.&lt;/p&gt;
+
+&lt;p&gt;Also played a tiny bit with Python. It&#39;s starting to grow on me.
+I&#39;m a newbie right now, but I already found some problems where the
+&lt;a href=&quot;http://www.python.org/doc/current/tut/tut.html&quot;&gt;Standard Documentation&lt;/a&gt;
+is not entirely clear. And I also found differences of behavior
+between &lt;a href=&quot;http://www.python.org/&quot;&gt;CPython&lt;/a&gt; and
+&lt;a href=&quot;http://www.jython.org/&quot;&gt;Jython&lt;/a&gt; regarding the &lt;code&gt;readlines()&lt;/code&gt; method
+of a file object when called with an argument. Is that a bug,
+perhaps? If it is, then I&#39;m surprised that nobody found it yet.&lt;/p&gt;
+
+&lt;p&gt;Subscribed to the &lt;a href=&quot;http://www.python.org/&quot;&gt;Tutor&lt;/a&gt; mailing list to
+see if I am missing something. Cancelled some of my Yahoo!
+accounts.&lt;/p&gt;
+
+&lt;p&gt;Sent an e-mail to &lt;a href=&quot;http://www.bb.com.br/&quot;&gt;my bank&lt;/a&gt; telling them
+that they suck, because their site doesn&#39;t work with any of the
+Linux browsers that I tried (&lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt;,
+&lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt;, and
+&lt;a href=&quot;http://www.konqueror.org/&quot;&gt;Konqueror&lt;/a&gt;).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2002-04-04</title>
+
+	<id>http://cynic.cc/blog//posts/2002-04-04/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-04-04/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="harware" />
+
+	<category term="java" />
+
+	<category term="life" />
+
+	<category term="linux" />
+
+	<category term="music" />
+
+	<category term="powerpc" />
+
+
+	<updated>2013-10-11T06:12:33Z</updated>
+	<published>2002-04-04T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;How can life change so quickly from bad to good? Amazing, ain&#39;t it?
+Had a great time at my SO&#39;s place. It was nice to see her get
+happier, which made &lt;em&gt;me&lt;/em&gt; happier.&lt;/p&gt;
+
+&lt;p&gt;It was nice to talk to &lt;a href=&quot;http://www.ime.usp.br/~jose/&quot;&gt;my advisor&lt;/a&gt;
+and see that he (mostly) likes my work. Oh, how I needed those
+positive, encouraging comments from him.&lt;/p&gt;
+
+&lt;p&gt;Found &lt;a href=&quot;http://www.dreamtheater.net/&quot;&gt;Dream Theater&lt;/a&gt;&#39;s bootleg at
+Beacon, with the full version of &quot;Six Degrees of Inner Turbulence&quot;,
+on my usual FTP server. New music. Good.&lt;/p&gt;
+
+&lt;p&gt;Now, &lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE 3.0&lt;/a&gt; is finally launched. It looks
+so amazing that I can&#39;t believe my eyes (err, the
+&lt;a href=&quot;http://kde.org/screenshots/kde300shots.html&quot;&gt;screenshots&lt;/a&gt;). A big
+plus for me is the built-in support for
+&lt;a href=&quot;http://www.webdav.org/&quot;&gt;WebDAV&lt;/a&gt;, which is used by
+&lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.mac.com/&quot;&gt;iTools&#39; iDisk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In other news, it seems that &lt;a href=&quot;http://www.megadeth.com/&quot;&gt;Megadeth&lt;/a&gt;
+is no more. Quite sad, as I like(d) them.&lt;/p&gt;
+
+&lt;p&gt;And &lt;a href=&quot;http://www.openoffice.org/&quot;&gt;OpenOffice&lt;/a&gt; 641d, the last version
+before the 1.0 release, is
+&lt;a href=&quot;http://lists2.suse.com/archive/suse-ppc/2002-Mar/0079.html&quot;&gt;already available&lt;/a&gt;
+for &lt;a href=&quot;http://www.debian.org/ports/powerpc/&quot;&gt;PPC/Linux&lt;/a&gt;. By the way,
+OpenOffice is a Free and free alternative for Microsoft&#39;s Office.
+It is also available for Microsoft Windows.&lt;/p&gt;
+
+&lt;p&gt;And a new version of &lt;a href=&quot;http://www.blackdown.org/&quot;&gt;Blackdown&lt;/a&gt;&#39;s Java
+is available for Linux, including PPC.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2002-03-29</title>
+
+	<id>http://cynic.cc/blog//posts/2002-03-29/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-03-29/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="harware" />
+
+	<category term="life" />
+
+	<category term="linux" />
+
+	<category term="powerpc" />
+
+	<category term="python" />
+
+	<category term="sadness" />
+
+	<category term="video" />
+
+
+	<updated>2013-10-11T06:07:42Z</updated>
+	<published>2002-03-29T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Today, I could sleep better, at least.&lt;/p&gt;
+
+&lt;p&gt;Also read a tiny little bit about
+&lt;a href=&quot;http://www.docbook.org/&quot;&gt;DocBook&lt;/a&gt;. Some things still aren&#39;t clear
+on my mind regarding SGML and DocBook, though.&lt;/p&gt;
+
+&lt;p&gt;It was nice to have &lt;a href=&quot;http://avifile.sf.net/&quot;&gt;avifile&lt;/a&gt; enter woody,
+which means that now I can use it on PPC.&lt;/p&gt;
+
+&lt;p&gt;The bad news of the day is that
+&lt;a href=&quot;http://www.iname.com/&quot;&gt;Iname/Mail.com&lt;/a&gt; will not be forwarding
+mails, starting early next month. &lt;a href=&quot;http://mail.yahoo.com/&quot;&gt;Yahoo!&lt;/a&gt;
+is joining them, which means that I&#39;ll have to seriously consider
+using my &lt;a href=&quot;http://www.mac.com&quot;&gt;Mac.com&lt;/a&gt; addresses for POP3/IMAP.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.python.org/&quot;&gt;Which&lt;/a&gt; &lt;a href=&quot;http://www.perl.com/&quot;&gt;programming&lt;/a&gt;
+&lt;a href=&quot;http://java.sun.com/&quot;&gt;language&lt;/a&gt;
+&lt;a href=&quot;http://www.objective-c.org/&quot;&gt;should&lt;/a&gt; I learn? To be sincere, I
+don&#39;t know. I&#39;m under the impression that the combo
+&lt;a href=&quot;http://www.python.org/&quot;&gt;Python&lt;/a&gt;/&lt;a href=&quot;http://www.jython.org/&quot;&gt;Jython&lt;/a&gt;
+is what offers me the greatest effort/satisfaction ratio, for many
+different values of satisfaction.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

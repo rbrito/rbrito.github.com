@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged abstract-algebra</title>
 <link>http://cynic.cc/blog//tags/abstract-algebra/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 07 Sep 2012 04:19:57 -0300</pubDate>
 <item>
-
 	<title>Music, Group Actions, Quilt and Debian Packages</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/music-group-actions-quilt-and-debian-packages/</guid>
 
 	<link>http://cynic.cc/blog//posts/music-group-actions-quilt-and-debian-packages/</link>
+
 
 
 	<category>abstract-algebra</category>
@@ -33,6 +35,7 @@
 
 	<pubDate>Wed, 13 Jun 2007 02:08:51 -0300</pubDate>
 	<dcterms:modified>2012-09-07T07:19:57Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;These are some short notes on what I&#39;ve doing these days.&lt;/p&gt;
 
@@ -95,13 +98,12 @@ patch.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Random Points on Group Theory</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/random-points-on-group-theory/</guid>
 
 	<link>http://cynic.cc/blog//posts/random-points-on-group-theory/</link>
+
 
 
 	<category>abstract-algebra</category>
@@ -115,6 +117,7 @@ patch.&lt;/p&gt;
 
 	<pubDate>Thu, 24 May 2007 14:07:11 -0300</pubDate>
 	<dcterms:modified>2012-09-07T07:19:57Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;It is not a surprise for anyone that I&#39;m reviewing a little bit of Abstract
 Algebra.&lt;/p&gt;
@@ -172,13 +175,12 @@ to have in mind, without any shadow of doubt.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>On teaching Groups before Rings in Abstract Algebra</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/on-a-first-course-in-abstract-algebra/</guid>
 
 	<link>http://cynic.cc/blog//posts/on-a-first-course-in-abstract-algebra/</link>
+
 
 
 	<category>abstract-algebra</category>
@@ -188,6 +190,7 @@ to have in mind, without any shadow of doubt.&lt;/p&gt;
 
 	<pubDate>Sun, 22 Apr 2007 17:46:52 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;I&#39;ve been thinking about how one should teach &lt;a
 href=&quot;http://en.wikipedia.org/wiki/Abstract_algebra&quot;&gt;Abstract Algebra&lt;/a&gt;

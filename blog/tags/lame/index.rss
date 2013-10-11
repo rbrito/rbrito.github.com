@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged lame</title>
 <link>http://cynic.cc/blog//tags/lame/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:28:43 -0300</pubDate>
 <item>
-
 	<title>Working with CVS via Git</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/working_with_cvs_via_git/</guid>
 
 	<link>http://cynic.cc/blog//posts/working_with_cvs_via_git/</link>
+
 
 
 	<category>cvs</category>
@@ -32,7 +34,8 @@
 
 
 	<pubDate>Tue, 11 Jun 2013 04:49:56 -0300</pubDate>
-	<dcterms:modified>2013-06-11T08:22:42Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
 have &lt;em&gt;both&lt;/em&gt; a git clone of the CVS repository &lt;em&gt;and&lt;/em&gt; a CVS checkout of your
@@ -108,13 +111,55 @@ one, please let me know.&lt;/p&gt;
 
 </item>
 <item>
+	<title>2002-07-27</title>
 
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-27/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-07-27/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>lame</category>
+
+	<category>life</category>
+
+	<category>linux</category>
+
+	<category>powerpc</category>
+
+	<category>study</category>
+
+
+	<pubDate>Sat, 27 Jul 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:28:43Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Updated &lt;a href=&quot;http://lame.sf.net/&quot;&gt;lame&lt;/a&gt;&#39;s Debian packaging a little
+bit. Now it correctly reports version 3.92. This closed a bug in
+&lt;a href=&quot;http://sf.net/projects/lame/&quot;&gt;sourceforge&lt;/a&gt;. Some other changes are
+on the pipeline (like getting rid of the dreaded &lt;code&gt;rpath&lt;/code&gt;, with
+&lt;a href=&quot;http://lists.debian.org/debian-devel/2002/debian-devel-200207/msg01792.html&quot;&gt;a recipe&lt;/a&gt;
+I got from &lt;a href=&quot;http://lists.debian.org/debian-devel/&quot;&gt;debian-devel&lt;/a&gt;).
+The only thing remaining is to test it on x86 and powerpc before I
+commit it.&lt;/p&gt;
+
+&lt;p&gt;Worked a little bit (well, not &lt;em&gt;that&lt;/em&gt; little) on my Master&#39;s
+thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2001-12-29</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-12-29/</guid>
 
 	<link>http://cynic.cc/blog//posts/2001-12-29/</link>
+
 
 
 	<category>debian</category>
@@ -131,7 +176,8 @@ one, please let me know.&lt;/p&gt;
 
 
 	<pubDate>Sat, 29 Dec 2001 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Today I finally got the Power Macintosh 9500/180MP with
 &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian testing&lt;/a&gt; installed in a semi-decent
@@ -180,13 +226,12 @@ only consumed power proportional to its speed, it would be nicer.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-12-02</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-12-02/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-12-02/</link>
+
 
 
 	<category>debian</category>
@@ -201,7 +246,8 @@ only consumed power proportional to its speed, it would be nicer.&lt;/p&gt;
 
 
 	<pubDate>Sat, 02 Dec 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:58:40Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;I&#39;m now mirroring both a repository of
 &lt;a href=&quot;http://kde.tdyc.com&quot;&gt;Debian KDE packages&lt;/a&gt; for potato and
@@ -238,13 +284,12 @@ ftpparse-ified version of wget (for mirroring
 
 </item>
 <item>
-
 	<title>2000-09-12</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-09-12/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-09-12/</link>
+
 
 
 	<category>lame</category>
@@ -257,7 +302,8 @@ ftpparse-ified version of wget (for mirroring
 
 
 	<pubDate>Tue, 12 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:51:00Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;My aunt&#39;s birthday today. Tried to call her, but who said it would
 be possible?&lt;/p&gt;

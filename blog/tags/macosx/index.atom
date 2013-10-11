@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged macosx</title>
+<link href="http://cynic.cc/blog//tags/macosx/"/>
+<link href="http://cynic.cc/blog//tags/macosx/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://cynic.cc/blog//tags/macosx/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2013-10-11T06:25:02Z</updated>
+<entry>
+	<title>2002-07-17</title>
+
+	<id>http://cynic.cc/blog//posts/2002-07-17/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-07-17/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="life" />
+
+	<category term="macosx" />
+
+	<category term="portuguese" />
+
+
+	<updated>2013-10-11T06:25:02Z</updated>
+	<published>2002-07-17T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Maldita &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;! Eu os odeio! Odeio $teve
+Job$. Vão começar a cobrar um rio de dinheiro pelo iTools, quero
+dizer, &lt;a href=&quot;http://www.mac.com/&quot;&gt;.Mac&lt;/a&gt;.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2002-07-07</title>
+
+	<id>http://cynic.cc/blog//posts/2002-07-07/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-07-07/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hacks" />
+
+	<category term="hardware" />
+
+	<category term="macosx" />
+
+	<category term="powerpc" />
+
+
+	<updated>2013-10-11T06:23:45Z</updated>
+	<published>2002-07-07T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Woke up quite early with that kernel panic bugging me. I read the
+documentation and the fix for it was to reboot MacOS 9 (which
+wasn&#39;t as simple as it should, since MacOS X apparently de-blessed
+MacOS 9&#39;s System Folder). Anyway, after reusing XPostFacto, the
+PowerMac booted with MacOS X! Woohoo!&lt;/p&gt;
+
+&lt;p&gt;Well, seeing this OS booting on this old computer is quite cool.
+Well,
+&lt;a href=&quot;http://slashdot.org/comments.pl?sid=33385&amp;amp;cid=3607384&quot;&gt;apart from some severe usability problems&lt;/a&gt;
+and slowness, MacOS X is an amazing operating system. The problem
+is: it &lt;strong&gt;is slow&lt;/strong&gt;. It is slow with a G3 600MHz (100MHz of bus)
+with 128MB of RAM and, obviously, much more so with a dual 604e
+180MHz with only 64MB of RAM.&lt;/p&gt;
+
+&lt;p&gt;BTW, MacOS X isn&#39;t able to use both processors when it is booted
+with XPostFacto.&lt;/p&gt;
+
+&lt;p&gt;BTW#2, XFree86&#39;s native driver for Mach64 doesn&#39;t include support
+for the XVideo extension.&lt;/p&gt;
+
+&lt;p&gt;Also used the client-side of NFS and SMB on MacOS X, which is quite
+easy to use.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2002-07-06</title>
+
+	<id>http://cynic.cc/blog//posts/2002-07-06/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-07-06/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hacks" />
+
+	<category term="hardware" />
+
+	<category term="life" />
+
+	<category term="macosx" />
+
+	<category term="powerpc" />
+
+
+	<updated>2013-10-11T06:20:31Z</updated>
+	<published>2002-07-06T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Took the day to see how things regarding the old PowerMac
+9500/180MP were with a
+&lt;a href=&quot;http://people.debian.org/~branden/&quot;&gt;newer XFree86&lt;/a&gt;. Apparently,
+&lt;a href=&quot;http://www.xfree86.org/&quot;&gt;XFree86 4.2&lt;/a&gt; doesn&#39;t support the XVideo
+extension for the &lt;code&gt;imst&lt;/code&gt;t adapter, which is quite a pity.&lt;/p&gt;
+
+&lt;p&gt;What this means is that I am not able to use
+&lt;a href=&quot;http://xine.sf.net/&quot;&gt;Xine&lt;/a&gt; or &lt;a href=&quot;http://www.mplayerhq.hu/&quot;&gt;Mplayer&lt;/a&gt;
+to efficiently play videos on this computer.&lt;/p&gt;
+
+&lt;p&gt;I can see some things that make this computer slow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It has a modest amount of RAM for today&#39;s standards (64MB,
+which is particularly little for PowerPC);&lt;/li&gt;
+&lt;li&gt;I don&#39;t know if it&#39;s RAM chips are in an interleaved
+configuration or not;&lt;/li&gt;
+&lt;li&gt;If it had a faster/better supported video card (say, like a
+&lt;a href=&quot;http://www.ati.com/&quot;&gt;ATI&lt;/a&gt; Mach64), things would perhaps be better,
+but this is just a guess. I don&#39;t know if the Mach64 sports XVideo
+support under PowerPC, but perhaps the
+&lt;a href=&quot;http://gatos.sf.net/&quot;&gt;Gatos&lt;/a&gt; project might help here;&lt;/li&gt;
+&lt;li&gt;I have no idea why this computer, while having a SCSI interface
+and drive, is so slow while it is using the disk. I see two things:
+it freezes most things the user (that&#39;s me!) whenever it is writing
+(reading?) anything to (from?) the disk and the transfer speeds are
+quite sloooow. I wonder if this is a problem of the Linux SCSI
+infra-structure, if it is a problem of the hardware or if it is a
+problem of configuration. It probably isn&#39;t a problem with Linux,
+since I also see the slowness with &lt;a href=&quot;http://www.apple.com/&quot;&gt;MacOS&lt;/a&gt;
+Classic (8).&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Anyway, just for fun, I tried to install
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X 10.1&lt;/a&gt; on this old computer.
+The catch is that MacOS X can&#39;t be installed on anything this old.
+Well, at least, that&#39;s what Apple says. I had to grab a copy of
+MacOS 9 (in German!) just to bootstrap the system. Then, using
+&lt;a href=&quot;http://eshop.macsales.com/OSXCenter/XPostFacto/&quot;&gt;XPostFacto&lt;/a&gt;, the
+installation was quite smooth (and slow). But with one gotcha at
+the first reboot: a kernel panic.&lt;/p&gt;
+
+&lt;p&gt;After that, I went to sleep.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2002-04-19</title>
+
+	<id>http://cynic.cc/blog//posts/2002-04-19/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-04-19/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="macosx" />
+
+	<category term="multimedia" />
+
+	<category term="python" />
+
+
+	<updated>2013-10-11T06:17:05Z</updated>
+	<published>2002-04-19T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Wow, so many things going in software-land that if I don&#39;t write
+about soon, I&#39;ll probably forget.&lt;/p&gt;
+
+&lt;p&gt;The best thing, of course, is that
+&lt;a href=&quot;http://www.debian.org/releases/woody/&quot;&gt;Woody&lt;/a&gt; is set to a
+(tentative) release on May, 1st. This is &lt;em&gt;amazing&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;Also, newer versions of the following programs are available:
+&lt;a href=&quot;http://www.python.org/&quot;&gt;Python&lt;/a&gt; 2.2.1,
+&lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt; for i386 6.0beta2,
+&lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt; 1.0RC1,
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS&lt;/a&gt; X 10.1.4,
+&lt;a href=&quot;http://www.mactopia.com/&quot;&gt;Internet Explorer&lt;/a&gt; for MacOS 5.1.4,
+&lt;a href=&quot;http://fink.sf.net/&quot;&gt;Fink&lt;/a&gt; 4.0, &lt;a href=&quot;http://lame.sf.net/&quot;&gt;lame&lt;/a&gt; 3.92,
+&lt;a href=&quot;http://chimera.mozdev.org/&quot;&gt;Chimera&lt;/a&gt; 0.2.0,
+&lt;a href=&quot;http://&quot;&gt;woody&#39;s netinst images&lt;/a&gt; 20020416,
+&lt;a href=&quot;http://www.videolan.org/&quot;&gt;vlc&lt;/a&gt; 0.3.0. And I still haven&#39;t tried
+&lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE&lt;/a&gt; 3.0,
+&lt;a href=&quot;http://www.yellowdoglinux.com/&quot;&gt;Yellowdoglinux&lt;/a&gt; 2.2 and
+&lt;a href=&quot;http://www.xfree86.org/&quot;&gt;XFree86&lt;/a&gt; 4.2.0, to name a few (big) new
+releases. And that&#39;s &lt;em&gt;not&lt;/em&gt; all: soon there will be newer versions
+of &lt;a href=&quot;http://xine.sf.net/&quot;&gt;xine&lt;/a&gt;, &lt;a href=&quot;http://mplayer.sf.net/&quot;&gt;mplayer&lt;/a&gt;,
+&lt;a href=&quot;http://ffmpeg.sf.net/&quot;&gt;ffmpeg&lt;/a&gt;, and
+&lt;a href=&quot;http://www.kaffe.org/&quot;&gt;kaffe&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;So much (new) software, so little time!&lt;/p&gt;
+
+&lt;p&gt;And then, somewhere, a Microsoft&#39;s spoke-person said something like
+&quot;the open source people don&#39;t know how many things we have done in
+Windows-land&quot;. Well, of course, MacOS X, Internet Explorer and
+Opera aren&#39;t exactly open source. But the amount of new software
+just released (or in the process of being released) is just so
+damned huge. I guess, if he only knew (or didn&#39;t pretend he didn&#39;t
+know) what the open source community did in the past days, he would
+be ashamed of his comments. But then, again, it isn&#39;t uncommon for
+people driven by money being, ahem, how can I say, &quot;dishonest&quot;.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>

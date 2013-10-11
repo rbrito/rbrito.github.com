@@ -54,6 +54,7 @@
 	<updated>2011-04-03T01:21:31Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
 Mac (actually, an iBook G4), since the current documentation is lacking in
@@ -364,6 +365,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<updated>2010-05-22T23:36:42Z</updated>
 	<published>2010-05-22T23:36:42Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Two of my most frequently used tools are, hands down, Emacs and bash. Having a pleasant configuration of one&#39;s toolbox is necessary for long-term productivity.&lt;/p&gt;
 
@@ -445,6 +447,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 	<updated>2011-03-12T03:52:56Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to

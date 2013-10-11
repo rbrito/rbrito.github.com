@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged itunesu</title>
 <link>http://cynic.cc/blog//tags/itunesu/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 07 Sep 2012 03:54:06 -0300</pubDate>
 <item>
-
 	<title>Getting things from the iTunes Music Store without iTunes</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</guid>
 
 	<link>http://cynic.cc/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</link>
+
 
 
 	<category>apple</category>
@@ -29,6 +31,7 @@
 
 	<pubDate>Tue, 24 Feb 2009 11:11:54 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Being the &lt;a href=&quot;https://en.wikipedia.org/wiki/Free%20Software&quot;&gt;Free Software&lt;/a&gt; advocate that I am, I want to use as
 much Free Software as I can (and spread the world).&lt;/p&gt;

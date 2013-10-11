@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged freebsd</title>
 <link>http://cynic.cc/blog//tags/freebsd/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Thu, 18 Apr 2013 17:56:28 -0300</pubDate>
 <item>
-
 	<title>2000-12-01</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-12-01/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-12-01/</link>
+
 
 
 	<category>free-software</category>
@@ -28,7 +30,8 @@
 
 
 	<pubDate>Fri, 01 Dec 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:56:28Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;After a long time without updates, I&#39;m now back to &quot;work&quot;.
 &lt;a href=&quot;http://www.vai.com&quot;&gt;Steve Vai&lt;/a&gt; is making some concerts here in São

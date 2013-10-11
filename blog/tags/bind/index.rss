@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged bind</title>
 <link>http://cynic.cc/blog//tags/bind/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Thu, 18 Apr 2013 18:06:09 -0300</pubDate>
 <item>
-
 	<title>2001-02-04</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-02-04/</guid>
 
 	<link>http://cynic.cc/blog//posts/2001-02-04/</link>
+
 
 
 	<category>bind</category>
@@ -26,7 +28,8 @@
 
 
 	<pubDate>Sun, 04 Feb 2001 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:06:09Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Tomorrow, I am going to a customer of mine to update his server.
 With the BIND breakage, I&#39;ll have some packages to

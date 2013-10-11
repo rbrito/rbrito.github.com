@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged macos</title>
 <link>http://cynic.cc/blog//tags/macos/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:07:42 -0300</pubDate>
 <item>
-
 	<title>2002-01-01</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-01-01/</guid>
 
 	<link>http://cynic.cc/blog//posts/2002-01-01/</link>
+
 
 
 	<category>debian</category>
@@ -32,7 +34,8 @@
 
 
 	<pubDate>Tue, 01 Jan 2002 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Well, some progress on the PPC front. I&#39;ve just configured the PMac
 to use the &lt;code&gt;imstt&lt;/code&gt; driver instead of the &lt;code&gt;fbdev&lt;/code&gt;. Due to this, the
@@ -70,13 +73,12 @@ really enjoying (but it&#39;s ok).&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2001-12-12</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-12-12/</guid>
 
 	<link>http://cynic.cc/blog//posts/2001-12-12/</link>
+
 
 
 	<category>life</category>
@@ -91,7 +93,8 @@ really enjoying (but it&#39;s ok).&lt;/p&gt;
 
 
 	<pubDate>Wed, 12 Dec 2001 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Lots of things going on. I&#39;m now even more sure that I do want one
 of those &lt;a href=&quot;http://www.apple.com/ibook/&quot;&gt;new and sweet iBooks&lt;/a&gt;. They
@@ -127,13 +130,12 @@ optimize the hell out of this code&quot;?&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2001-07-11</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-11/</guid>
 
 	<link>http://cynic.cc/blog//posts/2001-07-11/</link>
+
 
 
 	<category>apple</category>
@@ -150,7 +152,8 @@ optimize the hell out of this code&quot;?&lt;/p&gt;
 
 
 	<pubDate>Wed, 11 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Some weeks ago, my uncle that sells and fixes computers,
 &lt;a href=&quot;mailto:startmicro@uol.com.br&quot;&gt;Isaac&lt;/a&gt;, got a pair of old

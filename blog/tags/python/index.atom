@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-07-04T12:25:16Z</updated>
+<updated>2013-10-11T06:17:05Z</updated>
 <entry>
 	<title>Playing with MOOCs</title>
 
@@ -45,8 +45,9 @@
 	<category term="study" />
 
 
-	<updated>2013-07-04T12:25:16Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-07-04T11:33:00Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Not so much ago, we had a boom of new enterprises offering Massive Online
@@ -108,6 +109,198 @@ cryptography. But more on that on a future post.&lt;/p&gt;
 &lt;p&gt;There are some other courses that I may be completing soon and that I will
 post more about, with some reviews of the good and the bad parts of select
 ones.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2002-04-19</title>
+
+	<id>http://cynic.cc/blog//posts/2002-04-19/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-04-19/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="macosx" />
+
+	<category term="multimedia" />
+
+	<category term="python" />
+
+
+	<updated>2013-10-11T06:17:05Z</updated>
+	<published>2002-04-19T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Wow, so many things going in software-land that if I don&#39;t write
+about soon, I&#39;ll probably forget.&lt;/p&gt;
+
+&lt;p&gt;The best thing, of course, is that
+&lt;a href=&quot;http://www.debian.org/releases/woody/&quot;&gt;Woody&lt;/a&gt; is set to a
+(tentative) release on May, 1st. This is &lt;em&gt;amazing&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;Also, newer versions of the following programs are available:
+&lt;a href=&quot;http://www.python.org/&quot;&gt;Python&lt;/a&gt; 2.2.1,
+&lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt; for i386 6.0beta2,
+&lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt; 1.0RC1,
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS&lt;/a&gt; X 10.1.4,
+&lt;a href=&quot;http://www.mactopia.com/&quot;&gt;Internet Explorer&lt;/a&gt; for MacOS 5.1.4,
+&lt;a href=&quot;http://fink.sf.net/&quot;&gt;Fink&lt;/a&gt; 4.0, &lt;a href=&quot;http://lame.sf.net/&quot;&gt;lame&lt;/a&gt; 3.92,
+&lt;a href=&quot;http://chimera.mozdev.org/&quot;&gt;Chimera&lt;/a&gt; 0.2.0,
+&lt;a href=&quot;http://&quot;&gt;woody&#39;s netinst images&lt;/a&gt; 20020416,
+&lt;a href=&quot;http://www.videolan.org/&quot;&gt;vlc&lt;/a&gt; 0.3.0. And I still haven&#39;t tried
+&lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE&lt;/a&gt; 3.0,
+&lt;a href=&quot;http://www.yellowdoglinux.com/&quot;&gt;Yellowdoglinux&lt;/a&gt; 2.2 and
+&lt;a href=&quot;http://www.xfree86.org/&quot;&gt;XFree86&lt;/a&gt; 4.2.0, to name a few (big) new
+releases. And that&#39;s &lt;em&gt;not&lt;/em&gt; all: soon there will be newer versions
+of &lt;a href=&quot;http://xine.sf.net/&quot;&gt;xine&lt;/a&gt;, &lt;a href=&quot;http://mplayer.sf.net/&quot;&gt;mplayer&lt;/a&gt;,
+&lt;a href=&quot;http://ffmpeg.sf.net/&quot;&gt;ffmpeg&lt;/a&gt;, and
+&lt;a href=&quot;http://www.kaffe.org/&quot;&gt;kaffe&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;So much (new) software, so little time!&lt;/p&gt;
+
+&lt;p&gt;And then, somewhere, a Microsoft&#39;s spoke-person said something like
+&quot;the open source people don&#39;t know how many things we have done in
+Windows-land&quot;. Well, of course, MacOS X, Internet Explorer and
+Opera aren&#39;t exactly open source. But the amount of new software
+just released (or in the process of being released) is just so
+damned huge. I guess, if he only knew (or didn&#39;t pretend he didn&#39;t
+know) what the open source community did in the past days, he would
+be ashamed of his comments. But then, again, it isn&#39;t uncommon for
+people driven by money being, ahem, how can I say, &quot;dishonest&quot;.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2002-04-08</title>
+
+	<id>http://cynic.cc/blog//posts/2002-04-08/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-04-08/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="harware" />
+
+	<category term="java" />
+
+	<category term="life" />
+
+	<category term="linux" />
+
+	<category term="python" />
+
+
+	<updated>2013-10-11T06:14:12Z</updated>
+	<published>2002-04-08T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Basically did nothing. But my blood went to analysis and a partial
+result is now available. I think that I&#39;ll have to start a diet,
+cut a bit of the chocolate and start doing (physical) exercises.&lt;/p&gt;
+
+&lt;p&gt;Also played a tiny bit with Python. It&#39;s starting to grow on me.
+I&#39;m a newbie right now, but I already found some problems where the
+&lt;a href=&quot;http://www.python.org/doc/current/tut/tut.html&quot;&gt;Standard Documentation&lt;/a&gt;
+is not entirely clear. And I also found differences of behavior
+between &lt;a href=&quot;http://www.python.org/&quot;&gt;CPython&lt;/a&gt; and
+&lt;a href=&quot;http://www.jython.org/&quot;&gt;Jython&lt;/a&gt; regarding the &lt;code&gt;readlines()&lt;/code&gt; method
+of a file object when called with an argument. Is that a bug,
+perhaps? If it is, then I&#39;m surprised that nobody found it yet.&lt;/p&gt;
+
+&lt;p&gt;Subscribed to the &lt;a href=&quot;http://www.python.org/&quot;&gt;Tutor&lt;/a&gt; mailing list to
+see if I am missing something. Cancelled some of my Yahoo!
+accounts.&lt;/p&gt;
+
+&lt;p&gt;Sent an e-mail to &lt;a href=&quot;http://www.bb.com.br/&quot;&gt;my bank&lt;/a&gt; telling them
+that they suck, because their site doesn&#39;t work with any of the
+Linux browsers that I tried (&lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt;,
+&lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt;, and
+&lt;a href=&quot;http://www.konqueror.org/&quot;&gt;Konqueror&lt;/a&gt;).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2002-03-29</title>
+
+	<id>http://cynic.cc/blog//posts/2002-03-29/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-03-29/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="harware" />
+
+	<category term="life" />
+
+	<category term="linux" />
+
+	<category term="powerpc" />
+
+	<category term="python" />
+
+	<category term="sadness" />
+
+	<category term="video" />
+
+
+	<updated>2013-10-11T06:07:42Z</updated>
+	<published>2002-03-29T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Today, I could sleep better, at least.&lt;/p&gt;
+
+&lt;p&gt;Also read a tiny little bit about
+&lt;a href=&quot;http://www.docbook.org/&quot;&gt;DocBook&lt;/a&gt;. Some things still aren&#39;t clear
+on my mind regarding SGML and DocBook, though.&lt;/p&gt;
+
+&lt;p&gt;It was nice to have &lt;a href=&quot;http://avifile.sf.net/&quot;&gt;avifile&lt;/a&gt; enter woody,
+which means that now I can use it on PPC.&lt;/p&gt;
+
+&lt;p&gt;The bad news of the day is that
+&lt;a href=&quot;http://www.iname.com/&quot;&gt;Iname/Mail.com&lt;/a&gt; will not be forwarding
+mails, starting early next month. &lt;a href=&quot;http://mail.yahoo.com/&quot;&gt;Yahoo!&lt;/a&gt;
+is joining them, which means that I&#39;ll have to seriously consider
+using my &lt;a href=&quot;http://www.mac.com&quot;&gt;Mac.com&lt;/a&gt; addresses for POP3/IMAP.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.python.org/&quot;&gt;Which&lt;/a&gt; &lt;a href=&quot;http://www.perl.com/&quot;&gt;programming&lt;/a&gt;
+&lt;a href=&quot;http://java.sun.com/&quot;&gt;language&lt;/a&gt;
+&lt;a href=&quot;http://www.objective-c.org/&quot;&gt;should&lt;/a&gt; I learn? To be sincere, I
+don&#39;t know. I&#39;m under the impression that the combo
+&lt;a href=&quot;http://www.python.org/&quot;&gt;Python&lt;/a&gt;/&lt;a href=&quot;http://www.jython.org/&quot;&gt;Jython&lt;/a&gt;
+is what offers me the greatest effort/satisfaction ratio, for many
+different values of satisfaction.&lt;/p&gt;
 
 	</content>
 

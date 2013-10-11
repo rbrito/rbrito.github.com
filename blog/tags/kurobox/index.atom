@@ -54,6 +54,7 @@
 	<updated>2011-03-12T03:52:56Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
 some embedded platforms. In other words, this is some of the stuff that is
@@ -220,6 +221,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 	<updated>2012-09-07T06:54:06Z</updated>
 	<published>2007-04-23T02:00:00Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Today I was pleasantly surprised that the Kurobox that &lt;a href=&quot;http://suihkulokki.blogspot.com/&quot;&gt;Riku Voipio&lt;/a&gt; sent

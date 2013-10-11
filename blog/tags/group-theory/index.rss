@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged group-theory</title>
 <link>http://cynic.cc/blog//tags/group-theory/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 07 Sep 2012 04:19:57 -0300</pubDate>
 <item>
-
 	<title>Random Points on Group Theory</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/random-points-on-group-theory/</guid>
 
 	<link>http://cynic.cc/blog//posts/random-points-on-group-theory/</link>
+
 
 
 	<category>abstract-algebra</category>
@@ -27,6 +29,7 @@
 
 	<pubDate>Thu, 24 May 2007 14:07:11 -0300</pubDate>
 	<dcterms:modified>2012-09-07T07:19:57Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;It is not a surprise for anyone that I&#39;m reviewing a little bit of Abstract
 Algebra.&lt;/p&gt;

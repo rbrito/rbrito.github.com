@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged dvds</title>
 <link>http://cynic.cc/blog//tags/dvds/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:07:42 -0300</pubDate>
 <item>
-
 	<title>Sourceforge, SSH keys, Free audiobooks, DVD&#x27;s</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/</guid>
 
 	<link>http://cynic.cc/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/</link>
+
 
 
 	<category>audiobooks</category>
@@ -42,6 +44,7 @@
 	<pubDate>Sat, 10 Mar 2007 23:00:00 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
 
+
 	<description>&lt;p&gt;Found out about &quot;The Right Way (TM)&quot; to hash an existing SSH&#39;s &lt;code&gt;known_hosts&lt;/code&gt;
 file (&lt;code&gt;ssh-keygen -H&lt;/code&gt;) and how to remove a hashed host entry from your
 &lt;code&gt;known_hosts&lt;/code&gt; file: &lt;code&gt;ssh-keygen -H -R host.name&lt;/code&gt;.  I needed this for newer
@@ -66,13 +69,12 @@ it is an amazing piece of music. Recommended for all fans of good music.&lt;/p&g
 
 </item>
 <item>
-
 	<title>2001-08-18</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-08-18/</guid>
 
 	<link>http://cynic.cc/blog//posts/2001-08-18/</link>
+
 
 
 	<category>crypto</category>
@@ -87,7 +89,8 @@ it is an amazing piece of music. Recommended for all fans of good music.&lt;/p&g
 
 
 	<pubDate>Sat, 18 Aug 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Well, it&#39;s been quite a while since I last wrote an entry of my
 weblog. Anyway, much has happened since then.&lt;/p&gt;

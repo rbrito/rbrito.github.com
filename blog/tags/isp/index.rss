@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged isp</title>
 <link>http://cynic.cc/blog//tags/isp/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Thu, 18 Apr 2013 17:50:59 -0300</pubDate>
 <item>
-
 	<title>2000-10-10</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-10/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-10-10/</link>
+
 
 
 	<category>dns</category>
@@ -22,7 +24,8 @@
 
 
 	<pubDate>Tue, 10 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Hallelujah! After I complained so much, they&#39;ve finally let me
 explain the problem to their technical staff and in a matter of
@@ -36,13 +39,12 @@ competitor&#39;s services. I guess that it worked.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-10-09</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-09/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-10-09/</link>
+
 
 
 	<category>dns</category>
@@ -51,7 +53,8 @@ competitor&#39;s services. I guess that it worked.&lt;/p&gt;
 
 
 	<pubDate>Mon, 09 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Still complaining about my reverse DNS. Now they&#39;ve promised to see
 things as fast as they can. I don&#39;t believe them.&lt;/p&gt;
@@ -60,13 +63,12 @@ things as fast as they can. I don&#39;t believe them.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-10-07</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-07/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-10-07/</link>
+
 
 
 	<category>dns</category>
@@ -75,7 +77,8 @@ things as fast as they can. I don&#39;t believe them.&lt;/p&gt;
 
 
 	<pubDate>Sat, 07 Oct 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Still complaining about my reverse DNS.&lt;/p&gt;
 </description>
@@ -83,13 +86,12 @@ things as fast as they can. I don&#39;t believe them.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-10-06</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-06/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-10-06/</link>
+
 
 
 	<category>dns</category>
@@ -98,7 +100,8 @@ things as fast as they can. I don&#39;t believe them.&lt;/p&gt;
 
 
 	<pubDate>Fri, 06 Oct 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Still complaining about my reverse DNS.&lt;/p&gt;
 </description>
@@ -106,13 +109,12 @@ things as fast as they can. I don&#39;t believe them.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-10-05</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-05/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-10-05/</link>
+
 
 
 	<category>dns</category>
@@ -121,7 +123,8 @@ things as fast as they can. I don&#39;t believe them.&lt;/p&gt;
 
 
 	<pubDate>Thu, 05 Oct 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;I tried to communicate with my provider via e-mail and via phone to
 get them to straighten their DNS entries, but I didn&#39;t have much
@@ -131,20 +134,20 @@ success, apparently.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-10-04</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-04/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-10-04/</link>
 
 
+
 	<category>isp</category>
 
 
 	<pubDate>Wed, 04 Oct 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Oh, I&#39;m finally surfing the web at mach speed. Great. Ok, not so
 great. My fuckning provider (which is not the same as the telco
@@ -159,20 +162,20 @@ don&#39;t even get prompted for my pass{phrase,word}.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-10-03</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-03/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-10-03/</link>
 
 
+
 	<category>isp</category>
 
 
 	<pubDate>Tue, 03 Oct 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;The telco company was supposed to install my ADSL (256kbits down,
 128kbits up) today, but, alas, they didn&#39;t. Apparently, they had a

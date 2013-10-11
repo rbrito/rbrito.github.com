@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged multimedia</title>
 <link>http://cynic.cc/blog//tags/multimedia/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:17:05 -0300</pubDate>
 <item>
-
 	<title>Looking for (Free) a Video Editor</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</guid>
 
 	<link>http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</link>
+
 
 
 	<category>debian</category>
@@ -28,7 +30,8 @@
 
 
 	<pubDate>Tue, 29 Jan 2013 22:16:07 -0200</pubDate>
-	<dcterms:modified>2013-01-30T00:16:56Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
 you were able to sneak in a camera (well, in those times, cell phones
@@ -61,13 +64,12 @@ final video. &lt;img src=&quot;http://cynic.cc/blog//tags/multimedia/../../smile
 
 </item>
 <item>
-
 	<title>I am not going to DebConf 12</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</guid>
 
 	<link>http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</link>
+
 
 
 	<category>debconf</category>
@@ -87,6 +89,7 @@ final video. &lt;img src=&quot;http://cynic.cc/blog//tags/multimedia/../../smile
 
 	<pubDate>Thu, 07 Jun 2012 01:59:42 -0300</pubDate>
 	<dcterms:modified>2012-06-07T04:58:09Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Due to some real life impediments (including a beautiful one with just over
 2 months of life called Daniel), I will not be able to go to this year&#39;s
@@ -120,13 +123,12 @@ stuff.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Preliminary support for webm in youtube-dl</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/preliminary-support-for-webm-in-youtube-dl/</guid>
 
 	<link>http://cynic.cc/blog//posts/preliminary-support-for-webm-in-youtube-dl/</link>
+
 
 
 	<category>audio</category>
@@ -147,6 +149,7 @@ stuff.&lt;/p&gt;
 	<pubDate>Sat, 29 May 2010 17:06:18 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
 
+
 	<description>&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
 
 &lt;p&gt;This way, at least people will have some material (in, fact, a chance) to play with this format.  I implemented this because, so far, I was only hoping here that a player for this would emerge. I guess that Debian&#39;s ffmpeg/mplayer will take some time, but I was pleased to see that Sebastian Dröge to upload a version of &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02596.html&quot;&gt;something&lt;/a&gt; that could use the new &lt;code&gt;libvpx&lt;/code&gt; codec.&lt;/p&gt;
@@ -156,6 +159,70 @@ stuff.&lt;/p&gt;
 &lt;p&gt;Well, it seems to be time to shape up that local build of mine of the &lt;a href=&quot;http://www.geocities.jp/aoyoume/aotuv/&quot;&gt;aotuv&lt;/a&gt; tuned version of Vorbis with &lt;a href=&quot;http://www.geocities.jp/aoyoume/&quot;&gt;Aoyumi&lt;/a&gt;&#39;s patches for libvorbis.&lt;/p&gt;
 
 &lt;p&gt;Exciting times in the multimedia world.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-04-19</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-04-19/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-04-19/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>macosx</category>
+
+	<category>multimedia</category>
+
+	<category>python</category>
+
+
+	<pubDate>Fri, 19 Apr 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:17:05Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Wow, so many things going in software-land that if I don&#39;t write
+about soon, I&#39;ll probably forget.&lt;/p&gt;
+
+&lt;p&gt;The best thing, of course, is that
+&lt;a href=&quot;http://www.debian.org/releases/woody/&quot;&gt;Woody&lt;/a&gt; is set to a
+(tentative) release on May, 1st. This is &lt;em&gt;amazing&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;Also, newer versions of the following programs are available:
+&lt;a href=&quot;http://www.python.org/&quot;&gt;Python&lt;/a&gt; 2.2.1,
+&lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt; for i386 6.0beta2,
+&lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt; 1.0RC1,
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS&lt;/a&gt; X 10.1.4,
+&lt;a href=&quot;http://www.mactopia.com/&quot;&gt;Internet Explorer&lt;/a&gt; for MacOS 5.1.4,
+&lt;a href=&quot;http://fink.sf.net/&quot;&gt;Fink&lt;/a&gt; 4.0, &lt;a href=&quot;http://lame.sf.net/&quot;&gt;lame&lt;/a&gt; 3.92,
+&lt;a href=&quot;http://chimera.mozdev.org/&quot;&gt;Chimera&lt;/a&gt; 0.2.0,
+&lt;a href=&quot;http://&quot;&gt;woody&#39;s netinst images&lt;/a&gt; 20020416,
+&lt;a href=&quot;http://www.videolan.org/&quot;&gt;vlc&lt;/a&gt; 0.3.0. And I still haven&#39;t tried
+&lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE&lt;/a&gt; 3.0,
+&lt;a href=&quot;http://www.yellowdoglinux.com/&quot;&gt;Yellowdoglinux&lt;/a&gt; 2.2 and
+&lt;a href=&quot;http://www.xfree86.org/&quot;&gt;XFree86&lt;/a&gt; 4.2.0, to name a few (big) new
+releases. And that&#39;s &lt;em&gt;not&lt;/em&gt; all: soon there will be newer versions
+of &lt;a href=&quot;http://xine.sf.net/&quot;&gt;xine&lt;/a&gt;, &lt;a href=&quot;http://mplayer.sf.net/&quot;&gt;mplayer&lt;/a&gt;,
+&lt;a href=&quot;http://ffmpeg.sf.net/&quot;&gt;ffmpeg&lt;/a&gt;, and
+&lt;a href=&quot;http://www.kaffe.org/&quot;&gt;kaffe&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;So much (new) software, so little time!&lt;/p&gt;
+
+&lt;p&gt;And then, somewhere, a Microsoft&#39;s spoke-person said something like
+&quot;the open source people don&#39;t know how many things we have done in
+Windows-land&quot;. Well, of course, MacOS X, Internet Explorer and
+Opera aren&#39;t exactly open source. But the amount of new software
+just released (or in the process of being released) is just so
+damned huge. I guess, if he only knew (or didn&#39;t pretend he didn&#39;t
+know) what the open source community did in the past days, he would
+be ashamed of his comments. But then, again, it isn&#39;t uncommon for
+people driven by money being, ahem, how can I say, &quot;dishonest&quot;.&lt;/p&gt;
 </description>
 
 

@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-06-06T21:23:31Z</updated>
+<updated>2013-10-11T06:07:42Z</updated>
 <entry>
 	<title>Preliminary support for webm in youtube-dl</title>
 
@@ -47,6 +47,7 @@
 
 	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-05-29T20:06:18Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
@@ -81,8 +82,9 @@
 	<category term="free-software" />
 
 
-	<updated>2013-06-06T21:23:31Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2001-12-28T02:00:00Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;A &lt;a href=&quot;http://www.bbc.co.uk/&quot;&gt;BBC&lt;/a&gt;, famosa rádio inglesa,

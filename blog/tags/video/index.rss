@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged video</title>
 <link>http://cynic.cc/blog//tags/video/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:07:42 -0300</pubDate>
 <item>
-
 	<title>SNA Acceleration vs. UXA Acceleration</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/sna_acceleration_vs_uxa/</guid>
 
 	<link>http://cynic.cc/blog//posts/sna_acceleration_vs_uxa/</link>
+
 
 
 	<category>debian</category>
@@ -28,7 +30,8 @@
 
 
 	<pubDate>Wed, 21 Aug 2013 13:44:19 -0300</pubDate>
-	<dcterms:modified>2013-08-21T16:44:29Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
 I am using right now, instead of my usual sid installations), I decided to
@@ -101,13 +104,12 @@ fingers so that it does.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Looking for (Free) a Video Editor</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</guid>
 
 	<link>http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</link>
+
 
 
 	<category>debian</category>
@@ -122,7 +124,8 @@ fingers so that it does.&lt;/p&gt;
 
 
 	<pubDate>Tue, 29 Jan 2013 22:16:07 -0200</pubDate>
-	<dcterms:modified>2013-01-30T00:16:56Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
 you were able to sneak in a camera (well, in those times, cell phones
@@ -155,13 +158,12 @@ final video. &lt;img src=&quot;http://cynic.cc/blog//tags/video/../../smileys/sm
 
 </item>
 <item>
-
 	<title>Preliminary support for webm in youtube-dl</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/preliminary-support-for-webm-in-youtube-dl/</guid>
 
 	<link>http://cynic.cc/blog//posts/preliminary-support-for-webm-in-youtube-dl/</link>
+
 
 
 	<category>audio</category>
@@ -182,6 +184,7 @@ final video. &lt;img src=&quot;http://cynic.cc/blog//tags/video/../../smileys/sm
 	<pubDate>Sat, 29 May 2010 17:06:18 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
 
+
 	<description>&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
 
 &lt;p&gt;This way, at least people will have some material (in, fact, a chance) to play with this format.  I implemented this because, so far, I was only hoping here that a player for this would emerge. I guess that Debian&#39;s ffmpeg/mplayer will take some time, but I was pleased to see that Sebastian Dröge to upload a version of &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02596.html&quot;&gt;something&lt;/a&gt; that could use the new &lt;code&gt;libvpx&lt;/code&gt; codec.&lt;/p&gt;
@@ -196,13 +199,12 @@ final video. &lt;img src=&quot;http://cynic.cc/blog//tags/video/../../smileys/sm
 
 </item>
 <item>
-
 	<title>Getting things from the iTunes Music Store without iTunes</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</guid>
 
 	<link>http://cynic.cc/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</link>
+
 
 
 	<category>apple</category>
@@ -218,6 +220,7 @@ final video. &lt;img src=&quot;http://cynic.cc/blog//tags/video/../../smileys/sm
 
 	<pubDate>Tue, 24 Feb 2009 11:11:54 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Being the &lt;a href=&quot;https://en.wikipedia.org/wiki/Free%20Software&quot;&gt;Free Software&lt;/a&gt; advocate that I am, I want to use as
 much Free Software as I can (and spread the world).&lt;/p&gt;
@@ -349,6 +352,108 @@ can be devised soon.&lt;/p&gt;
 
 &lt;p&gt;So, let&#39;s fire those wget&#39;s and start to study things (or prozilla&#39;s,
 aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-03-29</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-03-29/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-03-29/</link>
+
+
+
+	<category>free-software</category>
+
+	<category>harware</category>
+
+	<category>life</category>
+
+	<category>linux</category>
+
+	<category>powerpc</category>
+
+	<category>python</category>
+
+	<category>sadness</category>
+
+	<category>video</category>
+
+
+	<pubDate>Fri, 29 Mar 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Today, I could sleep better, at least.&lt;/p&gt;
+
+&lt;p&gt;Also read a tiny little bit about
+&lt;a href=&quot;http://www.docbook.org/&quot;&gt;DocBook&lt;/a&gt;. Some things still aren&#39;t clear
+on my mind regarding SGML and DocBook, though.&lt;/p&gt;
+
+&lt;p&gt;It was nice to have &lt;a href=&quot;http://avifile.sf.net/&quot;&gt;avifile&lt;/a&gt; enter woody,
+which means that now I can use it on PPC.&lt;/p&gt;
+
+&lt;p&gt;The bad news of the day is that
+&lt;a href=&quot;http://www.iname.com/&quot;&gt;Iname/Mail.com&lt;/a&gt; will not be forwarding
+mails, starting early next month. &lt;a href=&quot;http://mail.yahoo.com/&quot;&gt;Yahoo!&lt;/a&gt;
+is joining them, which means that I&#39;ll have to seriously consider
+using my &lt;a href=&quot;http://www.mac.com&quot;&gt;Mac.com&lt;/a&gt; addresses for POP3/IMAP.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.python.org/&quot;&gt;Which&lt;/a&gt; &lt;a href=&quot;http://www.perl.com/&quot;&gt;programming&lt;/a&gt;
+&lt;a href=&quot;http://java.sun.com/&quot;&gt;language&lt;/a&gt;
+&lt;a href=&quot;http://www.objective-c.org/&quot;&gt;should&lt;/a&gt; I learn? To be sincere, I
+don&#39;t know. I&#39;m under the impression that the combo
+&lt;a href=&quot;http://www.python.org/&quot;&gt;Python&lt;/a&gt;/&lt;a href=&quot;http://www.jython.org/&quot;&gt;Jython&lt;/a&gt;
+is what offers me the greatest effort/satisfaction ratio, for many
+different values of satisfaction.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-03-17</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-03-17/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-03-17/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>ibook</category>
+
+	<category>linux</category>
+
+	<category>mac</category>
+
+	<category>powerpc</category>
+
+	<category>video</category>
+
+
+	<pubDate>Sun, 17 Mar 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Got &lt;a href=&quot;http://mplayer.sf.net/&quot;&gt;mplayer&lt;/a&gt; working well in PowerPC (G3,
+600MHz), with the new &lt;a href=&quot;http://ffmpeg.sf.net/&quot;&gt;ffmpeg&lt;/a&gt;. I had to use
+-ao sdl to get it working. The video wasn&#39;t as smooth as with -ao
+null, but it was OK, at least. I am under the impression that using
+-vo sdl:x11 is better than using -vo x11, at least with the Rage
+Mobility 128. BTW, it was also possible to play DivX 5 movies with
+this setup (the new Star Wars clip).&lt;/p&gt;
+
+&lt;p&gt;The USB keyboard and USB mouse work fine under Linux. It was just a
+simple matter of recompiling the &lt;a href=&quot;http://www.kernel.org/&quot;&gt;kernel&lt;/a&gt;
+with USB HID support enabled (in my case, as modules). They also
+work fine with &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;&lt;/p&gt;
 </description>
 
 

@@ -48,6 +48,7 @@
 	<updated>2012-06-07T04:58:09Z</updated>
 	<published>2012-06-07T04:59:42Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Due to some real life impediments (including a beautiful one with just over
 2 months of life called Daniel), I will not be able to go to this year&#39;s
@@ -117,6 +118,7 @@ stuff.&lt;/p&gt;
 
 	<updated>2011-04-03T01:21:31Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
@@ -430,6 +432,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-11-12T13:23:55Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Seeing now that the situation regarding Free fonts is much better than in
 the past, I have started packaging some that are of high enough quality so
@@ -564,6 +567,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<updated>2010-08-03T09:09:46Z</updated>
 	<published>2010-08-03T09:09:46Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Even though I am late with this post, it is nice to say that I am writing here from this year&#39;s DebConf10, in NYC.&lt;/p&gt;
 
@@ -615,6 +619,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 	<updated>2010-07-18T06:34:40Z</updated>
 	<published>2010-07-18T06:34:40Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
@@ -682,6 +687,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-06-10T22:46:13Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
@@ -757,6 +763,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 	<updated>2011-03-12T03:52:56Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to

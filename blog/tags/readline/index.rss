@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged readline</title>
 <link>http://cynic.cc/blog//tags/readline/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Sat, 22 May 2010 20:36:42 -0300</pubDate>
 <item>
-
 	<title>Changing Some Configuration from Defaults</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/changing-some-configuration-from-defaults/</guid>
 
 	<link>http://cynic.cc/blog//posts/changing-some-configuration-from-defaults/</link>
+
 
 
 	<category>configuration</category>
@@ -31,6 +33,7 @@
 
 	<pubDate>Sat, 22 May 2010 20:36:42 -0300</pubDate>
 	<dcterms:modified>2010-05-22T23:36:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Two of my most frequently used tools are, hands down, Emacs and bash. Having a pleasant configuration of one&#39;s toolbox is necessary for long-term productivity.&lt;/p&gt;
 

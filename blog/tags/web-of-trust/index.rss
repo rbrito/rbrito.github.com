@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged web-of-trust</title>
 <link>http://cynic.cc/blog//tags/web-of-trust/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Sun, 18 Jul 2010 03:34:40 -0300</pubDate>
 <item>
-
 	<title>I am going to DebConf 10</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/i-am-going-to-debconf-10/</guid>
 
 	<link>http://cynic.cc/blog//posts/i-am-going-to-debconf-10/</link>
+
 
 
 	<category>debian</category>
@@ -33,6 +35,7 @@
 
 	<pubDate>Sun, 18 Jul 2010 03:34:40 -0300</pubDate>
 	<dcterms:modified>2010-07-18T06:34:40Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
 

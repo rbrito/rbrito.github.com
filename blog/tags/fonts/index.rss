@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged fonts</title>
 <link>http://cynic.cc/blog//tags/fonts/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Thu, 07 Jun 2012 01:58:09 -0300</pubDate>
 <item>
-
 	<title>I am not going to DebConf 12</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</guid>
 
 	<link>http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</link>
+
 
 
 	<category>debconf</category>
@@ -33,6 +35,7 @@
 
 	<pubDate>Thu, 07 Jun 2012 01:59:42 -0300</pubDate>
 	<dcterms:modified>2012-06-07T04:58:09Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Due to some real life impediments (including a beautiful one with just over
 2 months of life called Daniel), I will not be able to go to this year&#39;s
@@ -66,13 +69,12 @@ stuff.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Packaging fonts for a Debian-based system</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
 
 	<link>http://cynic.cc/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
+
 
 
 	<category>development</category>
@@ -92,6 +94,7 @@ stuff.&lt;/p&gt;
 
 	<pubDate>Fri, 12 Nov 2010 11:23:55 -0200</pubDate>
 	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Seeing now that the situation regarding Free fonts is much better than in
 the past, I have started packaging some that are of high enough quality so
@@ -201,13 +204,12 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 </item>
 <item>
-
 	<title>I am going to DebConf 10</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/i-am-going-to-debconf-10/</guid>
 
 	<link>http://cynic.cc/blog//posts/i-am-going-to-debconf-10/</link>
+
 
 
 	<category>debian</category>
@@ -227,6 +229,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 	<pubDate>Sun, 18 Jul 2010 03:34:40 -0300</pubDate>
 	<dcterms:modified>2010-07-18T06:34:40Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
 
@@ -261,13 +264,12 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 </item>
 <item>
-
 	<title>Nobody expects the... STIX fonts release!</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/nobody-expects-the----stix-fonts-release-/</guid>
 
 	<link>http://cynic.cc/blog//posts/nobody-expects-the----stix-fonts-release-/</link>
+
 
 
 	<category>fonts</category>
@@ -281,6 +283,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 	<pubDate>Sat, 29 May 2010 17:54:56 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:53:18Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Please, excuse me if you are a connoisseur of fonts and typography. You will
 find this boring, but other people may not know.&lt;/p&gt;
@@ -302,13 +305,12 @@ the typographic arena is alive and going strong.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Please let me zoom my documents!</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/please-let-me-zoom-my-documents-/</guid>
 
 	<link>http://cynic.cc/blog//posts/please-let-me-zoom-my-documents-/</link>
+
 
 
 	<category>bugs</category>
@@ -332,6 +334,7 @@ the typographic arena is alive and going strong.&lt;/p&gt;
 
 	<pubDate>Thu, 27 May 2010 11:17:00 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;It all started when I tried to typeset my documents with the &lt;a href=&quot;http://en.wikipedia.org/wiki/Utopia (typeface)&quot;&gt;Utopia&lt;/a&gt; typeface, which is Free Software, since &lt;a&gt;Adobe liberated it to the TeX Users Group.&lt;/a&gt;&lt;/p&gt;
 

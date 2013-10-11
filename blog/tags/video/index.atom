@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-08-21T16:44:29Z</updated>
+<updated>2013-10-11T06:07:42Z</updated>
 <entry>
 	<title>SNA Acceleration vs. UXA Acceleration</title>
 
@@ -41,8 +41,9 @@
 	<category term="xorg" />
 
 
-	<updated>2013-08-21T16:44:29Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-08-21T16:44:19Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
@@ -140,8 +141,9 @@ fingers so that it does.&lt;/p&gt;
 	<category term="video" />
 
 
-	<updated>2013-01-30T00:16:56Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2013-01-30T00:16:07Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
@@ -206,6 +208,7 @@ final video. &lt;img src=&quot;http://cynic.cc/blog//tags/video/../../smileys/sm
 	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-05-29T20:06:18Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
 
@@ -247,6 +250,7 @@ final video. &lt;img src=&quot;http://cynic.cc/blog//tags/video/../../smileys/sm
 
 	<updated>2012-09-07T06:54:06Z</updated>
 	<published>2009-02-24T14:11:54Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Being the &lt;a href=&quot;https://en.wikipedia.org/wiki/Free%20Software&quot;&gt;Free Software&lt;/a&gt; advocate that I am, I want to use as
@@ -379,6 +383,120 @@ can be devised soon.&lt;/p&gt;
 
 &lt;p&gt;So, let&#39;s fire those wget&#39;s and start to study things (or prozilla&#39;s,
 aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2002-03-29</title>
+
+	<id>http://cynic.cc/blog//posts/2002-03-29/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-03-29/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="harware" />
+
+	<category term="life" />
+
+	<category term="linux" />
+
+	<category term="powerpc" />
+
+	<category term="python" />
+
+	<category term="sadness" />
+
+	<category term="video" />
+
+
+	<updated>2013-10-11T06:07:42Z</updated>
+	<published>2002-03-29T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Today, I could sleep better, at least.&lt;/p&gt;
+
+&lt;p&gt;Also read a tiny little bit about
+&lt;a href=&quot;http://www.docbook.org/&quot;&gt;DocBook&lt;/a&gt;. Some things still aren&#39;t clear
+on my mind regarding SGML and DocBook, though.&lt;/p&gt;
+
+&lt;p&gt;It was nice to have &lt;a href=&quot;http://avifile.sf.net/&quot;&gt;avifile&lt;/a&gt; enter woody,
+which means that now I can use it on PPC.&lt;/p&gt;
+
+&lt;p&gt;The bad news of the day is that
+&lt;a href=&quot;http://www.iname.com/&quot;&gt;Iname/Mail.com&lt;/a&gt; will not be forwarding
+mails, starting early next month. &lt;a href=&quot;http://mail.yahoo.com/&quot;&gt;Yahoo!&lt;/a&gt;
+is joining them, which means that I&#39;ll have to seriously consider
+using my &lt;a href=&quot;http://www.mac.com&quot;&gt;Mac.com&lt;/a&gt; addresses for POP3/IMAP.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.python.org/&quot;&gt;Which&lt;/a&gt; &lt;a href=&quot;http://www.perl.com/&quot;&gt;programming&lt;/a&gt;
+&lt;a href=&quot;http://java.sun.com/&quot;&gt;language&lt;/a&gt;
+&lt;a href=&quot;http://www.objective-c.org/&quot;&gt;should&lt;/a&gt; I learn? To be sincere, I
+don&#39;t know. I&#39;m under the impression that the combo
+&lt;a href=&quot;http://www.python.org/&quot;&gt;Python&lt;/a&gt;/&lt;a href=&quot;http://www.jython.org/&quot;&gt;Jython&lt;/a&gt;
+is what offers me the greatest effort/satisfaction ratio, for many
+different values of satisfaction.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2002-03-17</title>
+
+	<id>http://cynic.cc/blog//posts/2002-03-17/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-03-17/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="ibook" />
+
+	<category term="linux" />
+
+	<category term="mac" />
+
+	<category term="powerpc" />
+
+	<category term="video" />
+
+
+	<updated>2013-10-11T06:07:42Z</updated>
+	<published>2002-03-17T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Got &lt;a href=&quot;http://mplayer.sf.net/&quot;&gt;mplayer&lt;/a&gt; working well in PowerPC (G3,
+600MHz), with the new &lt;a href=&quot;http://ffmpeg.sf.net/&quot;&gt;ffmpeg&lt;/a&gt;. I had to use
+-ao sdl to get it working. The video wasn&#39;t as smooth as with -ao
+null, but it was OK, at least. I am under the impression that using
+-vo sdl:x11 is better than using -vo x11, at least with the Rage
+Mobility 128. BTW, it was also possible to play DivX 5 movies with
+this setup (the new Star Wars clip).&lt;/p&gt;
+
+&lt;p&gt;The USB keyboard and USB mouse work fine under Linux. It was just a
+simple matter of recompiling the &lt;a href=&quot;http://www.kernel.org/&quot;&gt;kernel&lt;/a&gt;
+with USB HID support enabled (in my case, as modules). They also
+work fine with &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;&lt;/p&gt;
 
 	</content>
 

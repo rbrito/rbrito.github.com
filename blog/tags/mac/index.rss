@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged mac</title>
 <link>http://cynic.cc/blog//tags/mac/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:07:42 -0300</pubDate>
 <item>
-
 	<title>Running GRUB2 on PowerPC Macs</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/running_grub2_on_powerpc_macs/</guid>
 
 	<link>http://cynic.cc/blog//posts/running_grub2_on_powerpc_macs/</link>
+
 
 
 	<category>configuration</category>
@@ -39,6 +41,7 @@
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
 	<dcterms:modified>2011-04-03T01:21:31Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
 Mac (actually, an iBook G4), since the current documentation is lacking in
@@ -315,6 +318,110 @@ not everybody who wants to use GRUB2 have to learn about its workings.&lt;/p&gt;
 
 &lt;p&gt;Oh, of course, you can now have your kernels in ext4, btrfs, xfs
 etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-03-18</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-03-18/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-03-18/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>ibook</category>
+
+	<category>linux</category>
+
+	<category>mac</category>
+
+	<category>powerpc</category>
+
+	<category>study</category>
+
+
+	<pubDate>Mon, 18 Mar 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Typed the remaining bits of the first lecture on the
+&lt;em&gt;Theory of Matroids&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Read about how one makes a bootable CD for Newworlds with mkisofs:
+apparently, the needed things are the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;create a folder with &lt;code&gt;yaboot&lt;/code&gt;, &lt;code&gt;yaboot.conf&lt;/code&gt;, &lt;code&gt;vmlinux&lt;/code&gt;, &lt;code&gt;root.bin&lt;/code&gt;.
+I&#39;m not sure if &lt;code&gt;boot-floppy-hfs.img&lt;/code&gt; and &lt;code&gt;ofboot.b&lt;/code&gt; are necessary. I
+also don&#39;t have an idea of how OpenFirmware knows that it is
+supposed to load yaboot during the boot;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;mkisofs -hfs -map &amp;lt;file\&amp;gt; -part -hfs-bless &amp;lt;folder\&amp;gt; -r -o &amp;lt;isoimage.iso\&amp;gt; &amp;lt;root-of-cd\&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Sent an e-mail to the bastards at
+&lt;a href=&quot;http://www.linuxjournal.com/&quot;&gt;Linux Journal&lt;/a&gt;, complaining that I&#39;m
+not receiving my issues as I should (and my subscription is far
+from being expired).&lt;/p&gt;
+
+&lt;p&gt;Discovered that &lt;a href=&quot;http://www.apple.com.br/&quot;&gt;Apple Brasil&lt;/a&gt; is selling
+&lt;a href=&quot;http://www.apple.com/ibook/&quot;&gt;iBooks&lt;/a&gt; in
+&lt;a href=&quot;http://www.apple.com/br/appleensino/&quot;&gt;a promotion for education users&lt;/a&gt;.
+Damn!&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-03-17</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-03-17/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-03-17/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>ibook</category>
+
+	<category>linux</category>
+
+	<category>mac</category>
+
+	<category>powerpc</category>
+
+	<category>video</category>
+
+
+	<pubDate>Sun, 17 Mar 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Got &lt;a href=&quot;http://mplayer.sf.net/&quot;&gt;mplayer&lt;/a&gt; working well in PowerPC (G3,
+600MHz), with the new &lt;a href=&quot;http://ffmpeg.sf.net/&quot;&gt;ffmpeg&lt;/a&gt;. I had to use
+-ao sdl to get it working. The video wasn&#39;t as smooth as with -ao
+null, but it was OK, at least. I am under the impression that using
+-vo sdl:x11 is better than using -vo x11, at least with the Rage
+Mobility 128. BTW, it was also possible to play DivX 5 movies with
+this setup (the new Star Wars clip).&lt;/p&gt;
+
+&lt;p&gt;The USB keyboard and USB mouse work fine under Linux. It was just a
+simple matter of recompiling the &lt;a href=&quot;http://www.kernel.org/&quot;&gt;kernel&lt;/a&gt;
+with USB HID support enabled (in my case, as modules). They also
+work fine with &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;&lt;/p&gt;
 </description>
 
 

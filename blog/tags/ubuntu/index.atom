@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-06-05T08:25:51Z</updated>
+<updated>2013-10-11T06:07:42Z</updated>
 <entry>
 	<title>Lack of cooperation from Ubuntu?</title>
 
@@ -41,8 +41,9 @@
 	<category term="ubuntu" />
 
 
-	<updated>2013-06-05T08:25:51Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-04-20T01:46:26Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
@@ -117,6 +118,7 @@ machines on datacenters.&lt;/p&gt;
 
 	<updated>2011-03-12T03:52:56Z</updated>
 	<published>2011-02-26T14:55:06Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Given that Chromium/Chrome is used more and more (as became apparent
@@ -196,6 +198,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 	<updated>2012-09-07T06:54:06Z</updated>
 	<published>2007-05-08T02:00:00Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Having been playing with some new things in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;, like the
 &lt;a href=&quot;http://packages.debian.org/magicfilter&quot;&gt;magicfilter&lt;/a&gt; package, which is a superb, lightweight solution to
@@ -246,6 +249,7 @@ thing, because computing resources are limited).&lt;/p&gt;
 
 	<updated>2012-09-07T06:54:06Z</updated>
 	<published>2007-03-16T02:00:00Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Have been playing with the great idea of &lt;a

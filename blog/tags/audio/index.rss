@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged audio</title>
 <link>http://cynic.cc/blog//tags/audio/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:07:42 -0300</pubDate>
 <item>
-
 	<title>Preliminary support for webm in youtube-dl</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/preliminary-support-for-webm-in-youtube-dl/</guid>
 
 	<link>http://cynic.cc/blog//posts/preliminary-support-for-webm-in-youtube-dl/</link>
+
 
 
 	<category>audio</category>
@@ -34,6 +36,7 @@
 	<pubDate>Sat, 29 May 2010 17:06:18 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
 
+
 	<description>&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
 
 &lt;p&gt;This way, at least people will have some material (in, fact, a chance) to play with this format.  I implemented this because, so far, I was only hoping here that a player for this would emerge. I guess that Debian&#39;s ffmpeg/mplayer will take some time, but I was pleased to see that Sebastian Dröge to upload a version of &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02596.html&quot;&gt;something&lt;/a&gt; that could use the new &lt;code&gt;libvpx&lt;/code&gt; codec.&lt;/p&gt;
@@ -48,13 +51,12 @@
 
 </item>
 <item>
-
 	<title>2001-12-28</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-12-28/</guid>
 
 	<link>http://cynic.cc/blog//posts/2001-12-28/</link>
+
 
 
 	<category>audio</category>
@@ -63,7 +65,8 @@
 
 
 	<pubDate>Fri, 28 Dec 2001 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;A &lt;a href=&quot;http://www.bbc.co.uk/&quot;&gt;BBC&lt;/a&gt;, famosa rádio inglesa,
 &lt;a href=&quot;http://support.bbc.co.uk/ogg/&quot;&gt;está transmitindo sua programação&lt;/a&gt;

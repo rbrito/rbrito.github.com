@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged kurobox</title>
 <link>http://cynic.cc/blog//tags/kurobox/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 07 Sep 2012 03:54:06 -0300</pubDate>
 <item>
-
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
 
 	<link>http://cynic.cc/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
+
 
 
 	<category>configuration</category>
@@ -39,6 +41,7 @@
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
 some embedded platforms. In other words, this is some of the stuff that is
@@ -177,13 +180,12 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 </item>
 <item>
-
 	<title>Happy News: A new Kurobox</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/happy-news-a-new-kurobox/</guid>
 
 	<link>http://cynic.cc/blog//posts/happy-news-a-new-kurobox/</link>
+
 
 
 	<category>computers</category>
@@ -201,6 +203,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 	<pubDate>Sun, 22 Apr 2007 23:00:00 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Today I was pleasantly surprised that the Kurobox that &lt;a href=&quot;http://suihkulokki.blogspot.com/&quot;&gt;Riku Voipio&lt;/a&gt; sent
 me has arrived!  From the looks of it, it is a Kurobox HG, which, compared

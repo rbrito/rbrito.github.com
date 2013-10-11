@@ -5,15 +5,307 @@
 <channel>
 <title>pages tagged hardware</title>
 <link>http://cynic.cc/blog//tags/hardware/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:23:45 -0300</pubDate>
 <item>
+	<title>2002-07-07</title>
 
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-07/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-07-07/</link>
+
+
+
+	<category>apple</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hacks</category>
+
+	<category>hardware</category>
+
+	<category>macosx</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Sun, 07 Jul 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:23:45Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Woke up quite early with that kernel panic bugging me. I read the
+documentation and the fix for it was to reboot MacOS 9 (which
+wasn&#39;t as simple as it should, since MacOS X apparently de-blessed
+MacOS 9&#39;s System Folder). Anyway, after reusing XPostFacto, the
+PowerMac booted with MacOS X! Woohoo!&lt;/p&gt;
+
+&lt;p&gt;Well, seeing this OS booting on this old computer is quite cool.
+Well,
+&lt;a href=&quot;http://slashdot.org/comments.pl?sid=33385&amp;amp;cid=3607384&quot;&gt;apart from some severe usability problems&lt;/a&gt;
+and slowness, MacOS X is an amazing operating system. The problem
+is: it &lt;strong&gt;is slow&lt;/strong&gt;. It is slow with a G3 600MHz (100MHz of bus)
+with 128MB of RAM and, obviously, much more so with a dual 604e
+180MHz with only 64MB of RAM.&lt;/p&gt;
+
+&lt;p&gt;BTW, MacOS X isn&#39;t able to use both processors when it is booted
+with XPostFacto.&lt;/p&gt;
+
+&lt;p&gt;BTW#2, XFree86&#39;s native driver for Mach64 doesn&#39;t include support
+for the XVideo extension.&lt;/p&gt;
+
+&lt;p&gt;Also used the client-side of NFS and SMB on MacOS X, which is quite
+easy to use.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-07-06</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-06/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-07-06/</link>
+
+
+
+	<category>apple</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hacks</category>
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+	<category>macosx</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Sat, 06 Jul 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:20:31Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Took the day to see how things regarding the old PowerMac
+9500/180MP were with a
+&lt;a href=&quot;http://people.debian.org/~branden/&quot;&gt;newer XFree86&lt;/a&gt;. Apparently,
+&lt;a href=&quot;http://www.xfree86.org/&quot;&gt;XFree86 4.2&lt;/a&gt; doesn&#39;t support the XVideo
+extension for the &lt;code&gt;imst&lt;/code&gt;t adapter, which is quite a pity.&lt;/p&gt;
+
+&lt;p&gt;What this means is that I am not able to use
+&lt;a href=&quot;http://xine.sf.net/&quot;&gt;Xine&lt;/a&gt; or &lt;a href=&quot;http://www.mplayerhq.hu/&quot;&gt;Mplayer&lt;/a&gt;
+to efficiently play videos on this computer.&lt;/p&gt;
+
+&lt;p&gt;I can see some things that make this computer slow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It has a modest amount of RAM for today&#39;s standards (64MB,
+which is particularly little for PowerPC);&lt;/li&gt;
+&lt;li&gt;I don&#39;t know if it&#39;s RAM chips are in an interleaved
+configuration or not;&lt;/li&gt;
+&lt;li&gt;If it had a faster/better supported video card (say, like a
+&lt;a href=&quot;http://www.ati.com/&quot;&gt;ATI&lt;/a&gt; Mach64), things would perhaps be better,
+but this is just a guess. I don&#39;t know if the Mach64 sports XVideo
+support under PowerPC, but perhaps the
+&lt;a href=&quot;http://gatos.sf.net/&quot;&gt;Gatos&lt;/a&gt; project might help here;&lt;/li&gt;
+&lt;li&gt;I have no idea why this computer, while having a SCSI interface
+and drive, is so slow while it is using the disk. I see two things:
+it freezes most things the user (that&#39;s me!) whenever it is writing
+(reading?) anything to (from?) the disk and the transfer speeds are
+quite sloooow. I wonder if this is a problem of the Linux SCSI
+infra-structure, if it is a problem of the hardware or if it is a
+problem of configuration. It probably isn&#39;t a problem with Linux,
+since I also see the slowness with &lt;a href=&quot;http://www.apple.com/&quot;&gt;MacOS&lt;/a&gt;
+Classic (8).&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Anyway, just for fun, I tried to install
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X 10.1&lt;/a&gt; on this old computer.
+The catch is that MacOS X can&#39;t be installed on anything this old.
+Well, at least, that&#39;s what Apple says. I had to grab a copy of
+MacOS 9 (in German!) just to bootstrap the system. Then, using
+&lt;a href=&quot;http://eshop.macsales.com/OSXCenter/XPostFacto/&quot;&gt;XPostFacto&lt;/a&gt;, the
+installation was quite smooth (and slow). But with one gotcha at
+the first reboot: a kernel panic.&lt;/p&gt;
+
+&lt;p&gt;After that, I went to sleep.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-03-20</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-03-20/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-03-20/</link>
+
+
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+	<category>study</category>
+
+
+	<pubDate>Wed, 20 Mar 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Just another common day. Attended the mini-course on
+&lt;em&gt;Theory of Matroids&lt;/em&gt; (which just shown me that I should be studying
+way, way more) and the seminar on Computational Biology.&lt;/p&gt;
+
+&lt;p&gt;Also got the new speakers for my computer, Logitech&#39;s Soundman
+S-4.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-03-18</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-03-18/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-03-18/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>ibook</category>
+
+	<category>linux</category>
+
+	<category>mac</category>
+
+	<category>powerpc</category>
+
+	<category>study</category>
+
+
+	<pubDate>Mon, 18 Mar 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Typed the remaining bits of the first lecture on the
+&lt;em&gt;Theory of Matroids&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Read about how one makes a bootable CD for Newworlds with mkisofs:
+apparently, the needed things are the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;create a folder with &lt;code&gt;yaboot&lt;/code&gt;, &lt;code&gt;yaboot.conf&lt;/code&gt;, &lt;code&gt;vmlinux&lt;/code&gt;, &lt;code&gt;root.bin&lt;/code&gt;.
+I&#39;m not sure if &lt;code&gt;boot-floppy-hfs.img&lt;/code&gt; and &lt;code&gt;ofboot.b&lt;/code&gt; are necessary. I
+also don&#39;t have an idea of how OpenFirmware knows that it is
+supposed to load yaboot during the boot;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;mkisofs -hfs -map &amp;lt;file\&amp;gt; -part -hfs-bless &amp;lt;folder\&amp;gt; -r -o &amp;lt;isoimage.iso\&amp;gt; &amp;lt;root-of-cd\&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Sent an e-mail to the bastards at
+&lt;a href=&quot;http://www.linuxjournal.com/&quot;&gt;Linux Journal&lt;/a&gt;, complaining that I&#39;m
+not receiving my issues as I should (and my subscription is far
+from being expired).&lt;/p&gt;
+
+&lt;p&gt;Discovered that &lt;a href=&quot;http://www.apple.com.br/&quot;&gt;Apple Brasil&lt;/a&gt; is selling
+&lt;a href=&quot;http://www.apple.com/ibook/&quot;&gt;iBooks&lt;/a&gt; in
+&lt;a href=&quot;http://www.apple.com/br/appleensino/&quot;&gt;a promotion for education users&lt;/a&gt;.
+Damn!&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-03-17</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-03-17/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-03-17/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>ibook</category>
+
+	<category>linux</category>
+
+	<category>mac</category>
+
+	<category>powerpc</category>
+
+	<category>video</category>
+
+
+	<pubDate>Sun, 17 Mar 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Got &lt;a href=&quot;http://mplayer.sf.net/&quot;&gt;mplayer&lt;/a&gt; working well in PowerPC (G3,
+600MHz), with the new &lt;a href=&quot;http://ffmpeg.sf.net/&quot;&gt;ffmpeg&lt;/a&gt;. I had to use
+-ao sdl to get it working. The video wasn&#39;t as smooth as with -ao
+null, but it was OK, at least. I am under the impression that using
+-vo sdl:x11 is better than using -vo x11, at least with the Rage
+Mobility 128. BTW, it was also possible to play DivX 5 movies with
+this setup (the new Star Wars clip).&lt;/p&gt;
+
+&lt;p&gt;The USB keyboard and USB mouse work fine under Linux. It was just a
+simple matter of recompiling the &lt;a href=&quot;http://www.kernel.org/&quot;&gt;kernel&lt;/a&gt;
+with USB HID support enabled (in my case, as modules). They also
+work fine with &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-03-16</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-03-16/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-03-16/</link>
+
+
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+
+	<pubDate>Sat, 16 Mar 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Went to see my uncle with my SO. Got myself an USB keyboard with an
+USB mouse attached (with scroll wheel).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2002-01-01</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-01-01/</guid>
 
 	<link>http://cynic.cc/blog//posts/2002-01-01/</link>
+
 
 
 	<category>debian</category>
@@ -32,7 +324,8 @@
 
 
 	<pubDate>Tue, 01 Jan 2002 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Well, some progress on the PPC front. I&#39;ve just configured the PMac
 to use the &lt;code&gt;imstt&lt;/code&gt; driver instead of the &lt;code&gt;fbdev&lt;/code&gt;. Due to this, the
@@ -70,13 +363,12 @@ really enjoying (but it&#39;s ok).&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2001-12-29</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-12-29/</guid>
 
 	<link>http://cynic.cc/blog//posts/2001-12-29/</link>
+
 
 
 	<category>debian</category>
@@ -93,7 +385,8 @@ really enjoying (but it&#39;s ok).&lt;/p&gt;
 
 
 	<pubDate>Sat, 29 Dec 2001 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Today I finally got the Power Macintosh 9500/180MP with
 &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian testing&lt;/a&gt; installed in a semi-decent
@@ -142,13 +435,12 @@ only consumed power proportional to its speed, it would be nicer.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2001-07-18</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-18/</guid>
 
 	<link>http://cynic.cc/blog//posts/2001-07-18/</link>
+
 
 
 	<category>debian</category>
@@ -159,7 +451,8 @@ only consumed power proportional to its speed, it would be nicer.&lt;/p&gt;
 
 
 	<pubDate>Wed, 18 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Ok, I know I messed up. My girlfriend told me that we were in July,
 not June. What a shame! Anyway, I&#39;ve corrected my diary entries and
@@ -198,13 +491,12 @@ justified, while &lt;a href=&quot;http://www.netscape.com&quot;&gt;Netscape 4.77
 
 </item>
 <item>
-
 	<title>2001-07-17</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-17/</guid>
 
 	<link>http://cynic.cc/blog//posts/2001-07-17/</link>
+
 
 
 	<category>debian</category>
@@ -219,7 +511,8 @@ justified, while &lt;a href=&quot;http://www.netscape.com&quot;&gt;Netscape 4.77
 
 
 	<pubDate>Tue, 17 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-06-06T21:23:31Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;This is the day that shouldn&#39;t have happened --- it was bad right
 from start. First of all, I couldn&#39;t sleep well because I dreamt
@@ -269,402 +562,6 @@ farther than what I realized at first. I will still keep trying to
 make this damn thing work, but I&#39;m not confident anymore that I&#39;ll
 succeed. Well, I&#39;ll talk to my uncle tomorrow, perhaps and see if
 the other Mac behaves the same way. Enough for a day already.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2001-07-11</title>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-11/</guid>
-
-	<link>http://cynic.cc/blog//posts/2001-07-11/</link>
-
-
-	<category>apple</category>
-
-	<category>debian</category>
-
-	<category>hardware</category>
-
-	<category>linux</category>
-
-	<category>macos</category>
-
-	<category>powerpc</category>
-
-
-	<pubDate>Wed, 11 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
-
-	<description>&lt;p&gt;Some weeks ago, my uncle that sells and fixes computers,
-&lt;a href=&quot;mailto:startmicro@uol.com.br&quot;&gt;Isaac&lt;/a&gt;, got a pair of old
-&lt;a href=&quot;http://www.info.apple.com/applespec/applespec.taf?RID=204&quot;&gt;Power Macintosh 9500/180MP&lt;/a&gt;
-from a customer. His customer said that if he fixed one of them,
-the other would be his as payment. So he kind of fixed one of them
-and lent me the other, which means that I&#39;m now going to play with
-both
-&lt;a href=&quot;http://download.info.apple.com/Apple_Support_Area/Apple_Software_Updates/English-North_American/Macintosh/System/Mac_OS_8.1_Update/&quot;&gt;MacOS 8.0&lt;/a&gt;
-and a Unix-like OS with it.&lt;/p&gt;
-
-&lt;p&gt;It came with two PowerPC 604e processors of 180MHz (or so the specs
-say), 64MB of RAM (where am I going to get more of it?), an
-&lt;a href=&quot;http://www.ati.com&quot;&gt;ATI&lt;/a&gt; graphics card with 2MB of memory, and a
-4-speed CD-ROM. It features two SCSI interfaces, an Ethernet
-adapter, a MacOS 8.0 CD, a keyboard and the (in)famous 1-button
-mouse from &lt;a href=&quot;http://www.apple.com&quot;&gt;Apple&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It is the first dual-head machine over which I am able to get my
-greasy pawls. As welcome additionals, it is also the first time I
-get to play with a non-x86 machine in a System Administrator
-position (of course, I also use Solaris 2.x with
-&lt;a href=&quot;http://www.ime.usp.br/&quot;&gt;my University&#39;s&lt;/a&gt; workstations, but that
-doesn&#39;t count, since I&#39;m just a luser there).&lt;/p&gt;
-
-&lt;p&gt;The PowerPC machines are actually quite different from their ix86
-counterparts. First of all, they don&#39;t have a BIOS setup, but you
-can interface with the hardware before any Operating System gets
-loaded with
-&lt;a href=&quot;http://playground.sun.com/1275/home.html&quot;&gt;Open Firmware&lt;/a&gt;, which is
-written in FORTH. You should be able to get into OF pressing
-Command-Option-O-F while the machine chimes, or right after it
-chimes. But, to be honest, I still couldn&#39;t see the damned OF
-prompt, despite my numerous attempts and ways of pressing the
-combination of keys.&lt;/p&gt;
-
-&lt;p&gt;Anyway, the first task to make it work would, obviously, be to
-install MacOS 8.0 on this machine. Well, this sounds great, but my
-experience with it is a tiny bit different.&lt;/p&gt;
-
-&lt;p&gt;The first of the problems is that the machine doesn&#39;t boot while
-the HD is connected to it. Weird, huh? I agree. If, on the other
-hand, I disconnect the machine, put the MacOS CD on the CD drive,
-let MacOS start loading and &lt;em&gt;immediately&lt;/em&gt; plug the power connector
-on the HD, &lt;em&gt;then&lt;/em&gt; the machine will boot MacOS and see the HD,
-partition it and I am able to install MacOS on it. But on the next
-reboot, I am not able to get things working without disconnecting
-the power of the HD again.&lt;/p&gt;
-
-&lt;p&gt;Conformed to be working with the machine this way, I downloaded a
-huge load of ISO images for it, including the
-&lt;a href=&quot;http://www.netbsd.org/Ports/macppc/&quot;&gt;NetBSD port for PPC&lt;/a&gt;, the
-&lt;a href=&quot;http://www.debian.org/ports/powerpc/&quot;&gt;Debian 2.2r3 port for PPC&lt;/a&gt;,
-&lt;a href=&quot;http://www.linuxppc.org&quot;&gt;LinuxPPC 2000 Q4&lt;/a&gt; and
-&lt;a href=&quot;http://www.yellowdoglinux.com&quot;&gt;Yellow Dog Linux 2.0&lt;/a&gt;. I made sure
-the images I downloaded all had the right MD5SUMs and even used
-rsync on the images after I had downloaded them, just to make sure
-everything got alright.&lt;/p&gt;
-
-&lt;p&gt;Well, of all those images, the only one that booted on the Apple
-was the &lt;a href=&quot;http://www.linuxppc.org&quot;&gt;LinuxPPC 2000 Q4 image&lt;/a&gt;, which
-was quite frustrating. The Debian CDs that I burned (I burned two:
-one from a US site and another with non-US programs) didn&#39;t even
-boot, including boot floppies generated from them -- quite a shame,
-since that is, by far, my preferred operating system.&lt;/p&gt;
-
-&lt;p&gt;Anyway, back to LinuxPPC. Seeing the machine boot with a
-framebuffer with that little penguin holding a mug of beer and
-telling me many things about the hardware that I didn&#39;t even know
-is actually quite refreshing (no pun intended). After the kernel
-boots, an X installer is started, a little menu appears and
-things... ...STOP! That&#39;s right. After investigating a bit, I
-discovered that programs are segfaulting consistenly in a reboot,
-but in different reboots, the applications that segfault are not
-necessarily the same that segfaulted in previous reboots. This may
-be a hint that its memory is not OK, although I&#39;m not so sure.&lt;/p&gt;
-
-&lt;p&gt;Anyway, I subscribed to the
-&lt;a href=&quot;http://lists.debian.org/#debian-powerpc&quot;&gt;Debian PowerPC mailing list&lt;/a&gt;
-and I have been following it daily, learning a lot of things about
-PPC in general.&lt;/p&gt;
-
-&lt;p&gt;My faith is restored now that
-&lt;a href=&quot;http://penguinppc.org/~eb/&quot;&gt;Ethan Benson&lt;/a&gt; has posted CVS-snapshots
-of the woody boot floppies on his page &lt;em&gt;AND&lt;/em&gt;, with them, I &lt;strong&gt;can&lt;/strong&gt;
-boot my machine.&lt;/p&gt;
-
-&lt;p&gt;I still have those problems with the HD, although its days are
-counted on this machine: I&#39;ll be soon getting a 2GB SCSI HD for it
-(I hope!), so that I can continue my journey of installing Debian
-potato/woody (or any other operating system!) on this machine. I
-can&#39;t wait to have the beautiful &lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE 2.2&lt;/a&gt;,
-the highly anticipated &lt;a href=&quot;http://www.debian.org/&quot;&gt;Mozilla&lt;/a&gt; and the
-amazing &lt;a href=&quot;http://www.qmail.org/&quot;&gt;qmail&lt;/a&gt; running on this machine
-(things that this machine designers never dreamt of running on this
-old machine).&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2001-05-18</title>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-05-18/</guid>
-
-	<link>http://cynic.cc/blog//posts/2001-05-18/</link>
-
-
-	<category>debian</category>
-
-	<category>hardware</category>
-
-	<category>study</category>
-
-
-	<pubDate>Fri, 18 May 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
-
-	<description>&lt;p&gt;It&#39;s been a long time since I last updated my diary. Let&#39;s see if I
-can get things up to date (and let me see if I can keep me
-organized and productive).&lt;/p&gt;
-
-&lt;p&gt;Today, the day started quite a bit messy: my computer, for some
-reason, didn&#39;t want to turn on. It was beeping with my monitor
-telling me to check the signal cable. &quot;Humm... Time to buy another
-graphics card&quot; (and just the thought of having to choose from among
-one less manufacturer of video cards scared me). I checked my
-mainboard manual and it confirmed that the beeps I heard were
-indeed problems with my graphics card (it&#39;s obvious that I didn&#39;t
-want to believe the unfortunate situation of buying another card).&lt;/p&gt;
-
-&lt;p&gt;Having to use my computer anyway, I just removed my card from its
-slot, and installed it again. Luckily, things started working
-again. Whew! That was close! Anyway, I&#39;m now watching this card
-closely. Very closely.&lt;/p&gt;
-
-&lt;p&gt;Learned how to set up cookies with CGI scripts. Found out about
-&lt;a href=&quot;http://www.recipesource.com/&quot;&gt;an site with recipes (for cooking)&lt;/a&gt;
-while having my daily dose of
-&lt;a href=&quot;http://www.slashdot.org/&quot;&gt;Slashdot.org&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Perhaps due to lousy system administrators,
-&lt;a href=&quot;http://www.iname.com/&quot;&gt;Iname&lt;/a&gt;/&lt;a href=&quot;http://www.mail.com/&quot;&gt;Mail.com&lt;/a&gt; is
-not delivering my e-mails. AGAIN. Enough.&lt;/p&gt;
-
-&lt;p&gt;BTW, I have to finish a take home exam on Approximation
-Algorithms.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2001-03-10</title>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-03-10/</guid>
-
-	<link>http://cynic.cc/blog//posts/2001-03-10/</link>
-
-
-	<category>debian</category>
-
-	<category>hardware</category>
-
-	<category>health</category>
-
-	<category>kde</category>
-
-	<category>linux</category>
-
-	<category>network</category>
-
-	<category>study</category>
-
-
-	<pubDate>Sat, 10 Mar 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
-
-	<description>&lt;p&gt;Didn&#39;t do many important things today, besides making a brand new
-installation of Debian&#39;s sid/unstable to see how things were going
-with the bleeding edge. It turned out to be better than I expected
-(I had some problems experiencing unstable before, so I was
-scared).&lt;/p&gt;
-
-&lt;p&gt;Some of the nicest things are that it features XFree86 4.0.2 (with
-the RENDER extension, since I have a Matrox G400) and that, coupled
-with KDE 2.1/qt 2.3.0, makes it possible to use antialised fonts,
-which make one&#39;s surfing experience much more pleasing, for
-instance. If you are on the same boat, don&#39;t forget to visit
-&lt;a href=&quot;http://keithp.com/~keithp/&quot;&gt;Keith Packard&#39;s homepage&lt;/a&gt;, as it
-features a handy
-&lt;a href=&quot;http://keithp.com/~keithp/fonts/XftConfig&quot;&gt;XftConfig file&lt;/a&gt;. The
-only lowpoint of KDE with antialiasing is that if AA is enabled,
-then you loose non-scalable fonts with KDE applications, which
-means that you can&#39;t make konsole use a 10x20 fixed font anymore.&lt;/p&gt;
-
-&lt;p&gt;BTW, talking about &lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE&lt;/a&gt;, KDE 2.1 allows one
-to use &lt;a href=&quot;http://www.windowmaker.org/&quot;&gt;Windowmaker&lt;/a&gt; Dock
-Applications, and this is a very welcome thing as I love wmifs. The
-more I use KDE, the more I&#39;m impressed with it, in many respects.&lt;/p&gt;
-
-&lt;p&gt;Managed also to find some sites explaining Androgenetic Alopecia
-and which are potential treatments for it. Frankly, I&#39;d love to not
-have to surf these sites... And keeping with the surfing thing,
-found a remarkable program called
-&lt;a href=&quot;http://vtun.sourceforge.net/&quot;&gt;vtun&lt;/a&gt;, for setting up encrypted
-TCP/IP tunnels. Handy for WANs.&lt;/p&gt;
-
-&lt;p&gt;And I&#39;m keeping reading about Multiple Sequence Alignment, which is
-getting more exciting day after day.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2001-01-31</title>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-01-31/</guid>
-
-	<link>http://cynic.cc/blog//posts/2001-01-31/</link>
-
-
-	<category>debian</category>
-
-	<category>hardware</category>
-
-	<category>linux</category>
-
-	<category>study</category>
-
-
-	<pubDate>Wed, 31 Jan 2001 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
-
-	<description>&lt;p&gt;Happy New Millennium! So many things have happened since the last
-time I&#39;ve updated my diary and I guess that since I can&#39;t summarize
-everything accurately, I&#39;ll just list what I think are the
-remarkable facts:&lt;/p&gt;
-
-&lt;p&gt;I have now put my new computer (a &lt;a href=&quot;http://www.amd.com&quot;&gt;Duron&lt;/a&gt;
-600MHz with a lovely &lt;a href=&quot;http://www.asus.com&quot;&gt;Asus&lt;/a&gt; A7V motherboard)
-to actual use. Of course, I made a backup of my older computer, so
-that I was prepared for worst (read on);
-&lt;a href=&quot;http://www.kernel.org&quot;&gt;Linux 2.4.0&lt;/a&gt; has finally been released and
-it includes a lot of new goodies. While I think that it is still
-not the right time to switch to the new version, it is indeed quite
-tempting (but I&#39;ll resist that temptation, since I&#39;ve read a lot of
-people complaining of data corruption with the new IDE drivers when
-used with VIA chipsets -- and my motherboard features, guess what,
-a VIA chipset, of course).
-At the time of this writing (Feb 4th), Linux 2.4.1 was already
-released, with many minor fixes;
-A &lt;a href=&quot;http://www.debian.org/releases/testing&quot;&gt;new version&lt;/a&gt; of the
-Linux Distribution that I use,
-&lt;a href=&quot;http://www.debian.org&quot;&gt;Debian GNU/Linux&lt;/a&gt; is now getting more and
-more functionality. It is ready for the new Linux 2.4.0 kernel, but
-still under development (read: prone to break). Oh, why can&#39;t new
-software be stable? In the mean time, I&#39;m using Debian&#39;s
-&lt;a href=&quot;http://www.debian.org/releases/potato&quot;&gt;potato&lt;/a&gt;.
-One week after I have started to use my new computer, my 40GB
-Samsung drive broke. Ouch. Fortunately, I had taken backups of
-everything from my old computer and any new data that I had on my
-new computer was still readable. So, now, I&#39;m using a new 30GB
-&lt;a href=&quot;http://www.quantum.com&quot;&gt;Quantum&lt;/a&gt; drive and everything seems to be
-working fine again. Nice.
-I am now reading more and more things about my Mastership work. It
-will be in a sub-area of computer science called
-&lt;a href=&quot;http://cynic.cc/blog//tags/hardware/../compbio/index.html&quot;&gt;Computational (Molecular) Biology&lt;/a&gt;. In
-particular, I&#39;m studying now alignments of multiple sequences. The
-theory is quite general and applies to alignments of sequences over
-any alphabets, but the biological motivation is to study and
-compare (sub)sequences of DNA and of proteins;
-I must confess that while I was reading slowly in the beginning,
-without much motivation, now I&#39;m quite excited about the subject.
-It has really grown on me and now I see how much I still have to
-catch up to read bleading edge papers (it is also surprising that
-this area of knowledge has evolved so much in so little time, but I
-guess that this is natural whenever there are economic interests in
-a given field). Now, I want to learn more!&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-12-07</title>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-12-07/</guid>
-
-	<link>http://cynic.cc/blog//posts/2000-12-07/</link>
-
-
-	<category>free-software</category>
-
-	<category>hardware</category>
-
-	<category>linux</category>
-
-
-	<pubDate>Thu, 07 Dec 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
-
-	<description>&lt;p&gt;Woohoo! Got Debian&#39;s XFree86 4.0.1 packaged for potato. It&#39;s faster
-with my Trident 3D Imàge 975 than XFree86 3.3.6, because it uses
-more hardware acceleration (in fact, this was the main reason I
-tried to find it).&lt;/p&gt;
-
-&lt;p&gt;Of course, it couldn&#39;t be a painless experience.&lt;/p&gt;
-
-&lt;p&gt;For configuration, dexter didn&#39;t work (it died reproducibly when I
-was configuring it) and xf86cfg didn&#39;t work (I can&#39;t remember the
-reason why it didn&#39;t work). So, I was &quot;forced&quot; to use X&#39;s internal
-autoprobing. But then, my old, 2-button, serial mouse couldn&#39;t be
-used with 3 button emulation. It took me a lot of time to figure
-out how to do that (since the documentation -- both man pages and
-extra documents -- don&#39;t mention it). After some painful hours,
-I&#39;ve discovered the magical line `Option &quot;Emulate3Buttons&quot;&#39;. It
-then worked.&lt;/p&gt;
-
-&lt;p&gt;But then, there were remaining problems: some dock WindowMaker
-utilities were removed when I installed the new X (due to
-dependendy problems). I had to recompile them. Then, rxvt was
-strange. Recompile time again.&lt;/p&gt;
-
-&lt;p&gt;Now, everything seems fine. Another thing to throw on that &quot;extras&quot;
-CD.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-
-	<title>2000-12-03</title>
-
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-12-03/</guid>
-
-	<link>http://cynic.cc/blog//posts/2000-12-03/</link>
-
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>hardware</category>
-
-	<category>linux</category>
-
-
-	<pubDate>Sun, 03 Dec 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
-
-	<description>&lt;p&gt;I can&#39;t believe, but I&#39;ve packaged &lt;em&gt;all&lt;/em&gt; those programs in just a
-day. Granted, I was really tired when I finished and that was the
-only thing I did today. But it was worth it, because now I can
-migrate my computer to the new one quite easily (I really love
-qmail and I sincerely depend on it to achieve happiness).&lt;/p&gt;
-
-&lt;p&gt;My qmail package is not as &quot;clean&quot; as I&#39;d like it be (for instance,
-it would be nice if I made its configuration use debconf, but I
-think that that is a task for another day).&lt;/p&gt;
 </description>
 
 

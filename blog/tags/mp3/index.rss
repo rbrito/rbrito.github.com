@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged mp3</title>
 <link>http://cynic.cc/blog//tags/mp3/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 07 Sep 2012 03:54:06 -0300</pubDate>
 <item>
-
 	<title>A Wish: The Ability of Playing MP3 CDs/DVDs created by iTunes with Free Software</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</guid>
 
 	<link>http://cynic.cc/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</link>
+
 
 
 	<category>apple</category>
@@ -31,6 +33,7 @@
 
 	<pubDate>Wed, 25 Feb 2009 20:34:09 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Apple&#39;s iTunes has a very cool feature that I would like to have and that I
 still have not yet noticed in any of the Linux music players (be them

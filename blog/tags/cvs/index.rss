@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged cvs</title>
 <link>http://cynic.cc/blog//tags/cvs/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:07:42 -0300</pubDate>
 <item>
-
 	<title>Working with CVS via Git</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/working_with_cvs_via_git/</guid>
 
 	<link>http://cynic.cc/blog//posts/working_with_cvs_via_git/</link>
+
 
 
 	<category>cvs</category>
@@ -32,7 +34,8 @@
 
 
 	<pubDate>Tue, 11 Jun 2013 04:49:56 -0300</pubDate>
-	<dcterms:modified>2013-06-11T08:22:42Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
 have &lt;em&gt;both&lt;/em&gt; a git clone of the CVS repository &lt;em&gt;and&lt;/em&gt; a CVS checkout of your

@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged class-equation</title>
 <link>http://cynic.cc/blog//tags/class-equation/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 07 Sep 2012 04:19:57 -0300</pubDate>
 <item>
-
 	<title>Music, Group Actions, Quilt and Debian Packages</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/music-group-actions-quilt-and-debian-packages/</guid>
 
 	<link>http://cynic.cc/blog//posts/music-group-actions-quilt-and-debian-packages/</link>
+
 
 
 	<category>abstract-algebra</category>
@@ -33,6 +35,7 @@
 
 	<pubDate>Wed, 13 Jun 2007 02:08:51 -0300</pubDate>
 	<dcterms:modified>2012-09-07T07:19:57Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;These are some short notes on what I&#39;ve doing these days.&lt;/p&gt;
 

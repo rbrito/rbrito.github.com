@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged development</title>
 <link>http://cynic.cc/blog//tags/development/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Thu, 07 Jun 2012 01:58:09 -0300</pubDate>
 <item>
-
 	<title>I am not going to DebConf 12</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</guid>
 
 	<link>http://cynic.cc/blog//posts/i-am-not-going-to-debconf-12/</link>
+
 
 
 	<category>debconf</category>
@@ -33,6 +35,7 @@
 
 	<pubDate>Thu, 07 Jun 2012 01:59:42 -0300</pubDate>
 	<dcterms:modified>2012-06-07T04:58:09Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Due to some real life impediments (including a beautiful one with just over
 2 months of life called Daniel), I will not be able to go to this year&#39;s
@@ -66,13 +69,12 @@ stuff.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Running GRUB2 on PowerPC Macs</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/running_grub2_on_powerpc_macs/</guid>
 
 	<link>http://cynic.cc/blog//posts/running_grub2_on_powerpc_macs/</link>
+
 
 
 	<category>configuration</category>
@@ -98,6 +100,7 @@ stuff.&lt;/p&gt;
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
 	<dcterms:modified>2011-04-03T01:21:31Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
 Mac (actually, an iBook G4), since the current documentation is lacking in
@@ -379,13 +382,12 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 </item>
 <item>
-
 	<title>Packaging fonts for a Debian-based system</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/packaging-fonts-for-a-debian-based-system/</guid>
 
 	<link>http://cynic.cc/blog//posts/packaging-fonts-for-a-debian-based-system/</link>
+
 
 
 	<category>development</category>
@@ -405,6 +407,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 	<pubDate>Fri, 12 Nov 2010 11:23:55 -0200</pubDate>
 	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Seeing now that the situation regarding Free fonts is much better than in
 the past, I have started packaging some that are of high enough quality so
@@ -514,13 +517,12 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 </item>
 <item>
-
 	<title>First post from DebConf 10</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/first-post-from-debconf-10/</guid>
 
 	<link>http://cynic.cc/blog//posts/first-post-from-debconf-10/</link>
+
 
 
 	<category>debian</category>
@@ -534,6 +536,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 	<pubDate>Tue, 03 Aug 2010 06:09:46 -0300</pubDate>
 	<dcterms:modified>2010-08-03T09:09:46Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Even though I am late with this post, it is nice to say that I am writing here from this year&#39;s DebConf10, in NYC.&lt;/p&gt;
 
@@ -555,13 +558,12 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 </item>
 <item>
-
 	<title>I am going to DebConf 10</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/i-am-going-to-debconf-10/</guid>
 
 	<link>http://cynic.cc/blog//posts/i-am-going-to-debconf-10/</link>
+
 
 
 	<category>debian</category>
@@ -581,6 +583,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 	<pubDate>Sun, 18 Jul 2010 03:34:40 -0300</pubDate>
 	<dcterms:modified>2010-07-18T06:34:40Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
 
@@ -615,13 +618,12 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 </item>
 <item>
-
 	<title>A version of xpdf with the poppler backend available</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
 
 	<link>http://cynic.cc/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
+
 
 
 	<category>c++</category>
@@ -643,6 +645,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
 
@@ -681,13 +684,12 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 </item>
 <item>
-
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</guid>
 
 	<link>http://cynic.cc/blog//posts/simple-annotations-on-compiling-a-linux-kernel-for-an-embedded-platform/</link>
+
 
 
 	<category>configuration</category>
@@ -713,6 +715,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
 some embedded platforms. In other words, this is some of the stuff that is

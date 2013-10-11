@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-06-05T08:25:51Z</updated>
+<updated>2013-10-11T06:07:42Z</updated>
 <entry>
 	<title>Some experiences with ZFS</title>
 
@@ -47,8 +47,9 @@
 	<category term="zfs" />
 
 
-	<updated>2012-09-09T02:48:33Z</updated>
+	<updated>2012-09-09T02:47:46Z</updated>
 	<published>2012-09-09T02:42:24Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Continuing the &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/T3BcxA7wKjK&quot;&gt;ZFS evaluation journey&lt;/a&gt; (which I will summarize here with
@@ -123,8 +124,9 @@ behavior.&lt;/p&gt;
 	<category term="google" />
 
 
-	<updated>2013-06-05T08:25:51Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2012-09-07T16:16:18Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;On the 3rd of September, I applied to Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; program, as I
@@ -226,6 +228,7 @@ contributions?&lt;/p&gt;
 
 	<updated>2012-09-03T23:16:51Z</updated>
 	<published>2012-09-03T23:12:42Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I have been having quite costly experiments with &lt;a href=&quot;http://buffalo.nas-central.org/wiki/LS_Hardware_and_Software_information&quot;&gt;(embeded) hardware&lt;/a&gt; in

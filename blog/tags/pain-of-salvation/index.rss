@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged pain-of-salvation</title>
 <link>http://cynic.cc/blog//tags/pain-of-salvation/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 07 Sep 2012 03:54:06 -0300</pubDate>
 <item>
-
 	<title>Seeing Opeth Live in Brazil</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/seeing-opeth-live-in-brazil/</guid>
 
 	<link>http://cynic.cc/blog//posts/seeing-opeth-live-in-brazil/</link>
+
 
 
 	<category>music</category>
@@ -25,6 +27,7 @@
 
 	<pubDate>Wed, 14 Mar 2007 23:00:00 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;The acoustic show of Pain of Salvation is really nice. I didn&#39;t have enough
 time to watch it yet, but it is an amazing thing that should be kept, as the
@@ -42,13 +45,12 @@ say the least.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Sourceforge, SSH keys, Free audiobooks, DVD&#x27;s</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/</guid>
 
 	<link>http://cynic.cc/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/</link>
+
 
 
 	<category>audiobooks</category>
@@ -76,6 +78,7 @@ say the least.&lt;/p&gt;
 
 	<pubDate>Sat, 10 Mar 2007 23:00:00 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Found out about &quot;The Right Way (TM)&quot; to hash an existing SSH&#39;s &lt;code&gt;known_hosts&lt;/code&gt;
 file (&lt;code&gt;ssh-keygen -H&lt;/code&gt;) and how to remove a hashed host entry from your

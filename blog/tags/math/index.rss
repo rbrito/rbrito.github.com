@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged math</title>
 <link>http://cynic.cc/blog//tags/math/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Thu, 18 Apr 2013 17:54:03 -0300</pubDate>
 <item>
-
 	<title>Music, Group Actions, Quilt and Debian Packages</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/music-group-actions-quilt-and-debian-packages/</guid>
 
 	<link>http://cynic.cc/blog//posts/music-group-actions-quilt-and-debian-packages/</link>
+
 
 
 	<category>abstract-algebra</category>
@@ -33,6 +35,7 @@
 
 	<pubDate>Wed, 13 Jun 2007 02:08:51 -0300</pubDate>
 	<dcterms:modified>2012-09-07T07:19:57Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;These are some short notes on what I&#39;ve doing these days.&lt;/p&gt;
 
@@ -95,13 +98,12 @@ patch.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Random Points on Group Theory</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/random-points-on-group-theory/</guid>
 
 	<link>http://cynic.cc/blog//posts/random-points-on-group-theory/</link>
+
 
 
 	<category>abstract-algebra</category>
@@ -115,6 +117,7 @@ patch.&lt;/p&gt;
 
 	<pubDate>Thu, 24 May 2007 14:07:11 -0300</pubDate>
 	<dcterms:modified>2012-09-07T07:19:57Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;It is not a surprise for anyone that I&#39;m reviewing a little bit of Abstract
 Algebra.&lt;/p&gt;
@@ -172,13 +175,12 @@ to have in mind, without any shadow of doubt.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>On teaching Groups before Rings in Abstract Algebra</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/on-a-first-course-in-abstract-algebra/</guid>
 
 	<link>http://cynic.cc/blog//posts/on-a-first-course-in-abstract-algebra/</link>
+
 
 
 	<category>abstract-algebra</category>
@@ -188,6 +190,7 @@ to have in mind, without any shadow of doubt.&lt;/p&gt;
 
 	<pubDate>Sun, 22 Apr 2007 17:46:52 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;I&#39;ve been thinking about how one should teach &lt;a
 href=&quot;http://en.wikipedia.org/wiki/Abstract_algebra&quot;&gt;Abstract Algebra&lt;/a&gt;
@@ -257,13 +260,12 @@ is enough for me).&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-10-26</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-26/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-10-26/</link>
+
 
 
 	<category>complexity-theory</category>
@@ -274,7 +276,8 @@ is enough for me).&lt;/p&gt;
 
 
 	<pubDate>Thu, 26 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:54:03Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;I had the &quot;midterm&quot; today. I thought that while the subjects
 covered were well chosen, it was not very well planned regarding
@@ -286,13 +289,12 @@ perfectionist. Maybe I&#39;m slow. Maybe both.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-10-25</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-25/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-10-25/</link>
+
 
 
 	<category>complexity-theory</category>
@@ -303,7 +305,8 @@ perfectionist. Maybe I&#39;m slow. Maybe both.&lt;/p&gt;
 
 
 	<pubDate>Wed, 25 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:53:36Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Tomorrow I&#39;ll have the &quot;midterm&quot; of Combinatorial Optimization.
 It&#39;s not exactly a midterm, since it is considerably skewed towards
@@ -324,13 +327,12 @@ down and write a complete, detailed a proof. I wish I had time.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-10-24</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-24/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-10-24/</link>
+
 
 
 	<category>complexity-theory</category>
@@ -341,7 +343,8 @@ down and write a complete, detailed a proof. I wish I had time.&lt;/p&gt;
 
 
 	<pubDate>Tue, 24 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Whew! One of the longest homeworks that I&#39;ve ever had was finished
 today. Programmning Turing Machines takes time.&lt;/p&gt;
@@ -350,13 +353,12 @@ today. Programmning Turing Machines takes time.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-10-16</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-16/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-10-16/</link>
+
 
 
 	<category>math</category>
@@ -365,7 +367,8 @@ today. Programmning Turing Machines takes time.&lt;/p&gt;
 
 
 	<pubDate>Mon, 16 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;After a lot of time doing this Combinatorial Optimization homework,
 I found out that a lot of my colleagues didn&#39;t even bother to prove
@@ -379,13 +382,12 @@ next time?&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2000-08-31</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-08-31/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-08-31/</link>
+
 
 
 	<category>internet</category>
@@ -398,7 +400,8 @@ next time?&lt;/p&gt;
 
 
 	<pubDate>Thu, 31 Aug 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;&lt;code&gt;&amp;lt;rant&amp;gt;&lt;/code&gt;
 Ugh! Discovered that the
@@ -420,13 +423,12 @@ then more painful hours to go back home.
 
 </item>
 <item>
-
 	<title>2000-08-30</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-08-30/</guid>
 
 	<link>http://cynic.cc/blog//posts/2000-08-30/</link>
+
 
 
 	<category>life</category>
@@ -437,7 +439,8 @@ then more painful hours to go back home.
 
 
 	<pubDate>Wed, 30 Aug 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Humm... I fear that I won&#39;t be able to handle this
 &lt;a href=&quot;http://www.ime.usp.br/~yoshi/mac5775/&quot;&gt;&quot;Probabilistic Method&quot;&lt;/a&gt;

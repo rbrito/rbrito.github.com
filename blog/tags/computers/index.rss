@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged computers</title>
 <link>http://cynic.cc/blog//tags/computers/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 07 Sep 2012 04:19:57 -0300</pubDate>
 <item>
-
 	<title>A Wish: The Ability of Playing MP3 CDs/DVDs created by iTunes with Free Software</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</guid>
 
 	<link>http://cynic.cc/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</link>
+
 
 
 	<category>apple</category>
@@ -31,6 +33,7 @@
 
 	<pubDate>Wed, 25 Feb 2009 20:34:09 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Apple&#39;s iTunes has a very cool feature that I would like to have and that I
 still have not yet noticed in any of the Linux music players (be them
@@ -105,13 +108,12 @@ organizers.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Getting things from the iTunes Music Store without iTunes</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</guid>
 
 	<link>http://cynic.cc/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</link>
+
 
 
 	<category>apple</category>
@@ -127,6 +129,7 @@ organizers.&lt;/p&gt;
 
 	<pubDate>Tue, 24 Feb 2009 11:11:54 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Being the &lt;a href=&quot;https://en.wikipedia.org/wiki/Free%20Software&quot;&gt;Free Software&lt;/a&gt; advocate that I am, I want to use as
 much Free Software as I can (and spread the world).&lt;/p&gt;
@@ -263,13 +266,12 @@ aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Music, Group Actions, Quilt and Debian Packages</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/music-group-actions-quilt-and-debian-packages/</guid>
 
 	<link>http://cynic.cc/blog//posts/music-group-actions-quilt-and-debian-packages/</link>
+
 
 
 	<category>abstract-algebra</category>
@@ -289,6 +291,7 @@ aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
 
 	<pubDate>Wed, 13 Jun 2007 02:08:51 -0300</pubDate>
 	<dcterms:modified>2012-09-07T07:19:57Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;These are some short notes on what I&#39;ve doing these days.&lt;/p&gt;
 
@@ -351,13 +354,12 @@ patch.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Debian Switching to EGLIBC</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/debian-switching-to-eglibc/</guid>
 
 	<link>http://cynic.cc/blog//posts/debian-switching-to-eglibc/</link>
+
 
 
 	<category>computers</category>
@@ -373,6 +375,7 @@ patch.&lt;/p&gt;
 
 	<pubDate>Mon, 07 May 2007 23:00:00 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Having been playing with some new things in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;, like the
 &lt;a href=&quot;http://packages.debian.org/magicfilter&quot;&gt;magicfilter&lt;/a&gt; package, which is a superb, lightweight solution to
@@ -391,13 +394,12 @@ thing, because computing resources are limited).&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Happy News: A new Kurobox</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/happy-news-a-new-kurobox/</guid>
 
 	<link>http://cynic.cc/blog//posts/happy-news-a-new-kurobox/</link>
+
 
 
 	<category>computers</category>
@@ -416,6 +418,7 @@ thing, because computing resources are limited).&lt;/p&gt;
 	<pubDate>Sun, 22 Apr 2007 23:00:00 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
 
+
 	<description>&lt;p&gt;Today I was pleasantly surprised that the Kurobox that &lt;a href=&quot;http://suihkulokki.blogspot.com/&quot;&gt;Riku Voipio&lt;/a&gt; sent
 me has arrived!  From the looks of it, it is a Kurobox HG, which, compared
 to my Kurobox HD, has a faster processor (it runs at 266MHz, instead of
@@ -430,13 +433,12 @@ bigger capacity ones are only available with SATA interfaces.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Playing with Package Proxies</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/playing-with-package-proxies/</guid>
 
 	<link>http://cynic.cc/blog//posts/playing-with-package-proxies/</link>
+
 
 
 	<category>approx</category>
@@ -458,6 +460,7 @@ bigger capacity ones are only available with SATA interfaces.&lt;/p&gt;
 
 	<pubDate>Thu, 15 Mar 2007 23:00:00 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Have been playing with the great idea of &lt;a
 href=&quot;http://lists.debian.org/debian-mentors/2009/03/msg00210.html&quot;&gt;caching&lt;/a&gt;
@@ -501,13 +504,12 @@ build-dependencies.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Sourceforge, SSH keys, Free audiobooks, DVD&#x27;s</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/</guid>
 
 	<link>http://cynic.cc/blog//posts/sourceforge-ssh-keys-free-audiobooks-dvds/</link>
+
 
 
 	<category>audiobooks</category>
@@ -535,6 +537,7 @@ build-dependencies.&lt;/p&gt;
 
 	<pubDate>Sat, 10 Mar 2007 23:00:00 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Found out about &quot;The Right Way (TM)&quot; to hash an existing SSH&#39;s &lt;code&gt;known_hosts&lt;/code&gt;
 file (&lt;code&gt;ssh-keygen -H&lt;/code&gt;) and how to remove a hashed host entry from your

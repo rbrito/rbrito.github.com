@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged free-sfotware</title>
+<link>http://cynic.cc/blog//tags/free-sfotware/</link>
+
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:27:19 -0300</pubDate>
+<item>
+	<title>2002-07-26</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-26/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-07-26/</link>
+
+
+
+	<category>free-sfotware</category>
+
+	<category>hack</category>
+
+	<category>life</category>
+
+
+	<pubDate>Fri, 26 Jul 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:27:19Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Fixed some of my e-mail settings and now things seem to be
+simpler.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

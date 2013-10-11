@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged libraries</title>
 <link>http://cynic.cc/blog//tags/libraries/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Sat, 12 Mar 2011 00:27:55 -0300</pubDate>
 <item>
-
 	<title>A version of xpdf with the poppler backend available</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</guid>
 
 	<link>http://cynic.cc/blog//posts/a-version-of-xpdf-with-the-poppler-backend-available/</link>
+
 
 
 	<category>c++</category>
@@ -35,6 +37,7 @@
 
 	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
 
@@ -73,13 +76,12 @@
 
 </item>
 <item>
-
 	<title>Preliminary support for webm in youtube-dl</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/preliminary-support-for-webm-in-youtube-dl/</guid>
 
 	<link>http://cynic.cc/blog//posts/preliminary-support-for-webm-in-youtube-dl/</link>
+
 
 
 	<category>audio</category>
@@ -100,6 +102,7 @@
 	<pubDate>Sat, 29 May 2010 17:06:18 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
 
+
 	<description>&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
 
 &lt;p&gt;This way, at least people will have some material (in, fact, a chance) to play with this format.  I implemented this because, so far, I was only hoping here that a player for this would emerge. I guess that Debian&#39;s ffmpeg/mplayer will take some time, but I was pleased to see that Sebastian Dröge to upload a version of &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02596.html&quot;&gt;something&lt;/a&gt; that could use the new &lt;code&gt;libvpx&lt;/code&gt; codec.&lt;/p&gt;
@@ -114,13 +117,12 @@
 
 </item>
 <item>
-
 	<title>Please let me zoom my documents!</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/please-let-me-zoom-my-documents-/</guid>
 
 	<link>http://cynic.cc/blog//posts/please-let-me-zoom-my-documents-/</link>
+
 
 
 	<category>bugs</category>
@@ -144,6 +146,7 @@
 
 	<pubDate>Thu, 27 May 2010 11:17:00 -0300</pubDate>
 	<dcterms:modified>2011-03-12T03:27:55Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;It all started when I tried to typeset my documents with the &lt;a href=&quot;http://en.wikipedia.org/wiki/Utopia (typeface)&quot;&gt;Utopia&lt;/a&gt; typeface, which is Free Software, since &lt;a&gt;Adobe liberated it to the TeX Users Group.&lt;/a&gt;&lt;/p&gt;
 

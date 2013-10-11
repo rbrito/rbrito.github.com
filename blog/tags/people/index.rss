@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged people</title>
 <link>http://cynic.cc/blog//tags/people/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Tue, 03 Aug 2010 06:09:46 -0300</pubDate>
 <item>
-
 	<title>First post from DebConf 10</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/first-post-from-debconf-10/</guid>
 
 	<link>http://cynic.cc/blog//posts/first-post-from-debconf-10/</link>
+
 
 
 	<category>debian</category>
@@ -27,6 +29,7 @@
 
 	<pubDate>Tue, 03 Aug 2010 06:09:46 -0300</pubDate>
 	<dcterms:modified>2010-08-03T09:09:46Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Even though I am late with this post, it is nice to say that I am writing here from this year&#39;s DebConf10, in NYC.&lt;/p&gt;
 

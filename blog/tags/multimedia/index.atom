@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-01-30T00:16:56Z</updated>
+<updated>2013-10-11T06:17:05Z</updated>
 <entry>
 	<title>Looking for (Free) a Video Editor</title>
 
@@ -41,8 +41,9 @@
 	<category term="video" />
 
 
-	<updated>2013-01-30T00:16:56Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2013-01-30T00:16:07Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
@@ -106,6 +107,7 @@ final video. &lt;img src=&quot;http://cynic.cc/blog//tags/multimedia/../../smile
 
 	<updated>2012-06-07T04:58:09Z</updated>
 	<published>2012-06-07T04:59:42Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Due to some real life impediments (including a beautiful one with just over
@@ -171,6 +173,7 @@ stuff.&lt;/p&gt;
 	<updated>2011-03-12T03:27:55Z</updated>
 	<published>2010-05-29T20:06:18Z</published>
 
+
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I just added some very, very preliminary support for web in &lt;code&gt;youtube-dl&lt;/code&gt; which &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02694.html&quot;&gt;I uploaded&lt;/a&gt; to unstable some minutes ago.&lt;/p&gt;
 
@@ -181,6 +184,76 @@ stuff.&lt;/p&gt;
 &lt;p&gt;Well, it seems to be time to shape up that local build of mine of the &lt;a href=&quot;http://www.geocities.jp/aoyoume/aotuv/&quot;&gt;aotuv&lt;/a&gt; tuned version of Vorbis with &lt;a href=&quot;http://www.geocities.jp/aoyoume/&quot;&gt;Aoyumi&lt;/a&gt;&#39;s patches for libvorbis.&lt;/p&gt;
 
 &lt;p&gt;Exciting times in the multimedia world.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2002-04-19</title>
+
+	<id>http://cynic.cc/blog//posts/2002-04-19/</id>
+
+	<link href="http://cynic.cc/blog//posts/2002-04-19/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="macosx" />
+
+	<category term="multimedia" />
+
+	<category term="python" />
+
+
+	<updated>2013-10-11T06:17:05Z</updated>
+	<published>2002-04-19T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Wow, so many things going in software-land that if I don&#39;t write
+about soon, I&#39;ll probably forget.&lt;/p&gt;
+
+&lt;p&gt;The best thing, of course, is that
+&lt;a href=&quot;http://www.debian.org/releases/woody/&quot;&gt;Woody&lt;/a&gt; is set to a
+(tentative) release on May, 1st. This is &lt;em&gt;amazing&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;Also, newer versions of the following programs are available:
+&lt;a href=&quot;http://www.python.org/&quot;&gt;Python&lt;/a&gt; 2.2.1,
+&lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt; for i386 6.0beta2,
+&lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt; 1.0RC1,
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS&lt;/a&gt; X 10.1.4,
+&lt;a href=&quot;http://www.mactopia.com/&quot;&gt;Internet Explorer&lt;/a&gt; for MacOS 5.1.4,
+&lt;a href=&quot;http://fink.sf.net/&quot;&gt;Fink&lt;/a&gt; 4.0, &lt;a href=&quot;http://lame.sf.net/&quot;&gt;lame&lt;/a&gt; 3.92,
+&lt;a href=&quot;http://chimera.mozdev.org/&quot;&gt;Chimera&lt;/a&gt; 0.2.0,
+&lt;a href=&quot;http://&quot;&gt;woody&#39;s netinst images&lt;/a&gt; 20020416,
+&lt;a href=&quot;http://www.videolan.org/&quot;&gt;vlc&lt;/a&gt; 0.3.0. And I still haven&#39;t tried
+&lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE&lt;/a&gt; 3.0,
+&lt;a href=&quot;http://www.yellowdoglinux.com/&quot;&gt;Yellowdoglinux&lt;/a&gt; 2.2 and
+&lt;a href=&quot;http://www.xfree86.org/&quot;&gt;XFree86&lt;/a&gt; 4.2.0, to name a few (big) new
+releases. And that&#39;s &lt;em&gt;not&lt;/em&gt; all: soon there will be newer versions
+of &lt;a href=&quot;http://xine.sf.net/&quot;&gt;xine&lt;/a&gt;, &lt;a href=&quot;http://mplayer.sf.net/&quot;&gt;mplayer&lt;/a&gt;,
+&lt;a href=&quot;http://ffmpeg.sf.net/&quot;&gt;ffmpeg&lt;/a&gt;, and
+&lt;a href=&quot;http://www.kaffe.org/&quot;&gt;kaffe&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;So much (new) software, so little time!&lt;/p&gt;
+
+&lt;p&gt;And then, somewhere, a Microsoft&#39;s spoke-person said something like
+&quot;the open source people don&#39;t know how many things we have done in
+Windows-land&quot;. Well, of course, MacOS X, Internet Explorer and
+Opera aren&#39;t exactly open source. But the amount of new software
+just released (or in the process of being released) is just so
+damned huge. I guess, if he only knew (or didn&#39;t pretend he didn&#39;t
+know) what the open source community did in the past days, he would
+be ashamed of his comments. But then, again, it isn&#39;t uncommon for
+people driven by money being, ahem, how can I say, &quot;dishonest&quot;.&lt;/p&gt;
 
 	</content>
 

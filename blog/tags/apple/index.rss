@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged apple</title>
 <link>http://cynic.cc/blog//tags/apple/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:25:02 -0300</pubDate>
 <item>
-
 	<title>A Wish: The Ability of Playing MP3 CDs/DVDs created by iTunes with Free Software</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</guid>
 
 	<link>http://cynic.cc/blog//posts/a-wish--the-ability-of-playing-mp3-cds-dvds-created-by-itunes-with-free-software/</link>
+
 
 
 	<category>apple</category>
@@ -31,6 +33,7 @@
 
 	<pubDate>Wed, 25 Feb 2009 20:34:09 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Apple&#39;s iTunes has a very cool feature that I would like to have and that I
 still have not yet noticed in any of the Linux music players (be them
@@ -105,13 +108,12 @@ organizers.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Getting things from the iTunes Music Store without iTunes</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</guid>
 
 	<link>http://cynic.cc/blog//posts/getting-things-from-the-itunes-music-store-without-itunes/</link>
+
 
 
 	<category>apple</category>
@@ -127,6 +129,7 @@ organizers.&lt;/p&gt;
 
 	<pubDate>Tue, 24 Feb 2009 11:11:54 -0300</pubDate>
 	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Being the &lt;a href=&quot;https://en.wikipedia.org/wiki/Free%20Software&quot;&gt;Free Software&lt;/a&gt; advocate that I am, I want to use as
 much Free Software as I can (and spread the world).&lt;/p&gt;
@@ -263,13 +266,173 @@ aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
 
 </item>
 <item>
+	<title>2002-07-17</title>
 
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-17/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-07-17/</link>
+
+
+
+	<category>apple</category>
+
+	<category>life</category>
+
+	<category>macosx</category>
+
+	<category>portuguese</category>
+
+
+	<pubDate>Wed, 17 Jul 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:25:02Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Maldita &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;! Eu os odeio! Odeio $teve
+Job$. Vão começar a cobrar um rio de dinheiro pelo iTools, quero
+dizer, &lt;a href=&quot;http://www.mac.com/&quot;&gt;.Mac&lt;/a&gt;.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-07-07</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-07/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-07-07/</link>
+
+
+
+	<category>apple</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hacks</category>
+
+	<category>hardware</category>
+
+	<category>macosx</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Sun, 07 Jul 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:23:45Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Woke up quite early with that kernel panic bugging me. I read the
+documentation and the fix for it was to reboot MacOS 9 (which
+wasn&#39;t as simple as it should, since MacOS X apparently de-blessed
+MacOS 9&#39;s System Folder). Anyway, after reusing XPostFacto, the
+PowerMac booted with MacOS X! Woohoo!&lt;/p&gt;
+
+&lt;p&gt;Well, seeing this OS booting on this old computer is quite cool.
+Well,
+&lt;a href=&quot;http://slashdot.org/comments.pl?sid=33385&amp;amp;cid=3607384&quot;&gt;apart from some severe usability problems&lt;/a&gt;
+and slowness, MacOS X is an amazing operating system. The problem
+is: it &lt;strong&gt;is slow&lt;/strong&gt;. It is slow with a G3 600MHz (100MHz of bus)
+with 128MB of RAM and, obviously, much more so with a dual 604e
+180MHz with only 64MB of RAM.&lt;/p&gt;
+
+&lt;p&gt;BTW, MacOS X isn&#39;t able to use both processors when it is booted
+with XPostFacto.&lt;/p&gt;
+
+&lt;p&gt;BTW#2, XFree86&#39;s native driver for Mach64 doesn&#39;t include support
+for the XVideo extension.&lt;/p&gt;
+
+&lt;p&gt;Also used the client-side of NFS and SMB on MacOS X, which is quite
+easy to use.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2002-07-06</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-06/</guid>
+
+	<link>http://cynic.cc/blog//posts/2002-07-06/</link>
+
+
+
+	<category>apple</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hacks</category>
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+	<category>macosx</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Sat, 06 Jul 2002 00:00:00 -0300</pubDate>
+	<dcterms:modified>2013-10-11T06:20:31Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Took the day to see how things regarding the old PowerMac
+9500/180MP were with a
+&lt;a href=&quot;http://people.debian.org/~branden/&quot;&gt;newer XFree86&lt;/a&gt;. Apparently,
+&lt;a href=&quot;http://www.xfree86.org/&quot;&gt;XFree86 4.2&lt;/a&gt; doesn&#39;t support the XVideo
+extension for the &lt;code&gt;imst&lt;/code&gt;t adapter, which is quite a pity.&lt;/p&gt;
+
+&lt;p&gt;What this means is that I am not able to use
+&lt;a href=&quot;http://xine.sf.net/&quot;&gt;Xine&lt;/a&gt; or &lt;a href=&quot;http://www.mplayerhq.hu/&quot;&gt;Mplayer&lt;/a&gt;
+to efficiently play videos on this computer.&lt;/p&gt;
+
+&lt;p&gt;I can see some things that make this computer slow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It has a modest amount of RAM for today&#39;s standards (64MB,
+which is particularly little for PowerPC);&lt;/li&gt;
+&lt;li&gt;I don&#39;t know if it&#39;s RAM chips are in an interleaved
+configuration or not;&lt;/li&gt;
+&lt;li&gt;If it had a faster/better supported video card (say, like a
+&lt;a href=&quot;http://www.ati.com/&quot;&gt;ATI&lt;/a&gt; Mach64), things would perhaps be better,
+but this is just a guess. I don&#39;t know if the Mach64 sports XVideo
+support under PowerPC, but perhaps the
+&lt;a href=&quot;http://gatos.sf.net/&quot;&gt;Gatos&lt;/a&gt; project might help here;&lt;/li&gt;
+&lt;li&gt;I have no idea why this computer, while having a SCSI interface
+and drive, is so slow while it is using the disk. I see two things:
+it freezes most things the user (that&#39;s me!) whenever it is writing
+(reading?) anything to (from?) the disk and the transfer speeds are
+quite sloooow. I wonder if this is a problem of the Linux SCSI
+infra-structure, if it is a problem of the hardware or if it is a
+problem of configuration. It probably isn&#39;t a problem with Linux,
+since I also see the slowness with &lt;a href=&quot;http://www.apple.com/&quot;&gt;MacOS&lt;/a&gt;
+Classic (8).&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Anyway, just for fun, I tried to install
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X 10.1&lt;/a&gt; on this old computer.
+The catch is that MacOS X can&#39;t be installed on anything this old.
+Well, at least, that&#39;s what Apple says. I had to grab a copy of
+MacOS 9 (in German!) just to bootstrap the system. Then, using
+&lt;a href=&quot;http://eshop.macsales.com/OSXCenter/XPostFacto/&quot;&gt;XPostFacto&lt;/a&gt;, the
+installation was quite smooth (and slow). But with one gotcha at
+the first reboot: a kernel panic.&lt;/p&gt;
+
+&lt;p&gt;After that, I went to sleep.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2001-07-11</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2001-07-11/</guid>
 
 	<link>http://cynic.cc/blog//posts/2001-07-11/</link>
+
 
 
 	<category>apple</category>
@@ -286,7 +449,8 @@ aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
 
 
 	<pubDate>Wed, 11 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Some weeks ago, my uncle that sells and fixes computers,
 &lt;a href=&quot;mailto:startmicro@uol.com.br&quot;&gt;Isaac&lt;/a&gt;, got a pair of old

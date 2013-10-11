@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged uncategorized</title>
 <link>http://cynic.cc/blog//tags/uncategorized/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Wed, 18 Nov 2009 00:00:00 -0200</pubDate>
 <item>
-
 	<title>2009-11-18</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-11-18/</guid>
 
 	<link>http://cynic.cc/blog//posts/2009-11-18/</link>
+
 
 
 	<category>uncategorized</category>
@@ -21,6 +23,7 @@
 
 	<pubDate>Wed, 18 Nov 2009 00:00:00 -0200</pubDate>
 	<dcterms:modified>2009-11-18T02:00:00Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Holy moly! Things now seem to be going! I&#39;m quite happy with all
 this.&lt;/p&gt;
@@ -77,13 +80,12 @@ the fact that Emacs offers a pod-mode. Amazing.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2009-10-08</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-10-08/</guid>
 
 	<link>http://cynic.cc/blog//posts/2009-10-08/</link>
+
 
 
 	<category>uncategorized</category>
@@ -91,6 +93,7 @@ the fact that Emacs offers a pod-mode. Amazing.&lt;/p&gt;
 
 	<pubDate>Thu, 08 Oct 2009 00:00:00 -0300</pubDate>
 	<dcterms:modified>2009-10-08T03:00:00Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;It seems that booting systems is giving me a headache again.&lt;/p&gt;
 
@@ -164,13 +167,12 @@ umount /mnt
 
 </item>
 <item>
-
 	<title>2009-09-11</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-09-11/</guid>
 
 	<link>http://cynic.cc/blog//posts/2009-09-11/</link>
+
 
 
 	<category>uncategorized</category>
@@ -178,6 +180,7 @@ umount /mnt
 
 	<pubDate>Fri, 11 Sep 2009 00:00:00 -0300</pubDate>
 	<dcterms:modified>2009-09-11T03:00:00Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Since I maintain a Darwin partition on my system, I use
 &lt;a href=&quot;http://www.gnu.org/software/grub/grub-legacy.en.html&quot;&gt;GRUB legacy&lt;/a&gt;
@@ -233,13 +236,12 @@ to see if it will work.&lt;/li&gt;
 
 </item>
 <item>
-
 	<title>2009-09-05</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-09-05/</guid>
 
 	<link>http://cynic.cc/blog//posts/2009-09-05/</link>
+
 
 
 	<category>uncategorized</category>
@@ -247,6 +249,7 @@ to see if it will work.&lt;/li&gt;
 
 	<pubDate>Sat, 05 Sep 2009 00:00:00 -0300</pubDate>
 	<dcterms:modified>2009-09-05T03:00:00Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Much to my please, I received today some nice people for my
 birthday. &lt;a href=&quot;http://blog.safira.com/&quot;&gt;Adriano&lt;/a&gt;&#39;s presence was nice
@@ -265,13 +268,12 @@ for MacOS X and so on. Always a pleasure to talk with him.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2009-09-04</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-09-04/</guid>
 
 	<link>http://cynic.cc/blog//posts/2009-09-04/</link>
+
 
 
 	<category>uncategorized</category>
@@ -279,6 +281,7 @@ for MacOS X and so on. Always a pleasure to talk with him.&lt;/p&gt;
 
 	<pubDate>Fri, 04 Sep 2009 00:00:00 -0300</pubDate>
 	<dcterms:modified>2009-09-04T03:00:00Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Today I&#39;m turning up one year more. The good side of that it is a
 &quot;psychological barrier&quot; to evaluate what I&#39;ve done this past year.
@@ -297,13 +300,12 @@ it had more ups than downs.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2009-08-28</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-08-28/</guid>
 
 	<link>http://cynic.cc/blog//posts/2009-08-28/</link>
+
 
 
 	<category>uncategorized</category>
@@ -311,6 +313,7 @@ it had more ups than downs.&lt;/p&gt;
 
 	<pubDate>Fri, 28 Aug 2009 00:00:00 -0300</pubDate>
 	<dcterms:modified>2009-08-28T03:00:00Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;I&#39;m closing some bugs in many packages in Debian, including my
 preferred backup system,
@@ -340,13 +343,12 @@ CD.&lt;/li&gt;
 
 </item>
 <item>
-
 	<title>2009-08-05</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-08-05/</guid>
 
 	<link>http://cynic.cc/blog//posts/2009-08-05/</link>
+
 
 
 	<category>uncategorized</category>
@@ -354,6 +356,7 @@ CD.&lt;/li&gt;
 
 	<pubDate>Wed, 05 Aug 2009 00:00:00 -0300</pubDate>
 	<dcterms:modified>2009-08-05T03:00:00Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Went to the Brazilian national Security Service, to see the status
 of my sick leave.&lt;/p&gt;
@@ -377,13 +380,12 @@ alien to myself.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2009-08-04</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-08-04/</guid>
 
 	<link>http://cynic.cc/blog//posts/2009-08-04/</link>
+
 
 
 	<category>uncategorized</category>
@@ -391,6 +393,7 @@ alien to myself.&lt;/p&gt;
 
 	<pubDate>Tue, 04 Aug 2009 00:00:00 -0300</pubDate>
 	<dcterms:modified>2009-08-04T03:00:00Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;There&#39;s something that needs to be documented somewhere, since it
 is not obvious when skimming the documentation and when one is
@@ -417,13 +420,12 @@ when a security upload should be made to security.debian.org)?
 
 </item>
 <item>
-
 	<title>2009-08-03</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-08-03/</guid>
 
 	<link>http://cynic.cc/blog//posts/2009-08-03/</link>
+
 
 
 	<category>uncategorized</category>
@@ -431,6 +433,7 @@ when a security upload should be made to security.debian.org)?
 
 	<pubDate>Mon, 03 Aug 2009 00:00:00 -0300</pubDate>
 	<dcterms:modified>2009-08-03T03:00:00Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;These past days I have been
 &lt;a href=&quot;http://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=rbrito@ime.usp.br&quot;&gt;crushing some bugs&lt;/a&gt;
@@ -468,13 +471,12 @@ link for the time-based releases. The concepts are close, though.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>2009-06-02</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-06-02/</guid>
 
 	<link>http://cynic.cc/blog//posts/2009-06-02/</link>
+
 
 
 	<category>uncategorized</category>
@@ -482,6 +484,7 @@ link for the time-based releases. The concepts are close, though.&lt;/p&gt;
 
 	<pubDate>Tue, 02 Jun 2009 00:00:00 -0300</pubDate>
 	<dcterms:modified>2009-06-02T03:00:00Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Today I was pleasantly surprised that the Kurobox that
 &lt;a href=&quot;http://suihkulokki.blogspot.com/&quot;&gt;Riku Voipio&lt;/a&gt; sent me has

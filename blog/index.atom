@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-08-21T16:44:29Z</updated>
+<updated>2013-10-11T06:07:42Z</updated>
 <entry>
 	<title>SNA Acceleration vs. UXA Acceleration</title>
 
@@ -41,8 +41,9 @@
 	<category term="xorg" />
 
 
-	<updated>2013-08-21T16:44:29Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-08-21T16:44:19Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
@@ -138,8 +139,9 @@ fingers so that it does.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-08-02T09:12:26Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-07-21T00:50:00Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;These are some very rough/sketchy notes that I took while doing the
@@ -608,8 +610,9 @@ function calls (whenever unambiguous) and, in essence, to write as little
 	<category term="study" />
 
 
-	<updated>2013-07-04T12:25:16Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-07-04T11:33:00Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Not so much ago, we had a boom of new enterprises offering Massive Online
@@ -704,8 +707,9 @@ ones.&lt;/p&gt;
 	<category term="revision-control" />
 
 
-	<updated>2013-06-11T08:22:42Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-06-11T07:49:56Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
@@ -806,8 +810,9 @@ one, please let me know.&lt;/p&gt;
 	<category term="ubuntu" />
 
 
-	<updated>2013-06-05T08:25:51Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-04-20T01:46:26Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
@@ -874,8 +879,9 @@ machines on datacenters.&lt;/p&gt;
 	<category term="linux" />
 
 
-	<updated>2013-04-30T17:16:01Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-04-19T07:29:23Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
@@ -982,8 +988,9 @@ and contributing back what I produced.&lt;/p&gt;
 	<category term="video" />
 
 
-	<updated>2013-01-30T00:16:56Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2013-01-30T00:16:07Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
@@ -1033,8 +1040,9 @@ final video. &lt;img src=&quot;http://cynic.cc/blog//./smileys/smile.png&quot; a
 	<category term="meme" />
 
 
-	<updated>2012-11-01T04:39:22Z</updated>
+	<updated>2013-04-18T20:50:59Z</updated>
 	<published>2012-11-01T04:32:23Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I was with some spare time a few days ago and I took one of those stupid
@@ -1090,8 +1098,9 @@ code. &lt;img src=&quot;http://cynic.cc/blog//./smileys/smile.png&quot; alt=&quo
 	<category term="zfs" />
 
 
-	<updated>2012-09-09T02:48:33Z</updated>
+	<updated>2012-09-09T02:47:46Z</updated>
 	<published>2012-09-09T02:42:24Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Continuing the &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/T3BcxA7wKjK&quot;&gt;ZFS evaluation journey&lt;/a&gt; (which I will summarize here with
@@ -1166,8 +1175,9 @@ behavior.&lt;/p&gt;
 	<category term="google" />
 
 
-	<updated>2013-06-05T08:25:51Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2012-09-07T16:16:18Z</published>
+
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;On the 3rd of September, I applied to Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; program, as I

@@ -5,15 +5,17 @@
 <channel>
 <title>pages tagged debian</title>
 <link>http://cynic.cc/blog//tags/debian/</link>
+
 <description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 11 Oct 2013 03:07:42 -0300</pubDate>
 <item>
-
 	<title>SNA Acceleration vs. UXA Acceleration</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/sna_acceleration_vs_uxa/</guid>
 
 	<link>http://cynic.cc/blog//posts/sna_acceleration_vs_uxa/</link>
+
 
 
 	<category>debian</category>
@@ -28,7 +30,8 @@
 
 
 	<pubDate>Wed, 21 Aug 2013 13:44:19 -0300</pubDate>
-	<dcterms:modified>2013-08-21T16:44:29Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
 I am using right now, instead of my usual sid installations), I decided to
@@ -101,13 +104,12 @@ fingers so that it does.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Beginning Ruby</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/beginning_ruby/</guid>
 
 	<link>http://cynic.cc/blog//posts/beginning_ruby/</link>
+
 
 
 	<category>debian</category>
@@ -120,7 +122,8 @@ fingers so that it does.&lt;/p&gt;
 
 
 	<pubDate>Sat, 20 Jul 2013 21:50:00 -0300</pubDate>
-	<dcterms:modified>2013-08-02T09:12:26Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;These are some very rough/sketchy notes that I took while doing the
 exercises on the introductory track of the Ruby language at
@@ -560,13 +563,12 @@ function calls (whenever unambiguous) and, in essence, to write as little
 
 </item>
 <item>
-
 	<title>Playing with MOOCs</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/playing_with_moocs/</guid>
 
 	<link>http://cynic.cc/blog//posts/playing_with_moocs/</link>
+
 
 
 	<category>debian</category>
@@ -585,7 +587,8 @@ function calls (whenever unambiguous) and, in essence, to write as little
 
 
 	<pubDate>Thu, 04 Jul 2013 08:33:00 -0300</pubDate>
-	<dcterms:modified>2013-07-04T12:25:16Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Not so much ago, we had a boom of new enterprises offering Massive Online
 Open Courses (MOOCs for short).&lt;/p&gt;
@@ -651,13 +654,12 @@ ones.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Working with CVS via Git</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/working_with_cvs_via_git/</guid>
 
 	<link>http://cynic.cc/blog//posts/working_with_cvs_via_git/</link>
+
 
 
 	<category>cvs</category>
@@ -676,7 +678,8 @@ ones.&lt;/p&gt;
 
 
 	<pubDate>Tue, 11 Jun 2013 04:49:56 -0300</pubDate>
-	<dcterms:modified>2013-06-11T08:22:42Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
 have &lt;em&gt;both&lt;/em&gt; a git clone of the CVS repository &lt;em&gt;and&lt;/em&gt; a CVS checkout of your
@@ -752,13 +755,12 @@ one, please let me know.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Lack of cooperation from Ubuntu?</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/</guid>
 
 	<link>http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/</link>
+
 
 
 	<category>debian</category>
@@ -773,7 +775,8 @@ one, please let me know.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
 reproduced on Planet. I&#39;m editing it a bit, as it is a followup to my
@@ -819,13 +822,12 @@ machines on datacenters.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Some recent Debian activities</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/debian_activities/</guid>
 
 	<link>http://cynic.cc/blog//posts/debian_activities/</link>
+
 
 
 	<category>debian</category>
@@ -836,7 +838,8 @@ machines on datacenters.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 04:29:23 -0300</pubDate>
-	<dcterms:modified>2013-04-30T17:16:01Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
 
@@ -918,13 +921,12 @@ and contributing back what I produced.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Looking for (Free) a Video Editor</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</guid>
 
 	<link>http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</link>
+
 
 
 	<category>debian</category>
@@ -939,7 +941,8 @@ and contributing back what I produced.&lt;/p&gt;
 
 
 	<pubDate>Tue, 29 Jan 2013 22:16:07 -0200</pubDate>
-	<dcterms:modified>2013-01-30T00:16:56Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
 you were able to sneak in a camera (well, in those times, cell phones
@@ -972,13 +975,12 @@ final video. &lt;img src=&quot;http://cynic.cc/blog//tags/debian/../../smileys/s
 
 </item>
 <item>
-
 	<title>Some experiences with ZFS</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/some_experiences_with_zfs/</guid>
 
 	<link>http://cynic.cc/blog//posts/some_experiences_with_zfs/</link>
+
 
 
 	<category>compression</category>
@@ -999,7 +1001,8 @@ final video. &lt;img src=&quot;http://cynic.cc/blog//tags/debian/../../smileys/s
 
 
 	<pubDate>Sat, 08 Sep 2012 23:42:24 -0300</pubDate>
-	<dcterms:modified>2012-09-09T02:48:33Z</dcterms:modified>
+	<dcterms:modified>2012-09-09T02:47:46Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;Continuing the &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/T3BcxA7wKjK&quot;&gt;ZFS evaluation journey&lt;/a&gt; (which I will summarize here with
 the things that I learned), I was able to fit about 2.5TB of data on a
@@ -1045,13 +1048,12 @@ behavior.&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>NOT Trying out AdSense</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/trying_out_adsense_not/</guid>
 
 	<link>http://cynic.cc/blog//posts/trying_out_adsense_not/</link>
+
 
 
 	<category>adsense</category>
@@ -1070,7 +1072,8 @@ behavior.&lt;/p&gt;
 
 
 	<pubDate>Fri, 07 Sep 2012 13:16:18 -0300</pubDate>
-	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;On the 3rd of September, I applied to Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; program, as I
 told in my &lt;a href=&quot;http://cynic.cc/blog/posts/trying_out_adsense/&quot;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
@@ -1143,13 +1146,12 @@ contributions?&lt;/p&gt;
 
 </item>
 <item>
-
 	<title>Trying out AdSense</title>
-
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/trying_out_adsense/</guid>
 
 	<link>http://cynic.cc/blog//posts/trying_out_adsense/</link>
+
 
 
 	<category>adsense</category>
@@ -1167,6 +1169,7 @@ contributions?&lt;/p&gt;
 
 	<pubDate>Mon, 03 Sep 2012 20:12:42 -0300</pubDate>
 	<dcterms:modified>2012-09-03T23:16:51Z</dcterms:modified>
+
 
 	<description>&lt;p&gt;I have been having quite costly experiments with &lt;a href=&quot;http://buffalo.nas-central.org/wiki/LS_Hardware_and_Software_information&quot;&gt;(embeded) hardware&lt;/a&gt; in
 the last few weeks/months. To cover at least part of the expenses, I am
