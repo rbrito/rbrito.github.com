@@ -42,22 +42,6 @@
 </header>
 
 
-<nav class="actions">
-<ul>
-
-
-<li><a href="../../../recentchanges/">RecentChanges</a></li>
-
-
-
-
-
-
-
-
-</ul>
-</nav>
-
 
 
 
@@ -99,8 +83,8 @@
         <td class="month-calendar-day-nolink Tuesday">8</td>
         <td class="month-calendar-day-nolink Wednesday">9</td>
         <td class="month-calendar-day-nolink Thursday">10</td>
-        <td class="month-calendar-day-this-day Friday">11</td>
-        <td class="month-calendar-day-future Saturday">12</td>
+        <td class="month-calendar-day-nolink Friday">11</td>
+        <td class="month-calendar-day-nolink Saturday">12</td>
     </tr>
     <tr>
         <td class="month-calendar-day-nolink Sunday">13</td>
@@ -108,8 +92,10 @@
         <td class="month-calendar-day-nolink Tuesday">15</td>
         <td class="month-calendar-day-nolink Wednesday">16</td>
         <td class="month-calendar-day-nolink Thursday">17</td>
-        <td class="month-calendar-day-nolink Friday">18</td>
-        <td class="month-calendar-day-nolink Saturday">19</td>
+        <td class="month-calendar-day-this-day Friday"><div class='popup'>18<div class='balloon'><ul>
+            <li><a href="../../../posts/2013-10-18-bittorrent_with_webseed/" title="Quick tip #1">Quick tip #1</a></li>
+        </ul></div></div></td>
+        <td class="month-calendar-day-future Saturday">19</td>
     </tr>
     <tr>
         <td class="month-calendar-day-nolink Sunday">20</td>
@@ -141,6 +127,84 @@
 <section id="content">
 
 
+<article class="inlinepage">
+
+<section class="inlineheader">
+
+<header class="header">
+
+<a href="../../../posts/2013-10-18-bittorrent_with_webseed/">Quick tip #1</a>
+
+</header>
+</section>
+
+<section class="inlinecontent">
+<p>I wrote the following as part of a post to an discussion forum (I can't
+remember which one), and people told me that they liked this information and
+said that others would profit from it if I posted it on my blog, which I now
+decided to post.</p>
+
+<p>The context: for homework of one <a href="https://en.wikipedia.org/wiki/MOOC">MOOC</a>, people were trying to
+download a large virtual machine image that was offered both via an official
+HTTP source, which was slow.</p>
+
+<p>A person volunteered that already had downloaded the image volunteered to
+create a bittorrent to help fellow students.</p>
+
+<p>Other students started saying that the bittorrent download was faster up to
+a certain point and, then, things slowed down a lot. Of course, they got
+faster to the point where lots of pieces were already well distributed and,
+then, only the everybody had already downloaded things and, then, only the
+seeder had the missing segments of the torrent.</p>
+
+<p>Then I commented with:</p>
+
+<hr />
+
+<p>Depending on your bittorrent client, you can add the original HTTP
+download as a "Web seed" and, this way, your client will download <em>both</em>
+from the peers and also from the web to fill in parts that are not yet
+available.</p>
+
+<p>One such client is the Free (as in Freedom) <a href="http://qbittorrent.sf.net/">qbittorrent</a>, but I guess that
+others also have this option.</p>
+
+<hr />
+
+<p>Soon after that, people started downloading things much faster.</p>
+
+</section>
+
+<footer class="inlinefooter">
+
+<span class="pagedate">
+Posted <time datetime="2013-10-18T15:49:09Z" pubdate="pubdate">2013-10-18T12:49:09 BRT</time>
+</span>
+
+
+<nav class="tags">
+Tags:
+
+<a href="../../../tags/debian/" rel="tag">debian</a>
+
+<a href="../../../tags/free-software/" rel="tag">free-software</a>
+
+<a href="../../../tags/mooc/" rel="tag">mooc</a>
+
+<a href="../../../tags/quick-tip/" rel="tag">quick-tip</a>
+
+</nav>
+
+
+
+
+
+
+
+
+</footer>
+
+</article>
 
 
 
@@ -191,8 +255,8 @@
 
 
 <div class="pagedate">
-Last edited <time datetime="2013-10-11T06:07:42Z">2013-10-11T03:07:42 BRT</time>
-<!-- Created <time datetime="2013-10-11T06:07:42Z" pubdate="pubdate">2013-10-11T03:07:42 BRT</time> -->
+Last edited <time datetime="2013-06-06T23:47:05Z">2013-06-06T20:47:05 BRT</time>
+<!-- Created <time datetime="2013-06-06T23:47:05Z" pubdate="pubdate">2013-06-06T20:47:05 BRT</time> -->
 </div>
 
 </nav>

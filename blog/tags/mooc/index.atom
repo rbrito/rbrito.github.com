@@ -17,7 +17,72 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-10-11T06:07:42Z</updated>
+<updated>2013-10-18T16:09:43Z</updated>
+<entry>
+	<title>Quick tip #1</title>
+
+	<id>http://cynic.cc/blog//posts/2013-10-18-bittorrent_with_webseed/</id>
+
+	<link href="http://cynic.cc/blog//posts/2013-10-18-bittorrent_with_webseed/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="mooc" />
+
+	<category term="quick-tip" />
+
+
+	<updated>2013-10-18T16:09:43Z</updated>
+	<published>2013-10-18T15:49:09Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I wrote the following as part of a post to an discussion forum (I can&#39;t
+remember which one), and people told me that they liked this information and
+said that others would profit from it if I posted it on my blog, which I now
+decided to post.&lt;/p&gt;
+
+&lt;p&gt;The context: for homework of one &lt;a href=&quot;https://en.wikipedia.org/wiki/MOOC&quot;&gt;MOOC&lt;/a&gt;, people were trying to
+download a large virtual machine image that was offered both via an official
+HTTP source, which was slow.&lt;/p&gt;
+
+&lt;p&gt;A person volunteered that already had downloaded the image volunteered to
+create a bittorrent to help fellow students.&lt;/p&gt;
+
+&lt;p&gt;Other students started saying that the bittorrent download was faster up to
+a certain point and, then, things slowed down a lot. Of course, they got
+faster to the point where lots of pieces were already well distributed and,
+then, only the everybody had already downloaded things and, then, only the
+seeder had the missing segments of the torrent.&lt;/p&gt;
+
+&lt;p&gt;Then I commented with:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Depending on your bittorrent client, you can add the original HTTP
+download as a &quot;Web seed&quot; and, this way, your client will download &lt;em&gt;both&lt;/em&gt;
+from the peers and also from the web to fill in parts that are not yet
+available.&lt;/p&gt;
+
+&lt;p&gt;One such client is the Free (as in Freedom) &lt;a href=&quot;http://qbittorrent.sf.net/&quot;&gt;qbittorrent&lt;/a&gt;, but I guess that
+others also have this option.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Soon after that, people started downloading things much faster.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Playing with MOOCs</title>
 
@@ -45,7 +110,7 @@
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-07-04T12:25:16Z</updated>
 	<published>2013-07-04T11:33:00Z</published>
 
 

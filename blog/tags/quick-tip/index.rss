@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged quick-tip</title>
+<link>http://cynic.cc/blog//tags/quick-tip/</link>
+
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Fri, 18 Oct 2013 13:09:43 -0300</pubDate>
+<item>
+	<title>Quick tip #1</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2013-10-18-bittorrent_with_webseed/</guid>
+
+	<link>http://cynic.cc/blog//posts/2013-10-18-bittorrent_with_webseed/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>mooc</category>
+
+	<category>quick-tip</category>
+
+
+	<pubDate>Fri, 18 Oct 2013 12:49:09 -0300</pubDate>
+	<dcterms:modified>2013-10-18T16:09:43Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;I wrote the following as part of a post to an discussion forum (I can&#39;t
+remember which one), and people told me that they liked this information and
+said that others would profit from it if I posted it on my blog, which I now
+decided to post.&lt;/p&gt;
+
+&lt;p&gt;The context: for homework of one &lt;a href=&quot;https://en.wikipedia.org/wiki/MOOC&quot;&gt;MOOC&lt;/a&gt;, people were trying to
+download a large virtual machine image that was offered both via an official
+HTTP source, which was slow.&lt;/p&gt;
+
+&lt;p&gt;A person volunteered that already had downloaded the image volunteered to
+create a bittorrent to help fellow students.&lt;/p&gt;
+
+&lt;p&gt;Other students started saying that the bittorrent download was faster up to
+a certain point and, then, things slowed down a lot. Of course, they got
+faster to the point where lots of pieces were already well distributed and,
+then, only the everybody had already downloaded things and, then, only the
+seeder had the missing segments of the torrent.&lt;/p&gt;
+
+&lt;p&gt;Then I commented with:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Depending on your bittorrent client, you can add the original HTTP
+download as a &quot;Web seed&quot; and, this way, your client will download &lt;em&gt;both&lt;/em&gt;
+from the peers and also from the web to fill in parts that are not yet
+available.&lt;/p&gt;
+
+&lt;p&gt;One such client is the Free (as in Freedom) &lt;a href=&quot;http://qbittorrent.sf.net/&quot;&gt;qbittorrent&lt;/a&gt;, but I guess that
+others also have this option.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Soon after that, people started downloading things much faster.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

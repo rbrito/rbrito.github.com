@@ -1,0 +1,50 @@
+[[!meta author="""rbrito"""]]
+
+[[!meta title="""change to templates/page.tmpl on Rogério Brito's Digital Junkyard"""]]
+
+[[!meta permalink="/blog/recentchanges/#change-0af2e645b5adb052cf925ddd2d1ba7dbe9c3322f"]]
+
+<div id="change-0af2e645b5adb052cf925ddd2d1ba7dbe9c3322f" class="metadata">
+<span class="desc"><br />Changed pages:</span>
+<span class="pagelinks">
+
+
+
+
+templates/page.tmpl
+
+</span>
+<span class="desc"><br />Changed by:</span>
+<span class="committer">
+
+rbrito
+
+</span>
+<span class="desc"><br />Commit type:</span>
+<span class="committype">git</span>
+<span class="desc"><br />Date:</span>
+<span class="changedate"><time datetime="2013-06-06T01:10:59Z">22:10:59 2013-06-05</time></span>
+<span class="desc"><br /></span>
+
+</div>
+<div class="changelog">
+
+
+Let&#39;s try adding analytics again.<br />
+
+
+
+
+
+(Revert &quot;Remove analytics code.&quot;)<br />
+
+
+
+
+
+This reverts commit 88940a7aa88b3df354e3a7c7c94ad6386543b76a.<br />
+
+
+</div>
+
+<!-- 0af2e645b5adb052cf925ddd2d1ba7dbe9c3322f -->

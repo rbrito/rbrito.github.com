@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-10-11T06:38:33Z</updated>
+<updated>2013-10-18T16:10:26Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -602,7 +602,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:38:33Z</updated>
+	<updated>2013-10-18T16:10:26Z</updated>
 	<published>2002-08-22T03:00:00Z</published>
 
 
@@ -647,7 +647,7 @@ happier than most people from your own country?&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:28:43Z</updated>
+	<updated>2013-10-18T16:10:26Z</updated>
 	<published>2002-07-27T03:00:00Z</published>
 
 
@@ -696,7 +696,7 @@ thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:23:45Z</updated>
+	<updated>2013-10-18T16:10:26Z</updated>
 	<published>2002-07-07T03:00:00Z</published>
 
 
@@ -758,7 +758,7 @@ easy to use.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:20:31Z</updated>
+	<updated>2013-10-18T16:10:26Z</updated>
 	<published>2002-07-06T03:00:00Z</published>
 
 
@@ -842,7 +842,7 @@ the first reboot: a kernel panic.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:12:33Z</updated>
+	<updated>2013-10-18T16:10:26Z</updated>
 	<published>2002-04-04T03:00:00Z</published>
 
 
@@ -914,7 +914,7 @@ is available for Linux, including PPC.&lt;/p&gt;
 	<category term="video" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-09-22T21:41:06Z</updated>
 	<published>2002-03-29T03:00:00Z</published>
 
 
@@ -976,7 +976,7 @@ different values of satisfaction.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-09-22T21:32:08Z</updated>
 	<published>2002-03-18T03:00:00Z</published>
 
 

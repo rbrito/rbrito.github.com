@@ -8,7 +8,66 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 11 Oct 2013 03:07:42 -0300</pubDate>
+<pubDate>Fri, 18 Oct 2013 13:09:43 -0300</pubDate>
+<item>
+	<title>Quick tip #1</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2013-10-18-bittorrent_with_webseed/</guid>
+
+	<link>http://cynic.cc/blog//posts/2013-10-18-bittorrent_with_webseed/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>mooc</category>
+
+	<category>quick-tip</category>
+
+
+	<pubDate>Fri, 18 Oct 2013 12:49:09 -0300</pubDate>
+	<dcterms:modified>2013-10-18T16:09:43Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;I wrote the following as part of a post to an discussion forum (I can&#39;t
+remember which one), and people told me that they liked this information and
+said that others would profit from it if I posted it on my blog, which I now
+decided to post.&lt;/p&gt;
+
+&lt;p&gt;The context: for homework of one &lt;a href=&quot;https://en.wikipedia.org/wiki/MOOC&quot;&gt;MOOC&lt;/a&gt;, people were trying to
+download a large virtual machine image that was offered both via an official
+HTTP source, which was slow.&lt;/p&gt;
+
+&lt;p&gt;A person volunteered that already had downloaded the image volunteered to
+create a bittorrent to help fellow students.&lt;/p&gt;
+
+&lt;p&gt;Other students started saying that the bittorrent download was faster up to
+a certain point and, then, things slowed down a lot. Of course, they got
+faster to the point where lots of pieces were already well distributed and,
+then, only the everybody had already downloaded things and, then, only the
+seeder had the missing segments of the torrent.&lt;/p&gt;
+
+&lt;p&gt;Then I commented with:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Depending on your bittorrent client, you can add the original HTTP
+download as a &quot;Web seed&quot; and, this way, your client will download &lt;em&gt;both&lt;/em&gt;
+from the peers and also from the web to fill in parts that are not yet
+available.&lt;/p&gt;
+
+&lt;p&gt;One such client is the Free (as in Freedom) &lt;a href=&quot;http://qbittorrent.sf.net/&quot;&gt;qbittorrent&lt;/a&gt;, but I guess that
+others also have this option.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Soon after that, people started downloading things much faster.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>SNA Acceleration vs. UXA Acceleration</title>
 
@@ -30,7 +89,7 @@
 
 
 	<pubDate>Wed, 21 Aug 2013 13:44:19 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-08-21T16:44:29Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
@@ -122,7 +181,7 @@ fingers so that it does.&lt;/p&gt;
 
 
 	<pubDate>Sat, 20 Jul 2013 21:50:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-08-02T09:12:26Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;These are some very rough/sketchy notes that I took while doing the
@@ -587,7 +646,7 @@ function calls (whenever unambiguous) and, in essence, to write as little
 
 
 	<pubDate>Thu, 04 Jul 2013 08:33:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-07-04T12:25:16Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Not so much ago, we had a boom of new enterprises offering Massive Online
@@ -678,7 +737,7 @@ ones.&lt;/p&gt;
 
 
 	<pubDate>Tue, 11 Jun 2013 04:49:56 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-06-11T08:22:42Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
@@ -775,7 +834,7 @@ one, please let me know.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
@@ -838,7 +897,7 @@ machines on datacenters.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 04:29:23 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-04-30T17:16:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
@@ -941,7 +1000,7 @@ and contributing back what I produced.&lt;/p&gt;
 
 
 	<pubDate>Tue, 29 Jan 2013 22:16:07 -0200</pubDate>
-	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+	<dcterms:modified>2013-01-30T00:16:56Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
@@ -987,7 +1046,7 @@ final video. &lt;img src=&quot;http://cynic.cc/blog//./smileys/smile.png&quot; a
 
 
 	<pubDate>Thu, 01 Nov 2012 02:32:23 -0200</pubDate>
-	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+	<dcterms:modified>2012-11-01T04:39:22Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I was with some spare time a few days ago and I took one of those stupid
@@ -1039,7 +1098,7 @@ code. &lt;img src=&quot;http://cynic.cc/blog//./smileys/smile.png&quot; alt=&quo
 
 
 	<pubDate>Sat, 08 Sep 2012 23:42:24 -0300</pubDate>
-	<dcterms:modified>2012-09-09T02:47:46Z</dcterms:modified>
+	<dcterms:modified>2012-09-09T02:48:33Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Continuing the &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/T3BcxA7wKjK&quot;&gt;ZFS evaluation journey&lt;/a&gt; (which I will summarize here with
@@ -1081,104 +1140,6 @@ people from the LLNL would like to know of their modules producing this
 behavior.&lt;/p&gt;
 
 &lt;p&gt;Keep tuned for some future impressions.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>NOT Trying out AdSense</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/trying_out_adsense_not/</guid>
-
-	<link>http://cynic.cc/blog//posts/trying_out_adsense_not/</link>
-
-
-
-	<category>adsense</category>
-
-	<category>advertisements</category>
-
-	<category>debian</category>
-
-	<category>debian-planet</category>
-
-	<category>free-software</category>
-
-	<category>funding</category>
-
-	<category>google</category>
-
-
-	<pubDate>Fri, 07 Sep 2012 13:16:18 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;On the 3rd of September, I applied to Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; program, as I
-told in my &lt;a href=&quot;http://cynic.cc/blog/posts/trying_out_adsense/&quot;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Well, that was a short-lived experience. On the 5th of September, I received
-the following e-mail, which, sincerely, is as uninformative as it could get:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Date: Wed, 05 Sep 2012 16:52:22 -0000
-From: adsense-noreply@google.com
-To: rbrito@gmail.com
-Subject: Google AdSense Support
-
-Hello,
-
-As mentioned in our welcome email, we conduct a second review of your
-AdSense application once AdSense code is placed on your site(s). As a
-result of this review, we have disapproved your account for the following
-violation(s):
-
-Issues:
-
-- Site does not comply with Google policies
-
-
----------------------
-
-Further detail:
-
-
-Site does not comply with Google policies: We&#39;re unable to approve your
-AdSense application at this time because we feel that your site does not
-comply with Google AdSense policies or webmaster quality guidelines. It&#39;s
-our goal to provide our advertisers sites that offer rich and meaningful
-content, receive organic traffic, and allow us to serve well-targeted ads
-to users. We believe that currently your site does not fulfill this
-criteria. 
-
-For more details, please read the webmaster quality guidelines at
-http://www.google.com/support/webmasters/bin/answer.py?answer=35769 and
-the AdSense program policies at
-http://support.google.com/adsense/bin/answer.py?answer=48182,
-https://support.google.com/adsense/bin/topic.py?topic=1271507
-
-(...)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;OK, I went on and read &lt;strong&gt;all&lt;/strong&gt; the documentation on program policies
-etc.  I investigate each point here:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Invalid clicks and impressions: No violation here.&lt;/li&gt;
-&lt;li&gt;Encouraging clicks: No violation here.&lt;/li&gt;
-&lt;li&gt;Content guidelines: No violation here.&lt;/li&gt;
-&lt;li&gt;Copyrighted material: No violation here.&lt;/li&gt;
-&lt;li&gt;Webmaster guidelines: No violation here.&lt;/li&gt;
-&lt;li&gt;Traffic sources: No violation here.&lt;/li&gt;
-&lt;li&gt;Ad behavior: No violation here.&lt;/li&gt;
-&lt;li&gt;Ad placement: No violation here.&lt;/li&gt;
-&lt;li&gt;Site behavior: No violation here.&lt;/li&gt;
-&lt;li&gt;Competitive ads and services: No violation here.&lt;/li&gt;
-&lt;li&gt;Google advertising cookies: No violation here.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;To cut a long story short, I RTFM and did everything correctly. So, dear
-lazyweb, what would my options be to fund a tiny bit of my software
-contributions?&lt;/p&gt;
 </description>
 
 

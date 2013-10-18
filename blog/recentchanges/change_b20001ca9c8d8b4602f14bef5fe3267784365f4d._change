@@ -1,0 +1,38 @@
+[[!meta author="""rbrito"""]]
+
+[[!meta title="""change to .blog.setup on Rogério Brito's Digital Junkyard"""]]
+
+[[!meta permalink="/blog/recentchanges/#change-b20001ca9c8d8b4602f14bef5fe3267784365f4d"]]
+
+<div id="change-b20001ca9c8d8b4602f14bef5fe3267784365f4d" class="metadata">
+<span class="desc"><br />Changed pages:</span>
+<span class="pagelinks">
+
+
+
+
+.blog.setup
+
+</span>
+<span class="desc"><br />Changed by:</span>
+<span class="committer">
+
+rbrito
+
+</span>
+<span class="desc"><br />Commit type:</span>
+<span class="committype">git</span>
+<span class="desc"><br />Date:</span>
+<span class="changedate"><time datetime="2013-10-11T07:00:08Z">04:00:08 2013-10-11</time></span>
+<span class="desc"><br /></span>
+
+</div>
+<div class="changelog">
+
+
+setup: Disable the recentchanges plugin.<br />
+
+
+</div>
+
+<!-- b20001ca9c8d8b4602f14bef5fe3267784365f4d -->

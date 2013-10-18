@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 11 Oct 2013 03:38:33 -0300</pubDate>
+<pubDate>Fri, 18 Oct 2013 13:10:26 -0300</pubDate>
 <item>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -573,7 +573,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 
 	<pubDate>Thu, 22 Aug 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:38:33Z</dcterms:modified>
+	<dcterms:modified>2013-10-18T16:10:26Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
@@ -612,7 +612,7 @@ happier than most people from your own country?&lt;/p&gt;
 
 
 	<pubDate>Sat, 27 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:28:43Z</dcterms:modified>
+	<dcterms:modified>2013-10-18T16:10:26Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Updated &lt;a href=&quot;http://lame.sf.net/&quot;&gt;lame&lt;/a&gt;&#39;s Debian packaging a little
@@ -655,7 +655,7 @@ thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
 
 
 	<pubDate>Sun, 07 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:23:45Z</dcterms:modified>
+	<dcterms:modified>2013-10-18T16:10:26Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Woke up quite early with that kernel panic bugging me. I read the
@@ -711,7 +711,7 @@ easy to use.&lt;/p&gt;
 
 
 	<pubDate>Sat, 06 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:20:31Z</dcterms:modified>
+	<dcterms:modified>2013-10-18T16:10:26Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Took the day to see how things regarding the old PowerMac
@@ -789,7 +789,7 @@ the first reboot: a kernel panic.&lt;/p&gt;
 
 
 	<pubDate>Thu, 04 Apr 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:12:33Z</dcterms:modified>
+	<dcterms:modified>2013-10-18T16:10:26Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;How can life change so quickly from bad to good? Amazing, ain&#39;t it?
@@ -855,7 +855,7 @@ is available for Linux, including PPC.&lt;/p&gt;
 
 
 	<pubDate>Fri, 29 Mar 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-09-22T21:41:06Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Today, I could sleep better, at least.&lt;/p&gt;
@@ -911,7 +911,7 @@ different values of satisfaction.&lt;/p&gt;
 
 
 	<pubDate>Mon, 18 Mar 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-09-22T21:32:08Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Typed the remaining bits of the first lecture on the

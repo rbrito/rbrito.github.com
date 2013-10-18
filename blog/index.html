@@ -36,22 +36,6 @@ Rogério Brito's Digital Junkyard
 </header>
 
 
-<nav class="actions">
-<ul>
-
-
-<li><a href="./recentchanges/">RecentChanges</a></li>
-
-
-
-
-
-
-
-
-</ul>
-</nav>
-
 
 
 
@@ -93,8 +77,8 @@ Rogério Brito's Digital Junkyard
         <td class="month-calendar-day-nolink Tuesday">8</td>
         <td class="month-calendar-day-nolink Wednesday">9</td>
         <td class="month-calendar-day-nolink Thursday">10</td>
-        <td class="month-calendar-day-this-day Friday">11</td>
-        <td class="month-calendar-day-future Saturday">12</td>
+        <td class="month-calendar-day-nolink Friday">11</td>
+        <td class="month-calendar-day-nolink Saturday">12</td>
     </tr>
     <tr>
         <td class="month-calendar-day-nolink Sunday">13</td>
@@ -102,8 +86,10 @@ Rogério Brito's Digital Junkyard
         <td class="month-calendar-day-nolink Tuesday">15</td>
         <td class="month-calendar-day-nolink Wednesday">16</td>
         <td class="month-calendar-day-nolink Thursday">17</td>
-        <td class="month-calendar-day-nolink Friday">18</td>
-        <td class="month-calendar-day-nolink Saturday">19</td>
+        <td class="month-calendar-day-this-day Friday"><div class='popup'>18<div class='balloon'><ul>
+            <li><a href="./posts/2013-10-18-bittorrent_with_webseed/" title="Quick tip #1">Quick tip #1</a></li>
+        </ul></div></div></td>
+        <td class="month-calendar-day-future Saturday">19</td>
     </tr>
     <tr>
         <td class="month-calendar-day-nolink Sunday">20</td>
@@ -147,6 +133,84 @@ Rogério Brito's Digital Junkyard
 <a class="feedbutton" type="application/atom+xml" rel="alternate" title="Rogério Brito's Digital Junkyard (Atom feed)" href="index.atom">Atom</a>
 
 </div>
+<article class="inlinepage">
+
+<section class="inlineheader">
+
+<header class="header">
+
+<a href="./posts/2013-10-18-bittorrent_with_webseed/">Quick tip #1</a>
+
+</header>
+</section>
+
+<section class="inlinecontent">
+<p>I wrote the following as part of a post to an discussion forum (I can't
+remember which one), and people told me that they liked this information and
+said that others would profit from it if I posted it on my blog, which I now
+decided to post.</p>
+
+<p>The context: for homework of one <a href="https://en.wikipedia.org/wiki/MOOC">MOOC</a>, people were trying to
+download a large virtual machine image that was offered both via an official
+HTTP source, which was slow.</p>
+
+<p>A person volunteered that already had downloaded the image volunteered to
+create a bittorrent to help fellow students.</p>
+
+<p>Other students started saying that the bittorrent download was faster up to
+a certain point and, then, things slowed down a lot. Of course, they got
+faster to the point where lots of pieces were already well distributed and,
+then, only the everybody had already downloaded things and, then, only the
+seeder had the missing segments of the torrent.</p>
+
+<p>Then I commented with:</p>
+
+<hr />
+
+<p>Depending on your bittorrent client, you can add the original HTTP
+download as a "Web seed" and, this way, your client will download <em>both</em>
+from the peers and also from the web to fill in parts that are not yet
+available.</p>
+
+<p>One such client is the Free (as in Freedom) <a href="http://qbittorrent.sf.net/">qbittorrent</a>, but I guess that
+others also have this option.</p>
+
+<hr />
+
+<p>Soon after that, people started downloading things much faster.</p>
+
+</section>
+
+<footer class="inlinefooter">
+
+<span class="pagedate">
+Posted <time datetime="2013-10-18T15:49:09Z" pubdate="pubdate">2013-10-18T12:49:09 BRT</time>
+</span>
+
+
+<nav class="tags">
+Tags:
+
+<a href="./tags/debian/" rel="tag">debian</a>
+
+<a href="./tags/free-software/" rel="tag">free-software</a>
+
+<a href="./tags/mooc/" rel="tag">mooc</a>
+
+<a href="./tags/quick-tip/" rel="tag">quick-tip</a>
+
+</nav>
+
+
+
+
+
+
+
+
+</footer>
+
+</article>
 <article class="inlinepage">
 
 <section class="inlineheader">
@@ -1381,123 +1445,6 @@ Tags:
 <a href="./tags/linux/" rel="tag">linux</a>
 
 <a href="./tags/zfs/" rel="tag">zfs</a>
-
-</nav>
-
-
-
-
-
-
-
-
-</footer>
-
-</article>
-<article class="inlinepage">
-
-<section class="inlineheader">
-
-<header class="header">
-
-<a href="./posts/trying_out_adsense_not/">NOT Trying out AdSense</a>
-
-</header>
-</section>
-
-<section class="inlinecontent">
-<p>On the 3rd of September, I applied to Google's <a href="https://www.google.com/adsense">AdSense</a> program, as I
-told in my <a href="http://cynic.cc/blog/posts/trying_out_adsense/">previous post</a>.</p>
-
-<p>Well, that was a short-lived experience. On the 5th of September, I received
-the following e-mail, which, sincerely, is as uninformative as it could get:</p>
-
-<pre><code>Date: Wed, 05 Sep 2012 16:52:22 -0000
-From: adsense-noreply@google.com
-To: rbrito@gmail.com
-Subject: Google AdSense Support
-
-Hello,
-
-As mentioned in our welcome email, we conduct a second review of your
-AdSense application once AdSense code is placed on your site(s). As a
-result of this review, we have disapproved your account for the following
-violation(s):
-
-Issues:
-
-- Site does not comply with Google policies
-
-
----------------------
-
-Further detail:
-
-
-Site does not comply with Google policies: We're unable to approve your
-AdSense application at this time because we feel that your site does not
-comply with Google AdSense policies or webmaster quality guidelines. It's
-our goal to provide our advertisers sites that offer rich and meaningful
-content, receive organic traffic, and allow us to serve well-targeted ads
-to users. We believe that currently your site does not fulfill this
-criteria. 
-
-For more details, please read the webmaster quality guidelines at
-http://www.google.com/support/webmasters/bin/answer.py?answer=35769 and
-the AdSense program policies at
-http://support.google.com/adsense/bin/answer.py?answer=48182,
-https://support.google.com/adsense/bin/topic.py?topic=1271507
-
-(...)
-</code></pre>
-
-<p>OK, I went on and read <strong>all</strong> the documentation on program policies
-etc.  I investigate each point here:</p>
-
-<ul>
-<li>Invalid clicks and impressions: No violation here.</li>
-<li>Encouraging clicks: No violation here.</li>
-<li>Content guidelines: No violation here.</li>
-<li>Copyrighted material: No violation here.</li>
-<li>Webmaster guidelines: No violation here.</li>
-<li>Traffic sources: No violation here.</li>
-<li>Ad behavior: No violation here.</li>
-<li>Ad placement: No violation here.</li>
-<li>Site behavior: No violation here.</li>
-<li>Competitive ads and services: No violation here.</li>
-<li>Google advertising cookies: No violation here.</li>
-</ul>
-
-
-<p>To cut a long story short, I RTFM and did everything correctly. So, dear
-lazyweb, what would my options be to fund a tiny bit of my software
-contributions?</p>
-
-</section>
-
-<footer class="inlinefooter">
-
-<span class="pagedate">
-Posted <time datetime="2012-09-07T16:16:18Z" pubdate="pubdate">2012-09-07T13:16:18 BRT</time>
-</span>
-
-
-<nav class="tags">
-Tags:
-
-<a href="./tags/adsense/" rel="tag">adsense</a>
-
-<a href="./tags/advertisements/" rel="tag">advertisements</a>
-
-<a href="./tags/debian/" rel="tag">debian</a>
-
-<a href="./tags/debian-planet/" rel="tag">debian-planet</a>
-
-<a href="./tags/free-software/" rel="tag">free-software</a>
-
-<a href="./tags/funding/" rel="tag">funding</a>
-
-<a href="./tags/google/" rel="tag">google</a>
 
 </nav>
 

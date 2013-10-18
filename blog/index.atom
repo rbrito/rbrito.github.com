@@ -17,7 +17,72 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-10-11T06:07:42Z</updated>
+<updated>2013-10-18T16:09:43Z</updated>
+<entry>
+	<title>Quick tip #1</title>
+
+	<id>http://cynic.cc/blog//posts/2013-10-18-bittorrent_with_webseed/</id>
+
+	<link href="http://cynic.cc/blog//posts/2013-10-18-bittorrent_with_webseed/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="mooc" />
+
+	<category term="quick-tip" />
+
+
+	<updated>2013-10-18T16:09:43Z</updated>
+	<published>2013-10-18T15:49:09Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I wrote the following as part of a post to an discussion forum (I can&#39;t
+remember which one), and people told me that they liked this information and
+said that others would profit from it if I posted it on my blog, which I now
+decided to post.&lt;/p&gt;
+
+&lt;p&gt;The context: for homework of one &lt;a href=&quot;https://en.wikipedia.org/wiki/MOOC&quot;&gt;MOOC&lt;/a&gt;, people were trying to
+download a large virtual machine image that was offered both via an official
+HTTP source, which was slow.&lt;/p&gt;
+
+&lt;p&gt;A person volunteered that already had downloaded the image volunteered to
+create a bittorrent to help fellow students.&lt;/p&gt;
+
+&lt;p&gt;Other students started saying that the bittorrent download was faster up to
+a certain point and, then, things slowed down a lot. Of course, they got
+faster to the point where lots of pieces were already well distributed and,
+then, only the everybody had already downloaded things and, then, only the
+seeder had the missing segments of the torrent.&lt;/p&gt;
+
+&lt;p&gt;Then I commented with:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Depending on your bittorrent client, you can add the original HTTP
+download as a &quot;Web seed&quot; and, this way, your client will download &lt;em&gt;both&lt;/em&gt;
+from the peers and also from the web to fill in parts that are not yet
+available.&lt;/p&gt;
+
+&lt;p&gt;One such client is the Free (as in Freedom) &lt;a href=&quot;http://qbittorrent.sf.net/&quot;&gt;qbittorrent&lt;/a&gt;, but I guess that
+others also have this option.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Soon after that, people started downloading things much faster.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>SNA Acceleration vs. UXA Acceleration</title>
 
@@ -41,7 +106,7 @@
 	<category term="xorg" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-08-21T16:44:29Z</updated>
 	<published>2013-08-21T16:44:19Z</published>
 
 
@@ -139,7 +204,7 @@ fingers so that it does.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-08-02T09:12:26Z</updated>
 	<published>2013-07-21T00:50:00Z</published>
 
 
@@ -610,7 +675,7 @@ function calls (whenever unambiguous) and, in essence, to write as little
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-07-04T12:25:16Z</updated>
 	<published>2013-07-04T11:33:00Z</published>
 
 
@@ -707,7 +772,7 @@ ones.&lt;/p&gt;
 	<category term="revision-control" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-06-11T08:22:42Z</updated>
 	<published>2013-06-11T07:49:56Z</published>
 
 
@@ -810,7 +875,7 @@ one, please let me know.&lt;/p&gt;
 	<category term="ubuntu" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-06-05T08:25:51Z</updated>
 	<published>2013-04-20T01:46:26Z</published>
 
 
@@ -879,7 +944,7 @@ machines on datacenters.&lt;/p&gt;
 	<category term="linux" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-04-30T17:16:01Z</updated>
 	<published>2013-04-19T07:29:23Z</published>
 
 
@@ -988,7 +1053,7 @@ and contributing back what I produced.&lt;/p&gt;
 	<category term="video" />
 
 
-	<updated>2013-04-18T20:50:59Z</updated>
+	<updated>2013-01-30T00:16:56Z</updated>
 	<published>2013-01-30T00:16:07Z</published>
 
 
@@ -1040,7 +1105,7 @@ final video. &lt;img src=&quot;http://cynic.cc/blog//./smileys/smile.png&quot; a
 	<category term="meme" />
 
 
-	<updated>2013-04-18T20:50:59Z</updated>
+	<updated>2012-11-01T04:39:22Z</updated>
 	<published>2012-11-01T04:32:23Z</published>
 
 
@@ -1098,7 +1163,7 @@ code. &lt;img src=&quot;http://cynic.cc/blog//./smileys/smile.png&quot; alt=&quo
 	<category term="zfs" />
 
 
-	<updated>2012-09-09T02:47:46Z</updated>
+	<updated>2012-09-09T02:48:33Z</updated>
 	<published>2012-09-09T02:42:24Z</published>
 
 
@@ -1142,110 +1207,6 @@ people from the LLNL would like to know of their modules producing this
 behavior.&lt;/p&gt;
 
 &lt;p&gt;Keep tuned for some future impressions.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>NOT Trying out AdSense</title>
-
-	<id>http://cynic.cc/blog//posts/trying_out_adsense_not/</id>
-
-	<link href="http://cynic.cc/blog//posts/trying_out_adsense_not/"/>
-
-
-
-
-
-
-	<category term="adsense" />
-
-	<category term="advertisements" />
-
-	<category term="debian" />
-
-	<category term="debian-planet" />
-
-	<category term="free-software" />
-
-	<category term="funding" />
-
-	<category term="google" />
-
-
-	<updated>2013-10-11T06:07:42Z</updated>
-	<published>2012-09-07T16:16:18Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;On the 3rd of September, I applied to Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; program, as I
-told in my &lt;a href=&quot;http://cynic.cc/blog/posts/trying_out_adsense/&quot;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Well, that was a short-lived experience. On the 5th of September, I received
-the following e-mail, which, sincerely, is as uninformative as it could get:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Date: Wed, 05 Sep 2012 16:52:22 -0000
-From: adsense-noreply@google.com
-To: rbrito@gmail.com
-Subject: Google AdSense Support
-
-Hello,
-
-As mentioned in our welcome email, we conduct a second review of your
-AdSense application once AdSense code is placed on your site(s). As a
-result of this review, we have disapproved your account for the following
-violation(s):
-
-Issues:
-
-- Site does not comply with Google policies
-
-
----------------------
-
-Further detail:
-
-
-Site does not comply with Google policies: We&#39;re unable to approve your
-AdSense application at this time because we feel that your site does not
-comply with Google AdSense policies or webmaster quality guidelines. It&#39;s
-our goal to provide our advertisers sites that offer rich and meaningful
-content, receive organic traffic, and allow us to serve well-targeted ads
-to users. We believe that currently your site does not fulfill this
-criteria. 
-
-For more details, please read the webmaster quality guidelines at
-http://www.google.com/support/webmasters/bin/answer.py?answer=35769 and
-the AdSense program policies at
-http://support.google.com/adsense/bin/answer.py?answer=48182,
-https://support.google.com/adsense/bin/topic.py?topic=1271507
-
-(...)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;OK, I went on and read &lt;strong&gt;all&lt;/strong&gt; the documentation on program policies
-etc.  I investigate each point here:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Invalid clicks and impressions: No violation here.&lt;/li&gt;
-&lt;li&gt;Encouraging clicks: No violation here.&lt;/li&gt;
-&lt;li&gt;Content guidelines: No violation here.&lt;/li&gt;
-&lt;li&gt;Copyrighted material: No violation here.&lt;/li&gt;
-&lt;li&gt;Webmaster guidelines: No violation here.&lt;/li&gt;
-&lt;li&gt;Traffic sources: No violation here.&lt;/li&gt;
-&lt;li&gt;Ad behavior: No violation here.&lt;/li&gt;
-&lt;li&gt;Ad placement: No violation here.&lt;/li&gt;
-&lt;li&gt;Site behavior: No violation here.&lt;/li&gt;
-&lt;li&gt;Competitive ads and services: No violation here.&lt;/li&gt;
-&lt;li&gt;Google advertising cookies: No violation here.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;To cut a long story short, I RTFM and did everything correctly. So, dear
-lazyweb, what would my options be to fund a tiny bit of my software
-contributions?&lt;/p&gt;
 
 	</content>
 
