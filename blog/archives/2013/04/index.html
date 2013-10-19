@@ -51,8 +51,6 @@
 
 
 <aside class="sidebar">
-
-
 <div><div class="calendar"><table class="month-calendar">
     <tr>
     <th class="month-calendar-arrow"><a href="../03/" title="March">&larr;</a></th>
@@ -93,8 +91,8 @@
         <td class="month-calendar-day-nolink Wednesday">17</td>
         <td class="month-calendar-day-nolink Thursday">18</td>
         <td class="month-calendar-day-link Friday"><div class='popup'>19<div class='balloon'><ul>
-            <li><a href="../../../posts/debian_activities/" title="Some recent Debian activities">Some recent Debian activities</a></li>
             <li><a href="../../../posts/lack_of_cooperation_from_ubuntu/" title="Lack of cooperation from Ubuntu?">Lack of cooperation from Ubuntu?</a></li>
+            <li><a href="../../../posts/debian_activities/" title="Some recent Debian activities">Some recent Debian activities</a></li>
         </ul></div></div></td>
         <td class="month-calendar-day-nolink Saturday">20</td>
     </tr>
@@ -119,15 +117,12 @@
 </table>
 </div></div>
 
-
 </aside>
 
 
 <div id="pagebody">
 
 <section id="content">
-
-
 <article class="inlinepage">
 
 <section class="inlineheader">
@@ -142,7 +137,7 @@
 <section class="inlinecontent">
 <p>I have been occasionally working on some Debian-related tasks.</p>
 
-<h1>Chrony</h1>
+<h1 id="chrony">Chrony</h1>
 
 <p>One of those was to get chrony is a slightly better shape, by using, at
 least, a patch system (indeed, I "modernized" its packaging with the format
@@ -157,7 +152,7 @@ high-profile distribution, namely Fedora, that
 <a href="http://fedoraproject.org/wiki/Features/ChronyDefaultNTP">switched to chrony as its default NTP software</a>. We can certainly take a
 look at what they are doing and join forces here.</p>
 
-<h1>MongoDB</h1>
+<h1 id="mongodb">MongoDB</h1>
 
 <p>Another package where I spent some time was with <a href="http://packages.qa.debian.org/mongodb">mongodb</a>:
 MongoDB is a tricky package that is only built for 2 arches: amd64 and
@@ -192,7 +187,7 @@ principle.</p>
 series that there is no hope of it applying.  It would be super nice to have
 MongoDB working on kFreeBSD and on HURD also, though.</p>
 
-<h1>nocache</h1>
+<h1 id="nocache">nocache</h1>
 
 <p>There is a very nice command line program called <code>nocache</code> that was packaged
 by Dmitry Smirnov (and just approved by the FTP masters!) whose packaging I
@@ -209,7 +204,7 @@ immediately after that.</p>
 <code>posix_fadvise</code>'s flag <code>POSIX_FADV_DONTNEED</code> for the files that will be
 touched.</p>
 
-<h1>Post note</h1>
+<h1 id="postnote">Post note</h1>
 
 <p>Oh, just one aside: for the readers of Debian Planet and other aggregation
 services which are not Debian Developers/Maintainers, I contributed to these
@@ -332,9 +327,6 @@ Tags:
 </footer>
 
 </article>
-
-
-
 
 
 </section>

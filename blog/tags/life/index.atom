@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-10-19T19:36:43Z</updated>
+<updated>2013-10-19T19:51:12Z</updated>
 <entry>
 	<title>2005-12-14</title>
 
@@ -133,15 +133,17 @@ promising. Packaged for Debian also, of course.&lt;/p&gt;
 &lt;a href=&quot;http://www.openoffice.org/&quot;&gt;OpenOffice&lt;/a&gt; instead of Microsoft&#39;s
 Office suite:&lt;/p&gt;
 
-&lt;blockquote&gt;&lt;p&gt;&quot;I see you&#39;re still using traditional software on your computer,
-Bob. Don&#39;t you know that stuff is susceptible to Microsoft Outlook
-viruses? Have you tried Openoffice? It&#39;s free! It&#39;s free because it
-is developed using a leading-edge development method that&#39;s
-superior to the old-fashioned way that Microsoft develops software.
-Microsoft software is expensive because the conventional methods
-they use to create it are inefficient. That&#39;s why there are so many
-Microsoft viruses around. There aren&#39;t any OpenOffice viruses. Why
-don&#39;t you give it a try?&quot;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&quot;I see you&#39;re still using traditional software on your computer,
+  Bob. Don&#39;t you know that stuff is susceptible to Microsoft Outlook
+  viruses? Have you tried Openoffice? It&#39;s free! It&#39;s free because it
+  is developed using a leading-edge development method that&#39;s
+  superior to the old-fashioned way that Microsoft develops software.
+  Microsoft software is expensive because the conventional methods
+  they use to create it are inefficient. That&#39;s why there are so many
+  Microsoft viruses around. There aren&#39;t any OpenOffice viruses. Why
+  don&#39;t you give it a try?&quot;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 	</content>
 
@@ -214,13 +216,13 @@ graduate student.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-19T19:36:43Z</updated>
+	<updated>2013-10-19T19:51:12Z</updated>
 	<published>2002-08-22T03:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
-programming is able to achieve a complexity of $O(n&lt;sup&gt;2&lt;/sup&gt;/log n)$, which
+programming is able to achieve a complexity of $O(n^2/\log n)$, which
 is a theoretical improvement over the classic dynamic programming
 method.&lt;/p&gt;
 

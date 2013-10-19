@@ -63,12 +63,10 @@
 (setq inhibit-startup-message t); remove splash screen
 &lt;/pre&gt;
 
-
 &lt;p&gt;Another line that may make things more comfortable (especially if you, like me, use Emacs&#39;s dired as a filemanager to navigate your folders):&lt;/p&gt;
 
 &lt;pre&gt;(defalias &#39;yes-or-no-p &#39;y-or-n-p)
 &lt;/pre&gt;
-
 
 &lt;p&gt;But configuring Emacs is not always that hard. Seeing a change of behaviour with your shell is scarier. When bash 4 was released, one thing that got implemented is the echo of some characters from the terminal to the screen.&lt;/p&gt;
 
@@ -84,7 +82,6 @@
 
 &lt;pre&gt;Emacs*font:            Mono
 &lt;/pre&gt;
-
 
 &lt;p&gt;to my &lt;code&gt;.Xdefaults&lt;/code&gt; file did the trick and restored back the ability to use DejaVu Sans Mono at the right size on my system.&lt;/p&gt;
 
@@ -173,7 +170,6 @@ by &lt;code&gt;git-repo&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Run &lt;code&gt;git cvsimport -v -a -A -k -m -d cvs-source-dir -C git-repo cvs-module&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-
 &lt;p&gt;That&#39;s it. It seems to perform a very good job of changing a very old system
 to something that is modern and with many features (and is distributed).&lt;/p&gt;
 
@@ -223,12 +219,12 @@ user-friendly, really make that an interesting option.&lt;/p&gt;
 &lt;p&gt;I use, by the way, the following extra packages from
 &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;rbrito@dumont:~$ COLUMNS=88 dpkg -l | grep -- -el
+&lt;pre&gt;&lt;code&gt;rbrito@dumont:~&amp;#036; COLUMNS=88 dpkg -l | grep -- -el
 ii  debian-el        26.3-1           Emacs helpers specific to Debian users
 ii  emacs-goodies-el 26.3-1           Miscellaneous add-ons for Emacs
 ii  gettext-el       0.14.5-2         Emacs po-mode for editing .po files
 ii  post-el          2004.07.23-2     emacs major mode for editing mail
-rbrito@dumont:~$
+rbrito@dumont:~&amp;#036;
 &lt;/code&gt;&lt;/pre&gt;
 
 	</content>

@@ -49,8 +49,6 @@ Working with CVS via Git
 
 
 <aside class="sidebar">
-
-
 <div><div class="calendar"><table class="month-calendar">
     <tr>
     <th class="month-calendar-arrow"><a href="../../archives/2013/09/" title="September">&larr;</a></th>
@@ -116,7 +114,6 @@ Working with CVS via Git
 </table>
 </div></div>
 
-
 <p><a href="../../about/">About Me</a></p>
 
 <p><a href="../../archives/">Archives</a></p>
@@ -127,8 +124,6 @@ Working with CVS via Git
 <div id="pagebody">
 
 <section id="content">
-
-
 <div class="toc">
 <ol>
 	<li class="L1"><a href="#index1h1">Initial steps that Work for Me (TM)</a>
@@ -142,18 +137,17 @@ Working with CVS via Git
 </ol>
 </div>
 
-
 <p>The easiest way of using git locally to commit to a CVS repository is to
 have <em>both</em> a git clone of the CVS repository <em>and</em> a CVS checkout of your
 repository.</p>
 
-<h1><a name="index1h1"></a>Initial steps that Work for Me (TM)</h1>
+<h1 id="initialstepsthatworkformetm"><a name="index1h1"></a>Initial steps that Work for Me (TM)</h1>
 
 <ol>
 <li><p>Create your git clone of the CVS repository:</p>
 
-<pre><code> git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
-     :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
+<pre><code>git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
+    :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
 </code></pre>
 
 <p>The command above will create your clone of the CVS repository in the
@@ -165,50 +159,47 @@ should add the option <code>-C /path/to/git/repository</code>.</p></li>
 <li><p>Create a checkout of the CVS repository for CVS work stuff (I'm checking
 out things under <code>/tmp</code>):</p>
 
-<pre><code> cvs -z3 -d:ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame checkout lame
+<pre><code>cvs -z3 -d:ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame checkout lame
 </code></pre>
 
 <p>This will create your CVS checkout on the directory <code>/tmp/lame</code>, assuming
 that you are working under <code>/tmp</code>, as I do.</p></li>
 </ol>
 
-
-<h1><a name="index2h1"></a>Doing real work</h1>
+<h1 id="doingrealwork"><a name="index2h1"></a>Doing real work</h1>
 
 <ol>
 <li><p>Go to your git clone (<code>/tmp/gitified</code>) and start hacking, committing, etc.</p></li>
 <li><p>When it is time to send your patches to the CVS repo, you have to:</p>
 
-<pre><code> export GIT_DIR=/tmp/gitified/.git
- cd /tmp/lame
- git cherry origin master | sed -n 's/^+ //p' | xargs -l1 git cvsexportcommit -c -p -v
+<pre><code>export GIT_DIR=/tmp/gitified/.git
+cd /tmp/lame
+git cherry origin master | sed -n 's/^+ //p' | xargs -l1 git cvsexportcommit -c -p -v
 </code></pre>
 
 <p>This will automatically check in all the commits that you have made in
 the previous step.</p></li>
 </ol>
 
-
-<h1><a name="index3h1"></a>Continuing your work afterwards</h1>
+<h1 id="continuingyourworkafterwards"><a name="index3h1"></a>Continuing your work afterwards</h1>
 
 <ol>
 <li>First, discard your commits in your git repository, so that you don't get
 further problems with <code>git cvsimport</code>.</li>
 <li><p>Update your git repository with the current contents of the CVS repo:</p>
 
-<pre><code> cd /tmp/gitified
- git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
-     :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
+<pre><code>cd /tmp/gitified
+git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
+    :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
 </code></pre></li>
 <li><p>Update your CVS repository with the current contents of the CVS repo too:</p>
 
-<pre><code> cd /tmp/lame
- cvs update
+<pre><code>cd /tmp/lame
+cvs update
 </code></pre></li>
 </ol>
 
-
-<h1><a name="index4h1"></a>Conclusion</h1>
+<h1 id="conclusion"><a name="index4h1"></a>Conclusion</h1>
 
 <p>Of course, I would prefer a simpler, leaner workflow. If you happen to have
 one, please let me know.</p>

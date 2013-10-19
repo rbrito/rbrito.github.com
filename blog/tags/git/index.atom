@@ -83,7 +83,6 @@ following:&lt;/p&gt;
 &lt;li&gt;M101J: MongoDB for Java Developers (10gen)&lt;/li&gt;
 &lt;/ul&gt;
 
-
 &lt;p&gt;I have to say that this have been a pleasant experience, with some of the
 courses being challenging, but not up to what an undergraduate course would
 be (and the fears of some people that such courses would threaten the
@@ -151,13 +150,13 @@ ones.&lt;/p&gt;
 have &lt;em&gt;both&lt;/em&gt; a git clone of the CVS repository &lt;em&gt;and&lt;/em&gt; a CVS checkout of your
 repository.&lt;/p&gt;
 
-&lt;h1&gt;Initial steps that Work for Me (TM)&lt;/h1&gt;
+&lt;h1 id=&quot;initialstepsthatworkformetm&quot;&gt;Initial steps that Work for Me (TM)&lt;/h1&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Create your git clone of the CVS repository:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
-     :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
+&lt;pre&gt;&lt;code&gt;git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
+    :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The command above will create your clone of the CVS repository in the
@@ -169,50 +168,47 @@ should add the option &lt;code&gt;-C /path/to/git/repository&lt;/code&gt;.&lt;/p
 &lt;li&gt;&lt;p&gt;Create a checkout of the CVS repository for CVS work stuff (I&#39;m checking
 out things under &lt;code&gt;/tmp&lt;/code&gt;):&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; cvs -z3 -d:ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame checkout lame
+&lt;pre&gt;&lt;code&gt;cvs -z3 -d:ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame checkout lame
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;This will create your CVS checkout on the directory &lt;code&gt;/tmp/lame&lt;/code&gt;, assuming
 that you are working under &lt;code&gt;/tmp&lt;/code&gt;, as I do.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-
-&lt;h1&gt;Doing real work&lt;/h1&gt;
+&lt;h1 id=&quot;doingrealwork&quot;&gt;Doing real work&lt;/h1&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Go to your git clone (&lt;code&gt;/tmp/gitified&lt;/code&gt;) and start hacking, committing, etc.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;When it is time to send your patches to the CVS repo, you have to:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; export GIT_DIR=/tmp/gitified/.git
- cd /tmp/lame
- git cherry origin master | sed -n &#39;s/^+ //p&#39; | xargs -l1 git cvsexportcommit -c -p -v
+&lt;pre&gt;&lt;code&gt;export GIT_DIR=/tmp/gitified/.git
+cd /tmp/lame
+git cherry origin master | sed -n &#39;s/^+ //p&#39; | xargs -l1 git cvsexportcommit -c -p -v
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;This will automatically check in all the commits that you have made in
 the previous step.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-
-&lt;h1&gt;Continuing your work afterwards&lt;/h1&gt;
+&lt;h1 id=&quot;continuingyourworkafterwards&quot;&gt;Continuing your work afterwards&lt;/h1&gt;
 
 &lt;ol&gt;
 &lt;li&gt;First, discard your commits in your git repository, so that you don&#39;t get
 further problems with &lt;code&gt;git cvsimport&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Update your git repository with the current contents of the CVS repo:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; cd /tmp/gitified
- git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
-     :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
+&lt;pre&gt;&lt;code&gt;cd /tmp/gitified
+git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
+    :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Update your CVS repository with the current contents of the CVS repo too:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; cd /tmp/lame
- cvs update
+&lt;pre&gt;&lt;code&gt;cd /tmp/lame
+cvs update
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-
-&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
 
 &lt;p&gt;Of course, I would prefer a simpler, leaner workflow. If you happen to have
 one, please let me know.&lt;/p&gt;
@@ -301,7 +297,6 @@ control system.&lt;/li&gt;
 by &lt;code&gt;git-repo&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Run &lt;code&gt;git cvsimport -v -a -A -k -m -d cvs-source-dir -C git-repo cvs-module&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 
 &lt;p&gt;That&#39;s it. It seems to perform a very good job of changing a very old system
 to something that is modern and with many features (and is distributed).&lt;/p&gt;

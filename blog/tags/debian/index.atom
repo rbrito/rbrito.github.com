@@ -119,7 +119,7 @@ SNA acceleration implemented as well as the standard UXA acceleration.&lt;/p&gt;
 &lt;p&gt;Well, I did not have any other tests to perform, but below are the results
 on my wife&#39;s laptop (a Core i5 2410M), when running &lt;a href=&quot;http://packages.debian.org/gtkperf&quot;&gt;gtkperf&lt;/a&gt;:&lt;/p&gt;
 
-&lt;h1&gt;With UXA&lt;/h1&gt;
+&lt;h1 id=&quot;withuxa&quot;&gt;With UXA&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code&gt;GtkPerf 0.40 - Starting testing: Mon Aug 12 20:33:20 2013
 
@@ -141,7 +141,7 @@ GtkDrawingArea - Pixbufs - time:  0.67
 Total time: 54.25
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1&gt;With SNA&lt;/h1&gt;
+&lt;h1 id=&quot;withsna&quot;&gt;With SNA&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code&gt;GtkPerf 0.40 - Starting testing: Mon Aug 12 20:36:58 2013
 
@@ -220,7 +220,7 @@ simplifications, many omissions or simply gross errors.  I would love to be
 informed of such facts so that I can fix them and not write code that is
 burdensome for others to maintain.&lt;/p&gt;
 
-&lt;h1&gt;Operators&lt;/h1&gt;
+&lt;h1 id=&quot;operators&quot;&gt;Operators&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Math operators: &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;, &lt;code&gt;%&lt;/code&gt;, &lt;code&gt;**&lt;/code&gt; (just like Python)&lt;/li&gt;
@@ -233,16 +233,14 @@ languages)&lt;/li&gt;
 if that variable is bound to &lt;code&gt;nil&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h1&gt;Numbers&lt;/h1&gt;
+&lt;h1 id=&quot;numbers&quot;&gt;Numbers&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;You can write number literals embedding an underscore (&lt;code&gt;_&lt;/code&gt;) for
 readability purposes.&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h1&gt;Basic I/O&lt;/h1&gt;
+&lt;h1 id=&quot;basicio&quot;&gt;Basic I/O&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Output: &lt;code&gt;print&lt;/code&gt; and &lt;code&gt;puts&lt;/code&gt;. Both print strings to stdout, but &lt;code&gt;puts&lt;/code&gt; also
@@ -252,8 +250,7 @@ appends a new line to the end.&lt;/li&gt;
 constructor. It throws an exception if it cannot convert the value.&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h1&gt;Strings&lt;/h1&gt;
+&lt;h1 id=&quot;strings&quot;&gt;Strings&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Strings have at least some methods: &lt;code&gt;.length&lt;/code&gt;, &lt;code&gt;.reverse&lt;/code&gt;, &lt;code&gt;.upcase&lt;/code&gt;,
@@ -273,21 +270,20 @@ expression (and its variant &lt;code&gt;.gsub!&lt;/code&gt; for inplace modifica
 argument.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h1 id=&quot;controlflow&quot;&gt;Control flow&lt;/h1&gt;
 
-&lt;h1&gt;Control flow&lt;/h1&gt;
-
-&lt;h2&gt;If&lt;/h2&gt;
+&lt;h2 id=&quot;if&quot;&gt;If&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The syntax of a &lt;code&gt;if&lt;/code&gt; is:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  if expression1
-    block1
-  elsif expression2
-    block2
-  else
-    block3
-  end
+&lt;pre&gt;&lt;code&gt;if expression1
+  block1
+elsif expression2
+  block2
+else
+  block3
+end
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;note that it ends with the word &lt;code&gt;end&lt;/code&gt;, there are no need for parentheses,
@@ -298,53 +294,50 @@ checks if the expression is false rather than true (as is the case of
 &lt;code&gt;if&lt;/code&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h2&gt;While&lt;/h2&gt;
+&lt;h2 id=&quot;while&quot;&gt;While&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The syntax of the &lt;code&gt;while&lt;/code&gt; is similar to other languages:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  while condition
-    block
-  end
+&lt;pre&gt;&lt;code&gt;while condition
+  block
+end
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;A variation of the &lt;code&gt;while&lt;/code&gt; is the &lt;code&gt;until&lt;/code&gt;, with the same syntax, except
 for the &lt;code&gt;until&lt;/code&gt; in place of the while, and that it iterates when the
 condition is false, instead of true.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h2&gt;For&lt;/h2&gt;
+&lt;h2 id=&quot;for&quot;&gt;For&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The simple case of iterating over a range of numbers is:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  for i in 1...10
-    block
-  end
+&lt;pre&gt;&lt;code&gt;for i in 1...10
+  block
+end
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt; Like ranges in Python, the 10 is not included (the variable &lt;code&gt;i&lt;/code&gt; iterates
- from 1 to 9).&lt;/p&gt;
+&lt;p&gt;Like ranges in Python, the 10 is not included (the variable &lt;code&gt;i&lt;/code&gt; iterates
+from 1 to 9).&lt;/p&gt;
 
-&lt;p&gt; For an &lt;em&gt;inclusive&lt;/em&gt; range, we use two dots (&lt;code&gt;1..10&lt;/code&gt;), instead of three
- dots (&lt;code&gt;1...10&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;For an &lt;em&gt;inclusive&lt;/em&gt; range, we use two dots (&lt;code&gt;1..10&lt;/code&gt;), instead of three
+dots (&lt;code&gt;1...10&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h2&gt;Loop&lt;/h2&gt;
+&lt;h2 id=&quot;loop&quot;&gt;Loop&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;To iterate a block, we can use the &lt;code&gt;loop&lt;/code&gt; keyword, as in:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  loop { block } # with braces
+&lt;pre&gt;&lt;code&gt;loop { block } # with braces
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;or as in&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  loop do # note the pair do/end in place of braces
-    block
-  end
+&lt;pre&gt;&lt;code&gt;loop do # note the pair do/end in place of braces
+  block
+end
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;It is useful to use &lt;code&gt;break&lt;/code&gt; when using loop to break out of the infinite
 iterations.&lt;/p&gt;&lt;/li&gt;
@@ -352,32 +345,31 @@ iterations.&lt;/p&gt;&lt;/li&gt;
 in C or C++).&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h1&gt;Arrays&lt;/h1&gt;
+&lt;h1 id=&quot;arrays&quot;&gt;Arrays&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The equivalent to Python&#39;s lists are arrays and they are declared in the
 same fashion:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  my_array = [1, 2, 3, 4, 5]
+&lt;pre&gt;&lt;code&gt;my_array = [1, 2, 3, 4, 5]
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Arrays in Ruby are 0-based.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Every array has an iterator called the &lt;code&gt;.each&lt;/code&gt; method. The basic syntax
 is:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  object.each { |item| block } # do something
+&lt;pre&gt;&lt;code&gt;object.each { |item| block } # do something
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;which can be written as:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  object.each do |item| block end
+&lt;pre&gt;&lt;code&gt;object.each do |item| block end
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;where the name between &lt;code&gt;| |&lt;/code&gt; is bound to (a copy of?) each element of
 &lt;code&gt;object&lt;/code&gt; in turn. The equivalent in Python would be:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  for item in object:
-      block
+&lt;pre&gt;&lt;code&gt;for item in object:
+    block
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Arrays can be sorted with the &lt;code&gt;.sort&lt;/code&gt; method (or its sibling &lt;code&gt;.sort!&lt;/code&gt;).
 When passing a parameter, it is useful to use the spaceship operator
@@ -385,8 +377,8 @@ When passing a parameter, it is useful to use the spaceship operator
 we do with Python&#39;s &lt;code&gt;key&lt;/code&gt; argument to the &lt;code&gt;sort&lt;/code&gt; method of a list).
 Example:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;   my_array.sort! {|a, b| a &amp;lt;=&amp;gt; b} # Ascending order
-   my_array.sort! {|a, b| b &amp;lt;=&amp;gt; a} # Descending order
+&lt;pre&gt;&lt;code&gt; my_array.sort! {|a, b| a &amp;lt;=&amp;gt; b} # Ascending order
+ my_array.sort! {|a, b| b &amp;lt;=&amp;gt; a} # Descending order
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The &lt;code&gt;.push&lt;/code&gt; method appends an element to an Array (similar to Python&#39;s
 &lt;code&gt;.append&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
@@ -395,51 +387,50 @@ Example:&lt;/p&gt;
 method.&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h1&gt;Hashes&lt;/h1&gt;
+&lt;h1 id=&quot;hashes&quot;&gt;Hashes&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;A literal hash is defined by the syntax:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  my_hash = {
-      &quot;key1&quot; =&amp;gt; &quot;abc&quot;,
-      &quot;key2&quot; =&amp;gt; 2,
-      &quot;key3&quot; =&amp;gt; false
-  }
+&lt;pre&gt;&lt;code&gt;my_hash = {
+    &quot;key1&quot; =&amp;gt; &quot;abc&quot;,
+    &quot;key2&quot; =&amp;gt; 2,
+    &quot;key3&quot; =&amp;gt; false
+}
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Quite similar to the version in Python:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  my_hash = {
-      &quot;key1&quot;: &quot;abc&quot;,
-      &quot;key2&quot;: 2,
-      &quot;key3&quot;: False
-  }
+&lt;pre&gt;&lt;code&gt;my_hash = {
+    &quot;key1&quot;: &quot;abc&quot;,
+    &quot;key2&quot;: 2,
+    &quot;key3&quot;: False
+}
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;In fact, in Ruby 1.9, you can write, instead:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  my_hash = {
-      key1: &quot;abc&quot;,
-      key2: 2,
-      key3: false
-  }
+&lt;pre&gt;&lt;code&gt;my_hash = {
+    key1: &quot;abc&quot;,
+    key2: 2,
+    key3: false
+}
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;which is very similar to Python or JSON.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The empty hash, OTOH, is defined by calling the constructor &lt;code&gt;.new&lt;/code&gt; of the
 class &lt;code&gt;Hash&lt;/code&gt;:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  my_hash = Hash.new
+&lt;pre&gt;&lt;code&gt;my_hash = Hash.new
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The syntax used by Python can also be used: &lt;code&gt;my_hash = {}&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Iterating over a hash is done the same way as done for an array, but the
 &lt;code&gt;.each&lt;/code&gt; method gives &lt;em&gt;both&lt;/em&gt; the key &lt;em&gt;and&lt;/em&gt; the value, as in:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  my_hash.each do |k, v|
-    puts &quot;#{k}: #{v}&quot;
-  end
+&lt;pre&gt;&lt;code&gt;my_hash.each do |k, v|
+  puts &quot;#{k}: #{v}&quot;
+end
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;To iterate only on keys, we use the method &lt;code&gt;.each_key&lt;/code&gt;. To iterate only on
 values, we use the method &lt;code&gt;.each_value&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -453,26 +444,25 @@ equivalent of Python&#39;s &lt;code&gt;defaultdict&lt;/code&gt; or &lt;code&gt;C
 &lt;li&gt;&lt;p&gt;You can select part of a hash by using the &lt;code&gt;.select&lt;/code&gt; method and giving it
 a block. For example:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  good_movies = movie_ratings.select{|k, v| v &amp;gt; 3}
+&lt;pre&gt;&lt;code&gt;good_movies = movie_ratings.select{|k, v| v &amp;gt; 3}
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h1&gt;Functions/methods&lt;/h1&gt;
+&lt;h1 id=&quot;functionsmethods&quot;&gt;Functions/methods&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Functions in Ruby are defined with the word &lt;code&gt;def&lt;/code&gt; (as in Python) and end
 with the word &lt;code&gt;end&lt;/code&gt;, as other composite constructs. Example:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  def square(n)
-    return n*n
-  end
+&lt;pre&gt;&lt;code&gt;def square(n)
+  return n*n
+end
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Parentheses are optional in Ruby, unless they create ambiguity. So, to
 call the function above, one can use any of the following:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  square(2)
-  square 2
+&lt;pre&gt;&lt;code&gt;square(2)
+square 2
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;A function can take a block as a parameter (and this is what &lt;code&gt;.each&lt;/code&gt; does,
 for instance).&lt;/p&gt;&lt;/li&gt;
@@ -486,8 +476,7 @@ return, where the value of the last executed expression is returned to the
 caller of the method.&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h1&gt;Symbols&lt;/h1&gt;
+&lt;h1 id=&quot;symbols&quot;&gt;Symbols&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Any instances of a given symbol share the same ID. This is due to the fact
@@ -498,8 +487,7 @@ is valid for a variable name.&lt;/li&gt;
 &lt;code&gt;.to_s&lt;/code&gt; and &lt;code&gt;.to_sym&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h1&gt;Comments&lt;/h1&gt;
+&lt;h1 id=&quot;comments&quot;&gt;Comments&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Single line comments use the hash symbol (&lt;code&gt;#&lt;/code&gt;).&lt;/li&gt;
@@ -507,13 +495,12 @@ is valid for a variable name.&lt;/li&gt;
 with &lt;code&gt;=begin&lt;/code&gt; and a line beginning with &lt;code&gt;=end&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h1&gt;Lambda functions&lt;/h1&gt;
+&lt;h1 id=&quot;lambdafunctions&quot;&gt;Lambda functions&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;A lambda function in Ruby is defined, as expected, as, for example:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  foo = lambda { |x| x.to_sym }
+&lt;pre&gt;&lt;code&gt;foo = lambda { |x| x.to_sym }
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The basic differences between a lambda and a proc is that:&lt;/p&gt;
 
@@ -524,12 +511,10 @@ seems to ignore extra parameter that it wasn&#39;t expecting).&lt;/li&gt;
 &lt;li&gt;When a lambda returns, the control goes back to the function that called
 the lambda, while when a proc returns, the control is returned &lt;em&gt;also&lt;/em&gt;
 from the function that called the proc.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h1&gt;Classes&lt;/h1&gt;
+&lt;h1 id=&quot;classes&quot;&gt;Classes&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&quot;Everything is an object in Ruby.&quot; (At least one exception are blocks).&lt;/li&gt;
@@ -542,9 +527,9 @@ the object and the type as argument (e.g., &lt;code&gt;foo.is_a? Integer&lt;/cod
 of that object.&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Classes in Ruby are created with the syntax&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  class ClassExample
-      # body
-  end
+&lt;pre&gt;&lt;code&gt;class ClassExample
+    # body
+end
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;(That is for a class that has is not derived from other regular classes).&lt;/p&gt;&lt;/li&gt;
@@ -553,7 +538,7 @@ created by calling the method &lt;code&gt;.new&lt;/code&gt; on the class name (a
 parameters as needed for the &lt;code&gt;initialize&lt;/code&gt; method).&lt;/li&gt;
 &lt;li&gt;Instance variables are named with 1 at sign (&lt;code&gt;@&lt;/code&gt;) as a prefix. Class
 variables are named with 2 at signs (&lt;code&gt;@@&lt;/code&gt;) as a prefix. Global variables
-are named with a dollar sign (&lt;code&gt;$&lt;/code&gt;) as a prefix.&lt;/li&gt;
+are named with a dollar sign (&lt;code&gt;&amp;#036;&lt;/code&gt;) as a prefix.&lt;/li&gt;
 &lt;li&gt;Class methods are declared inside a class prefixed with &lt;code&gt;self.&lt;/code&gt; and they
 are called with the class name suffixed with the name of the method. For
 example, for a class &lt;code&gt;MyClass&lt;/code&gt;, with a class method &lt;code&gt;class_method&lt;/code&gt;, we
@@ -582,8 +567,7 @@ as public, you use the keyword &lt;code&gt;public&lt;/code&gt;. To mark somethin
 use the keyword &lt;code&gt;private&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h1&gt;Modules&lt;/h1&gt;
+&lt;h1 id=&quot;modules&quot;&gt;Modules&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;You can import a module with the keyword &lt;code&gt;require&lt;/code&gt; (as in Perl) and the
@@ -607,8 +591,7 @@ methods): they can be simply named &lt;code&gt;self.foo&lt;/code&gt; to get a cl
 &#39;foo&#39;&lt;/code&gt; to load the module (in the file &lt;code&gt;foo&lt;/code&gt;?).&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h1&gt;Mixins&lt;/h1&gt;
+&lt;h1 id=&quot;mixins&quot;&gt;Mixins&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;A mixin is the use of a module to &quot;enrich&quot; a class, adding &quot;instance&quot;
@@ -622,8 +605,7 @@ current namespace for &lt;em&gt;instances&lt;/em&gt; of a class.&lt;/li&gt;
 current namespace as class methods/attributes.&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h1&gt;Conventions&lt;/h1&gt;
+&lt;h1 id=&quot;conventions&quot;&gt;Conventions&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Local variables are named in lower case, with parts separated by
@@ -635,13 +617,12 @@ have an exclamation mark (&lt;code&gt;!&lt;/code&gt;) at the end of their name.&
 &lt;li&gt;Code is indented by 2 spaces.&lt;/li&gt;
 &lt;li&gt;Like other languages, constants are written in all caps, with words
 separated by underscores. For example, &lt;code&gt;MAX_VALUE&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Global variables are prefixed with a dollar sign (e.g., &lt;code&gt;$Foo&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Global variables are prefixed with a dollar sign (e.g., &lt;code&gt;&amp;#036;Foo&lt;/code&gt;).&lt;/li&gt;
 &lt;li&gt;Classes are named in camel case (no initial lowercase).&lt;/li&gt;
 &lt;li&gt;The &quot;poetic mode&quot; in Ruby recommends one to omit the parentheses on
 function calls (whenever unambiguous) and, in essence, to write as little
 &quot;bureaucracy&quot; (like the explicit &lt;code&gt;return&lt;/code&gt; keyword in methods).&lt;/li&gt;
 &lt;/ul&gt;
-
 
 	</content>
 
@@ -713,7 +694,6 @@ following:&lt;/p&gt;
 &lt;li&gt;M101J: MongoDB for Java Developers (10gen)&lt;/li&gt;
 &lt;/ul&gt;
 
-
 &lt;p&gt;I have to say that this have been a pleasant experience, with some of the
 courses being challenging, but not up to what an undergraduate course would
 be (and the fears of some people that such courses would threaten the
@@ -781,13 +761,13 @@ ones.&lt;/p&gt;
 have &lt;em&gt;both&lt;/em&gt; a git clone of the CVS repository &lt;em&gt;and&lt;/em&gt; a CVS checkout of your
 repository.&lt;/p&gt;
 
-&lt;h1&gt;Initial steps that Work for Me (TM)&lt;/h1&gt;
+&lt;h1 id=&quot;initialstepsthatworkformetm&quot;&gt;Initial steps that Work for Me (TM)&lt;/h1&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Create your git clone of the CVS repository:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
-     :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
+&lt;pre&gt;&lt;code&gt;git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
+    :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The command above will create your clone of the CVS repository in the
@@ -799,50 +779,47 @@ should add the option &lt;code&gt;-C /path/to/git/repository&lt;/code&gt;.&lt;/p
 &lt;li&gt;&lt;p&gt;Create a checkout of the CVS repository for CVS work stuff (I&#39;m checking
 out things under &lt;code&gt;/tmp&lt;/code&gt;):&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; cvs -z3 -d:ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame checkout lame
+&lt;pre&gt;&lt;code&gt;cvs -z3 -d:ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame checkout lame
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;This will create your CVS checkout on the directory &lt;code&gt;/tmp/lame&lt;/code&gt;, assuming
 that you are working under &lt;code&gt;/tmp&lt;/code&gt;, as I do.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-
-&lt;h1&gt;Doing real work&lt;/h1&gt;
+&lt;h1 id=&quot;doingrealwork&quot;&gt;Doing real work&lt;/h1&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Go to your git clone (&lt;code&gt;/tmp/gitified&lt;/code&gt;) and start hacking, committing, etc.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;When it is time to send your patches to the CVS repo, you have to:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; export GIT_DIR=/tmp/gitified/.git
- cd /tmp/lame
- git cherry origin master | sed -n &#39;s/^+ //p&#39; | xargs -l1 git cvsexportcommit -c -p -v
+&lt;pre&gt;&lt;code&gt;export GIT_DIR=/tmp/gitified/.git
+cd /tmp/lame
+git cherry origin master | sed -n &#39;s/^+ //p&#39; | xargs -l1 git cvsexportcommit -c -p -v
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;This will automatically check in all the commits that you have made in
 the previous step.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-
-&lt;h1&gt;Continuing your work afterwards&lt;/h1&gt;
+&lt;h1 id=&quot;continuingyourworkafterwards&quot;&gt;Continuing your work afterwards&lt;/h1&gt;
 
 &lt;ol&gt;
 &lt;li&gt;First, discard your commits in your git repository, so that you don&#39;t get
 further problems with &lt;code&gt;git cvsimport&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Update your git repository with the current contents of the CVS repo:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; cd /tmp/gitified
- git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
-     :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
+&lt;pre&gt;&lt;code&gt;cd /tmp/gitified
+git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
+    :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Update your CVS repository with the current contents of the CVS repo too:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; cd /tmp/lame
- cvs update
+&lt;pre&gt;&lt;code&gt;cd /tmp/lame
+cvs update
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-
-&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
 
 &lt;p&gt;Of course, I would prefer a simpler, leaner workflow. If you happen to have
 one, please let me know.&lt;/p&gt;
@@ -951,7 +928,7 @@ machines on datacenters.&lt;/p&gt;
 	<content type="html" xml:lang="en">
 	&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
 
-&lt;h1&gt;Chrony&lt;/h1&gt;
+&lt;h1 id=&quot;chrony&quot;&gt;Chrony&lt;/h1&gt;
 
 &lt;p&gt;One of those was to get chrony is a slightly better shape, by using, at
 least, a patch system (indeed, I &quot;modernized&quot; its packaging with the format
@@ -966,7 +943,7 @@ high-profile distribution, namely Fedora, that
 &lt;a href=&quot;http://fedoraproject.org/wiki/Features/ChronyDefaultNTP&quot;&gt;switched to chrony as its default NTP software&lt;/a&gt;. We can certainly take a
 look at what they are doing and join forces here.&lt;/p&gt;
 
-&lt;h1&gt;MongoDB&lt;/h1&gt;
+&lt;h1 id=&quot;mongodb&quot;&gt;MongoDB&lt;/h1&gt;
 
 &lt;p&gt;Another package where I spent some time was with &lt;a href=&quot;http://packages.qa.debian.org/mongodb&quot;&gt;mongodb&lt;/a&gt;:
 MongoDB is a tricky package that is only built for 2 arches: amd64 and
@@ -1001,7 +978,7 @@ principle.&lt;/p&gt;
 series that there is no hope of it applying.  It would be super nice to have
 MongoDB working on kFreeBSD and on HURD also, though.&lt;/p&gt;
 
-&lt;h1&gt;nocache&lt;/h1&gt;
+&lt;h1 id=&quot;nocache&quot;&gt;nocache&lt;/h1&gt;
 
 &lt;p&gt;There is a very nice command line program called &lt;code&gt;nocache&lt;/code&gt; that was packaged
 by Dmitry Smirnov (and just approved by the FTP masters!) whose packaging I
@@ -1018,7 +995,7 @@ immediately after that.&lt;/p&gt;
 &lt;code&gt;posix_fadvise&lt;/code&gt;&#39;s flag &lt;code&gt;POSIX_FADV_DONTNEED&lt;/code&gt; for the files that will be
 touched.&lt;/p&gt;
 
-&lt;h1&gt;Post note&lt;/h1&gt;
+&lt;h1 id=&quot;postnote&quot;&gt;Post note&lt;/h1&gt;
 
 &lt;p&gt;Oh, just one aside: for the readers of Debian Planet and other aggregation
 services which are not Debian Developers/Maintainers, I contributed to these
@@ -1262,7 +1239,6 @@ etc.  I investigate each point here:&lt;/p&gt;
 &lt;li&gt;Competitive ads and services: No violation here.&lt;/li&gt;
 &lt;li&gt;Google advertising cookies: No violation here.&lt;/li&gt;
 &lt;/ul&gt;
-
 
 &lt;p&gt;To cut a long story short, I RTFM and did everything correctly. So, dear
 lazyweb, what would my options be to fund a tiny bit of my software

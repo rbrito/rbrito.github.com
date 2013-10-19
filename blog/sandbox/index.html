@@ -47,8 +47,6 @@ sandbox
 
 
 <aside class="sidebar">
-
-
 <div><div class="calendar"><table class="month-calendar">
     <tr>
     <th class="month-calendar-arrow"><a href="../archives/2013/09/" title="September">&larr;</a></th>
@@ -114,7 +112,6 @@ sandbox
 </table>
 </div></div>
 
-
 <p><a href="../about/">About Me</a></p>
 
 <p><a href="../archives/">Archives</a></p>
@@ -133,19 +130,23 @@ sandbox
 
 <p>Here's another one with <em>emphasised</em> text.</p>
 
-<h1>Header</h1>
+<h1 id="header">Header</h1>
 
-<h2>Subheader</h2>
+<h2 id="subheader">Subheader</h2>
 
-<blockquote><p>This is a blockquote.</p>
+<blockquote>
+  <p>This is a blockquote.</p>
+  
+  <p>This is the first level of quoting.</p>
+  
+  <blockquote>
+    <p>This is nested blockquote.</p>
+  </blockquote>
+  
+  <p>Back to the first level.</p>
+</blockquote>
 
-<p>This is the first level of quoting.</p>
-
-<blockquote><p>This is nested blockquote.</p></blockquote>
-
-<p>Back to the first level.</p></blockquote>
-
-<p>Numbered list</p>
+<p>Numbered list </p>
 
 <ol>
 <li>First item.</li>
@@ -153,14 +154,12 @@ sandbox
 <li>And another..</li>
 </ol>
 
-
 <p>Bulleted list</p>
 
 <ul>
 <li><em>item</em></li>
 <li>item</li>
 </ul>
-
 
 <p><a href="../ikiwiki/wikilink/">WikiLink</a></p>
 

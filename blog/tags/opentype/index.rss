@@ -80,9 +80,9 @@ expect to fix those in two or three days.&lt;/p&gt;
 
 &lt;p&gt;(This should just be a matter of including something like&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  &amp;lt;edit name=&quot;embeddedbitmap&quot; mode=&quot;assign&quot;&amp;gt;
-      &amp;lt;bool&amp;gt;true&amp;lt;/bool&amp;gt;
-  &amp;lt;/edit&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;edit name=&quot;embeddedbitmap&quot; mode=&quot;assign&quot;&amp;gt;
+    &amp;lt;bool&amp;gt;true&amp;lt;/bool&amp;gt;
+&amp;lt;/edit&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;in the configuration that I ship with the fonts).&lt;/p&gt;&lt;/li&gt;
@@ -116,9 +116,9 @@ can substitute Times/Times New Roman. It works well both with &quot;regular&quot
 latex/pdflatex and with XeTeX (and, quite probably, with LuaTeX). It has
 quite a lot of OpenType features:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  rbrito:~$ otfinfo -f /usr/share/fonts/truetype/linux-libertine/LinLibertine_Re.ttf | wc -l
-  25
-  rbrito:~$
+&lt;pre&gt;&lt;code&gt;rbrito:~&amp;#036; otfinfo -f /usr/share/fonts/truetype/linux-libertine/LinLibertine_Re.ttf | wc -l
+25
+rbrito:~&amp;#036;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;OK, I can&#39;t be impartial with this font. It is beautiful. It is a pity
@@ -137,7 +137,6 @@ Vietnamese glyphs made available by Hàn Thế Thành. Heuristica is a family
 that features regular and italic shapes, with both being present also in
 bold weight.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 
 &lt;p&gt;Well, that&#39;s it for now. Stay tuned for more to come.&lt;/p&gt;
 </description>

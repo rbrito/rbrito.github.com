@@ -51,8 +51,6 @@
 
 
 <aside class="sidebar">
-
-
 <div><div class="calendar"><table class="month-calendar">
     <tr>
     <th class="month-calendar-arrow"><a href="../06/" title="June">&larr;</a></th>
@@ -120,15 +118,12 @@
 </table>
 </div></div>
 
-
 </aside>
 
 
 <div id="pagebody">
 
 <section id="content">
-
-
 <article class="inlinepage">
 
 <section class="inlineheader">
@@ -173,7 +168,6 @@ following:</p>
 <li>M102: MongoDB for DBAs (10gen)</li>
 <li>M101J: MongoDB for Java Developers (10gen)</li>
 </ul>
-
 
 <p>I have to say that this have been a pleasant experience, with some of the
 courses being challenging, but not up to what an undergraduate course would
@@ -262,7 +256,7 @@ simplifications, many omissions or simply gross errors.  I would love to be
 informed of such facts so that I can fix them and not write code that is
 burdensome for others to maintain.</p>
 
-<h1>Operators</h1>
+<h1 id="operators">Operators</h1>
 
 <ul>
 <li>Math operators: <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code>, <code>**</code> (just like Python)</li>
@@ -275,16 +269,14 @@ languages)</li>
 if that variable is bound to <code>nil</code>.</li>
 </ul>
 
-
-<h1>Numbers</h1>
+<h1 id="numbers">Numbers</h1>
 
 <ul>
 <li>You can write number literals embedding an underscore (<code>_</code>) for
 readability purposes.</li>
 </ul>
 
-
-<h1>Basic I/O</h1>
+<h1 id="basicio">Basic I/O</h1>
 
 <ul>
 <li>Output: <code>print</code> and <code>puts</code>. Both print strings to stdout, but <code>puts</code> also
@@ -294,8 +286,7 @@ appends a new line to the end.</li>
 constructor. It throws an exception if it cannot convert the value.</li>
 </ul>
 
-
-<h1>Strings</h1>
+<h1 id="strings">Strings</h1>
 
 <ul>
 <li>Strings have at least some methods: <code>.length</code>, <code>.reverse</code>, <code>.upcase</code>,
@@ -315,21 +306,20 @@ expression (and its variant <code>.gsub!</code> for inplace modification), and
 argument.</li>
 </ul>
 
+<h1 id="controlflow">Control flow</h1>
 
-<h1>Control flow</h1>
-
-<h2>If</h2>
+<h2 id="if">If</h2>
 
 <ul>
 <li><p>The syntax of a <code>if</code> is:</p>
 
-<pre><code>  if expression1
-    block1
-  elsif expression2
-    block2
-  else
-    block3
-  end
+<pre><code>if expression1
+  block1
+elsif expression2
+  block2
+else
+  block3
+end
 </code></pre>
 
 <p>note that it ends with the word <code>end</code>, there are no need for parentheses,
@@ -340,53 +330,50 @@ checks if the expression is false rather than true (as is the case of
 <code>if</code>).</li>
 </ul>
 
-
-<h2>While</h2>
+<h2 id="while">While</h2>
 
 <ul>
 <li><p>The syntax of the <code>while</code> is similar to other languages:</p>
 
-<pre><code>  while condition
-    block
-  end
+<pre><code>while condition
+  block
+end
 </code></pre></li>
 <li><p>A variation of the <code>while</code> is the <code>until</code>, with the same syntax, except
 for the <code>until</code> in place of the while, and that it iterates when the
 condition is false, instead of true.</p></li>
 </ul>
 
-
-<h2>For</h2>
+<h2 id="for">For</h2>
 
 <ul>
 <li><p>The simple case of iterating over a range of numbers is:</p>
 
-<pre><code>  for i in 1...10
-    block
-  end
+<pre><code>for i in 1...10
+  block
+end
 </code></pre>
 
-<p> Like ranges in Python, the 10 is not included (the variable <code>i</code> iterates
- from 1 to 9).</p>
+<p>Like ranges in Python, the 10 is not included (the variable <code>i</code> iterates
+from 1 to 9).</p>
 
-<p> For an <em>inclusive</em> range, we use two dots (<code>1..10</code>), instead of three
- dots (<code>1...10</code>).</p></li>
+<p>For an <em>inclusive</em> range, we use two dots (<code>1..10</code>), instead of three
+dots (<code>1...10</code>).</p></li>
 </ul>
 
-
-<h2>Loop</h2>
+<h2 id="loop">Loop</h2>
 
 <ul>
 <li><p>To iterate a block, we can use the <code>loop</code> keyword, as in:</p>
 
-<pre><code>  loop { block } # with braces
+<pre><code>loop { block } # with braces
 </code></pre>
 
 <p>or as in</p>
 
-<pre><code>  loop do # note the pair do/end in place of braces
-    block
-  end
+<pre><code>loop do # note the pair do/end in place of braces
+  block
+end
 </code></pre></li>
 <li><p>It is useful to use <code>break</code> when using loop to break out of the infinite
 iterations.</p></li>
@@ -394,32 +381,31 @@ iterations.</p></li>
 in C or C++).</li>
 </ul>
 
-
-<h1>Arrays</h1>
+<h1 id="arrays">Arrays</h1>
 
 <ul>
 <li><p>The equivalent to Python's lists are arrays and they are declared in the
 same fashion:</p>
 
-<pre><code>  my_array = [1, 2, 3, 4, 5]
+<pre><code>my_array = [1, 2, 3, 4, 5]
 </code></pre></li>
 <li><p>Arrays in Ruby are 0-based.</p></li>
 <li><p>Every array has an iterator called the <code>.each</code> method. The basic syntax
 is:</p>
 
-<pre><code>  object.each { |item| block } # do something
+<pre><code>object.each { |item| block } # do something
 </code></pre>
 
 <p>which can be written as:</p>
 
-<pre><code>  object.each do |item| block end
+<pre><code>object.each do |item| block end
 </code></pre>
 
 <p>where the name between <code>| |</code> is bound to (a copy of?) each element of
 <code>object</code> in turn. The equivalent in Python would be:</p>
 
-<pre><code>  for item in object:
-      block
+<pre><code>for item in object:
+    block
 </code></pre></li>
 <li><p>Arrays can be sorted with the <code>.sort</code> method (or its sibling <code>.sort!</code>).
 When passing a parameter, it is useful to use the spaceship operator
@@ -427,8 +413,8 @@ When passing a parameter, it is useful to use the spaceship operator
 we do with Python's <code>key</code> argument to the <code>sort</code> method of a list).
 Example:</p>
 
-<pre><code>   my_array.sort! {|a, b| a &lt;=&gt; b} # Ascending order
-   my_array.sort! {|a, b| b &lt;=&gt; a} # Descending order
+<pre><code> my_array.sort! {|a, b| a &lt;=&gt; b} # Ascending order
+ my_array.sort! {|a, b| b &lt;=&gt; a} # Descending order
 </code></pre></li>
 <li><p>The <code>.push</code> method appends an element to an Array (similar to Python's
 <code>.append</code>).</p></li>
@@ -437,51 +423,50 @@ Example:</p>
 method.</li>
 </ul>
 
-
-<h1>Hashes</h1>
+<h1 id="hashes">Hashes</h1>
 
 <ul>
 <li><p>A literal hash is defined by the syntax:</p>
 
-<pre><code>  my_hash = {
-      "key1" =&gt; "abc",
-      "key2" =&gt; 2,
-      "key3" =&gt; false
-  }
+<pre><code>my_hash = {
+    "key1" =&gt; "abc",
+    "key2" =&gt; 2,
+    "key3" =&gt; false
+}
 </code></pre>
 
 <p>Quite similar to the version in Python:</p>
 
-<pre><code>  my_hash = {
-      "key1": "abc",
-      "key2": 2,
-      "key3": False
-  }
+<pre><code>my_hash = {
+    "key1": "abc",
+    "key2": 2,
+    "key3": False
+}
 </code></pre>
 
 <p>In fact, in Ruby 1.9, you can write, instead:</p>
 
-<pre><code>  my_hash = {
-      key1: "abc",
-      key2: 2,
-      key3: false
-  }
+<pre><code>my_hash = {
+    key1: "abc",
+    key2: 2,
+    key3: false
+}
 </code></pre>
 
 <p>which is very similar to Python or JSON.</p></li>
 <li><p>The empty hash, OTOH, is defined by calling the constructor <code>.new</code> of the
 class <code>Hash</code>:</p>
 
-<pre><code>  my_hash = Hash.new
+<pre><code>my_hash = Hash.new
 </code></pre>
 
 <p>The syntax used by Python can also be used: <code>my_hash = {}</code></p></li>
 <li><p>Iterating over a hash is done the same way as done for an array, but the
 <code>.each</code> method gives <em>both</em> the key <em>and</em> the value, as in:</p>
 
-<pre><code>  my_hash.each do |k, v|
-    puts "#{k}: #{v}"
-  end
+<pre><code>my_hash.each do |k, v|
+  puts "#{k}: #{v}"
+end
 </code></pre></li>
 <li><p>To iterate only on keys, we use the method <code>.each_key</code>. To iterate only on
 values, we use the method <code>.each_value</code>.</p></li>
@@ -495,26 +480,25 @@ equivalent of Python's <code>defaultdict</code> or <code>Counter</code>.</li>
 <li><p>You can select part of a hash by using the <code>.select</code> method and giving it
 a block. For example:</p>
 
-<pre><code>  good_movies = movie_ratings.select{|k, v| v &gt; 3}
+<pre><code>good_movies = movie_ratings.select{|k, v| v &gt; 3}
 </code></pre></li>
 </ul>
 
-
-<h1>Functions/methods</h1>
+<h1 id="functionsmethods">Functions/methods</h1>
 
 <ul>
 <li><p>Functions in Ruby are defined with the word <code>def</code> (as in Python) and end
 with the word <code>end</code>, as other composite constructs. Example:</p>
 
-<pre><code>  def square(n)
-    return n*n
-  end
+<pre><code>def square(n)
+  return n*n
+end
 </code></pre></li>
 <li><p>Parentheses are optional in Ruby, unless they create ambiguity. So, to
 call the function above, one can use any of the following:</p>
 
-<pre><code>  square(2)
-  square 2
+<pre><code>square(2)
+square 2
 </code></pre></li>
 <li><p>A function can take a block as a parameter (and this is what <code>.each</code> does,
 for instance).</p></li>
@@ -528,8 +512,7 @@ return, where the value of the last executed expression is returned to the
 caller of the method.</li>
 </ul>
 
-
-<h1>Symbols</h1>
+<h1 id="symbols">Symbols</h1>
 
 <ul>
 <li>Any instances of a given symbol share the same ID. This is due to the fact
@@ -540,8 +523,7 @@ is valid for a variable name.</li>
 <code>.to_s</code> and <code>.to_sym</code>.</li>
 </ul>
 
-
-<h1>Comments</h1>
+<h1 id="comments">Comments</h1>
 
 <ul>
 <li>Single line comments use the hash symbol (<code>#</code>).</li>
@@ -549,13 +531,12 @@ is valid for a variable name.</li>
 with <code>=begin</code> and a line beginning with <code>=end</code>.</li>
 </ul>
 
-
-<h1>Lambda functions</h1>
+<h1 id="lambdafunctions">Lambda functions</h1>
 
 <ul>
 <li><p>A lambda function in Ruby is defined, as expected, as, for example:</p>
 
-<pre><code>  foo = lambda { |x| x.to_sym }
+<pre><code>foo = lambda { |x| x.to_sym }
 </code></pre></li>
 <li><p>The basic differences between a lambda and a proc is that:</p>
 
@@ -566,12 +547,10 @@ seems to ignore extra parameter that it wasn't expecting).</li>
 <li>When a lambda returns, the control goes back to the function that called
 the lambda, while when a proc returns, the control is returned <em>also</em>
 from the function that called the proc.</li>
-</ul>
-</li>
+</ul></li>
 </ul>
 
-
-<h1>Classes</h1>
+<h1 id="classes">Classes</h1>
 
 <ul>
 <li>"Everything is an object in Ruby." (At least one exception are blocks).</li>
@@ -584,9 +563,9 @@ the object and the type as argument (e.g., <code>foo.is_a? Integer</code>)</li>
 of that object.</li>
 <li><p>Classes in Ruby are created with the syntax</p>
 
-<pre><code>  class ClassExample
-      # body
-  end
+<pre><code>class ClassExample
+    # body
+end
 </code></pre>
 
 <p>(That is for a class that has is not derived from other regular classes).</p></li>
@@ -595,7 +574,7 @@ created by calling the method <code>.new</code> on the class name (and passing
 parameters as needed for the <code>initialize</code> method).</li>
 <li>Instance variables are named with 1 at sign (<code>@</code>) as a prefix. Class
 variables are named with 2 at signs (<code>@@</code>) as a prefix. Global variables
-are named with a dollar sign (<code>$</code>) as a prefix.</li>
+are named with a dollar sign (<code>&#036;</code>) as a prefix.</li>
 <li>Class methods are declared inside a class prefixed with <code>self.</code> and they
 are called with the class name suffixed with the name of the method. For
 example, for a class <code>MyClass</code>, with a class method <code>class_method</code>, we
@@ -624,8 +603,7 @@ as public, you use the keyword <code>public</code>. To mark something as private
 use the keyword <code>private</code>.</li>
 </ul>
 
-
-<h1>Modules</h1>
+<h1 id="modules">Modules</h1>
 
 <ul>
 <li>You can import a module with the keyword <code>require</code> (as in Perl) and the
@@ -649,8 +627,7 @@ methods): they can be simply named <code>self.foo</code> to get a class method c
 'foo'</code> to load the module (in the file <code>foo</code>?).</li>
 </ul>
 
-
-<h1>Mixins</h1>
+<h1 id="mixins">Mixins</h1>
 
 <ul>
 <li><p>A mixin is the use of a module to "enrich" a class, adding "instance"
@@ -664,8 +641,7 @@ current namespace for <em>instances</em> of a class.</li>
 current namespace as class methods/attributes.</li>
 </ul>
 
-
-<h1>Conventions</h1>
+<h1 id="conventions">Conventions</h1>
 
 <ul>
 <li>Local variables are named in lower case, with parts separated by
@@ -677,13 +653,12 @@ have an exclamation mark (<code>!</code>) at the end of their name.</li>
 <li>Code is indented by 2 spaces.</li>
 <li>Like other languages, constants are written in all caps, with words
 separated by underscores. For example, <code>MAX_VALUE</code>.</li>
-<li>Global variables are prefixed with a dollar sign (e.g., <code>$Foo</code>).</li>
+<li>Global variables are prefixed with a dollar sign (e.g., <code>&#036;Foo</code>).</li>
 <li>Classes are named in camel case (no initial lowercase).</li>
 <li>The "poetic mode" in Ruby recommends one to omit the parentheses on
 function calls (whenever unambiguous) and, in essence, to write as little
 "bureaucracy" (like the explicit <code>return</code> keyword in methods).</li>
 </ul>
-
 
 </section>
 
@@ -717,9 +692,6 @@ Tags:
 </footer>
 
 </article>
-
-
-
 
 
 </section>

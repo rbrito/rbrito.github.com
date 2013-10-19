@@ -74,7 +74,6 @@ to find (and has the advantage of being fast with filesystems that don&#39;t
 cope well with many entries in one directory).&lt;/li&gt;
 &lt;/ul&gt;
 
-
 &lt;p&gt;The transition wasn&#39;t painless from &lt;a href=&quot;http://packages.debian.org/apt%2Dmove&quot;&gt;apt-move&lt;/a&gt;, since apt-move
 moves the files, but renames them in a way that they don&#39;t keep epochs in
 their names, which makes &lt;code&gt;approx-import&lt;/code&gt; moan about the packages.&lt;/p&gt;
@@ -82,7 +81,7 @@ their names, which makes &lt;code&gt;approx-import&lt;/code&gt; moan about the p
 &lt;p&gt;For places where I am too lazy to import the packages, I just filled the
 cache redownloading the packages with something approximately like this:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  apt-get -d --reinstall install $(dpkg -l | grep &quot;^ii&quot; | cut -d &quot; &quot; -f 3)
+&lt;pre&gt;&lt;code&gt;  apt-get -d --reinstall install &amp;#036;(dpkg -l | grep &quot;^ii&quot; | cut -d &quot; &quot; -f 3)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Well, I hope that this experience happens to be useful for other people, so

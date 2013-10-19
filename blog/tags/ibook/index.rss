@@ -50,7 +50,7 @@ many places (outdated, incorrect, etc.).&lt;/p&gt;
 &lt;p&gt;Some of what I say is platform agnostic, though, and may be of interest to
 users of GRUB in general.&lt;/p&gt;
 
-&lt;h1&gt;Basics using GRUB2 with PowerPC&lt;/h1&gt;
+&lt;h1 id=&quot;basicsusinggrub2withpowerpc&quot;&gt;Basics using GRUB2 with PowerPC&lt;/h1&gt;
 
 &lt;p&gt;First of all, it is important to understand (at least superficially) how
 botting on a Mac works.&lt;/p&gt;
@@ -74,7 +74,7 @@ when you turn it on. At that moment, you have to press (simulaneously) Cmd +
 Option + O + F. (Note: the Cmd key is the key that has an Apple drawn on it,
 usually on the side of the space bar).&lt;/p&gt;
 
-&lt;h1&gt;Limitations of Open Firmware&lt;/h1&gt;
+&lt;h1 id=&quot;limitationsofopenfirmware&quot;&gt;Limitations of Open Firmware&lt;/h1&gt;
 
 &lt;p&gt;Differently from usual BIOSes of x86 computers, Open Firmware &lt;em&gt;can&lt;/em&gt; read the
 contents of a partition in your HD (or other devices), as long as it is
@@ -115,7 +115,7 @@ with yaboot the command is called &lt;code&gt;ybin&lt;/code&gt; (which, essentia
 putting &lt;code&gt;yaboot.conf&lt;/code&gt; in the bootstrap/HFS partition and blesses the
 &lt;code&gt;yaboot&lt;/code&gt; binary).&lt;/p&gt;
 
-&lt;h1&gt;Going to GRUB2&lt;/h1&gt;
+&lt;h1 id=&quot;goingtogrub2&quot;&gt;Going to GRUB2&lt;/h1&gt;
 
 &lt;p&gt;One of the characteristics of yaboot (which is left as an exercise to the
 reader to determine if it is a drawback or not) is exactly the way that
@@ -146,7 +146,7 @@ for disk partitioning software to create partitions slighly larger than
 much more than those 800KB. But how do you get that binary, in the first
 place? And how do you fit that in the HFS partition?&lt;/p&gt;
 
-&lt;h2&gt;Creating the GRUB2 binary&lt;/h2&gt;
+&lt;h2 id=&quot;creatingthegrub2binary&quot;&gt;Creating the GRUB2 binary&lt;/h2&gt;
 
 &lt;p&gt;To answer the first question, you have to construct it from your
 &lt;code&gt;grub-ieee1275&lt;/code&gt; package (I&#39;m assuming here that you are using Debian or
@@ -174,7 +174,7 @@ plan).&lt;/p&gt;
 you want. This already hints you to the way we can fit it in the HFS
 partition, and it is always the same story: just trim the fat.&lt;/p&gt;
 
-&lt;h2&gt;Creating the configuration file&lt;/h2&gt;
+&lt;h2 id=&quot;creatingtheconfigurationfile&quot;&gt;Creating the configuration file&lt;/h2&gt;
 
 &lt;p&gt;You will also have to have GRUB2 configuration&#39;s file (or you will have to
 play with way more commands than you&#39;d want to). An important distinction
@@ -190,7 +190,6 @@ that it is &lt;code&gt;/dev/hda7&lt;/code&gt; for our discussion purposes), usua
 your kernels and initial ramdisks.&lt;/li&gt;
 &lt;li&gt;other partitions.&lt;/li&gt;
 &lt;/ul&gt;
-
 
 &lt;p&gt;With this in mind, you can With Let&#39;s say that this last one, in Linux
 parlance, is &lt;code&gt;/dev/hda3&lt;/code&gt; (as is the case of this author), and optionally a
@@ -237,8 +236,7 @@ As an example, &lt;code&gt;(hd,apple2)/boot/vmlinux&lt;/code&gt; if fully qualif
 purpose, while &lt;code&gt;/boot/vmlinux&lt;/code&gt; is not.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;h2&gt;Putting it all together&lt;/h2&gt;
+&lt;h2 id=&quot;puttingitalltogether&quot;&gt;Putting it all together&lt;/h2&gt;
 
 &lt;p&gt;The next step is to just copy the files &lt;code&gt;grub.img&lt;/code&gt; and &lt;code&gt;grub.cfg&lt;/code&gt; to the
 special HFS partition. You can do that using &lt;code&gt;hmount&lt;/code&gt;, &lt;code&gt;hcopy&lt;/code&gt;, and
@@ -254,7 +252,7 @@ partition.&lt;/p&gt;
 yours, appropriately. You will then see the common (familiar?) GRUB prompt
 and, from there, everything else that you know will (hopefully) work.&lt;/p&gt;
 
-&lt;h1&gt;The list of modules that &quot;Works for Me(TM)&quot;&lt;/h1&gt;
+&lt;h1 id=&quot;thelistofmodulesthatworksformetm&quot;&gt;The list of modules that &quot;Works for Me(TM)&quot;&lt;/h1&gt;
 
 &lt;p&gt;As I mentioned above, I use a subset of all modules that come with
 &lt;code&gt;grub-ieee1275&lt;/code&gt; to create my &lt;code&gt;grub.img&lt;/code&gt; binary. Here is the list of modules
@@ -276,7 +274,7 @@ date.mod          gfxterm.mod   ls.mod           read.mod        suspend.mod
 &lt;p&gt;Just for the record, my &lt;code&gt;grub.img&lt;/code&gt; file has 624KB, and that can certainly be
 shrunk.&lt;/p&gt;
 
-&lt;h1&gt;The command line that &quot;Works for Me(TM)&quot; to create the image&lt;/h1&gt;
+&lt;h1 id=&quot;thecommandlinethatworksformetmtocreatetheimage&quot;&gt;The command line that &quot;Works for Me(TM)&quot; to create the image&lt;/h1&gt;
 
 &lt;p&gt;Actually, I lied when I told you that I used the lines above to create my
 &lt;code&gt;grub.img&lt;/code&gt; file, because I&#39;m lazy and I don&#39;t want to type the &lt;code&gt;.img&lt;/code&gt;
@@ -302,7 +300,7 @@ your system&#39;s NVRAM) alone.&lt;/p&gt;
 &lt;p&gt;Here is what I am using right now:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;search --no-floppy --fs-uuid --set=root 35d26869-f7c9-4852-a9b8-100314560c34
-set prefix=($root)/boot/grub
+set prefix=(&amp;#036;root)/boot/grub
 configfile /boot/grub/grub.cfg
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -365,7 +363,6 @@ also don&#39;t have an idea of how OpenFirmware knows that it is
 supposed to load yaboot during the boot;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;code&gt;mkisofs -hfs -map &amp;lt;file\&amp;gt; -part -hfs-bless &amp;lt;folder\&amp;gt; -r -o &amp;lt;isoimage.iso\&amp;gt; &amp;lt;root-of-cd\&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 
 &lt;p&gt;Sent an e-mail to the bastards at
 &lt;a href=&quot;http://www.linuxjournal.com/&quot;&gt;Linux Journal&lt;/a&gt;, complaining that I&#39;m

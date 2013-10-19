@@ -51,8 +51,6 @@
 
 
 <aside class="sidebar">
-
-
 <div><div class="calendar"><table class="month-calendar">
     <tr>
     <th class="month-calendar-arrow"><a href="../02/" title="February">&larr;</a></th>
@@ -122,15 +120,12 @@
 </table>
 </div></div>
 
-
 </aside>
 
 
 <div id="pagebody">
 
 <section id="content">
-
-
 <article class="inlinepage">
 
 <section class="inlineheader">
@@ -155,7 +150,7 @@ record it here.</p>
 
 <p>Also discovered a <em>really</em> amazing thing: a <a href="http://librivox.org/">free source of audiobooks</a>
 in podcast format, while I was looking for René Descartes' "The Method".
-While surfing the net, I also found that there is this <a href="http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&amp;amp;co_obra=2274">very same text</a>
+While surfing the net, I also found that there is this <a href="http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&amp;co_obra=2274">very same text</a>
 in a <a href="http://www.dominiopublico.gov.br/">Brazilian site</a> backed by the government that hosts works in the
 public domain.</p>
 
@@ -297,7 +292,6 @@ to find (and has the advantage of being fast with filesystems that don't
 cope well with many entries in one directory).</li>
 </ul>
 
-
 <p>The transition wasn't painless from <a href="http://packages.debian.org/apt%2Dmove">apt-move</a>, since apt-move
 moves the files, but renames them in a way that they don't keep epochs in
 their names, which makes <code>approx-import</code> moan about the packages.</p>
@@ -305,7 +299,7 @@ their names, which makes <code>approx-import</code> moan about the packages.</p>
 <p>For places where I am too lazy to import the packages, I just filled the
 cache redownloading the packages with something approximately like this:</p>
 
-<pre><code>  apt-get -d --reinstall install $(dpkg -l | grep "^ii" | cut -d " " -f 3)
+<pre><code>  apt-get -d --reinstall install &#036;(dpkg -l | grep "^ii" | cut -d " " -f 3)
 </code></pre>
 
 <p>Well, I hope that this experience happens to be useful for other people, so
@@ -353,9 +347,6 @@ Tags:
 </footer>
 
 </article>
-
-
-
 
 
 </section>
