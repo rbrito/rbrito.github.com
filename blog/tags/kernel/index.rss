@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Thu, 18 Apr 2013 18:09:53 -0300</pubDate>
+<pubDate>Thu, 18 Apr 2013 18:02:58 -0300</pubDate>
 <item>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -509,7 +509,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 
 	<pubDate>Tue, 12 Dec 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:02:58Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Went to a customer to upgrade his system, which was using a frozen

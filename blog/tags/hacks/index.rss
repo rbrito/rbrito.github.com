@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 18 Oct 2013 13:10:26 -0300</pubDate>
+<pubDate>Fri, 11 Oct 2013 03:23:45 -0300</pubDate>
 <item>
 	<title>Working with CVS via Git</title>
 
@@ -34,7 +34,7 @@
 
 
 	<pubDate>Tue, 11 Jun 2013 04:49:56 -0300</pubDate>
-	<dcterms:modified>2013-06-11T08:22:42Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
@@ -1001,7 +1001,7 @@ above.&lt;/p&gt;
 
 
 	<pubDate>Sun, 07 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-18T16:10:26Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:23:45Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Woke up quite early with that kernel panic bugging me. I read the
