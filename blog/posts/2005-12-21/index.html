@@ -16,6 +16,7 @@
 <meta name="date" content="2005-12-21" />
 
 
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} } });</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 
@@ -91,12 +92,12 @@
         <td class="month-calendar-day-link Friday"><div class='popup'>18<div class='balloon'><ul>
             <li><a href="../2013-10-18-bittorrent_with_webseed/" title="Quick tip #1">Quick tip #1</a></li>
         </ul></div></div></td>
-        <td class="month-calendar-day-this-day Saturday">19</td>
+        <td class="month-calendar-day-nolink Saturday">19</td>
     </tr>
     <tr>
-        <td class="month-calendar-day-future Sunday">20</td>
-        <td class="month-calendar-day-nolink Monday">21</td>
-        <td class="month-calendar-day-nolink Tuesday">22</td>
+        <td class="month-calendar-day-nolink Sunday">20</td>
+        <td class="month-calendar-day-this-day Monday">21</td>
+        <td class="month-calendar-day-future Tuesday">22</td>
         <td class="month-calendar-day-nolink Wednesday">23</td>
         <td class="month-calendar-day-nolink Thursday">24</td>
         <td class="month-calendar-day-nolink Friday">25</td>
@@ -154,9 +155,12 @@ yuvdenoise -v 0 -r 16 -l 4 &lt; stream.yuv | \
 toolame -t 2 -b 160 -v -5 audiodump.wav &#036;2.mpa
 
 # multiplexing
-mplex -o &#036;2.mpg -f 8 -V &#036;2.mpv &#036;2.mpa
+mplex -o !!mathjaxbegin-i!! Mi5tcGcgLWYgOCAtViA=
+</code></pre>
 
-# clean-up
+<p>!!mathjaxend-i!!2.mpv $2.mpa</p>
+
+<pre><code># clean-up
 rm -f audiodump.wav *.mpv *.mpa stream.yuv
 </code></pre>
 

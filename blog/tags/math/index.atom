@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-04-18T20:54:03Z</updated>
+<updated>2013-04-18T21:09:53Z</updated>
 <entry>
 	<title>Music, Group Actions, Quilt and Debian Packages</title>
 
@@ -76,18 +76,23 @@ will be finishing the basics of Group Theory (hey, really, why is the &lt;a
 href=&quot;http://en.wikipedia.org/wiki/Conjugacy_class&quot;&gt;&quot;Class Equation&quot;&lt;/a&gt; of
 groups that &quot;famous&quot;? It is just a matter of saying that $|X| = \sum_{x\in
 X} 1$, but with cardinality of orbits instead of with one&#39;s and with a
-transversal of the orbits in place of $X$ itself).&lt;/p&gt;
+transversal of the orbits in place of !!mathjaxbegin-i!! WA==
+ !!mathjaxend-i!! itself).&lt;/p&gt;
 
-&lt;p&gt;Actually, if the orbits of the elements of the $G$-set $X$ consist of just
+&lt;p&gt;Actually, if the orbits of the elements of the !!mathjaxbegin-i!! Rw==
+ !!mathjaxend-i!!-set !!mathjaxbegin-i!! WA==
+ !!mathjaxend-i!! consist of just
 one element, then the equation above is the &lt;a
 href=&quot;http://en.wikipedia.org/wiki/Group_action&quot;&gt;&quot;Class Equation&quot;&lt;/a&gt; (what
-some people would call $\mathop{\mathrm{Fix}}(X)$, I would call the &quot;orbits
+some people would call !!mathjaxbegin-i!! XG1hdGhvcHtcbWF0aHJte0ZpeH19KFgp
+ !!mathjaxend-i!!, I would call the &quot;orbits
 being trivial&quot;).&lt;/p&gt;
 
 &lt;p&gt;Anyway, &lt;a href=&quot;http://en.wikipedia.org/wiki/Burnside%27s_lemma&quot;&gt;Burnside&#39;s
 lemma&lt;/a&gt; (which actually seems to be wrongly attributed, since it seems to
 be discovered independently by Cauchy and Frobenius) for counting orbits of
-a given action of a $G$-set has nice implications in combinatorics and it
+a given action of a !!mathjaxbegin-i!! Rw==
+ !!mathjaxend-i!!-set has nice implications in combinatorics and it
 should be, at least, mentioned in any self-respecting introduction to Group
 Theory.&lt;/p&gt;
 
@@ -149,8 +154,10 @@ depend quite a lot on Algebra).&lt;/p&gt;
 
 &lt;p&gt;Well, while studying Group Theory, one can&#39;t avoid to be amazed by some
 results that are not exactly that intuitive. For instance, I just discovered
-that the additive group $\mathbb Z[X]$ of univariate polynomials with
-integer coefficients is isomorphic to the multiplicative group $\mathbb Q^+$
+that the additive group !!mathjaxbegin-i!! XG1hdGhiYiBaW1hd
+ !!mathjaxend-i!! of univariate polynomials with
+integer coefficients is isomorphic to the multiplicative group !!mathjaxbegin-i!! XG1hdGhiYiBRXis=
+ !!mathjaxend-i!!
 of positive rationals.&lt;/p&gt;
 
 &lt;p&gt;I thought that this was a relatively easy exercise until I posed the problem
@@ -176,16 +183,21 @@ is short and shows the &quot;mechanics&quot; of factor groups) is the fact that 
 quotient group is abelian iff the normal group used as the &quot;denominator&quot;
 contains the commutator subgroup.&lt;/p&gt;
 
-&lt;p&gt;Another thing that is worth doing is proving that a normal subgroup $N$ is
-maximal in a group $G$ iff $G/N$ is simple. The proof of this fact is
+&lt;p&gt;Another thing that is worth doing is proving that a normal subgroup !!mathjaxbegin-i!! Tg==
+ !!mathjaxend-i!! is
+maximal in a group !!mathjaxbegin-i!! Rw==
+ !!mathjaxend-i!! iff !!mathjaxbegin-i!! Ry9O
+ !!mathjaxend-i!! is simple. The proof of this fact is
 analogous to the proof of the quotient of a ring being a field iff a ring is
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Factor%20ring&quot;&gt;factored&lt;/a&gt; by a maximal ideal (and that we
 get an &lt;a href=&quot;https://en.wikipedia.org/wiki/integral%20domain&quot;&gt;integral domain&lt;/a&gt; if the ideal is only prime instead of
 maximal).&lt;/p&gt;
 
 &lt;p&gt;Last, two groups that I feel that should merit way more attention than what
-I perceive as being given in a first course are the dihedral groups $D_3$
-and $D_4$. Asking the students to draw the lattice of subgroups of such
+I perceive as being given in a first course are the dihedral groups !!mathjaxbegin-i!! RF8z
+ !!mathjaxend-i!!
+and !!mathjaxbegin-i!! RF80
+ !!mathjaxend-i!!. Asking the students to draw the lattice of subgroups of such
 groups is quite enlightening, as they are &quot;natural&quot; groups that are not
 abelian (but with &lt;em&gt;all&lt;/em&gt; the proper subgroups being abelian). Nice examples
 to have in mind, without any shadow of doubt.&lt;/p&gt;
@@ -305,7 +317,7 @@ is enough for me).&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-04-18T20:54:03Z</updated>
+	<updated>2013-04-18T21:09:53Z</updated>
 	<published>2000-10-26T02:00:00Z</published>
 
 
@@ -340,7 +352,7 @@ perfectionist. Maybe I&#39;m slow. Maybe both.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-04-18T20:53:36Z</updated>
+	<updated>2013-04-18T21:09:53Z</updated>
 	<published>2000-10-25T02:00:00Z</published>
 
 
@@ -384,7 +396,7 @@ down and write a complete, detailed a proof. I wish I had time.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-04-18T20:50:59Z</updated>
+	<updated>2013-04-08T12:15:46Z</updated>
 	<published>2000-10-24T02:00:00Z</published>
 
 
@@ -414,7 +426,7 @@ today. Programmning Turing Machines takes time.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-04-18T20:50:59Z</updated>
+	<updated>2013-04-08T12:15:46Z</updated>
 	<published>2000-10-16T02:00:00Z</published>
 
 
@@ -453,7 +465,7 @@ next time?&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-04-18T20:50:59Z</updated>
+	<updated>2013-04-08T12:15:46Z</updated>
 	<published>2000-08-31T03:00:00Z</published>
 
 
@@ -498,7 +510,7 @@ then more painful hours to go back home.
 	<category term="study" />
 
 
-	<updated>2013-04-18T20:50:59Z</updated>
+	<updated>2013-04-08T12:15:46Z</updated>
 	<published>2000-08-30T03:00:00Z</published>
 
 

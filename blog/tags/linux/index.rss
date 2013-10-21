@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 11 Oct 2013 03:28:43 -0300</pubDate>
+<pubDate>Fri, 18 Oct 2013 13:10:26 -0300</pubDate>
 <item>
 	<title>SNA Acceleration vs. UXA Acceleration</title>
 
@@ -30,7 +30,7 @@
 
 
 	<pubDate>Wed, 21 Aug 2013 13:44:19 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-08-21T16:44:29Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
@@ -124,7 +124,7 @@ fingers so that it does.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
@@ -187,7 +187,7 @@ machines on datacenters.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 04:29:23 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-04-30T17:16:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
@@ -296,7 +296,7 @@ and contributing back what I produced.&lt;/p&gt;
 
 
 	<pubDate>Sat, 08 Sep 2012 23:42:24 -0300</pubDate>
-	<dcterms:modified>2012-09-09T02:47:46Z</dcterms:modified>
+	<dcterms:modified>2012-09-09T02:48:33Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Continuing the &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/T3BcxA7wKjK&quot;&gt;ZFS evaluation journey&lt;/a&gt; (which I will summarize here with
@@ -736,16 +736,21 @@ correct image---but it is the task of the packager/distributor to find if
 those images are needed or not. For the KuroBox HD/HG, all that is needed
 is a simple:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;cp &amp;#036;LINUXPATH/arch/powerpc/boot/uImage &amp;#036;BUILT_ROOT/boot/uImage-&amp;#036;VERSION
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;pre&gt;&lt;code&gt;cp !!mathjaxbegin-i!! TElOVVhQQVRIL2FyY2gvcG93ZXJwYy9ib290L3VJbWFnZSA=
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;!!mathjaxend-i!!BUILT_ROOT/boot/uImage-$VERSION&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;some extra care is needed when generating a kernel for such arches: the
 tree of the devices which the kernel needs does not seem to be built
 automatically (this is the case of the the KuroBox HD/HG). Something like
 this is needed after the compilation of the kernel proper:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;./scripts/dtc/dtc -I dts -O dtb -V 16 -o &amp;#036;BUILT_ROOT/boot/kuroboxHD.dtb-&amp;#036;VERSION ./arch/powerpc/boot/dts/kuroboxHD.dts
-./scripts/dtc/dtc -I dts -O dtb -V 16 -o &amp;#036;BUILT_ROOT/boot/kuroboxHG.dtb-&amp;#036;VERSION ./arch/powerpc/boot/dts/kuroboxHG.dts
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;pre&gt;&lt;code&gt;./scripts/dtc/dtc -I dts -O dtb -V 16 -o !!mathjaxbegin-i!! QlVJTFRfUk9PVC9ib290L2t1cm9ib3hIRC5kdGIt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;!!mathjaxend-i!!VERSION ./arch/powerpc/boot/dts/kuroboxHD.dts
+    ./scripts/dtc/dtc -I dts -O dtb -V 16 -o !!mathjaxbegin-i!! QlVJTFRfUk9PVC9ib290L2t1cm9ib3hIRy5kdGIt
+!!mathjaxend-i!!VERSION ./arch/powerpc/boot/dts/kuroboxHG.dts&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;to cross compile a kernel, don&#39;t forget to set the appropriate environment
 options, like:&lt;/p&gt;
 
@@ -763,11 +768,13 @@ compiling all and modules.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The uBoot command line (accessed via the network) can be something like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;ext2load ide &amp;#036;{hdpart} &amp;#036;{ldaddr} &amp;#036;{hdfile}
-ext2load ide &amp;#036;{hdpart} 7f0000 boot/kuroboxHD.dtb
-setenv bootargs root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/
-bootm &amp;#036;{ldaddr} - 7f0000
+&lt;pre&gt;&lt;code&gt;ext2load ide !!mathjaxbegin-i!! e2hkcGFydH0g
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;!!mathjaxend-i!!{ldaddr} ${hdfile}
+    ext2load ide ${hdpart} 7f0000 boot/kuroboxHD.dtb
+    setenv bootargs root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/
+    bootm ${ldaddr} - 7f0000&lt;/p&gt;
 
 &lt;p&gt;The first two lines tell uBoot to load the both the kernel and the device
 tree from the disk to the memory, the third line sets the kernel command
@@ -994,7 +1001,7 @@ build-dependencies.&lt;/p&gt;
 
 
 	<pubDate>Sat, 27 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:28:43Z</dcterms:modified>
+	<dcterms:modified>2013-10-18T16:10:26Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Updated &lt;a href=&quot;http://lame.sf.net/&quot;&gt;lame&lt;/a&gt;&#39;s Debian packaging a little
