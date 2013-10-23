@@ -17,7 +17,140 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-10-18T16:09:43Z</updated>
+<updated>2013-10-23T23:09:41Z</updated>
+<entry>
+	<title>Assorted random notes</title>
+
+	<id>http://cynic.cc/blog//posts/2013-10-23-assorted_news/</id>
+
+	<link href="http://cynic.cc/blog//posts/2013-10-23-assorted_news/"/>
+
+
+
+
+
+
+	<category term="btrfs" />
+
+	<category term="debian" />
+
+	<category term="filesystem" />
+
+	<category term="free-software" />
+
+	<category term="linux" />
+
+	<category term="music" />
+
+	<category term="python" />
+
+	<category term="study" />
+
+
+	<updated>2013-10-23T23:09:41Z</updated>
+	<published>2013-10-23T23:08:42Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;This post is just a bunch of random notes, but I think that things are going
+well, this time.&lt;/p&gt;
+
+&lt;h1 id=&quot;btrfs&quot;&gt;Btrfs&lt;/h1&gt;
+
+&lt;p&gt;Just started playing with &lt;a href=&quot;https://en.wikipedia.org/wiki/btrfs&quot;&gt;btrfs&lt;/a&gt; after converting a 2TB disk
+with about 1.3TB of data from &lt;a href=&quot;https://en.wikipedia.org/wiki/ext4&quot;&gt;ext4&lt;/a&gt; to btrfs.  This particular
+filesystem contains my backup data and I hope that btrfs is able to live up
+to high standards.&lt;/p&gt;
+
+&lt;p&gt;I will probably write a detailed review with my impressions, but suffice to
+say that it is working fine and I hope that I will be happy for a long time
+to come. My other filesystems, for the moment, will be ext4.&lt;/p&gt;
+
+&lt;h1 id=&quot;courseradownloader&quot;&gt;Coursera Downloader&lt;/h1&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://twitter.com/jplehmann&quot;&gt;John Lehmann&lt;/a&gt;&#39;s generosity, now &lt;code&gt;coursera-dl&lt;/code&gt; has a new home:
+a &lt;a href=&quot;https://github.com/coursera-dl&quot;&gt;github organization&lt;/a&gt; of its own!&lt;/p&gt;
+
+&lt;h1 id=&quot;youtube-dl&quot;&gt;youtube-dl&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/rg3/youtube-dl/issues/1612&quot;&gt;Some people may have noticed, others may not&lt;/a&gt;, but when downloading
+videos from Youtube, they apparently are getting more aggressive with the
+use of &lt;a href=&quot;https://en.wikipedia.org/wiki/Dynamic%20Adaptive%20Streaming%20over%20HTTP&quot;&gt;Dynamic Adaptive Streaming over HTTP&lt;/a&gt; (also called
+DASH) and, as a result, some (perhaps going to be all in the near future?)
+of the videos may not be available in the resolution/formats that you used
+to like (like me, with format number 35).&lt;/p&gt;
+
+&lt;p&gt;By the way, one thing that is interesting with youtube videos provided via
+DASH is that they are available in different streams: one for the video and
+another for the audio.&lt;/p&gt;
+
+&lt;p&gt;What does this mean in practical terms for users of youtube-dl?  Well, if
+you wanted to download videos in resolutions like the 480p (format 35) that
+I mentioned, then you will probably have to change your way of doing things,
+until a more automated solution is in place.&lt;/p&gt;
+
+&lt;p&gt;You will have to download both the audio and the video and, then, &quot;combine&quot;
+them (that is, multiplex them) to create one &quot;normal&quot; video file with both
+the audio and the video. I usually do this via:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+ffmpeg -i audio.m4a -i video.mp4 -vcodec copy -acodec copy combined.mp4
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you prefer having a Matroska container instead of an mp4 container
+(which, BTW, results in &lt;em&gt;smaller&lt;/em&gt; muxing overhead), then you can use the
+command line:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+mkvmerge -o combined.mkv audio.m4a video.mp4
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh, those &lt;code&gt;m4a&lt;/code&gt; and &lt;code&gt;mp4&lt;/code&gt; extensions are a new addition that
+&lt;a href=&quot;https://github.com/rg3/youtube-dl/pull/1622&quot;&gt;I just sent upstream&lt;/a&gt; (in the past, both would have been named with an
+extension of &lt;code&gt;mp4&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;As, an aside, I like formats &lt;code&gt;135&lt;/code&gt; for video and &lt;code&gt;140&lt;/code&gt; for audio, for the
+reasons that I mentioned in a comments to issue 1612:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Otherwise, to download 480p videos (which I do for lectures and so on with
+  other projects of mine, like edx-dl) I have to call youtube-dl twice: once
+  for format 135 and another for format 140, since the old &lt;img src=&quot;http://cynic.cc/blog//tags/free-software/../../smileys/question.png&quot; alt=&quot;(?)&quot; /&gt; format 35
+  files are much smaller than the lower resolution 360p files (due to the
+  former being encoded in High profile vs. the latter being encoded in
+  Constrained Baseline profile).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;While this is unfortunate for some, this is a good thing for others: I once
+had a blind user of &lt;code&gt;youtube-dl&lt;/code&gt; asking me if he could avoid downloading the
+whole video just to extract the audio, so that he save on bandwidth. Well,
+now this is possible.&lt;/p&gt;
+
+&lt;p&gt;Expect a new version of &lt;code&gt;youtube-dl&lt;/code&gt; to be uploaded soon to Debian unstable.&lt;/p&gt;
+
+&lt;h1 id=&quot;music&quot;&gt;Music&lt;/h1&gt;
+
+&lt;p&gt;It is so nice to see the music that I like getting better. It was
+particularly pleasant to &lt;a href=&quot;https://www.youtu.be/hAnVFJFmFx8&quot;&gt;see&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Tarja%20Turunen&quot;&gt;Tarja Turunen&lt;/a&gt; being joined
+on stage by [[!Floor  Jansen]].&lt;/p&gt;
+
+&lt;p&gt;In fact, it is my impression that the once female-fronted bands are getting
+more and more into collaborations and side-projects and they are, in many
+ways, getting more refined. Examples of this includes Floor, Tarja,
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Anneke%20van%20Giersbergen&quot;&gt;Anneke van Giersbergen&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Sharon%20den%20Adel&quot;&gt;Sharon den Adel&lt;/a&gt;,
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Kari%20Ruesl%C3%A5tten&quot;&gt;Kari Rueslåtten&lt;/a&gt; and many others that I can&#39;t remember right
+now.&lt;/p&gt;
+
+&lt;p&gt;Of course, some thanks to people that take the time to film, and
+upload/share the videos so that other people not at these events can watch
+them is highly appreciated and they usually are treated as anonymous, but,
+of course, this should be fixed.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Quick tip #1</title>
 
@@ -1140,109 +1273,6 @@ people from the LLNL would like to know of their modules producing this
 behavior.&lt;/p&gt;
 
 &lt;p&gt;Keep tuned for some future impressions.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>NOT Trying out AdSense</title>
-
-	<id>http://cynic.cc/blog//posts/trying_out_adsense_not/</id>
-
-	<link href="http://cynic.cc/blog//posts/trying_out_adsense_not/"/>
-
-
-
-
-
-
-	<category term="adsense" />
-
-	<category term="advertisements" />
-
-	<category term="debian" />
-
-	<category term="debian-planet" />
-
-	<category term="free-software" />
-
-	<category term="funding" />
-
-	<category term="google" />
-
-
-	<updated>2013-06-05T08:25:51Z</updated>
-	<published>2012-09-07T16:16:18Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;On the 3rd of September, I applied to Google&#39;s &lt;a href=&quot;https://www.google.com/adsense&quot;&gt;AdSense&lt;/a&gt; program, as I
-told in my &lt;a href=&quot;http://cynic.cc/blog/posts/trying_out_adsense/&quot;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Well, that was a short-lived experience. On the 5th of September, I received
-the following e-mail, which, sincerely, is as uninformative as it could get:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Date: Wed, 05 Sep 2012 16:52:22 -0000
-From: adsense-noreply@google.com
-To: rbrito@gmail.com
-Subject: Google AdSense Support
-
-Hello,
-
-As mentioned in our welcome email, we conduct a second review of your
-AdSense application once AdSense code is placed on your site(s). As a
-result of this review, we have disapproved your account for the following
-violation(s):
-
-Issues:
-
-- Site does not comply with Google policies
-
-
----------------------
-
-Further detail:
-
-
-Site does not comply with Google policies: We&#39;re unable to approve your
-AdSense application at this time because we feel that your site does not
-comply with Google AdSense policies or webmaster quality guidelines. It&#39;s
-our goal to provide our advertisers sites that offer rich and meaningful
-content, receive organic traffic, and allow us to serve well-targeted ads
-to users. We believe that currently your site does not fulfill this
-criteria. 
-
-For more details, please read the webmaster quality guidelines at
-http://www.google.com/support/webmasters/bin/answer.py?answer=35769 and
-the AdSense program policies at
-http://support.google.com/adsense/bin/answer.py?answer=48182,
-https://support.google.com/adsense/bin/topic.py?topic=1271507
-
-(...)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;OK, I went on and read &lt;strong&gt;all&lt;/strong&gt; the documentation on program policies
-etc.  I investigate each point here:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Invalid clicks and impressions: No violation here.&lt;/li&gt;
-&lt;li&gt;Encouraging clicks: No violation here.&lt;/li&gt;
-&lt;li&gt;Content guidelines: No violation here.&lt;/li&gt;
-&lt;li&gt;Copyrighted material: No violation here.&lt;/li&gt;
-&lt;li&gt;Webmaster guidelines: No violation here.&lt;/li&gt;
-&lt;li&gt;Traffic sources: No violation here.&lt;/li&gt;
-&lt;li&gt;Ad behavior: No violation here.&lt;/li&gt;
-&lt;li&gt;Ad placement: No violation here.&lt;/li&gt;
-&lt;li&gt;Site behavior: No violation here.&lt;/li&gt;
-&lt;li&gt;Competitive ads and services: No violation here.&lt;/li&gt;
-&lt;li&gt;Google advertising cookies: No violation here.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To cut a long story short, I RTFM and did everything correctly. So, dear
-lazyweb, what would my options be to fund a tiny bit of my software
-contributions?&lt;/p&gt;
 
 	</content>
 
