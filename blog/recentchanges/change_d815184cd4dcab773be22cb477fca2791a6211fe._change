@@ -1,0 +1,38 @@
+[[!meta author="""rbrito"""]]
+
+[[!meta title="""change to templates/page.tmpl on Rogério Brito's Digital Junkyard"""]]
+
+[[!meta permalink="/blog/recentchanges/#change-d815184cd4dcab773be22cb477fca2791a6211fe"]]
+
+<div id="change-d815184cd4dcab773be22cb477fca2791a6211fe" class="metadata">
+<span class="desc"><br />Changed pages:</span>
+<span class="pagelinks">
+
+
+
+
+templates/page.tmpl
+
+</span>
+<span class="desc"><br />Changed by:</span>
+<span class="committer">
+
+rbrito
+
+</span>
+<span class="desc"><br />Commit type:</span>
+<span class="committype">git</span>
+<span class="desc"><br />Date:</span>
+<span class="changedate"><time datetime="2012-09-11T10:44:45Z">07:44:45 2012-09-11</time></span>
+<span class="desc"><br /></span>
+
+</div>
+<div class="changelog">
+
+
+Add search box.<br />
+
+
+</div>
+
+<!-- d815184cd4dcab773be22cb477fca2791a6211fe -->

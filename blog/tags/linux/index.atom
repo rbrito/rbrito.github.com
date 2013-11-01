@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-10-23T23:19:24Z</updated>
+<updated>2013-11-01T08:03:27Z</updated>
 <entry>
 	<title>Assorted random notes</title>
 
@@ -47,7 +47,7 @@
 	<category term="study" />
 
 
-	<updated>2013-10-23T23:19:24Z</updated>
+	<updated>2013-11-01T08:03:27Z</updated>
 	<published>2013-10-23T23:08:42Z</published>
 
 
@@ -174,7 +174,7 @@ of course, this should be fixed.&lt;/p&gt;
 	<category term="xorg" />
 
 
-	<updated>2013-08-21T16:44:29Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-08-21T16:44:19Z</published>
 
 
@@ -274,7 +274,7 @@ fingers so that it does.&lt;/p&gt;
 	<category term="ubuntu" />
 
 
-	<updated>2013-06-05T08:25:51Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-04-20T01:46:26Z</published>
 
 
@@ -343,7 +343,7 @@ machines on datacenters.&lt;/p&gt;
 	<category term="linux" />
 
 
-	<updated>2013-04-30T17:16:01Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-04-19T07:29:23Z</published>
 
 
@@ -458,7 +458,7 @@ and contributing back what I produced.&lt;/p&gt;
 	<category term="zfs" />
 
 
-	<updated>2012-09-09T02:48:33Z</updated>
+	<updated>2012-09-09T02:47:46Z</updated>
 	<published>2012-09-09T02:42:24Z</published>
 
 
@@ -912,21 +912,16 @@ correct image---but it is the task of the packager/distributor to find if
 those images are needed or not. For the KuroBox HD/HG, all that is needed
 is a simple:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;cp !!mathjaxbegin-i!! TElOVVhQQVRIL2FyY2gvcG93ZXJwYy9ib290L3VJbWFnZSA=
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;!!mathjaxend-i!!BUILT_ROOT/boot/uImage-$VERSION&lt;/p&gt;&lt;/li&gt;
+&lt;pre&gt;&lt;code&gt;cp &amp;#036;LINUXPATH/arch/powerpc/boot/uImage &amp;#036;BUILT_ROOT/boot/uImage-&amp;#036;VERSION
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;some extra care is needed when generating a kernel for such arches: the
 tree of the devices which the kernel needs does not seem to be built
 automatically (this is the case of the the KuroBox HD/HG). Something like
 this is needed after the compilation of the kernel proper:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;./scripts/dtc/dtc -I dts -O dtb -V 16 -o !!mathjaxbegin-i!! QlVJTFRfUk9PVC9ib290L2t1cm9ib3hIRC5kdGIt
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;!!mathjaxend-i!!VERSION ./arch/powerpc/boot/dts/kuroboxHD.dts
-    ./scripts/dtc/dtc -I dts -O dtb -V 16 -o !!mathjaxbegin-i!! QlVJTFRfUk9PVC9ib290L2t1cm9ib3hIRy5kdGIt
-!!mathjaxend-i!!VERSION ./arch/powerpc/boot/dts/kuroboxHG.dts&lt;/p&gt;&lt;/li&gt;
+&lt;pre&gt;&lt;code&gt;./scripts/dtc/dtc -I dts -O dtb -V 16 -o &amp;#036;BUILT_ROOT/boot/kuroboxHD.dtb-&amp;#036;VERSION ./arch/powerpc/boot/dts/kuroboxHD.dts
+./scripts/dtc/dtc -I dts -O dtb -V 16 -o &amp;#036;BUILT_ROOT/boot/kuroboxHG.dtb-&amp;#036;VERSION ./arch/powerpc/boot/dts/kuroboxHG.dts
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;to cross compile a kernel, don&#39;t forget to set the appropriate environment
 options, like:&lt;/p&gt;
 
@@ -944,13 +939,11 @@ compiling all and modules.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The uBoot command line (accessed via the network) can be something like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;ext2load ide !!mathjaxbegin-i!! e2hkcGFydH0g
+&lt;pre&gt;&lt;code&gt;ext2load ide &amp;#036;{hdpart} &amp;#036;{ldaddr} &amp;#036;{hdfile}
+ext2load ide &amp;#036;{hdpart} 7f0000 boot/kuroboxHD.dtb
+setenv bootargs root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/
+bootm &amp;#036;{ldaddr} - 7f0000
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;!!mathjaxend-i!!{ldaddr} ${hdfile}
-    ext2load ide ${hdpart} 7f0000 boot/kuroboxHD.dtb
-    setenv bootargs root=/dev/sda1 netconsole=6666@192.168.11.150/,@192.168.11.149/
-    bootm ${ldaddr} - 7f0000&lt;/p&gt;
 
 &lt;p&gt;The first two lines tell uBoot to load the both the kernel and the device
 tree from the disk to the memory, the third line sets the kernel command

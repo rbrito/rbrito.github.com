@@ -1,0 +1,60 @@
+[[!meta author="""rbrito"""]]
+
+[[!meta title="""change to templates/page.tmpl on Rogério Brito's Digital Junkyard"""]]
+
+[[!meta permalink="/blog/recentchanges/#change-1f1440727f6e8a4632ed517078f1420d66caafe1"]]
+
+<div id="change-1f1440727f6e8a4632ed517078f1420d66caafe1" class="metadata">
+<span class="desc"><br />Changed pages:</span>
+<span class="pagelinks">
+
+
+
+
+templates/page.tmpl
+
+</span>
+<span class="desc"><br />Changed by:</span>
+<span class="committer">
+
+rbrito
+
+</span>
+<span class="desc"><br />Commit type:</span>
+<span class="committype">git</span>
+<span class="desc"><br />Date:</span>
+<span class="changedate"><time datetime="2012-12-09T02:14:10Z">00:14:10 2012-12-09</time></span>
+<span class="desc"><br /></span>
+
+</div>
+<div class="changelog">
+
+
+Revert &quot;First try at putting the +1 button to the page template.&quot;<br />
+
+
+
+
+
+Remove +1 button from my pages.<br />
+
+
+
+
+
+This reverts commit c2a5664f428cc4c76362f8029aa30452406c0a53.<br />
+
+
+
+
+
+Conflicts:<br />
+
+
+
+	templates/page.tmpl<br />
+
+
+</div>
+
+<!-- 1f1440727f6e8a4632ed517078f1420d66caafe1 -->

@@ -63,23 +63,18 @@ will be finishing the basics of Group Theory (hey, really, why is the &lt;a
 href=&quot;http://en.wikipedia.org/wiki/Conjugacy_class&quot;&gt;&quot;Class Equation&quot;&lt;/a&gt; of
 groups that &quot;famous&quot;? It is just a matter of saying that $|X| = \sum_{x\in
 X} 1$, but with cardinality of orbits instead of with one&#39;s and with a
-transversal of the orbits in place of !!mathjaxbegin-i!! WA==
- !!mathjaxend-i!! itself).&lt;/p&gt;
+transversal of the orbits in place of $X$ itself).&lt;/p&gt;
 
-&lt;p&gt;Actually, if the orbits of the elements of the !!mathjaxbegin-i!! Rw==
- !!mathjaxend-i!!-set !!mathjaxbegin-i!! WA==
- !!mathjaxend-i!! consist of just
+&lt;p&gt;Actually, if the orbits of the elements of the $G$-set $X$ consist of just
 one element, then the equation above is the &lt;a
 href=&quot;http://en.wikipedia.org/wiki/Group_action&quot;&gt;&quot;Class Equation&quot;&lt;/a&gt; (what
-some people would call !!mathjaxbegin-i!! XG1hdGhvcHtcbWF0aHJte0ZpeH19KFgp
- !!mathjaxend-i!!, I would call the &quot;orbits
+some people would call $\mathop{\mathrm{Fix}}(X)$, I would call the &quot;orbits
 being trivial&quot;).&lt;/p&gt;
 
 &lt;p&gt;Anyway, &lt;a href=&quot;http://en.wikipedia.org/wiki/Burnside%27s_lemma&quot;&gt;Burnside&#39;s
 lemma&lt;/a&gt; (which actually seems to be wrongly attributed, since it seems to
 be discovered independently by Cauchy and Frobenius) for counting orbits of
-a given action of a !!mathjaxbegin-i!! Rw==
- !!mathjaxend-i!!-set has nice implications in combinatorics and it
+a given action of a $G$-set has nice implications in combinatorics and it
 should be, at least, mentioned in any self-respecting introduction to Group
 Theory.&lt;/p&gt;
 

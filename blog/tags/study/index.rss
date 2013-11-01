@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Wed, 23 Oct 2013 21:19:24 -0200</pubDate>
+<pubDate>Fri, 01 Nov 2013 06:03:27 -0200</pubDate>
 <item>
 	<title>Assorted random notes</title>
 
@@ -36,7 +36,7 @@
 
 
 	<pubDate>Wed, 23 Oct 2013 21:08:42 -0200</pubDate>
-	<dcterms:modified>2013-10-23T23:19:24Z</dcterms:modified>
+	<dcterms:modified>2013-11-01T08:03:27Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;This post is just a bunch of random notes, but I think that things are going
@@ -155,7 +155,7 @@ of course, this should be fixed.&lt;/p&gt;
 
 
 	<pubDate>Sat, 20 Jul 2013 21:50:00 -0300</pubDate>
-	<dcterms:modified>2013-08-02T09:12:26Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;These are some very rough/sketchy notes that I took while doing the
@@ -601,7 +601,7 @@ function calls (whenever unambiguous) and, in essence, to write as little
 
 
 	<pubDate>Thu, 04 Jul 2013 08:33:00 -0300</pubDate>
-	<dcterms:modified>2013-07-04T12:25:16Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Not so much ago, we had a boom of new enterprises offering Massive Online
@@ -683,7 +683,7 @@ ones.&lt;/p&gt;
 
 
 	<pubDate>Sat, 19 Nov 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:08:06Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Purchased some books at discount prices. Nice. Now I can learn
@@ -715,7 +715,7 @@ Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&
 
 
 	<pubDate>Sun, 29 Dec 2002 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-10-18T16:10:26Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:42:35Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;It&#39;s been quite a while since I last updated my diary. Many things
@@ -763,7 +763,7 @@ promising. Packaged for Debian also, of course.&lt;/p&gt;
 
 
 	<pubDate>Fri, 23 Aug 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-18T16:10:26Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:39:43Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Tried to go to my university, to see a seminar on the Steiner
@@ -802,14 +802,11 @@ graduate student.&lt;/p&gt;
 
 
 	<pubDate>Thu, 22 Aug 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-21T03:48:49Z</dcterms:modified>
+	<dcterms:modified>2013-10-19T19:51:12Z</dcterms:modified>
 
 
-	<description>&lt;p&gt;[[!mathjax ]]&lt;/p&gt;
-
-&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
-programming is able to achieve a complexity of !!mathjaxbegin-i!! TyhuXjIvXGxvZyBuKQ==
- !!mathjaxend-i!!, which
+	<description>&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
+programming is able to achieve a complexity of $O(n^2/\log n)$, which
 is a theoretical improvement over the classic dynamic programming
 method.&lt;/p&gt;
 
@@ -844,7 +841,7 @@ happier than most people from your own country?&lt;/p&gt;
 
 
 	<pubDate>Sat, 27 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-18T16:10:26Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:28:43Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Updated &lt;a href=&quot;http://lame.sf.net/&quot;&gt;lame&lt;/a&gt;&#39;s Debian packaging a little
@@ -879,7 +876,7 @@ thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
 
 
 	<pubDate>Thu, 28 Mar 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-09-22T21:37:24Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Worked a bit more on my Master&#39;s Dissertation. It is in a bad state
@@ -909,7 +906,7 @@ subjects.&lt;/p&gt;
 
 
 	<pubDate>Wed, 27 Mar 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-09-22T21:37:35Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Have you ever felt &lt;em&gt;cheated&lt;/em&gt; just by watching a movie? I would

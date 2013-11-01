@@ -16,7 +16,6 @@
 
 
 
-<script type="text/x-mathjax-config">MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} } });</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 
@@ -221,12 +220,9 @@ yuvdenoise -v 0 -r 16 -l 4 &lt; stream.yuv | \
 toolame -t 2 -b 160 -v -5 audiodump.wav &#036;2.mpa
 
 # multiplexing
-mplex -o !!mathjaxbegin-i!! Mi5tcGcgLWYgOCAtViA=
-</code></pre>
+mplex -o &#036;2.mpg -f 8 -V &#036;2.mpv &#036;2.mpa
 
-<p>!!mathjaxend-i!!2.mpv $2.mpa</p>
-
-<pre><code># clean-up
+# clean-up
 rm -f audiodump.wav *.mpv *.mpa stream.yuv
 </code></pre>
 
