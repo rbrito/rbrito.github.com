@@ -128,10 +128,14 @@ parted --script disk.img mkfs 1 fat16
 parted --script disk.img set 1 boot on
 
 # Mount it
-SECTORS=&amp;#036;(fdisk -l -u disk.img 2&amp;gt;&amp;amp;1| tail -1 | perl -ne &#39;print &quot;&amp;#036;1&quot; if (m/\s+(\d+)\s+/);&#39;)
-mount -t vfat -o loop,offset=&amp;#036;((SECTORS * 512)) disk.img /mnt
+SECTORS=!!mathjaxbegin-i!! KGZkaXNrIC1sIC11IGRpc2suaW1nIDImZ3Q7JmFtcDsxfCB0YWlsIC0xIHwgcGVybCAtbmUgJ3By
+&lt;/code&gt;&lt;/pre&gt;
 
-# Copy the bootloader
+&lt;p&gt;aW50ICZhbXA7cXVvdDs=
+ !!mathjaxend-i!!1&quot; if (m/\s+(\d+)\s+/);&#39;)
+    mount -t vfat -o loop,offset=$((SECTORS * 512)) disk.img /mnt&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Copy the bootloader
 # Copy a FreeDOS image and treat it as a ramdisk (it will be the &quot;A:&quot; drive)
 mkdir -p /mnt/grub
 cp /usr/lib/grub/x86_64-pc/* /mnt/grub

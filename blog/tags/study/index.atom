@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-11-01T08:03:27Z</updated>
+<updated>2013-11-06T17:36:24Z</updated>
 <entry>
 	<title>Assorted random notes</title>
 
@@ -47,7 +47,7 @@
 	<category term="study" />
 
 
-	<updated>2013-11-01T08:03:27Z</updated>
+	<updated>2013-11-06T17:36:24Z</updated>
 	<published>2013-10-23T23:08:42Z</published>
 
 
@@ -131,7 +131,7 @@ now this is possible.&lt;/p&gt;
 &lt;h1 id=&quot;music&quot;&gt;Music&lt;/h1&gt;
 
 &lt;p&gt;It is so nice to see the music that I like getting better. It was
-particularly pleasant to &lt;a href=&quot;https://www.youtu.be/hAnVFJFmFx8&quot;&gt;see&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Tarja%20Turunen&quot;&gt;Tarja Turunen&lt;/a&gt; being joined
+particularly pleasant to &lt;a href=&quot;https://youtu.be/hAnVFJFmFx8&quot;&gt;see&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Tarja%20Turunen&quot;&gt;Tarja Turunen&lt;/a&gt; being joined
 on stage by &lt;a href=&quot;https://en.wikipedia.org/wiki/Floor%20Jansen&quot;&gt;Floor Jansen&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;In fact, it is my impression that the once female-fronted bands are getting
@@ -172,7 +172,7 @@ of course, this should be fixed.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-08-02T09:12:26Z</updated>
 	<published>2013-07-21T00:50:00Z</published>
 
 
@@ -624,7 +624,7 @@ function calls (whenever unambiguous) and, in essence, to write as little
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-07-04T12:25:16Z</updated>
 	<published>2013-07-04T11:33:00Z</published>
 
 
@@ -712,7 +712,7 @@ ones.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-04-18T21:08:06Z</updated>
+	<updated>2013-04-18T21:09:53Z</updated>
 	<published>2005-11-19T02:00:00Z</published>
 
 
@@ -750,7 +750,7 @@ Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:42:35Z</updated>
+	<updated>2013-10-18T16:10:26Z</updated>
 	<published>2002-12-29T02:00:00Z</published>
 
 
@@ -804,7 +804,7 @@ promising. Packaged for Debian also, of course.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:39:43Z</updated>
+	<updated>2013-10-18T16:10:26Z</updated>
 	<published>2002-08-23T03:00:00Z</published>
 
 
@@ -849,13 +849,16 @@ graduate student.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-19T19:51:12Z</updated>
+	<updated>2013-10-21T03:48:49Z</updated>
 	<published>2002-08-22T03:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
-programming is able to achieve a complexity of $O(n^2/\log n)$, which
+	&lt;p&gt;[[!mathjax ]]&lt;/p&gt;
+
+&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
+programming is able to achieve a complexity of !!mathjaxbegin-i!! TyhuXjIvXGxvZyBuKQ==
+ !!mathjaxend-i!!, which
 is a theoretical improvement over the classic dynamic programming
 method.&lt;/p&gt;
 
@@ -894,7 +897,7 @@ happier than most people from your own country?&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:28:43Z</updated>
+	<updated>2013-10-18T16:10:26Z</updated>
 	<published>2002-07-27T03:00:00Z</published>
 
 
@@ -935,7 +938,7 @@ thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-09-22T21:37:24Z</updated>
 	<published>2002-03-28T03:00:00Z</published>
 
 
@@ -971,7 +974,7 @@ subjects.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-09-22T21:37:35Z</updated>
 	<published>2002-03-27T03:00:00Z</published>
 
 
