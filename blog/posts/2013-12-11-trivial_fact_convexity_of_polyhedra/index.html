@@ -4,18 +4,19 @@
 <head>
 
 <meta charset="utf-8" />
-<title>pages tagged symphony-x</title>
+<title>Trivial fact: convexity of polyhedra</title>
 
 <link rel="stylesheet" href="../../style.css" type="text/css" />
 
 <link rel="stylesheet" href="../../local.css" type="text/css" />
 
 
-<link rel="alternate" type="application/rss+xml" title="Rogério Brito's Digital Junkyard (RSS feed)" href="index.rss" /><link rel="alternate" type="application/atom+xml" title="Rogério Brito's Digital Junkyard (Atom feed)" href="index.atom" />
 
 
+<meta name="date" content="Wed, 11 Dec 2013 00:27:41 -0200" />
 
 
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} } });</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 
@@ -28,11 +29,11 @@
 
 <a href="../../">Rogério Brito's Digital Junkyard</a>/
 
-<a href="../">tags</a>/
+<a href="../">posts</a>/
 
 </span>
 <span class="title">
-pages tagged symphony-x
+Trivial fact: convexity of polyhedra
 
 </span>
 </span>
@@ -78,7 +79,7 @@ pages tagged symphony-x
         <td class="month-calendar-day-nolink Monday">9</td>
         <td class="month-calendar-day-nolink Tuesday">10</td>
         <td class="month-calendar-day-this-day Wednesday"><div class='popup'>11<div class='balloon'><ul>
-            <li><a href="../../posts/2013-12-11-trivial_fact_convexity_of_polyhedra/" title="Trivial fact: convexity of polyhedra">Trivial fact: convexity of polyhedra</a></li>
+            <li><span class="selflink">Trivial fact: convexity of polyhedra</span></li>
         </ul></div></div></td>
         <td class="month-calendar-day-future Thursday">12</td>
         <td class="month-calendar-day-nolink Friday">13</td>
@@ -124,24 +125,20 @@ pages tagged symphony-x
 <div id="pagebody">
 
 <section id="content">
-<div  class="feedlink">
+<p>Just a trivial fact: every polyhedron that is used in linear programming is
+convex, that is \(Ax \leq b\) is convex, for a matrix \(A\) and a (column)
+vector \(b\).</p>
 
-<a class="feedbutton" type="application/rss+xml" rel="alternate" title="Rogério Brito's Digital Junkyard (RSS feed)" href="index.rss">RSS</a>
-
-
-<a class="feedbutton" type="application/atom+xml" rel="alternate" title="Rogério Brito's Digital Junkyard (Atom feed)" href="index.atom">Atom</a>
-
-</div>
-<div class="archivepage">
-
-<a href="../../posts/2000-08-19/">2000-08-19</a><br />
-
-<span class="archivepagedate">
-Posted <time datetime="2000-08-19T03:00:00Z" pubdate="pubdate">2000-08-19T00:00:00 BRT</time>
-
-</span>
-</div>
-
+<p><strong>Proof:</strong> Take any \(x', x''\) that satisfy the system of inequalities \(Ax \leq b\).
+Then, for \(0 \leq \lambda \leq 1\), we have that \(\lambda Ax' \leq \lambda b\),
+that is \(A \lambda x' \leq \lambda b\).  Similarly, for \(x''\), we have
+that \(A (1-\lambda) x' \leq (1-\lambda) b\). Summing the inequalities, we
+get:
+\[
+ A[\lambda x' + (1-\lambda) x''] \leq [\lambda + (1-\lambda)] b = b,
+\]
+which means that \(\hat{x} = \lambda x' + (1-\lambda) x''\) is again a
+solution of the original set of inequalities, thus concluding the argument.</p>
 
 </section>
 
@@ -155,8 +152,8 @@ Posted <time datetime="2000-08-19T03:00:00Z" pubdate="pubdate">2000-08-19T00:00:
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'digitaljunkyard'; // required: replace example with your forum shortname
-    var discus_identifier = 'tags/symphony-x';
-    var disqus_url = 'http://cynic.cc/blog//tags/symphony-x/';
+    var discus_identifier = 'posts/2013-12-11-trivial_fact_convexity_of_polyhedra';
+    var disqus_url = 'http://cynic.cc/blog//posts/2013-12-11-trivial_fact_convexity_of_polyhedra/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -180,13 +177,14 @@ Posted <time datetime="2000-08-19T03:00:00Z" pubdate="pubdate">2000-08-19T00:00:
 
 
 
+<nav class="tags">
+Tags:
 
+<a href="../../tags/debian/" rel="tag">debian</a>
 
-<nav id="backlinks">
-Links:
+<a href="../../tags/math/" rel="tag">math</a>
 
-<a href="../../posts/2000-08-19/">posts/2000-08-19</a>
-
+<a href="../../tags/study/" rel="tag">study</a>
 
 </nav>
 
@@ -195,9 +193,11 @@ Links:
 
 
 
+
+
 <div class="pagedate">
-Last edited <time datetime="2012-12-09T02:51:21Z">2012-12-09T00:51:21 BRST</time>
-<!-- Created <time datetime="2012-12-09T02:51:21Z" pubdate="pubdate">2012-12-09T00:51:21 BRST</time> -->
+Last edited <time datetime="2013-12-11T02:43:10Z">2013-12-11T00:43:10 BRST</time>
+<!-- Created <time datetime="2013-12-11T02:27:41Z" pubdate="pubdate">2013-12-11T00:27:41 BRST</time> -->
 </div>
 
 </nav>

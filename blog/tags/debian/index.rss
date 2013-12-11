@@ -8,7 +8,56 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Wed, 06 Nov 2013 15:36:24 -0200</pubDate>
+<pubDate>Wed, 11 Dec 2013 00:43:10 -0200</pubDate>
+<item>
+	<title>Trivial fact: convexity of polyhedra</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2013-12-11-trivial_fact_convexity_of_polyhedra/</guid>
+
+	<link>http://cynic.cc/blog//posts/2013-12-11-trivial_fact_convexity_of_polyhedra/</link>
+
+
+
+	<category>debian</category>
+
+	<category>math</category>
+
+	<category>study</category>
+
+
+	<pubDate>Wed, 11 Dec 2013 00:27:41 -0200</pubDate>
+	<dcterms:modified>2013-12-11T02:43:10Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Just a trivial fact: every polyhedron that is used in linear programming is
+convex, that is !!mathjaxbegin-i!! QXggXGxlcSBi
+ !!mathjaxend-i!! is convex, for a matrix !!mathjaxbegin-i!! QQ==
+ !!mathjaxend-i!! and a (column)
+vector !!mathjaxbegin-i!! Yg==
+ !!mathjaxend-i!!.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; Take any !!mathjaxbegin-i!! eCcsIHgnJw==
+ !!mathjaxend-i!! that satisfy the system of inequalities !!mathjaxbegin-i!! QXggXGxlcSBi
+ !!mathjaxend-i!!.
+Then, for !!mathjaxbegin-i!! MCBcbGVxIFxsYW1iZGEgXGxlcSAx
+ !!mathjaxend-i!!, we have that !!mathjaxbegin-i!! XGxhbWJkYSBBeCcgXGxlcSBcbGFtYmRhIGI=
+ !!mathjaxend-i!!,
+that is !!mathjaxbegin-i!! QSBcbGFtYmRhIHgnIFxsZXEgXGxhbWJkYSBi
+ !!mathjaxend-i!!.  Similarly, for !!mathjaxbegin-i!! eCcn
+ !!mathjaxend-i!!, we have
+that !!mathjaxbegin-i!! QSAoMS1cbGFtYmRhKSB4JyBcbGVxICgxLVxsYW1iZGEpIGI=
+ !!mathjaxend-i!!. Summing the inequalities, we
+get:
+!!mathjaxbegin-d!! CiBBW1xsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4JyddIFxsZXEgW1xsYW1iZGEgKyAoMS1cbGFt
+YmRhKV0gYiA9IGIsCg==
+ !!mathjaxend-d!!
+which means that !!mathjaxbegin-i!! XGhhdHt4fSA9IFxsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4Jyc=
+ !!mathjaxend-i!! is again a
+solution of the original set of inequalities, thus concluding the argument.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Assorted random notes</title>
 
@@ -1133,79 +1182,6 @@ which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot
 
 &lt;p&gt;Any comments are welcome, thanks, and if I am successful, I will upload the
 final video. &lt;img src=&quot;http://cynic.cc/blog//tags/debian/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Some experiences with ZFS</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/some_experiences_with_zfs/</guid>
-
-	<link>http://cynic.cc/blog//posts/some_experiences_with_zfs/</link>
-
-
-
-	<category>compression</category>
-
-	<category>debian</category>
-
-	<category>debian-planet</category>
-
-	<category>deduplication</category>
-
-	<category>filesystems</category>
-
-	<category>free-software</category>
-
-	<category>linux</category>
-
-	<category>zfs</category>
-
-
-	<pubDate>Sat, 08 Sep 2012 23:42:24 -0300</pubDate>
-	<dcterms:modified>2012-09-09T02:48:33Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Continuing the &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/T3BcxA7wKjK&quot;&gt;ZFS evaluation journey&lt;/a&gt; (which I will summarize here with
-the things that I learned), I was able to fit about 2.5TB of data on a
-single 2TB drive, with deduplication enabled.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, even &lt;em&gt;moving&lt;/em&gt; files around in ZFS (which you would think
-would be a cheap operation) takes ages. Removing files also takes ages.&lt;/p&gt;
-
-&lt;p&gt;In a &lt;em&gt;completely&lt;/em&gt; unloaded Phenom II X4 910 system running Linux 3.5.2
-(actually, from Debian&#39;s experimental), and zfsonlinux version
-0.6.0.71-0ubuntu1~precise1 (recompiled from source to work with my Debian
-system), I tried to remove a subdirectory that had about 4000
-files. According to time, it took:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;real    42m51.487s
-user    0m0.188s
-sys     0m16.769s
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Which is a bit too slow.&lt;/p&gt;
-
-&lt;p&gt;I just (read: &quot;yesterday&quot;) upgraded this machine from 4GB to 6GB of RAM
-(well, I would have updated it to 8GB of RAM as that is what I ordered, but
-it one of the RAM chips arrived dead here and I simply took one of the new
-4GB card and one of the older 2GB card).&lt;/p&gt;
-
-&lt;p&gt;But, honestly, I don&#39;t see change in upgrading the RAM from 4GB to 6GB and,
-unless something magic happens with 2GB more, I wouldn&#39;t expect a whole
-different story with 8GB of RAM. Oh, no swap is being used (well, it is an
-unloaded machine after all), and the Linux kernel swappiness knob is at its
-default of 60.&lt;/p&gt;
-
-&lt;p&gt;What I &lt;em&gt;do&lt;/em&gt; see, though, is that even for a single file removal, the disk is
-thrashing a lot. I mean &lt;em&gt;like&lt;/em&gt; crazy and that is, of course, the prime
-suspect of the bad performance (of course, of course). So, there must be
-some really crazy metadata churning going on here and I guess that the
-people from the LLNL would like to know of their modules producing this
-behavior.&lt;/p&gt;
-
-&lt;p&gt;Keep tuned for some future impressions.&lt;/p&gt;
 </description>
 
 

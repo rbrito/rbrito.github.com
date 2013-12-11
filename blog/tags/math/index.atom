@@ -17,7 +17,62 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-04-18T21:09:53Z</updated>
+<updated>2013-12-11T02:43:10Z</updated>
+<entry>
+	<title>Trivial fact: convexity of polyhedra</title>
+
+	<id>http://cynic.cc/blog//posts/2013-12-11-trivial_fact_convexity_of_polyhedra/</id>
+
+	<link href="http://cynic.cc/blog//posts/2013-12-11-trivial_fact_convexity_of_polyhedra/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="math" />
+
+	<category term="study" />
+
+
+	<updated>2013-12-11T02:43:10Z</updated>
+	<published>2013-12-11T02:27:41Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Just a trivial fact: every polyhedron that is used in linear programming is
+convex, that is !!mathjaxbegin-i!! QXggXGxlcSBi
+ !!mathjaxend-i!! is convex, for a matrix !!mathjaxbegin-i!! QQ==
+ !!mathjaxend-i!! and a (column)
+vector !!mathjaxbegin-i!! Yg==
+ !!mathjaxend-i!!.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; Take any !!mathjaxbegin-i!! eCcsIHgnJw==
+ !!mathjaxend-i!! that satisfy the system of inequalities !!mathjaxbegin-i!! QXggXGxlcSBi
+ !!mathjaxend-i!!.
+Then, for !!mathjaxbegin-i!! MCBcbGVxIFxsYW1iZGEgXGxlcSAx
+ !!mathjaxend-i!!, we have that !!mathjaxbegin-i!! XGxhbWJkYSBBeCcgXGxlcSBcbGFtYmRhIGI=
+ !!mathjaxend-i!!,
+that is !!mathjaxbegin-i!! QSBcbGFtYmRhIHgnIFxsZXEgXGxhbWJkYSBi
+ !!mathjaxend-i!!.  Similarly, for !!mathjaxbegin-i!! eCcn
+ !!mathjaxend-i!!, we have
+that !!mathjaxbegin-i!! QSAoMS1cbGFtYmRhKSB4JyBcbGVxICgxLVxsYW1iZGEpIGI=
+ !!mathjaxend-i!!. Summing the inequalities, we
+get:
+!!mathjaxbegin-d!! CiBBW1xsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4JyddIFxsZXEgW1xsYW1iZGEgKyAoMS1cbGFt
+YmRhKV0gYiA9IGIsCg==
+ !!mathjaxend-d!!
+which means that !!mathjaxbegin-i!! XGhhdHt4fSA9IFxsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4Jyc=
+ !!mathjaxend-i!! is again a
+solution of the original set of inequalities, thus concluding the argument.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Music, Group Actions, Quilt and Debian Packages</title>
 

@@ -8,7 +8,56 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Wed, 06 Nov 2013 15:36:24 -0200</pubDate>
+<pubDate>Wed, 11 Dec 2013 00:43:10 -0200</pubDate>
+<item>
+	<title>Trivial fact: convexity of polyhedra</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2013-12-11-trivial_fact_convexity_of_polyhedra/</guid>
+
+	<link>http://cynic.cc/blog//posts/2013-12-11-trivial_fact_convexity_of_polyhedra/</link>
+
+
+
+	<category>debian</category>
+
+	<category>math</category>
+
+	<category>study</category>
+
+
+	<pubDate>Wed, 11 Dec 2013 00:27:41 -0200</pubDate>
+	<dcterms:modified>2013-12-11T02:43:10Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Just a trivial fact: every polyhedron that is used in linear programming is
+convex, that is !!mathjaxbegin-i!! QXggXGxlcSBi
+ !!mathjaxend-i!! is convex, for a matrix !!mathjaxbegin-i!! QQ==
+ !!mathjaxend-i!! and a (column)
+vector !!mathjaxbegin-i!! Yg==
+ !!mathjaxend-i!!.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; Take any !!mathjaxbegin-i!! eCcsIHgnJw==
+ !!mathjaxend-i!! that satisfy the system of inequalities !!mathjaxbegin-i!! QXggXGxlcSBi
+ !!mathjaxend-i!!.
+Then, for !!mathjaxbegin-i!! MCBcbGVxIFxsYW1iZGEgXGxlcSAx
+ !!mathjaxend-i!!, we have that !!mathjaxbegin-i!! XGxhbWJkYSBBeCcgXGxlcSBcbGFtYmRhIGI=
+ !!mathjaxend-i!!,
+that is !!mathjaxbegin-i!! QSBcbGFtYmRhIHgnIFxsZXEgXGxhbWJkYSBi
+ !!mathjaxend-i!!.  Similarly, for !!mathjaxbegin-i!! eCcn
+ !!mathjaxend-i!!, we have
+that !!mathjaxbegin-i!! QSAoMS1cbGFtYmRhKSB4JyBcbGVxICgxLVxsYW1iZGEpIGI=
+ !!mathjaxend-i!!. Summing the inequalities, we
+get:
+!!mathjaxbegin-d!! CiBBW1xsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4JyddIFxsZXEgW1xsYW1iZGEgKyAoMS1cbGFt
+YmRhKV0gYiA9IGIsCg==
+ !!mathjaxend-d!!
+which means that !!mathjaxbegin-i!! XGhhdHt4fSA9IFxsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4Jyc=
+ !!mathjaxend-i!! is again a
+solution of the original set of inequalities, thus concluding the argument.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Assorted random notes</title>
 
@@ -1133,44 +1182,6 @@ which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot
 
 &lt;p&gt;Any comments are welcome, thanks, and if I am successful, I will upload the
 final video. &lt;img src=&quot;http://cynic.cc/blog//./smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Another meme: The Geek test</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/another_meme_the_geektest/</guid>
-
-	<link>http://cynic.cc/blog//posts/another_meme_the_geektest/</link>
-
-
-
-	<category>meme</category>
-
-
-	<pubDate>Thu, 01 Nov 2012 02:32:23 -0200</pubDate>
-	<dcterms:modified>2012-11-01T04:39:22Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;I was with some spare time a few days ago and I took one of those stupid
-tests that are so popular in the Internet. Well, here are the results,
-saying that I am, indeed, a Geek, which does not surprise me that much. &lt;img src=&quot;http://cynic.cc/blog//./smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.nerdtests.com/ft_nt2.php&quot;&gt;
-&lt;img src=&quot;http://www.nerdtests.com/images/badge/nt2/df3f970a39bfebc3.png&quot; alt=&quot;NerdTests.com says I&#39;m a Cool Nerd King.  Click here to take the Nerd Test, get geeky images and jokes, and write on the nerd forum!&quot;&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I did expect my Math score to be higher than everything else (I&#39;m only in
-the 90th percentile with respect to this), while I am high on the Computer
-side of things (in the 97th percentile).&lt;/p&gt;
-
-&lt;p&gt;I guess that I should devote myself to more Mathematics and writing less
-code. &lt;img src=&quot;http://cynic.cc/blog//./smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 </description>
 
 

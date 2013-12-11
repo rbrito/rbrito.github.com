@@ -16,6 +16,7 @@
 
 
 
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} } });</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 
@@ -73,7 +74,9 @@ Rogério Brito's Digital Junkyard
         <td class="month-calendar-day-nolink Sunday">8</td>
         <td class="month-calendar-day-nolink Monday">9</td>
         <td class="month-calendar-day-nolink Tuesday">10</td>
-        <td class="month-calendar-day-this-day Wednesday">11</td>
+        <td class="month-calendar-day-this-day Wednesday"><div class='popup'>11<div class='balloon'><ul>
+            <li><a href="./posts/2013-12-11-trivial_fact_convexity_of_polyhedra/" title="Trivial fact: convexity of polyhedra">Trivial fact: convexity of polyhedra</a></li>
+        </ul></div></div></td>
         <td class="month-calendar-day-future Thursday">12</td>
         <td class="month-calendar-day-nolink Friday">13</td>
         <td class="month-calendar-day-nolink Saturday">14</td>
@@ -126,6 +129,63 @@ Rogério Brito's Digital Junkyard
 <a class="feedbutton" type="application/atom+xml" rel="alternate" title="Rogério Brito's Digital Junkyard (Atom feed)" href="index.atom">Atom</a>
 
 </div>
+<article class="inlinepage">
+
+<section class="inlineheader">
+
+<header class="header">
+
+<a href="./posts/2013-12-11-trivial_fact_convexity_of_polyhedra/">Trivial fact: convexity of polyhedra</a>
+
+</header>
+</section>
+
+<section class="inlinecontent">
+<p>Just a trivial fact: every polyhedron that is used in linear programming is
+convex, that is \(Ax \leq b\) is convex, for a matrix \(A\) and a (column)
+vector \(b\).</p>
+
+<p><strong>Proof:</strong> Take any \(x', x''\) that satisfy the system of inequalities \(Ax \leq b\).
+Then, for \(0 \leq \lambda \leq 1\), we have that \(\lambda Ax' \leq \lambda b\),
+that is \(A \lambda x' \leq \lambda b\).  Similarly, for \(x''\), we have
+that \(A (1-\lambda) x' \leq (1-\lambda) b\). Summing the inequalities, we
+get:
+\[
+ A[\lambda x' + (1-\lambda) x''] \leq [\lambda + (1-\lambda)] b = b,
+\]
+which means that \(\hat{x} = \lambda x' + (1-\lambda) x''\) is again a
+solution of the original set of inequalities, thus concluding the argument.</p>
+
+</section>
+
+<footer class="inlinefooter">
+
+<span class="pagedate">
+Posted <time datetime="2013-12-11T02:27:41Z" pubdate="pubdate">2013-12-11T00:27:41 BRST</time>
+</span>
+
+
+<nav class="tags">
+Tags:
+
+<a href="./tags/debian/" rel="tag">debian</a>
+
+<a href="./tags/math/" rel="tag">math</a>
+
+<a href="./tags/study/" rel="tag">study</a>
+
+</nav>
+
+
+
+
+
+
+
+
+</footer>
+
+</article>
 <article class="inlinepage">
 
 <section class="inlineheader">
@@ -1412,63 +1472,6 @@ Tags:
 <a href="./tags/multimedia/" rel="tag">multimedia</a>
 
 <a href="./tags/video/" rel="tag">video</a>
-
-</nav>
-
-
-
-
-
-
-
-
-</footer>
-
-</article>
-<article class="inlinepage">
-
-<section class="inlineheader">
-
-<header class="header">
-
-<a href="./posts/another_meme_the_geektest/">Another meme: The Geek test</a>
-
-</header>
-</section>
-
-<section class="inlinecontent">
-<p>I was with some spare time a few days ago and I took one of those stupid
-tests that are so popular in the Internet. Well, here are the results,
-saying that I am, indeed, a Geek, which does not surprise me that much. <img src="./smileys/smile.png" alt=":)" /></p>
-
-<hr />
-
-<p><a href="http://www.nerdtests.com/ft_nt2.php">
-<img src="http://www.nerdtests.com/images/badge/nt2/df3f970a39bfebc3.png" alt="NerdTests.com says I'm a Cool Nerd King.  Click here to take the Nerd Test, get geeky images and jokes, and write on the nerd forum!">
-</a></p>
-
-<hr />
-
-<p>I did expect my Math score to be higher than everything else (I'm only in
-the 90th percentile with respect to this), while I am high on the Computer
-side of things (in the 97th percentile).</p>
-
-<p>I guess that I should devote myself to more Mathematics and writing less
-code. <img src="./smileys/smile.png" alt=":)" /></p>
-
-</section>
-
-<footer class="inlinefooter">
-
-<span class="pagedate">
-Posted <time datetime="2012-11-01T04:32:23Z" pubdate="pubdate">2012-11-01T02:32:23 BRST</time>
-</span>
-
-
-<nav class="tags">
-Tags:
-
-<a href="./tags/meme/" rel="tag">meme</a>
 
 </nav>
 

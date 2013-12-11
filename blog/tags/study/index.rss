@@ -8,7 +8,56 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Wed, 06 Nov 2013 15:36:24 -0200</pubDate>
+<pubDate>Wed, 11 Dec 2013 00:43:10 -0200</pubDate>
+<item>
+	<title>Trivial fact: convexity of polyhedra</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2013-12-11-trivial_fact_convexity_of_polyhedra/</guid>
+
+	<link>http://cynic.cc/blog//posts/2013-12-11-trivial_fact_convexity_of_polyhedra/</link>
+
+
+
+	<category>debian</category>
+
+	<category>math</category>
+
+	<category>study</category>
+
+
+	<pubDate>Wed, 11 Dec 2013 00:27:41 -0200</pubDate>
+	<dcterms:modified>2013-12-11T02:43:10Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Just a trivial fact: every polyhedron that is used in linear programming is
+convex, that is !!mathjaxbegin-i!! QXggXGxlcSBi
+ !!mathjaxend-i!! is convex, for a matrix !!mathjaxbegin-i!! QQ==
+ !!mathjaxend-i!! and a (column)
+vector !!mathjaxbegin-i!! Yg==
+ !!mathjaxend-i!!.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; Take any !!mathjaxbegin-i!! eCcsIHgnJw==
+ !!mathjaxend-i!! that satisfy the system of inequalities !!mathjaxbegin-i!! QXggXGxlcSBi
+ !!mathjaxend-i!!.
+Then, for !!mathjaxbegin-i!! MCBcbGVxIFxsYW1iZGEgXGxlcSAx
+ !!mathjaxend-i!!, we have that !!mathjaxbegin-i!! XGxhbWJkYSBBeCcgXGxlcSBcbGFtYmRhIGI=
+ !!mathjaxend-i!!,
+that is !!mathjaxbegin-i!! QSBcbGFtYmRhIHgnIFxsZXEgXGxhbWJkYSBi
+ !!mathjaxend-i!!.  Similarly, for !!mathjaxbegin-i!! eCcn
+ !!mathjaxend-i!!, we have
+that !!mathjaxbegin-i!! QSAoMS1cbGFtYmRhKSB4JyBcbGVxICgxLVxsYW1iZGEpIGI=
+ !!mathjaxend-i!!. Summing the inequalities, we
+get:
+!!mathjaxbegin-d!! CiBBW1xsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4JyddIFxsZXEgW1xsYW1iZGEgKyAoMS1cbGFt
+YmRhKV0gYiA9IGIsCg==
+ !!mathjaxend-d!!
+which means that !!mathjaxbegin-i!! XGhhdHt4fSA9IFxsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4Jyc=
+ !!mathjaxend-i!! is again a
+solution of the original set of inequalities, thus concluding the argument.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Assorted random notes</title>
 
@@ -888,42 +937,6 @@ know.&lt;/p&gt;
 
 &lt;p&gt;It is good, because I can keep my mind clear of some nasty
 subjects.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-03-27</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-03-27/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-03-27/</link>
-
-
-
-	<category>life</category>
-
-	<category>sadness</category>
-
-	<category>study</category>
-
-
-	<pubDate>Wed, 27 Mar 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-09-22T21:37:35Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Have you ever felt &lt;em&gt;cheated&lt;/em&gt; just by watching a movie? I would
-never think it would be possible, but, in fact, it is. Especially
-depending on the circumstances. Let me say that again in a
-different manner. &lt;em&gt;Especially&lt;/em&gt; depending on who you talk to during
-and after the movies.&lt;/p&gt;
-
-&lt;p&gt;To be honest, I am sad, feeling weak, like all my energy has been
-drained. I don&#39;t even have the energy to say more about this, even
-though I want to...&lt;/p&gt;
-
-&lt;p&gt;Attended the &lt;a href=&quot;http://cynic.cc/blog//tags/study/../bio/index.html&quot;&gt;seminar&lt;/a&gt; on Molecular
-Computational Biology. Worked a bit more on my Master&#39;s Thesis.&lt;/p&gt;
 </description>
 
 
