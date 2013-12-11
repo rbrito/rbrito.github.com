@@ -1,3 +1,66 @@
-/* ikiwiki local style sheet */
+pre
+{
+	border-bottom-left-radius:2px;
+	border-bottom-right-radius:2px;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	color:#333;
+	font-family:monospace;
+	font-size:12.75px;
+	line-height:19px;
+	-moz-box-sizing:border-box;
+	border-color:#888;
+	border-style:solid;
+	border-width:1.5px;
+	padding:0;
+	background:rgba(0,0,0,0.05);
+}
 
-/* Add local styling here, instead of modifying style.css. */
+pre>code
+{
+	border-image-outset:0;
+	border-image-repeat:stretch stretch;
+	border-image-slice:100% 100% 100% 100%;
+	border-image-source:none;
+	border-image-width:1 1 1 1;
+	color:#333;
+	display:block;
+	font-family:monospace;
+	font-size:12.75px;
+	line-height:19px;
+	-moz-border-left-colors:none;
+	-moz-border-right-colors:none;
+	-moz-border-top-colors:none;
+	-moz-box-sizing:border-box;
+	border-color:transparent;
+	border-style:none;
+	border-width:0;
+	padding:12.75px 0 background:rgba(0,0,0,0.05);
+}
+
+code
+{
+	border-bottom-left-radius:2px;
+	border-bottom-right-radius:2px;
+	border-image-outset:0;
+	border-image-repeat:stretch stretch;
+	border-image-slice:100% 100% 100% 100%;
+	border-image-source:none;
+	border-image-width:1 1 1 1;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	color:#111;
+	font-family:monospace;
+	font-size:12.75px;
+	line-height:22px;
+	-moz-border-left-colors:none;
+	-moz-border-right-colors:none;
+	-moz-border-top-colors:none;
+	-moz-border-bottom-colors:none;
+	-moz-box-sizing:border-box;
+	border-color:rgba(0,0,0,0.2);
+	border-style:solid;
+	border-width:1px;
+	padding:2px 3px;
+	background:rgba(0,0,0,0.05);
+}
