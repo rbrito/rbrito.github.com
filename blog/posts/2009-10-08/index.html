@@ -16,6 +16,7 @@
 <meta name="date" content="2009-10-08" />
 
 
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} } });</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 
@@ -93,10 +94,10 @@ parted --script disk.img mkfs 1 fat16
 parted --script disk.img set 1 boot on
 
 # Mount it
-SECTORS=&#036;(fdisk -l -u disk.img 2&gt;&amp;1| tail -1 | perl -ne 'print "&#036;1" if (m/\s+(\d+)\s+/);')
-mount -t vfat -o loop,offset=&#036;((SECTORS * 512)) disk.img /mnt
+SECTORS=\((fdisk -l -u disk.img 2&gt;&amp;1| tail -1 | perl -ne 'prýÊ{úkzçBf×·V÷C\)1" if (m/\s+(\d+)\s+/);')
+    mount -t vfat -o loop,offset=$((SECTORS * 512)) disk.img /mnt</p>
 
-# Copy the bootloader
+<pre><code># Copy the bootloader
 # Copy a FreeDOS image and treat it as a ramdisk (it will be the "A:" drive)
 mkdir -p /mnt/grub
 cp /usr/lib/grub/x86_64-pc/* /mnt/grub

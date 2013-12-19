@@ -16,6 +16,7 @@
 <meta name="date" content="Wed, 11 Dec 2013 00:27:41 -0200" />
 
 
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} } });</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 
@@ -60,18 +61,18 @@ Trivial fact: convexity of polyhedra
 
 <section id="content">
 <p>Just a trivial fact: every polyhedron that is used in linear programming is
-convex, that is $Ax \leq b$ is convex, for a matrix $A$ and a (column)
-vector $b$.</p>
+convex, that is \(Ax \leq b\) is convex, for a matrix \(A\) and a (column)
+vector \(b\).</p>
 
-<p><strong>Proof:</strong> Take any $x', x''$ that satisfy the system of inequalities $Ax \leq b$.
-Then, for $0 \leq \lambda \leq 1$, we have that $\lambda Ax' \leq \lambda b$,
-that is $A \lambda x' \leq \lambda b$.  Similarly, for $x''$, we have
-that $A (1-\lambda) x' \leq (1-\lambda) b$. Summing the inequalities, we
+<p><strong>Proof:</strong> Take any \(x', x''\) that satisfy the system of inequalities \(Ax \leq b\).
+Then, for \(0 \leq \lambda \leq 1\), we have that \(\lambda Ax' \leq \lambda b\),
+that is \(A \lambda x' \leq \lambda b\).  Similarly, for \(x''\), we have
+that \(A (1-\lambda) x' \leq (1-\lambda) b\). Summing the inequalities, we
 get:
-[
+\[
  A[\lambda x' + (1-\lambda) x''] \leq [\lambda + (1-\lambda)] b = b,
-]
-which means that $\hat{x} = \lambda x' + (1-\lambda) x''$ is again a
+\]
+which means that \(\hat{x} = \lambda x' + (1-\lambda) x''\) is again a
 solution of the original set of inequalities, thus concluding the argument.</p>
 
 </section>
@@ -130,7 +131,7 @@ Tags:
 
 
 <div class="pagedate">
-Last edited <time datetime="2013-12-16T03:33:48Z">2013-12-16T01:33:48 BRST</time>
+Last edited <time datetime="2013-12-11T02:35:41Z">2013-12-11T00:35:41 BRST</time>
 <!-- Created <time datetime="2013-12-11T02:27:41Z" pubdate="pubdate">2013-12-11T00:27:41 BRST</time> -->
 </div>
 

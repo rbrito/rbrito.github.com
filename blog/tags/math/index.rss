@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 16 Dec 2013 01:33:48 -0200</pubDate>
+<pubDate>Wed, 11 Dec 2013 00:35:41 -0200</pubDate>
 <item>
 	<title>Trivial fact: convexity of polyhedra</title>
 
@@ -26,22 +26,33 @@
 
 
 	<pubDate>Wed, 11 Dec 2013 00:27:41 -0200</pubDate>
-	<dcterms:modified>2013-12-16T03:33:48Z</dcterms:modified>
+	<dcterms:modified>2013-12-11T02:35:41Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Just a trivial fact: every polyhedron that is used in linear programming is
-convex, that is $Ax \leq b$ is convex, for a matrix $A$ and a (column)
-vector $b$.&lt;/p&gt;
+convex, that is !!mathjaxbegin-i!! QXggXGxlcSBi
+ !!mathjaxend-i!! is convex, for a matrix !!mathjaxbegin-i!! QQ==
+ !!mathjaxend-i!! and a (column)
+vector !!mathjaxbegin-i!! Yg==
+ !!mathjaxend-i!!.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; Take any $x&#39;, x&#39;&#39;$ that satisfy the system of inequalities $Ax \leq b$.
-Then, for $0 \leq \lambda \leq 1$, we have that $\lambda Ax&#39; \leq \lambda b$,
-that is $A \lambda x&#39; \leq \lambda b$.  Similarly, for $x&#39;&#39;$, we have
-that $A (1-\lambda) x&#39; \leq (1-\lambda) b$. Summing the inequalities, we
+&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; Take any !!mathjaxbegin-i!! eCcsIHgnJw==
+ !!mathjaxend-i!! that satisfy the system of inequalities !!mathjaxbegin-i!! QXggXGxlcSBi
+ !!mathjaxend-i!!.
+Then, for !!mathjaxbegin-i!! MCBcbGVxIFxsYW1iZGEgXGxlcSAx
+ !!mathjaxend-i!!, we have that !!mathjaxbegin-i!! XGxhbWJkYSBBeCcgXGxlcSBcbGFtYmRhIGI=
+ !!mathjaxend-i!!,
+that is !!mathjaxbegin-i!! QSBcbGFtYmRhIHgnIFxsZXEgXGxhbWJkYSBi
+ !!mathjaxend-i!!.  Similarly, for !!mathjaxbegin-i!! eCcn
+ !!mathjaxend-i!!, we have
+that !!mathjaxbegin-i!! QSAoMS1cbGFtYmRhKSB4JyBcbGVxICgxLVxsYW1iZGEpIGI=
+ !!mathjaxend-i!!. Summing the inequalities, we
 get:
-[
- A[\lambda x&#39; + (1-\lambda) x&#39;&#39;] \leq [\lambda + (1-\lambda)] b = b,
-]
-which means that $\hat{x} = \lambda x&#39; + (1-\lambda) x&#39;&#39;$ is again a
+!!mathjaxbegin-d!! CiBBW1xsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4JyddIFxsZXEgW1xsYW1iZGEgKyAoMS1cbGFt
+YmRhKV0gYiA9IGIsCg==
+ !!mathjaxend-d!!
+which means that !!mathjaxbegin-i!! XGhhdHt4fSA9IFxsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4Jyc=
+ !!mathjaxend-i!! is again a
 solution of the original set of inequalities, thus concluding the argument.&lt;/p&gt;
 </description>
 
@@ -101,18 +112,23 @@ will be finishing the basics of Group Theory (hey, really, why is the &lt;a
 href=&quot;http://en.wikipedia.org/wiki/Conjugacy_class&quot;&gt;&quot;Class Equation&quot;&lt;/a&gt; of
 groups that &quot;famous&quot;? It is just a matter of saying that $|X| = \sum_{x\in
 X} 1$, but with cardinality of orbits instead of with one&#39;s and with a
-transversal of the orbits in place of $X$ itself).&lt;/p&gt;
+transversal of the orbits in place of !!mathjaxbegin-i!! WA==
+ !!mathjaxend-i!! itself).&lt;/p&gt;
 
-&lt;p&gt;Actually, if the orbits of the elements of the $G$-set $X$ consist of just
+&lt;p&gt;Actually, if the orbits of the elements of the !!mathjaxbegin-i!! Rw==
+ !!mathjaxend-i!!-set !!mathjaxbegin-i!! WA==
+ !!mathjaxend-i!! consist of just
 one element, then the equation above is the &lt;a
 href=&quot;http://en.wikipedia.org/wiki/Group_action&quot;&gt;&quot;Class Equation&quot;&lt;/a&gt; (what
-some people would call $\mathop{\mathrm{Fix}}(X)$, I would call the &quot;orbits
+some people would call !!mathjaxbegin-i!! XG1hdGhvcHtcbWF0aHJte0ZpeH19KFgp
+ !!mathjaxend-i!!, I would call the &quot;orbits
 being trivial&quot;).&lt;/p&gt;
 
 &lt;p&gt;Anyway, &lt;a href=&quot;http://en.wikipedia.org/wiki/Burnside%27s_lemma&quot;&gt;Burnside&#39;s
 lemma&lt;/a&gt; (which actually seems to be wrongly attributed, since it seems to
 be discovered independently by Cauchy and Frobenius) for counting orbits of
-a given action of a $G$-set has nice implications in combinatorics and it
+a given action of a !!mathjaxbegin-i!! Rw==
+ !!mathjaxend-i!!-set has nice implications in combinatorics and it
 should be, at least, mentioned in any self-respecting introduction to Group
 Theory.&lt;/p&gt;
 
@@ -168,8 +184,10 @@ depend quite a lot on Algebra).&lt;/p&gt;
 
 &lt;p&gt;Well, while studying Group Theory, one can&#39;t avoid to be amazed by some
 results that are not exactly that intuitive. For instance, I just discovered
-that the additive group $\mathbb Z[X]$ of univariate polynomials with
-integer coefficients is isomorphic to the multiplicative group $\mathbb Q^+$
+that the additive group !!mathjaxbegin-i!! XG1hdGhiYiBaW1hd
+ !!mathjaxend-i!! of univariate polynomials with
+integer coefficients is isomorphic to the multiplicative group !!mathjaxbegin-i!! XG1hdGhiYiBRXis=
+ !!mathjaxend-i!!
 of positive rationals.&lt;/p&gt;
 
 &lt;p&gt;I thought that this was a relatively easy exercise until I posed the problem
@@ -195,16 +213,21 @@ is short and shows the &quot;mechanics&quot; of factor groups) is the fact that 
 quotient group is abelian iff the normal group used as the &quot;denominator&quot;
 contains the commutator subgroup.&lt;/p&gt;
 
-&lt;p&gt;Another thing that is worth doing is proving that a normal subgroup $N$ is
-maximal in a group $G$ iff $G/N$ is simple. The proof of this fact is
+&lt;p&gt;Another thing that is worth doing is proving that a normal subgroup !!mathjaxbegin-i!! Tg==
+ !!mathjaxend-i!! is
+maximal in a group !!mathjaxbegin-i!! Rw==
+ !!mathjaxend-i!! iff !!mathjaxbegin-i!! Ry9O
+ !!mathjaxend-i!! is simple. The proof of this fact is
 analogous to the proof of the quotient of a ring being a field iff a ring is
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Factor%20ring&quot;&gt;factored&lt;/a&gt; by a maximal ideal (and that we
 get an &lt;a href=&quot;https://en.wikipedia.org/wiki/integral%20domain&quot;&gt;integral domain&lt;/a&gt; if the ideal is only prime instead of
 maximal).&lt;/p&gt;
 
 &lt;p&gt;Last, two groups that I feel that should merit way more attention than what
-I perceive as being given in a first course are the dihedral groups $D_3$
-and $D_4$. Asking the students to draw the lattice of subgroups of such
+I perceive as being given in a first course are the dihedral groups !!mathjaxbegin-i!! RF8z
+ !!mathjaxend-i!!
+and !!mathjaxbegin-i!! RF80
+ !!mathjaxend-i!!. Asking the students to draw the lattice of subgroups of such
 groups is quite enlightening, as they are &quot;natural&quot; groups that are not
 abelian (but with &lt;em&gt;all&lt;/em&gt; the proper subgroups being abelian). Nice examples
 to have in mind, without any shadow of doubt.&lt;/p&gt;
@@ -314,7 +337,7 @@ is enough for me).&lt;/p&gt;
 
 
 	<pubDate>Thu, 26 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T20:54:03Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I had the &quot;midterm&quot; today. I thought that while the subjects
@@ -343,7 +366,7 @@ perfectionist. Maybe I&#39;m slow. Maybe both.&lt;/p&gt;
 
 
 	<pubDate>Wed, 25 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T20:53:36Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Tomorrow I&#39;ll have the &quot;midterm&quot; of Combinatorial Optimization.
@@ -381,7 +404,7 @@ down and write a complete, detailed a proof. I wish I had time.&lt;/p&gt;
 
 
 	<pubDate>Tue, 24 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Whew! One of the longest homeworks that I&#39;ve ever had was finished
@@ -405,7 +428,7 @@ today. Programmning Turing Machines takes time.&lt;/p&gt;
 
 
 	<pubDate>Mon, 16 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;After a lot of time doing this Combinatorial Optimization homework,
@@ -438,7 +461,7 @@ next time?&lt;/p&gt;
 
 
 	<pubDate>Thu, 31 Aug 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;&lt;code&gt;&amp;lt;rant&amp;gt;&lt;/code&gt;
@@ -477,7 +500,7 @@ then more painful hours to go back home.
 
 
 	<pubDate>Wed, 30 Aug 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Humm... I fear that I won&#39;t be able to handle this

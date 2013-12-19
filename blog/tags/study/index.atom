@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-12-16T03:33:48Z</updated>
+<updated>2013-12-11T02:35:41Z</updated>
 <entry>
 	<title>Trivial fact: convexity of polyhedra</title>
 
@@ -37,24 +37,35 @@
 	<category term="study" />
 
 
-	<updated>2013-12-16T03:33:48Z</updated>
+	<updated>2013-12-11T02:35:41Z</updated>
 	<published>2013-12-11T02:27:41Z</published>
 
 
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Just a trivial fact: every polyhedron that is used in linear programming is
-convex, that is $Ax \leq b$ is convex, for a matrix $A$ and a (column)
-vector $b$.&lt;/p&gt;
+convex, that is !!mathjaxbegin-i!! QXggXGxlcSBi
+ !!mathjaxend-i!! is convex, for a matrix !!mathjaxbegin-i!! QQ==
+ !!mathjaxend-i!! and a (column)
+vector !!mathjaxbegin-i!! Yg==
+ !!mathjaxend-i!!.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; Take any $x&#39;, x&#39;&#39;$ that satisfy the system of inequalities $Ax \leq b$.
-Then, for $0 \leq \lambda \leq 1$, we have that $\lambda Ax&#39; \leq \lambda b$,
-that is $A \lambda x&#39; \leq \lambda b$.  Similarly, for $x&#39;&#39;$, we have
-that $A (1-\lambda) x&#39; \leq (1-\lambda) b$. Summing the inequalities, we
+&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; Take any !!mathjaxbegin-i!! eCcsIHgnJw==
+ !!mathjaxend-i!! that satisfy the system of inequalities !!mathjaxbegin-i!! QXggXGxlcSBi
+ !!mathjaxend-i!!.
+Then, for !!mathjaxbegin-i!! MCBcbGVxIFxsYW1iZGEgXGxlcSAx
+ !!mathjaxend-i!!, we have that !!mathjaxbegin-i!! XGxhbWJkYSBBeCcgXGxlcSBcbGFtYmRhIGI=
+ !!mathjaxend-i!!,
+that is !!mathjaxbegin-i!! QSBcbGFtYmRhIHgnIFxsZXEgXGxhbWJkYSBi
+ !!mathjaxend-i!!.  Similarly, for !!mathjaxbegin-i!! eCcn
+ !!mathjaxend-i!!, we have
+that !!mathjaxbegin-i!! QSAoMS1cbGFtYmRhKSB4JyBcbGVxICgxLVxsYW1iZGEpIGI=
+ !!mathjaxend-i!!. Summing the inequalities, we
 get:
-[
- A[\lambda x&#39; + (1-\lambda) x&#39;&#39;] \leq [\lambda + (1-\lambda)] b = b,
-]
-which means that $\hat{x} = \lambda x&#39; + (1-\lambda) x&#39;&#39;$ is again a
+!!mathjaxbegin-d!! CiBBW1xsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4JyddIFxsZXEgW1xsYW1iZGEgKyAoMS1cbGFt
+YmRhKV0gYiA9IGIsCg==
+ !!mathjaxend-d!!
+which means that !!mathjaxbegin-i!! XGhhdHt4fSA9IFxsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4Jyc=
+ !!mathjaxend-i!! is again a
 solution of the original set of inequalities, thus concluding the argument.&lt;/p&gt;
 
 	</content>
@@ -91,7 +102,7 @@ solution of the original set of inequalities, thus concluding the argument.&lt;/
 	<category term="study" />
 
 
-	<updated>2013-12-16T03:33:48Z</updated>
+	<updated>2013-11-06T17:36:48Z</updated>
 	<published>2013-10-23T23:08:42Z</published>
 
 
@@ -216,7 +227,7 @@ of course, this should be fixed.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-07-21T12:18:29Z</updated>
 	<published>2013-07-21T00:50:00Z</published>
 
 
@@ -668,7 +679,7 @@ function calls (whenever unambiguous) and, in essence, to write as little
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-07-04T12:25:16Z</updated>
 	<published>2013-07-04T11:33:00Z</published>
 
 
@@ -756,7 +767,7 @@ ones.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-04-18T21:08:06Z</updated>
+	<updated>2013-04-18T21:09:53Z</updated>
 	<published>2005-11-19T02:00:00Z</published>
 
 
@@ -794,7 +805,7 @@ Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:42:35Z</updated>
+	<updated>2013-10-11T06:43:13Z</updated>
 	<published>2002-12-29T02:00:00Z</published>
 
 
@@ -848,7 +859,7 @@ promising. Packaged for Debian also, of course.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:39:43Z</updated>
+	<updated>2013-10-11T06:43:13Z</updated>
 	<published>2002-08-23T03:00:00Z</published>
 
 
@@ -893,13 +904,16 @@ graduate student.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-19T19:51:12Z</updated>
+	<updated>2013-10-19T19:53:25Z</updated>
 	<published>2002-08-22T03:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
-programming is able to achieve a complexity of $O(n^2/\log n)$, which
+	&lt;p&gt;[[!mathjax ]]&lt;/p&gt;
+
+&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
+programming is able to achieve a complexity of !!mathjaxbegin-i!! TyhuXjIvXGxvZyBuKQ==
+ !!mathjaxend-i!!, which
 is a theoretical improvement over the classic dynamic programming
 method.&lt;/p&gt;
 
@@ -938,7 +952,7 @@ happier than most people from your own country?&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:28:43Z</updated>
+	<updated>2013-10-11T06:33:23Z</updated>
 	<published>2002-07-27T03:00:00Z</published>
 
 
@@ -979,7 +993,7 @@ thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-09-22T21:41:34Z</updated>
 	<published>2002-03-28T03:00:00Z</published>
 
 

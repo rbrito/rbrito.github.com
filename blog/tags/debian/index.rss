@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 16 Dec 2013 01:33:48 -0200</pubDate>
+<pubDate>Wed, 11 Dec 2013 00:35:41 -0200</pubDate>
 <item>
 	<title>Trivial fact: convexity of polyhedra</title>
 
@@ -26,22 +26,33 @@
 
 
 	<pubDate>Wed, 11 Dec 2013 00:27:41 -0200</pubDate>
-	<dcterms:modified>2013-12-16T03:33:48Z</dcterms:modified>
+	<dcterms:modified>2013-12-11T02:35:41Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Just a trivial fact: every polyhedron that is used in linear programming is
-convex, that is $Ax \leq b$ is convex, for a matrix $A$ and a (column)
-vector $b$.&lt;/p&gt;
+convex, that is !!mathjaxbegin-i!! QXggXGxlcSBi
+ !!mathjaxend-i!! is convex, for a matrix !!mathjaxbegin-i!! QQ==
+ !!mathjaxend-i!! and a (column)
+vector !!mathjaxbegin-i!! Yg==
+ !!mathjaxend-i!!.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; Take any $x&#39;, x&#39;&#39;$ that satisfy the system of inequalities $Ax \leq b$.
-Then, for $0 \leq \lambda \leq 1$, we have that $\lambda Ax&#39; \leq \lambda b$,
-that is $A \lambda x&#39; \leq \lambda b$.  Similarly, for $x&#39;&#39;$, we have
-that $A (1-\lambda) x&#39; \leq (1-\lambda) b$. Summing the inequalities, we
+&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; Take any !!mathjaxbegin-i!! eCcsIHgnJw==
+ !!mathjaxend-i!! that satisfy the system of inequalities !!mathjaxbegin-i!! QXggXGxlcSBi
+ !!mathjaxend-i!!.
+Then, for !!mathjaxbegin-i!! MCBcbGVxIFxsYW1iZGEgXGxlcSAx
+ !!mathjaxend-i!!, we have that !!mathjaxbegin-i!! XGxhbWJkYSBBeCcgXGxlcSBcbGFtYmRhIGI=
+ !!mathjaxend-i!!,
+that is !!mathjaxbegin-i!! QSBcbGFtYmRhIHgnIFxsZXEgXGxhbWJkYSBi
+ !!mathjaxend-i!!.  Similarly, for !!mathjaxbegin-i!! eCcn
+ !!mathjaxend-i!!, we have
+that !!mathjaxbegin-i!! QSAoMS1cbGFtYmRhKSB4JyBcbGVxICgxLVxsYW1iZGEpIGI=
+ !!mathjaxend-i!!. Summing the inequalities, we
 get:
-[
- A[\lambda x&#39; + (1-\lambda) x&#39;&#39;] \leq [\lambda + (1-\lambda)] b = b,
-]
-which means that $\hat{x} = \lambda x&#39; + (1-\lambda) x&#39;&#39;$ is again a
+!!mathjaxbegin-d!! CiBBW1xsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4JyddIFxsZXEgW1xsYW1iZGEgKyAoMS1cbGFt
+YmRhKV0gYiA9IGIsCg==
+ !!mathjaxend-d!!
+which means that !!mathjaxbegin-i!! XGhhdHt4fSA9IFxsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4Jyc=
+ !!mathjaxend-i!! is again a
 solution of the original set of inequalities, thus concluding the argument.&lt;/p&gt;
 </description>
 
@@ -74,7 +85,7 @@ solution of the original set of inequalities, thus concluding the argument.&lt;/
 
 
 	<pubDate>Wed, 23 Oct 2013 21:08:42 -0200</pubDate>
-	<dcterms:modified>2013-12-16T03:33:48Z</dcterms:modified>
+	<dcterms:modified>2013-11-06T17:36:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;This post is just a bunch of random notes, but I think that things are going
@@ -193,7 +204,7 @@ of course, this should be fixed.&lt;/p&gt;
 
 
 	<pubDate>Fri, 18 Oct 2013 12:49:09 -0300</pubDate>
-	<dcterms:modified>2013-10-19T19:34:54Z</dcterms:modified>
+	<dcterms:modified>2013-10-18T16:10:26Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I wrote the following as part of a post to an discussion forum (I can&#39;t
@@ -254,7 +265,7 @@ others also have this option.&lt;/p&gt;
 
 
 	<pubDate>Wed, 21 Aug 2013 13:44:19 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-08-21T16:45:27Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
@@ -346,7 +357,7 @@ fingers so that it does.&lt;/p&gt;
 
 
 	<pubDate>Sat, 20 Jul 2013 21:50:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-07-21T12:18:29Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;These are some very rough/sketchy notes that I took while doing the
@@ -792,7 +803,7 @@ function calls (whenever unambiguous) and, in essence, to write as little
 
 
 	<pubDate>Thu, 04 Jul 2013 08:33:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-07-04T12:25:16Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Not so much ago, we had a boom of new enterprises offering Massive Online
@@ -882,7 +893,7 @@ ones.&lt;/p&gt;
 
 
 	<pubDate>Tue, 11 Jun 2013 04:49:56 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-06-11T08:22:42Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
@@ -976,7 +987,7 @@ one, please let me know.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
@@ -1039,7 +1050,7 @@ machines on datacenters.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 04:29:23 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-04-30T17:16:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
@@ -1142,7 +1153,7 @@ and contributing back what I produced.&lt;/p&gt;
 
 
 	<pubDate>Tue, 29 Jan 2013 22:16:07 -0200</pubDate>
-	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
+	<dcterms:modified>2013-01-30T00:16:56Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
