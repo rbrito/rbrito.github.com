@@ -1,9 +1,6 @@
 pre
 {
-	border-bottom-left-radius:2px;
-	border-bottom-right-radius:2px;
-	border-top-left-radius:2px;
-	border-top-right-radius:2px;
+	border-radius:2px;
 	color:#333;
 	font-family:monospace;
 	font-size:12.75px;
@@ -40,15 +37,12 @@ pre>code
 
 code
 {
-	border-bottom-left-radius:2px;
-	border-bottom-right-radius:2px;
+	border-radius:2px;
 	border-image-outset:0;
 	border-image-repeat:stretch stretch;
 	border-image-slice:100% 100% 100% 100%;
 	border-image-source:none;
 	border-image-width:1 1 1 1;
-	border-top-left-radius:2px;
-	border-top-right-radius:2px;
 	color:#111;
 	font-family:monospace;
 	font-size:12.75px;
