@@ -22,7 +22,6 @@ pre>code
 	border-image-width:1 1 1 1;
 	color:#333;
 	display:block;
-	font-family:monospace;
 	font-size:12.75px;
 	line-height:19px;
 	-moz-border-left-colors:none;
@@ -44,7 +43,6 @@ code
 	border-image-source:none;
 	border-image-width:1 1 1 1;
 	color:#111;
-	font-family:monospace;
 	font-size:12.75px;
 	line-height:22px;
 	-moz-border-left-colors:none;
