@@ -13,11 +13,7 @@ pre
 
 pre>code
 {
-	border-image-outset:0;
-	border-image-repeat:stretch stretch;
-	border-image-slice:100% 100% 100% 100%;
-	border-image-source:none;
-	border-image-width:1 1 1 1;
+	border-image: none 100% 1 0 stretch;
 	color:#333;
 	display:block;
 	font-size:12.75px;
@@ -27,17 +23,13 @@ pre>code
 	-moz-border-top-colors:none;
 	-moz-box-sizing:border-box;
 	border:0 none transparent;
-	padding:12.75px 0 background:rgba(0,0,0,0.05);
+	padding:12.75px 0 background:rgba(0,0,0,.05);
 }
 
 code
 {
 	border-radius:2px;
-	border-image-outset:0;
-	border-image-repeat:stretch stretch;
-	border-image-slice:100% 100% 100% 100%;
-	border-image-source:none;
-	border-image-width:1 1 1 1;
+	border-image: none 100% 1 0 stretch;
 	color:#111;
 	font-size:12.75px;
 	line-height:22px;
