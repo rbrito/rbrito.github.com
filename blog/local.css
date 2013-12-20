@@ -6,9 +6,7 @@ pre
 	font-size:12.75px;
 	line-height:19px;
 	-moz-box-sizing:border-box;
-	border-color:#888;
-	border-style:solid;
-	border-width:1.5px;
+	border:1.5px solid #888;
 	padding:0;
 	background:rgba(0,0,0,0.05);
 }
@@ -28,9 +26,7 @@ pre>code
 	-moz-border-right-colors:none;
 	-moz-border-top-colors:none;
 	-moz-box-sizing:border-box;
-	border-color:transparent;
-	border-style:none;
-	border-width:0;
+	border:0 none transparent;
 	padding:12.75px 0 background:rgba(0,0,0,0.05);
 }
 
@@ -50,9 +46,7 @@ code
 	-moz-border-top-colors:none;
 	-moz-border-bottom-colors:none;
 	-moz-box-sizing:border-box;
-	border-color:rgba(0,0,0,0.2);
-	border-style:solid;
-	border-width:1px;
+	border:1px solid rgba(0,0,0,.2);
 	padding:2px 3px;
 	background:rgba(0,0,0,0.05);
 }
