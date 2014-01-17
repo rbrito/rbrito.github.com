@@ -17,7 +17,97 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-12-11T02:35:41Z</updated>
+<updated>2014-01-17T22:17:37Z</updated>
+<entry>
+	<title>Developing for Android with Debian</title>
+
+	<id>http://cynic.cc/blog//posts/2014-01-17-developing_for_android_with_debian/</id>
+
+	<link href="http://cynic.cc/blog//posts/2014-01-17-developing_for_android_with_debian/"/>
+
+
+
+
+
+
+	<category term="android" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="java" />
+
+
+	<updated>2014-01-17T22:17:37Z</updated>
+	<published>2014-01-17T22:18:04Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I have just enrolled in a MOOC to learn about programming with Android.
+There are many tutorials and reports of people using Linux for the
+development of the apps out there, but, unfortunately, many of them are
+outdated or contain misleading information.&lt;/p&gt;
+
+&lt;p&gt;You will find bazillion instructions out there telling you to install
+JDK6. (Even the instructions in the MOOCs say so, and Google says that it is
+the only supported version of Java). Even more than that, some of them will
+tell you that you should &lt;em&gt;not&lt;/em&gt; use OpenJDK, but use Oracle&#39;s JDK instead.&lt;/p&gt;
+
+&lt;p&gt;So, if you have a pure &lt;code&gt;amd64&lt;/code&gt; system and you try to install the x86-64
+version of Google&#39;s Android Developer Tools (ADT), you are going to have a
+surprise: you will have all sorts of programs telling you that you have file
+not found, even though the required binaries are there.&lt;/p&gt;
+
+&lt;p&gt;(This is, of course, besides install &lt;code&gt;openjdk-7-jdk&lt;/code&gt;, if you wish to use the
+integrated Eclipse environment).&lt;/p&gt;
+
+&lt;p&gt;Turns out that the so-called 64-bit ADT/SDK actually has many 32-bit
+executables(!) and they aren&#39;t statically linked. Inspecting them, I needed
+the following packages:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    gcc-4.8-base:i386
+    libc6-i686:i386
+    libc6:i386
+    libgcc1:i386
+    libstdc++6:i386
+    zlib1g:i386
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It is worth observing that:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;libstdc++6:i386&lt;/code&gt; depends (transitively) on &lt;code&gt;libc6:i386&lt;/code&gt;, &lt;code&gt;libgcc1:i386&lt;/code&gt;,
+and &lt;code&gt;gcc-4.8-base:i386&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;zlib1g:i386&lt;/code&gt; depends (transitively) on &lt;code&gt;libc6:i386&lt;/code&gt;, &lt;code&gt;libgcc1:i386&lt;/code&gt;, and
+&lt;code&gt;gcc-4.8-base:i386&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Given the above, and given that the version of the GCC libraries can vary a
+lot, it is perhaps better to simply do something like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install libstdc++6:i386 zlib1g:i386
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Although not necessary, since you are using an amd64 machine, your computer
+already supports many more recent instructions that will be used if you
+install the package &lt;code&gt;libc6-i686:i386&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To avoid the emulator from spitting out error messages related to &lt;code&gt;libGL.so&lt;/code&gt;,
+install &lt;code&gt;libgl1-mesa-dev&lt;/code&gt; (note: &lt;em&gt;not&lt;/em&gt; &lt;code&gt;i386&lt;/code&gt; here).&lt;/p&gt;
+
+&lt;p&gt;This way, you will be able to run the embedded QEMU with full KVM
+acceleration if you pass the options &lt;code&gt;-qemu -m 1024 -enable-kvm&lt;/code&gt; on
+Eclipse&#39;s &quot;Run &gt; Run Configurations... &gt; Target &gt; Additional Emulator
+Command Line Options&quot;.&lt;/p&gt;
+
+&lt;p&gt;After that, you are probably good to go.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Trivial fact: convexity of polyhedra</title>
 
@@ -1189,66 +1279,6 @@ touched.&lt;/p&gt;
 services which are not Debian Developers/Maintainers, I contributed to these
 packages without being the maintainer of them, just scratching some itches
 and contributing back what I produced.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Looking for (Free) a Video Editor</title>
-
-	<id>http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</id>
-
-	<link href="http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="lazyweb" />
-
-	<category term="multimedia" />
-
-	<category term="video" />
-
-
-	<updated>2013-01-30T00:16:56Z</updated>
-	<published>2013-01-30T00:16:07Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
-you were able to sneak in a camera (well, in those times, cell phones
-weren&#39;t able to record much more than 176x144 pixels at 12fps).&lt;/p&gt;
-
-&lt;p&gt;But, then, you suddenly found that some people uploaded (short) fragments of
-that very same show to youtube and, collecting those, you may be able to
-create a &quot;multi-camera&quot; version of the video that you can record to keep of
-your memorable concert.&lt;/p&gt;
-
-&lt;p&gt;The multi-camera, in the sense above, is not the same as
-&lt;a href=&quot;https://en.wikipedia.org/wiki/DVD-Video#Chapters_and_angles&quot;&gt;multiple angles&lt;/a&gt; (like some DVDs), but something like a TV broadcast,
-where the stage is filmed by cameras positioned at some places and the image
-that is broadcast is switched from time to time according to that who is
-singing, or playing etc.&lt;/p&gt;
-
-&lt;p&gt;So, Dear Lazyweb, do we happen to have any Free Software (preferably already
-packaged in Debian) that is able to help with the task of &quot;aligning&quot; (in
-time) videos from various (different) sources so as to produce one
-multi-camera video?&lt;/p&gt;
-
-&lt;p&gt;What would my options be? I &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT43j64jh8zLRYCMVRnJQgINcgSOhf-5Ozg&quot;&gt;asked this&lt;/a&gt; on youtube for a person that
-&lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&quot;&gt;did exactly what I want&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT6jkGhCF9g1RzmZAsFIGmYzChDJwqwovNc&quot;&gt;their answer&lt;/a&gt; was &lt;a href=&quot;https://en.wikipedia.org/wiki/Sony_Vegas_Pro&quot;&gt;Sony Vegas&lt;/a&gt;,
-which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://cynic.cc/blog//tags/debian/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Any comments are welcome, thanks, and if I am successful, I will upload the
-final video. &lt;img src=&quot;http://cynic.cc/blog//tags/debian/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 
 	</content>
 

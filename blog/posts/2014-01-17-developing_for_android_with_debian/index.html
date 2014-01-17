@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<title>Developing for Android with Debian</title>
+
+<link rel="stylesheet" href="../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../local.css" type="text/css" />
+
+
+
+
+<meta name="date" content="Fri, 17 Jan 2014 20:18:04 -0200" />
+
+
+</head>
+<body>
+
+<article class="page">
+
+<section class="pageheader">
+<header class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../">Rogério Brito's Digital Junkyard</a>/
+
+<a href="../">posts</a>/
+
+</span>
+<span class="title">
+Developing for Android with Debian
+
+</span>
+</span>
+
+</header>
+
+
+
+
+
+
+
+</section>
+
+
+<aside class="sidebar">
+<p><a href="../../about/">About Me</a></p>
+
+<p><a href="../../archives/">Archives</a></p>
+
+</aside>
+
+
+<div id="pagebody">
+
+<section id="content">
+<p>I have just enrolled in a MOOC to learn about programming with Android.
+There are many tutorials and reports of people using Linux for the
+development of the apps out there, but, unfortunately, many of them are
+outdated or contain misleading information.</p>
+
+<p>You will find bazillion instructions out there telling you to install
+JDK6. (Even the instructions in the MOOCs say so, and Google says that it is
+the only supported version of Java). Even more than that, some of them will
+tell you that you should <em>not</em> use OpenJDK, but use Oracle's JDK instead.</p>
+
+<p>So, if you have a pure <code>amd64</code> system and you try to install the x86-64
+version of Google's Android Developer Tools (ADT), you are going to have a
+surprise: you will have all sorts of programs telling you that you have file
+not found, even though the required binaries are there.</p>
+
+<p>(This is, of course, besides install <code>openjdk-7-jdk</code>, if you wish to use the
+integrated Eclipse environment).</p>
+
+<p>Turns out that the so-called 64-bit ADT/SDK actually has many 32-bit
+executables(!) and they aren't statically linked. Inspecting them, I needed
+the following packages:</p>
+
+<pre><code>    gcc-4.8-base:i386
+    libc6-i686:i386
+    libc6:i386
+    libgcc1:i386
+    libstdc++6:i386
+    zlib1g:i386
+</code></pre>
+
+<p>It is worth observing that:</p>
+
+<ul>
+<li><code>libstdc++6:i386</code> depends (transitively) on <code>libc6:i386</code>, <code>libgcc1:i386</code>,
+and <code>gcc-4.8-base:i386</code>.</li>
+<li><code>zlib1g:i386</code> depends (transitively) on <code>libc6:i386</code>, <code>libgcc1:i386</code>, and
+<code>gcc-4.8-base:i386</code>.</li>
+</ul>
+
+<p>Given the above, and given that the version of the GCC libraries can vary a
+lot, it is perhaps better to simply do something like:</p>
+
+<pre><code>apt-get install libstdc++6:i386 zlib1g:i386
+</code></pre>
+
+<p>Although not necessary, since you are using an amd64 machine, your computer
+already supports many more recent instructions that will be used if you
+install the package <code>libc6-i686:i386</code>.</p>
+
+<p>To avoid the emulator from spitting out error messages related to <code>libGL.so</code>,
+install <code>libgl1-mesa-dev</code> (note: <em>not</em> <code>i386</code> here).</p>
+
+<p>This way, you will be able to run the embedded QEMU with full KVM
+acceleration if you pass the options <code>-qemu -m 1024 -enable-kvm</code> on
+Eclipse's "Run > Run Configurations... > Target > Additional Emulator
+Command Line Options".</p>
+
+<p>After that, you are probably good to go.</p>
+
+</section>
+
+
+
+
+
+<div id="comments">
+
+<div id="disqus_comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'digitaljunkyard'; // required: replace example with your forum shortname
+    var discus_identifier = 'posts/2014-01-17-developing_for_android_with_debian';
+    var disqus_url = 'http://cynic.cc/blog//posts/2014-01-17-developing_for_android_with_debian/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer id="footer" class="pagefooter">
+
+<nav id="pageinfo">
+
+
+
+
+<nav class="tags">
+Tags:
+
+<a href="../../tags/android/" rel="tag">android</a>
+
+<a href="../../tags/debian/" rel="tag">debian</a>
+
+<a href="../../tags/free-software/" rel="tag">free-software</a>
+
+<a href="../../tags/java/" rel="tag">java</a>
+
+</nav>
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <time datetime="2014-01-17T22:17:37Z">2014-01-17T20:17:37 BRST</time>
+<!-- Created <time datetime="2014-01-17T22:18:04Z" pubdate="pubdate">2014-01-17T20:18:04 BRST</time> -->
+</div>
+
+</nav>
+
+
+<!-- from Rogério Brito's Digital Junkyard -->
+</footer>
+
+</article>
+
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- MathJax -->
+
+</body>
+</html>

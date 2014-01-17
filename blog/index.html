@@ -70,6 +70,109 @@ Rogério Brito's Digital Junkyard
 
 <header class="header">
 
+<a href="./posts/2014-01-17-developing_for_android_with_debian/">Developing for Android with Debian</a>
+
+</header>
+</section>
+
+<section class="inlinecontent">
+<p>I have just enrolled in a MOOC to learn about programming with Android.
+There are many tutorials and reports of people using Linux for the
+development of the apps out there, but, unfortunately, many of them are
+outdated or contain misleading information.</p>
+
+<p>You will find bazillion instructions out there telling you to install
+JDK6. (Even the instructions in the MOOCs say so, and Google says that it is
+the only supported version of Java). Even more than that, some of them will
+tell you that you should <em>not</em> use OpenJDK, but use Oracle's JDK instead.</p>
+
+<p>So, if you have a pure <code>amd64</code> system and you try to install the x86-64
+version of Google's Android Developer Tools (ADT), you are going to have a
+surprise: you will have all sorts of programs telling you that you have file
+not found, even though the required binaries are there.</p>
+
+<p>(This is, of course, besides install <code>openjdk-7-jdk</code>, if you wish to use the
+integrated Eclipse environment).</p>
+
+<p>Turns out that the so-called 64-bit ADT/SDK actually has many 32-bit
+executables(!) and they aren't statically linked. Inspecting them, I needed
+the following packages:</p>
+
+<pre><code>    gcc-4.8-base:i386
+    libc6-i686:i386
+    libc6:i386
+    libgcc1:i386
+    libstdc++6:i386
+    zlib1g:i386
+</code></pre>
+
+<p>It is worth observing that:</p>
+
+<ul>
+<li><code>libstdc++6:i386</code> depends (transitively) on <code>libc6:i386</code>, <code>libgcc1:i386</code>,
+and <code>gcc-4.8-base:i386</code>.</li>
+<li><code>zlib1g:i386</code> depends (transitively) on <code>libc6:i386</code>, <code>libgcc1:i386</code>, and
+<code>gcc-4.8-base:i386</code>.</li>
+</ul>
+
+<p>Given the above, and given that the version of the GCC libraries can vary a
+lot, it is perhaps better to simply do something like:</p>
+
+<pre><code>apt-get install libstdc++6:i386 zlib1g:i386
+</code></pre>
+
+<p>Although not necessary, since you are using an amd64 machine, your computer
+already supports many more recent instructions that will be used if you
+install the package <code>libc6-i686:i386</code>.</p>
+
+<p>To avoid the emulator from spitting out error messages related to <code>libGL.so</code>,
+install <code>libgl1-mesa-dev</code> (note: <em>not</em> <code>i386</code> here).</p>
+
+<p>This way, you will be able to run the embedded QEMU with full KVM
+acceleration if you pass the options <code>-qemu -m 1024 -enable-kvm</code> on
+Eclipse's "Run > Run Configurations... > Target > Additional Emulator
+Command Line Options".</p>
+
+<p>After that, you are probably good to go.</p>
+
+</section>
+
+<footer class="inlinefooter">
+
+<span class="pagedate">
+Posted <time datetime="2014-01-17T22:18:04Z" pubdate="pubdate">2014-01-17T20:18:04 BRST</time>
+</span>
+
+
+<nav class="tags">
+Tags:
+
+<a href="./tags/android/" rel="tag">android</a>
+
+<a href="./tags/debian/" rel="tag">debian</a>
+
+<a href="./tags/free-software/" rel="tag">free-software</a>
+
+<a href="./tags/java/" rel="tag">java</a>
+
+</nav>
+
+
+
+
+
+
+
+
+</footer>
+
+</article>
+<article class="inlinepage">
+
+<section class="inlineheader">
+
+<header class="header">
+
 <a href="./posts/2013-12-11-trivial_fact_convexity_of_polyhedra/">Trivial fact: convexity of polyhedra</a>
 
 </header>
@@ -1334,79 +1437,6 @@ Tags:
 <a href="./tags/free-software/" rel="tag">free-software</a>
 
 <a href="./tags/linux/" rel="tag">linux</a>
-
-</nav>
-
-
-
-
-
-
-
-
-</footer>
-
-</article>
-<article class="inlinepage">
-
-<section class="inlineheader">
-
-<header class="header">
-
-<a href="./posts/dear_lazyweb_what_is_a_good_free_video_editor/">Looking for (Free) a Video Editor</a>
-
-</header>
-</section>
-
-<section class="inlinecontent">
-<p>Let's suppose that you went to a show of your favourite some time ago and
-you were able to sneak in a camera (well, in those times, cell phones
-weren't able to record much more than 176x144 pixels at 12fps).</p>
-
-<p>But, then, you suddenly found that some people uploaded (short) fragments of
-that very same show to youtube and, collecting those, you may be able to
-create a "multi-camera" version of the video that you can record to keep of
-your memorable concert.</p>
-
-<p>The multi-camera, in the sense above, is not the same as
-<a href="https://en.wikipedia.org/wiki/DVD-Video#Chapters_and_angles">multiple angles</a> (like some DVDs), but something like a TV broadcast,
-where the stage is filmed by cameras positioned at some places and the image
-that is broadcast is switched from time to time according to that who is
-singing, or playing etc.</p>
-
-<p>So, Dear Lazyweb, do we happen to have any Free Software (preferably already
-packaged in Debian) that is able to help with the task of "aligning" (in
-time) videos from various (different) sources so as to produce one
-multi-camera video?</p>
-
-<p>What would my options be? I <a href="https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;lc=Zwz7xq5ANT43j64jh8zLRYCMVRnJQgINcgSOhf-5Ozg">asked this</a> on youtube for a person that
-<a href="https://www.youtube.com/watch?v=0e7IPeuK1tQ">did exactly what I want</a> and <a href="https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;lc=Zwz7xq5ANT6jkGhCF9g1RzmZAsFIGmYzChDJwqwovNc">their answer</a> was <a href="https://en.wikipedia.org/wiki/Sony_Vegas_Pro">Sony Vegas</a>,
-which I fear that does not exactly would be allowed in Debian. <img src="./smileys/smile.png" alt=":)" /></p>
-
-<p>Any comments are welcome, thanks, and if I am successful, I will upload the
-final video. <img src="./smileys/smile.png" alt=":)" /></p>
-
-</section>
-
-<footer class="inlinefooter">
-
-<span class="pagedate">
-Posted <time datetime="2013-01-30T00:16:07Z" pubdate="pubdate">2013-01-29T22:16:07 BRST</time>
-</span>
-
-
-<nav class="tags">
-Tags:
-
-<a href="./tags/debian/" rel="tag">debian</a>
-
-<a href="./tags/free-software/" rel="tag">free-software</a>
-
-<a href="./tags/lazyweb/" rel="tag">lazyweb</a>
-
-<a href="./tags/multimedia/" rel="tag">multimedia</a>
-
-<a href="./tags/video/" rel="tag">video</a>
 
 </nav>
 

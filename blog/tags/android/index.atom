@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>pages tagged android</title>
+<link href="http://cynic.cc/blog//tags/android/"/>
+<link href="http://cynic.cc/blog//tags/android/index.atom" rel="self" type="application/atom+xml"/>
+<author>
+
+<name>Rogério Brito's Digital Junkyard</name>
+
+</author>
+
+
+
+
+<id>http://cynic.cc/blog//tags/android/</id>
+
+<subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
+<generator uri="http://ikiwiki.info/">ikiwiki</generator>
+<updated>2014-01-17T22:17:37Z</updated>
+<entry>
+	<title>Developing for Android with Debian</title>
+
+	<id>http://cynic.cc/blog//posts/2014-01-17-developing_for_android_with_debian/</id>
+
+	<link href="http://cynic.cc/blog//posts/2014-01-17-developing_for_android_with_debian/"/>
+
+
+
+
+
+
+	<category term="android" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="java" />
+
+
+	<updated>2014-01-17T22:17:37Z</updated>
+	<published>2014-01-17T22:18:04Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I have just enrolled in a MOOC to learn about programming with Android.
+There are many tutorials and reports of people using Linux for the
+development of the apps out there, but, unfortunately, many of them are
+outdated or contain misleading information.&lt;/p&gt;
+
+&lt;p&gt;You will find bazillion instructions out there telling you to install
+JDK6. (Even the instructions in the MOOCs say so, and Google says that it is
+the only supported version of Java). Even more than that, some of them will
+tell you that you should &lt;em&gt;not&lt;/em&gt; use OpenJDK, but use Oracle&#39;s JDK instead.&lt;/p&gt;
+
+&lt;p&gt;So, if you have a pure &lt;code&gt;amd64&lt;/code&gt; system and you try to install the x86-64
+version of Google&#39;s Android Developer Tools (ADT), you are going to have a
+surprise: you will have all sorts of programs telling you that you have file
+not found, even though the required binaries are there.&lt;/p&gt;
+
+&lt;p&gt;(This is, of course, besides install &lt;code&gt;openjdk-7-jdk&lt;/code&gt;, if you wish to use the
+integrated Eclipse environment).&lt;/p&gt;
+
+&lt;p&gt;Turns out that the so-called 64-bit ADT/SDK actually has many 32-bit
+executables(!) and they aren&#39;t statically linked. Inspecting them, I needed
+the following packages:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    gcc-4.8-base:i386
+    libc6-i686:i386
+    libc6:i386
+    libgcc1:i386
+    libstdc++6:i386
+    zlib1g:i386
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It is worth observing that:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;libstdc++6:i386&lt;/code&gt; depends (transitively) on &lt;code&gt;libc6:i386&lt;/code&gt;, &lt;code&gt;libgcc1:i386&lt;/code&gt;,
+and &lt;code&gt;gcc-4.8-base:i386&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;zlib1g:i386&lt;/code&gt; depends (transitively) on &lt;code&gt;libc6:i386&lt;/code&gt;, &lt;code&gt;libgcc1:i386&lt;/code&gt;, and
+&lt;code&gt;gcc-4.8-base:i386&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Given the above, and given that the version of the GCC libraries can vary a
+lot, it is perhaps better to simply do something like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install libstdc++6:i386 zlib1g:i386
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Although not necessary, since you are using an amd64 machine, your computer
+already supports many more recent instructions that will be used if you
+install the package &lt;code&gt;libc6-i686:i386&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To avoid the emulator from spitting out error messages related to &lt;code&gt;libGL.so&lt;/code&gt;,
+install &lt;code&gt;libgl1-mesa-dev&lt;/code&gt; (note: &lt;em&gt;not&lt;/em&gt; &lt;code&gt;i386&lt;/code&gt; here).&lt;/p&gt;
+
+&lt;p&gt;This way, you will be able to run the embedded QEMU with full KVM
+acceleration if you pass the options &lt;code&gt;-qemu -m 1024 -enable-kvm&lt;/code&gt; on
+Eclipse&#39;s &quot;Run &gt; Run Configurations... &gt; Target &gt; Additional Emulator
+Command Line Options&quot;.&lt;/p&gt;
+
+&lt;p&gt;After that, you are probably good to go.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+
+</feed>
