@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-04-18T21:09:53Z</updated>
+<updated>2014-01-24T06:53:04Z</updated>
 <entry>
 	<title>Packaging fonts for a Debian-based system</title>
 
@@ -358,6 +358,60 @@ www.clivemenzies.co.uk ...
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;In the mean time, I&#39;m swamped with middle terms.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2004-04-10</title>
+
+	<id>http://cynic.cc/blog//posts/2004-04-10/</id>
+
+	<link href="http://cynic.cc/blog//posts/2004-04-10/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="emacs" />
+
+	<category term="free-software" />
+
+	<category term="latex" />
+
+	<category term="tex" />
+
+
+	<updated>2014-01-24T06:53:04Z</updated>
+	<published>2004-04-10T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;The more I use the combo &lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt; and
+&lt;a href=&quot;http://www.emacswiki.org/&quot;&gt;Emacs&lt;/a&gt;, the more I like them. It is
+amazing how much complexity they have below their surface and how
+much they can accomplish. Unfortunately, I still don&#39;t know enough
+to call myself neither a LaTeX literate nor a Emacs literate, but I
+sure hope to fill the holes in my education soon.&lt;/p&gt;
+
+&lt;p&gt;One package that I recently discovered for Emacs is
+&lt;a href=&quot;http://ecb.sf.net/&quot;&gt;ECB&lt;/a&gt;, which provides many of the features
+found in other development programs, like Microsoft&#39;s Visual
+Studio. And the included speedbar (and the newer speedbar-beta,
+already included in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.debian.org/releases/sarge/&quot;&gt;sarge&lt;/a&gt; is amazing.&lt;/p&gt;
+
+&lt;p&gt;Also amazing are the packages
+&lt;a href=&quot;http://preview-latex.sf.net/&quot;&gt;preview-latex&lt;/a&gt;,
+&lt;a href=&quot;http://www.gnu.org/software/auctex/&quot;&gt;AUCTeX&lt;/a&gt; and
+&lt;a href=&quot;http://zon.astro.uva.nl/~dominik/Tools/reftex/&quot;&gt;RefTeX&lt;/a&gt;. They all
+make life with &lt;a href=&quot;http://www.tug.org/&quot;&gt;TeX&lt;/a&gt; and
+&lt;a href=&quot;http://www.emacswiki.org/&quot;&gt;Emacs&lt;/a&gt; much easier.&lt;/p&gt;
 
 	</content>
 

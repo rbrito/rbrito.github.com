@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 19 Oct 2013 16:53:25 -0300</pubDate>
+<pubDate>Fri, 24 Jan 2014 04:59:30 -0200</pubDate>
 <item>
 	<title>2005-12-14</title>
 
@@ -31,313 +31,281 @@
 
 </item>
 <item>
-	<title>2002-12-29</title>
+	<title>2004-11-21</title>
 
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-12-29/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2004-11-21/</guid>
 
-	<link>http://cynic.cc/blog//posts/2002-12-29/</link>
+	<link>http://cynic.cc/blog//posts/2004-11-21/</link>
 
 
-
-	<category>debian</category>
-
-	<category>fink</category>
-
-	<category>free-software</category>
 
 	<category>life</category>
 
-	<category>macosx</category>
-
-	<category>study</category>
+	<category>teaching</category>
 
 
-	<pubDate>Sun, 29 Dec 2002 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-10-11T06:43:13Z</dcterms:modified>
+	<pubDate>Sun, 21 Nov 2004 00:00:00 -0200</pubDate>
+	<dcterms:modified>2014-01-24T06:59:30Z</dcterms:modified>
 
 
-	<description>&lt;p&gt;It&#39;s been quite a while since I last updated my diary. Many things
-preventing me from updating it, which is good (well, at least part
-of the things are good).&lt;/p&gt;
+	<description>&lt;p&gt;Not only one, but
+&lt;a href=&quot;http://www.orkut.com/Community.aspx?cmm=684957&quot;&gt;two&lt;/a&gt;
+&lt;a href=&quot;http://www.orkut.com/Community.aspx?cmm=642523&quot;&gt;communities&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Been working towards finishing my M.Sc. degree. It seems that the
-end never comes!&lt;/p&gt;
-
-&lt;p&gt;I&#39;ve also been using &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;
-(Jaguar) a lot lately. In some ways, it is a nice operating system.
-But the lack of a real package management system is a bad thing. I
-think that I&#39;ve been spoiled by &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
-incredible (and clean) service. Unfortunately,
-&lt;a href=&quot;http://fink.sf.net/&quot;&gt;Fink&lt;/a&gt; isn&#39;t as good as Debian. And there are
-quite few programs in binary form from Fink. And they don&#39;t have a
-menu system like Debian&#39;s &lt;code&gt;menu&lt;/code&gt;. And they don&#39;t even have
-&lt;a href=&quot;http://www.windowmaker.org/&quot;&gt;Windowmaker&lt;/a&gt; available! And AUCTeX.
-etc&lt;/p&gt;
-
-&lt;p&gt;Saw that &lt;a href=&quot;http://www.limewire.com/&quot;&gt;Limewire&lt;/a&gt; is uploaded to
-Debian&#39;s incoming repository, which is cool. Also discovered this
-&lt;a href=&quot;http://muttprint.sf.net/&quot;&gt;&lt;code&gt;muttprint&lt;/code&gt;&lt;/a&gt; package, which sounds
-promising. Packaged for Debian also, of course.&lt;/p&gt;
+&lt;p&gt;And I&#39;m &lt;em&gt;still&lt;/em&gt; going thru heaps of mid-terms. They never seem to
+end.&lt;/p&gt;
 </description>
 
 
 </item>
 <item>
-	<title>2002-10-10</title>
+	<title>2004-11-13</title>
 
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-10-10/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2004-11-13/</guid>
 
-	<link>http://cynic.cc/blog//posts/2002-10-10/</link>
+	<link>http://cynic.cc/blog//posts/2004-11-13/</link>
 
 
-
-	<category>free-software</category>
 
 	<category>life</category>
 
-
-	<pubDate>Thu, 10 Oct 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:43:13Z</dcterms:modified>
+	<category>teaching</category>
 
 
-	<description>&lt;p&gt;The BBC has a nice article about evolution. Of humans.
-&lt;a href=&quot;http://news.bbc.co.uk/2/hi/health/2190461.stm&quot;&gt;Here&lt;/a&gt;.&lt;/p&gt;
+	<pubDate>Sat, 13 Nov 2004 00:00:00 -0200</pubDate>
+	<dcterms:modified>2014-01-24T06:58:55Z</dcterms:modified>
 
-&lt;p&gt;Some time ago, I found this nice argument (on
-&lt;a href=&quot;http://slashdot.org/&quot;&gt;Slashdot&lt;/a&gt;) for why people should use
-&lt;a href=&quot;http://www.openoffice.org/&quot;&gt;OpenOffice&lt;/a&gt; instead of Microsoft&#39;s
-Office suite:&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&quot;I see you&#39;re still using traditional software on your computer,
-  Bob. Don&#39;t you know that stuff is susceptible to Microsoft Outlook
-  viruses? Have you tried Openoffice? It&#39;s free! It&#39;s free because it
-  is developed using a leading-edge development method that&#39;s
-  superior to the old-fashioned way that Microsoft develops software.
-  Microsoft software is expensive because the conventional methods
-  they use to create it are inefficient. That&#39;s why there are so many
-  Microsoft viruses around. There aren&#39;t any OpenOffice viruses. Why
-  don&#39;t you give it a try?&quot;&lt;/p&gt;
-&lt;/blockquote&gt;
+	<description>&lt;p&gt;I discovered that maybe I slightly more popular than I thought. &lt;img src=&quot;http://cynic.cc/blog//tags/life/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;
+I even have
+&lt;a href=&quot;http://www.orkut.com/Community.aspx?cmm=642523&quot;&gt;the honour(?) of having an orkut community&lt;/a&gt;
+dedicated to me. Nice.&lt;/p&gt;
 </description>
 
 
 </item>
 <item>
-	<title>2002-08-23</title>
+	<title>2004-11-12</title>
 
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-08-23/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2004-11-12/</guid>
 
-	<link>http://cynic.cc/blog//posts/2002-08-23/</link>
+	<link>http://cynic.cc/blog//posts/2004-11-12/</link>
 
 
 
-	<category>algorithms</category>
+	<category>free-software</category>
 
 	<category>hardware</category>
-
-	<category>life</category>
-
-	<category>study</category>
-
-
-	<pubDate>Fri, 23 Aug 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:43:13Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Tried to go to my university, to see a seminar on the Steiner
-Problem in Graphs, without success (the traffic didn&#39;t let me
-arrive). Came back home and decided that it would be nice to visit
-my uncle&#39;s store. He was leaving early to catch the last hours of
-this year&#39;s Comdex and I went with him (he gave me an pass).&lt;/p&gt;
-
-&lt;p&gt;Its always nice to see all those exposition stands &quot;competing&quot; to
-see which one has got the prettiest models. And it was also nice to
-see that flat panels are invading the market, but I wonder how much
-time it will take before they are &quot;purchaseable&quot;, especially for a
-graduate student.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-08-22</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-08-22/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-08-22/</link>
-
-
-
-	<category>algorithms</category>
-
-	<category>hardware</category>
-
-	<category>life</category>
-
-	<category>powerpc</category>
-
-	<category>study</category>
-
-
-	<pubDate>Thu, 22 Aug 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-19T19:53:25Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;[[!mathjax ]]&lt;/p&gt;
-
-&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
-programming is able to achieve a complexity of !!mathjaxbegin-i!! TyhuXjIvXGxvZyBuKQ==
- !!mathjaxend-i!!, which
-is a theoretical improvement over the classic dynamic programming
-method.&lt;/p&gt;
-
-&lt;p&gt;Who would guess that a person from a distant country can make you
-happier than most people from your own country?&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-08-19</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-08-19/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-08-19/</link>
-
-
-
-	<category>life</category>
-
-
-	<pubDate>Mon, 19 Aug 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:43:13Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;My father travelled to Lucélia today.&lt;/p&gt;
-
-&lt;p&gt;To break the tradition, I took the later part of the day to visit
-my uncle&#39;s place with my mother to distract myself a bit, something
-that I need. My uncle cooked some pasta with bacon and we spent
-some quite nice moments having dinner. It is healthy to do
-different things in a while.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-08-18</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-08-18/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-08-18/</link>
-
-
-
-	<category>life</category>
-
-
-	<pubDate>Sun, 18 Aug 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:43:13Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;So, I guess that this is the end of an era. And this is sad.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-07-28</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-28/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-07-28/</link>
-
-
-
-	<category>life</category>
-
-
-	<pubDate>Sun, 28 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:33:23Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Something must be clearly wrong when all perspectives for your
-future are bleak.&lt;br&gt;
-Something must be clearly wrong when all perspectives for your
-&lt;em&gt;near&lt;/em&gt; future are bleak.&lt;br&gt;
-Something must be clearly wrong when most of the time you all you
-feel is agony.&lt;br&gt;
-Something must be clearly wrong.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-07-27</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-27/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-07-27/</link>
-
-
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>lame</category>
 
 	<category>life</category>
 
 	<category>linux</category>
 
-	<category>powerpc</category>
+	<category>phd</category>
 
 	<category>study</category>
 
-
-	<pubDate>Sat, 27 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:33:23Z</dcterms:modified>
+	<category>toefl</category>
 
 
-	<description>&lt;p&gt;Updated &lt;a href=&quot;http://lame.sf.net/&quot;&gt;lame&lt;/a&gt;&#39;s Debian packaging a little
-bit. Now it correctly reports version 3.92. This closed a bug in
-&lt;a href=&quot;http://sf.net/projects/lame/&quot;&gt;sourceforge&lt;/a&gt;. Some other changes are
-on the pipeline (like getting rid of the dreaded &lt;code&gt;rpath&lt;/code&gt;, with
-&lt;a href=&quot;http://lists.debian.org/debian-devel/2002/debian-devel-200207/msg01792.html&quot;&gt;a recipe&lt;/a&gt;
-I got from &lt;a href=&quot;http://lists.debian.org/debian-devel/&quot;&gt;debian-devel&lt;/a&gt;).
-The only thing remaining is to test it on x86 and powerpc before I
-commit it.&lt;/p&gt;
+	<pubDate>Fri, 12 Nov 2004 00:00:00 -0200</pubDate>
+	<dcterms:modified>2014-01-24T06:58:14Z</dcterms:modified>
 
-&lt;p&gt;Worked a little bit (well, not &lt;em&gt;that&lt;/em&gt; little) on my Master&#39;s
-thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
+
+	<description>&lt;p&gt;Well, maybe &lt;a href=&quot;http://www.cs.newcastle.edu.au/~nbi/&quot;&gt;Oz&lt;/a&gt; &lt;em&gt;is&lt;/em&gt; a bit
+farther than I thought at first, due to some
+&lt;a href=&quot;http://www.toefl.org/&quot;&gt;bureaucratic&lt;/a&gt; matters, unfortunately.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quiz:&lt;/strong&gt; How does one discovers when his computer has memory
+problems?
+&lt;strong&gt;Answer:&lt;/strong&gt; When one starts to see
+&lt;a href=&quot;http://lkml.org/lkml/2004/11/7/96&quot;&gt;instabilities while running Linux&lt;/a&gt;.&lt;/p&gt;
 </description>
 
 
 </item>
 <item>
-	<title>2002-07-26</title>
+	<title>2004-11-09</title>
 
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-26/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2004-11-09/</guid>
 
-	<link>http://cynic.cc/blog//posts/2002-07-26/</link>
+	<link>http://cynic.cc/blog//posts/2004-11-09/</link>
 
 
 
-	<category>free-sfotware</category>
+	<category>debian</category>
 
-	<category>hack</category>
+	<category>free-software</category>
+
+	<category>java</category>
+
+	<category>latex</category>
 
 	<category>life</category>
 
 
-	<pubDate>Fri, 26 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:33:23Z</dcterms:modified>
+	<pubDate>Tue, 09 Nov 2004 00:00:00 -0200</pubDate>
+	<dcterms:modified>2014-01-24T06:56:59Z</dcterms:modified>
 
 
-	<description>&lt;p&gt;Fixed some of my e-mail settings and now things seem to be
-simpler.&lt;/p&gt;
+	<description>&lt;p&gt;What a strange year this one has been. I was almost killed today in
+a car accident. Modulo some pain and the lack of a car, everything
+is fine right now. But I wished that everything were slightly
+different.&lt;/p&gt;
+
+&lt;p&gt;On the good news front,
+&lt;a href=&quot;http://www.mozilla.org/products/firefox/&quot;&gt;Firefox 1.0&lt;/a&gt; was
+released today, which is one of the most anticipated software
+releases of the year. Nice to counter-balance the other bad news.&lt;/p&gt;
+
+&lt;p&gt;I also updated &lt;a href=&quot;http://cynic.cc/blog//tags/life/../latex/index.html&quot;&gt;my mini-tour&lt;/a&gt; for making
+presentations in LaTeX with PPower4.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2004-04-09</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2004-04-09/</guid>
+
+	<link>http://cynic.cc/blog//posts/2004-04-09/</link>
+
+
+
+	<category>life</category>
+
+	<category>portuguese</category>
+
+
+	<pubDate>Fri, 09 Apr 2004 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-01-24T06:51:10Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Não sei quem é o estúpido, mas que há estupidez,
+&lt;a href=&quot;http://noticias.uol.com.br/bbc/2004/04/09/ult36u31425.jhtm&quot;&gt;sem dúvida alguma há&lt;/a&gt;:
+&lt;em&gt;Mach 3&lt;/em&gt; não é 3 vezes a velocidade da luz, mas sim 3 vezes a
+velocidade do &lt;em&gt;som&lt;/em&gt;.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2003-07-14</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2003-07-14/</guid>
+
+	<link>http://cynic.cc/blog//posts/2003-07-14/</link>
+
+
+
+	<category>health</category>
+
+	<category>life</category>
+
+
+	<pubDate>Mon, 14 Jul 2003 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-01-24T06:50:30Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Not many news today. I guess that that is what one gets after a
+period of hectic activity. Which is nice, as I needed to be a bit
+calmer or else things could get pretty sad from a health
+perspective.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2003-05-09</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2003-05-09/</guid>
+
+	<link>http://cynic.cc/blog//posts/2003-05-09/</link>
+
+
+
+	<category>life</category>
+
+	<category>study</category>
+
+
+	<pubDate>Fri, 09 May 2003 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-01-24T06:49:58Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;My dissertation is basically finished now. All chapters are either
+already completely written or they have only details left (like
+changing the language, checking the correctness of proofs etc). The
+first two chapters are almost consumer-ready. The others are what
+is worrying me.&lt;/p&gt;
+
+&lt;p&gt;And now things are just a bit different, as it seems that I have a
+kind of deadline to worry about. A &lt;em&gt;hard&lt;/em&gt; deadline, that is. It&#39;s
+25th of June, which must not be missed.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2003-03-12</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2003-03-12/</guid>
+
+	<link>http://cynic.cc/blog//posts/2003-03-12/</link>
+
+
+
+	<category>life</category>
+
+	<category>study</category>
+
+
+	<pubDate>Wed, 12 Mar 2003 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-01-24T06:49:10Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;I have to finish the 5th chapter of my dissertation.&lt;br&gt;
+I have to finish the 5th chapter of my dissertation.&lt;br&gt;
+I have to finish the 5th chapter of my dissertation.&lt;br&gt;&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2003-03-11</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2003-03-11/</guid>
+
+	<link>http://cynic.cc/blog//posts/2003-03-11/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>study</category>
+
+
+	<pubDate>Tue, 11 Mar 2003 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-01-24T06:48:34Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Woke up without sleeping as much as I wanted. Fine.&lt;/p&gt;
+
+&lt;p&gt;Wrote yet another bit about HMMs for the last chapter of my
+Master&#39;s work. This time it was about the training process of a HMM
+and the Baum-Welch algorithm. It seems to make perfect sense, even
+if you haven&#39;t seen the proof that it is a special case of the EM
+algorithm. It also seems to be slow.&lt;/p&gt;
+
+&lt;p&gt;I typed what I wrote.&lt;/p&gt;
+
+&lt;p&gt;And &lt;a href=&quot;http://www.debian.org/releases/sarge/&quot;&gt;sarge&lt;/a&gt; is being updated
+again. Hooray&lt;/p&gt;
 </description>
 
 

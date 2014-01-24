@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-12-11T02:35:41Z</updated>
+<updated>2014-01-24T06:58:14Z</updated>
 <entry>
 	<title>Trivial fact: convexity of polyhedra</title>
 
@@ -781,193 +781,45 @@ Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&
 
 </entry>
 <entry>
-	<title>2002-12-29</title>
+	<title>2004-11-12</title>
 
-	<id>http://cynic.cc/blog//posts/2002-12-29/</id>
+	<id>http://cynic.cc/blog//posts/2004-11-12/</id>
 
-	<link href="http://cynic.cc/blog//posts/2002-12-29/"/>
-
-
+	<link href="http://cynic.cc/blog//posts/2004-11-12/"/>
 
 
 
 
-	<category term="debian" />
 
-	<category term="fink" />
 
 	<category term="free-software" />
 
-	<category term="life" />
-
-	<category term="macosx" />
-
-	<category term="study" />
-
-
-	<updated>2013-10-11T06:43:13Z</updated>
-	<published>2002-12-29T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;It&#39;s been quite a while since I last updated my diary. Many things
-preventing me from updating it, which is good (well, at least part
-of the things are good).&lt;/p&gt;
-
-&lt;p&gt;Been working towards finishing my M.Sc. degree. It seems that the
-end never comes!&lt;/p&gt;
-
-&lt;p&gt;I&#39;ve also been using &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;
-(Jaguar) a lot lately. In some ways, it is a nice operating system.
-But the lack of a real package management system is a bad thing. I
-think that I&#39;ve been spoiled by &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
-incredible (and clean) service. Unfortunately,
-&lt;a href=&quot;http://fink.sf.net/&quot;&gt;Fink&lt;/a&gt; isn&#39;t as good as Debian. And there are
-quite few programs in binary form from Fink. And they don&#39;t have a
-menu system like Debian&#39;s &lt;code&gt;menu&lt;/code&gt;. And they don&#39;t even have
-&lt;a href=&quot;http://www.windowmaker.org/&quot;&gt;Windowmaker&lt;/a&gt; available! And AUCTeX.
-etc&lt;/p&gt;
-
-&lt;p&gt;Saw that &lt;a href=&quot;http://www.limewire.com/&quot;&gt;Limewire&lt;/a&gt; is uploaded to
-Debian&#39;s incoming repository, which is cool. Also discovered this
-&lt;a href=&quot;http://muttprint.sf.net/&quot;&gt;&lt;code&gt;muttprint&lt;/code&gt;&lt;/a&gt; package, which sounds
-promising. Packaged for Debian also, of course.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2002-08-23</title>
-
-	<id>http://cynic.cc/blog//posts/2002-08-23/</id>
-
-	<link href="http://cynic.cc/blog//posts/2002-08-23/"/>
-
-
-
-
-
-
-	<category term="algorithms" />
-
 	<category term="hardware" />
-
-	<category term="life" />
-
-	<category term="study" />
-
-
-	<updated>2013-10-11T06:43:13Z</updated>
-	<published>2002-08-23T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Tried to go to my university, to see a seminar on the Steiner
-Problem in Graphs, without success (the traffic didn&#39;t let me
-arrive). Came back home and decided that it would be nice to visit
-my uncle&#39;s store. He was leaving early to catch the last hours of
-this year&#39;s Comdex and I went with him (he gave me an pass).&lt;/p&gt;
-
-&lt;p&gt;Its always nice to see all those exposition stands &quot;competing&quot; to
-see which one has got the prettiest models. And it was also nice to
-see that flat panels are invading the market, but I wonder how much
-time it will take before they are &quot;purchaseable&quot;, especially for a
-graduate student.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2002-08-22</title>
-
-	<id>http://cynic.cc/blog//posts/2002-08-22/</id>
-
-	<link href="http://cynic.cc/blog//posts/2002-08-22/"/>
-
-
-
-
-
-
-	<category term="algorithms" />
-
-	<category term="hardware" />
-
-	<category term="life" />
-
-	<category term="powerpc" />
-
-	<category term="study" />
-
-
-	<updated>2013-10-19T19:53:25Z</updated>
-	<published>2002-08-22T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;[[!mathjax ]]&lt;/p&gt;
-
-&lt;p&gt;Learned today that the &quot;Four Russians&#39; Method&quot; applied to dynamic
-programming is able to achieve a complexity of !!mathjaxbegin-i!! TyhuXjIvXGxvZyBuKQ==
- !!mathjaxend-i!!, which
-is a theoretical improvement over the classic dynamic programming
-method.&lt;/p&gt;
-
-&lt;p&gt;Who would guess that a person from a distant country can make you
-happier than most people from your own country?&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2002-07-27</title>
-
-	<id>http://cynic.cc/blog//posts/2002-07-27/</id>
-
-	<link href="http://cynic.cc/blog//posts/2002-07-27/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="lame" />
 
 	<category term="life" />
 
 	<category term="linux" />
 
-	<category term="powerpc" />
+	<category term="phd" />
 
 	<category term="study" />
 
+	<category term="toefl" />
 
-	<updated>2013-10-11T06:33:23Z</updated>
-	<published>2002-07-27T03:00:00Z</published>
+
+	<updated>2014-01-24T06:58:14Z</updated>
+	<published>2004-11-12T02:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Updated &lt;a href=&quot;http://lame.sf.net/&quot;&gt;lame&lt;/a&gt;&#39;s Debian packaging a little
-bit. Now it correctly reports version 3.92. This closed a bug in
-&lt;a href=&quot;http://sf.net/projects/lame/&quot;&gt;sourceforge&lt;/a&gt;. Some other changes are
-on the pipeline (like getting rid of the dreaded &lt;code&gt;rpath&lt;/code&gt;, with
-&lt;a href=&quot;http://lists.debian.org/debian-devel/2002/debian-devel-200207/msg01792.html&quot;&gt;a recipe&lt;/a&gt;
-I got from &lt;a href=&quot;http://lists.debian.org/debian-devel/&quot;&gt;debian-devel&lt;/a&gt;).
-The only thing remaining is to test it on x86 and powerpc before I
-commit it.&lt;/p&gt;
+	&lt;p&gt;Well, maybe &lt;a href=&quot;http://www.cs.newcastle.edu.au/~nbi/&quot;&gt;Oz&lt;/a&gt; &lt;em&gt;is&lt;/em&gt; a bit
+farther than I thought at first, due to some
+&lt;a href=&quot;http://www.toefl.org/&quot;&gt;bureaucratic&lt;/a&gt; matters, unfortunately.&lt;/p&gt;
 
-&lt;p&gt;Worked a little bit (well, not &lt;em&gt;that&lt;/em&gt; little) on my Master&#39;s
-thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quiz:&lt;/strong&gt; How does one discovers when his computer has memory
+problems?
+&lt;strong&gt;Answer:&lt;/strong&gt; When one starts to see
+&lt;a href=&quot;http://lkml.org/lkml/2004/11/7/96&quot;&gt;instabilities while running Linux&lt;/a&gt;.&lt;/p&gt;
 
 	</content>
 
@@ -975,11 +827,11 @@ thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2002-03-28</title>
+	<title>2003-05-09</title>
 
-	<id>http://cynic.cc/blog//posts/2002-03-28/</id>
+	<id>http://cynic.cc/blog//posts/2003-05-09/</id>
 
-	<link href="http://cynic.cc/blog//posts/2002-03-28/"/>
+	<link href="http://cynic.cc/blog//posts/2003-05-09/"/>
 
 
 
@@ -988,22 +840,140 @@ thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
 
 	<category term="life" />
 
-	<category term="sadness" />
+	<category term="study" />
+
+
+	<updated>2014-01-24T06:49:58Z</updated>
+	<published>2003-05-09T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;My dissertation is basically finished now. All chapters are either
+already completely written or they have only details left (like
+changing the language, checking the correctness of proofs etc). The
+first two chapters are almost consumer-ready. The others are what
+is worrying me.&lt;/p&gt;
+
+&lt;p&gt;And now things are just a bit different, as it seems that I have a
+kind of deadline to worry about. A &lt;em&gt;hard&lt;/em&gt; deadline, that is. It&#39;s
+25th of June, which must not be missed.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2003-03-12</title>
+
+	<id>http://cynic.cc/blog//posts/2003-03-12/</id>
+
+	<link href="http://cynic.cc/blog//posts/2003-03-12/"/>
+
+
+
+
+
+
+	<category term="life" />
 
 	<category term="study" />
 
 
-	<updated>2013-09-22T21:41:34Z</updated>
-	<published>2002-03-28T03:00:00Z</published>
+	<updated>2014-01-24T06:49:10Z</updated>
+	<published>2003-03-12T03:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Worked a bit more on my Master&#39;s Dissertation. It is in a bad state
-right now, but it seems to be getting somewhere. Where, I don&#39;t
-know.&lt;/p&gt;
+	&lt;p&gt;I have to finish the 5th chapter of my dissertation.&lt;br&gt;
+I have to finish the 5th chapter of my dissertation.&lt;br&gt;
+I have to finish the 5th chapter of my dissertation.&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;It is good, because I can keep my mind clear of some nasty
-subjects.&lt;/p&gt;
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2003-03-11</title>
+
+	<id>http://cynic.cc/blog//posts/2003-03-11/</id>
+
+	<link href="http://cynic.cc/blog//posts/2003-03-11/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="life" />
+
+	<category term="study" />
+
+
+	<updated>2014-01-24T06:48:34Z</updated>
+	<published>2003-03-11T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Woke up without sleeping as much as I wanted. Fine.&lt;/p&gt;
+
+&lt;p&gt;Wrote yet another bit about HMMs for the last chapter of my
+Master&#39;s work. This time it was about the training process of a HMM
+and the Baum-Welch algorithm. It seems to make perfect sense, even
+if you haven&#39;t seen the proof that it is a special case of the EM
+algorithm. It also seems to be slow.&lt;/p&gt;
+
+&lt;p&gt;I typed what I wrote.&lt;/p&gt;
+
+&lt;p&gt;And &lt;a href=&quot;http://www.debian.org/releases/sarge/&quot;&gt;sarge&lt;/a&gt; is being updated
+again. Hooray&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2003-03-10</title>
+
+	<id>http://cynic.cc/blog//posts/2003-03-10/</id>
+
+	<link href="http://cynic.cc/blog//posts/2003-03-10/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="life" />
+
+	<category term="music" />
+
+	<category term="study" />
+
+
+	<updated>2014-01-24T06:47:31Z</updated>
+	<published>2003-03-10T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Finally got myself &lt;a href=&quot;http://www.opeth.com/&quot;&gt;Opeth&#39;s&lt;/a&gt; brand new
+(actually, not even released) album, Damnation.&lt;/p&gt;
+
+&lt;p&gt;Cooked my first bread! Amazingly fun! I even took a picture to
+document this special day.&lt;/p&gt;
+
+&lt;p&gt;Updated my father&#39;s computer, installed the tax program and
+installed &lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt; for him.&lt;/p&gt;
+
+&lt;p&gt;Wrote another bit about HMMs for my Master&#39;s work.&lt;/p&gt;
 
 	</content>
 
