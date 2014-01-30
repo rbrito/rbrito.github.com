@@ -8,7 +8,48 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 24 Jan 2014 04:58:14 -0200</pubDate>
+<pubDate>Thu, 30 Jan 2014 00:44:49 -0200</pubDate>
+<item>
+	<title>Trivial fact #2: Harmonic Numbers</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2014-01-30-trivial_fact_2/</guid>
+
+	<link>http://cynic.cc/blog//posts/2014-01-30-trivial_fact_2/</link>
+
+
+
+	<category>debian</category>
+
+	<category>math</category>
+
+	<category>study</category>
+
+	<category>tex</category>
+
+
+	<pubDate>Thu, 30 Jan 2014 00:43:30 -0200</pubDate>
+	<dcterms:modified>2014-01-30T02:44:49Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;I don&#39;t know how Debian planet deals with MathJax (it seems to
+become illegible), but I will try to post this, anyway.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fact:&lt;/strong&gt; Since the harmonic numbers can be approximated by the
+natural logarithm, that is, !!mathjaxbegin-i!! SF9uIFxzaW1lcSBcbG4gbg==
+ !!mathjaxend-i!!, we can clearly
+see that
+!!mathjaxbegin-d!! CiBcZnJhY3sxfXtpKzF9ICsgXGNkb3RzICsgXGZyYWN7MX17bn0gPSBIX24gLSBIX2kgXHNpbWVx
+IFxsbiBuIC0gXGxuIGkgPSBcbG4gXGZyYWN7bn17aX0sCg==
+ !!mathjaxend-d!!
+which is a trivial approximation that may be handy sometimes.&lt;/p&gt;
+
+&lt;p&gt;If you spot any errors on this, please let me know.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Trivial fact: convexity of polyhedra</title>
 
@@ -871,42 +912,6 @@ algorithm. It also seems to be slow.&lt;/p&gt;
 
 &lt;p&gt;And &lt;a href=&quot;http://www.debian.org/releases/sarge/&quot;&gt;sarge&lt;/a&gt; is being updated
 again. Hooray&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2003-03-10</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2003-03-10/</guid>
-
-	<link>http://cynic.cc/blog//posts/2003-03-10/</link>
-
-
-
-	<category>free-software</category>
-
-	<category>life</category>
-
-	<category>music</category>
-
-	<category>study</category>
-
-
-	<pubDate>Mon, 10 Mar 2003 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-01-24T06:47:31Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Finally got myself &lt;a href=&quot;http://www.opeth.com/&quot;&gt;Opeth&#39;s&lt;/a&gt; brand new
-(actually, not even released) album, Damnation.&lt;/p&gt;
-
-&lt;p&gt;Cooked my first bread! Amazingly fun! I even took a picture to
-document this special day.&lt;/p&gt;
-
-&lt;p&gt;Updated my father&#39;s computer, installed the tax program and
-installed &lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt; for him.&lt;/p&gt;
-
-&lt;p&gt;Wrote another bit about HMMs for my Master&#39;s work.&lt;/p&gt;
 </description>
 
 

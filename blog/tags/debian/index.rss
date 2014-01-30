@@ -8,7 +8,48 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 17 Jan 2014 20:17:37 -0200</pubDate>
+<pubDate>Thu, 30 Jan 2014 00:44:49 -0200</pubDate>
+<item>
+	<title>Trivial fact #2: Harmonic Numbers</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2014-01-30-trivial_fact_2/</guid>
+
+	<link>http://cynic.cc/blog//posts/2014-01-30-trivial_fact_2/</link>
+
+
+
+	<category>debian</category>
+
+	<category>math</category>
+
+	<category>study</category>
+
+	<category>tex</category>
+
+
+	<pubDate>Thu, 30 Jan 2014 00:43:30 -0200</pubDate>
+	<dcterms:modified>2014-01-30T02:44:49Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;I don&#39;t know how Debian planet deals with MathJax (it seems to
+become illegible), but I will try to post this, anyway.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fact:&lt;/strong&gt; Since the harmonic numbers can be approximated by the
+natural logarithm, that is, !!mathjaxbegin-i!! SF9uIFxzaW1lcSBcbG4gbg==
+ !!mathjaxend-i!!, we can clearly
+see that
+!!mathjaxbegin-d!! CiBcZnJhY3sxfXtpKzF9ICsgXGNkb3RzICsgXGZyYWN7MX17bn0gPSBIX24gLSBIX2kgXHNpbWVx
+IFxsbiBuIC0gXGxuIGkgPSBcbG4gXGZyYWN7bn17aX0sCg==
+ !!mathjaxend-d!!
+which is a trivial approximation that may be handy sometimes.&lt;/p&gt;
+
+&lt;p&gt;If you spot any errors on this, please let me know.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Developing for Android with Debian</title>
 
@@ -1113,105 +1154,6 @@ machines on datacenters.&lt;/p&gt;
 &lt;p&gt;Oh, just for the record, the
 &lt;a href=&quot;https://github.com/rbrito/mongo-debian/pull/2&quot;&gt;kFreeBSD people have sent their contribution&lt;/a&gt; and I would love to see
 (if possible) this running on the HURD.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Some recent Debian activities</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/debian_activities/</guid>
-
-	<link>http://cynic.cc/blog//posts/debian_activities/</link>
-
-
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>linux</category>
-
-
-	<pubDate>Fri, 19 Apr 2013 04:29:23 -0300</pubDate>
-	<dcterms:modified>2013-04-30T17:16:01Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
-
-&lt;h1 id=&quot;chrony&quot;&gt;Chrony&lt;/h1&gt;
-
-&lt;p&gt;One of those was to get chrony is a slightly better shape, by using, at
-least, a patch system (indeed, I &quot;modernized&quot; its packaging with the format
-&quot;3.0 (quilt)&quot;), put it in &lt;a href=&quot;http://anonscm.debian.org/gitweb/?p=users/rbrito-guest/chrony.git&quot;&gt;a git repository&lt;/a&gt; and would like to receive some
-comments on what I have so far.&lt;/p&gt;
-
-&lt;p&gt;The bug &lt;a href=&quot;http://bugs.debian.org/694690&quot;&gt;Debian bug #694690&lt;/a&gt; contains a very brief description of my
-intentions and of the problems that I see in the current package. IMVHO, it
-is a very nice NTP client and server and it could even be used as the
-default for Debian, once it gets in shape.  There is at least another
-high-profile distribution, namely Fedora, that
-&lt;a href=&quot;http://fedoraproject.org/wiki/Features/ChronyDefaultNTP&quot;&gt;switched to chrony as its default NTP software&lt;/a&gt;. We can certainly take a
-look at what they are doing and join forces here.&lt;/p&gt;
-
-&lt;h1 id=&quot;mongodb&quot;&gt;MongoDB&lt;/h1&gt;
-
-&lt;p&gt;Another package where I spent some time was with &lt;a href=&quot;http://packages.qa.debian.org/mongodb&quot;&gt;mongodb&lt;/a&gt;:
-MongoDB is a tricky package that is only built for 2 arches: amd64 and
-i386.  The version in unstable for i386 was 2.0.x (roughly the same as for
-wheezy), which the version in unstable for amd64 was 2.4.1, which has many
-features that 2.0 lacks.&lt;/p&gt;
-
-&lt;p&gt;The packaging of it is a bit tricky, since the source tree has bazillion
-embedded/convenience libraries (e.g., Google&#39;s v8, Mozilla&#39;s spidermonkey,
-BOOST, Google&#39;s Snappy, PCRE 3 etc.). Up to version 2.4.1-2, it used all
-these convenience copies, which is of course, a problem for a distribution
-like Debian.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://packages.qa.debian.org/m/mongodb/news/20130417T171917Z.html&quot;&gt;I changed&lt;/a&gt; part of the build process to use the libraries that we
-already have in Debian and, as Antonin Kral uploaded this newer version,
-unsurprisingly the binary packages are smaller (especially if you take into
-account that a handful of the libraries may already be installed on the
-system).&lt;/p&gt;
-
-&lt;p&gt;A few hours later, Antonin uploaded a new upstream version, which means that
-we now have better MongoDB packages to play with.  I am, in fact, really
-playing with MongoDB as my first NoSQL database, since
-&lt;a href=&quot;https://education.10gen.com/courses/10gen/M101/2012_Fall/about&quot;&gt;10gen is giving an introductory course&lt;/a&gt; on how it works and my
-motivation was to get what we have in Debian in shape for the course.&lt;/p&gt;
-
-&lt;p&gt;You can say that I am a firm believer of the &quot;eat your own dogfood&quot;
-principle.&lt;/p&gt;
-
-&lt;p&gt;Regarding MongoDB only being built for i386 and amd64, the BTS
-&lt;a href=&quot;http://bugs.debian.org/703061&quot;&gt;has a patch&lt;/a&gt; to enable building for kFreeBSD, but the patch is for the
-2.0 series and the code has changed so drastically in relation to the 2.4
-series that there is no hope of it applying.  It would be super nice to have
-MongoDB working on kFreeBSD and on HURD also, though.&lt;/p&gt;
-
-&lt;h1 id=&quot;nocache&quot;&gt;nocache&lt;/h1&gt;
-
-&lt;p&gt;There is a very nice command line program called &lt;code&gt;nocache&lt;/code&gt; that was packaged
-by Dmitry Smirnov (and just approved by the FTP masters!) whose packaging I
-briefly reviewed per Dmitry&#39;s request and this is an amazing utility whose
-purpose is to bypass/minimize file system caching for a program.&lt;/p&gt;
-
-&lt;p&gt;This is especially useful when you are making backups (reading lots of files
-that would, otherwise, fill the filesystem cache, even if they are not used
-frequently) or if you are just streaming one file (possibly larger than the
-system&#39;s RAM) to another computer and you have no need to use the file
-immediately after that.&lt;/p&gt;
-
-&lt;p&gt;It performs its job by using the &lt;code&gt;LD_PRELOAD&lt;/code&gt; mechanism and using
-&lt;code&gt;posix_fadvise&lt;/code&gt;&#39;s flag &lt;code&gt;POSIX_FADV_DONTNEED&lt;/code&gt; for the files that will be
-touched.&lt;/p&gt;
-
-&lt;h1 id=&quot;postnote&quot;&gt;Post note&lt;/h1&gt;
-
-&lt;p&gt;Oh, just one aside: for the readers of Debian Planet and other aggregation
-services which are not Debian Developers/Maintainers, I contributed to these
-packages without being the maintainer of them, just scratching some itches
-and contributing back what I produced.&lt;/p&gt;
 </description>
 
 
