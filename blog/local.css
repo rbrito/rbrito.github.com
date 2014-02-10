@@ -46,3 +46,11 @@ code
 .sidebar {
         width: 30ex;
 }
+
+html>body>article>section>header {
+	width: 100% !important;
+}
+
+#boo-0 {
+	margin: 0 auto!important;
+}
