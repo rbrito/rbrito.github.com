@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-10-11T06:23:45Z</updated>
+<updated>2014-02-15T02:21:28Z</updated>
 <entry>
 	<title>Working with CVS via Git</title>
 
@@ -45,7 +45,7 @@
 	<category term="revision-control" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2014-02-15T02:21:28Z</updated>
 	<published>2013-06-11T07:49:56Z</published>
 
 
@@ -155,7 +155,7 @@ one, please let me know.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2011-04-03T01:21:31Z</updated>
+	<updated>2014-02-15T02:21:28Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
 
 
@@ -466,7 +466,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="web-of-trust" />
 
 
-	<updated>2010-07-18T06:34:40Z</updated>
+	<updated>2014-02-15T02:20:27Z</updated>
 	<published>2010-07-18T06:34:40Z</published>
 
 
@@ -532,36 +532,70 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="programming" />
 
 
-	<updated>2011-03-12T03:27:55Z</updated>
+	<updated>2014-02-15T02:20:59Z</updated>
 	<published>2010-06-10T22:46:13Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
+	&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite
+hectic, due to some real-life happenings.&lt;/p&gt;
 
-&lt;h2&gt;Announcement&lt;/h2&gt;
+&lt;h1 id=&quot;announcement&quot;&gt;Announcement&lt;/h1&gt;
 
-&lt;p&gt;For those people that are insterested in a &lt;em&gt;small&lt;/em&gt; PDF viewer, based on &lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;an actively maintained backend&lt;/a&gt;, and that &lt;a href=&quot;http://localhost/blog/2010/05/27/please-let-me-zoom-my-documents/&quot;&gt;doesn&#39;t bring your computer to a halt&lt;/a&gt; when you try to zoom your documents when you need to see some details, then you might want to give &lt;a href=&quot;http://github.com/rbrito/xpdf-poppler&quot;&gt;this version of xpdf&lt;/a&gt; a try.&lt;/p&gt;
+&lt;p&gt;For those people that are insterested in a &lt;em&gt;small&lt;/em&gt; PDF viewer, based on
+&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;an actively maintained backend&lt;/a&gt;, and that
+&lt;a href=&quot;http://localhost/blog/2010/05/27/please-let-me-zoom-my-documents/&quot;&gt;doesn&#39;t bring your computer to a halt&lt;/a&gt; when you try to zoom your
+documents when you need to see some details, then you might want to give
+&lt;a href=&quot;http://github.com/rbrito/xpdf-poppler&quot;&gt;this version of xpdf&lt;/a&gt; a try.&lt;/p&gt;
 
-&lt;p&gt;I already received some reports for some bugs and fixed them, with one of them being a problem related by a kind user of &lt;a href=&quot;http://www.gentoo.org/&quot;&gt;Gentoo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I already received some reports for some bugs and fixed them, with one of
+them being a problem related by a kind user of &lt;a href=&quot;http://www.gentoo.org/&quot;&gt;Gentoo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2&gt;Motivation&lt;/h2&gt;
+&lt;h1 id=&quot;motivation&quot;&gt;Motivation&lt;/h1&gt;
 
-&lt;p&gt;Some people have asked me why this even needs to exist in the first place and I agree that it would be better if it didn&#39;t: I would love to spend my time actually &lt;em&gt;using&lt;/em&gt; my computers rather than &lt;em&gt;fixing&lt;/em&gt; my computers for better tasks (read: studying Mathematics, etc).&lt;/p&gt;
+&lt;p&gt;Some people have asked me why this even needs to exist in the first place
+and I agree that it would be better if it didn&#39;t: I would love to spend my
+time actually &lt;em&gt;using&lt;/em&gt; my computers rather than &lt;em&gt;fixing&lt;/em&gt; my computers for
+better tasks (read: studying Mathematics, etc).&lt;/p&gt;
 
-&lt;p&gt;The upstream maintainer of xpdf uses it as one source of income and keeps it running across many system (even legacy ones).  I &lt;em&gt;imagine&lt;/em&gt; that this one of the reasons why he tries to keep xpdf almost self contained, with many parts that could be delegated to other libraries, and with some abstraction code that makes the code compile even in the presence of &lt;em&gt;very&lt;/em&gt; broken compilers.  Of course, this means, in part, that as long as you take more duties, maintaing the code becomes more and more complex.&lt;/p&gt;
+&lt;p&gt;The upstream maintainer of xpdf uses it as one source of income and keeps it
+running across many system (even legacy ones).  I &lt;em&gt;imagine&lt;/em&gt; that this one of
+the reasons why he tries to keep xpdf almost self contained, with many parts
+that could be delegated to other libraries, and with some abstraction code
+that makes the code compile even in the presence of &lt;em&gt;very&lt;/em&gt; broken compilers.
+Of course, this means, in part, that as long as you take more duties,
+maintaing the code becomes more and more complex.&lt;/p&gt;
 
-&lt;p&gt;He told me that he doesn&#39;t offer an open development tree because he wants to give his customers some advantages over the public version and his reasons are perfectly justifiable, of course.  He also manifested the interest of possibly basing xpdf on a &quot;more modern toolkit&quot; and, when I asked him what that would be, he mentioned that, perhaps, it would be Qt. The development of xpdf will, quite probably, take newer directions.&lt;/p&gt;
+&lt;p&gt;He told me that he doesn&#39;t offer an open development tree because he wants
+to give his customers some advantages over the public version and his
+reasons are perfectly justifiable, of course.  He also manifested the
+interest of possibly basing xpdf on a &quot;more modern toolkit&quot; and, when I
+asked him what that would be, he mentioned that, perhaps, it would be
+Qt. The development of xpdf will, quite probably, take newer directions.&lt;/p&gt;
 
-&lt;p&gt;Unfortunately, xpdf has not seen a new upstream release since &lt;a href=&quot;http://www.foolabs.com/xpdf/CHANGES&quot;&gt;2007-02-27&lt;/a&gt;.  It did, though, have &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl1.patch&quot;&gt;some&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl2.patch&quot;&gt;patchlevel&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl3.patch&quot;&gt;updates&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl4.patch&quot;&gt;released&lt;/a&gt;. Taking care of the maintainance of the code is a &lt;a href=&quot;http://bugs.debian.org/527840&quot;&gt;high concern&lt;/a&gt; for distributions.&lt;/p&gt;
+&lt;p&gt;Unfortunately, xpdf has not seen a new upstream release since
+&lt;a href=&quot;http://www.foolabs.com/xpdf/CHANGES&quot;&gt;2007-02-27&lt;/a&gt;.  It did, though, have &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl1.patch&quot;&gt;some&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl2.patch&quot;&gt;patchlevel&lt;/a&gt;
+&lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl3.patch&quot;&gt;updates&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl4.patch&quot;&gt;released&lt;/a&gt;. Taking care of the maintainance of the code is a
+&lt;a href=&quot;http://bugs.debian.org/527840&quot;&gt;high concern&lt;/a&gt; for distributions.&lt;/p&gt;
 
-&lt;p&gt;Some people, though, would like to &lt;a href=&quot;http://en.wikipedia.org/wiki/KISS_principle&quot;&gt;keep it simple&lt;/a&gt; (me included).  Unfortunately, &lt;a href=&quot;http://bugs.debian.org/351279&quot;&gt;some efforts&lt;/a&gt; to &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00046.html&quot;&gt;maintain&lt;/a&gt; it had &lt;a href=&quot;http://bugs.gentoo.org/show_bug.cgi?id=289803&quot;&gt;not had&lt;/a&gt; the &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00068.html&quot;&gt;necessary coordination&lt;/a&gt; and duplication of effort has occured.&lt;/p&gt;
+&lt;p&gt;Some people, though, would like to &lt;a href=&quot;http://en.wikipedia.org/wiki/KISS_principle&quot;&gt;keep it simple&lt;/a&gt; (me included).
+Unfortunately, &lt;a href=&quot;http://bugs.debian.org/351279&quot;&gt;some efforts&lt;/a&gt; to &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00046.html&quot;&gt;maintain&lt;/a&gt; it had &lt;a href=&quot;http://bugs.gentoo.org/show_bug.cgi?id=289803&quot;&gt;not had&lt;/a&gt; the
+&lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00068.html&quot;&gt;necessary coordination&lt;/a&gt; and duplication of effort has occured.&lt;/p&gt;
 
-&lt;h2&gt;Proposal&lt;/h2&gt;
+&lt;h1 id=&quot;proposal&quot;&gt;Proposal&lt;/h1&gt;
 
-&lt;p&gt;I am willing to become a patch aggregator for the code in xpdf with a poppler backend. I would love to give it some refactoring too, drop some of the legacy code that is not used (and only serves to make the code hard to read), and adopt some good coding style standard (I particularly &lt;a href=&quot;http://www.kernel.org/doc/Documentation/CodingStyle&quot;&gt;like the one from the Linux Kernel&lt;/a&gt;---with the proper adaptations for C++).&lt;/p&gt;
+&lt;p&gt;I am willing to become a patch aggregator for the code in xpdf with a
+poppler backend. I would love to give it some refactoring too, drop some of
+the legacy code that is not used (and only serves to make the code hard to
+read), and adopt some good coding style standard (I particularly
+&lt;a href=&quot;http://www.kernel.org/doc/Documentation/CodingStyle&quot;&gt;like the one from the Linux Kernel&lt;/a&gt;---with the proper adaptations for
+C++).&lt;/p&gt;
 
-&lt;p&gt;I have already &lt;a href=&quot;https://bugs.gentoo.org/show_bug.cgi?id=323469&quot;&gt;contacted the people at Gentoo&lt;/a&gt;, and I would love to get people from Fedora, Ubuntu, and Suse involved also. Alas,  the last time I tried to mail their mailing lists, I got  messages telling me that my messages were rejected or waiting for moderation, because I was not a subscriber. I never heard back, since.&lt;/p&gt;
+&lt;p&gt;I have already &lt;a href=&quot;http://www.kernel.org/doc/Documentation/CodingStyle&quot;&gt;contacted the people at Gentoo&lt;/a&gt;, and I would love to get
+people from Fedora, Ubuntu, and Suse involved also. Alas, the last time I
+tried to mail their mailing lists, I got messages telling me that my
+messages were rejected or waiting for moderation, because I was not a
+subscriber. I never heard back, since.&lt;/p&gt;
 
 &lt;p&gt;I appreciate it if you could help spread the word.&lt;/p&gt;
 
@@ -709,47 +743,79 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="readline" />
 
 
-	<updated>2010-05-22T23:36:42Z</updated>
+	<updated>2014-02-15T02:20:59Z</updated>
 	<published>2010-05-22T23:36:42Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Two of my most frequently used tools are, hands down, Emacs and bash. Having a pleasant configuration of one&#39;s toolbox is necessary for long-term productivity.&lt;/p&gt;
+	&lt;p&gt;Two of my most frequently used tools are, hands down, Emacs and bash.
+Having a pleasant configuration of one&#39;s toolbox is necessary for long-term
+productivity.&lt;/p&gt;
 
-&lt;p&gt;However, newer versions of the programs (any programs) don&#39;t always have good, comfortable defaults. That is the case with Emacs 23 and bash 4.&lt;/p&gt;
+&lt;p&gt;However, newer versions of the programs (any programs) don&#39;t always have
+good, comfortable defaults. That is the case with Emacs 23 and bash 4.&lt;/p&gt;
 
-&lt;p&gt;With Emacs 23, by default, the scratch buffer shows some text that, if you want to quickly enter text to be saved, has to be deleted. This can be tolerated for some invocations of the editor. But at some point, it gets on one&#39;s nerves.&lt;/p&gt;
+&lt;p&gt;With Emacs 23, by default, the scratch buffer shows some text that, if you
+want to quickly enter text to be saved, has to be deleted. This can be
+tolerated for some invocations of the editor. But at some point, it gets on
+one&#39;s nerves.&lt;/p&gt;
 
-&lt;p&gt;Luckily, Emacs is so fully customizable that this is not a problem, unless you have to hunt down the right knobs and you are an e-lisp illiterate. That is my case.&lt;/p&gt;
+&lt;p&gt;Luckily, Emacs is so fully customizable that this is not a problem, unless
+you have to hunt down the right knobs and you are an e-lisp illiterate. That
+is my case.&lt;/p&gt;
 
-&lt;p&gt;After reading an admittedly small amount of documentation, some good lines that ought to be put into one&#39;s &lt;code&gt;.emacs&lt;/code&gt; file are:&lt;/p&gt;
+&lt;p&gt;After reading an admittedly small amount of documentation, some good lines
+that ought to be put into one&#39;s &lt;code&gt;.emacs&lt;/code&gt; file are:&lt;/p&gt;
 
-&lt;pre&gt;(setq inhibit-startup-echo-area-message &quot;rbrito&quot;)
+&lt;pre&gt;&lt;code&gt;(setq inhibit-startup-echo-area-message &quot;rbrito&quot;)
 (setq initial-scratch-message nil); show an empty scratch buffer
 (setq inhibit-startup-message t); remove splash screen
-&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Another line that may make things more comfortable (especially if you, like me, use Emacs&#39;s dired as a filemanager to navigate your folders):&lt;/p&gt;
+&lt;p&gt;Another line that may make things more comfortable (especially if you, like
+me, use Emacs&#39;s dired as a filemanager to navigate your folders):&lt;/p&gt;
 
-&lt;pre&gt;(defalias &#39;yes-or-no-p &#39;y-or-n-p)
-&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;(defalias &#39;yes-or-no-p &#39;y-or-n-p)
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;But configuring Emacs is not always that hard. Seeing a change of behaviour with your shell is scarier. When bash 4 was released, one thing that got implemented is the echo of some characters from the terminal to the screen.&lt;/p&gt;
+&lt;p&gt;But configuring Emacs is not always that hard. Seeing a change of behaviour
+with your shell is scarier. When bash 4 was released, one thing that got
+implemented is the echo of some characters from the terminal to the screen.&lt;/p&gt;
 
-&lt;p&gt;In practice and with my usage pattern, this meant that whenever I was typing a command line, changed my mind and pressed C-c, I got a ^C printed on the screen, usually overwriting one or two characters of what I had typed. And this prevented me from automatically copying and pasting the command that I had typed.&lt;/p&gt;
+&lt;p&gt;In practice and with my usage pattern, this meant that whenever I was typing
+a command line, changed my mind and pressed &lt;code&gt;C-c&lt;/code&gt;, I got a &lt;code&gt;^C&lt;/code&gt; printed on
+the screen, usually overwriting one or two characters of what I had typed.
+And this prevented me from automatically copying and pasting the command
+that I had typed.&lt;/p&gt;
 
-&lt;p&gt;Looking for an answer to that was much harder than to see how to change a parameter on Emacs: every search that I tried on Google with the words &quot;bash&quot; and &quot;Ctrl-C&quot; or some variants of that eventually lead me to &quot;how do I trap a Ctrl-C on my shell script?&quot;.&lt;/p&gt;
+&lt;p&gt;Looking for an answer to that was much harder than to see how to change a
+parameter on Emacs: every search that I tried on Google with the words
+&quot;bash&quot; and &quot;Ctrl-C&quot; or some variants of that eventually lead me to &quot;how do I
+trap a Ctrl-C on my shell script?&quot;.&lt;/p&gt;
 
-&lt;p&gt;Decided to see what changed, I read the documentation of readline. It didn&#39;t help, because I was reading something from version 5. I, then, downloaded the source code and started looking for &lt;code&gt;SIGINT&lt;/code&gt;. Then, perusing the code (and the changelog), I saw that with bash 4 and readline 6, a new configuration option was introduced: the &lt;code&gt;echo-control-characters&lt;/code&gt; option of readline.&lt;/p&gt;
+&lt;p&gt;Decided to see what changed, I read the documentation of readline. It didn&#39;t
+help, because I was reading something from version 5. I, then, downloaded
+the source code and started looking for &lt;code&gt;SIGINT&lt;/code&gt;. Then, perusing the code
+(and the changelog), I saw that with bash 4 and readline 6, a new
+configuration option was introduced: the &lt;code&gt;echo-control-characters&lt;/code&gt; option of
+readline.&lt;/p&gt;
 
-&lt;p&gt;Of course, after knowing this, stopping the undesired behaviour was a simple matter of inserting &quot;&lt;code&gt;set echo-control-characters off&lt;/code&gt;&quot; in my &lt;code&gt;.inputrc&lt;/code&gt; and think about how much time I spent with that uncomfortable behaviour in some of my preferred tools.&lt;/p&gt;
+&lt;p&gt;Of course, after knowing this, stopping the undesired behaviour was a simple
+matter of inserting &lt;code&gt;set echo-control-characters off&lt;/code&gt; in my &lt;code&gt;.inputrc&lt;/code&gt; and
+think about how much time I spent with that uncomfortable behaviour in some
+of my preferred tools.&lt;/p&gt;
 
-&lt;p&gt;﻿As an addendum to the previous paragraphs (written on February of this year, but only now published), the Debian package of &lt;a href=&quot;http://www.gnu.org/software/emacs/NEWS.23.2&quot;&gt;Emacs 23.2&lt;/a&gt;, the newest version as of this writing, comes with some configuration that makes it ignore the settings that are used with fontconfig. I did not spend any time trying to see the cause of the problem, but adding a simple&lt;/p&gt;
+&lt;p&gt;As an addendum to the previous paragraphs (written on February of this year,
+but only now published), the Debian package of &lt;a href=&quot;http://www.gnu.org/software/emacs/NEWS.23.2&quot;&gt;Emacs 23.2&lt;/a&gt;, the newest
+version as of this writing, comes with some configuration that makes it
+ignore the settings that are used with fontconfig. I did not spend any time
+trying to see the cause of the problem, but adding a simple&lt;/p&gt;
 
-&lt;pre&gt;Emacs*font:            Mono
-&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Emacs*font:         Mono
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;to my &lt;code&gt;.Xdefaults&lt;/code&gt; file did the trick and restored back the ability to use DejaVu Sans Mono at the right size on my system.&lt;/p&gt;
+&lt;p&gt;to my &lt;code&gt;.Xdefaults&lt;/code&gt; file did the trick and restored back the ability to use
+DejaVu Sans Mono at the right size on my system.&lt;/p&gt;
 
 	</content>
 
@@ -789,7 +855,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="powerpc" />
 
 
-	<updated>2011-03-12T03:52:56Z</updated>
+	<updated>2014-02-15T02:21:28Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 
@@ -1056,7 +1122,7 @@ above.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:23:45Z</updated>
+	<updated>2013-10-11T06:33:23Z</updated>
 	<published>2002-07-07T03:00:00Z</published>
 
 

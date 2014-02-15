@@ -66,31 +66,65 @@ A version of xpdf with the poppler backend available
 <div id="pagebody">
 
 <section id="content">
-<p>Well, it's been some time since I last wrote here and things are quite hectic, due to some real-life happenings.</p>
+<p>Well, it's been some time since I last wrote here and things are quite
+hectic, due to some real-life happenings.</p>
 
-<h2>Announcement</h2>
+<h1 id="announcement">Announcement</h1>
 
-<p>For those people that are insterested in a <em>small</em> PDF viewer, based on <a href="http://poppler.freedesktop.org/">an actively maintained backend</a>, and that <a href="http://localhost/blog/2010/05/27/please-let-me-zoom-my-documents/">doesn't bring your computer to a halt</a> when you try to zoom your documents when you need to see some details, then you might want to give <a href="http://github.com/rbrito/xpdf-poppler">this version of xpdf</a> a try.</p>
+<p>For those people that are insterested in a <em>small</em> PDF viewer, based on
+<a href="http://poppler.freedesktop.org/">an actively maintained backend</a>, and that
+<a href="http://localhost/blog/2010/05/27/please-let-me-zoom-my-documents/">doesn't bring your computer to a halt</a> when you try to zoom your
+documents when you need to see some details, then you might want to give
+<a href="http://github.com/rbrito/xpdf-poppler">this version of xpdf</a> a try.</p>
 
-<p>I already received some reports for some bugs and fixed them, with one of them being a problem related by a kind user of <a href="http://www.gentoo.org/">Gentoo</a>.</p>
+<p>I already received some reports for some bugs and fixed them, with one of
+them being a problem related by a kind user of <a href="http://www.gentoo.org/">Gentoo</a>.</p>
 
-<h2>Motivation</h2>
+<h1 id="motivation">Motivation</h1>
 
-<p>Some people have asked me why this even needs to exist in the first place and I agree that it would be better if it didn't: I would love to spend my time actually <em>using</em> my computers rather than <em>fixing</em> my computers for better tasks (read: studying Mathematics, etc).</p>
+<p>Some people have asked me why this even needs to exist in the first place
+and I agree that it would be better if it didn't: I would love to spend my
+time actually <em>using</em> my computers rather than <em>fixing</em> my computers for
+better tasks (read: studying Mathematics, etc).</p>
 
-<p>The upstream maintainer of xpdf uses it as one source of income and keeps it running across many system (even legacy ones).  I <em>imagine</em> that this one of the reasons why he tries to keep xpdf almost self contained, with many parts that could be delegated to other libraries, and with some abstraction code that makes the code compile even in the presence of <em>very</em> broken compilers.  Of course, this means, in part, that as long as you take more duties, maintaing the code becomes more and more complex.</p>
+<p>The upstream maintainer of xpdf uses it as one source of income and keeps it
+running across many system (even legacy ones).  I <em>imagine</em> that this one of
+the reasons why he tries to keep xpdf almost self contained, with many parts
+that could be delegated to other libraries, and with some abstraction code
+that makes the code compile even in the presence of <em>very</em> broken compilers.
+Of course, this means, in part, that as long as you take more duties,
+maintaing the code becomes more and more complex.</p>
 
-<p>He told me that he doesn't offer an open development tree because he wants to give his customers some advantages over the public version and his reasons are perfectly justifiable, of course.  He also manifested the interest of possibly basing xpdf on a "more modern toolkit" and, when I asked him what that would be, he mentioned that, perhaps, it would be Qt. The development of xpdf will, quite probably, take newer directions.</p>
+<p>He told me that he doesn't offer an open development tree because he wants
+to give his customers some advantages over the public version and his
+reasons are perfectly justifiable, of course.  He also manifested the
+interest of possibly basing xpdf on a "more modern toolkit" and, when I
+asked him what that would be, he mentioned that, perhaps, it would be
+Qt. The development of xpdf will, quite probably, take newer directions.</p>
 
-<p>Unfortunately, xpdf has not seen a new upstream release since <a href="http://www.foolabs.com/xpdf/CHANGES">2007-02-27</a>.  It did, though, have <a href="ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl1.patch">some</a> <a href="ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl2.patch">patchlevel</a> <a href="ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl3.patch">updates</a> <a href="ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl4.patch">released</a>. Taking care of the maintainance of the code is a <a href="http://bugs.debian.org/527840">high concern</a> for distributions.</p>
+<p>Unfortunately, xpdf has not seen a new upstream release since
+<a href="http://www.foolabs.com/xpdf/CHANGES">2007-02-27</a>.  It did, though, have <a href="ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl1.patch">some</a> <a href="ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl2.patch">patchlevel</a>
+<a href="ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl3.patch">updates</a> <a href="ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl4.patch">released</a>. Taking care of the maintainance of the code is a
+<a href="http://bugs.debian.org/527840">high concern</a> for distributions.</p>
 
-<p>Some people, though, would like to <a href="http://en.wikipedia.org/wiki/KISS_principle">keep it simple</a> (me included).  Unfortunately, <a href="http://bugs.debian.org/351279">some efforts</a> to <a href="http://lists.debian.org/debian-mentors/2010/06/msg00046.html">maintain</a> it had <a href="http://bugs.gentoo.org/show_bug.cgi?id=289803">not had</a> the <a href="http://lists.debian.org/debian-mentors/2010/06/msg00068.html">necessary coordination</a> and duplication of effort has occured.</p>
+<p>Some people, though, would like to <a href="http://en.wikipedia.org/wiki/KISS_principle">keep it simple</a> (me included).
+Unfortunately, <a href="http://bugs.debian.org/351279">some efforts</a> to <a href="http://lists.debian.org/debian-mentors/2010/06/msg00046.html">maintain</a> it had <a href="http://bugs.gentoo.org/show_bug.cgi?id=289803">not had</a> the
+<a href="http://lists.debian.org/debian-mentors/2010/06/msg00068.html">necessary coordination</a> and duplication of effort has occured.</p>
 
-<h2>Proposal</h2>
+<h1 id="proposal">Proposal</h1>
 
-<p>I am willing to become a patch aggregator for the code in xpdf with a poppler backend. I would love to give it some refactoring too, drop some of the legacy code that is not used (and only serves to make the code hard to read), and adopt some good coding style standard (I particularly <a href="http://www.kernel.org/doc/Documentation/CodingStyle">like the one from the Linux Kernel</a>---with the proper adaptations for C++).</p>
+<p>I am willing to become a patch aggregator for the code in xpdf with a
+poppler backend. I would love to give it some refactoring too, drop some of
+the legacy code that is not used (and only serves to make the code hard to
+read), and adopt some good coding style standard (I particularly
+<a href="http://www.kernel.org/doc/Documentation/CodingStyle">like the one from the Linux Kernel</a>---with the proper adaptations for
+C++).</p>
 
-<p>I have already <a href="https://bugs.gentoo.org/show_bug.cgi?id=323469">contacted the people at Gentoo</a>, and I would love to get people from Fedora, Ubuntu, and Suse involved also. Alas,  the last time I tried to mail their mailing lists, I got  messages telling me that my messages were rejected or waiting for moderation, because I was not a subscriber. I never heard back, since.</p>
+<p>I have already <a href="http://www.kernel.org/doc/Documentation/CodingStyle">contacted the people at Gentoo</a>, and I would love to get
+people from Fedora, Ubuntu, and Suse involved also. Alas, the last time I
+tried to mail their mailing lists, I got messages telling me that my
+messages were rejected or waiting for moderation, because I was not a
+subscriber. I never heard back, since.</p>
 
 <p>I appreciate it if you could help spread the word.</p>
 
@@ -158,7 +192,7 @@ Tags:
 
 
 <div class="pagedate">
-Last edited <time datetime="2011-03-12T03:27:55Z">2011-03-12T00:27:55 BRT</time>
+Last edited <time datetime="2014-02-15T02:20:59Z">2014-02-15T00:20:59 BRST</time>
 <!-- Created <time datetime="2010-06-10T22:46:13Z" pubdate="pubdate">2010-06-10T19:46:13 BRT</time> -->
 </div>
 

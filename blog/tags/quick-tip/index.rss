@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 19 Oct 2013 16:34:54 -0300</pubDate>
+<pubDate>Sat, 15 Feb 2014 00:20:59 -0200</pubDate>
 <item>
 	<title>Quick tip #1</title>
 
@@ -28,7 +28,7 @@
 
 
 	<pubDate>Fri, 18 Oct 2013 12:49:09 -0300</pubDate>
-	<dcterms:modified>2013-10-19T19:34:54Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:20:59Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I wrote the following as part of a post to an discussion forum (I can&#39;t
@@ -53,13 +53,15 @@ seeder had the missing segments of the torrent.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Depending on your bittorrent client, you can add the original HTTP
-download as a &quot;Web seed&quot; and, this way, your client will download &lt;em&gt;both&lt;/em&gt;
-from the peers and also from the web to fill in parts that are not yet
-available.&lt;/p&gt;
-
-&lt;p&gt;One such client is the Free (as in Freedom) &lt;a href=&quot;http://qbittorrent.sf.net/&quot;&gt;qbittorrent&lt;/a&gt;, but I guess that
-others also have this option.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Depending on your bittorrent client, you can add the original HTTP
+  download as a &quot;Web seed&quot; and, this way, your client will download &lt;em&gt;both&lt;/em&gt;
+  from the peers and also from the web to fill in parts that are not yet
+  available.&lt;/p&gt;
+  
+  &lt;p&gt;One such client is the Free (as in Freedom) &lt;a href=&quot;http://qbittorrent.sf.net/&quot;&gt;qbittorrent&lt;/a&gt;, but I guess
+  that others also have this option.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;hr /&gt;
 

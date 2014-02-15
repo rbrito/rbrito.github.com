@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-10-19T19:51:12Z</updated>
+<updated>2014-02-15T02:21:28Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -51,7 +51,7 @@
 	<category term="powerpc" />
 
 
-	<updated>2011-04-03T01:21:31Z</updated>
+	<updated>2014-02-15T02:21:28Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
 
 
@@ -362,7 +362,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="web-of-trust" />
 
 
-	<updated>2010-07-18T06:34:40Z</updated>
+	<updated>2014-02-15T02:20:27Z</updated>
 	<published>2010-07-18T06:34:40Z</published>
 
 
@@ -432,7 +432,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="powerpc" />
 
 
-	<updated>2011-03-12T03:52:56Z</updated>
+	<updated>2014-02-15T02:21:28Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 
@@ -602,7 +602,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<category term="study" />
 
 
-	<updated>2013-10-19T19:51:12Z</updated>
+	<updated>2013-10-19T19:53:25Z</updated>
 	<published>2002-08-22T03:00:00Z</published>
 
 
@@ -650,7 +650,7 @@ happier than most people from your own country?&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:28:43Z</updated>
+	<updated>2013-10-11T06:33:23Z</updated>
 	<published>2002-07-27T03:00:00Z</published>
 
 
@@ -699,7 +699,7 @@ thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:23:45Z</updated>
+	<updated>2013-10-11T06:33:23Z</updated>
 	<published>2002-07-07T03:00:00Z</published>
 
 
@@ -761,7 +761,7 @@ easy to use.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:20:31Z</updated>
+	<updated>2013-10-11T06:33:23Z</updated>
 	<published>2002-07-06T03:00:00Z</published>
 
 
@@ -844,7 +844,7 @@ the first reboot: a kernel panic.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:12:33Z</updated>
+	<updated>2013-10-11T06:33:23Z</updated>
 	<published>2002-04-04T03:00:00Z</published>
 
 
@@ -916,7 +916,7 @@ is available for Linux, including PPC.&lt;/p&gt;
 	<category term="video" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-09-22T21:41:34Z</updated>
 	<published>2002-03-29T03:00:00Z</published>
 
 
@@ -978,7 +978,7 @@ different values of satisfaction.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-09-22T21:41:34Z</updated>
 	<published>2002-03-18T03:00:00Z</published>
 
 

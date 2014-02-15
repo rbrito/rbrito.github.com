@@ -17,7 +17,92 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-07T23:02:59Z</updated>
+<updated>2014-02-15T03:00:29Z</updated>
+<entry>
+	<title>Miscellanea</title>
+
+	<id>http://cynic.cc/blog//posts/2014-02-14_miscellanea/</id>
+
+	<link href="http://cynic.cc/blog//posts/2014-02-14_miscellanea/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="ffmpeg" />
+
+	<category term="libav" />
+
+	<category term="linux" />
+
+	<category term="ubuntu" />
+
+
+	<updated>2014-02-15T02:59:49Z</updated>
+	<published>2014-02-15T02:59:22Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;h1 id=&quot;initsystem&quot;&gt;Init system&lt;/h1&gt;
+
+&lt;p&gt;I am happy that Debian&#39;s Technical Committee was able to reach a very good
+decision with the choice of systemd as the default init system for the Linux
+ports.&lt;/p&gt;
+
+&lt;p&gt;In particular, I was very pleasantly surprised by the lucidity of Russ
+Allbery&#39;s analyses and, above all, his &lt;em&gt;patience&lt;/em&gt; even with people that, in
+my understanding, were just being trolls or trying to cause confusion and
+disrupt a process that was already chaotic.&lt;/p&gt;
+
+&lt;p&gt;Russ, thank you for your exemplary role.&lt;/p&gt;
+
+&lt;p&gt;(Also, you type fast or what? You fill whole e-mails seemingly faster than I
+can read!)&lt;/p&gt;
+
+&lt;h2 id=&quot;unexpectedunionofforces&quot;&gt;Unexpected union of forces&lt;/h2&gt;
+
+&lt;p&gt;It seems to me that Mark Shutterworth&#39;s &lt;a href=&quot;http://www.markshuttleworth.com/archives/1316&quot;&gt;decision&lt;/a&gt; of (perhaps?)
+embracing Debian&#39;s decision in the init system is a good thing.&lt;/p&gt;
+
+&lt;p&gt;I think that one way where Ubuntu did a great thing with respect to Debian
+was their initial attitude towards cherry-picking the best of breed of Free
+Software from Debian&#39;s archive and polishing that to create a really &quot;for
+human beings&quot; operating system.  I hope that this means that, at least in
+part, money (Mark&#39;s?) can be channeled in the best of the interests so that
+we all gain from it.&lt;/p&gt;
+
+&lt;p&gt;(And, to be honest, I see no problem in making money with Free Software and
+I welcome a well done integration job).&lt;/p&gt;
+
+&lt;h1 id=&quot;morepolarizingthings&quot;&gt;More polarizing things&lt;/h1&gt;
+
+&lt;p&gt;I feel that, now, I may even have some hope of sending another
+&lt;a href=&quot;http://www.ffmpeg.org/&quot;&gt;potentially polarizing&lt;/a&gt; bug to the Tech Ctte (that is ffmpeg vs. libav)
+and have faith that some rational decision would be made.&lt;/p&gt;
+
+&lt;p&gt;I was not even aware of it, but the ffmpeg folks even
+&lt;a href=&quot;http://www.ffmpeg.org/&quot;&gt;featured a news item in their page&lt;/a&gt; of me having filed the RFP bug
+mentioned above.&lt;/p&gt;
+
+&lt;h1 id=&quot;debconf14&quot;&gt;DebConf 14&lt;/h1&gt;
+
+&lt;p&gt;If everything goes as expected, I hope to attend this year&#39;s DebConf.  In
+fact, I am anticipating this, since I would love to, e.g., talk with Joey
+Hess and discuss a better way of having &lt;a href=&quot;http://www.gnu.org/software/parallel/&quot;&gt;GNU parallel&lt;/a&gt; and the &lt;code&gt;parallel&lt;/code&gt;
+program in &lt;a href=&quot;http://packages.debian.org/moreutils&quot;&gt;moreutils&lt;/a&gt; have amicable co-installability among many,
+many other things with respect to my packages.&lt;/p&gt;
+
+&lt;p&gt;And, quite probably, work on packaging ffmpeg with other interested people
+(which seem to be numerous).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Trivial fact #2: Harmonic Numbers</title>
 
@@ -39,7 +124,7 @@
 	<category term="tex" />
 
 
-	<updated>2014-02-07T23:02:59Z</updated>
+	<updated>2014-01-30T02:44:49Z</updated>
 	<published>2014-01-30T02:43:30Z</published>
 
 
@@ -86,7 +171,7 @@ which is a trivial approximation that may be handy sometimes.&lt;/p&gt;
 	<category term="java" />
 
 
-	<updated>2014-01-23T00:24:40Z</updated>
+	<updated>2014-01-17T22:17:37Z</updated>
 	<published>2014-01-17T22:18:04Z</published>
 
 
@@ -174,7 +259,7 @@ Command Line Options&quot;.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-12-16T03:33:48Z</updated>
+	<updated>2013-12-11T02:35:41Z</updated>
 	<published>2013-12-11T02:27:41Z</published>
 
 
@@ -239,7 +324,7 @@ solution of the original set of inequalities, thus concluding the argument.&lt;/
 	<category term="study" />
 
 
-	<updated>2013-12-16T03:33:48Z</updated>
+	<updated>2013-11-06T17:36:48Z</updated>
 	<published>2013-10-23T23:08:42Z</published>
 
 
@@ -364,7 +449,7 @@ of course, this should be fixed.&lt;/p&gt;
 	<category term="quick-tip" />
 
 
-	<updated>2013-10-19T19:34:54Z</updated>
+	<updated>2014-02-15T02:20:59Z</updated>
 	<published>2013-10-18T15:49:09Z</published>
 
 
@@ -391,13 +476,15 @@ seeder had the missing segments of the torrent.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Depending on your bittorrent client, you can add the original HTTP
-download as a &quot;Web seed&quot; and, this way, your client will download &lt;em&gt;both&lt;/em&gt;
-from the peers and also from the web to fill in parts that are not yet
-available.&lt;/p&gt;
-
-&lt;p&gt;One such client is the Free (as in Freedom) &lt;a href=&quot;http://qbittorrent.sf.net/&quot;&gt;qbittorrent&lt;/a&gt;, but I guess that
-others also have this option.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Depending on your bittorrent client, you can add the original HTTP
+  download as a &quot;Web seed&quot; and, this way, your client will download &lt;em&gt;both&lt;/em&gt;
+  from the peers and also from the web to fill in parts that are not yet
+  available.&lt;/p&gt;
+  
+  &lt;p&gt;One such client is the Free (as in Freedom) &lt;a href=&quot;http://qbittorrent.sf.net/&quot;&gt;qbittorrent&lt;/a&gt;, but I guess
+  that others also have this option.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;hr /&gt;
 
@@ -431,7 +518,7 @@ others also have this option.&lt;/p&gt;
 	<category term="xorg" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2014-02-15T03:00:29Z</updated>
 	<published>2013-08-21T16:44:19Z</published>
 
 
@@ -529,7 +616,7 @@ fingers so that it does.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-07-21T12:18:29Z</updated>
 	<published>2013-07-21T00:50:00Z</published>
 
 
@@ -981,7 +1068,7 @@ function calls (whenever unambiguous) and, in essence, to write as little
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-07-04T12:25:16Z</updated>
 	<published>2013-07-04T11:33:00Z</published>
 
 
@@ -1077,7 +1164,7 @@ ones.&lt;/p&gt;
 	<category term="revision-control" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2014-02-15T02:21:28Z</updated>
 	<published>2013-06-11T07:49:56Z</published>
 
 
@@ -1148,79 +1235,6 @@ cvs update
 
 &lt;p&gt;Of course, I would prefer a simpler, leaner workflow. If you happen to have
 one, please let me know.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Lack of cooperation from Ubuntu?</title>
-
-	<id>http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/</id>
-
-	<link href="http://cynic.cc/blog//posts/lack_of_cooperation_from_ubuntu/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="kfreebsd" />
-
-	<category term="linux" />
-
-	<category term="ubuntu" />
-
-
-	<updated>2013-10-11T06:07:42Z</updated>
-	<published>2013-04-20T01:46:26Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
-reproduced on Planet. I&#39;m editing it a bit, as it is a followup to my
-previous post.&lt;/p&gt;
-
-&lt;p&gt;While &lt;a href=&quot;http://cynic.cc/blog/posts/debian_activities/&quot;&gt;improving the packaging of MongoDB&lt;/a&gt;, there was one thing that
-caught my attention: that Ubuntu
-&lt;a href=&quot;http://changelogs.ubuntu.com/changelogs/pool/universe/m/mongodb/mongodb_2.0.4-1ubuntu2.1/changelog&quot;&gt;had already done some of the embedded/convenience libraries work&lt;/a&gt;, but
-they had &lt;em&gt;not&lt;/em&gt; pushed that work to Debian.&lt;/p&gt;
-
-&lt;p&gt;Of course, discovered this only after I started working on the improvements
-of the package.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What gives, Ubuntu people?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Another thing that I saw is that
-&lt;a href=&quot;https://launchpad.net/ubuntu/+source/mongodb/1:2.2.4-0ubuntu1/+build/4470136&quot;&gt;they have patches enabling mongodb working on armhf&lt;/a&gt;. Again, they did
-&lt;em&gt;not&lt;/em&gt; push those to Debian.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why this lack of cooperation?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Another thing that I saw is that they had packages for version 2.2 (more
-precisely, &lt;a href=&quot;http://packages.ubuntu.com/raring/mongodb&quot;&gt;raring has 1:2.2.4-0ubuntu1&lt;/a&gt;), while Debian sid
-&lt;a href=&quot;http://packages.debian.org/changelogs/pool/main/m/mongodb/mongodb_2.4.1-2/changelog.html&quot;&gt;just had 2.0&lt;/a&gt; until very recently.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why not push this work and avoid duplication of work?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;By being a good downstream, I intend to push some of the patches to MongoDB
-upstream (if they want it), so that we (Debian) have a smaller delta. This
-will benefit you Ubuntu guys. Why not join forces and help have a
-world-class set of packages?&lt;/p&gt;
-
-&lt;p&gt;Please, be good netizens and share the work that you have.  I firmly believe
-that the armhf people will be happy to have one of the fancy &quot;cloud&quot;
-software available on ARM, especially since the prospects of having ARM
-machines on datacenters.&lt;/p&gt;
-
-&lt;p&gt;Oh, just for the record, the
-&lt;a href=&quot;https://github.com/rbrito/mongo-debian/pull/2&quot;&gt;kFreeBSD people have sent their contribution&lt;/a&gt; and I would love to see
-(if possible) this running on the HURD.&lt;/p&gt;
 
 	</content>
 

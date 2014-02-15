@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-10-19T19:34:54Z</updated>
+<updated>2014-02-15T02:20:59Z</updated>
 <entry>
 	<title>Quick tip #1</title>
 
@@ -39,7 +39,7 @@
 	<category term="quick-tip" />
 
 
-	<updated>2013-10-19T19:34:54Z</updated>
+	<updated>2014-02-15T02:20:59Z</updated>
 	<published>2013-10-18T15:49:09Z</published>
 
 
@@ -66,13 +66,15 @@ seeder had the missing segments of the torrent.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Depending on your bittorrent client, you can add the original HTTP
-download as a &quot;Web seed&quot; and, this way, your client will download &lt;em&gt;both&lt;/em&gt;
-from the peers and also from the web to fill in parts that are not yet
-available.&lt;/p&gt;
-
-&lt;p&gt;One such client is the Free (as in Freedom) &lt;a href=&quot;http://qbittorrent.sf.net/&quot;&gt;qbittorrent&lt;/a&gt;, but I guess that
-others also have this option.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Depending on your bittorrent client, you can add the original HTTP
+  download as a &quot;Web seed&quot; and, this way, your client will download &lt;em&gt;both&lt;/em&gt;
+  from the peers and also from the web to fill in parts that are not yet
+  available.&lt;/p&gt;
+  
+  &lt;p&gt;One such client is the Free (as in Freedom) &lt;a href=&quot;http://qbittorrent.sf.net/&quot;&gt;qbittorrent&lt;/a&gt;, but I guess
+  that others also have this option.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;hr /&gt;
 

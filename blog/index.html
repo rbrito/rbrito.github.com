@@ -77,6 +77,104 @@ Rogério Brito's Digital Junkyard
 
 <header class="header">
 
+<a href="./posts/2014-02-14_miscellanea/">Miscellanea</a>
+
+</header>
+</section>
+
+<section class="inlinecontent">
+<h1 id="initsystem">Init system</h1>
+
+<p>I am happy that Debian's Technical Committee was able to reach a very good
+decision with the choice of systemd as the default init system for the Linux
+ports.</p>
+
+<p>In particular, I was very pleasantly surprised by the lucidity of Russ
+Allbery's analyses and, above all, his <em>patience</em> even with people that, in
+my understanding, were just being trolls or trying to cause confusion and
+disrupt a process that was already chaotic.</p>
+
+<p>Russ, thank you for your exemplary role.</p>
+
+<p>(Also, you type fast or what? You fill whole e-mails seemingly faster than I
+can read!)</p>
+
+<h2 id="unexpectedunionofforces">Unexpected union of forces</h2>
+
+<p>It seems to me that Mark Shutterworth's <a href="http://www.markshuttleworth.com/archives/1316">decision</a> of (perhaps?)
+embracing Debian's decision in the init system is a good thing.</p>
+
+<p>I think that one way where Ubuntu did a great thing with respect to Debian
+was their initial attitude towards cherry-picking the best of breed of Free
+Software from Debian's archive and polishing that to create a really "for
+human beings" operating system.  I hope that this means that, at least in
+part, money (Mark's?) can be channeled in the best of the interests so that
+we all gain from it.</p>
+
+<p>(And, to be honest, I see no problem in making money with Free Software and
+I welcome a well done integration job).</p>
+
+<h1 id="morepolarizingthings">More polarizing things</h1>
+
+<p>I feel that, now, I may even have some hope of sending another
+<a href="http://www.ffmpeg.org/">potentially polarizing</a> bug to the Tech Ctte (that is ffmpeg vs. libav)
+and have faith that some rational decision would be made.</p>
+
+<p>I was not even aware of it, but the ffmpeg folks even
+<a href="http://www.ffmpeg.org/">featured a news item in their page</a> of me having filed the RFP bug
+mentioned above.</p>
+
+<h1 id="debconf14">DebConf 14</h1>
+
+<p>If everything goes as expected, I hope to attend this year's DebConf.  In
+fact, I am anticipating this, since I would love to, e.g., talk with Joey
+Hess and discuss a better way of having <a href="http://www.gnu.org/software/parallel/">GNU parallel</a> and the <code>parallel</code>
+program in <a href="http://packages.debian.org/moreutils">moreutils</a> have amicable co-installability among many,
+many other things with respect to my packages.</p>
+
+<p>And, quite probably, work on packaging ffmpeg with other interested people
+(which seem to be numerous).</p>
+
+</section>
+
+<footer class="inlinefooter">
+
+<span class="pagedate">
+Posted <time datetime="2014-02-15T02:59:22Z" pubdate="pubdate">2014-02-15T00:59:22 BRST</time>
+</span>
+
+
+<nav class="tags">
+Tags:
+
+<a href="./tags/debian/" rel="tag">debian</a>
+
+<a href="./tags/ffmpeg/" rel="tag">ffmpeg</a>
+
+<a href="./tags/libav/" rel="tag">libav</a>
+
+<a href="./tags/linux/" rel="tag">linux</a>
+
+<a href="./tags/ubuntu/" rel="tag">ubuntu</a>
+
+</nav>
+
+
+
+
+
+
+
+
+</footer>
+
+</article>
+<article class="inlinepage">
+
+<section class="inlineheader">
+
+<header class="header">
+
 <a href="./posts/2014-01-30-trivial_fact_2/">Trivial fact #2: Harmonic Numbers</a>
 
 </header>
@@ -470,13 +568,15 @@ seeder had the missing segments of the torrent.</p>
 
 <hr />
 
-<p>Depending on your bittorrent client, you can add the original HTTP
-download as a "Web seed" and, this way, your client will download <em>both</em>
-from the peers and also from the web to fill in parts that are not yet
-available.</p>
-
-<p>One such client is the Free (as in Freedom) <a href="http://qbittorrent.sf.net/">qbittorrent</a>, but I guess that
-others also have this option.</p>
+<blockquote>
+  <p>Depending on your bittorrent client, you can add the original HTTP
+  download as a "Web seed" and, this way, your client will download <em>both</em>
+  from the peers and also from the web to fill in parts that are not yet
+  available.</p>
+  
+  <p>One such client is the Free (as in Freedom) <a href="http://qbittorrent.sf.net/">qbittorrent</a>, but I guess
+  that others also have this option.</p>
+</blockquote>
 
 <hr />
 
@@ -1299,92 +1399,6 @@ Tags:
 <a href="./tags/lame/" rel="tag">lame</a>
 
 <a href="./tags/revision-control/" rel="tag">revision-control</a>
-
-</nav>
-
-
-
-
-
-
-
-
-</footer>
-
-</article>
-<article class="inlinepage">
-
-<section class="inlineheader">
-
-<header class="header">
-
-<a href="./posts/lack_of_cooperation_from_ubuntu/">Lack of cooperation from Ubuntu?</a>
-
-</header>
-</section>
-
-<section class="inlinecontent">
-<p>I <a href="https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6">posted the following on Google+</a>, but it is important enough to be
-reproduced on Planet. I'm editing it a bit, as it is a followup to my
-previous post.</p>
-
-<p>While <a href="http://cynic.cc/blog/posts/debian_activities/">improving the packaging of MongoDB</a>, there was one thing that
-caught my attention: that Ubuntu
-<a href="http://changelogs.ubuntu.com/changelogs/pool/universe/m/mongodb/mongodb_2.0.4-1ubuntu2.1/changelog">had already done some of the embedded/convenience libraries work</a>, but
-they had <em>not</em> pushed that work to Debian.</p>
-
-<p>Of course, discovered this only after I started working on the improvements
-of the package.</p>
-
-<p><strong>What gives, Ubuntu people?</strong></p>
-
-<p>Another thing that I saw is that
-<a href="https://launchpad.net/ubuntu/+source/mongodb/1:2.2.4-0ubuntu1/+build/4470136">they have patches enabling mongodb working on armhf</a>. Again, they did
-<em>not</em> push those to Debian.</p>
-
-<p><strong>Why this lack of cooperation?</strong></p>
-
-<p>Another thing that I saw is that they had packages for version 2.2 (more
-precisely, <a href="http://packages.ubuntu.com/raring/mongodb">raring has 1:2.2.4-0ubuntu1</a>), while Debian sid
-<a href="http://packages.debian.org/changelogs/pool/main/m/mongodb/mongodb_2.4.1-2/changelog.html">just had 2.0</a> until very recently.</p>
-
-<p><strong>Why not push this work and avoid duplication of work?</strong></p>
-
-<p>By being a good downstream, I intend to push some of the patches to MongoDB
-upstream (if they want it), so that we (Debian) have a smaller delta. This
-will benefit you Ubuntu guys. Why not join forces and help have a
-world-class set of packages?</p>
-
-<p>Please, be good netizens and share the work that you have.  I firmly believe
-that the armhf people will be happy to have one of the fancy "cloud"
-software available on ARM, especially since the prospects of having ARM
-machines on datacenters.</p>
-
-<p>Oh, just for the record, the
-<a href="https://github.com/rbrito/mongo-debian/pull/2">kFreeBSD people have sent their contribution</a> and I would love to see
-(if possible) this running on the HURD.</p>
-
-</section>
-
-<footer class="inlinefooter">
-
-<span class="pagedate">
-Posted <time datetime="2013-04-20T01:46:26Z" pubdate="pubdate">2013-04-19T22:46:26 BRT</time>
-</span>
-
-
-<nav class="tags">
-Tags:
-
-<a href="./tags/debian/" rel="tag">debian</a>
-
-<a href="./tags/free-software/" rel="tag">free-software</a>
-
-<a href="./tags/kfreebsd/" rel="tag">kfreebsd</a>
-
-<a href="./tags/linux/" rel="tag">linux</a>
-
-<a href="./tags/ubuntu/" rel="tag">ubuntu</a>
 
 </nav>
 

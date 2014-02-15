@@ -8,7 +8,86 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 07 Feb 2014 21:02:59 -0200</pubDate>
+<pubDate>Sat, 15 Feb 2014 00:59:49 -0200</pubDate>
+<item>
+	<title>Miscellanea</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2014-02-14_miscellanea/</guid>
+
+	<link>http://cynic.cc/blog//posts/2014-02-14_miscellanea/</link>
+
+
+
+	<category>debian</category>
+
+	<category>ffmpeg</category>
+
+	<category>libav</category>
+
+	<category>linux</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Sat, 15 Feb 2014 00:59:22 -0200</pubDate>
+	<dcterms:modified>2014-02-15T02:59:49Z</dcterms:modified>
+
+
+	<description>&lt;h1 id=&quot;initsystem&quot;&gt;Init system&lt;/h1&gt;
+
+&lt;p&gt;I am happy that Debian&#39;s Technical Committee was able to reach a very good
+decision with the choice of systemd as the default init system for the Linux
+ports.&lt;/p&gt;
+
+&lt;p&gt;In particular, I was very pleasantly surprised by the lucidity of Russ
+Allbery&#39;s analyses and, above all, his &lt;em&gt;patience&lt;/em&gt; even with people that, in
+my understanding, were just being trolls or trying to cause confusion and
+disrupt a process that was already chaotic.&lt;/p&gt;
+
+&lt;p&gt;Russ, thank you for your exemplary role.&lt;/p&gt;
+
+&lt;p&gt;(Also, you type fast or what? You fill whole e-mails seemingly faster than I
+can read!)&lt;/p&gt;
+
+&lt;h2 id=&quot;unexpectedunionofforces&quot;&gt;Unexpected union of forces&lt;/h2&gt;
+
+&lt;p&gt;It seems to me that Mark Shutterworth&#39;s &lt;a href=&quot;http://www.markshuttleworth.com/archives/1316&quot;&gt;decision&lt;/a&gt; of (perhaps?)
+embracing Debian&#39;s decision in the init system is a good thing.&lt;/p&gt;
+
+&lt;p&gt;I think that one way where Ubuntu did a great thing with respect to Debian
+was their initial attitude towards cherry-picking the best of breed of Free
+Software from Debian&#39;s archive and polishing that to create a really &quot;for
+human beings&quot; operating system.  I hope that this means that, at least in
+part, money (Mark&#39;s?) can be channeled in the best of the interests so that
+we all gain from it.&lt;/p&gt;
+
+&lt;p&gt;(And, to be honest, I see no problem in making money with Free Software and
+I welcome a well done integration job).&lt;/p&gt;
+
+&lt;h1 id=&quot;morepolarizingthings&quot;&gt;More polarizing things&lt;/h1&gt;
+
+&lt;p&gt;I feel that, now, I may even have some hope of sending another
+&lt;a href=&quot;http://www.ffmpeg.org/&quot;&gt;potentially polarizing&lt;/a&gt; bug to the Tech Ctte (that is ffmpeg vs. libav)
+and have faith that some rational decision would be made.&lt;/p&gt;
+
+&lt;p&gt;I was not even aware of it, but the ffmpeg folks even
+&lt;a href=&quot;http://www.ffmpeg.org/&quot;&gt;featured a news item in their page&lt;/a&gt; of me having filed the RFP bug
+mentioned above.&lt;/p&gt;
+
+&lt;h1 id=&quot;debconf14&quot;&gt;DebConf 14&lt;/h1&gt;
+
+&lt;p&gt;If everything goes as expected, I hope to attend this year&#39;s DebConf.  In
+fact, I am anticipating this, since I would love to, e.g., talk with Joey
+Hess and discuss a better way of having &lt;a href=&quot;http://www.gnu.org/software/parallel/&quot;&gt;GNU parallel&lt;/a&gt; and the &lt;code&gt;parallel&lt;/code&gt;
+program in &lt;a href=&quot;http://packages.debian.org/moreutils&quot;&gt;moreutils&lt;/a&gt; have amicable co-installability among many,
+many other things with respect to my packages.&lt;/p&gt;
+
+&lt;p&gt;And, quite probably, work on packaging ffmpeg with other interested people
+(which seem to be numerous).&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Lack of cooperation from Ubuntu?</title>
 
@@ -30,7 +109,7 @@
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
@@ -99,7 +178,7 @@ machines on datacenters.&lt;/p&gt;
 
 
 	<pubDate>Sat, 26 Feb 2011 11:55:06 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Given that Chromium/Chrome is used more and more (as became apparent
@@ -289,7 +368,7 @@ build-dependencies.&lt;/p&gt;
 
 
 	<pubDate>Wed, 03 Nov 2004 00:00:00 -0200</pubDate>
-	<dcterms:modified>2014-02-07T23:02:59Z</dcterms:modified>
+	<dcterms:modified>2014-01-24T06:55:36Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;It&#39;s been quite a long time since I last wrote anything here. In

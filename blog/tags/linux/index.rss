@@ -8,7 +8,86 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 16 Dec 2013 01:33:48 -0200</pubDate>
+<pubDate>Sat, 15 Feb 2014 01:00:29 -0200</pubDate>
+<item>
+	<title>Miscellanea</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2014-02-14_miscellanea/</guid>
+
+	<link>http://cynic.cc/blog//posts/2014-02-14_miscellanea/</link>
+
+
+
+	<category>debian</category>
+
+	<category>ffmpeg</category>
+
+	<category>libav</category>
+
+	<category>linux</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Sat, 15 Feb 2014 00:59:22 -0200</pubDate>
+	<dcterms:modified>2014-02-15T02:59:49Z</dcterms:modified>
+
+
+	<description>&lt;h1 id=&quot;initsystem&quot;&gt;Init system&lt;/h1&gt;
+
+&lt;p&gt;I am happy that Debian&#39;s Technical Committee was able to reach a very good
+decision with the choice of systemd as the default init system for the Linux
+ports.&lt;/p&gt;
+
+&lt;p&gt;In particular, I was very pleasantly surprised by the lucidity of Russ
+Allbery&#39;s analyses and, above all, his &lt;em&gt;patience&lt;/em&gt; even with people that, in
+my understanding, were just being trolls or trying to cause confusion and
+disrupt a process that was already chaotic.&lt;/p&gt;
+
+&lt;p&gt;Russ, thank you for your exemplary role.&lt;/p&gt;
+
+&lt;p&gt;(Also, you type fast or what? You fill whole e-mails seemingly faster than I
+can read!)&lt;/p&gt;
+
+&lt;h2 id=&quot;unexpectedunionofforces&quot;&gt;Unexpected union of forces&lt;/h2&gt;
+
+&lt;p&gt;It seems to me that Mark Shutterworth&#39;s &lt;a href=&quot;http://www.markshuttleworth.com/archives/1316&quot;&gt;decision&lt;/a&gt; of (perhaps?)
+embracing Debian&#39;s decision in the init system is a good thing.&lt;/p&gt;
+
+&lt;p&gt;I think that one way where Ubuntu did a great thing with respect to Debian
+was their initial attitude towards cherry-picking the best of breed of Free
+Software from Debian&#39;s archive and polishing that to create a really &quot;for
+human beings&quot; operating system.  I hope that this means that, at least in
+part, money (Mark&#39;s?) can be channeled in the best of the interests so that
+we all gain from it.&lt;/p&gt;
+
+&lt;p&gt;(And, to be honest, I see no problem in making money with Free Software and
+I welcome a well done integration job).&lt;/p&gt;
+
+&lt;h1 id=&quot;morepolarizingthings&quot;&gt;More polarizing things&lt;/h1&gt;
+
+&lt;p&gt;I feel that, now, I may even have some hope of sending another
+&lt;a href=&quot;http://www.ffmpeg.org/&quot;&gt;potentially polarizing&lt;/a&gt; bug to the Tech Ctte (that is ffmpeg vs. libav)
+and have faith that some rational decision would be made.&lt;/p&gt;
+
+&lt;p&gt;I was not even aware of it, but the ffmpeg folks even
+&lt;a href=&quot;http://www.ffmpeg.org/&quot;&gt;featured a news item in their page&lt;/a&gt; of me having filed the RFP bug
+mentioned above.&lt;/p&gt;
+
+&lt;h1 id=&quot;debconf14&quot;&gt;DebConf 14&lt;/h1&gt;
+
+&lt;p&gt;If everything goes as expected, I hope to attend this year&#39;s DebConf.  In
+fact, I am anticipating this, since I would love to, e.g., talk with Joey
+Hess and discuss a better way of having &lt;a href=&quot;http://www.gnu.org/software/parallel/&quot;&gt;GNU parallel&lt;/a&gt; and the &lt;code&gt;parallel&lt;/code&gt;
+program in &lt;a href=&quot;http://packages.debian.org/moreutils&quot;&gt;moreutils&lt;/a&gt; have amicable co-installability among many,
+many other things with respect to my packages.&lt;/p&gt;
+
+&lt;p&gt;And, quite probably, work on packaging ffmpeg with other interested people
+(which seem to be numerous).&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Assorted random notes</title>
 
@@ -36,7 +115,7 @@
 
 
 	<pubDate>Wed, 23 Oct 2013 21:08:42 -0200</pubDate>
-	<dcterms:modified>2013-12-16T03:33:48Z</dcterms:modified>
+	<dcterms:modified>2013-11-06T17:36:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;This post is just a bunch of random notes, but I think that things are going
@@ -157,7 +236,7 @@ of course, this should be fixed.&lt;/p&gt;
 
 
 	<pubDate>Wed, 21 Aug 2013 13:44:19 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T03:00:29Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
@@ -251,7 +330,7 @@ fingers so that it does.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
@@ -314,7 +393,7 @@ machines on datacenters.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 04:29:23 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-04-30T17:16:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
@@ -423,7 +502,7 @@ and contributing back what I produced.&lt;/p&gt;
 
 
 	<pubDate>Sat, 08 Sep 2012 23:42:24 -0300</pubDate>
-	<dcterms:modified>2012-09-09T02:47:46Z</dcterms:modified>
+	<dcterms:modified>2012-09-09T02:48:33Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Continuing the &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/T3BcxA7wKjK&quot;&gt;ZFS evaluation journey&lt;/a&gt; (which I will summarize here with
@@ -500,7 +579,7 @@ behavior.&lt;/p&gt;
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2011-04-03T01:21:31Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
@@ -811,7 +890,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
@@ -1029,76 +1108,6 @@ connection (an 1Gbps instead of 100Mbps interface).&lt;/p&gt;
 &lt;p&gt;I&#39;m trying to see if I will be able to use a SATA drive with this Kurobox,
 as we can&#39;t find large IDE/PATA drives in the market today (almost). And the
 bigger capacity ones are only available with SATA interfaces.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Playing with Package Proxies</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/playing-with-package-proxies/</guid>
-
-	<link>http://cynic.cc/blog//posts/playing-with-package-proxies/</link>
-
-
-
-	<category>approx</category>
-
-	<category>apt-move</category>
-
-	<category>computers</category>
-
-	<category>debian</category>
-
-	<category>embedded</category>
-
-	<category>linux</category>
-
-	<category>proxy</category>
-
-	<category>ubuntu</category>
-
-
-	<pubDate>Thu, 15 Mar 2007 23:00:00 -0300</pubDate>
-	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Have been playing with the great idea of &lt;a
-href=&quot;http://lists.debian.org/debian-mentors/2009/03/msg00210.html&quot;&gt;caching&lt;/a&gt;
-&lt;a href=&quot;http://lwn.net/Articles/318658/&quot;&gt;deb&lt;/a&gt; packages. I finally
-settled for the option of using &lt;code&gt;&lt;a
-href=&quot;http://git.debian.org/?p=pkg-ocaml-maint/packages/approx.git&quot;&gt;approx&lt;/a&gt;&lt;/code&gt;,
-which does a really nice job of caching packages.&lt;/p&gt;
-
-&lt;p&gt;Actually, it fullfils quite a lot of requirements and even surpasses some of my expectations:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It supports multiple architectures (in fact, this is important for me, as
-I use &lt;code&gt;i386&lt;/code&gt;, &lt;code&gt;amd64&lt;/code&gt;, and &lt;code&gt;powerpc&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;It can support multiple distributions (both different versions of the same
-distribution and completely different distributions, as long as they use a
-repository like &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s, as is the
-case of &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;).&lt;/li&gt;&lt;/li&gt;
-&lt;li&gt;It keeps its directory hierarchy neatly organized, like that of Debian, in
-a package pool, which saves space and makes everything easier and faster
-to find (and has the advantage of being fast with filesystems that don&#39;t
-cope well with many entries in one directory).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The transition wasn&#39;t painless from &lt;a href=&quot;http://packages.debian.org/apt%2Dmove&quot;&gt;apt-move&lt;/a&gt;, since apt-move
-moves the files, but renames them in a way that they don&#39;t keep epochs in
-their names, which makes &lt;code&gt;approx-import&lt;/code&gt; moan about the packages.&lt;/p&gt;
-
-&lt;p&gt;For places where I am too lazy to import the packages, I just filled the
-cache redownloading the packages with something approximately like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  apt-get -d --reinstall install &amp;#036;(dpkg -l | grep &quot;^ii&quot; | cut -d &quot; &quot; -f 3)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Well, I hope that this experience happens to be useful for other people, so
-that they can benefit from it. Rebuilding packages with a package cacher is
-much more pleasant, especially if the package has a lot of
-build-dependencies.&lt;/p&gt;
 </description>
 
 

@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2012-06-07T04:58:09Z</updated>
+<updated>2014-02-15T02:21:28Z</updated>
 <entry>
 	<title>I am not going to DebConf 12</title>
 
@@ -116,7 +116,7 @@ stuff.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2011-04-03T01:21:31Z</updated>
+	<updated>2014-02-15T02:21:28Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
 
 
@@ -427,7 +427,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="typography" />
 
 
-	<updated>2011-03-12T03:27:55Z</updated>
+	<updated>2014-02-15T02:21:28Z</updated>
 	<published>2010-11-12T13:23:55Z</published>
 
 
@@ -561,26 +561,51 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<category term="people" />
 
 
-	<updated>2010-08-03T09:09:46Z</updated>
+	<updated>2014-02-15T02:20:59Z</updated>
 	<published>2010-08-03T09:09:46Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Even though I am late with this post, it is nice to say that I am writing here from this year&#39;s DebConf10, in NYC.&lt;/p&gt;
+	&lt;p&gt;Even though I am late with this post, it is nice to say that I am writing
+here from this year&#39;s DebConf10, in NYC.&lt;/p&gt;
 
-&lt;p&gt;Today (well, yesterday) was the day of the Cheese and Wine party and I think that it was cool, at least for the moments that I were there. This post, though, isn&#39;t technical in any sense. I only talks shortly about my impressions of the community, as this is my first DebConf ever (despite the fact that I have been using Debian since the late nineties).&lt;/p&gt;
+&lt;p&gt;Today (well, yesterday) was the day of the Cheese and Wine party and I think
+that it was cool, at least for the moments that I were there. This post,
+though, isn&#39;t technical in any sense. I only talks shortly about my
+impressions of the community, as this is my first DebConf ever (despite the
+fact that I have been using Debian since the late nineties).&lt;/p&gt;
 
-&lt;p&gt;I was very pleased to have met Bdale Garbee. I saw him the other day arriving with Keith Packard, but I just didn&#39;t want to disturb them at that point. We only talked for, say, 2 minutes, and his was one of the nicest receptions that I had here.&lt;/p&gt;
+&lt;p&gt;I was very pleased to have met Bdale Garbee. I saw him the other day
+arriving with Keith Packard, but I just didn&#39;t want to disturb them at that
+point. We only talked for, say, 2 minutes, and his was one of the nicest
+receptions that I had here.&lt;/p&gt;
 
-&lt;p&gt;And there were some other people that were equally easy to approach, nice to talk with and, to my surprise, knew my name after some brief moments (yes, this &lt;em&gt;does&lt;/em&gt; make a difference, especially when you are in a strange country, when you don&#39;t know anybody with whom you have worked for some years). Being involved in the organization stuff, one would think that Jimmy Kaplowitz would be so busy, but he was so kind.&lt;/p&gt;
+&lt;p&gt;And there were some other people that were equally easy to approach, nice to
+talk with and, to my surprise, knew my name after some brief moments (yes,
+this &lt;em&gt;does&lt;/em&gt; make a difference, especially when you are in a strange country,
+when you don&#39;t know anybody with whom you have worked for some years). Being
+involved in the organization stuff, one would think that Jimmy Kaplowitz
+would be so busy, but he was so kind.&lt;/p&gt;
 
-&lt;p&gt;I had longer conversations with Tássia Camões, Tiago Vaz (as always) and some other people that I had not yet had the pleasure of meeting in person. In particular, Daniel Baumann (who apparently is now crazy about our FISL and wants to drink all Guaraná that he can get &lt;code&gt;:-)&lt;/code&gt;), Chris Lamb and Otávio Salvador and his mom. Those people are so cool and it is nice to discuss some legal issues among different continents in the lounge of their building at late night. &lt;code&gt;:-)&lt;/code&gt; Too bad that I am allocated to the other building. &lt;code&gt;:-)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I had longer conversations with Tássia Camões, Tiago Vaz (as always) and
+some other people that I had not yet had the pleasure of meeting in
+person. In particular, Daniel Baumann (who apparently is now crazy about our
+FISL and wants to drink all Guaraná that he can get :-)), Chris Lamb and
+Otávio Salvador and his mom. Those people are so cool and it is nice to
+discuss some legal issues among different continents in the lounge of their
+building at late night. &lt;img src=&quot;http://cynic.cc/blog//tags/development/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt; Too bad that I am allocated to the other
+building. &lt;img src=&quot;http://cynic.cc/blog//tags/development/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I &lt;em&gt;am&lt;/em&gt; forgetting many other people (hey, it is 2 am here in NYC), but I would feel guilty if I had not mentioned at least three people more: Martin Michlmayr, Phil Hands, and Reinhard Tartler (who is uploading lame to the debian repository, as the patents regarding it are expiring or expired already).&lt;/p&gt;
+&lt;p&gt;I &lt;em&gt;am&lt;/em&gt; forgetting many other people (hey, it is 2 am here in NYC), but I
+would feel guilty if I had not mentioned at least three people more: Martin
+Michlmayr, Phil Hands, and Reinhard Tartler (who is uploading lame to the
+debian repository, as the patents regarding it are expiring or expired
+already).&lt;/p&gt;
 
 &lt;p&gt;Thanks!&lt;/p&gt;
 
-&lt;p&gt;P.S.: I just created an account on flickr that I hope to populate with some photos that I took here. And even with a nice squirrel. &lt;code&gt;:-)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;P.S.: I just created an account on flickr that I hope to populate with some
+photos that I took here. And even with a nice squirrel. &lt;img src=&quot;http://cynic.cc/blog//tags/development/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
 
 	</content>
 
@@ -614,7 +639,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<category term="web-of-trust" />
 
 
-	<updated>2010-07-18T06:34:40Z</updated>
+	<updated>2014-02-15T02:20:27Z</updated>
 	<published>2010-07-18T06:34:40Z</published>
 
 
@@ -680,36 +705,70 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<category term="programming" />
 
 
-	<updated>2011-03-12T03:27:55Z</updated>
+	<updated>2014-02-15T02:20:59Z</updated>
 	<published>2010-06-10T22:46:13Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite hectic, due to some real-life happenings.&lt;/p&gt;
+	&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite
+hectic, due to some real-life happenings.&lt;/p&gt;
 
-&lt;h2&gt;Announcement&lt;/h2&gt;
+&lt;h1 id=&quot;announcement&quot;&gt;Announcement&lt;/h1&gt;
 
-&lt;p&gt;For those people that are insterested in a &lt;em&gt;small&lt;/em&gt; PDF viewer, based on &lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;an actively maintained backend&lt;/a&gt;, and that &lt;a href=&quot;http://localhost/blog/2010/05/27/please-let-me-zoom-my-documents/&quot;&gt;doesn&#39;t bring your computer to a halt&lt;/a&gt; when you try to zoom your documents when you need to see some details, then you might want to give &lt;a href=&quot;http://github.com/rbrito/xpdf-poppler&quot;&gt;this version of xpdf&lt;/a&gt; a try.&lt;/p&gt;
+&lt;p&gt;For those people that are insterested in a &lt;em&gt;small&lt;/em&gt; PDF viewer, based on
+&lt;a href=&quot;http://poppler.freedesktop.org/&quot;&gt;an actively maintained backend&lt;/a&gt;, and that
+&lt;a href=&quot;http://localhost/blog/2010/05/27/please-let-me-zoom-my-documents/&quot;&gt;doesn&#39;t bring your computer to a halt&lt;/a&gt; when you try to zoom your
+documents when you need to see some details, then you might want to give
+&lt;a href=&quot;http://github.com/rbrito/xpdf-poppler&quot;&gt;this version of xpdf&lt;/a&gt; a try.&lt;/p&gt;
 
-&lt;p&gt;I already received some reports for some bugs and fixed them, with one of them being a problem related by a kind user of &lt;a href=&quot;http://www.gentoo.org/&quot;&gt;Gentoo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I already received some reports for some bugs and fixed them, with one of
+them being a problem related by a kind user of &lt;a href=&quot;http://www.gentoo.org/&quot;&gt;Gentoo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2&gt;Motivation&lt;/h2&gt;
+&lt;h1 id=&quot;motivation&quot;&gt;Motivation&lt;/h1&gt;
 
-&lt;p&gt;Some people have asked me why this even needs to exist in the first place and I agree that it would be better if it didn&#39;t: I would love to spend my time actually &lt;em&gt;using&lt;/em&gt; my computers rather than &lt;em&gt;fixing&lt;/em&gt; my computers for better tasks (read: studying Mathematics, etc).&lt;/p&gt;
+&lt;p&gt;Some people have asked me why this even needs to exist in the first place
+and I agree that it would be better if it didn&#39;t: I would love to spend my
+time actually &lt;em&gt;using&lt;/em&gt; my computers rather than &lt;em&gt;fixing&lt;/em&gt; my computers for
+better tasks (read: studying Mathematics, etc).&lt;/p&gt;
 
-&lt;p&gt;The upstream maintainer of xpdf uses it as one source of income and keeps it running across many system (even legacy ones).  I &lt;em&gt;imagine&lt;/em&gt; that this one of the reasons why he tries to keep xpdf almost self contained, with many parts that could be delegated to other libraries, and with some abstraction code that makes the code compile even in the presence of &lt;em&gt;very&lt;/em&gt; broken compilers.  Of course, this means, in part, that as long as you take more duties, maintaing the code becomes more and more complex.&lt;/p&gt;
+&lt;p&gt;The upstream maintainer of xpdf uses it as one source of income and keeps it
+running across many system (even legacy ones).  I &lt;em&gt;imagine&lt;/em&gt; that this one of
+the reasons why he tries to keep xpdf almost self contained, with many parts
+that could be delegated to other libraries, and with some abstraction code
+that makes the code compile even in the presence of &lt;em&gt;very&lt;/em&gt; broken compilers.
+Of course, this means, in part, that as long as you take more duties,
+maintaing the code becomes more and more complex.&lt;/p&gt;
 
-&lt;p&gt;He told me that he doesn&#39;t offer an open development tree because he wants to give his customers some advantages over the public version and his reasons are perfectly justifiable, of course.  He also manifested the interest of possibly basing xpdf on a &quot;more modern toolkit&quot; and, when I asked him what that would be, he mentioned that, perhaps, it would be Qt. The development of xpdf will, quite probably, take newer directions.&lt;/p&gt;
+&lt;p&gt;He told me that he doesn&#39;t offer an open development tree because he wants
+to give his customers some advantages over the public version and his
+reasons are perfectly justifiable, of course.  He also manifested the
+interest of possibly basing xpdf on a &quot;more modern toolkit&quot; and, when I
+asked him what that would be, he mentioned that, perhaps, it would be
+Qt. The development of xpdf will, quite probably, take newer directions.&lt;/p&gt;
 
-&lt;p&gt;Unfortunately, xpdf has not seen a new upstream release since &lt;a href=&quot;http://www.foolabs.com/xpdf/CHANGES&quot;&gt;2007-02-27&lt;/a&gt;.  It did, though, have &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl1.patch&quot;&gt;some&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl2.patch&quot;&gt;patchlevel&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl3.patch&quot;&gt;updates&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl4.patch&quot;&gt;released&lt;/a&gt;. Taking care of the maintainance of the code is a &lt;a href=&quot;http://bugs.debian.org/527840&quot;&gt;high concern&lt;/a&gt; for distributions.&lt;/p&gt;
+&lt;p&gt;Unfortunately, xpdf has not seen a new upstream release since
+&lt;a href=&quot;http://www.foolabs.com/xpdf/CHANGES&quot;&gt;2007-02-27&lt;/a&gt;.  It did, though, have &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl1.patch&quot;&gt;some&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl2.patch&quot;&gt;patchlevel&lt;/a&gt;
+&lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl3.patch&quot;&gt;updates&lt;/a&gt; &lt;a href=&quot;ftp://ftp.foolabs.com/pub/xpdf/xpdf-3.02pl4.patch&quot;&gt;released&lt;/a&gt;. Taking care of the maintainance of the code is a
+&lt;a href=&quot;http://bugs.debian.org/527840&quot;&gt;high concern&lt;/a&gt; for distributions.&lt;/p&gt;
 
-&lt;p&gt;Some people, though, would like to &lt;a href=&quot;http://en.wikipedia.org/wiki/KISS_principle&quot;&gt;keep it simple&lt;/a&gt; (me included).  Unfortunately, &lt;a href=&quot;http://bugs.debian.org/351279&quot;&gt;some efforts&lt;/a&gt; to &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00046.html&quot;&gt;maintain&lt;/a&gt; it had &lt;a href=&quot;http://bugs.gentoo.org/show_bug.cgi?id=289803&quot;&gt;not had&lt;/a&gt; the &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00068.html&quot;&gt;necessary coordination&lt;/a&gt; and duplication of effort has occured.&lt;/p&gt;
+&lt;p&gt;Some people, though, would like to &lt;a href=&quot;http://en.wikipedia.org/wiki/KISS_principle&quot;&gt;keep it simple&lt;/a&gt; (me included).
+Unfortunately, &lt;a href=&quot;http://bugs.debian.org/351279&quot;&gt;some efforts&lt;/a&gt; to &lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00046.html&quot;&gt;maintain&lt;/a&gt; it had &lt;a href=&quot;http://bugs.gentoo.org/show_bug.cgi?id=289803&quot;&gt;not had&lt;/a&gt; the
+&lt;a href=&quot;http://lists.debian.org/debian-mentors/2010/06/msg00068.html&quot;&gt;necessary coordination&lt;/a&gt; and duplication of effort has occured.&lt;/p&gt;
 
-&lt;h2&gt;Proposal&lt;/h2&gt;
+&lt;h1 id=&quot;proposal&quot;&gt;Proposal&lt;/h1&gt;
 
-&lt;p&gt;I am willing to become a patch aggregator for the code in xpdf with a poppler backend. I would love to give it some refactoring too, drop some of the legacy code that is not used (and only serves to make the code hard to read), and adopt some good coding style standard (I particularly &lt;a href=&quot;http://www.kernel.org/doc/Documentation/CodingStyle&quot;&gt;like the one from the Linux Kernel&lt;/a&gt;---with the proper adaptations for C++).&lt;/p&gt;
+&lt;p&gt;I am willing to become a patch aggregator for the code in xpdf with a
+poppler backend. I would love to give it some refactoring too, drop some of
+the legacy code that is not used (and only serves to make the code hard to
+read), and adopt some good coding style standard (I particularly
+&lt;a href=&quot;http://www.kernel.org/doc/Documentation/CodingStyle&quot;&gt;like the one from the Linux Kernel&lt;/a&gt;---with the proper adaptations for
+C++).&lt;/p&gt;
 
-&lt;p&gt;I have already &lt;a href=&quot;https://bugs.gentoo.org/show_bug.cgi?id=323469&quot;&gt;contacted the people at Gentoo&lt;/a&gt;, and I would love to get people from Fedora, Ubuntu, and Suse involved also. Alas,  the last time I tried to mail their mailing lists, I got  messages telling me that my messages were rejected or waiting for moderation, because I was not a subscriber. I never heard back, since.&lt;/p&gt;
+&lt;p&gt;I have already &lt;a href=&quot;http://www.kernel.org/doc/Documentation/CodingStyle&quot;&gt;contacted the people at Gentoo&lt;/a&gt;, and I would love to get
+people from Fedora, Ubuntu, and Suse involved also. Alas, the last time I
+tried to mail their mailing lists, I got messages telling me that my
+messages were rejected or waiting for moderation, because I was not a
+subscriber. I never heard back, since.&lt;/p&gt;
 
 &lt;p&gt;I appreciate it if you could help spread the word.&lt;/p&gt;
 
@@ -753,7 +812,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 	<category term="powerpc" />
 
 
-	<updated>2011-03-12T03:52:56Z</updated>
+	<updated>2014-02-15T02:21:28Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 
