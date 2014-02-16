@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-15T03:00:29Z</updated>
+<updated>2014-02-16T17:10:07Z</updated>
 <entry>
 	<title>Miscellanea</title>
 
@@ -41,7 +41,7 @@
 	<category term="ubuntu" />
 
 
-	<updated>2014-02-15T02:59:49Z</updated>
+	<updated>2014-02-16T17:10:07Z</updated>
 	<published>2014-02-15T02:59:22Z</published>
 
 
@@ -80,7 +80,7 @@ I welcome a well done integration job).&lt;/p&gt;
 &lt;h1 id=&quot;morepolarizingthings&quot;&gt;More polarizing things&lt;/h1&gt;
 
 &lt;p&gt;I feel that, now, I may even have some hope of sending another
-&lt;a href=&quot;http://www.ffmpeg.org/&quot;&gt;potentially polarizing&lt;/a&gt; bug to the Tech Ctte (that is ffmpeg vs. libav)
+&lt;a href=&quot;https://bugs.debian.org/729203&quot;&gt;potentially polarizing&lt;/a&gt; bug to the Tech Ctte (that is ffmpeg vs. libav)
 and have faith that some rational decision would be made.&lt;/p&gt;
 
 &lt;p&gt;I was not even aware of it, but the ffmpeg folks even
@@ -97,6 +97,11 @@ many other things with respect to my packages.&lt;/p&gt;
 
 &lt;p&gt;And, quite probably, work on packaging ffmpeg with other interested people
 (which seem to be numerous).&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; Fix markdown link pointing twice to the ffmpeg site. Thanks
+Marius Gedminas for pointing this out.&lt;/p&gt;
 
 	</content>
 
@@ -132,7 +137,7 @@ many other things with respect to my packages.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-11-06T17:36:48Z</updated>
+	<updated>2013-12-16T03:33:48Z</updated>
 	<published>2013-10-23T23:08:42Z</published>
 
 
@@ -259,7 +264,7 @@ of course, this should be fixed.&lt;/p&gt;
 	<category term="xorg" />
 
 
-	<updated>2014-02-15T03:00:29Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-08-21T16:44:19Z</published>
 
 
@@ -359,7 +364,7 @@ fingers so that it does.&lt;/p&gt;
 	<category term="ubuntu" />
 
 
-	<updated>2013-06-05T08:25:51Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-04-20T01:46:26Z</published>
 
 
@@ -428,7 +433,7 @@ machines on datacenters.&lt;/p&gt;
 	<category term="linux" />
 
 
-	<updated>2013-04-30T17:16:01Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-04-19T07:29:23Z</published>
 
 
@@ -543,7 +548,7 @@ and contributing back what I produced.&lt;/p&gt;
 	<category term="zfs" />
 
 
-	<updated>2012-09-09T02:48:33Z</updated>
+	<updated>2012-09-09T02:47:46Z</updated>
 	<published>2012-09-09T02:42:24Z</published>
 
 
@@ -626,7 +631,7 @@ behavior.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2014-02-15T02:21:28Z</updated>
+	<updated>2014-02-16T00:39:04Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
 
 
@@ -943,7 +948,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="powerpc" />
 
 
-	<updated>2014-02-15T02:21:28Z</updated>
+	<updated>2014-02-16T00:39:04Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 

@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 15 Feb 2014 01:00:29 -0200</pubDate>
+<pubDate>Sun, 16 Feb 2014 14:10:07 -0300</pubDate>
 <item>
 	<title>Miscellanea</title>
 
@@ -30,7 +30,7 @@
 
 
 	<pubDate>Sat, 15 Feb 2014 00:59:22 -0200</pubDate>
-	<dcterms:modified>2014-02-15T02:59:49Z</dcterms:modified>
+	<dcterms:modified>2014-02-16T17:10:07Z</dcterms:modified>
 
 
 	<description>&lt;h1 id=&quot;initsystem&quot;&gt;Init system&lt;/h1&gt;
@@ -67,7 +67,7 @@ I welcome a well done integration job).&lt;/p&gt;
 &lt;h1 id=&quot;morepolarizingthings&quot;&gt;More polarizing things&lt;/h1&gt;
 
 &lt;p&gt;I feel that, now, I may even have some hope of sending another
-&lt;a href=&quot;http://www.ffmpeg.org/&quot;&gt;potentially polarizing&lt;/a&gt; bug to the Tech Ctte (that is ffmpeg vs. libav)
+&lt;a href=&quot;https://bugs.debian.org/729203&quot;&gt;potentially polarizing&lt;/a&gt; bug to the Tech Ctte (that is ffmpeg vs. libav)
 and have faith that some rational decision would be made.&lt;/p&gt;
 
 &lt;p&gt;I was not even aware of it, but the ffmpeg folks even
@@ -84,6 +84,11 @@ many other things with respect to my packages.&lt;/p&gt;
 
 &lt;p&gt;And, quite probably, work on packaging ffmpeg with other interested people
 (which seem to be numerous).&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; Fix markdown link pointing twice to the ffmpeg site. Thanks
+Marius Gedminas for pointing this out.&lt;/p&gt;
 </description>
 
 
@@ -107,7 +112,7 @@ many other things with respect to my packages.&lt;/p&gt;
 
 
 	<pubDate>Thu, 30 Jan 2014 00:43:30 -0200</pubDate>
-	<dcterms:modified>2014-01-30T02:44:49Z</dcterms:modified>
+	<dcterms:modified>2014-02-07T23:02:59Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I don&#39;t know how Debian planet deals with MathJax (it seems to
@@ -148,7 +153,7 @@ which is a trivial approximation that may be handy sometimes.&lt;/p&gt;
 
 
 	<pubDate>Fri, 17 Jan 2014 20:18:04 -0200</pubDate>
-	<dcterms:modified>2014-01-17T22:17:37Z</dcterms:modified>
+	<dcterms:modified>2014-01-23T00:24:40Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I have just enrolled in a MOOC to learn about programming with Android.
@@ -230,7 +235,7 @@ Command Line Options&quot;.&lt;/p&gt;
 
 
 	<pubDate>Wed, 11 Dec 2013 00:27:41 -0200</pubDate>
-	<dcterms:modified>2013-12-11T02:35:41Z</dcterms:modified>
+	<dcterms:modified>2013-12-16T03:33:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Just a trivial fact: every polyhedron that is used in linear programming is
@@ -289,7 +294,7 @@ solution of the original set of inequalities, thus concluding the argument.&lt;/
 
 
 	<pubDate>Wed, 23 Oct 2013 21:08:42 -0200</pubDate>
-	<dcterms:modified>2013-11-06T17:36:48Z</dcterms:modified>
+	<dcterms:modified>2013-12-16T03:33:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;This post is just a bunch of random notes, but I think that things are going
@@ -408,7 +413,7 @@ of course, this should be fixed.&lt;/p&gt;
 
 
 	<pubDate>Fri, 18 Oct 2013 12:49:09 -0300</pubDate>
-	<dcterms:modified>2014-02-15T02:20:59Z</dcterms:modified>
+	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I wrote the following as part of a post to an discussion forum (I can&#39;t
@@ -471,7 +476,7 @@ seeder had the missing segments of the torrent.&lt;/p&gt;
 
 
 	<pubDate>Wed, 21 Aug 2013 13:44:19 -0300</pubDate>
-	<dcterms:modified>2014-02-15T03:00:29Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
@@ -563,7 +568,7 @@ fingers so that it does.&lt;/p&gt;
 
 
 	<pubDate>Sat, 20 Jul 2013 21:50:00 -0300</pubDate>
-	<dcterms:modified>2013-07-21T12:18:29Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;These are some very rough/sketchy notes that I took while doing the
@@ -1009,7 +1014,7 @@ function calls (whenever unambiguous) and, in essence, to write as little
 
 
 	<pubDate>Thu, 04 Jul 2013 08:33:00 -0300</pubDate>
-	<dcterms:modified>2013-07-04T12:25:16Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Not so much ago, we had a boom of new enterprises offering Massive Online
@@ -1099,7 +1104,7 @@ ones.&lt;/p&gt;
 
 
 	<pubDate>Tue, 11 Jun 2013 04:49:56 -0300</pubDate>
-	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
+	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to

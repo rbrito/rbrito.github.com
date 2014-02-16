@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 15 Feb 2014 01:00:29 -0200</pubDate>
+<pubDate>Sun, 16 Feb 2014 14:10:07 -0300</pubDate>
 <item>
 	<title>Miscellanea</title>
 
@@ -30,7 +30,7 @@
 
 
 	<pubDate>Sat, 15 Feb 2014 00:59:22 -0200</pubDate>
-	<dcterms:modified>2014-02-15T02:59:49Z</dcterms:modified>
+	<dcterms:modified>2014-02-16T17:10:07Z</dcterms:modified>
 
 
 	<description>&lt;h1 id=&quot;initsystem&quot;&gt;Init system&lt;/h1&gt;
@@ -67,7 +67,7 @@ I welcome a well done integration job).&lt;/p&gt;
 &lt;h1 id=&quot;morepolarizingthings&quot;&gt;More polarizing things&lt;/h1&gt;
 
 &lt;p&gt;I feel that, now, I may even have some hope of sending another
-&lt;a href=&quot;http://www.ffmpeg.org/&quot;&gt;potentially polarizing&lt;/a&gt; bug to the Tech Ctte (that is ffmpeg vs. libav)
+&lt;a href=&quot;https://bugs.debian.org/729203&quot;&gt;potentially polarizing&lt;/a&gt; bug to the Tech Ctte (that is ffmpeg vs. libav)
 and have faith that some rational decision would be made.&lt;/p&gt;
 
 &lt;p&gt;I was not even aware of it, but the ffmpeg folks even
@@ -84,6 +84,11 @@ many other things with respect to my packages.&lt;/p&gt;
 
 &lt;p&gt;And, quite probably, work on packaging ffmpeg with other interested people
 (which seem to be numerous).&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; Fix markdown link pointing twice to the ffmpeg site. Thanks
+Marius Gedminas for pointing this out.&lt;/p&gt;
 </description>
 
 
@@ -115,7 +120,7 @@ many other things with respect to my packages.&lt;/p&gt;
 
 
 	<pubDate>Wed, 23 Oct 2013 21:08:42 -0200</pubDate>
-	<dcterms:modified>2013-11-06T17:36:48Z</dcterms:modified>
+	<dcterms:modified>2013-12-16T03:33:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;This post is just a bunch of random notes, but I think that things are going
@@ -236,7 +241,7 @@ of course, this should be fixed.&lt;/p&gt;
 
 
 	<pubDate>Wed, 21 Aug 2013 13:44:19 -0300</pubDate>
-	<dcterms:modified>2014-02-15T03:00:29Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
@@ -330,7 +335,7 @@ fingers so that it does.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
@@ -393,7 +398,7 @@ machines on datacenters.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 04:29:23 -0300</pubDate>
-	<dcterms:modified>2013-04-30T17:16:01Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
@@ -502,7 +507,7 @@ and contributing back what I produced.&lt;/p&gt;
 
 
 	<pubDate>Sat, 08 Sep 2012 23:42:24 -0300</pubDate>
-	<dcterms:modified>2012-09-09T02:48:33Z</dcterms:modified>
+	<dcterms:modified>2012-09-09T02:47:46Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Continuing the &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/T3BcxA7wKjK&quot;&gt;ZFS evaluation journey&lt;/a&gt; (which I will summarize here with
@@ -579,7 +584,7 @@ behavior.&lt;/p&gt;
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
+	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
@@ -890,7 +895,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
+	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to

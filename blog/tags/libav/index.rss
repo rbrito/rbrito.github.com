@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 15 Feb 2014 00:59:49 -0200</pubDate>
+<pubDate>Sun, 16 Feb 2014 14:10:07 -0300</pubDate>
 <item>
 	<title>Miscellanea</title>
 
@@ -30,7 +30,7 @@
 
 
 	<pubDate>Sat, 15 Feb 2014 00:59:22 -0200</pubDate>
-	<dcterms:modified>2014-02-15T02:59:49Z</dcterms:modified>
+	<dcterms:modified>2014-02-16T17:10:07Z</dcterms:modified>
 
 
 	<description>&lt;h1 id=&quot;initsystem&quot;&gt;Init system&lt;/h1&gt;
@@ -67,7 +67,7 @@ I welcome a well done integration job).&lt;/p&gt;
 &lt;h1 id=&quot;morepolarizingthings&quot;&gt;More polarizing things&lt;/h1&gt;
 
 &lt;p&gt;I feel that, now, I may even have some hope of sending another
-&lt;a href=&quot;http://www.ffmpeg.org/&quot;&gt;potentially polarizing&lt;/a&gt; bug to the Tech Ctte (that is ffmpeg vs. libav)
+&lt;a href=&quot;https://bugs.debian.org/729203&quot;&gt;potentially polarizing&lt;/a&gt; bug to the Tech Ctte (that is ffmpeg vs. libav)
 and have faith that some rational decision would be made.&lt;/p&gt;
 
 &lt;p&gt;I was not even aware of it, but the ffmpeg folks even
@@ -84,6 +84,11 @@ many other things with respect to my packages.&lt;/p&gt;
 
 &lt;p&gt;And, quite probably, work on packaging ffmpeg with other interested people
 (which seem to be numerous).&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; Fix markdown link pointing twice to the ffmpeg site. Thanks
+Marius Gedminas for pointing this out.&lt;/p&gt;
 </description>
 
 

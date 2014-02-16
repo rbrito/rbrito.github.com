@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-15T03:00:29Z</updated>
+<updated>2014-02-16T17:10:07Z</updated>
 <entry>
 	<title>Miscellanea</title>
 
@@ -41,7 +41,7 @@
 	<category term="ubuntu" />
 
 
-	<updated>2014-02-15T02:59:49Z</updated>
+	<updated>2014-02-16T17:10:07Z</updated>
 	<published>2014-02-15T02:59:22Z</published>
 
 
@@ -80,7 +80,7 @@ I welcome a well done integration job).&lt;/p&gt;
 &lt;h1 id=&quot;morepolarizingthings&quot;&gt;More polarizing things&lt;/h1&gt;
 
 &lt;p&gt;I feel that, now, I may even have some hope of sending another
-&lt;a href=&quot;http://www.ffmpeg.org/&quot;&gt;potentially polarizing&lt;/a&gt; bug to the Tech Ctte (that is ffmpeg vs. libav)
+&lt;a href=&quot;https://bugs.debian.org/729203&quot;&gt;potentially polarizing&lt;/a&gt; bug to the Tech Ctte (that is ffmpeg vs. libav)
 and have faith that some rational decision would be made.&lt;/p&gt;
 
 &lt;p&gt;I was not even aware of it, but the ffmpeg folks even
@@ -97,6 +97,11 @@ many other things with respect to my packages.&lt;/p&gt;
 
 &lt;p&gt;And, quite probably, work on packaging ffmpeg with other interested people
 (which seem to be numerous).&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; Fix markdown link pointing twice to the ffmpeg site. Thanks
+Marius Gedminas for pointing this out.&lt;/p&gt;
 
 	</content>
 
@@ -124,7 +129,7 @@ many other things with respect to my packages.&lt;/p&gt;
 	<category term="tex" />
 
 
-	<updated>2014-01-30T02:44:49Z</updated>
+	<updated>2014-02-07T23:02:59Z</updated>
 	<published>2014-01-30T02:43:30Z</published>
 
 
@@ -171,7 +176,7 @@ which is a trivial approximation that may be handy sometimes.&lt;/p&gt;
 	<category term="java" />
 
 
-	<updated>2014-01-17T22:17:37Z</updated>
+	<updated>2014-01-23T00:24:40Z</updated>
 	<published>2014-01-17T22:18:04Z</published>
 
 
@@ -259,7 +264,7 @@ Command Line Options&quot;.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-12-11T02:35:41Z</updated>
+	<updated>2013-12-16T03:33:48Z</updated>
 	<published>2013-12-11T02:27:41Z</published>
 
 
@@ -324,7 +329,7 @@ solution of the original set of inequalities, thus concluding the argument.&lt;/
 	<category term="study" />
 
 
-	<updated>2013-11-06T17:36:48Z</updated>
+	<updated>2013-12-16T03:33:48Z</updated>
 	<published>2013-10-23T23:08:42Z</published>
 
 
@@ -449,7 +454,7 @@ of course, this should be fixed.&lt;/p&gt;
 	<category term="quick-tip" />
 
 
-	<updated>2014-02-15T02:20:59Z</updated>
+	<updated>2014-02-16T00:39:04Z</updated>
 	<published>2013-10-18T15:49:09Z</published>
 
 
@@ -518,7 +523,7 @@ seeder had the missing segments of the torrent.&lt;/p&gt;
 	<category term="xorg" />
 
 
-	<updated>2014-02-15T03:00:29Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-08-21T16:44:19Z</published>
 
 
@@ -616,7 +621,7 @@ fingers so that it does.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-07-21T12:18:29Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-07-21T00:50:00Z</published>
 
 
@@ -1068,7 +1073,7 @@ function calls (whenever unambiguous) and, in essence, to write as little
 	<category term="study" />
 
 
-	<updated>2013-07-04T12:25:16Z</updated>
+	<updated>2013-10-11T06:07:42Z</updated>
 	<published>2013-07-04T11:33:00Z</published>
 
 
@@ -1164,7 +1169,7 @@ ones.&lt;/p&gt;
 	<category term="revision-control" />
 
 
-	<updated>2014-02-15T02:21:28Z</updated>
+	<updated>2014-02-16T00:39:04Z</updated>
 	<published>2013-06-11T07:49:56Z</published>
 
 
