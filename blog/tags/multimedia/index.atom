@@ -17,7 +17,95 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-10-11T06:17:05Z</updated>
+<updated>2014-02-17T22:20:22Z</updated>
+<entry>
+	<title>Some new Youtube-dl functionality</title>
+
+	<id>http://cynic.cc/blog//posts/2014-02-17-youtube-dl_news/</id>
+
+	<link href="http://cynic.cc/blog//posts/2014-02-17-youtube-dl_news/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="linux" />
+
+	<category term="multimedia" />
+
+	<category term="python" />
+
+	<category term="study" />
+
+
+	<updated>2014-02-17T22:20:22Z</updated>
+	<published>2014-02-17T21:27:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I wrote in a &lt;a href=&quot;http://cynic.cc/blog//tags/multimedia/../../posts/2013-10-23-assorted_news/#youtube-dl&quot;&gt;previous post&lt;/a&gt; that
+Youtube changed their way of delivering videos, with the use of
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Dynamic%20Adaptive%20Streaming%20over%20HTTP&quot;&gt;Dynamic Adaptive Streaming over HTTP&lt;/a&gt;.  On top of that, they
+started serving both the audio and the video in separate streams, which
+meant trouble for downloader tools like &lt;a href=&quot;http://youtube-dl.org/&quot;&gt;&lt;code&gt;youtube-dl&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As I mentioned in that previous post:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What does this mean in practical terms for users of youtube-dl?  Well, if
+  you wanted to download videos in resolutions like the 480p (format 35)
+  that I mentioned, then you will probably have to change your way of doing
+  things, until a more automated solution is in place.&lt;/p&gt;
+  
+  &lt;p&gt;You will have to download both the audio and the video and, then,
+  &quot;combine&quot; them (that is, multiplex them) to create one &quot;normal&quot; video file
+  with both the audio and the video.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And latter, I wrote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Otherwise, to download 480p videos (which I do for lectures and so on with
+  other projects of mine, like edx-dl) I have to call youtube-dl twice: once
+  for format 135 and another for format 140, since the old &lt;img src=&quot;http://cynic.cc/blog//tags/multimedia/../../smileys/question.png&quot; alt=&quot;(?)&quot; /&gt; format 35
+  files are much smaller than the lower resolution 360p files (due to the
+  former being encoded in High profile vs. the latter being encoded in
+  Constrained Baseline profile).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(...)&lt;/p&gt;
+
+&lt;p&gt;Well, now, we don&#39;t have this problem anymore:&lt;/p&gt;
+
+&lt;p&gt;The new release of &lt;code&gt;youtube-dl&lt;/code&gt; brings us many goodies, including that it is
+possible to &lt;em&gt;automatically&lt;/em&gt; combine/merge/multiplex audio and video formats
+that Youtube now offers separately (See the previous comments about separate
+audio and video).&lt;/p&gt;
+
+&lt;p&gt;Now, if you want a 480p video in H.264 format, High profile, with 128kbps
+AAC audio (this used to be Youtube&#39;s format 35), you can specify format &lt;code&gt;-f
+135+140&lt;/code&gt; on the command-line and it will download both the audio, the video
+and multiplex it with &lt;code&gt;ffmpeg&lt;/code&gt; (or &lt;code&gt;avconv&lt;/code&gt;, depending on what you have
+installed).&lt;/p&gt;
+
+&lt;p&gt;Besides being convenient, this automatic downloading and merging makes it
+unnecessary to write scripts to, say, retrieve all the videos in a playlist
+that contains a lot of lectures (see &lt;a href=&quot;http://www.youtube.com/watch?v=EPQgeAz264g&amp;amp;list=PLA58AC5CABC1321A3&quot;&gt;one example here&lt;/a&gt;, taught by
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Benedict%20Gross&quot;&gt;Benedict Gross&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Version 2014.02.17 of &lt;code&gt;youtube-dl&lt;/code&gt; will be soon in your favorite mirror of
+the Debian archives.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Looking for (Free) a Video Editor</title>
 

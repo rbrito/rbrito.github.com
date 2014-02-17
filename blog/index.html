@@ -77,6 +77,107 @@ Rogério Brito's Digital Junkyard
 
 <header class="header">
 
+<a href="./posts/2014-02-17-youtube-dl_news/">Some new Youtube-dl functionality</a>
+
+</header>
+</section>
+
+<section class="inlinecontent">
+<p>I wrote in a <a href="./posts/2013-10-23-assorted_news/#youtube-dl">previous post</a> that
+Youtube changed their way of delivering videos, with the use of
+<a href="https://en.wikipedia.org/wiki/Dynamic%20Adaptive%20Streaming%20over%20HTTP">Dynamic Adaptive Streaming over HTTP</a>.  On top of that, they
+started serving both the audio and the video in separate streams, which
+meant trouble for downloader tools like <a href="http://youtube-dl.org/"><code>youtube-dl</code></a>.</p>
+
+<p>As I mentioned in that previous post:</p>
+
+<blockquote>
+  <p>What does this mean in practical terms for users of youtube-dl?  Well, if
+  you wanted to download videos in resolutions like the 480p (format 35)
+  that I mentioned, then you will probably have to change your way of doing
+  things, until a more automated solution is in place.</p>
+  
+  <p>You will have to download both the audio and the video and, then,
+  "combine" them (that is, multiplex them) to create one "normal" video file
+  with both the audio and the video.</p>
+</blockquote>
+
+<p>And latter, I wrote:</p>
+
+<blockquote>
+  <p>Otherwise, to download 480p videos (which I do for lectures and so on with
+  other projects of mine, like edx-dl) I have to call youtube-dl twice: once
+  for format 135 and another for format 140, since the old <img src="./smileys/question.png" alt="(?)" /> format 35
+  files are much smaller than the lower resolution 360p files (due to the
+  former being encoded in High profile vs. the latter being encoded in
+  Constrained Baseline profile).</p>
+</blockquote>
+
+<p>(...)</p>
+
+<p>Well, now, we don't have this problem anymore:</p>
+
+<p>The new release of <code>youtube-dl</code> brings us many goodies, including that it is
+possible to <em>automatically</em> combine/merge/multiplex audio and video formats
+that Youtube now offers separately (See the previous comments about separate
+audio and video).</p>
+
+<p>Now, if you want a 480p video in H.264 format, High profile, with 128kbps
+AAC audio (this used to be Youtube's format 35), you can specify format <code>-f
+135+140</code> on the command-line and it will download both the audio, the video
+and multiplex it with <code>ffmpeg</code> (or <code>avconv</code>, depending on what you have
+installed).</p>
+
+<p>Besides being convenient, this automatic downloading and merging makes it
+unnecessary to write scripts to, say, retrieve all the videos in a playlist
+that contains a lot of lectures (see <a href="http://www.youtube.com/watch?v=EPQgeAz264g&amp;list=PLA58AC5CABC1321A3">one example here</a>, taught by
+<a href="https://en.wikipedia.org/wiki/Benedict%20Gross">Benedict Gross</a>).</p>
+
+<p>Version 2014.02.17 of <code>youtube-dl</code> will be soon in your favorite mirror of
+the Debian archives.</p>
+
+</section>
+
+<footer class="inlinefooter">
+
+<span class="pagedate">
+Posted <time datetime="2014-02-17T21:27:00Z" pubdate="pubdate">2014-02-17T18:27:00 BRT</time>
+</span>
+
+
+<nav class="tags">
+Tags:
+
+<a href="./tags/debian/" rel="tag">debian</a>
+
+<a href="./tags/free-software/" rel="tag">free-software</a>
+
+<a href="./tags/linux/" rel="tag">linux</a>
+
+<a href="./tags/multimedia/" rel="tag">multimedia</a>
+
+<a href="./tags/python/" rel="tag">python</a>
+
+<a href="./tags/study/" rel="tag">study</a>
+
+</nav>
+
+
+
+
+
+
+
+
+</footer>
+
+</article>
+<article class="inlinepage">
+
+<section class="inlineheader">
+
+<header class="header">
+
 <a href="./posts/2014-02-14_miscellanea/">Miscellanea</a>
 
 </header>
@@ -1287,123 +1388,6 @@ Tags:
 <a href="./tags/python/" rel="tag">python</a>
 
 <a href="./tags/study/" rel="tag">study</a>
-
-</nav>
-
-
-
-
-
-
-
-
-</footer>
-
-</article>
-<article class="inlinepage">
-
-<section class="inlineheader">
-
-<header class="header">
-
-<a href="./posts/working_with_cvs_via_git/">Working with CVS via Git</a>
-
-</header>
-</section>
-
-<section class="inlinecontent">
-<p>The easiest way of using git locally to commit to a CVS repository is to
-have <em>both</em> a git clone of the CVS repository <em>and</em> a CVS checkout of your
-repository.</p>
-
-<h1 id="initialstepsthatworkformetm">Initial steps that Work for Me (TM)</h1>
-
-<ol>
-<li><p>Create your git clone of the CVS repository:</p>
-
-<pre><code>git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
-    :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
-</code></pre>
-
-<p>The command above will create your clone of the CVS repository in the
-current directory which we suppose, for the sake of this discussion, is
-<code>/tmp/gitified</code>.</p>
-
-<p>If want to specify a directory different than what you're in, then you
-should add the option <code>-C /path/to/git/repository</code>.</p></li>
-<li><p>Create a checkout of the CVS repository for CVS work stuff (I'm checking
-out things under <code>/tmp</code>):</p>
-
-<pre><code>cvs -z3 -d:ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame checkout lame
-</code></pre>
-
-<p>This will create your CVS checkout on the directory <code>/tmp/lame</code>, assuming
-that you are working under <code>/tmp</code>, as I do.</p></li>
-</ol>
-
-<h1 id="doingrealwork">Doing real work</h1>
-
-<ol>
-<li><p>Go to your git clone (<code>/tmp/gitified</code>) and start hacking, committing, etc.</p></li>
-<li><p>When it is time to send your patches to the CVS repo, you have to:</p>
-
-<pre><code>export GIT_DIR=/tmp/gitified/.git
-cd /tmp/lame
-git cherry origin master | sed -n 's/^+ //p' | xargs -l1 git cvsexportcommit -c -p -v
-</code></pre>
-
-<p>This will automatically check in all the commits that you have made in
-the previous step.</p></li>
-</ol>
-
-<h1 id="continuingyourworkafterwards">Continuing your work afterwards</h1>
-
-<ol>
-<li>First, discard your commits in your git repository, so that you don't get
-further problems with <code>git cvsimport</code>.</li>
-<li><p>Update your git repository with the current contents of the CVS repo:</p>
-
-<pre><code>cd /tmp/gitified
-git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
-    :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
-</code></pre></li>
-<li><p>Update your CVS repository with the current contents of the CVS repo too:</p>
-
-<pre><code>cd /tmp/lame
-cvs update
-</code></pre></li>
-</ol>
-
-<h1 id="conclusion">Conclusion</h1>
-
-<p>Of course, I would prefer a simpler, leaner workflow. If you happen to have
-one, please let me know.</p>
-
-</section>
-
-<footer class="inlinefooter">
-
-<span class="pagedate">
-Posted <time datetime="2013-06-11T07:49:56Z" pubdate="pubdate">2013-06-11T04:49:56 BRT</time>
-</span>
-
-
-<nav class="tags">
-Tags:
-
-<a href="./tags/cvs/" rel="tag">cvs</a>
-
-<a href="./tags/debian/" rel="tag">debian</a>
-
-<a href="./tags/free-software/" rel="tag">free-software</a>
-
-<a href="./tags/git/" rel="tag">git</a>
-
-<a href="./tags/hacks/" rel="tag">hacks</a>
-
-<a href="./tags/lame/" rel="tag">lame</a>
-
-<a href="./tags/revision-control/" rel="tag">revision-control</a>
 
 </nav>
 

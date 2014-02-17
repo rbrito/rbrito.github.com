@@ -8,7 +8,89 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 07 Feb 2014 21:02:59 -0200</pubDate>
+<pubDate>Mon, 17 Feb 2014 19:20:22 -0300</pubDate>
+<item>
+	<title>Some new Youtube-dl functionality</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2014-02-17-youtube-dl_news/</guid>
+
+	<link>http://cynic.cc/blog//posts/2014-02-17-youtube-dl_news/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>linux</category>
+
+	<category>multimedia</category>
+
+	<category>python</category>
+
+	<category>study</category>
+
+
+	<pubDate>Mon, 17 Feb 2014 18:27:00 -0300</pubDate>
+	<dcterms:modified>2014-02-17T22:20:22Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;I wrote in a &lt;a href=&quot;http://cynic.cc/blog//tags/study/../../posts/2013-10-23-assorted_news/#youtube-dl&quot;&gt;previous post&lt;/a&gt; that
+Youtube changed their way of delivering videos, with the use of
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Dynamic%20Adaptive%20Streaming%20over%20HTTP&quot;&gt;Dynamic Adaptive Streaming over HTTP&lt;/a&gt;.  On top of that, they
+started serving both the audio and the video in separate streams, which
+meant trouble for downloader tools like &lt;a href=&quot;http://youtube-dl.org/&quot;&gt;&lt;code&gt;youtube-dl&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As I mentioned in that previous post:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What does this mean in practical terms for users of youtube-dl?  Well, if
+  you wanted to download videos in resolutions like the 480p (format 35)
+  that I mentioned, then you will probably have to change your way of doing
+  things, until a more automated solution is in place.&lt;/p&gt;
+  
+  &lt;p&gt;You will have to download both the audio and the video and, then,
+  &quot;combine&quot; them (that is, multiplex them) to create one &quot;normal&quot; video file
+  with both the audio and the video.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And latter, I wrote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Otherwise, to download 480p videos (which I do for lectures and so on with
+  other projects of mine, like edx-dl) I have to call youtube-dl twice: once
+  for format 135 and another for format 140, since the old &lt;img src=&quot;http://cynic.cc/blog//tags/study/../../smileys/question.png&quot; alt=&quot;(?)&quot; /&gt; format 35
+  files are much smaller than the lower resolution 360p files (due to the
+  former being encoded in High profile vs. the latter being encoded in
+  Constrained Baseline profile).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(...)&lt;/p&gt;
+
+&lt;p&gt;Well, now, we don&#39;t have this problem anymore:&lt;/p&gt;
+
+&lt;p&gt;The new release of &lt;code&gt;youtube-dl&lt;/code&gt; brings us many goodies, including that it is
+possible to &lt;em&gt;automatically&lt;/em&gt; combine/merge/multiplex audio and video formats
+that Youtube now offers separately (See the previous comments about separate
+audio and video).&lt;/p&gt;
+
+&lt;p&gt;Now, if you want a 480p video in H.264 format, High profile, with 128kbps
+AAC audio (this used to be Youtube&#39;s format 35), you can specify format &lt;code&gt;-f
+135+140&lt;/code&gt; on the command-line and it will download both the audio, the video
+and multiplex it with &lt;code&gt;ffmpeg&lt;/code&gt; (or &lt;code&gt;avconv&lt;/code&gt;, depending on what you have
+installed).&lt;/p&gt;
+
+&lt;p&gt;Besides being convenient, this automatic downloading and merging makes it
+unnecessary to write scripts to, say, retrieve all the videos in a playlist
+that contains a lot of lectures (see &lt;a href=&quot;http://www.youtube.com/watch?v=EPQgeAz264g&amp;amp;list=PLA58AC5CABC1321A3&quot;&gt;one example here&lt;/a&gt;, taught by
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Benedict%20Gross&quot;&gt;Benedict Gross&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Version 2014.02.17 of &lt;code&gt;youtube-dl&lt;/code&gt; will be soon in your favorite mirror of
+the Debian archives.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Trivial fact #2: Harmonic Numbers</title>
 
@@ -874,44 +956,6 @@ kind of deadline to worry about. A &lt;em&gt;hard&lt;/em&gt; deadline, that is. 
 	<description>&lt;p&gt;I have to finish the 5th chapter of my dissertation.&lt;br&gt;
 I have to finish the 5th chapter of my dissertation.&lt;br&gt;
 I have to finish the 5th chapter of my dissertation.&lt;br&gt;&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2003-03-11</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2003-03-11/</guid>
-
-	<link>http://cynic.cc/blog//posts/2003-03-11/</link>
-
-
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>life</category>
-
-	<category>study</category>
-
-
-	<pubDate>Tue, 11 Mar 2003 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-02-07T23:02:59Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Woke up without sleeping as much as I wanted. Fine.&lt;/p&gt;
-
-&lt;p&gt;Wrote yet another bit about HMMs for the last chapter of my
-Master&#39;s work. This time it was about the training process of a HMM
-and the Baum-Welch algorithm. It seems to make perfect sense, even
-if you haven&#39;t seen the proof that it is a special case of the EM
-algorithm. It also seems to be slow.&lt;/p&gt;
-
-&lt;p&gt;I typed what I wrote.&lt;/p&gt;
-
-&lt;p&gt;And &lt;a href=&quot;http://www.debian.org/releases/sarge/&quot;&gt;sarge&lt;/a&gt; is being updated
-again. Hooray&lt;/p&gt;
 </description>
 
 

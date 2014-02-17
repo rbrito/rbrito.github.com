@@ -17,7 +17,95 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-16T00:39:04Z</updated>
+<updated>2014-02-17T22:20:22Z</updated>
+<entry>
+	<title>Some new Youtube-dl functionality</title>
+
+	<id>http://cynic.cc/blog//posts/2014-02-17-youtube-dl_news/</id>
+
+	<link href="http://cynic.cc/blog//posts/2014-02-17-youtube-dl_news/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="linux" />
+
+	<category term="multimedia" />
+
+	<category term="python" />
+
+	<category term="study" />
+
+
+	<updated>2014-02-17T22:20:22Z</updated>
+	<published>2014-02-17T21:27:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I wrote in a &lt;a href=&quot;http://cynic.cc/blog//tags/free-software/../../posts/2013-10-23-assorted_news/#youtube-dl&quot;&gt;previous post&lt;/a&gt; that
+Youtube changed their way of delivering videos, with the use of
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Dynamic%20Adaptive%20Streaming%20over%20HTTP&quot;&gt;Dynamic Adaptive Streaming over HTTP&lt;/a&gt;.  On top of that, they
+started serving both the audio and the video in separate streams, which
+meant trouble for downloader tools like &lt;a href=&quot;http://youtube-dl.org/&quot;&gt;&lt;code&gt;youtube-dl&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As I mentioned in that previous post:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What does this mean in practical terms for users of youtube-dl?  Well, if
+  you wanted to download videos in resolutions like the 480p (format 35)
+  that I mentioned, then you will probably have to change your way of doing
+  things, until a more automated solution is in place.&lt;/p&gt;
+  
+  &lt;p&gt;You will have to download both the audio and the video and, then,
+  &quot;combine&quot; them (that is, multiplex them) to create one &quot;normal&quot; video file
+  with both the audio and the video.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And latter, I wrote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Otherwise, to download 480p videos (which I do for lectures and so on with
+  other projects of mine, like edx-dl) I have to call youtube-dl twice: once
+  for format 135 and another for format 140, since the old &lt;img src=&quot;http://cynic.cc/blog//tags/free-software/../../smileys/question.png&quot; alt=&quot;(?)&quot; /&gt; format 35
+  files are much smaller than the lower resolution 360p files (due to the
+  former being encoded in High profile vs. the latter being encoded in
+  Constrained Baseline profile).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(...)&lt;/p&gt;
+
+&lt;p&gt;Well, now, we don&#39;t have this problem anymore:&lt;/p&gt;
+
+&lt;p&gt;The new release of &lt;code&gt;youtube-dl&lt;/code&gt; brings us many goodies, including that it is
+possible to &lt;em&gt;automatically&lt;/em&gt; combine/merge/multiplex audio and video formats
+that Youtube now offers separately (See the previous comments about separate
+audio and video).&lt;/p&gt;
+
+&lt;p&gt;Now, if you want a 480p video in H.264 format, High profile, with 128kbps
+AAC audio (this used to be Youtube&#39;s format 35), you can specify format &lt;code&gt;-f
+135+140&lt;/code&gt; on the command-line and it will download both the audio, the video
+and multiplex it with &lt;code&gt;ffmpeg&lt;/code&gt; (or &lt;code&gt;avconv&lt;/code&gt;, depending on what you have
+installed).&lt;/p&gt;
+
+&lt;p&gt;Besides being convenient, this automatic downloading and merging makes it
+unnecessary to write scripts to, say, retrieve all the videos in a playlist
+that contains a lot of lectures (see &lt;a href=&quot;http://www.youtube.com/watch?v=EPQgeAz264g&amp;amp;list=PLA58AC5CABC1321A3&quot;&gt;one example here&lt;/a&gt;, taught by
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Benedict%20Gross&quot;&gt;Benedict Gross&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Version 2014.02.17 of &lt;code&gt;youtube-dl&lt;/code&gt; will be soon in your favorite mirror of
+the Debian archives.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Developing for Android with Debian</title>
 
@@ -1226,66 +1314,6 @@ touched.&lt;/p&gt;
 services which are not Debian Developers/Maintainers, I contributed to these
 packages without being the maintainer of them, just scratching some itches
 and contributing back what I produced.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Looking for (Free) a Video Editor</title>
-
-	<id>http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/</id>
-
-	<link href="http://cynic.cc/blog//posts/dear_lazyweb_what_is_a_good_free_video_editor/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="lazyweb" />
-
-	<category term="multimedia" />
-
-	<category term="video" />
-
-
-	<updated>2013-04-18T20:50:59Z</updated>
-	<published>2013-01-30T00:16:07Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Let&#39;s suppose that you went to a show of your favourite some time ago and
-you were able to sneak in a camera (well, in those times, cell phones
-weren&#39;t able to record much more than 176x144 pixels at 12fps).&lt;/p&gt;
-
-&lt;p&gt;But, then, you suddenly found that some people uploaded (short) fragments of
-that very same show to youtube and, collecting those, you may be able to
-create a &quot;multi-camera&quot; version of the video that you can record to keep of
-your memorable concert.&lt;/p&gt;
-
-&lt;p&gt;The multi-camera, in the sense above, is not the same as
-&lt;a href=&quot;https://en.wikipedia.org/wiki/DVD-Video#Chapters_and_angles&quot;&gt;multiple angles&lt;/a&gt; (like some DVDs), but something like a TV broadcast,
-where the stage is filmed by cameras positioned at some places and the image
-that is broadcast is switched from time to time according to that who is
-singing, or playing etc.&lt;/p&gt;
-
-&lt;p&gt;So, Dear Lazyweb, do we happen to have any Free Software (preferably already
-packaged in Debian) that is able to help with the task of &quot;aligning&quot; (in
-time) videos from various (different) sources so as to produce one
-multi-camera video?&lt;/p&gt;
-
-&lt;p&gt;What would my options be? I &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT43j64jh8zLRYCMVRnJQgINcgSOhf-5Ozg&quot;&gt;asked this&lt;/a&gt; on youtube for a person that
-&lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&quot;&gt;did exactly what I want&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT6jkGhCF9g1RzmZAsFIGmYzChDJwqwovNc&quot;&gt;their answer&lt;/a&gt; was &lt;a href=&quot;https://en.wikipedia.org/wiki/Sony_Vegas_Pro&quot;&gt;Sony Vegas&lt;/a&gt;,
-which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://cynic.cc/blog//tags/free-software/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Any comments are welcome, thanks, and if I am successful, I will upload the
-final video. &lt;img src=&quot;http://cynic.cc/blog//tags/free-software/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 
 	</content>
 

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Some new Youtube-dl functionality</title>
+
+<link rel="stylesheet" href="../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../local.css" type="text/css" />
+
+
+
+<meta name="date" content="Mon, 17 Feb 2014 18:27:00 -0300" />
+
+
+</head>
+<body>
+
+<article class="page">
+
+<section class="pageheader">
+<header class="header">
+<script type="text/javascript">
+  bb_bid = "1692909";
+  bb_lang = "pt-BR";
+  bb_name = "custom";
+  bb_limit = "8";
+  bb_format = "bbb";
+</script>
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+<span>
+<span class="parentlinks">
+
+<a href="../../">Rogério Brito's Digital Junkyard</a> &#8594;
+
+<a href="../">posts</a> &#8594;
+
+</span>
+<span class="title">
+Some new Youtube-dl functionality
+</span>
+</span>
+</header>
+
+
+
+</section>
+
+
+<aside class="sidebar">
+<p><a href="../../about/">About Me</a></p>
+
+<script type="text/javascript">
+  bb_bid = "1692909";
+  bb_lang = "pt-BR";
+  bb_name = "custom";
+  bb_limit = "6";
+  bb_format = "bbn";
+</script>
+
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+
+</aside>
+
+
+<div id="pagebody">
+
+<section id="content">
+<p>I wrote in a <a href="../2013-10-23-assorted_news/#youtube-dl">previous post</a> that
+Youtube changed their way of delivering videos, with the use of
+<a href="https://en.wikipedia.org/wiki/Dynamic%20Adaptive%20Streaming%20over%20HTTP">Dynamic Adaptive Streaming over HTTP</a>.  On top of that, they
+started serving both the audio and the video in separate streams, which
+meant trouble for downloader tools like <a href="http://youtube-dl.org/"><code>youtube-dl</code></a>.</p>
+
+<p>As I mentioned in that previous post:</p>
+
+<blockquote>
+  <p>What does this mean in practical terms for users of youtube-dl?  Well, if
+  you wanted to download videos in resolutions like the 480p (format 35)
+  that I mentioned, then you will probably have to change your way of doing
+  things, until a more automated solution is in place.</p>
+  
+  <p>You will have to download both the audio and the video and, then,
+  "combine" them (that is, multiplex them) to create one "normal" video file
+  with both the audio and the video.</p>
+</blockquote>
+
+<p>And latter, I wrote:</p>
+
+<blockquote>
+  <p>Otherwise, to download 480p videos (which I do for lectures and so on with
+  other projects of mine, like edx-dl) I have to call youtube-dl twice: once
+  for format 135 and another for format 140, since the old <img src="../../smileys/question.png" alt="(?)" /> format 35
+  files are much smaller than the lower resolution 360p files (due to the
+  former being encoded in High profile vs. the latter being encoded in
+  Constrained Baseline profile).</p>
+</blockquote>
+
+<p>(...)</p>
+
+<p>Well, now, we don't have this problem anymore:</p>
+
+<p>The new release of <code>youtube-dl</code> brings us many goodies, including that it is
+possible to <em>automatically</em> combine/merge/multiplex audio and video formats
+that Youtube now offers separately (See the previous comments about separate
+audio and video).</p>
+
+<p>Now, if you want a 480p video in H.264 format, High profile, with 128kbps
+AAC audio (this used to be Youtube's format 35), you can specify format <code>-f
+135+140</code> on the command-line and it will download both the audio, the video
+and multiplex it with <code>ffmpeg</code> (or <code>avconv</code>, depending on what you have
+installed).</p>
+
+<p>Besides being convenient, this automatic downloading and merging makes it
+unnecessary to write scripts to, say, retrieve all the videos in a playlist
+that contains a lot of lectures (see <a href="http://www.youtube.com/watch?v=EPQgeAz264g&amp;list=PLA58AC5CABC1321A3">one example here</a>, taught by
+<a href="https://en.wikipedia.org/wiki/Benedict%20Gross">Benedict Gross</a>).</p>
+
+<p>Version 2014.02.17 of <code>youtube-dl</code> will be soon in your favorite mirror of
+the Debian archives.</p>
+
+</section>
+
+<div id="comments">
+
+<div id="disqus_comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'digitaljunkyard'; // required: replace example with your forum shortname
+    var discus_identifier = 'posts/2014-02-17-youtube-dl_news';
+    var disqus_url = 'http://cynic.cc/blog//posts/2014-02-17-youtube-dl_news/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer id="footer" class="pagefooter">
+
+<nav id="pageinfo">
+
+
+
+
+<nav class="tags">
+Tags:
+
+<a href="../../tags/debian/" rel="tag">debian</a>
+
+<a href="../../tags/free-software/" rel="tag">free-software</a>
+
+<a href="../../tags/linux/" rel="tag">linux</a>
+
+<a href="../../tags/multimedia/" rel="tag">multimedia</a>
+
+<a href="../../tags/python/" rel="tag">python</a>
+
+<a href="../../tags/study/" rel="tag">study</a>
+
+</nav>
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <time datetime="2014-02-17T22:20:22Z">2014-02-17T19:20:22 BRT</time>
+<!-- Created <time datetime="2014-02-17T21:27:00Z" pubdate="pubdate">2014-02-17T18:27:00 BRT</time> -->
+</div>
+
+</nav>
+
+
+<!-- from Rogério Brito's Digital Junkyard -->
+</footer>
+
+</article>
+</body>
+</html>
