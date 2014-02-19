@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-17T22:20:22Z</updated>
+<updated>2014-02-19T05:52:57Z</updated>
 <entry>
 	<title>Some new Youtube-dl functionality</title>
 
@@ -43,7 +43,7 @@
 	<category term="study" />
 
 
-	<updated>2014-02-17T22:20:22Z</updated>
+	<updated>2014-02-19T05:52:57Z</updated>
 	<published>2014-02-17T21:27:00Z</published>
 
 
@@ -127,7 +127,7 @@ the Debian archives.&lt;/p&gt;
 	<category term="tex" />
 
 
-	<updated>2014-02-07T23:02:59Z</updated>
+	<updated>2014-01-30T02:44:49Z</updated>
 	<published>2014-01-30T02:43:30Z</published>
 
 
@@ -172,7 +172,7 @@ which is a trivial approximation that may be handy sometimes.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-12-16T03:33:48Z</updated>
+	<updated>2013-12-11T02:35:41Z</updated>
 	<published>2013-12-11T02:27:41Z</published>
 
 
@@ -237,7 +237,7 @@ solution of the original set of inequalities, thus concluding the argument.&lt;/
 	<category term="study" />
 
 
-	<updated>2013-12-16T03:33:48Z</updated>
+	<updated>2013-11-06T17:36:48Z</updated>
 	<published>2013-10-23T23:08:42Z</published>
 
 
@@ -362,7 +362,7 @@ of course, this should be fixed.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-07-21T12:18:29Z</updated>
 	<published>2013-07-21T00:50:00Z</published>
 
 
@@ -814,7 +814,7 @@ function calls (whenever unambiguous) and, in essence, to write as little
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-07-04T12:25:16Z</updated>
 	<published>2013-07-04T11:33:00Z</published>
 
 
@@ -902,7 +902,7 @@ ones.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-04-18T21:08:06Z</updated>
+	<updated>2013-04-18T21:09:53Z</updated>
 	<published>2005-11-19T02:00:00Z</published>
 
 
@@ -916,45 +916,52 @@ Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&
 
 </entry>
 <entry>
-	<title>2004-11-12</title>
+	<title>2005-03-17</title>
 
-	<id>http://cynic.cc/blog//posts/2004-11-12/</id>
+	<id>http://cynic.cc/blog//posts/2005-03-17/</id>
 
-	<link href="http://cynic.cc/blog//posts/2004-11-12/"/>
-
-
+	<link href="http://cynic.cc/blog//posts/2005-03-17/"/>
 
 
 
+
+
+
+	<category term="abstract-algebra" />
 
 	<category term="free-software" />
 
-	<category term="hardware" />
+	<category term="graph-theory" />
 
-	<category term="life" />
+	<category term="latex" />
 
 	<category term="linux" />
 
-	<category term="phd" />
-
 	<category term="study" />
 
-	<category term="toefl" />
 
-
-	<updated>2014-02-07T23:02:59Z</updated>
-	<published>2004-11-12T02:00:00Z</published>
+	<updated>2014-02-19T05:52:57Z</updated>
+	<published>2005-03-17T03:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Well, maybe &lt;a href=&quot;http://www.cs.newcastle.edu.au/~nbi/&quot;&gt;Oz&lt;/a&gt; &lt;em&gt;is&lt;/em&gt; a bit
-farther than I thought at first, due to some
-&lt;a href=&quot;http://www.toefl.org/&quot;&gt;bureaucratic&lt;/a&gt; matters, unfortunately.&lt;/p&gt;
+	&lt;p&gt;So, now I am officially a maintainer of the
+&lt;a href=&quot;ftp://ftp.dante.de/tex-archive/help/Catalogue/entries/algorithms.html&quot;&gt;algorithms&lt;/a&gt;
+package, which makes me quite happy. Many thanks go to the previous
+maintainer, Peter Williams, for creating such a great piece of
+software.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Quiz:&lt;/strong&gt; How does one discovers when his computer has memory
-problems?
-&lt;strong&gt;Answer:&lt;/strong&gt; When one starts to see
-&lt;a href=&quot;http://lkml.org/lkml/2004/11/7/96&quot;&gt;instabilities while running Linux&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Also, it seems that finally &lt;a href=&quot;http://www.adobe.com/&quot;&gt;Adobe&lt;/a&gt; has
+understood that the scientific community uses Unix and they have
+released
+&lt;a href=&quot;ftp://ftp.adobe.com/pub/adobe/reader/unix/7x/7.0/enu/&quot;&gt;Acrobat/Adobe Reader 7.0&lt;/a&gt;
+for Linux, with widgets with &lt;a href=&quot;http://www.gtk.org/&quot;&gt;Gtk 2.0&lt;/a&gt;. Trés
+cool.&lt;/p&gt;
+
+&lt;p&gt;BTW, I have stopped reading on Graph Theory just for a tiny bit to
+learn things on Abstract Algebra. I want to study algebraic
+properties of graphs and, for that, I have to get my rusty algebra
+in shape. Also, some Linear Algebra wouldn&#39;t hurt.&lt;/p&gt;
 
 	</content>
 
@@ -962,11 +969,11 @@ problems?
 
 </entry>
 <entry>
-	<title>2003-05-09</title>
+	<title>2004-12-04</title>
 
-	<id>http://cynic.cc/blog//posts/2003-05-09/</id>
+	<id>http://cynic.cc/blog//posts/2004-12-04/</id>
 
-	<link href="http://cynic.cc/blog//posts/2003-05-09/"/>
+	<link href="http://cynic.cc/blog//posts/2004-12-04/"/>
 
 
 
@@ -975,23 +982,19 @@ problems?
 
 	<category term="life" />
 
+	<category term="music" />
+
 	<category term="study" />
 
 
-	<updated>2014-02-07T23:02:59Z</updated>
-	<published>2003-05-09T03:00:00Z</published>
+	<updated>2014-02-19T05:52:57Z</updated>
+	<published>2004-12-04T02:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;My dissertation is basically finished now. All chapters are either
-already completely written or they have only details left (like
-changing the language, checking the correctness of proofs etc). The
-first two chapters are almost consumer-ready. The others are what
-is worrying me.&lt;/p&gt;
-
-&lt;p&gt;And now things are just a bit different, as it seems that I have a
-kind of deadline to worry about. A &lt;em&gt;hard&lt;/em&gt; deadline, that is. It&#39;s
-25th of June, which must not be missed.&lt;/p&gt;
+	&lt;p&gt;No scholarship, no
+&lt;a href=&quot;http://www.cs.newcastle.edu.au/~nbi/&quot;&gt;Ph.D. in Oz&lt;/a&gt;. Again, why
+have things gone so wrong in the last few days?&lt;/p&gt;
 
 	</content>
 
@@ -999,11 +1002,11 @@ kind of deadline to worry about. A &lt;em&gt;hard&lt;/em&gt; deadline, that is. 
 
 </entry>
 <entry>
-	<title>2003-03-12</title>
+	<title>2004-12-01</title>
 
-	<id>http://cynic.cc/blog//posts/2003-03-12/</id>
+	<id>http://cynic.cc/blog//posts/2004-12-01/</id>
 
-	<link href="http://cynic.cc/blog//posts/2003-03-12/"/>
+	<link href="http://cynic.cc/blog//posts/2004-12-01/"/>
 
 
 
@@ -1012,17 +1015,28 @@ kind of deadline to worry about. A &lt;em&gt;hard&lt;/em&gt; deadline, that is. 
 
 	<category term="life" />
 
+	<category term="music" />
+
 	<category term="study" />
 
 
-	<updated>2014-02-07T23:02:59Z</updated>
-	<published>2003-03-12T03:00:00Z</published>
+	<updated>2014-02-19T05:52:57Z</updated>
+	<published>2004-12-01T02:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;I have to finish the 5th chapter of my dissertation.&lt;br&gt;
-I have to finish the 5th chapter of my dissertation.&lt;br&gt;
-I have to finish the 5th chapter of my dissertation.&lt;br&gt;&lt;/p&gt;
+	&lt;p&gt;Dear Santa, I&#39;ve been a good kid for ages. Why can&#39;t I have the
+things that I wished for? I&#39;d love to have a SO with stress on the
+&lt;strong&gt;S&lt;/strong&gt;. Why have things gone &lt;em&gt;so&lt;/em&gt; wrong nowadays?&lt;/p&gt;
+
+&lt;p&gt;Well, finally, anyway, my TOEFL scores have arrived at the proper
+department at &lt;a href=&quot;http://www.newcastle.edu.au/&quot;&gt;Oz&lt;/a&gt;. Now, only a few
+documents are pending to know if I can get a Scholarship.&lt;/p&gt;
+
+&lt;p&gt;But more than anything else, I&#39;d really like to be happier. But I
+am not. Life is painful right now. And to fit my current mood, I&#39;ve
+been listening to Monolithe, Shape of Despair, Skepticism and The
+3rd and the Mortal. Beautiful music.&lt;/p&gt;
 
 	</content>
 

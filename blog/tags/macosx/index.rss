@@ -8,7 +8,62 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 11 Oct 2013 03:42:35 -0300</pubDate>
+<pubDate>Wed, 19 Feb 2014 02:52:57 -0300</pubDate>
+<item>
+	<title>2005-04-12</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-04-12/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-04-12/</link>
+
+
+
+	<category>apple</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>macosx</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Tue, 12 Apr 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;After installing the NewerTech G3 upgrade card into the PowerMac 9500/180MP,
+I had some problems, when I tried to install
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;None of the sarge floppies would work and I eventually decided to get rid of
+any traces of MacOS and installed using the woody floppies. The problem is
+that the kernel 2.2.20 that comes with woody ins&#39;t able to see both PCI
+buses, especially the one where the video card is sitting on. I had to grab
+a kernel from testing&#39;s repository, but I don&#39;t like distribution kernels,
+for they are way too bloated.&lt;/p&gt;
+
+&lt;p&gt;Note to self: when replacing the &lt;code&gt;zImage&lt;/code&gt; on the HFS boot floppy, one
+has to use the vmlinux image compressed with &lt;code&gt;gzip&lt;/code&gt;, like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gzip -9 vmlinux
+hmount /dev/fd0
+hcopy vmlinux.gz :zImage
+humount /dev/fd0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;No other image that I tried worked. But it was nice to (re)-discover how one
+makes a boot floppy for an OldWorld Mac.&lt;/p&gt;
+
+&lt;p&gt;P.S.: Today, &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; announced the next upgrade of
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;, code named &quot;Tiger&quot;.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>2002-12-29</title>
 
@@ -32,7 +87,7 @@
 
 
 	<pubDate>Sun, 29 Dec 2002 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-10-11T06:42:35Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:43:13Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;It&#39;s been quite a while since I last updated my diary. Many things
@@ -80,7 +135,7 @@ promising. Packaged for Debian also, of course.&lt;/p&gt;
 
 
 	<pubDate>Wed, 17 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:25:02Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:33:23Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Maldita &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;! Eu os odeio! Odeio $teve
@@ -115,7 +170,7 @@ dizer, &lt;a href=&quot;http://www.mac.com/&quot;&gt;.Mac&lt;/a&gt;.&lt;/p&gt;
 
 
 	<pubDate>Sun, 07 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:23:45Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:33:23Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Woke up quite early with that kernel panic bugging me. I read the
@@ -171,7 +226,7 @@ easy to use.&lt;/p&gt;
 
 
 	<pubDate>Sat, 06 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:20:31Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:33:23Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Took the day to see how things regarding the old PowerMac
@@ -242,7 +297,7 @@ the first reboot: a kernel panic.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:17:05Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:33:23Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Wow, so many things going in software-land that if I don&#39;t write

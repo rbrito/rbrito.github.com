@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 15 Feb 2014 22:39:04 -0200</pubDate>
+<pubDate>Wed, 19 Feb 2014 02:52:57 -0300</pubDate>
 <item>
 	<title>A version of xpdf with the poppler backend available</title>
 
@@ -36,7 +36,7 @@
 
 
 	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
-	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:20:59Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite
@@ -102,6 +102,37 @@ subscriber. I never heard back, since.&lt;/p&gt;
 &lt;p&gt;I appreciate it if you could help spread the word.&lt;/p&gt;
 
 &lt;p&gt;Thanks.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-01-06</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-01-06/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-01-06/</link>
+
+
+
+	<category>algorithms</category>
+
+	<category>life</category>
+
+	<category>programming</category>
+
+	<category>teaching</category>
+
+
+	<pubDate>Thu, 06 Jan 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Started the new Summer Course on Topics on Programming. A great
+opportunity to get the things &quot;the right way&quot; and put an
+introduction on Mathematical Induction, on Recursion and on
+Algorithm/Loop Invariants, since they aren&#39;t covered in details for
+novices in any of the books that I know.&lt;/p&gt;
 </description>
 
 

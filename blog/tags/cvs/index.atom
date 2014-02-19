@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-16T00:39:04Z</updated>
+<updated>2014-02-19T05:52:57Z</updated>
 <entry>
 	<title>Working with CVS via Git</title>
 
@@ -45,7 +45,7 @@
 	<category term="revision-control" />
 
 
-	<updated>2014-02-16T00:39:04Z</updated>
+	<updated>2014-02-15T02:21:28Z</updated>
 	<published>2013-06-11T07:49:56Z</published>
 
 
@@ -116,6 +116,43 @@ cvs update
 
 &lt;p&gt;Of course, I would prefer a simpler, leaner workflow. If you happen to have
 one, please let me know.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-04-05</title>
+
+	<id>http://cynic.cc/blog//posts/2005-04-05/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-04-05/"/>
+
+
+
+
+
+
+	<category term="cvs" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="latex" />
+
+
+	<updated>2014-02-19T05:52:57Z</updated>
+	<published>2005-04-05T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Finally &lt;a href=&quot;http://algorithms.berlios.de/&quot;&gt;uploaded the homepage&lt;/a&gt; of
+the algorithms package to &lt;a href=&quot;http://www.berlios.de/&quot;&gt;BerliOS&lt;/a&gt;. The
+fact that they use &lt;a href=&quot;http://subversion.tigris.org/&quot;&gt;subversion&lt;/a&gt; as
+an option to CVS was a big plus on deciding where to host the
+project.&lt;/p&gt;
 
 	</content>
 

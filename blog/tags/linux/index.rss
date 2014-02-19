@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 17 Feb 2014 19:20:22 -0300</pubDate>
+<pubDate>Wed, 19 Feb 2014 02:52:57 -0300</pubDate>
 <item>
 	<title>Some new Youtube-dl functionality</title>
 
@@ -32,7 +32,7 @@
 
 
 	<pubDate>Mon, 17 Feb 2014 18:27:00 -0300</pubDate>
-	<dcterms:modified>2014-02-17T22:20:22Z</dcterms:modified>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I wrote in a &lt;a href=&quot;http://cynic.cc/blog//tags/linux/../../posts/2013-10-23-assorted_news/#youtube-dl&quot;&gt;previous post&lt;/a&gt; that
@@ -112,7 +112,7 @@ the Debian archives.&lt;/p&gt;
 
 
 	<pubDate>Sat, 15 Feb 2014 00:59:22 -0200</pubDate>
-	<dcterms:modified>2014-02-16T17:10:07Z</dcterms:modified>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
 
 
 	<description>&lt;h1 id=&quot;initsystem&quot;&gt;Init system&lt;/h1&gt;
@@ -202,7 +202,7 @@ Marius Gedminas for pointing this out.&lt;/p&gt;
 
 
 	<pubDate>Wed, 23 Oct 2013 21:08:42 -0200</pubDate>
-	<dcterms:modified>2013-12-16T03:33:48Z</dcterms:modified>
+	<dcterms:modified>2013-11-06T17:36:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;This post is just a bunch of random notes, but I think that things are going
@@ -323,7 +323,7 @@ of course, this should be fixed.&lt;/p&gt;
 
 
 	<pubDate>Wed, 21 Aug 2013 13:44:19 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T03:00:29Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
@@ -417,7 +417,7 @@ fingers so that it does.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 22:46:26 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-06-05T08:25:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/C2vY4nD4CD6&quot;&gt;posted the following on Google+&lt;/a&gt;, but it is important enough to be
@@ -480,7 +480,7 @@ machines on datacenters.&lt;/p&gt;
 
 
 	<pubDate>Fri, 19 Apr 2013 04:29:23 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-04-30T17:16:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I have been occasionally working on some Debian-related tasks.&lt;/p&gt;
@@ -589,7 +589,7 @@ and contributing back what I produced.&lt;/p&gt;
 
 
 	<pubDate>Sat, 08 Sep 2012 23:42:24 -0300</pubDate>
-	<dcterms:modified>2012-09-09T02:47:46Z</dcterms:modified>
+	<dcterms:modified>2012-09-09T02:48:33Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Continuing the &lt;a href=&quot;https://plus.google.com/117659222649141007981/posts/T3BcxA7wKjK&quot;&gt;ZFS evaluation journey&lt;/a&gt; (which I will summarize here with
@@ -666,7 +666,7 @@ behavior.&lt;/p&gt;
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
@@ -977,7 +977,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to

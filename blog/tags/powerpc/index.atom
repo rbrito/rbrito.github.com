@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-16T00:39:04Z</updated>
+<updated>2014-02-19T05:52:57Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -51,7 +51,7 @@
 	<category term="powerpc" />
 
 
-	<updated>2014-02-16T00:39:04Z</updated>
+	<updated>2014-02-15T02:21:28Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
 
 
@@ -362,7 +362,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="web-of-trust" />
 
 
-	<updated>2010-07-18T06:34:40Z</updated>
+	<updated>2014-02-15T02:20:27Z</updated>
 	<published>2010-07-18T06:34:40Z</published>
 
 
@@ -432,7 +432,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="powerpc" />
 
 
-	<updated>2014-02-16T00:39:04Z</updated>
+	<updated>2014-02-15T02:21:28Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 
@@ -580,6 +580,116 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 </entry>
 <entry>
+	<title>2005-04-12</title>
+
+	<id>http://cynic.cc/blog//posts/2005-04-12/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-04-12/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="macosx" />
+
+	<category term="powerpc" />
+
+
+	<updated>2014-02-19T05:52:57Z</updated>
+	<published>2005-04-12T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;After installing the NewerTech G3 upgrade card into the PowerMac 9500/180MP,
+I had some problems, when I tried to install
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;None of the sarge floppies would work and I eventually decided to get rid of
+any traces of MacOS and installed using the woody floppies. The problem is
+that the kernel 2.2.20 that comes with woody ins&#39;t able to see both PCI
+buses, especially the one where the video card is sitting on. I had to grab
+a kernel from testing&#39;s repository, but I don&#39;t like distribution kernels,
+for they are way too bloated.&lt;/p&gt;
+
+&lt;p&gt;Note to self: when replacing the &lt;code&gt;zImage&lt;/code&gt; on the HFS boot floppy, one
+has to use the vmlinux image compressed with &lt;code&gt;gzip&lt;/code&gt;, like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gzip -9 vmlinux
+hmount /dev/fd0
+hcopy vmlinux.gz :zImage
+humount /dev/fd0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;No other image that I tried worked. But it was nice to (re)-discover how one
+makes a boot floppy for an OldWorld Mac.&lt;/p&gt;
+
+&lt;p&gt;P.S.: Today, &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; announced the next upgrade of
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;, code named &quot;Tiger&quot;.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-03-30</title>
+
+	<id>http://cynic.cc/blog//posts/2005-03-30/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-03-30/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="powerpc" />
+
+
+	<updated>2014-02-19T05:52:57Z</updated>
+	<published>2005-03-30T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Woohoo! Finally I received a nice little package with two G3
+upgrade cards (and one IMSTT card). This is great news for me to
+upgrade the PowerMac 9500/180MP that I have here.&lt;/p&gt;
+
+&lt;p&gt;Curiously, only one of its memory sticks (it has 2 32MB sticks) was
+being recognized by the system. I had to open it and it took me
+quite some time to figure out why (after some tweaking) the system
+wouldn&#39;t boot anymore. I have no idea why, but just zapping the
+NVRAM worked (i.e., Cmd+Option+P+R).&lt;/p&gt;
+
+&lt;p&gt;The next step now is to see if I can get more memory for this
+system, so that I can actually use it after this welcome upgrade.
+Then, I will surely be playing with
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.debian.org/releases/sarge&quot;&gt;sarge&lt;/a&gt;.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>2002-08-22</title>
 
 	<id>http://cynic.cc/blog//posts/2002-08-22/</id>
@@ -602,7 +712,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<category term="study" />
 
 
-	<updated>2013-10-19T19:51:12Z</updated>
+	<updated>2013-10-19T19:53:25Z</updated>
 	<published>2002-08-22T03:00:00Z</published>
 
 
@@ -650,7 +760,7 @@ happier than most people from your own country?&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:28:43Z</updated>
+	<updated>2013-10-11T06:33:23Z</updated>
 	<published>2002-07-27T03:00:00Z</published>
 
 
@@ -699,7 +809,7 @@ thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:23:45Z</updated>
+	<updated>2013-10-11T06:33:23Z</updated>
 	<published>2002-07-07T03:00:00Z</published>
 
 
@@ -761,7 +871,7 @@ easy to use.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:20:31Z</updated>
+	<updated>2013-10-11T06:33:23Z</updated>
 	<published>2002-07-06T03:00:00Z</published>
 
 
@@ -844,7 +954,7 @@ the first reboot: a kernel panic.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:12:33Z</updated>
+	<updated>2013-10-11T06:33:23Z</updated>
 	<published>2002-04-04T03:00:00Z</published>
 
 
@@ -881,131 +991,6 @@ It is also available for Microsoft Windows.&lt;/p&gt;
 
 &lt;p&gt;And a new version of &lt;a href=&quot;http://www.blackdown.org/&quot;&gt;Blackdown&lt;/a&gt;&#39;s Java
 is available for Linux, including PPC.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2002-03-29</title>
-
-	<id>http://cynic.cc/blog//posts/2002-03-29/</id>
-
-	<link href="http://cynic.cc/blog//posts/2002-03-29/"/>
-
-
-
-
-
-
-	<category term="free-software" />
-
-	<category term="harware" />
-
-	<category term="life" />
-
-	<category term="linux" />
-
-	<category term="powerpc" />
-
-	<category term="python" />
-
-	<category term="sadness" />
-
-	<category term="video" />
-
-
-	<updated>2013-10-11T06:07:42Z</updated>
-	<published>2002-03-29T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Today, I could sleep better, at least.&lt;/p&gt;
-
-&lt;p&gt;Also read a tiny little bit about
-&lt;a href=&quot;http://www.docbook.org/&quot;&gt;DocBook&lt;/a&gt;. Some things still aren&#39;t clear
-on my mind regarding SGML and DocBook, though.&lt;/p&gt;
-
-&lt;p&gt;It was nice to have &lt;a href=&quot;http://avifile.sf.net/&quot;&gt;avifile&lt;/a&gt; enter woody,
-which means that now I can use it on PPC.&lt;/p&gt;
-
-&lt;p&gt;The bad news of the day is that
-&lt;a href=&quot;http://www.iname.com/&quot;&gt;Iname/Mail.com&lt;/a&gt; will not be forwarding
-mails, starting early next month. &lt;a href=&quot;http://mail.yahoo.com/&quot;&gt;Yahoo!&lt;/a&gt;
-is joining them, which means that I&#39;ll have to seriously consider
-using my &lt;a href=&quot;http://www.mac.com&quot;&gt;Mac.com&lt;/a&gt; addresses for POP3/IMAP.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.python.org/&quot;&gt;Which&lt;/a&gt; &lt;a href=&quot;http://www.perl.com/&quot;&gt;programming&lt;/a&gt;
-&lt;a href=&quot;http://java.sun.com/&quot;&gt;language&lt;/a&gt;
-&lt;a href=&quot;http://www.objective-c.org/&quot;&gt;should&lt;/a&gt; I learn? To be sincere, I
-don&#39;t know. I&#39;m under the impression that the combo
-&lt;a href=&quot;http://www.python.org/&quot;&gt;Python&lt;/a&gt;/&lt;a href=&quot;http://www.jython.org/&quot;&gt;Jython&lt;/a&gt;
-is what offers me the greatest effort/satisfaction ratio, for many
-different values of satisfaction.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2002-03-18</title>
-
-	<id>http://cynic.cc/blog//posts/2002-03-18/</id>
-
-	<link href="http://cynic.cc/blog//posts/2002-03-18/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="hardware" />
-
-	<category term="ibook" />
-
-	<category term="linux" />
-
-	<category term="mac" />
-
-	<category term="powerpc" />
-
-	<category term="study" />
-
-
-	<updated>2013-10-11T06:07:42Z</updated>
-	<published>2002-03-18T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Typed the remaining bits of the first lecture on the
-&lt;em&gt;Theory of Matroids&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Read about how one makes a bootable CD for Newworlds with mkisofs:
-apparently, the needed things are the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;create a folder with &lt;code&gt;yaboot&lt;/code&gt;, &lt;code&gt;yaboot.conf&lt;/code&gt;, &lt;code&gt;vmlinux&lt;/code&gt;, &lt;code&gt;root.bin&lt;/code&gt;.
-I&#39;m not sure if &lt;code&gt;boot-floppy-hfs.img&lt;/code&gt; and &lt;code&gt;ofboot.b&lt;/code&gt; are necessary. I
-also don&#39;t have an idea of how OpenFirmware knows that it is
-supposed to load yaboot during the boot;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;code&gt;mkisofs -hfs -map &amp;lt;file\&amp;gt; -part -hfs-bless &amp;lt;folder\&amp;gt; -r -o &amp;lt;isoimage.iso\&amp;gt; &amp;lt;root-of-cd\&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Sent an e-mail to the bastards at
-&lt;a href=&quot;http://www.linuxjournal.com/&quot;&gt;Linux Journal&lt;/a&gt;, complaining that I&#39;m
-not receiving my issues as I should (and my subscription is far
-from being expired).&lt;/p&gt;
-
-&lt;p&gt;Discovered that &lt;a href=&quot;http://www.apple.com.br/&quot;&gt;Apple Brasil&lt;/a&gt; is selling
-&lt;a href=&quot;http://www.apple.com/ibook/&quot;&gt;iBooks&lt;/a&gt; in
-&lt;a href=&quot;http://www.apple.com/br/appleensino/&quot;&gt;a promotion for education users&lt;/a&gt;.
-Damn!&lt;/p&gt;
 
 	</content>
 

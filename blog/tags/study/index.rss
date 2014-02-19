@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 17 Feb 2014 19:20:22 -0300</pubDate>
+<pubDate>Wed, 19 Feb 2014 02:52:57 -0300</pubDate>
 <item>
 	<title>Some new Youtube-dl functionality</title>
 
@@ -32,7 +32,7 @@
 
 
 	<pubDate>Mon, 17 Feb 2014 18:27:00 -0300</pubDate>
-	<dcterms:modified>2014-02-17T22:20:22Z</dcterms:modified>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I wrote in a &lt;a href=&quot;http://cynic.cc/blog//tags/study/../../posts/2013-10-23-assorted_news/#youtube-dl&quot;&gt;previous post&lt;/a&gt; that
@@ -110,7 +110,7 @@ the Debian archives.&lt;/p&gt;
 
 
 	<pubDate>Thu, 30 Jan 2014 00:43:30 -0200</pubDate>
-	<dcterms:modified>2014-02-07T23:02:59Z</dcterms:modified>
+	<dcterms:modified>2014-01-30T02:44:49Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I don&#39;t know how Debian planet deals with MathJax (it seems to
@@ -149,7 +149,7 @@ which is a trivial approximation that may be handy sometimes.&lt;/p&gt;
 
 
 	<pubDate>Wed, 11 Dec 2013 00:27:41 -0200</pubDate>
-	<dcterms:modified>2013-12-16T03:33:48Z</dcterms:modified>
+	<dcterms:modified>2013-12-11T02:35:41Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Just a trivial fact: every polyhedron that is used in linear programming is
@@ -208,7 +208,7 @@ solution of the original set of inequalities, thus concluding the argument.&lt;/
 
 
 	<pubDate>Wed, 23 Oct 2013 21:08:42 -0200</pubDate>
-	<dcterms:modified>2013-12-16T03:33:48Z</dcterms:modified>
+	<dcterms:modified>2013-11-06T17:36:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;This post is just a bunch of random notes, but I think that things are going
@@ -327,7 +327,7 @@ of course, this should be fixed.&lt;/p&gt;
 
 
 	<pubDate>Sat, 20 Jul 2013 21:50:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-07-21T12:18:29Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;These are some very rough/sketchy notes that I took while doing the
@@ -773,7 +773,7 @@ function calls (whenever unambiguous) and, in essence, to write as little
 
 
 	<pubDate>Thu, 04 Jul 2013 08:33:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-07-04T12:25:16Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Not so much ago, we had a boom of new enterprises offering Massive Online
@@ -855,7 +855,7 @@ ones.&lt;/p&gt;
 
 
 	<pubDate>Sat, 19 Nov 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:08:06Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Purchased some books at discount prices. Nice. Now I can learn
@@ -865,97 +865,111 @@ Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&
 
 </item>
 <item>
-	<title>2004-11-12</title>
+	<title>2005-03-17</title>
 
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2004-11-12/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-03-17/</guid>
 
-	<link>http://cynic.cc/blog//posts/2004-11-12/</link>
+	<link>http://cynic.cc/blog//posts/2005-03-17/</link>
 
 
+
+	<category>abstract-algebra</category>
 
 	<category>free-software</category>
 
-	<category>hardware</category>
+	<category>graph-theory</category>
 
-	<category>life</category>
+	<category>latex</category>
 
 	<category>linux</category>
 
-	<category>phd</category>
-
 	<category>study</category>
 
-	<category>toefl</category>
+
+	<pubDate>Thu, 17 Mar 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
 
 
-	<pubDate>Fri, 12 Nov 2004 00:00:00 -0200</pubDate>
-	<dcterms:modified>2014-02-07T23:02:59Z</dcterms:modified>
+	<description>&lt;p&gt;So, now I am officially a maintainer of the
+&lt;a href=&quot;ftp://ftp.dante.de/tex-archive/help/Catalogue/entries/algorithms.html&quot;&gt;algorithms&lt;/a&gt;
+package, which makes me quite happy. Many thanks go to the previous
+maintainer, Peter Williams, for creating such a great piece of
+software.&lt;/p&gt;
 
+&lt;p&gt;Also, it seems that finally &lt;a href=&quot;http://www.adobe.com/&quot;&gt;Adobe&lt;/a&gt; has
+understood that the scientific community uses Unix and they have
+released
+&lt;a href=&quot;ftp://ftp.adobe.com/pub/adobe/reader/unix/7x/7.0/enu/&quot;&gt;Acrobat/Adobe Reader 7.0&lt;/a&gt;
+for Linux, with widgets with &lt;a href=&quot;http://www.gtk.org/&quot;&gt;Gtk 2.0&lt;/a&gt;. Trés
+cool.&lt;/p&gt;
 
-	<description>&lt;p&gt;Well, maybe &lt;a href=&quot;http://www.cs.newcastle.edu.au/~nbi/&quot;&gt;Oz&lt;/a&gt; &lt;em&gt;is&lt;/em&gt; a bit
-farther than I thought at first, due to some
-&lt;a href=&quot;http://www.toefl.org/&quot;&gt;bureaucratic&lt;/a&gt; matters, unfortunately.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Quiz:&lt;/strong&gt; How does one discovers when his computer has memory
-problems?
-&lt;strong&gt;Answer:&lt;/strong&gt; When one starts to see
-&lt;a href=&quot;http://lkml.org/lkml/2004/11/7/96&quot;&gt;instabilities while running Linux&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;BTW, I have stopped reading on Graph Theory just for a tiny bit to
+learn things on Abstract Algebra. I want to study algebraic
+properties of graphs and, for that, I have to get my rusty algebra
+in shape. Also, some Linear Algebra wouldn&#39;t hurt.&lt;/p&gt;
 </description>
 
 
 </item>
 <item>
-	<title>2003-05-09</title>
+	<title>2004-12-04</title>
 
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2003-05-09/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2004-12-04/</guid>
 
-	<link>http://cynic.cc/blog//posts/2003-05-09/</link>
+	<link>http://cynic.cc/blog//posts/2004-12-04/</link>
 
 
 
 	<category>life</category>
 
+	<category>music</category>
+
 	<category>study</category>
 
 
-	<pubDate>Fri, 09 May 2003 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-02-07T23:02:59Z</dcterms:modified>
+	<pubDate>Sat, 04 Dec 2004 00:00:00 -0200</pubDate>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
 
 
-	<description>&lt;p&gt;My dissertation is basically finished now. All chapters are either
-already completely written or they have only details left (like
-changing the language, checking the correctness of proofs etc). The
-first two chapters are almost consumer-ready. The others are what
-is worrying me.&lt;/p&gt;
-
-&lt;p&gt;And now things are just a bit different, as it seems that I have a
-kind of deadline to worry about. A &lt;em&gt;hard&lt;/em&gt; deadline, that is. It&#39;s
-25th of June, which must not be missed.&lt;/p&gt;
+	<description>&lt;p&gt;No scholarship, no
+&lt;a href=&quot;http://www.cs.newcastle.edu.au/~nbi/&quot;&gt;Ph.D. in Oz&lt;/a&gt;. Again, why
+have things gone so wrong in the last few days?&lt;/p&gt;
 </description>
 
 
 </item>
 <item>
-	<title>2003-03-12</title>
+	<title>2004-12-01</title>
 
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2003-03-12/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2004-12-01/</guid>
 
-	<link>http://cynic.cc/blog//posts/2003-03-12/</link>
+	<link>http://cynic.cc/blog//posts/2004-12-01/</link>
 
 
 
 	<category>life</category>
 
+	<category>music</category>
+
 	<category>study</category>
 
 
-	<pubDate>Wed, 12 Mar 2003 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-02-07T23:02:59Z</dcterms:modified>
+	<pubDate>Wed, 01 Dec 2004 00:00:00 -0200</pubDate>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
 
 
-	<description>&lt;p&gt;I have to finish the 5th chapter of my dissertation.&lt;br&gt;
-I have to finish the 5th chapter of my dissertation.&lt;br&gt;
-I have to finish the 5th chapter of my dissertation.&lt;br&gt;&lt;/p&gt;
+	<description>&lt;p&gt;Dear Santa, I&#39;ve been a good kid for ages. Why can&#39;t I have the
+things that I wished for? I&#39;d love to have a SO with stress on the
+&lt;strong&gt;S&lt;/strong&gt;. Why have things gone &lt;em&gt;so&lt;/em&gt; wrong nowadays?&lt;/p&gt;
+
+&lt;p&gt;Well, finally, anyway, my TOEFL scores have arrived at the proper
+department at &lt;a href=&quot;http://www.newcastle.edu.au/&quot;&gt;Oz&lt;/a&gt;. Now, only a few
+documents are pending to know if I can get a Scholarship.&lt;/p&gt;
+
+&lt;p&gt;But more than anything else, I&#39;d really like to be happier. But I
+am not. Life is painful right now. And to fit my current mood, I&#39;ve
+been listening to Monolithe, Shape of Despair, Skepticism and The
+3rd and the Mortal. Beautiful music.&lt;/p&gt;
 </description>
 
 

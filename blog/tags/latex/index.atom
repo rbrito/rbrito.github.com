@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-07T23:02:59Z</updated>
+<updated>2014-02-19T05:52:57Z</updated>
 <entry>
 	<title>2005-11-17</title>
 
@@ -39,7 +39,7 @@
 	<category term="tex" />
 
 
-	<updated>2013-04-18T21:09:12Z</updated>
+	<updated>2013-04-18T21:09:53Z</updated>
 	<published>2005-11-17T02:00:00Z</published>
 
 
@@ -113,6 +113,96 @@ www.clivemenzies.co.uk ...
 
 </entry>
 <entry>
+	<title>2005-04-05</title>
+
+	<id>http://cynic.cc/blog//posts/2005-04-05/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-04-05/"/>
+
+
+
+
+
+
+	<category term="cvs" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="latex" />
+
+
+	<updated>2014-02-19T05:52:57Z</updated>
+	<published>2005-04-05T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Finally &lt;a href=&quot;http://algorithms.berlios.de/&quot;&gt;uploaded the homepage&lt;/a&gt; of
+the algorithms package to &lt;a href=&quot;http://www.berlios.de/&quot;&gt;BerliOS&lt;/a&gt;. The
+fact that they use &lt;a href=&quot;http://subversion.tigris.org/&quot;&gt;subversion&lt;/a&gt; as
+an option to CVS was a big plus on deciding where to host the
+project.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-03-17</title>
+
+	<id>http://cynic.cc/blog//posts/2005-03-17/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-03-17/"/>
+
+
+
+
+
+
+	<category term="abstract-algebra" />
+
+	<category term="free-software" />
+
+	<category term="graph-theory" />
+
+	<category term="latex" />
+
+	<category term="linux" />
+
+	<category term="study" />
+
+
+	<updated>2014-02-19T05:52:57Z</updated>
+	<published>2005-03-17T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;So, now I am officially a maintainer of the
+&lt;a href=&quot;ftp://ftp.dante.de/tex-archive/help/Catalogue/entries/algorithms.html&quot;&gt;algorithms&lt;/a&gt;
+package, which makes me quite happy. Many thanks go to the previous
+maintainer, Peter Williams, for creating such a great piece of
+software.&lt;/p&gt;
+
+&lt;p&gt;Also, it seems that finally &lt;a href=&quot;http://www.adobe.com/&quot;&gt;Adobe&lt;/a&gt; has
+understood that the scientific community uses Unix and they have
+released
+&lt;a href=&quot;ftp://ftp.adobe.com/pub/adobe/reader/unix/7x/7.0/enu/&quot;&gt;Acrobat/Adobe Reader 7.0&lt;/a&gt;
+for Linux, with widgets with &lt;a href=&quot;http://www.gtk.org/&quot;&gt;Gtk 2.0&lt;/a&gt;. Trés
+cool.&lt;/p&gt;
+
+&lt;p&gt;BTW, I have stopped reading on Graph Theory just for a tiny bit to
+learn things on Abstract Algebra. I want to study algebraic
+properties of graphs and, for that, I have to get my rusty algebra
+in shape. Also, some Linear Algebra wouldn&#39;t hurt.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>2004-11-09</title>
 
 	<id>http://cynic.cc/blog//posts/2004-11-09/</id>
@@ -135,7 +225,7 @@ www.clivemenzies.co.uk ...
 	<category term="life" />
 
 
-	<updated>2014-02-07T23:02:59Z</updated>
+	<updated>2014-01-24T06:56:59Z</updated>
 	<published>2004-11-09T02:00:00Z</published>
 
 
@@ -189,7 +279,7 @@ presentations in LaTeX with PPower4.&lt;/p&gt;
 	<category term="ubuntu" />
 
 
-	<updated>2014-02-07T23:02:59Z</updated>
+	<updated>2014-01-24T06:55:36Z</updated>
 	<published>2004-11-03T02:00:00Z</published>
 
 
@@ -269,7 +359,7 @@ Number Theory liked me...&lt;/p&gt;
 	<category term="tex" />
 
 
-	<updated>2014-02-07T23:02:59Z</updated>
+	<updated>2014-01-24T06:53:04Z</updated>
 	<published>2004-04-10T03:00:00Z</published>
 
 
@@ -321,7 +411,7 @@ make life with &lt;a href=&quot;http://www.tug.org/&quot;&gt;TeX&lt;/a&gt; and
 	<category term="study" />
 
 
-	<updated>2014-02-07T23:02:59Z</updated>
+	<updated>2014-01-24T06:45:34Z</updated>
 	<published>2003-01-26T02:00:00Z</published>
 
 

@@ -17,7 +17,117 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-07T23:02:59Z</updated>
+<updated>2014-02-19T05:52:57Z</updated>
+<entry>
+	<title>2005-04-12</title>
+
+	<id>http://cynic.cc/blog//posts/2005-04-12/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-04-12/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="macosx" />
+
+	<category term="powerpc" />
+
+
+	<updated>2014-02-19T05:52:57Z</updated>
+	<published>2005-04-12T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;After installing the NewerTech G3 upgrade card into the PowerMac 9500/180MP,
+I had some problems, when I tried to install
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;None of the sarge floppies would work and I eventually decided to get rid of
+any traces of MacOS and installed using the woody floppies. The problem is
+that the kernel 2.2.20 that comes with woody ins&#39;t able to see both PCI
+buses, especially the one where the video card is sitting on. I had to grab
+a kernel from testing&#39;s repository, but I don&#39;t like distribution kernels,
+for they are way too bloated.&lt;/p&gt;
+
+&lt;p&gt;Note to self: when replacing the &lt;code&gt;zImage&lt;/code&gt; on the HFS boot floppy, one
+has to use the vmlinux image compressed with &lt;code&gt;gzip&lt;/code&gt;, like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gzip -9 vmlinux
+hmount /dev/fd0
+hcopy vmlinux.gz :zImage
+humount /dev/fd0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;No other image that I tried worked. But it was nice to (re)-discover how one
+makes a boot floppy for an OldWorld Mac.&lt;/p&gt;
+
+&lt;p&gt;P.S.: Today, &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; announced the next upgrade of
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;, code named &quot;Tiger&quot;.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-03-30</title>
+
+	<id>http://cynic.cc/blog//posts/2005-03-30/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-03-30/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="powerpc" />
+
+
+	<updated>2014-02-19T05:52:57Z</updated>
+	<published>2005-03-30T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Woohoo! Finally I received a nice little package with two G3
+upgrade cards (and one IMSTT card). This is great news for me to
+upgrade the PowerMac 9500/180MP that I have here.&lt;/p&gt;
+
+&lt;p&gt;Curiously, only one of its memory sticks (it has 2 32MB sticks) was
+being recognized by the system. I had to open it and it took me
+quite some time to figure out why (after some tweaking) the system
+wouldn&#39;t boot anymore. I have no idea why, but just zapping the
+NVRAM worked (i.e., Cmd+Option+P+R).&lt;/p&gt;
+
+&lt;p&gt;The next step now is to see if I can get more memory for this
+system, so that I can actually use it after this welcome upgrade.
+Then, I will surely be playing with
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.debian.org/releases/sarge&quot;&gt;sarge&lt;/a&gt;.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>2004-11-12</title>
 
@@ -45,7 +155,7 @@
 	<category term="toefl" />
 
 
-	<updated>2014-02-07T23:02:59Z</updated>
+	<updated>2014-01-24T06:58:14Z</updated>
 	<published>2004-11-12T02:00:00Z</published>
 
 
@@ -85,7 +195,7 @@ problems?
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:39:43Z</updated>
+	<updated>2013-10-11T06:43:13Z</updated>
 	<published>2002-08-23T03:00:00Z</published>
 
 
@@ -130,7 +240,7 @@ graduate student.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-19T19:51:12Z</updated>
+	<updated>2013-10-19T19:53:25Z</updated>
 	<published>2002-08-22T03:00:00Z</published>
 
 
@@ -178,7 +288,7 @@ happier than most people from your own country?&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:23:45Z</updated>
+	<updated>2013-10-11T06:33:23Z</updated>
 	<published>2002-07-07T03:00:00Z</published>
 
 
@@ -240,7 +350,7 @@ easy to use.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:20:31Z</updated>
+	<updated>2013-10-11T06:33:23Z</updated>
 	<published>2002-07-06T03:00:00Z</published>
 
 
@@ -313,7 +423,7 @@ the first reboot: a kernel panic.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-09-22T21:41:34Z</updated>
 	<published>2002-03-20T03:00:00Z</published>
 
 
@@ -359,7 +469,7 @@ S-4.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-09-22T21:41:34Z</updated>
 	<published>2002-03-18T03:00:00Z</published>
 
 
@@ -422,7 +532,7 @@ Damn!&lt;/p&gt;
 	<category term="video" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-09-22T21:41:34Z</updated>
 	<published>2002-03-17T03:00:00Z</published>
 
 
@@ -439,105 +549,6 @@ this setup (the new Star Wars clip).&lt;/p&gt;
 simple matter of recompiling the &lt;a href=&quot;http://www.kernel.org/&quot;&gt;kernel&lt;/a&gt;
 with USB HID support enabled (in my case, as modules). They also
 work fine with &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2002-03-16</title>
-
-	<id>http://cynic.cc/blog//posts/2002-03-16/</id>
-
-	<link href="http://cynic.cc/blog//posts/2002-03-16/"/>
-
-
-
-
-
-
-	<category term="hardware" />
-
-	<category term="life" />
-
-
-	<updated>2013-10-11T06:07:42Z</updated>
-	<published>2002-03-16T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Went to see my uncle with my SO. Got myself an USB keyboard with an
-USB mouse attached (with scroll wheel).&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2002-01-01</title>
-
-	<id>http://cynic.cc/blog//posts/2002-01-01/</id>
-
-	<link href="http://cynic.cc/blog//posts/2002-01-01/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="hardware" />
-
-	<category term="linux" />
-
-	<category term="macos" />
-
-	<category term="perl" />
-
-	<category term="powerpc" />
-
-
-	<updated>2013-10-11T06:07:42Z</updated>
-	<published>2002-01-01T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Well, some progress on the PPC front. I&#39;ve just configured the PMac
-to use the &lt;code&gt;imstt&lt;/code&gt; driver instead of the &lt;code&gt;fbdev&lt;/code&gt;. Due to this, the
-X server is now &lt;em&gt;much&lt;/em&gt; faster. In fact, the whole computer is much
-faster. Before, it spent a lot of processing power just to update
-the screen. Since it is not exactly the most powerful computer in
-the world, those few moments indeed were important.&lt;/p&gt;
-
-&lt;p&gt;It is very fast and now it is almost able to play AVI files with
-MPlayer. Almost.&lt;/p&gt;
-
-&lt;p&gt;This Mac is now very usable and I&#39;d even dare to say that it would
-be a good workstation, were it not that outdated (well, if one
-could find replacement hardware for it easily...)&lt;/p&gt;
-
-&lt;p&gt;I think that&#39;ll end summarizing all the &quot;Mac Journey&quot; in a homepage
-to save future souls enduring the problems that I&#39;ve experienced
-(kernel configuration file, XF86Config file etc). It seems that
-Linux running on PPC is indeed a quite nice alternative to paying
-huge prices just for being able to run MacOS 9.&lt;/p&gt;
-
-&lt;p&gt;Also installed the superb
-&lt;a href=&quot;http://www.mosfet.org/liquid.html&quot;&gt;Liquid Theme&lt;/a&gt; for KDE2. It&#39;s
-amazingly beautiful and quite fast, despite all the eye-candy. It
-makes your Linux desktop seem like you are running
-&lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;&#39;s
-&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&#39;s Acqua&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;On the down side of things, I guess that I&#39;m just encountering many
-aspects of Perl that I don&#39;t like. It&#39;s saddening that I&#39;ve spent
-so much time and money (buying books) for something that I&#39;m not
-really enjoying (but it&#39;s ok).&lt;/p&gt;
 
 	</content>
 

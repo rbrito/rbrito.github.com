@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged graph-theory</title>
+<link>http://cynic.cc/blog//tags/graph-theory/</link>
+
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Wed, 19 Feb 2014 02:52:57 -0300</pubDate>
+<item>
+	<title>2005-03-17</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-03-17/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-03-17/</link>
+
+
+
+	<category>abstract-algebra</category>
+
+	<category>free-software</category>
+
+	<category>graph-theory</category>
+
+	<category>latex</category>
+
+	<category>linux</category>
+
+	<category>study</category>
+
+
+	<pubDate>Thu, 17 Mar 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;So, now I am officially a maintainer of the
+&lt;a href=&quot;ftp://ftp.dante.de/tex-archive/help/Catalogue/entries/algorithms.html&quot;&gt;algorithms&lt;/a&gt;
+package, which makes me quite happy. Many thanks go to the previous
+maintainer, Peter Williams, for creating such a great piece of
+software.&lt;/p&gt;
+
+&lt;p&gt;Also, it seems that finally &lt;a href=&quot;http://www.adobe.com/&quot;&gt;Adobe&lt;/a&gt; has
+understood that the scientific community uses Unix and they have
+released
+&lt;a href=&quot;ftp://ftp.adobe.com/pub/adobe/reader/unix/7x/7.0/enu/&quot;&gt;Acrobat/Adobe Reader 7.0&lt;/a&gt;
+for Linux, with widgets with &lt;a href=&quot;http://www.gtk.org/&quot;&gt;Gtk 2.0&lt;/a&gt;. Trés
+cool.&lt;/p&gt;
+
+&lt;p&gt;BTW, I have stopped reading on Graph Theory just for a tiny bit to
+learn things on Abstract Algebra. I want to study algebraic
+properties of graphs and, for that, I have to get my rusty algebra
+in shape. Also, some Linear Algebra wouldn&#39;t hurt.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

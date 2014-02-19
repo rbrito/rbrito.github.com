@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 07 Feb 2014 21:02:59 -0200</pubDate>
+<pubDate>Wed, 19 Feb 2014 02:52:57 -0300</pubDate>
 <item>
 	<title>A Wish: The Ability of Playing MP3 CDs/DVDs created by iTunes with Free Software</title>
 
@@ -265,6 +265,148 @@ aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
 
 </item>
 <item>
+	<title>2005-04-12</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-04-12/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-04-12/</link>
+
+
+
+	<category>apple</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>macosx</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Tue, 12 Apr 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;After installing the NewerTech G3 upgrade card into the PowerMac 9500/180MP,
+I had some problems, when I tried to install
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;None of the sarge floppies would work and I eventually decided to get rid of
+any traces of MacOS and installed using the woody floppies. The problem is
+that the kernel 2.2.20 that comes with woody ins&#39;t able to see both PCI
+buses, especially the one where the video card is sitting on. I had to grab
+a kernel from testing&#39;s repository, but I don&#39;t like distribution kernels,
+for they are way too bloated.&lt;/p&gt;
+
+&lt;p&gt;Note to self: when replacing the &lt;code&gt;zImage&lt;/code&gt; on the HFS boot floppy, one
+has to use the vmlinux image compressed with &lt;code&gt;gzip&lt;/code&gt;, like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gzip -9 vmlinux
+hmount /dev/fd0
+hcopy vmlinux.gz :zImage
+humount /dev/fd0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;No other image that I tried worked. But it was nice to (re)-discover how one
+makes a boot floppy for an OldWorld Mac.&lt;/p&gt;
+
+&lt;p&gt;P.S.: Today, &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; announced the next upgrade of
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;, code named &quot;Tiger&quot;.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-03-30</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-03-30/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-03-30/</link>
+
+
+
+	<category>apple</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Wed, 30 Mar 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Woohoo! Finally I received a nice little package with two G3
+upgrade cards (and one IMSTT card). This is great news for me to
+upgrade the PowerMac 9500/180MP that I have here.&lt;/p&gt;
+
+&lt;p&gt;Curiously, only one of its memory sticks (it has 2 32MB sticks) was
+being recognized by the system. I had to open it and it took me
+quite some time to figure out why (after some tweaking) the system
+wouldn&#39;t boot anymore. I have no idea why, but just zapping the
+NVRAM worked (i.e., Cmd+Option+P+R).&lt;/p&gt;
+
+&lt;p&gt;The next step now is to see if I can get more memory for this
+system, so that I can actually use it after this welcome upgrade.
+Then, I will surely be playing with
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.debian.org/releases/sarge&quot;&gt;sarge&lt;/a&gt;.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-03-26</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-03-26/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-03-26/</link>
+
+
+
+	<category>apple</category>
+
+	<category>life</category>
+
+	<category>movies</category>
+
+	<category>music</category>
+
+
+	<pubDate>Sat, 26 Mar 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Had the pleasant experience of watching &quot;Constantine&quot;. The
+comparisons with &quot;The Exorcist&quot; are obvious here, even though this
+one is a nice movie. BTW, it seems that after the Matrix series,
+Keanu Reeves is doomed to Sci-Fi movies with lots of special
+effects. It&#39;s not a bad thing, nor a good thing. Just an
+observation.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Trivia:&lt;/em&gt; It was a pleasant surprise to see (humm, hear actually)
+that David Brubeck&#39;s Quarted &quot;Take Five&quot; was on the soundtrack. Oh,
+and they insist on putting a
+&lt;a href=&quot;http://www.apple.com/powerbook/&quot;&gt;PowerBook&lt;/a&gt; on the movie. That is
+simply tempting. This is not the first movie that I see where
+something made by &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; appears on the big
+screen.&lt;/p&gt;
+
+&lt;p&gt;Of course, going to the supermarket after the movie was also quite
+nice, if you know what I mean. And the pleasant company was also
+highly appreciated. It couldn&#39;t be much better that this (really).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2004-11-03</title>
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2004-11-03/</guid>
@@ -293,7 +435,7 @@ aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
 
 
 	<pubDate>Wed, 03 Nov 2004 00:00:00 -0200</pubDate>
-	<dcterms:modified>2014-02-07T23:02:59Z</dcterms:modified>
+	<dcterms:modified>2014-01-24T06:55:36Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;It&#39;s been quite a long time since I last wrote anything here. In
@@ -365,7 +507,7 @@ Number Theory liked me...&lt;/p&gt;
 
 
 	<pubDate>Wed, 17 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:25:02Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:33:23Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Maldita &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;! Eu os odeio! Odeio $teve
@@ -400,7 +542,7 @@ dizer, &lt;a href=&quot;http://www.mac.com/&quot;&gt;.Mac&lt;/a&gt;.&lt;/p&gt;
 
 
 	<pubDate>Sun, 07 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:23:45Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:33:23Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Woke up quite early with that kernel panic bugging me. I read the
@@ -456,7 +598,7 @@ easy to use.&lt;/p&gt;
 
 
 	<pubDate>Sat, 06 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:20:31Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:33:23Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Took the day to see how things regarding the old PowerMac
@@ -529,7 +671,7 @@ the first reboot: a kernel panic.&lt;/p&gt;
 
 
 	<pubDate>Wed, 11 Jul 2001 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-05-08T00:29:21Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Some weeks ago, my uncle that sells and fixes computers,

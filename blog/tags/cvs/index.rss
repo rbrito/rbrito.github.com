@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 15 Feb 2014 22:39:04 -0200</pubDate>
+<pubDate>Wed, 19 Feb 2014 02:52:57 -0300</pubDate>
 <item>
 	<title>Working with CVS via Git</title>
 
@@ -34,7 +34,7 @@
 
 
 	<pubDate>Tue, 11 Jun 2013 04:49:56 -0300</pubDate>
-	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
@@ -103,6 +103,37 @@ cvs update
 
 &lt;p&gt;Of course, I would prefer a simpler, leaner workflow. If you happen to have
 one, please let me know.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-04-05</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-04-05/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-04-05/</link>
+
+
+
+	<category>cvs</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>latex</category>
+
+
+	<pubDate>Tue, 05 Apr 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Finally &lt;a href=&quot;http://algorithms.berlios.de/&quot;&gt;uploaded the homepage&lt;/a&gt; of
+the algorithms package to &lt;a href=&quot;http://www.berlios.de/&quot;&gt;BerliOS&lt;/a&gt;. The
+fact that they use &lt;a href=&quot;http://subversion.tigris.org/&quot;&gt;subversion&lt;/a&gt; as
+an option to CVS was a big plus on deciding where to host the
+project.&lt;/p&gt;
 </description>
 
 

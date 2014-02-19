@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 07 Feb 2014 21:02:59 -0200</pubDate>
+<pubDate>Wed, 19 Feb 2014 02:52:57 -0300</pubDate>
 <item>
 	<title>2005-11-17</title>
 
@@ -28,7 +28,7 @@
 
 
 	<pubDate>Thu, 17 Nov 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:12Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;It seems that one post of mine to the
@@ -98,6 +98,84 @@ www.clivemenzies.co.uk ...
 
 </item>
 <item>
+	<title>2005-04-05</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-04-05/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-04-05/</link>
+
+
+
+	<category>cvs</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>latex</category>
+
+
+	<pubDate>Tue, 05 Apr 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Finally &lt;a href=&quot;http://algorithms.berlios.de/&quot;&gt;uploaded the homepage&lt;/a&gt; of
+the algorithms package to &lt;a href=&quot;http://www.berlios.de/&quot;&gt;BerliOS&lt;/a&gt;. The
+fact that they use &lt;a href=&quot;http://subversion.tigris.org/&quot;&gt;subversion&lt;/a&gt; as
+an option to CVS was a big plus on deciding where to host the
+project.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-03-17</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-03-17/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-03-17/</link>
+
+
+
+	<category>abstract-algebra</category>
+
+	<category>free-software</category>
+
+	<category>graph-theory</category>
+
+	<category>latex</category>
+
+	<category>linux</category>
+
+	<category>study</category>
+
+
+	<pubDate>Thu, 17 Mar 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;So, now I am officially a maintainer of the
+&lt;a href=&quot;ftp://ftp.dante.de/tex-archive/help/Catalogue/entries/algorithms.html&quot;&gt;algorithms&lt;/a&gt;
+package, which makes me quite happy. Many thanks go to the previous
+maintainer, Peter Williams, for creating such a great piece of
+software.&lt;/p&gt;
+
+&lt;p&gt;Also, it seems that finally &lt;a href=&quot;http://www.adobe.com/&quot;&gt;Adobe&lt;/a&gt; has
+understood that the scientific community uses Unix and they have
+released
+&lt;a href=&quot;ftp://ftp.adobe.com/pub/adobe/reader/unix/7x/7.0/enu/&quot;&gt;Acrobat/Adobe Reader 7.0&lt;/a&gt;
+for Linux, with widgets with &lt;a href=&quot;http://www.gtk.org/&quot;&gt;Gtk 2.0&lt;/a&gt;. Trés
+cool.&lt;/p&gt;
+
+&lt;p&gt;BTW, I have stopped reading on Graph Theory just for a tiny bit to
+learn things on Abstract Algebra. I want to study algebraic
+properties of graphs and, for that, I have to get my rusty algebra
+in shape. Also, some Linear Algebra wouldn&#39;t hurt.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2004-11-09</title>
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2004-11-09/</guid>
@@ -118,7 +196,7 @@ www.clivemenzies.co.uk ...
 
 
 	<pubDate>Tue, 09 Nov 2004 00:00:00 -0200</pubDate>
-	<dcterms:modified>2014-02-07T23:02:59Z</dcterms:modified>
+	<dcterms:modified>2014-01-24T06:56:59Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;What a strange year this one has been. I was almost killed today in
@@ -166,7 +244,7 @@ presentations in LaTeX with PPower4.&lt;/p&gt;
 
 
 	<pubDate>Wed, 03 Nov 2004 00:00:00 -0200</pubDate>
-	<dcterms:modified>2014-02-07T23:02:59Z</dcterms:modified>
+	<dcterms:modified>2014-01-24T06:55:36Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;It&#39;s been quite a long time since I last wrote anything here. In
@@ -240,7 +318,7 @@ Number Theory liked me...&lt;/p&gt;
 
 
 	<pubDate>Sat, 10 Apr 2004 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-02-07T23:02:59Z</dcterms:modified>
+	<dcterms:modified>2014-01-24T06:53:04Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;The more I use the combo &lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt; and
@@ -286,7 +364,7 @@ make life with &lt;a href=&quot;http://www.tug.org/&quot;&gt;TeX&lt;/a&gt; and
 
 
 	<pubDate>Sun, 26 Jan 2003 00:00:00 -0200</pubDate>
-	<dcterms:modified>2014-02-07T23:02:59Z</dcterms:modified>
+	<dcterms:modified>2014-01-24T06:45:34Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Typed &lt;em&gt;a loooot&lt;/em&gt; of things for the 5th chapter of my Master&#39;s
