@@ -54,3 +54,9 @@ html>body>article>section>header {
 #boo-0 {
 	margin: 0 auto!important;
 }
+
+blockquote {
+	background-color:rgba(0,0,0,.05);
+	border-left:thick solid rgba(0,0,0,.2);
+	padding-left:.75em;
+}
