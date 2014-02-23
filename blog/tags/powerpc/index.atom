@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-19T05:52:57Z</updated>
+<updated>2014-02-23T06:15:21Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -51,7 +51,7 @@
 	<category term="powerpc" />
 
 
-	<updated>2014-02-15T02:21:28Z</updated>
+	<updated>2014-02-16T00:39:04Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
 
 
@@ -362,7 +362,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="web-of-trust" />
 
 
-	<updated>2014-02-15T02:20:27Z</updated>
+	<updated>2010-07-18T06:34:40Z</updated>
 	<published>2010-07-18T06:34:40Z</published>
 
 
@@ -432,7 +432,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="powerpc" />
 
 
-	<updated>2014-02-15T02:21:28Z</updated>
+	<updated>2014-02-16T00:39:04Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 
@@ -604,7 +604,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<category term="powerpc" />
 
 
-	<updated>2014-02-19T05:52:57Z</updated>
+	<updated>2014-02-23T06:15:21Z</updated>
 	<published>2005-04-12T03:00:00Z</published>
 
 
@@ -663,7 +663,7 @@ makes a boot floppy for an OldWorld Mac.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2014-02-19T05:52:57Z</updated>
+	<updated>2014-02-23T06:15:21Z</updated>
 	<published>2005-03-30T03:00:00Z</published>
 
 
@@ -712,7 +712,7 @@ Then, I will surely be playing with
 	<category term="study" />
 
 
-	<updated>2013-10-19T19:53:25Z</updated>
+	<updated>2013-10-19T19:51:12Z</updated>
 	<published>2002-08-22T03:00:00Z</published>
 
 
@@ -760,7 +760,7 @@ happier than most people from your own country?&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:33:23Z</updated>
+	<updated>2013-10-11T06:28:43Z</updated>
 	<published>2002-07-27T03:00:00Z</published>
 
 
@@ -809,7 +809,7 @@ thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:33:23Z</updated>
+	<updated>2013-10-11T06:23:45Z</updated>
 	<published>2002-07-07T03:00:00Z</published>
 
 
@@ -871,7 +871,7 @@ easy to use.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:33:23Z</updated>
+	<updated>2013-10-11T06:20:31Z</updated>
 	<published>2002-07-06T03:00:00Z</published>
 
 
@@ -954,7 +954,7 @@ the first reboot: a kernel panic.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2013-10-11T06:33:23Z</updated>
+	<updated>2013-10-11T06:12:33Z</updated>
 	<published>2002-04-04T03:00:00Z</published>
 
 
