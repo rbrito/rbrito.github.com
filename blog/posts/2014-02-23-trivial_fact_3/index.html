@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Trivial fact #3: Continued fractions via matrices</title>
+
+<link rel="stylesheet" href="../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../local.css" type="text/css" />
+
+
+
+<meta name="date" content="Sun, 23 Feb 2014 23:30:30 -0300" />
+
+
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} } });</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+
+<article class="page">
+
+<section class="pageheader">
+<header class="header">
+<script type="text/javascript">
+  bb_bid = "1692909";
+  bb_lang = "pt-BR";
+  bb_name = "custom";
+  bb_limit = "8";
+  bb_format = "bbb";
+</script>
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+<span>
+<span class="parentlinks">
+
+<a href="../../">Rogério Brito's Digital Junkyard</a> &#8594;
+
+<a href="../">posts</a> &#8594;
+
+</span>
+<span class="title">
+Trivial fact #3: Continued fractions via matrices
+</span>
+</span>
+</header>
+
+
+
+</section>
+
+
+<aside class="sidebar">
+<p><a href="../../about/">About Me</a></p>
+
+<script type="text/javascript">
+  bb_bid = "1692909";
+  bb_lang = "pt-BR";
+  bb_name = "custom";
+  bb_limit = "6";
+  bb_format = "bbn";
+</script>
+
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+
+</aside>
+
+
+<div id="pagebody">
+
+<section id="content">
+<h1 id="note">Note</h1>
+
+<p>Apparently, it's not Debian planet that has problems to deal with MathJax
+(which makes posts usingn it appear illegible on Debian planet), but the
+<a href="https://github.com/rbrito/ikiwiki-plugin-mathjax">ikiwiki plugin</a> that I am using which generates garbage in the feeds
+that get consumed by planet.debian.org.</p>
+
+<p>If you it know of a better plugin (which doesn't generate such output)
+please let me know, <em>especially</em> if it is not super computationally
+expensive for a Core 2 Duo T7250 (which is my notebook).</p>
+
+<h1 id="therealthing">The real thing</h1>
+
+<p>As <a href="http://wstein.org/">William Stein</a> is now offering a course on Number Theory and he has
+been posting recorded videos of his lectures, I started watching some of
+them (mainly, the ones regarding continued factions).  In particular, he
+shows the usual recursive formula for convergents of a continued fraction
+and that's super nice.</p>
+
+<p>For the curious reader, the recurrence relations for the convergents of
+\([a_0, a_1, \ldots, a_n, \ldots]\) are:
+\[
+p_n = a_n p_{n-1} + p_{n-2}\\
+q_n = a_n q_{n-1} + q_{n-2},
+\] with initial conditions (\(p_{-2} = 0\), \(p_{-1} = 1\), \(p_0 = a_0\),
+\(q_{-2} = 1\), \(q_{-1} = 0\), \(q_0 = 1\)).</p>
+
+<p>He even motivated the use of continued fractions with the golden ratio,
+which is super nice, given that I like the subject and have been writing a
+document collecting facts that I know about the Fibonacci numbers (well,
+this document is horribly incomplete and not even close to something that I
+would consider proper for public consumption&mdash;I plan on publishing
+them soon).</p>
+
+<p>OK, after he discussed the basics of it convergents, he noted that the
+recurrence relations are like those defining the Fibonacci numbers, just
+that one of the terms is "weighted" by the coefficients of the continued
+fraction.</p>
+
+<p>I missed one thing, though: neither <a href="http://wstein.org/ent/">his book</a> nor wikipedia's article on
+<a href="https://en.wikipedia.org/wiki/continued%20fractions">continued fractions</a> mentions a very neat, alternative way to
+express the convergents of continued fractions (truth be said, I took a
+quick peek at wikipedia's article and I found that it doesn't mentionat
+least explicitly, in a 1 min skim&mdash;it may well be buried somewhere
+else).</p>
+
+<p>I, then, <a href="https://plus.google.com/115360165819500279592/posts/guGv6w9jmxr">proposed</a> the following exercise for his students (which he
+apparently liked, as he +1's the suggestion):</p>
+
+<p>Prove that the recurrence relation of the \(p_i\)'s and \(q_i\)'s that we
+mentioned before can be obtained via matrix multiplication. More precisely,
+prove that:
+\[
+\begin{bmatrix}
+a_0 &amp; 1\\
+1 &amp; 0
+\end{bmatrix}
+\begin{bmatrix}
+a_1 &amp; 1\\
+1 &amp; 0
+\end{bmatrix}
+\cdots
+\begin{bmatrix}
+a_n &amp; 1\\
+1 &amp; 0
+\end{bmatrix}
+ =
+\begin{bmatrix}
+p_n &amp; p_{n-1}\\
+q_n &amp; q_{n_1}a_1 &amp; 1
+\end{bmatrix}.
+\]
+As a corollary, derive Cassini's identity for the Fibonacci Numbers.﻿</p>
+
+<p><br /></p>
+
+<p>Please, if you any errors on this, please let me know so that I can fix it.</p>
+
+</section>
+
+<div id="comments">
+
+<div id="disqus_comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'digitaljunkyard'; // required: replace example with your forum shortname
+    var discus_identifier = 'posts/2014-02-23-trivial_fact_3';
+    var disqus_url = 'http://cynic.cc/blog//posts/2014-02-23-trivial_fact_3/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer id="footer" class="pagefooter">
+
+<nav id="pageinfo">
+
+
+
+
+<nav class="tags">
+Tags:
+
+<a href="../../tags/debian/" rel="tag">debian</a>
+
+<a href="../../tags/math/" rel="tag">math</a>
+
+<a href="../../tags/study/" rel="tag">study</a>
+
+<a href="../../tags/tex/" rel="tag">tex</a>
+
+</nav>
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <time datetime="2014-02-24T02:30:50Z">2014-02-23T23:30:50 BRT</time>
+<!-- Created <time datetime="2014-02-24T02:30:30Z" pubdate="pubdate">2014-02-23T23:30:30 BRT</time> -->
+</div>
+
+</nav>
+
+
+<!-- from Rogério Brito's Digital Junkyard -->
+</footer>
+
+</article>
+</body>
+</html>

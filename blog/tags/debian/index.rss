@@ -8,7 +8,104 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sun, 23 Feb 2014 22:14:04 -0300</pubDate>
+<pubDate>Sun, 23 Feb 2014 23:30:50 -0300</pubDate>
+<item>
+	<title>Trivial fact #3: Continued fractions via matrices</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2014-02-23-trivial_fact_3/</guid>
+
+	<link>http://cynic.cc/blog//posts/2014-02-23-trivial_fact_3/</link>
+
+
+
+	<category>debian</category>
+
+	<category>math</category>
+
+	<category>study</category>
+
+	<category>tex</category>
+
+
+	<pubDate>Sun, 23 Feb 2014 23:30:30 -0300</pubDate>
+	<dcterms:modified>2014-02-24T02:30:50Z</dcterms:modified>
+
+
+	<description>&lt;h1 id=&quot;note&quot;&gt;Note&lt;/h1&gt;
+
+&lt;p&gt;Apparently, it&#39;s not Debian planet that has problems to deal with MathJax
+(which makes posts usingn it appear illegible on Debian planet), but the
+&lt;a href=&quot;https://github.com/rbrito/ikiwiki-plugin-mathjax&quot;&gt;ikiwiki plugin&lt;/a&gt; that I am using which generates garbage in the feeds
+that get consumed by planet.debian.org.&lt;/p&gt;
+
+&lt;p&gt;If you it know of a better plugin (which doesn&#39;t generate such output)
+please let me know, &lt;em&gt;especially&lt;/em&gt; if it is not super computationally
+expensive for a Core 2 Duo T7250 (which is my notebook).&lt;/p&gt;
+
+&lt;h1 id=&quot;therealthing&quot;&gt;The real thing&lt;/h1&gt;
+
+&lt;p&gt;As &lt;a href=&quot;http://wstein.org/&quot;&gt;William Stein&lt;/a&gt; is now offering a course on Number Theory and he has
+been posting recorded videos of his lectures, I started watching some of
+them (mainly, the ones regarding continued factions).  In particular, he
+shows the usual recursive formula for convergents of a continued fraction
+and that&#39;s super nice.&lt;/p&gt;
+
+&lt;p&gt;For the curious reader, the recurrence relations for the convergents of
+!!mathjaxbegin-i!! W2FfMCwgYV8xLCBcbGRvdHMsIGFfbiwgXGxkb3RzXQ==
+ !!mathjaxend-i!! are:
+!!mathjaxbegin-d!! CnBfbiA9IGFfbiBwX3tuLTF9ICsgcF97bi0yfVxcCnFfbiA9IGFfbiBxX3tuLTF9ICsgcV97bi0y
+fSwK
+ !!mathjaxend-d!! with initial conditions (!!mathjaxbegin-i!! cF97LTJ9ID0gMA==
+ !!mathjaxend-i!!, !!mathjaxbegin-i!! cF97LTF9ID0gMQ==
+ !!mathjaxend-i!!, !!mathjaxbegin-i!! cF8wID0gYV8w
+ !!mathjaxend-i!!,
+!!mathjaxbegin-i!! cV97LTJ9ID0gMQ==
+ !!mathjaxend-i!!, !!mathjaxbegin-i!! cV97LTF9ID0gMA==
+ !!mathjaxend-i!!, !!mathjaxbegin-i!! cV8wID0gMQ==
+ !!mathjaxend-i!!).&lt;/p&gt;
+
+&lt;p&gt;He even motivated the use of continued fractions with the golden ratio,
+which is super nice, given that I like the subject and have been writing a
+document collecting facts that I know about the Fibonacci numbers (well,
+this document is horribly incomplete and not even close to something that I
+would consider proper for public consumption&amp;mdash;I plan on publishing
+them soon).&lt;/p&gt;
+
+&lt;p&gt;OK, after he discussed the basics of it convergents, he noted that the
+recurrence relations are like those defining the Fibonacci numbers, just
+that one of the terms is &quot;weighted&quot; by the coefficients of the continued
+fraction.&lt;/p&gt;
+
+&lt;p&gt;I missed one thing, though: neither &lt;a href=&quot;http://wstein.org/ent/&quot;&gt;his book&lt;/a&gt; nor wikipedia&#39;s article on
+&lt;a href=&quot;https://en.wikipedia.org/wiki/continued%20fractions&quot;&gt;continued fractions&lt;/a&gt; mentions a very neat, alternative way to
+express the convergents of continued fractions (truth be said, I took a
+quick peek at wikipedia&#39;s article and I found that it doesn&#39;t mentionat
+least explicitly, in a 1 min skim&amp;mdash;it may well be buried somewhere
+else).&lt;/p&gt;
+
+&lt;p&gt;I, then, &lt;a href=&quot;https://plus.google.com/115360165819500279592/posts/guGv6w9jmxr&quot;&gt;proposed&lt;/a&gt; the following exercise for his students (which he
+apparently liked, as he +1&#39;s the suggestion):&lt;/p&gt;
+
+&lt;p&gt;Prove that the recurrence relation of the !!mathjaxbegin-i!! cF9p
+ !!mathjaxend-i!!&#39;s and !!mathjaxbegin-i!! cV9p
+ !!mathjaxend-i!!&#39;s that we
+mentioned before can be obtained via matrix multiplication. More precisely,
+prove that:
+!!mathjaxbegin-d!! ClxiZWdpbntibWF0cml4fQphXzAgJmFtcDsgMVxcCjEgJmFtcDsgMApcZW5ke2JtYXRyaXh9Clxi
+ZWdpbntibWF0cml4fQphXzEgJmFtcDsgMVxcCjEgJmFtcDsgMApcZW5ke2JtYXRyaXh9ClxjZG90
+cwpcYmVnaW57Ym1hdHJpeH0KYV9uICZhbXA7IDFcXAoxICZhbXA7IDAKXGVuZHtibWF0cml4fQog
+PQpcYmVnaW57Ym1hdHJpeH0KcF9uICZhbXA7IHBfe24tMX1cXApxX24gJmFtcDsgcV97bl8xfWFf
+MSAmYW1wOyAxClxlbmR7Ym1hdHJpeH0uCg==
+ !!mathjaxend-d!!
+As a corollary, derive Cassini&#39;s identity for the Fibonacci Numbers.﻿&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Please, if you any errors on this, please let me know so that I can fix it.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Some new Youtube-dl functionality</title>
 
@@ -1067,96 +1164,6 @@ separated by underscores. For example, &lt;code&gt;MAX_VALUE&lt;/code&gt;.&lt;/l
 function calls (whenever unambiguous) and, in essence, to write as little
 &quot;bureaucracy&quot; (like the explicit &lt;code&gt;return&lt;/code&gt; keyword in methods).&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Playing with MOOCs</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/playing_with_moocs/</guid>
-
-	<link>http://cynic.cc/blog//posts/playing_with_moocs/</link>
-
-
-
-	<category>debian</category>
-
-	<category>education</category>
-
-	<category>free-software</category>
-
-	<category>git</category>
-
-	<category>mooc</category>
-
-	<category>python</category>
-
-	<category>study</category>
-
-
-	<pubDate>Thu, 04 Jul 2013 08:33:00 -0300</pubDate>
-	<dcterms:modified>2013-07-04T12:25:16Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Not so much ago, we had a boom of new enterprises offering Massive Online
-Open Courses (MOOCs for short).&lt;/p&gt;
-
-&lt;p&gt;First were Thrun and Norvig (Artificial Intelligence), with Widom
-(Introduction to Databases) and Ng (Machine Learning). Then, these initial
-experiments led to the creation of Udacity (founded by Thrun) and Coursera
-(founded by Ng and Koller).&lt;/p&gt;
-
-&lt;p&gt;I have been keeping an eye on them for some time and, in fact, I have been
-contributing to a project similar to &lt;a href=&quot;https://github.com/rg3/youtube-dl&quot;&gt;youtube-dl&lt;/a&gt; (which
-&lt;a href=&quot;http://packages.debian.org/sid/youtube-dl&quot;&gt;I package for Debian&lt;/a&gt;), but focused on downloading videos from
-Cousera, called &lt;a href=&quot;https://github.com/jplehmann/coursera&quot;&gt;&lt;code&gt;coursera-dl&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I started contributing to &lt;code&gt;coursera-dl&lt;/code&gt; because I wanted to stratch some
-itches with downloading with &lt;a href=&quot;http://aria2.sourceforge.net/&quot;&gt;&lt;code&gt;aria2c&lt;/code&gt;&lt;/a&gt;, but soon the original
-author of the project granted me write permission to the repository and I
-have been one of the persons that commits the most, which is strange, since
-I was not the original creator of the program.&lt;/p&gt;
-
-&lt;p&gt;So far, from the courses that grant certificates, I have concluded the
-following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Algorithms: Design and Analysis, Part 1 (Coursera)&lt;/li&gt;
-&lt;li&gt;Machine Learning (Coursera)&lt;/li&gt;
-&lt;li&gt;Introduction to Databases (Coursera)&lt;/li&gt;
-&lt;li&gt;Quantum Mechanics and Quantum Computation (Coursera)&lt;/li&gt;
-&lt;li&gt;Introduction to Cryptography I (Coursera)&lt;/li&gt;
-&lt;li&gt;M101P: MongoDB for Developers (10gen)&lt;/li&gt;
-&lt;li&gt;M102: MongoDB for DBAs (10gen)&lt;/li&gt;
-&lt;li&gt;M101J: MongoDB for Java Developers (10gen)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I have to say that this have been a pleasant experience, with some of the
-courses being challenging, but not up to what an undergraduate course would
-be (and the fears of some people that such courses would threaten the
-conventional University-style model are a bit far at this point).&lt;/p&gt;
-
-&lt;p&gt;Anyway, talking about challenging courses, in particular, prof. Umesh
-Vazirani&#39;s &quot;Quantum Mechanics and Quantum Computation&quot; had a lot of
-(computational) work and this was one of the courses that prompted me to use
-a computer algebra system for manipulating some tedious calculations.&lt;/p&gt;
-
-&lt;p&gt;In particular, I used a mix of the &lt;a href=&quot;http://www.sagenb.org/&quot;&gt;online SAGE math server&lt;/a&gt; and
-&lt;a href=&quot;http://www.wolframalpha.com/&quot;&gt;Wolfram Alpha&lt;/a&gt;, whichever I found the syntax to be easier to use for
-the problem in question. It is with happiness that I see that there are
-efforts to &lt;a href=&quot;http://people.debian.org/~thansen/debian-sage-status.html&quot;&gt;get SAGE again packaged in Debian&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Another (positively) surprising course has been Dan Boneh&#39;s &quot;Introduction to
-Cryptography I&quot;, which was more theoretical and more serious than what I was
-expecting. It even included some nice proof sketches and discussion of
-recent results. The last course on cryptography that I took was in 1998 and
-&lt;em&gt;a lot&lt;/em&gt; of things changed since then, including the way to think about
-cryptography. But more on that on a future post.&lt;/p&gt;
-
-&lt;p&gt;There are some other courses that I may be completing soon and that I will
-post more about, with some reviews of the good and the bad parts of select
-ones.&lt;/p&gt;
 </description>
 
 

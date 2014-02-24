@@ -17,7 +17,110 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-08T04:51:20Z</updated>
+<updated>2014-02-24T02:30:50Z</updated>
+<entry>
+	<title>Trivial fact #3: Continued fractions via matrices</title>
+
+	<id>http://cynic.cc/blog//posts/2014-02-23-trivial_fact_3/</id>
+
+	<link href="http://cynic.cc/blog//posts/2014-02-23-trivial_fact_3/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="math" />
+
+	<category term="study" />
+
+	<category term="tex" />
+
+
+	<updated>2014-02-24T02:30:50Z</updated>
+	<published>2014-02-24T02:30:30Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;h1 id=&quot;note&quot;&gt;Note&lt;/h1&gt;
+
+&lt;p&gt;Apparently, it&#39;s not Debian planet that has problems to deal with MathJax
+(which makes posts usingn it appear illegible on Debian planet), but the
+&lt;a href=&quot;https://github.com/rbrito/ikiwiki-plugin-mathjax&quot;&gt;ikiwiki plugin&lt;/a&gt; that I am using which generates garbage in the feeds
+that get consumed by planet.debian.org.&lt;/p&gt;
+
+&lt;p&gt;If you it know of a better plugin (which doesn&#39;t generate such output)
+please let me know, &lt;em&gt;especially&lt;/em&gt; if it is not super computationally
+expensive for a Core 2 Duo T7250 (which is my notebook).&lt;/p&gt;
+
+&lt;h1 id=&quot;therealthing&quot;&gt;The real thing&lt;/h1&gt;
+
+&lt;p&gt;As &lt;a href=&quot;http://wstein.org/&quot;&gt;William Stein&lt;/a&gt; is now offering a course on Number Theory and he has
+been posting recorded videos of his lectures, I started watching some of
+them (mainly, the ones regarding continued factions).  In particular, he
+shows the usual recursive formula for convergents of a continued fraction
+and that&#39;s super nice.&lt;/p&gt;
+
+&lt;p&gt;For the curious reader, the recurrence relations for the convergents of
+!!mathjaxbegin-i!! W2FfMCwgYV8xLCBcbGRvdHMsIGFfbiwgXGxkb3RzXQ==
+ !!mathjaxend-i!! are:
+!!mathjaxbegin-d!! CnBfbiA9IGFfbiBwX3tuLTF9ICsgcF97bi0yfVxcCnFfbiA9IGFfbiBxX3tuLTF9ICsgcV97bi0y
+fSwK
+ !!mathjaxend-d!! with initial conditions (!!mathjaxbegin-i!! cF97LTJ9ID0gMA==
+ !!mathjaxend-i!!, !!mathjaxbegin-i!! cF97LTF9ID0gMQ==
+ !!mathjaxend-i!!, !!mathjaxbegin-i!! cF8wID0gYV8w
+ !!mathjaxend-i!!,
+!!mathjaxbegin-i!! cV97LTJ9ID0gMQ==
+ !!mathjaxend-i!!, !!mathjaxbegin-i!! cV97LTF9ID0gMA==
+ !!mathjaxend-i!!, !!mathjaxbegin-i!! cV8wID0gMQ==
+ !!mathjaxend-i!!).&lt;/p&gt;
+
+&lt;p&gt;He even motivated the use of continued fractions with the golden ratio,
+which is super nice, given that I like the subject and have been writing a
+document collecting facts that I know about the Fibonacci numbers (well,
+this document is horribly incomplete and not even close to something that I
+would consider proper for public consumption&amp;mdash;I plan on publishing
+them soon).&lt;/p&gt;
+
+&lt;p&gt;OK, after he discussed the basics of it convergents, he noted that the
+recurrence relations are like those defining the Fibonacci numbers, just
+that one of the terms is &quot;weighted&quot; by the coefficients of the continued
+fraction.&lt;/p&gt;
+
+&lt;p&gt;I missed one thing, though: neither &lt;a href=&quot;http://wstein.org/ent/&quot;&gt;his book&lt;/a&gt; nor wikipedia&#39;s article on
+&lt;a href=&quot;https://en.wikipedia.org/wiki/continued%20fractions&quot;&gt;continued fractions&lt;/a&gt; mentions a very neat, alternative way to
+express the convergents of continued fractions (truth be said, I took a
+quick peek at wikipedia&#39;s article and I found that it doesn&#39;t mentionat
+least explicitly, in a 1 min skim&amp;mdash;it may well be buried somewhere
+else).&lt;/p&gt;
+
+&lt;p&gt;I, then, &lt;a href=&quot;https://plus.google.com/115360165819500279592/posts/guGv6w9jmxr&quot;&gt;proposed&lt;/a&gt; the following exercise for his students (which he
+apparently liked, as he +1&#39;s the suggestion):&lt;/p&gt;
+
+&lt;p&gt;Prove that the recurrence relation of the !!mathjaxbegin-i!! cF9p
+ !!mathjaxend-i!!&#39;s and !!mathjaxbegin-i!! cV9p
+ !!mathjaxend-i!!&#39;s that we
+mentioned before can be obtained via matrix multiplication. More precisely,
+prove that:
+!!mathjaxbegin-d!! ClxiZWdpbntibWF0cml4fQphXzAgJmFtcDsgMVxcCjEgJmFtcDsgMApcZW5ke2JtYXRyaXh9Clxi
+ZWdpbntibWF0cml4fQphXzEgJmFtcDsgMVxcCjEgJmFtcDsgMApcZW5ke2JtYXRyaXh9ClxjZG90
+cwpcYmVnaW57Ym1hdHJpeH0KYV9uICZhbXA7IDFcXAoxICZhbXA7IDAKXGVuZHtibWF0cml4fQog
+PQpcYmVnaW57Ym1hdHJpeH0KcF9uICZhbXA7IHBfe24tMX1cXApxX24gJmFtcDsgcV97bl8xfWFf
+MSAmYW1wOyAxClxlbmR7Ym1hdHJpeH0uCg==
+ !!mathjaxend-d!!
+As a corollary, derive Cassini&#39;s identity for the Fibonacci Numbers.﻿&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Please, if you any errors on this, please let me know so that I can fix it.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Trivial fact #2: Harmonic Numbers</title>
 
@@ -540,53 +643,6 @@ finding algorithm invariants and proving that they were actually
 maintained from interation to iteration. This is the Right
 Thing(tm) to do, but it also takes a lot of time. What should I do
 next time?&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2000-08-31</title>
-
-	<id>http://cynic.cc/blog//posts/2000-08-31/</id>
-
-	<link href="http://cynic.cc/blog//posts/2000-08-31/"/>
-
-
-
-
-
-
-	<category term="internet" />
-
-	<category term="life" />
-
-	<category term="math" />
-
-	<category term="study" />
-
-
-	<updated>2013-04-08T12:15:46Z</updated>
-	<published>2000-08-31T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;&lt;code&gt;&amp;lt;rant&amp;gt;&lt;/code&gt;
-Ugh! Discovered that the
-&lt;a href=&quot;http://www.speedy.com.br&quot;&gt;ADSL service I was planning to sign&lt;/a&gt;
-blocks incoming calls to SMTP and HTTP ports -- since I don&#39;t trust
-anyone to receive and manage my e-mails, I had a plan of setting up
-my own e-mail server. Fsck! If the providers can&#39;t get their
-freaking job done The Right Way (tm), why do they prevent their
-customers from doing it themselves?? It costs them absolutely
-nothing. I mean &lt;em&gt;nothing&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Also discovered that I&#39;ll have a class of &quot;Probabilistic Method&quot;
-during my birthday and only this class. This means that I&#39;ll have
-to endure hours of traffic just to get here to see the class and
-then more painful hours to go back home.
-&lt;code&gt;&amp;lt;/rant&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 	</content>
 
