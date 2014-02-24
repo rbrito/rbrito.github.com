@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-17T22:20:22Z</updated>
+<updated>2014-02-24T01:14:04Z</updated>
 <entry>
 	<title>Some new Youtube-dl functionality</title>
 
@@ -43,7 +43,7 @@
 	<category term="study" />
 
 
-	<updated>2014-02-17T22:20:22Z</updated>
+	<updated>2014-02-24T01:14:04Z</updated>
 	<published>2014-02-17T21:27:00Z</published>
 
 
@@ -129,7 +129,7 @@ the Debian archives.&lt;/p&gt;
 	<category term="ubuntu" />
 
 
-	<updated>2014-02-16T17:10:07Z</updated>
+	<updated>2014-02-24T01:14:04Z</updated>
 	<published>2014-02-15T02:59:22Z</published>
 
 
@@ -225,7 +225,7 @@ Marius Gedminas for pointing this out.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-12-16T03:33:48Z</updated>
+	<updated>2014-02-08T04:51:20Z</updated>
 	<published>2013-10-23T23:08:42Z</published>
 
 
@@ -352,7 +352,7 @@ of course, this should be fixed.&lt;/p&gt;
 	<category term="xorg" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-10-20T02:31:04Z</updated>
 	<published>2013-08-21T16:44:19Z</published>
 
 
@@ -452,7 +452,7 @@ fingers so that it does.&lt;/p&gt;
 	<category term="ubuntu" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-06-05T08:25:51Z</updated>
 	<published>2013-04-20T01:46:26Z</published>
 
 
@@ -521,7 +521,7 @@ machines on datacenters.&lt;/p&gt;
 	<category term="linux" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-04-30T17:16:01Z</updated>
 	<published>2013-04-19T07:29:23Z</published>
 
 
@@ -636,7 +636,7 @@ and contributing back what I produced.&lt;/p&gt;
 	<category term="zfs" />
 
 
-	<updated>2012-09-09T02:47:46Z</updated>
+	<updated>2012-09-09T02:48:33Z</updated>
 	<published>2012-09-09T02:42:24Z</published>
 
 
@@ -719,7 +719,7 @@ behavior.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2014-02-16T00:39:04Z</updated>
+	<updated>2014-02-24T01:14:04Z</updated>
 	<published>2011-04-03T01:18:12Z</published>
 
 
@@ -1036,7 +1036,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="powerpc" />
 
 
-	<updated>2014-02-16T00:39:04Z</updated>
+	<updated>2014-02-24T01:14:04Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 

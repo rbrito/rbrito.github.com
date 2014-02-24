@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sun, 23 Feb 2014 03:15:21 -0300</pubDate>
+<pubDate>Sun, 23 Feb 2014 22:14:04 -0300</pubDate>
 <item>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -40,7 +40,7 @@
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
+	<dcterms:modified>2014-02-24T01:14:04Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
@@ -409,7 +409,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
+	<dcterms:modified>2014-02-24T01:14:04Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
@@ -575,7 +575,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 
 	<pubDate>Tue, 12 Apr 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-02-23T06:15:21Z</dcterms:modified>
+	<dcterms:modified>2014-02-24T01:14:04Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;After installing the NewerTech G3 upgrade card into the PowerMac 9500/180MP,
@@ -628,7 +628,7 @@ makes a boot floppy for an OldWorld Mac.&lt;/p&gt;
 
 
 	<pubDate>Wed, 30 Mar 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-02-23T06:15:21Z</dcterms:modified>
+	<dcterms:modified>2014-02-24T01:14:04Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Woohoo! Finally I received a nice little package with two G3
@@ -671,7 +671,7 @@ Then, I will surely be playing with
 
 
 	<pubDate>Thu, 22 Aug 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-19T19:51:12Z</dcterms:modified>
+	<dcterms:modified>2013-10-20T02:31:04Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;[[!mathjax ]]&lt;/p&gt;
@@ -713,7 +713,7 @@ happier than most people from your own country?&lt;/p&gt;
 
 
 	<pubDate>Sat, 27 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:28:43Z</dcterms:modified>
+	<dcterms:modified>2013-10-20T02:31:04Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Updated &lt;a href=&quot;http://lame.sf.net/&quot;&gt;lame&lt;/a&gt;&#39;s Debian packaging a little
@@ -756,7 +756,7 @@ thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
 
 
 	<pubDate>Sun, 07 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:23:45Z</dcterms:modified>
+	<dcterms:modified>2013-10-20T02:31:04Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Woke up quite early with that kernel panic bugging me. I read the
@@ -812,7 +812,7 @@ easy to use.&lt;/p&gt;
 
 
 	<pubDate>Sat, 06 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:20:31Z</dcterms:modified>
+	<dcterms:modified>2013-10-20T02:31:04Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Took the day to see how things regarding the old PowerMac
@@ -889,7 +889,7 @@ the first reboot: a kernel panic.&lt;/p&gt;
 
 
 	<pubDate>Thu, 04 Apr 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:12:33Z</dcterms:modified>
+	<dcterms:modified>2013-10-20T02:31:04Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;How can life change so quickly from bad to good? Amazing, ain&#39;t it?
