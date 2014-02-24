@@ -626,7 +626,7 @@ body {
 	padding: 2px;
 }
 
-#content, #enclosure, #comments, #footer {
+#content, #enclosure, #blogcomments, #footer {
 	margin: 1em 2em;
 }
 
