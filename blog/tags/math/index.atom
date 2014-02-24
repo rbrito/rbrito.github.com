@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-24T02:30:50Z</updated>
+<updated>2014-02-24T06:16:49Z</updated>
 <entry>
 	<title>Trivial fact #3: Continued fractions via matrices</title>
 
@@ -39,7 +39,7 @@
 	<category term="tex" />
 
 
-	<updated>2014-02-24T02:30:50Z</updated>
+	<updated>2014-02-24T06:16:49Z</updated>
 	<published>2014-02-24T02:30:30Z</published>
 
 
@@ -107,14 +107,16 @@ prove that:
 !!mathjaxbegin-d!! ClxiZWdpbntibWF0cml4fQphXzAgJmFtcDsgMVxcCjEgJmFtcDsgMApcZW5ke2JtYXRyaXh9Clxi
 ZWdpbntibWF0cml4fQphXzEgJmFtcDsgMVxcCjEgJmFtcDsgMApcZW5ke2JtYXRyaXh9ClxjZG90
 cwpcYmVnaW57Ym1hdHJpeH0KYV9uICZhbXA7IDFcXAoxICZhbXA7IDAKXGVuZHtibWF0cml4fQog
-PQpcYmVnaW57Ym1hdHJpeH0KcF9uICZhbXA7IHBfe24tMX1cXApxX24gJmFtcDsgcV97bl8xfWFf
-MSAmYW1wOyAxClxlbmR7Ym1hdHJpeH0uCg==
+PQpcYmVnaW57Ym1hdHJpeH0KcF9uICZhbXA7IHBfe24tMX1cXApxX24gJmFtcDsgcV97bi0xfQpc
+ZW5ke2JtYXRyaXh9Lgo=
  !!mathjaxend-d!!
-As a corollary, derive Cassini&#39;s identity for the Fibonacci Numbers.﻿&lt;/p&gt;
+As a corollary, derive Cassini&#39;s identity for the Fibonacci Numbers.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Please, if you any errors on this, please let me know so that I can fix it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Edit:&lt;/em&gt;&lt;/strong&gt; Thanks &quot;noone&quot; for spotting a typographical error.&lt;/p&gt;
 
 	</content>
 
