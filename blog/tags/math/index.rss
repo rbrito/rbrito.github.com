@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 24 Feb 2014 03:16:49 -0300</pubDate>
+<pubDate>Tue, 25 Feb 2014 03:01:56 -0300</pubDate>
 <item>
 	<title>Trivial fact #3: Continued fractions via matrices</title>
 
@@ -28,7 +28,7 @@
 
 
 	<pubDate>Sun, 23 Feb 2014 23:30:30 -0300</pubDate>
-	<dcterms:modified>2014-02-24T06:16:49Z</dcterms:modified>
+	<dcterms:modified>2014-02-24T09:31:11Z</dcterms:modified>
 
 
 	<description>&lt;h1 id=&quot;note&quot;&gt;Note&lt;/h1&gt;
@@ -127,7 +127,7 @@ As a corollary, derive Cassini&#39;s identity for the Fibonacci Numbers.&lt;/p&g
 
 
 	<pubDate>Thu, 30 Jan 2014 00:43:30 -0200</pubDate>
-	<dcterms:modified>2014-02-08T04:51:20Z</dcterms:modified>
+	<dcterms:modified>2014-02-07T23:02:59Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I don&#39;t know how Debian planet deals with MathJax (it seems to
@@ -166,7 +166,7 @@ which is a trivial approximation that may be handy sometimes.&lt;/p&gt;
 
 
 	<pubDate>Wed, 11 Dec 2013 00:27:41 -0200</pubDate>
-	<dcterms:modified>2014-02-08T04:51:20Z</dcterms:modified>
+	<dcterms:modified>2013-12-16T03:33:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Just a trivial fact: every polyhedron that is used in linear programming is
@@ -223,7 +223,7 @@ solution of the original set of inequalities, thus concluding the argument.&lt;/
 
 
 	<pubDate>Wed, 13 Jun 2007 02:08:51 -0300</pubDate>
-	<dcterms:modified>2012-09-07T07:19:57Z</dcterms:modified>
+	<dcterms:modified>2014-02-25T06:01:56Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;These are some short notes on what I&#39;ve doing these days.&lt;/p&gt;
@@ -248,45 +248,39 @@ is quite good, but unfortunately I don&#39;t have a 5.1 system at my disposal.&l
 
 &lt;p&gt;I also selected some material for further studies. I&#39;m right now studying
 &lt;a href=&quot;https://en.wikipedia.org/wiki/group%20actions&quot;&gt;group actions&lt;/a&gt; (or G-sets as some seem to prefer). Soon, I
-will be finishing the basics of Group Theory (hey, really, why is the &lt;a
-href=&quot;http://en.wikipedia.org/wiki/Conjugacy_class&quot;&gt;&quot;Class Equation&quot;&lt;/a&gt; of
-groups that &quot;famous&quot;? It is just a matter of saying that $|X| = \sum_{x\in
-X} 1$, but with cardinality of orbits instead of with one&#39;s and with a
-transversal of the orbits in place of !!mathjaxbegin-i!! WA==
+will be finishing the basics of Group Theory (hey, really, why is the
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Conjugacy%20class&quot;&gt;Class Equation&lt;/a&gt; of groups that
+&quot;famous&quot;? It is just a matter of saying that !!mathjaxbegin-i!! fFh8ID0gXHN1bV97eFxpbiBYfSAx
+ !!mathjaxend-i!!, but
+with cardinality of orbits instead of with one&#39;s and with a transversal of
+the orbits in place of !!mathjaxbegin-i!! WA==
  !!mathjaxend-i!! itself).&lt;/p&gt;
 
 &lt;p&gt;Actually, if the orbits of the elements of the !!mathjaxbegin-i!! Rw==
  !!mathjaxend-i!!-set !!mathjaxbegin-i!! WA==
  !!mathjaxend-i!! consist of just
-one element, then the equation above is the &lt;a
-href=&quot;http://en.wikipedia.org/wiki/Group_action&quot;&gt;&quot;Class Equation&quot;&lt;/a&gt; (what
-some people would call !!mathjaxbegin-i!! XG1hdGhvcHtcbWF0aHJte0ZpeH19KFgp
- !!mathjaxend-i!!, I would call the &quot;orbits
-being trivial&quot;).&lt;/p&gt;
+one element, then the equation above is the
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Group%20action&quot;&gt;Class Equation&lt;/a&gt; (what some people would
+call !!mathjaxbegin-i!! XG1hdGhvcHtcbWF0aHJte0ZpeH19KFgp
+ !!mathjaxend-i!!, I would call the &quot;orbits being trivial&quot;).&lt;/p&gt;
 
-&lt;p&gt;Anyway, &lt;a href=&quot;http://en.wikipedia.org/wiki/Burnside%27s_lemma&quot;&gt;Burnside&#39;s
-lemma&lt;/a&gt; (which actually seems to be wrongly attributed, since it seems to
-be discovered independently by Cauchy and Frobenius) for counting orbits of
-a given action of a !!mathjaxbegin-i!! Rw==
- !!mathjaxend-i!!-set has nice implications in combinatorics and it
-should be, at least, mentioned in any self-respecting introduction to Group
-Theory.&lt;/p&gt;
+&lt;p&gt;Anyway, &lt;a href=&quot;https://en.wikipedia.org/wiki/Burnside%27s%20lemma&quot;&gt;Burnside&#39;s lemma&lt;/a&gt; (which actually seems to be wrongly
+attributed, since it seems to be discovered independently by Cauchy and
+Frobenius) for counting orbits of a given action of a !!mathjaxbegin-i!! Rw==
+ !!mathjaxend-i!!-set has nice
+implications in combinatorics and it should be, at least, mentioned in any
+self-respecting introduction to Group Theory.&lt;/p&gt;
 
 &lt;p&gt;Oh, I almost forgot one of the major things that I did today (2007-06-12): I
-finally learned how to manipulate the &lt;a
-href=&quot;http://savannah.nongnu.org/projects/quilt&quot;&gt;quilt patch-system&lt;/a&gt;
-(initiated by &lt;a
-href=&quot;http://en.wikipedia.org/wiki/Andrew_Morton_%28computer_programmer%29&quot;&gt;Andrew
-Morton&lt;/a&gt;). The crucial point that is not written anywhere: the patches, by
-default, are applied with &lt;code&gt;-p1&lt;/code&gt; instead of &lt;code&gt;-p0&lt;/code&gt;. This
-took me quite some time to get, as the documentation isn&#39;t explicit about
-it. Installation of quilt in a &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS
-X&lt;/a&gt; system is not trivial, due to the demand of &lt;a
-href=&quot;http://www.gnu.org&quot;&gt;GNU&lt;/a&gt; tools.&lt;/p&gt;
+finally learned how to manipulate the &lt;a href=&quot;http://savannah.nongnu.org/projects/quilt&quot;&gt;&lt;code&gt;quilt&lt;/code&gt;&lt;/a&gt; patch-system (initiated
+by &lt;a href=&quot;https://en.wikipedia.org/wiki/Andrew%20Morton%20%28computer%20programmer%29&quot;&gt;Andrew Morton&lt;/a&gt;).
+The crucial point that is not written anywhere: the patches, by default, are
+applied with &lt;code&gt;-p1&lt;/code&gt; instead of &lt;code&gt;-p0&lt;/code&gt;. This took me quite some time to get, as
+the documentation isn&#39;t explicit about it. Installation of quilt in a
+&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt; system is not trivial, due to the demand of &lt;a href=&quot;http://www.gnu.org/&quot;&gt;GNU&lt;/a&gt; tools.&lt;/p&gt;
 
-&lt;p&gt;But now I can keep some &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt; packages
-of mine in a better shape than if I were just applying a single monolithic
-patch.&lt;/p&gt;
+&lt;p&gt;But now I can keep some &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt; packages of mine in a better shape than
+if I were just applying a single monolithic patch.&lt;/p&gt;
 </description>
 
 
@@ -477,7 +471,7 @@ is enough for me).&lt;/p&gt;
 
 
 	<pubDate>Thu, 26 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:54:03Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I had the &quot;midterm&quot; today. I thought that while the subjects
@@ -506,7 +500,7 @@ perfectionist. Maybe I&#39;m slow. Maybe both.&lt;/p&gt;
 
 
 	<pubDate>Wed, 25 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:53:36Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Tomorrow I&#39;ll have the &quot;midterm&quot; of Combinatorial Optimization.
@@ -544,7 +538,7 @@ down and write a complete, detailed a proof. I wish I had time.&lt;/p&gt;
 
 
 	<pubDate>Tue, 24 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Whew! One of the longest homeworks that I&#39;ve ever had was finished
@@ -568,7 +562,7 @@ today. Programmning Turing Machines takes time.&lt;/p&gt;
 
 
 	<pubDate>Mon, 16 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T20:50:59Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;After a lot of time doing this Combinatorial Optimization homework,
