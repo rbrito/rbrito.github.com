@@ -73,6 +73,115 @@ Rogério Brito's Digital Junkyard
 
 <header class="header">
 
+<a href="./posts/2014-03-03_more_completed_moocs/">More completed MOOCs</a>
+
+</header>
+</section>
+
+<section class="inlinecontent">
+<p>This weekend I received my 17th certification (or Statement of
+Accomplishment) for MOOCs. In particular, this last MOOC that I took was
+<a href="https://www.coursera.org/course/androidapps101">Creative, Serious and Playful Science of Android Apps</a>, offered by
+<a href="https://www.coursera.org/instructor/lawrenceangrave">Lawrence Angrave</a> of <a href="https://www.coursera.org/illinois">University of Illinois at Urbana-Champaign</a>.</p>
+
+<p>While I certainly knew that the course was an Introduction to Programming,
+the reasons I took it were twofold:</p>
+
+<ol>
+<li>For the "novelty" (for me, at least) of writing some Android Apps</li>
+<li>To reacquaint myself with Java, which I have not touched since 1999, when
+<a href="https://github.com/rbrito/old-projects">I wrote a compiler</a>, in the ages of JDK 1.0 being transitioned to
+JDK 1.1.</li>
+</ol>
+
+<p>I think that the time the course took (and which I invested in) was really
+well spent. In fact, I learned some nice things which I would <em>not</em> have
+touched otherwise. For instance, I made the conscious effort to use an IDE
+(Eclipse), despite being a person that would do most of the things inside
+Emacs and compile the programs with command-line tools.</p>
+
+<p>Despite being huge, Eclipse has some really nice features and the
+auto-completion is amazing. Since Java is so strongly typed and Eclipse
+knows Java pretty well, it almost completely writes your programs for you.
+<img src="./smileys/smile.png" alt=":)" /></p>
+
+<p>Of course, my interest also made me want to streamline the build process and
+use the command line tools (with ant, another tool that was "alien" to me,
+having used makefiles for everything that I needed).</p>
+
+<p>The use of Eclipse (and the Android development environment in general) in
+my Debian unstable computers
+<a href="./posts/2014-01-17-developing_for_android_with_debian/">was not</a>
+<a href="https://bugs.debian.org/734674">without problems</a>, but after spending more time trying to fix Eclipse
+than really doing the homework (and pulling the little hair that I still
+have left), one really helpful post <a href="http://aleksz-programming.blogspot.com/2013/03/eclipse-and-webkit-on-ubuntu-64.html">nailed it</a>. (Yes, I had to remove
+other packages like gimp, but such is life).</p>
+
+<p>While playing with the Android side of things, I put one badly written (and
+<em>not</em> really "android-ish") app in <a href="https://github.com/rbrito/toy-android-apps">a github repository</a> (which I think
+is aptly named "Toy Android Apps"), which served me the purpose of learning
+some Android-specific concepts.</p>
+
+<p>But the course was helpful not only to get in touch with the tools (Eclipse,
+ant, running Android virtual machines with the help of kvm), but also on the
+Java side. I lost a bit of the prejudice against it (even though I still
+think it is a verbose language, especially when compared to, say Python),
+and I, also intend to contribute to one apache project or another that have
+low-hanging fruits.  Actually, I have signed their
+<a href="https://www.apache.org/licenses/icla.txt">Contributor License Agreement</a> and I even had
+<a href="http://svn.apache.org/viewvc?view=revision&amp;revision=1559792">my first patch accepted</a>!</p>
+
+<p>Aside: Well, sadly SVN doesn't support different committer and author fields
+like git does and it seems that doing many small commits may not be the
+Apache way of doing things&mdash;but the important part of all this is that
+the code is there and there is so much more to be done.</p>
+
+<p>Aside #2: After a <em>lot</em> of time spent converting the repository to git
+(which is, after all, what I use), I put <a href="https://github.com/rbrito/commons-graph">a mirror</a> of Apache's the
+commons graph project.</p>
+
+</section>
+
+<footer class="inlinefooter">
+
+<span class="pagedate">
+Posted <time datetime="2014-03-03T05:35:11Z" pubdate="pubdate">2014-03-03T02:35:11 BRT</time>
+</span>
+
+
+<nav class="tags">
+Tags:
+
+<a href="./tags/android/" rel="tag">android</a>
+
+<a href="./tags/debian/" rel="tag">debian</a>
+
+<a href="./tags/java/" rel="tag">java</a>
+
+<a href="./tags/life/" rel="tag">life</a>
+
+<a href="./tags/mooc/" rel="tag">mooc</a>
+
+<a href="./tags/study/" rel="tag">study</a>
+
+</nav>
+
+
+
+
+
+
+
+
+</footer>
+
+</article>
+<article class="inlinepage">
+
+<section class="inlineheader">
+
+<header class="header">
+
 <a href="./posts/2014-02-27_paco_de_lucia/">Paco de Lucia</a>
 
 </header>
@@ -891,119 +1000,6 @@ Tags:
 <a href="./tags/mooc/" rel="tag">mooc</a>
 
 <a href="./tags/quick-tip/" rel="tag">quick-tip</a>
-
-</nav>
-
-
-
-
-
-
-
-
-</footer>
-
-</article>
-<article class="inlinepage">
-
-<section class="inlineheader">
-
-<header class="header">
-
-<a href="./posts/sna_acceleration_vs_uxa/">SNA Acceleration vs. UXA Acceleration</a>
-
-</header>
-</section>
-
-<section class="inlinecontent">
-<p>Seeing as recent versions of Xorg have made it into Debian's testing (which
-I am using right now, instead of my usual sid installations), I decided to
-see what they would bring me in terms of performance, since they have the
-SNA acceleration implemented as well as the standard UXA acceleration.</p>
-
-<p>Well, I did not have any other tests to perform, but below are the results
-on my wife's laptop (a Core i5 2410M), when running <a href="http://packages.debian.org/gtkperf">gtkperf</a>:</p>
-
-<h1 id="withuxa">With UXA</h1>
-
-<pre><code>GtkPerf 0.40 - Starting testing: Mon Aug 12 20:33:20 2013
-
-GtkEntry - time:  0.19
-GtkComboBox - time:  5.36
-GtkComboBoxEntry - time:  3.59
-GtkSpinButton - time:  0.60
-GtkProgressBar - time:  0.41
-GtkToggleButton - time:  0.73
-GtkCheckButton - time:  0.48
-GtkRadioButton - time:  0.97
-GtkTextView - Add text - time: 21.72
-GtkTextView - Scroll - time:  2.29
-GtkDrawingArea - Lines - time:  6.18
-GtkDrawingArea - Circles - time:  6.74
-GtkDrawingArea - Text - time:  4.32
-GtkDrawingArea - Pixbufs - time:  0.67
- --- 
-Total time: 54.25
-</code></pre>
-
-<h1 id="withsna">With SNA</h1>
-
-<pre><code>GtkPerf 0.40 - Starting testing: Mon Aug 12 20:36:58 2013
-
-GtkEntry - time:  0.21
-GtkComboBox - time:  4.86
-GtkComboBoxEntry - time:  2.67
-GtkSpinButton - time:  0.59
-GtkProgressBar - time:  0.24
-GtkToggleButton - time:  0.61
-GtkCheckButton - time:  0.51
-GtkRadioButton - time:  1.00
-GtkTextView - Add text - time: 17.19
-GtkTextView - Scroll - time:  1.84
-GtkDrawingArea - Lines - time:  2.70
-GtkDrawingArea - Circles - time:  2.65
-GtkDrawingArea - Text - time:  1.72
-GtkDrawingArea - Pixbufs - time:  0.11
- --- 
-Total time: 36.91
-</code></pre>
-
-<p>So, with SNA, the timing that I get are almost 2 times lower, which is
-superb for a very simple <code>/etc/X11/xorg.conf</code> config file:</p>
-
-<pre><code>Section "Device"
-        Identifier "Intel Graphics"
-        Driver "intel"
-        Option "AccelMethod" "sna"
-EndSection
-</code></pre>
-
-<p>I have not noticed any change, but if drawing graphics faster means that I
-get a bit more of battery life, then I will be super happy. I still have not
-tested if this works on my notebook with a Core2Duo T7250. Crossing my
-fingers so that it does.</p>
-
-</section>
-
-<footer class="inlinefooter">
-
-<span class="pagedate">
-Posted <time datetime="2013-08-21T16:44:19Z" pubdate="pubdate">2013-08-21T13:44:19 BRT</time>
-</span>
-
-
-<nav class="tags">
-Tags:
-
-<a href="./tags/debian/" rel="tag">debian</a>
-
-<a href="./tags/free-software/" rel="tag">free-software</a>
-
-<a href="./tags/linux/" rel="tag">linux</a>
-
-<a href="./tags/video/" rel="tag">video</a>
-
-<a href="./tags/xorg/" rel="tag">xorg</a>
 
 </nav>
 

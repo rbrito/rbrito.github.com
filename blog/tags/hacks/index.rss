@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 15 Feb 2014 22:39:04 -0200</pubDate>
+<pubDate>Sat, 15 Feb 2014 00:21:28 -0200</pubDate>
 <item>
 	<title>Working with CVS via Git</title>
 
@@ -34,7 +34,7 @@
 
 
 	<pubDate>Tue, 11 Jun 2013 04:49:56 -0300</pubDate>
-	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
@@ -138,7 +138,7 @@ one, please let me know.&lt;/p&gt;
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
@@ -443,7 +443,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Sun, 18 Jul 2010 03:34:40 -0300</pubDate>
-	<dcterms:modified>2010-07-18T06:34:40Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:20:27Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
@@ -503,7 +503,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Thu, 10 Jun 2010 19:46:13 -0300</pubDate>
-	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:20:59Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Well, it&#39;s been some time since I last wrote here and things are quite
@@ -696,7 +696,7 @@ subscriber. I never heard back, since.&lt;/p&gt;
 
 
 	<pubDate>Sat, 22 May 2010 20:36:42 -0300</pubDate>
-	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:20:59Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Two of my most frequently used tools are, hands down, Emacs and bash.
@@ -802,7 +802,7 @@ DejaVu Sans Mono at the right size on my system.&lt;/p&gt;
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2014-02-16T00:39:04Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
@@ -1057,7 +1057,7 @@ above.&lt;/p&gt;
 
 
 	<pubDate>Sun, 07 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:23:45Z</dcterms:modified>
+	<dcterms:modified>2013-10-11T06:33:23Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Woke up quite early with that kernel panic bugging me. I read the

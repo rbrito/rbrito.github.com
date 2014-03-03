@@ -17,7 +17,103 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-16T00:39:04Z</updated>
+<updated>2014-03-03T05:35:23Z</updated>
+<entry>
+	<title>More completed MOOCs</title>
+
+	<id>http://cynic.cc/blog//posts/2014-03-03_more_completed_moocs/</id>
+
+	<link href="http://cynic.cc/blog//posts/2014-03-03_more_completed_moocs/"/>
+
+
+
+
+
+
+	<category term="android" />
+
+	<category term="debian" />
+
+	<category term="java" />
+
+	<category term="life" />
+
+	<category term="mooc" />
+
+	<category term="study" />
+
+
+	<updated>2014-03-03T05:35:23Z</updated>
+	<published>2014-03-03T05:35:11Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;This weekend I received my 17th certification (or Statement of
+Accomplishment) for MOOCs. In particular, this last MOOC that I took was
+&lt;a href=&quot;https://www.coursera.org/course/androidapps101&quot;&gt;Creative, Serious and Playful Science of Android Apps&lt;/a&gt;, offered by
+&lt;a href=&quot;https://www.coursera.org/instructor/lawrenceangrave&quot;&gt;Lawrence Angrave&lt;/a&gt; of &lt;a href=&quot;https://www.coursera.org/illinois&quot;&gt;University of Illinois at Urbana-Champaign&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;While I certainly knew that the course was an Introduction to Programming,
+the reasons I took it were twofold:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;For the &quot;novelty&quot; (for me, at least) of writing some Android Apps&lt;/li&gt;
+&lt;li&gt;To reacquaint myself with Java, which I have not touched since 1999, when
+&lt;a href=&quot;https://github.com/rbrito/old-projects&quot;&gt;I wrote a compiler&lt;/a&gt;, in the ages of JDK 1.0 being transitioned to
+JDK 1.1.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I think that the time the course took (and which I invested in) was really
+well spent. In fact, I learned some nice things which I would &lt;em&gt;not&lt;/em&gt; have
+touched otherwise. For instance, I made the conscious effort to use an IDE
+(Eclipse), despite being a person that would do most of the things inside
+Emacs and compile the programs with command-line tools.&lt;/p&gt;
+
+&lt;p&gt;Despite being huge, Eclipse has some really nice features and the
+auto-completion is amazing. Since Java is so strongly typed and Eclipse
+knows Java pretty well, it almost completely writes your programs for you.
+&lt;img src=&quot;http://cynic.cc/blog//tags/mooc/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, my interest also made me want to streamline the build process and
+use the command line tools (with ant, another tool that was &quot;alien&quot; to me,
+having used makefiles for everything that I needed).&lt;/p&gt;
+
+&lt;p&gt;The use of Eclipse (and the Android development environment in general) in
+my Debian unstable computers
+&lt;a href=&quot;http://cynic.cc/blog//tags/mooc/../../posts/2014-01-17-developing_for_android_with_debian/&quot;&gt;was not&lt;/a&gt;
+&lt;a href=&quot;https://bugs.debian.org/734674&quot;&gt;without problems&lt;/a&gt;, but after spending more time trying to fix Eclipse
+than really doing the homework (and pulling the little hair that I still
+have left), one really helpful post &lt;a href=&quot;http://aleksz-programming.blogspot.com/2013/03/eclipse-and-webkit-on-ubuntu-64.html&quot;&gt;nailed it&lt;/a&gt;. (Yes, I had to remove
+other packages like gimp, but such is life).&lt;/p&gt;
+
+&lt;p&gt;While playing with the Android side of things, I put one badly written (and
+&lt;em&gt;not&lt;/em&gt; really &quot;android-ish&quot;) app in &lt;a href=&quot;https://github.com/rbrito/toy-android-apps&quot;&gt;a github repository&lt;/a&gt; (which I think
+is aptly named &quot;Toy Android Apps&quot;), which served me the purpose of learning
+some Android-specific concepts.&lt;/p&gt;
+
+&lt;p&gt;But the course was helpful not only to get in touch with the tools (Eclipse,
+ant, running Android virtual machines with the help of kvm), but also on the
+Java side. I lost a bit of the prejudice against it (even though I still
+think it is a verbose language, especially when compared to, say Python),
+and I, also intend to contribute to one apache project or another that have
+low-hanging fruits.  Actually, I have signed their
+&lt;a href=&quot;https://www.apache.org/licenses/icla.txt&quot;&gt;Contributor License Agreement&lt;/a&gt; and I even had
+&lt;a href=&quot;http://svn.apache.org/viewvc?view=revision&amp;amp;revision=1559792&quot;&gt;my first patch accepted&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Aside: Well, sadly SVN doesn&#39;t support different committer and author fields
+like git does and it seems that doing many small commits may not be the
+Apache way of doing things&amp;mdash;but the important part of all this is that
+the code is there and there is so much more to be done.&lt;/p&gt;
+
+&lt;p&gt;Aside #2: After a &lt;em&gt;lot&lt;/em&gt; of time spent converting the repository to git
+(which is, after all, what I use), I put &lt;a href=&quot;https://github.com/rbrito/commons-graph&quot;&gt;a mirror&lt;/a&gt; of Apache&#39;s the
+commons graph project.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Quick tip #1</title>
 
@@ -39,7 +135,7 @@
 	<category term="quick-tip" />
 
 
-	<updated>2014-02-16T00:39:04Z</updated>
+	<updated>2014-02-15T02:20:59Z</updated>
 	<published>2013-10-18T15:49:09Z</published>
 
 
@@ -112,7 +208,7 @@ seeder had the missing segments of the torrent.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-10-11T06:07:42Z</updated>
+	<updated>2013-07-04T12:25:16Z</updated>
 	<published>2013-07-04T11:33:00Z</published>
 
 

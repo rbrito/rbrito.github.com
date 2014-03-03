@@ -17,7 +17,103 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-28T00:48:16Z</updated>
+<updated>2014-03-03T05:35:23Z</updated>
+<entry>
+	<title>More completed MOOCs</title>
+
+	<id>http://cynic.cc/blog//posts/2014-03-03_more_completed_moocs/</id>
+
+	<link href="http://cynic.cc/blog//posts/2014-03-03_more_completed_moocs/"/>
+
+
+
+
+
+
+	<category term="android" />
+
+	<category term="debian" />
+
+	<category term="java" />
+
+	<category term="life" />
+
+	<category term="mooc" />
+
+	<category term="study" />
+
+
+	<updated>2014-03-03T05:35:23Z</updated>
+	<published>2014-03-03T05:35:11Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;This weekend I received my 17th certification (or Statement of
+Accomplishment) for MOOCs. In particular, this last MOOC that I took was
+&lt;a href=&quot;https://www.coursera.org/course/androidapps101&quot;&gt;Creative, Serious and Playful Science of Android Apps&lt;/a&gt;, offered by
+&lt;a href=&quot;https://www.coursera.org/instructor/lawrenceangrave&quot;&gt;Lawrence Angrave&lt;/a&gt; of &lt;a href=&quot;https://www.coursera.org/illinois&quot;&gt;University of Illinois at Urbana-Champaign&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;While I certainly knew that the course was an Introduction to Programming,
+the reasons I took it were twofold:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;For the &quot;novelty&quot; (for me, at least) of writing some Android Apps&lt;/li&gt;
+&lt;li&gt;To reacquaint myself with Java, which I have not touched since 1999, when
+&lt;a href=&quot;https://github.com/rbrito/old-projects&quot;&gt;I wrote a compiler&lt;/a&gt;, in the ages of JDK 1.0 being transitioned to
+JDK 1.1.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I think that the time the course took (and which I invested in) was really
+well spent. In fact, I learned some nice things which I would &lt;em&gt;not&lt;/em&gt; have
+touched otherwise. For instance, I made the conscious effort to use an IDE
+(Eclipse), despite being a person that would do most of the things inside
+Emacs and compile the programs with command-line tools.&lt;/p&gt;
+
+&lt;p&gt;Despite being huge, Eclipse has some really nice features and the
+auto-completion is amazing. Since Java is so strongly typed and Eclipse
+knows Java pretty well, it almost completely writes your programs for you.
+&lt;img src=&quot;http://cynic.cc/blog//tags/debian/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, my interest also made me want to streamline the build process and
+use the command line tools (with ant, another tool that was &quot;alien&quot; to me,
+having used makefiles for everything that I needed).&lt;/p&gt;
+
+&lt;p&gt;The use of Eclipse (and the Android development environment in general) in
+my Debian unstable computers
+&lt;a href=&quot;http://cynic.cc/blog//tags/debian/../../posts/2014-01-17-developing_for_android_with_debian/&quot;&gt;was not&lt;/a&gt;
+&lt;a href=&quot;https://bugs.debian.org/734674&quot;&gt;without problems&lt;/a&gt;, but after spending more time trying to fix Eclipse
+than really doing the homework (and pulling the little hair that I still
+have left), one really helpful post &lt;a href=&quot;http://aleksz-programming.blogspot.com/2013/03/eclipse-and-webkit-on-ubuntu-64.html&quot;&gt;nailed it&lt;/a&gt;. (Yes, I had to remove
+other packages like gimp, but such is life).&lt;/p&gt;
+
+&lt;p&gt;While playing with the Android side of things, I put one badly written (and
+&lt;em&gt;not&lt;/em&gt; really &quot;android-ish&quot;) app in &lt;a href=&quot;https://github.com/rbrito/toy-android-apps&quot;&gt;a github repository&lt;/a&gt; (which I think
+is aptly named &quot;Toy Android Apps&quot;), which served me the purpose of learning
+some Android-specific concepts.&lt;/p&gt;
+
+&lt;p&gt;But the course was helpful not only to get in touch with the tools (Eclipse,
+ant, running Android virtual machines with the help of kvm), but also on the
+Java side. I lost a bit of the prejudice against it (even though I still
+think it is a verbose language, especially when compared to, say Python),
+and I, also intend to contribute to one apache project or another that have
+low-hanging fruits.  Actually, I have signed their
+&lt;a href=&quot;https://www.apache.org/licenses/icla.txt&quot;&gt;Contributor License Agreement&lt;/a&gt; and I even had
+&lt;a href=&quot;http://svn.apache.org/viewvc?view=revision&amp;amp;revision=1559792&quot;&gt;my first patch accepted&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Aside: Well, sadly SVN doesn&#39;t support different committer and author fields
+like git does and it seems that doing many small commits may not be the
+Apache way of doing things&amp;mdash;but the important part of all this is that
+the code is there and there is so much more to be done.&lt;/p&gt;
+
+&lt;p&gt;Aside #2: After a &lt;em&gt;lot&lt;/em&gt; of time spent converting the repository to git
+(which is, after all, what I use), I put &lt;a href=&quot;https://github.com/rbrito/commons-graph&quot;&gt;a mirror&lt;/a&gt; of Apache&#39;s the
+commons graph project.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Paco de Lucia</title>
 
@@ -37,7 +133,7 @@
 	<category term="video" />
 
 
-	<updated>2014-02-28T00:48:16Z</updated>
+	<updated>2014-03-03T04:43:11Z</updated>
 	<published>2014-02-28T00:48:04Z</published>
 
 
@@ -90,7 +186,7 @@ denoised, encoded, and &lt;a href=&quot;http://youtu.be/0tzfUYz2t5w&quot;&gt;upl
 	<category term="tex" />
 
 
-	<updated>2014-02-24T09:31:11Z</updated>
+	<updated>2014-02-26T03:11:47Z</updated>
 	<published>2014-02-24T02:30:30Z</published>
 
 
@@ -199,7 +295,7 @@ As a corollary, derive Cassini&#39;s identity for the Fibonacci Numbers.&lt;/p&g
 	<category term="study" />
 
 
-	<updated>2014-02-17T22:20:22Z</updated>
+	<updated>2014-02-19T05:52:57Z</updated>
 	<published>2014-02-17T21:27:00Z</published>
 
 
@@ -285,7 +381,7 @@ the Debian archives.&lt;/p&gt;
 	<category term="ubuntu" />
 
 
-	<updated>2014-02-16T17:10:07Z</updated>
+	<updated>2014-02-19T05:52:57Z</updated>
 	<published>2014-02-15T02:59:22Z</published>
 
 
@@ -373,7 +469,7 @@ Marius Gedminas for pointing this out.&lt;/p&gt;
 	<category term="tex" />
 
 
-	<updated>2014-02-07T23:02:59Z</updated>
+	<updated>2014-01-30T02:44:49Z</updated>
 	<published>2014-01-30T02:43:30Z</published>
 
 
@@ -420,7 +516,7 @@ which is a trivial approximation that may be handy sometimes.&lt;/p&gt;
 	<category term="java" />
 
 
-	<updated>2014-01-23T00:24:40Z</updated>
+	<updated>2014-01-17T22:17:37Z</updated>
 	<published>2014-01-17T22:18:04Z</published>
 
 
@@ -508,7 +604,7 @@ Command Line Options&quot;.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2013-12-16T03:33:48Z</updated>
+	<updated>2013-12-11T02:35:41Z</updated>
 	<published>2013-12-11T02:27:41Z</published>
 
 
@@ -573,7 +669,7 @@ solution of the original set of inequalities, thus concluding the argument.&lt;/
 	<category term="study" />
 
 
-	<updated>2013-12-16T03:33:48Z</updated>
+	<updated>2013-11-06T17:36:48Z</updated>
 	<published>2013-10-23T23:08:42Z</published>
 
 
@@ -698,7 +794,7 @@ of course, this should be fixed.&lt;/p&gt;
 	<category term="quick-tip" />
 
 
-	<updated>2014-02-16T00:39:04Z</updated>
+	<updated>2014-02-15T02:20:59Z</updated>
 	<published>2013-10-18T15:49:09Z</published>
 
 
@@ -738,106 +834,6 @@ seeder had the missing segments of the torrent.&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;Soon after that, people started downloading things much faster.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>SNA Acceleration vs. UXA Acceleration</title>
-
-	<id>http://cynic.cc/blog//posts/sna_acceleration_vs_uxa/</id>
-
-	<link href="http://cynic.cc/blog//posts/sna_acceleration_vs_uxa/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="linux" />
-
-	<category term="video" />
-
-	<category term="xorg" />
-
-
-	<updated>2013-10-11T06:07:42Z</updated>
-	<published>2013-08-21T16:44:19Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
-I am using right now, instead of my usual sid installations), I decided to
-see what they would bring me in terms of performance, since they have the
-SNA acceleration implemented as well as the standard UXA acceleration.&lt;/p&gt;
-
-&lt;p&gt;Well, I did not have any other tests to perform, but below are the results
-on my wife&#39;s laptop (a Core i5 2410M), when running &lt;a href=&quot;http://packages.debian.org/gtkperf&quot;&gt;gtkperf&lt;/a&gt;:&lt;/p&gt;
-
-&lt;h1 id=&quot;withuxa&quot;&gt;With UXA&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code&gt;GtkPerf 0.40 - Starting testing: Mon Aug 12 20:33:20 2013
-
-GtkEntry - time:  0.19
-GtkComboBox - time:  5.36
-GtkComboBoxEntry - time:  3.59
-GtkSpinButton - time:  0.60
-GtkProgressBar - time:  0.41
-GtkToggleButton - time:  0.73
-GtkCheckButton - time:  0.48
-GtkRadioButton - time:  0.97
-GtkTextView - Add text - time: 21.72
-GtkTextView - Scroll - time:  2.29
-GtkDrawingArea - Lines - time:  6.18
-GtkDrawingArea - Circles - time:  6.74
-GtkDrawingArea - Text - time:  4.32
-GtkDrawingArea - Pixbufs - time:  0.67
- --- 
-Total time: 54.25
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&quot;withsna&quot;&gt;With SNA&lt;/h1&gt;
-
-&lt;pre&gt;&lt;code&gt;GtkPerf 0.40 - Starting testing: Mon Aug 12 20:36:58 2013
-
-GtkEntry - time:  0.21
-GtkComboBox - time:  4.86
-GtkComboBoxEntry - time:  2.67
-GtkSpinButton - time:  0.59
-GtkProgressBar - time:  0.24
-GtkToggleButton - time:  0.61
-GtkCheckButton - time:  0.51
-GtkRadioButton - time:  1.00
-GtkTextView - Add text - time: 17.19
-GtkTextView - Scroll - time:  1.84
-GtkDrawingArea - Lines - time:  2.70
-GtkDrawingArea - Circles - time:  2.65
-GtkDrawingArea - Text - time:  1.72
-GtkDrawingArea - Pixbufs - time:  0.11
- --- 
-Total time: 36.91
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;So, with SNA, the timing that I get are almost 2 times lower, which is
-superb for a very simple &lt;code&gt;/etc/X11/xorg.conf&lt;/code&gt; config file:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Section &quot;Device&quot;
-        Identifier &quot;Intel Graphics&quot;
-        Driver &quot;intel&quot;
-        Option &quot;AccelMethod&quot; &quot;sna&quot;
-EndSection
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I have not noticed any change, but if drawing graphics faster means that I
-get a bit more of battery life, then I will be super happy. I still have not
-tested if this works on my notebook with a Core2Duo T7250. Crossing my
-fingers so that it does.&lt;/p&gt;
 
 	</content>
 

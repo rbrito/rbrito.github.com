@@ -8,7 +8,97 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 24 Feb 2014 06:31:11 -0300</pubDate>
+<pubDate>Mon, 03 Mar 2014 02:35:23 -0300</pubDate>
+<item>
+	<title>More completed MOOCs</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2014-03-03_more_completed_moocs/</guid>
+
+	<link>http://cynic.cc/blog//posts/2014-03-03_more_completed_moocs/</link>
+
+
+
+	<category>android</category>
+
+	<category>debian</category>
+
+	<category>java</category>
+
+	<category>life</category>
+
+	<category>mooc</category>
+
+	<category>study</category>
+
+
+	<pubDate>Mon, 03 Mar 2014 02:35:11 -0300</pubDate>
+	<dcterms:modified>2014-03-03T05:35:23Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;This weekend I received my 17th certification (or Statement of
+Accomplishment) for MOOCs. In particular, this last MOOC that I took was
+&lt;a href=&quot;https://www.coursera.org/course/androidapps101&quot;&gt;Creative, Serious and Playful Science of Android Apps&lt;/a&gt;, offered by
+&lt;a href=&quot;https://www.coursera.org/instructor/lawrenceangrave&quot;&gt;Lawrence Angrave&lt;/a&gt; of &lt;a href=&quot;https://www.coursera.org/illinois&quot;&gt;University of Illinois at Urbana-Champaign&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;While I certainly knew that the course was an Introduction to Programming,
+the reasons I took it were twofold:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;For the &quot;novelty&quot; (for me, at least) of writing some Android Apps&lt;/li&gt;
+&lt;li&gt;To reacquaint myself with Java, which I have not touched since 1999, when
+&lt;a href=&quot;https://github.com/rbrito/old-projects&quot;&gt;I wrote a compiler&lt;/a&gt;, in the ages of JDK 1.0 being transitioned to
+JDK 1.1.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I think that the time the course took (and which I invested in) was really
+well spent. In fact, I learned some nice things which I would &lt;em&gt;not&lt;/em&gt; have
+touched otherwise. For instance, I made the conscious effort to use an IDE
+(Eclipse), despite being a person that would do most of the things inside
+Emacs and compile the programs with command-line tools.&lt;/p&gt;
+
+&lt;p&gt;Despite being huge, Eclipse has some really nice features and the
+auto-completion is amazing. Since Java is so strongly typed and Eclipse
+knows Java pretty well, it almost completely writes your programs for you.
+&lt;img src=&quot;http://cynic.cc/blog//tags/study/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, my interest also made me want to streamline the build process and
+use the command line tools (with ant, another tool that was &quot;alien&quot; to me,
+having used makefiles for everything that I needed).&lt;/p&gt;
+
+&lt;p&gt;The use of Eclipse (and the Android development environment in general) in
+my Debian unstable computers
+&lt;a href=&quot;http://cynic.cc/blog//tags/study/../../posts/2014-01-17-developing_for_android_with_debian/&quot;&gt;was not&lt;/a&gt;
+&lt;a href=&quot;https://bugs.debian.org/734674&quot;&gt;without problems&lt;/a&gt;, but after spending more time trying to fix Eclipse
+than really doing the homework (and pulling the little hair that I still
+have left), one really helpful post &lt;a href=&quot;http://aleksz-programming.blogspot.com/2013/03/eclipse-and-webkit-on-ubuntu-64.html&quot;&gt;nailed it&lt;/a&gt;. (Yes, I had to remove
+other packages like gimp, but such is life).&lt;/p&gt;
+
+&lt;p&gt;While playing with the Android side of things, I put one badly written (and
+&lt;em&gt;not&lt;/em&gt; really &quot;android-ish&quot;) app in &lt;a href=&quot;https://github.com/rbrito/toy-android-apps&quot;&gt;a github repository&lt;/a&gt; (which I think
+is aptly named &quot;Toy Android Apps&quot;), which served me the purpose of learning
+some Android-specific concepts.&lt;/p&gt;
+
+&lt;p&gt;But the course was helpful not only to get in touch with the tools (Eclipse,
+ant, running Android virtual machines with the help of kvm), but also on the
+Java side. I lost a bit of the prejudice against it (even though I still
+think it is a verbose language, especially when compared to, say Python),
+and I, also intend to contribute to one apache project or another that have
+low-hanging fruits.  Actually, I have signed their
+&lt;a href=&quot;https://www.apache.org/licenses/icla.txt&quot;&gt;Contributor License Agreement&lt;/a&gt; and I even had
+&lt;a href=&quot;http://svn.apache.org/viewvc?view=revision&amp;amp;revision=1559792&quot;&gt;my first patch accepted&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Aside: Well, sadly SVN doesn&#39;t support different committer and author fields
+like git does and it seems that doing many small commits may not be the
+Apache way of doing things&amp;mdash;but the important part of all this is that
+the code is there and there is so much more to be done.&lt;/p&gt;
+
+&lt;p&gt;Aside #2: After a &lt;em&gt;lot&lt;/em&gt; of time spent converting the repository to git
+(which is, after all, what I use), I put &lt;a href=&quot;https://github.com/rbrito/commons-graph&quot;&gt;a mirror&lt;/a&gt; of Apache&#39;s the
+commons graph project.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Trivial fact #3: Continued fractions via matrices</title>
 
@@ -28,7 +118,7 @@
 
 
 	<pubDate>Sun, 23 Feb 2014 23:30:30 -0300</pubDate>
-	<dcterms:modified>2014-02-24T09:31:11Z</dcterms:modified>
+	<dcterms:modified>2014-02-26T03:11:47Z</dcterms:modified>
 
 
 	<description>&lt;h1 id=&quot;note&quot;&gt;Note&lt;/h1&gt;
@@ -131,7 +221,7 @@ As a corollary, derive Cassini&#39;s identity for the Fibonacci Numbers.&lt;/p&g
 
 
 	<pubDate>Mon, 17 Feb 2014 18:27:00 -0300</pubDate>
-	<dcterms:modified>2014-02-17T22:20:22Z</dcterms:modified>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I wrote in a &lt;a href=&quot;http://cynic.cc/blog//tags/study/../../posts/2013-10-23-assorted_news/#youtube-dl&quot;&gt;previous post&lt;/a&gt; that
@@ -209,7 +299,7 @@ the Debian archives.&lt;/p&gt;
 
 
 	<pubDate>Thu, 30 Jan 2014 00:43:30 -0200</pubDate>
-	<dcterms:modified>2014-02-07T23:02:59Z</dcterms:modified>
+	<dcterms:modified>2014-01-30T02:44:49Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I don&#39;t know how Debian planet deals with MathJax (it seems to
@@ -248,7 +338,7 @@ which is a trivial approximation that may be handy sometimes.&lt;/p&gt;
 
 
 	<pubDate>Wed, 11 Dec 2013 00:27:41 -0200</pubDate>
-	<dcterms:modified>2013-12-16T03:33:48Z</dcterms:modified>
+	<dcterms:modified>2013-12-11T02:35:41Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Just a trivial fact: every polyhedron that is used in linear programming is
@@ -307,7 +397,7 @@ solution of the original set of inequalities, thus concluding the argument.&lt;/
 
 
 	<pubDate>Wed, 23 Oct 2013 21:08:42 -0200</pubDate>
-	<dcterms:modified>2013-12-16T03:33:48Z</dcterms:modified>
+	<dcterms:modified>2013-11-06T17:36:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;This post is just a bunch of random notes, but I think that things are going
@@ -426,7 +516,7 @@ of course, this should be fixed.&lt;/p&gt;
 
 
 	<pubDate>Sat, 20 Jul 2013 21:50:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-07-21T12:18:29Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;These are some very rough/sketchy notes that I took while doing the
@@ -872,7 +962,7 @@ function calls (whenever unambiguous) and, in essence, to write as little
 
 
 	<pubDate>Thu, 04 Jul 2013 08:33:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:07:42Z</dcterms:modified>
+	<dcterms:modified>2013-07-04T12:25:16Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Not so much ago, we had a boom of new enterprises offering Massive Online
@@ -954,7 +1044,7 @@ ones.&lt;/p&gt;
 
 
 	<pubDate>Sat, 19 Nov 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:08:06Z</dcterms:modified>
+	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Purchased some books at discount prices. Nice. Now I can learn
@@ -986,7 +1076,7 @@ Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&
 
 
 	<pubDate>Thu, 17 Mar 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-02-23T06:15:21Z</dcterms:modified>
+	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;So, now I am officially a maintainer of the
@@ -1006,33 +1096,6 @@ cool.&lt;/p&gt;
 learn things on Abstract Algebra. I want to study algebraic
 properties of graphs and, for that, I have to get my rusty algebra
 in shape. Also, some Linear Algebra wouldn&#39;t hurt.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2004-12-04</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2004-12-04/</guid>
-
-	<link>http://cynic.cc/blog//posts/2004-12-04/</link>
-
-
-
-	<category>life</category>
-
-	<category>music</category>
-
-	<category>study</category>
-
-
-	<pubDate>Sat, 04 Dec 2004 00:00:00 -0200</pubDate>
-	<dcterms:modified>2014-02-23T06:15:21Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;No scholarship, no
-&lt;a href=&quot;http://www.cs.newcastle.edu.au/~nbi/&quot;&gt;Ph.D. in Oz&lt;/a&gt;. Again, why
-have things gone so wrong in the last few days?&lt;/p&gt;
 </description>
 
 
