@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Wed, 19 Feb 2014 02:52:57 -0300</pubDate>
+<pubDate>Wed, 11 Jun 2014 11:03:17 -0300</pubDate>
 <item>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -553,6 +553,102 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 </item>
 <item>
+	<title>2005-06-06</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-06-06/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-06-06/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>linux</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Mon, 06 Jun 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-06-11T14:03:17Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Holy freaking day! Today we had
+&lt;a href=&quot;http://www.apple.com/pr/library/2005/jun/06intel.html&quot;&gt;the announcement&lt;/a&gt;
+that &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; will be switching to
+&lt;a href=&quot;http://www.intel.com&quot;&gt;Intel processors&lt;/a&gt;. This is a major movement,
+in my very humber opinion. Does this mean that all the claims about
+PowerPC being more effective are not true anymore (well, that may
+be the case with Power 970 processors, but G3 processors seem to be
+quite nice regarding power comsumption).&lt;/p&gt;
+
+&lt;p&gt;As if that weren&#39;t enough news for one day,
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt; finally, after almost 3 (&lt;em&gt;three&lt;/em&gt;)
+years,
+&lt;a href=&quot;http://www.debian.org/News/2005/20050606&quot;&gt;released a new version of its distribution&lt;/a&gt;,
+codenamed sarge. This is the major news for the day (and for the
+month, if you ask me).&lt;/p&gt;
+
+&lt;p&gt;And like if that weren&#39;t enough, Linus Torvalds also
+&lt;a href=&quot;http://www.kernel.org/pub/linux/kernel/v2.6/testing/patch-2.6.12-rc6.bz2&quot;&gt;announced kernel 2.6.12-rc6&lt;/a&gt;,
+which is (hopefully) one of the final stages towards kernel 2.6.12
+proper.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-05-28</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-05-28/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-05-28/</link>
+
+
+
+	<category>apple</category>
+
+	<category>hardware</category>
+
+	<category>macosx</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Sat, 28 May 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-06-11T13:58:42Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;I have now, with the help of an oooold
+&lt;a href=&quot;http://www.atitech.ca/&quot;&gt;ATI Mach 64 GX&lt;/a&gt; card (with only 2MB of
+VRAM) gotten &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X 10.3.9&lt;/a&gt; to work
+on the
+&lt;a href=&quot;http://www.everymac.com/systems/apple/powermac/stats/powermac_9500_180mp.html&quot;&gt;PowerMac&lt;/a&gt;.
+I then substituted the card with an IMS Twin Turbo card that has
+4MB of VRAM. It seems to work well, considering that this machine
+has almost 10 years (a PeeCee normally doesn&#39;t last this much). If
+I were to upgrade this machine, I would start by the following two
+items (perhaps not in this order):&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Substitude its HD.&lt;/li&gt;
+&lt;li&gt;Add more RAM to it. MacOS X likes a lot of RAM.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Perhaps I may get a &lt;a href=&quot;http://www.sonnettech.com/&quot;&gt;Sonnet Tech&lt;/a&gt;
+&lt;a href=&quot;http://www.sonnettech.com/product/tempo_trio.html&quot;&gt;Tempo Trio&lt;/a&gt;
+card, which features an IDE controller, a Firewire controller and a
+USB 2.0 controller in just one card. Seems like a good deal,
+especially for using (faster, modern) IDE HDs, all this being able
+to just use a single slot of the machine.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2005-04-12</title>
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-04-12/</guid>
@@ -781,149 +877,6 @@ for the XVideo extension.&lt;/p&gt;
 
 &lt;p&gt;Also used the client-side of NFS and SMB on MacOS X, which is quite
 easy to use.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-07-06</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-06/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-07-06/</link>
-
-
-
-	<category>apple</category>
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>hacks</category>
-
-	<category>hardware</category>
-
-	<category>life</category>
-
-	<category>macosx</category>
-
-	<category>powerpc</category>
-
-
-	<pubDate>Sat, 06 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:33:23Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Took the day to see how things regarding the old PowerMac
-9500/180MP were with a
-&lt;a href=&quot;http://people.debian.org/~branden/&quot;&gt;newer XFree86&lt;/a&gt;. Apparently,
-&lt;a href=&quot;http://www.xfree86.org/&quot;&gt;XFree86 4.2&lt;/a&gt; doesn&#39;t support the XVideo
-extension for the &lt;code&gt;imst&lt;/code&gt;t adapter, which is quite a pity.&lt;/p&gt;
-
-&lt;p&gt;What this means is that I am not able to use
-&lt;a href=&quot;http://xine.sf.net/&quot;&gt;Xine&lt;/a&gt; or &lt;a href=&quot;http://www.mplayerhq.hu/&quot;&gt;Mplayer&lt;/a&gt;
-to efficiently play videos on this computer.&lt;/p&gt;
-
-&lt;p&gt;I can see some things that make this computer slow:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It has a modest amount of RAM for today&#39;s standards (64MB,
-which is particularly little for PowerPC);&lt;/li&gt;
-&lt;li&gt;I don&#39;t know if it&#39;s RAM chips are in an interleaved
-configuration or not;&lt;/li&gt;
-&lt;li&gt;If it had a faster/better supported video card (say, like a
-&lt;a href=&quot;http://www.ati.com/&quot;&gt;ATI&lt;/a&gt; Mach64), things would perhaps be better,
-but this is just a guess. I don&#39;t know if the Mach64 sports XVideo
-support under PowerPC, but perhaps the
-&lt;a href=&quot;http://gatos.sf.net/&quot;&gt;Gatos&lt;/a&gt; project might help here;&lt;/li&gt;
-&lt;li&gt;I have no idea why this computer, while having a SCSI interface
-and drive, is so slow while it is using the disk. I see two things:
-it freezes most things the user (that&#39;s me!) whenever it is writing
-(reading?) anything to (from?) the disk and the transfer speeds are
-quite sloooow. I wonder if this is a problem of the Linux SCSI
-infra-structure, if it is a problem of the hardware or if it is a
-problem of configuration. It probably isn&#39;t a problem with Linux,
-since I also see the slowness with &lt;a href=&quot;http://www.apple.com/&quot;&gt;MacOS&lt;/a&gt;
-Classic (8).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Anyway, just for fun, I tried to install
-&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X 10.1&lt;/a&gt; on this old computer.
-The catch is that MacOS X can&#39;t be installed on anything this old.
-Well, at least, that&#39;s what Apple says. I had to grab a copy of
-MacOS 9 (in German!) just to bootstrap the system. Then, using
-&lt;a href=&quot;http://eshop.macsales.com/OSXCenter/XPostFacto/&quot;&gt;XPostFacto&lt;/a&gt;, the
-installation was quite smooth (and slow). But with one gotcha at
-the first reboot: a kernel panic.&lt;/p&gt;
-
-&lt;p&gt;After that, I went to sleep.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-04-04</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-04-04/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-04-04/</link>
-
-
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>harware</category>
-
-	<category>java</category>
-
-	<category>life</category>
-
-	<category>linux</category>
-
-	<category>music</category>
-
-	<category>powerpc</category>
-
-
-	<pubDate>Thu, 04 Apr 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:33:23Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;How can life change so quickly from bad to good? Amazing, ain&#39;t it?
-Had a great time at my SO&#39;s place. It was nice to see her get
-happier, which made &lt;em&gt;me&lt;/em&gt; happier.&lt;/p&gt;
-
-&lt;p&gt;It was nice to talk to &lt;a href=&quot;http://www.ime.usp.br/~jose/&quot;&gt;my advisor&lt;/a&gt;
-and see that he (mostly) likes my work. Oh, how I needed those
-positive, encouraging comments from him.&lt;/p&gt;
-
-&lt;p&gt;Found &lt;a href=&quot;http://www.dreamtheater.net/&quot;&gt;Dream Theater&lt;/a&gt;&#39;s bootleg at
-Beacon, with the full version of &quot;Six Degrees of Inner Turbulence&quot;,
-on my usual FTP server. New music. Good.&lt;/p&gt;
-
-&lt;p&gt;Now, &lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE 3.0&lt;/a&gt; is finally launched. It looks
-so amazing that I can&#39;t believe my eyes (err, the
-&lt;a href=&quot;http://kde.org/screenshots/kde300shots.html&quot;&gt;screenshots&lt;/a&gt;). A big
-plus for me is the built-in support for
-&lt;a href=&quot;http://www.webdav.org/&quot;&gt;WebDAV&lt;/a&gt;, which is used by
-&lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;&#39;s
-&lt;a href=&quot;http://www.mac.com/&quot;&gt;iTools&#39; iDisk&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In other news, it seems that &lt;a href=&quot;http://www.megadeth.com/&quot;&gt;Megadeth&lt;/a&gt;
-is no more. Quite sad, as I like(d) them.&lt;/p&gt;
-
-&lt;p&gt;And &lt;a href=&quot;http://www.openoffice.org/&quot;&gt;OpenOffice&lt;/a&gt; 641d, the last version
-before the 1.0 release, is
-&lt;a href=&quot;http://lists2.suse.com/archive/suse-ppc/2002-Mar/0079.html&quot;&gt;already available&lt;/a&gt;
-for &lt;a href=&quot;http://www.debian.org/ports/powerpc/&quot;&gt;PPC/Linux&lt;/a&gt;. By the way,
-OpenOffice is a Free and free alternative for Microsoft&#39;s Office.
-It is also available for Microsoft Windows.&lt;/p&gt;
-
-&lt;p&gt;And a new version of &lt;a href=&quot;http://www.blackdown.org/&quot;&gt;Blackdown&lt;/a&gt;&#39;s Java
-is available for Linux, including PPC.&lt;/p&gt;
 </description>
 
 

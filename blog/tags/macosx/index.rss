@@ -8,7 +8,55 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Wed, 19 Feb 2014 02:52:57 -0300</pubDate>
+<pubDate>Wed, 11 Jun 2014 10:58:42 -0300</pubDate>
+<item>
+	<title>2005-05-28</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-05-28/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-05-28/</link>
+
+
+
+	<category>apple</category>
+
+	<category>hardware</category>
+
+	<category>macosx</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Sat, 28 May 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-06-11T13:58:42Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;I have now, with the help of an oooold
+&lt;a href=&quot;http://www.atitech.ca/&quot;&gt;ATI Mach 64 GX&lt;/a&gt; card (with only 2MB of
+VRAM) gotten &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X 10.3.9&lt;/a&gt; to work
+on the
+&lt;a href=&quot;http://www.everymac.com/systems/apple/powermac/stats/powermac_9500_180mp.html&quot;&gt;PowerMac&lt;/a&gt;.
+I then substituted the card with an IMS Twin Turbo card that has
+4MB of VRAM. It seems to work well, considering that this machine
+has almost 10 years (a PeeCee normally doesn&#39;t last this much). If
+I were to upgrade this machine, I would start by the following two
+items (perhaps not in this order):&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Substitude its HD.&lt;/li&gt;
+&lt;li&gt;Add more RAM to it. MacOS X likes a lot of RAM.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Perhaps I may get a &lt;a href=&quot;http://www.sonnettech.com/&quot;&gt;Sonnet Tech&lt;/a&gt;
+&lt;a href=&quot;http://www.sonnettech.com/product/tempo_trio.html&quot;&gt;Tempo Trio&lt;/a&gt;
+card, which features an IDE controller, a Firewire controller and a
+USB 2.0 controller in just one card. Seems like a good deal,
+especially for using (faster, modern) IDE HDs, all this being able
+to just use a single slot of the machine.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>2005-04-12</title>
 

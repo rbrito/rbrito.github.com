@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Wed, 19 Feb 2014 02:52:57 -0300</pubDate>
+<pubDate>Wed, 11 Jun 2014 11:07:11 -0300</pubDate>
 <item>
 	<title>2005-11-17</title>
 
@@ -93,6 +93,111 @@ www.clivemenzies.co.uk ...
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;In the mean time, I&#39;m swamped with middle terms.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-06-19</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-06-19/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-06-19/</link>
+
+
+
+	<category>free-software</category>
+
+	<category>latex</category>
+
+	<category>life</category>
+
+	<category>linux</category>
+
+
+	<pubDate>Sun, 19 Jun 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-06-11T14:07:11Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Feelling extremely bad today. I have an enormous headache. I think
+that I will work a little bit on
+&lt;a href=&quot;http://algorithms.berlios.de/&quot;&gt;algorithms&lt;/a&gt;, but I don&#39;t know if I
+will be able to commit anything today. I can&#39;t really concentrate
+and I don&#39;t want to release something that I am not proud of.&lt;/p&gt;
+
+&lt;p&gt;I have, BTW, been swamped by e-mail. Please, stop the madness! I
+can understand why Donald Knuth quit this 15 years ago. I
+understand that he must be a happier man without Internet annoying
+him (especially since he is such a precious celebrity).&lt;/p&gt;
+
+&lt;p&gt;The funnier thing is that people rarely realize how they are doing
+things backwards today: they are working more for the computer than
+the computer is working for them. They don&#39;t care about things
+being automated, which is one thing where computers shine at.&lt;/p&gt;
+
+&lt;p&gt;In fact, I think that such things are the way they are due to the
+ignorance of the potential of a computer. Indeed, there are tasks
+that a computer can&#39;t embrace (the halting problem, the tiling
+problem etc already told us this), but for other mundane things,
+computers are useful. Just not the way people seem to be using
+them.&lt;/p&gt;
+
+&lt;p&gt;And this, BTW, includes people with high education (like many
+Ph.D.&#39;s that I know): they simply don&#39;t make their life easier. One
+example of this in action: using
+&lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt; is a way of producing
+high-quality documents. But some people that are actually convinced
+that LaTeX is the way to go rarely take the time to use this tool
+in all its usefulness. What a pity!&lt;/p&gt;
+
+&lt;p&gt;Whenever I see people doing wrong things, I tell them a better way.
+&lt;a href=&quot;http://www.ime.usp.br/~lymber/&quot;&gt;Very few&lt;/a&gt; seem to understand that,
+but others don&#39;t.&lt;/p&gt;
+
+&lt;p&gt;In other news, Linus released a new
+&lt;a href=&quot;http://www.kernel.org&quot;&gt;kernel&lt;/a&gt;, 2.6.12.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-05-29</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-05-29/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-05-29/</link>
+
+
+
+	<category>free-software</category>
+
+	<category>latex</category>
+
+
+	<pubDate>Sun, 29 May 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2014-06-11T13:59:30Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Today it was a &quot;software writing&quot; day. I woke up early in the
+morning and then I decided to fix
+&lt;a href=&quot;http://bugs.debian.org/src:vrms&quot;&gt;vrms&lt;/a&gt;. I have almost taken the
+role of a maintainer, with the exception that I am not one. I have
+changed the severity of bugs, merged them etc. All without the
+maintainers saying &lt;strong&gt;anything&lt;/strong&gt;. Impressive.&lt;/p&gt;
+
+&lt;p&gt;I, then, updated the package and put a new version of it at
+&lt;a href=&quot;http://www.ime.usp.br/~rbrito/debian/&quot;&gt;my homepage&lt;/a&gt; for perusal by
+other developers.&lt;/p&gt;
+
+&lt;p&gt;In other news, I have updated the page for the
+&lt;a href=&quot;http://algorithms.berlios.de&quot;&gt;algorithms&lt;/a&gt; package, now with a
+&lt;a href=&quot;http://algorithms.berlios.de/screenshots.html&quot;&gt;screenshot&lt;/a&gt;. I have
+also done some janitorial work on the
+&lt;a href=&quot;http://developer.berlios.de/feature/?group_id=3442&quot;&gt;feature requests&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It seems that
+&lt;a href=&quot;http://lists.debian.org/debian-devel-announce/2005/05/msg00020.html&quot;&gt;sarge won&#39;t be released on the 30th of May&lt;/a&gt;,
+unfortunately.&lt;/p&gt;
 </description>
 
 

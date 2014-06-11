@@ -17,7 +17,204 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-19T05:52:57Z</updated>
+<updated>2014-06-11T14:03:17Z</updated>
+<entry>
+	<title>2005-06-06</title>
+
+	<id>http://cynic.cc/blog//posts/2005-06-06/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-06-06/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="linux" />
+
+	<category term="powerpc" />
+
+
+	<updated>2014-06-11T14:03:17Z</updated>
+	<published>2005-06-06T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Holy freaking day! Today we had
+&lt;a href=&quot;http://www.apple.com/pr/library/2005/jun/06intel.html&quot;&gt;the announcement&lt;/a&gt;
+that &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; will be switching to
+&lt;a href=&quot;http://www.intel.com&quot;&gt;Intel processors&lt;/a&gt;. This is a major movement,
+in my very humber opinion. Does this mean that all the claims about
+PowerPC being more effective are not true anymore (well, that may
+be the case with Power 970 processors, but G3 processors seem to be
+quite nice regarding power comsumption).&lt;/p&gt;
+
+&lt;p&gt;As if that weren&#39;t enough news for one day,
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt; finally, after almost 3 (&lt;em&gt;three&lt;/em&gt;)
+years,
+&lt;a href=&quot;http://www.debian.org/News/2005/20050606&quot;&gt;released a new version of its distribution&lt;/a&gt;,
+codenamed sarge. This is the major news for the day (and for the
+month, if you ask me).&lt;/p&gt;
+
+&lt;p&gt;And like if that weren&#39;t enough, Linus Torvalds also
+&lt;a href=&quot;http://www.kernel.org/pub/linux/kernel/v2.6/testing/patch-2.6.12-rc6.bz2&quot;&gt;announced kernel 2.6.12-rc6&lt;/a&gt;,
+which is (hopefully) one of the final stages towards kernel 2.6.12
+proper.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-06-04</title>
+
+	<id>http://cynic.cc/blog//posts/2005-06-04/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-06-04/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="life" />
+
+	<category term="study" />
+
+
+	<updated>2014-06-11T14:02:14Z</updated>
+	<published>2005-06-04T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Today I bought some books at Pearson Education. They were not that
+cheap, but I think that some of their content is worth the amount
+spent. During the time I was there, BTW, I met 8 colleagues (at
+least, that I could count). So much for coincidence. &lt;img src=&quot;http://cynic.cc/blog//tags/hardware/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After that, I went to Santa Ifigênia to get myself an used Duron
+1.3GHz processor (actually, I went there to get conductive ink so
+that I could overclock my Duron 600MHz processor). Unfortunately, I
+can&#39;t make it work with anything higher than 1.1GHz on my
+motherboard (an old classic Asus A7V). Bummer.&lt;/p&gt;
+
+&lt;p&gt;Spent the whole day trying to make my system work as it always did.
+I now suspect that I need some RAM, but I am not forking the cash
+for PC133 modules right now (my budget is now tight).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-05-28</title>
+
+	<id>http://cynic.cc/blog//posts/2005-05-28/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-05-28/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="hardware" />
+
+	<category term="macosx" />
+
+	<category term="powerpc" />
+
+
+	<updated>2014-06-11T13:58:42Z</updated>
+	<published>2005-05-28T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I have now, with the help of an oooold
+&lt;a href=&quot;http://www.atitech.ca/&quot;&gt;ATI Mach 64 GX&lt;/a&gt; card (with only 2MB of
+VRAM) gotten &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X 10.3.9&lt;/a&gt; to work
+on the
+&lt;a href=&quot;http://www.everymac.com/systems/apple/powermac/stats/powermac_9500_180mp.html&quot;&gt;PowerMac&lt;/a&gt;.
+I then substituted the card with an IMS Twin Turbo card that has
+4MB of VRAM. It seems to work well, considering that this machine
+has almost 10 years (a PeeCee normally doesn&#39;t last this much). If
+I were to upgrade this machine, I would start by the following two
+items (perhaps not in this order):&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Substitude its HD.&lt;/li&gt;
+&lt;li&gt;Add more RAM to it. MacOS X likes a lot of RAM.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Perhaps I may get a &lt;a href=&quot;http://www.sonnettech.com/&quot;&gt;Sonnet Tech&lt;/a&gt;
+&lt;a href=&quot;http://www.sonnettech.com/product/tempo_trio.html&quot;&gt;Tempo Trio&lt;/a&gt;
+card, which features an IDE controller, a Firewire controller and a
+USB 2.0 controller in just one card. Seems like a good deal,
+especially for using (faster, modern) IDE HDs, all this being able
+to just use a single slot of the machine.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-04-16</title>
+
+	<id>http://cynic.cc/blog//posts/2005-04-16/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-04-16/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="linux" />
+
+
+	<updated>2014-06-11T13:54:51Z</updated>
+	<published>2005-04-16T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I can&#39;t believe how 2.6 &lt;a href=&quot;http://www.kernel.org&quot;&gt;kernels&lt;/a&gt; are bigger
+than 2.4 kernels under similar compilation options! Maybe it&#39;s time
+to give &lt;a href=&quot;http://www.selenic.com/tiny-about/&quot;&gt;tiny-linux&lt;/a&gt; a try.&lt;/p&gt;
+
+&lt;p&gt;I will also see if compiling kernels with
+&lt;a href=&quot;http://gcc.gnu.org/gcc-3.4/&quot;&gt;GCC 3.4&lt;/a&gt; makes a difference due to
+the new &lt;a href=&quot;http://lwn.net/Articles/67176/&quot;&gt;-funit-at-a-time&lt;/a&gt; option.
+Debian&#39;s sarge &quot;official&quot; compiler seems to be
+&lt;a href=&quot;http://gcc.gnu.org/gcc-3.3/&quot;&gt;GCC 3.3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This machine is desperately in need of a memory upgrade, but it
+seems that not even &lt;a href=&quot;http://www.crucial.com&quot;&gt;Crucial&lt;/a&gt; has it
+available anymore. &lt;img src=&quot;http://cynic.cc/blog//tags/hardware/../../smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>2005-04-12</title>
 
@@ -315,240 +512,6 @@ for the XVideo extension.&lt;/p&gt;
 
 &lt;p&gt;Also used the client-side of NFS and SMB on MacOS X, which is quite
 easy to use.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2002-07-06</title>
-
-	<id>http://cynic.cc/blog//posts/2002-07-06/</id>
-
-	<link href="http://cynic.cc/blog//posts/2002-07-06/"/>
-
-
-
-
-
-
-	<category term="apple" />
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="hacks" />
-
-	<category term="hardware" />
-
-	<category term="life" />
-
-	<category term="macosx" />
-
-	<category term="powerpc" />
-
-
-	<updated>2013-10-11T06:33:23Z</updated>
-	<published>2002-07-06T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Took the day to see how things regarding the old PowerMac
-9500/180MP were with a
-&lt;a href=&quot;http://people.debian.org/~branden/&quot;&gt;newer XFree86&lt;/a&gt;. Apparently,
-&lt;a href=&quot;http://www.xfree86.org/&quot;&gt;XFree86 4.2&lt;/a&gt; doesn&#39;t support the XVideo
-extension for the &lt;code&gt;imst&lt;/code&gt;t adapter, which is quite a pity.&lt;/p&gt;
-
-&lt;p&gt;What this means is that I am not able to use
-&lt;a href=&quot;http://xine.sf.net/&quot;&gt;Xine&lt;/a&gt; or &lt;a href=&quot;http://www.mplayerhq.hu/&quot;&gt;Mplayer&lt;/a&gt;
-to efficiently play videos on this computer.&lt;/p&gt;
-
-&lt;p&gt;I can see some things that make this computer slow:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It has a modest amount of RAM for today&#39;s standards (64MB,
-which is particularly little for PowerPC);&lt;/li&gt;
-&lt;li&gt;I don&#39;t know if it&#39;s RAM chips are in an interleaved
-configuration or not;&lt;/li&gt;
-&lt;li&gt;If it had a faster/better supported video card (say, like a
-&lt;a href=&quot;http://www.ati.com/&quot;&gt;ATI&lt;/a&gt; Mach64), things would perhaps be better,
-but this is just a guess. I don&#39;t know if the Mach64 sports XVideo
-support under PowerPC, but perhaps the
-&lt;a href=&quot;http://gatos.sf.net/&quot;&gt;Gatos&lt;/a&gt; project might help here;&lt;/li&gt;
-&lt;li&gt;I have no idea why this computer, while having a SCSI interface
-and drive, is so slow while it is using the disk. I see two things:
-it freezes most things the user (that&#39;s me!) whenever it is writing
-(reading?) anything to (from?) the disk and the transfer speeds are
-quite sloooow. I wonder if this is a problem of the Linux SCSI
-infra-structure, if it is a problem of the hardware or if it is a
-problem of configuration. It probably isn&#39;t a problem with Linux,
-since I also see the slowness with &lt;a href=&quot;http://www.apple.com/&quot;&gt;MacOS&lt;/a&gt;
-Classic (8).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Anyway, just for fun, I tried to install
-&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X 10.1&lt;/a&gt; on this old computer.
-The catch is that MacOS X can&#39;t be installed on anything this old.
-Well, at least, that&#39;s what Apple says. I had to grab a copy of
-MacOS 9 (in German!) just to bootstrap the system. Then, using
-&lt;a href=&quot;http://eshop.macsales.com/OSXCenter/XPostFacto/&quot;&gt;XPostFacto&lt;/a&gt;, the
-installation was quite smooth (and slow). But with one gotcha at
-the first reboot: a kernel panic.&lt;/p&gt;
-
-&lt;p&gt;After that, I went to sleep.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2002-03-20</title>
-
-	<id>http://cynic.cc/blog//posts/2002-03-20/</id>
-
-	<link href="http://cynic.cc/blog//posts/2002-03-20/"/>
-
-
-
-
-
-
-	<category term="hardware" />
-
-	<category term="life" />
-
-	<category term="study" />
-
-
-	<updated>2013-09-22T21:41:34Z</updated>
-	<published>2002-03-20T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Just another common day. Attended the mini-course on
-&lt;em&gt;Theory of Matroids&lt;/em&gt; (which just shown me that I should be studying
-way, way more) and the seminar on Computational Biology.&lt;/p&gt;
-
-&lt;p&gt;Also got the new speakers for my computer, Logitech&#39;s Soundman
-S-4.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2002-03-18</title>
-
-	<id>http://cynic.cc/blog//posts/2002-03-18/</id>
-
-	<link href="http://cynic.cc/blog//posts/2002-03-18/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="hardware" />
-
-	<category term="ibook" />
-
-	<category term="linux" />
-
-	<category term="mac" />
-
-	<category term="powerpc" />
-
-	<category term="study" />
-
-
-	<updated>2013-09-22T21:41:34Z</updated>
-	<published>2002-03-18T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Typed the remaining bits of the first lecture on the
-&lt;em&gt;Theory of Matroids&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Read about how one makes a bootable CD for Newworlds with mkisofs:
-apparently, the needed things are the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;create a folder with &lt;code&gt;yaboot&lt;/code&gt;, &lt;code&gt;yaboot.conf&lt;/code&gt;, &lt;code&gt;vmlinux&lt;/code&gt;, &lt;code&gt;root.bin&lt;/code&gt;.
-I&#39;m not sure if &lt;code&gt;boot-floppy-hfs.img&lt;/code&gt; and &lt;code&gt;ofboot.b&lt;/code&gt; are necessary. I
-also don&#39;t have an idea of how OpenFirmware knows that it is
-supposed to load yaboot during the boot;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;code&gt;mkisofs -hfs -map &amp;lt;file\&amp;gt; -part -hfs-bless &amp;lt;folder\&amp;gt; -r -o &amp;lt;isoimage.iso\&amp;gt; &amp;lt;root-of-cd\&amp;gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Sent an e-mail to the bastards at
-&lt;a href=&quot;http://www.linuxjournal.com/&quot;&gt;Linux Journal&lt;/a&gt;, complaining that I&#39;m
-not receiving my issues as I should (and my subscription is far
-from being expired).&lt;/p&gt;
-
-&lt;p&gt;Discovered that &lt;a href=&quot;http://www.apple.com.br/&quot;&gt;Apple Brasil&lt;/a&gt; is selling
-&lt;a href=&quot;http://www.apple.com/ibook/&quot;&gt;iBooks&lt;/a&gt; in
-&lt;a href=&quot;http://www.apple.com/br/appleensino/&quot;&gt;a promotion for education users&lt;/a&gt;.
-Damn!&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2002-03-17</title>
-
-	<id>http://cynic.cc/blog//posts/2002-03-17/</id>
-
-	<link href="http://cynic.cc/blog//posts/2002-03-17/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="hardware" />
-
-	<category term="ibook" />
-
-	<category term="linux" />
-
-	<category term="mac" />
-
-	<category term="powerpc" />
-
-	<category term="video" />
-
-
-	<updated>2013-09-22T21:41:34Z</updated>
-	<published>2002-03-17T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Got &lt;a href=&quot;http://mplayer.sf.net/&quot;&gt;mplayer&lt;/a&gt; working well in PowerPC (G3,
-600MHz), with the new &lt;a href=&quot;http://ffmpeg.sf.net/&quot;&gt;ffmpeg&lt;/a&gt;. I had to use
--ao sdl to get it working. The video wasn&#39;t as smooth as with -ao
-null, but it was OK, at least. I am under the impression that using
--vo sdl:x11 is better than using -vo x11, at least with the Rage
-Mobility 128. BTW, it was also possible to play DivX 5 movies with
-this setup (the new Star Wars clip).&lt;/p&gt;
-
-&lt;p&gt;The USB keyboard and USB mouse work fine under Linux. It was just a
-simple matter of recompiling the &lt;a href=&quot;http://www.kernel.org/&quot;&gt;kernel&lt;/a&gt;
-with USB HID support enabled (in my case, as modules). They also
-work fine with &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;&lt;/p&gt;
 
 	</content>
 
