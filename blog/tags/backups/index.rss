@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>pages tagged backups</title>
+<link>http://cynic.cc/blog//tags/backups/</link>
+
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Sat, 17 Jan 2015 22:48:05 -0200</pubDate>
+<item>
+	<title>2005-11-14</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-11-14/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-11-14/</link>
+
+
+
+	<category>backups</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+
+	<pubDate>Mon, 14 Nov 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:48:05Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;I think that I reached a point of balance between the minimality of
+programs in my system and the functionality that I desire.
+Actually, I would expect a little more functionality (perhaps
+provided by the ROX project).&lt;/p&gt;
+
+&lt;p&gt;But now I can work without fear of loosing data, thanks to
+&lt;a href=&quot;http://packages.debian.org/mondo&quot;&gt;mondo rescue&lt;/a&gt;, which is able to
+backup the essential parts of my system in just one CD-RW. Nice
+this sensation of being backed up.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

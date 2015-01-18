@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-06-11T14:03:17Z</updated>
+<updated>2015-01-18T00:43:16Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -580,6 +580,76 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 </entry>
 <entry>
+	<title>2005-10-19</title>
+
+	<id>http://cynic.cc/blog//posts/2005-10-19/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-10-19/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="life" />
+
+	<category term="powerpc" />
+
+	<category term="teaching" />
+
+	<category term="work" />
+
+
+	<updated>2015-01-18T00:43:16Z</updated>
+	<published>2005-10-19T02:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Ok, so, I am almost giving up the hectic mess in which work has
+turned to... I need to take a serious time resting a little bit.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m so tired and people are so demanding of me and of my creativity
+that its hard to even take some time with pleasant things. For
+instance, in the little time that I have to sleep, I don&#39;t have the
+motivation to study the neat things that I always wanted to.&lt;/p&gt;
+
+&lt;p&gt;I guess that this means that I&#39;m overworked, without any shadow of
+doubt. Being sleepy while at work has never been a common thing for
+me, even when I was in the tiring days of my M.Sc. studies.&lt;/p&gt;
+
+&lt;p&gt;In fact, in those days, I thought that I was progressing (and it&#39;s
+hard not to feel you&#39;re progressing when you&#39;re being pushed to
+your limits), but now, with little time for intellectual
+challenges, I see little point in keeping up with the work I&#39;m
+doing.&lt;/p&gt;
+
+&lt;p&gt;It&#39;s not particularly exciting to be teaching how to write a for
+for the 20th time in less than two years. I guess that if the
+concept of iteration doesn&#39;t enter one&#39;s brain as soon as it is
+told, then all is hopeless.&lt;/p&gt;
+
+&lt;p&gt;I guess that I need a significant other to make everything bright
+(even those less-than-perfect moments). Someone that truly
+understands what I mean, what my ideals are, what my values are and
+how I see the world.&lt;/p&gt;
+
+&lt;p&gt;And, yes, I am willing to even change some things of me. But please
+don&#39;t disillusion me. In some sense, I&#39;m fragile. Even more than
+most people think that I am. Despite the tough cover that I may
+have, lies a friendly person. Truly.&lt;/p&gt;
+
+&lt;p&gt;In other news, &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; has released a bunch
+of new stuff, with the highlight (for me, at least), being the new
+&lt;a href=&quot;http://www.apple.com/powerbook/&quot;&gt;PowerBook&lt;/a&gt;s.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>2005-06-06</title>
 
 	<id>http://cynic.cc/blog//posts/2005-06-06/</id>
@@ -884,66 +954,6 @@ commit it.&lt;/p&gt;
 
 &lt;p&gt;Worked a little bit (well, not &lt;em&gt;that&lt;/em&gt; little) on my Master&#39;s
 thesis, fixing the beginnings of chapter 2.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2002-07-07</title>
-
-	<id>http://cynic.cc/blog//posts/2002-07-07/</id>
-
-	<link href="http://cynic.cc/blog//posts/2002-07-07/"/>
-
-
-
-
-
-
-	<category term="apple" />
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="hacks" />
-
-	<category term="hardware" />
-
-	<category term="macosx" />
-
-	<category term="powerpc" />
-
-
-	<updated>2013-10-11T06:33:23Z</updated>
-	<published>2002-07-07T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Woke up quite early with that kernel panic bugging me. I read the
-documentation and the fix for it was to reboot MacOS 9 (which
-wasn&#39;t as simple as it should, since MacOS X apparently de-blessed
-MacOS 9&#39;s System Folder). Anyway, after reusing XPostFacto, the
-PowerMac booted with MacOS X! Woohoo!&lt;/p&gt;
-
-&lt;p&gt;Well, seeing this OS booting on this old computer is quite cool.
-Well,
-&lt;a href=&quot;http://slashdot.org/comments.pl?sid=33385&amp;amp;cid=3607384&quot;&gt;apart from some severe usability problems&lt;/a&gt;
-and slowness, MacOS X is an amazing operating system. The problem
-is: it &lt;strong&gt;is slow&lt;/strong&gt;. It is slow with a G3 600MHz (100MHz of bus)
-with 128MB of RAM and, obviously, much more so with a dual 604e
-180MHz with only 64MB of RAM.&lt;/p&gt;
-
-&lt;p&gt;BTW, MacOS X isn&#39;t able to use both processors when it is booted
-with XPostFacto.&lt;/p&gt;
-
-&lt;p&gt;BTW#2, XFree86&#39;s native driver for Mach64 doesn&#39;t include support
-for the XVideo extension.&lt;/p&gt;
-
-&lt;p&gt;Also used the client-side of NFS and SMB on MacOS X, which is quite
-easy to use.&lt;/p&gt;
 
 	</content>
 

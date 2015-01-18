@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Wed, 19 Feb 2014 02:52:57 -0300</pubDate>
+<pubDate>Sat, 17 Jan 2015 22:40:53 -0200</pubDate>
 <item>
 	<title>Miscellanea</title>
 
@@ -340,6 +340,33 @@ cache redownloading the packages with something approximately like this:&lt;/p&g
 that they can benefit from it. Rebuilding packages with a package cacher is
 much more pleasant, especially if the package has a lot of
 build-dependencies.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-10-13</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-10-13/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-10-13/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Thu, 13 Oct 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2015-01-18T00:40:53Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;&lt;a href=&quot;http://www.ubuntu.com&quot;&gt;Ubuntu&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.ubuntu.com/download/&quot;&gt;breezy&lt;/a&gt; was released today!
+Nice!&lt;/p&gt;
 </description>
 
 

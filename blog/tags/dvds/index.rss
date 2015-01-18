@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Thu, 06 Jun 2013 18:23:31 -0300</pubDate>
+<pubDate>Sat, 17 Jan 2015 22:54:23 -0200</pubDate>
 <item>
 	<title>Sourceforge, SSH keys, Free audiobooks, DVD&#x27;s</title>
 
@@ -64,6 +64,283 @@ public domain.&lt;/p&gt;
 &lt;p&gt;Still downloading Pain of Salvation&#39;s Acoustic set. Now, I finally had some
 time to watch the somewhat incomplete VOBs and it, indeed, has the show. And
 it is an amazing piece of music. Recommended for all fans of good music.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-12-28</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-28/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-12-28/</link>
+
+
+
+	<category>debian</category>
+
+	<category>dvds</category>
+
+	<category>free-software</category>
+
+	<category>video</category>
+
+
+	<pubDate>Wed, 28 Dec 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:54:23Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;And creating a DVD with menus is not the easiest thing to do. It is
+actually quite a lot of (boring) work.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-12-27</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-27/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-12-27/</link>
+
+
+
+	<category>debian</category>
+
+	<category>dvds</category>
+
+	<category>free-software</category>
+
+	<category>study</category>
+
+	<category>video</category>
+
+
+	<pubDate>Tue, 27 Dec 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:53:42Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Finished encoding the videos! Phew! It was a long wait.&lt;/p&gt;
+
+&lt;p&gt;BTW, I have some videos of lectures about &lt;em&gt;Design Patterns&lt;/em&gt; and
+&lt;em&gt;Refactoring&lt;/em&gt; by Joseph Yoder (when he was here in Brazil, in 2003)
+and I&#39;m going to make a new DVD. With circa 8h in a DVD5.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-12-26</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-26/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-12-26/</link>
+
+
+
+	<category>audio</category>
+
+	<category>dvds</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>video</category>
+
+
+	<pubDate>Mon, 26 Dec 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:52:28Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Still encoding the videos. It seems that the work will finally be
+done today!&lt;/p&gt;
+
+&lt;p&gt;In the mean time, I discovered that
+&lt;a href=&quot;http://arstechnica.com/&quot;&gt;Ars Technica&lt;/a&gt; has some quite interesting
+articles; much better (and more informative than
+&lt;a href=&quot;http://slashdot.org/&quot;&gt;Slashdot&lt;/a&gt;.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-12-25</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-25/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-12-25/</link>
+
+
+
+	<category>audio</category>
+
+	<category>debian</category>
+
+	<category>dvds</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>video</category>
+
+
+	<pubDate>Sun, 25 Dec 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:51:10Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Still encoding the videos. Some surprise here, because it seems
+that &lt;a href=&quot;http://packages.debian.org/toolame&quot;&gt;toolame&lt;/a&gt; has some bug
+when encoding audio in some cases. Had to fix some of the MPEGs.&lt;/p&gt;
+
+&lt;p&gt;And while I did that, I took some moments to fix some of the audio
+deficiencies with &lt;a href=&quot;http://packages.debian.org/audacity&quot;&gt;audacity&lt;/a&gt;.
+Too bad that Audacity doesn&#39;t have a Treeble booster filter built
+right into it, but only a generic (and harder to use) Equalization
+filter.&lt;/p&gt;
+
+&lt;p&gt;Oh, and it seems that Christian Marillat has packaged version 1.8.0
+of &lt;a href=&quot;http://mjpeg.sf.net/&quot;&gt;mjpegtools&lt;/a&gt;, while I&#39;m still using
+version 1.6.2. I don&#39;t want to switch right now, for consistency
+purposes with the videos that I already have encoded.&lt;/p&gt;
+
+&lt;p&gt;Oh, yes, still encoding videos. It is quite slow.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-12-24</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-24/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-12-24/</link>
+
+
+
+	<category>dvds</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>video</category>
+
+
+	<pubDate>Sat, 24 Dec 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:50:38Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;So, we had this Christmas dinner here at home with my mother&#39;s
+grandma, two uncles and an aunt.&lt;/p&gt;
+
+&lt;p&gt;Grandma wanted to see Bram Stoker&#39;s &quot;Dracula&quot;, but she was asleep
+right there in the first few moments...&lt;/p&gt;
+
+&lt;p&gt;Oh, I&#39;m still encoding the MIT videos. This time it seems that
+everything will fit onto exactly one Dual-Layer DVD+R.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-12-21</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-21/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-12-21/</link>
+
+
+
+	<category>debian</category>
+
+	<category>dvds</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>study</category>
+
+	<category>video</category>
+
+
+	<pubDate>Wed, 21 Dec 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:49:19Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;So, I have finally gotten some free time for my own projects! Wow!
+It was a quite hectic semester this one. Fortunately, it&#39;s over
+now.&lt;/p&gt;
+
+&lt;p&gt;As previously hinted, I have now started (&lt;em&gt;slowly&lt;/em&gt;) learling
+German, thanks to &lt;a href=&quot;http://www.dw-world.de/&quot;&gt;Deutsche Welle&lt;/a&gt; (and to
+a hint given by student of mine; thanks Victor).&lt;/p&gt;
+
+&lt;p&gt;Changing the subject completely, creating DVDs under Linux is
+really, really simple, given the proper tools. Right now, I&#39;m using
+the following (quite simple) script to generate the material that
+is later processed by &lt;a href=&quot;http://dvdauthor.sf.net/&quot;&gt;dvdauthor&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/sh
+
+# Chamada: &amp;lt;video_in&amp;gt; &amp;lt;video_out&amp;gt;
+#
+
+# video encoding
+[ -e stream.yuv ] || mkfifo stream.yuv
+mplayer -noframedrop -vo yuv4mpeg -ao pcm &amp;#036;1 &amp;amp;
+
+yuvdenoise -v 0 -r 16 -l 4 &amp;lt; stream.yuv | \
+    yuvscaler -v 0 -n n -M BICUBIC -O VCD | \
+    mpeg2enc -v 0 -f 8 -b 6000 -K kvcd -g 6 -G 18 -N 1.0 -V 500 -n n -F 4 -a 2 -q 2 -4 1 -2 1 -D 10 -B 160 -o &amp;#036;2.mpv
+
+# audio encoding
+toolame -t 2 -b 160 -v -5 audiodump.wav &amp;#036;2.mpa
+
+# multiplexing
+mplex -o !!mathjaxbegin-i!! Mi5tcGcgLWYgOCAtViA=
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;!!mathjaxend-i!!2.mpv $2.mpa&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# clean-up
+rm -f audiodump.wav *.mpv *.mpa stream.yuv
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-07-31</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-07-31/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-07-31/</link>
+
+
+
+	<category>debian</category>
+
+	<category>dvds</category>
+
+	<category>free-software</category>
+
+	<category>music</category>
+
+	<category>video</category>
+
+
+	<pubDate>Sun, 31 Jul 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2015-01-18T00:39:41Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Had this &quot;strange&quot; idea of turning two DivX 16:9 videos from Rock
+Am Ring 2005 (Apocalyptica&#39;s and Within Temptation&#39;s performances)
+into a DVD. This is so easy to do with
+&lt;a href=&quot;http://packages.debian.org/dvdauthor&quot;&gt;dvdauthor&lt;/a&gt;: you just fill an
+XML file and there you go.&lt;/p&gt;
 </description>
 
 

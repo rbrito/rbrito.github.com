@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 15 Feb 2014 00:21:28 -0200</pubDate>
+<pubDate>Sat, 17 Jan 2015 22:44:13 -0200</pubDate>
 <item>
 	<title>Packaging fonts for a Debian-based system</title>
 
@@ -236,6 +236,43 @@ subscriber. I never heard back, since.&lt;/p&gt;
 &lt;p&gt;I appreciate it if you could help spread the word.&lt;/p&gt;
 
 &lt;p&gt;Thanks.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-10-23</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-10-23/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-10-23/</link>
+
+
+
+	<category>debian</category>
+
+	<category>documents</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+
+	<pubDate>Sun, 23 Oct 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:44:13Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Today was voting day and that sucks.&lt;/p&gt;
+
+&lt;p&gt;My &quot;dreams&quot; of using DocBook/XML to generate my documentation
+ceased to be when I read that passivetex is barely maintained. And,
+actually, trying to use &lt;a href=&quot;http://packages.debian.org/xmlto&quot;&gt;xmlto&lt;/a&gt;
+with a very simple document seems to generate good XHTML, but
+doesn&#39;t even work when one tries to generate DVI or PS or PDF
+output.&lt;/p&gt;
+
+&lt;p&gt;Perhaps I should try to use
+&lt;a href=&quot;http://packages.debian.org/docbook-utils&quot;&gt;docbook-utils&lt;/a&gt; instead.&lt;/p&gt;
 </description>
 
 

@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 04 Apr 2014 13:49:20 -0300</pubDate>
+<pubDate>Sat, 17 Jan 2015 22:53:42 -0200</pubDate>
 <item>
 	<title>The importance of flexible deadlines in MOOCs</title>
 
@@ -1099,27 +1099,34 @@ ones.&lt;/p&gt;
 
 </item>
 <item>
-	<title>2005-11-19</title>
+	<title>2005-12-27</title>
 
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-11-19/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-27/</guid>
 
-	<link>http://cynic.cc/blog//posts/2005-11-19/</link>
+	<link>http://cynic.cc/blog//posts/2005-12-27/</link>
 
 
 
-	<category>books</category>
+	<category>debian</category>
 
-	<category>lisp</category>
+	<category>dvds</category>
+
+	<category>free-software</category>
 
 	<category>study</category>
 
-
-	<pubDate>Sat, 19 Nov 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
+	<category>video</category>
 
 
-	<description>&lt;p&gt;Purchased some books at discount prices. Nice. Now I can learn
-Lisp. Let&#39;s see how I like this new thing of macros &lt;em&gt;et al.&lt;/em&gt;&lt;/p&gt;
+	<pubDate>Tue, 27 Dec 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:53:42Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Finished encoding the videos! Phew! It was a long wait.&lt;/p&gt;
+
+&lt;p&gt;BTW, I have some videos of lectures about &lt;em&gt;Design Patterns&lt;/em&gt; and
+&lt;em&gt;Refactoring&lt;/em&gt; by Joseph Yoder (when he was here in Brazil, in 2003)
+and I&#39;m going to make a new DVD. With circa 8h in a DVD5.&lt;/p&gt;
 </description>
 
 

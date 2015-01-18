@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 24 Nov 2014 15:17:42 -0200</pubDate>
+<pubDate>Sat, 17 Jan 2015 22:45:35 -0200</pubDate>
 <item>
 	<title>Problems with Emacs 24.4</title>
 
@@ -349,6 +349,77 @@ ii  gettext-el       0.14.5-2         Emacs po-mode for editing .po files
 ii  post-el          2004.07.23-2     emacs major mode for editing mail
 rbrito@dumont:~&amp;#036;
 &lt;/code&gt;&lt;/pre&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-11-12</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-11-12/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-11-12/</link>
+
+
+
+	<category>debian</category>
+
+	<category>emacs</category>
+
+	<category>free-software</category>
+
+	<category>latex</category>
+
+	<category>tex</category>
+
+
+	<pubDate>Sat, 12 Nov 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:45:35Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Stop the presses! If there is any text editor that would be worth
+working with, that is &lt;a href=&quot;http://www.emacswiki.org/&quot;&gt;GNU Emacs&lt;/a&gt;. The
+version in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.debian.org/releases/unstable/&quot;&gt;unstable&lt;/a&gt; (aka
+&lt;a href=&quot;http://packages.debian.org/emacs-snapshot&quot;&gt;emacs-snapshot&lt;/a&gt;) is
+absolutely amazing. Some small (but nice) improvements that I could
+grasp with just five minutes of use of emacs-snapshot in comparison
+to Emacs 21 are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It works out of-the-box with many control revision systems. In
+particular, it works &lt;em&gt;well&lt;/em&gt; with subversion with the standard C-x
+v-v for check-in/check-out of the repositories.&lt;/li&gt;
+&lt;li&gt;It sems to work better with modes like AUCTeX, with something
+closer to WYSIWYG, but still faithful to the LaTeX usage cycle.&lt;/li&gt;
+&lt;li&gt;It seems to have better &lt;a href=&quot;http://www.unicode.org/&quot;&gt;UTF-8&lt;/a&gt;
+support, which means that I may, finally, forget about using
+anything else (like iso-8859-1). Now, I&#39;m only waiting for
+&lt;a href=&quot;http://mutt-ng.berlios.de/&quot;&gt;Mutt-ng&lt;/a&gt; to reach testing and I will
+be a happier man. I may even start using the
+&lt;a href=&quot;http://packages.debian.org/latex-ucs&quot;&gt;latex-ucs&lt;/a&gt; package to encode
+everything that I type in Unicode.&lt;/li&gt;
+&lt;li&gt;The font-locking mode works better and for more modes.
+Absolutely sweet.&lt;/li&gt;
+&lt;li&gt;The new Emacs version is also available with use of
+&lt;a href=&quot;http://www.gtk.org/&quot;&gt;GTK 2.0&lt;/a&gt;, which is much more beautiful than
+other toolkits used in the past. Also, as the same libraries are
+shared among other applications, there is a slight chance of
+observing lower memory footprint in some areas.&lt;/li&gt;
+&lt;li&gt;Maybe it&#39;s just me, but using dired mode is now much easier. I
+always feared using emacs as a file manager, but now it seems to be
+a feasible alternative.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And I see that there is much more to learn. I feel that I have
+barely scratched the surface of Emacs 22. Stay tunned kids. It will
+surprise you, honest!&lt;/p&gt;
+
+&lt;p&gt;Oh, and using
+&lt;a href=&quot;http://packages.debian.org/docbook-utils&quot;&gt;docbook-utils&lt;/a&gt; is indeed
+a possibility instead of using passivetex. But typing everything in
+XML is painful. Perhaps there is a mode for Emacs for working with
+DocBook files? I&#39;d be pleased to know.&lt;/p&gt;
 </description>
 
 

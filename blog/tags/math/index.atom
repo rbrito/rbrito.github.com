@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-26T03:11:47Z</updated>
+<updated>2015-01-18T00:37:10Z</updated>
 <entry>
 	<title>Trivial fact #3: Continued fractions via matrices</title>
 
@@ -500,6 +500,43 @@ is enough for me).&lt;/p&gt;
 
 </entry>
 <entry>
+	<title>2005-07-28</title>
+
+	<id>http://cynic.cc/blog//posts/2005-07-28/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-07-28/"/>
+
+
+
+
+
+
+	<category term="math" />
+
+	<category term="study" />
+
+
+	<updated>2015-01-18T00:37:10Z</updated>
+	<published>2005-07-28T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Just finished reading neat and combinatorial proofs of &quot;Fermat&#39;s
+Little Theorem&quot; and &quot;Wilson&#39;s Theorem&quot; (although only in one
+direction) in George E. Andrews&#39;s &quot;Number Theory&quot; book from
+&lt;a href=&quot;http://www.doverpublications.com&quot;&gt;Dover&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;While this seems to be an elementary book on Number Theory (it
+covers just the basics---which I have been trying to learn for some
+time now) it is also &lt;em&gt;quite&lt;/em&gt; well-written. Perhaps some writers of
+computer books could learn a thing or two with Mathematicians.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>2000-10-26</title>
 
 	<id>http://cynic.cc/blog//posts/2000-10-26/</id>
@@ -604,41 +641,6 @@ down and write a complete, detailed a proof. I wish I had time.&lt;/p&gt;
 	<content type="html" xml:lang="en">
 	&lt;p&gt;Whew! One of the longest homeworks that I&#39;ve ever had was finished
 today. Programmning Turing Machines takes time.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2000-10-16</title>
-
-	<id>http://cynic.cc/blog//posts/2000-10-16/</id>
-
-	<link href="http://cynic.cc/blog//posts/2000-10-16/"/>
-
-
-
-
-
-
-	<category term="math" />
-
-	<category term="study" />
-
-
-	<updated>2013-04-08T12:15:46Z</updated>
-	<published>2000-10-16T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;After a lot of time doing this Combinatorial Optimization homework,
-I found out that a lot of my colleagues didn&#39;t even bother to prove
-that their algorithms worked, while I&#39;ve spent a lot of time
-finding algorithm invariants and proving that they were actually
-maintained from interation to iteration. This is the Right
-Thing(tm) to do, but it also takes a lot of time. What should I do
-next time?&lt;/p&gt;
 
 	</content>
 

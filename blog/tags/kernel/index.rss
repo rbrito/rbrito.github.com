@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 15 Feb 2014 00:21:28 -0200</pubDate>
+<pubDate>Sat, 17 Jan 2015 22:57:39 -0200</pubDate>
 <item>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -490,6 +490,49 @@ system. Knowing which one to enable is a matter of knowing the specs of
 your system and, if not known, discovery by trial-and-error. (For x86
 systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2006-01-06</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-01-06/</guid>
+
+	<link>http://cynic.cc/blog//posts/2006-01-06/</link>
+
+
+
+	<category>free-software</category>
+
+	<category>kernel</category>
+
+	<category>life</category>
+
+	<category>linux</category>
+
+	<category>programming</category>
+
+
+	<pubDate>Fri, 06 Jan 2006 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:57:39Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;There is an amazing discussion about compiler optimizations going
+on right now at the lkml. It all began with Ingo Molnar&#39;s patches
+to improve &lt;code&gt;.text&lt;/code&gt; size with GCC 4 compilers. Really quite
+informative to see both the pros and cons of using the &lt;code&gt;inline&lt;/code&gt;
+keyword of the C compilers.&lt;/p&gt;
+
+&lt;p&gt;Oh, by the way, while the discussion reached the consensus that
+using &lt;code&gt;inline&lt;/code&gt; in abundance is a problem, it reminded me that
+people should use &lt;code&gt;static&lt;/code&gt; for functions that are meant to be used
+only in the compilation unit where they appear. This way, GCC is
+even able reduce the size of the generated binaries (not exactly
+sure if this would impact the running size of the binaries---I
+still have to investigate that).&lt;/p&gt;
+
+&lt;p&gt;I was so tired today that I slept for about 16h. I needed that.&lt;/p&gt;
 </description>
 
 

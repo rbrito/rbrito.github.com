@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-19T05:52:57Z</updated>
+<updated>2015-01-18T00:57:39Z</updated>
 <entry>
 	<title>A version of xpdf with the poppler backend available</title>
 
@@ -115,6 +115,98 @@ subscriber. I never heard back, since.&lt;/p&gt;
 &lt;p&gt;I appreciate it if you could help spread the word.&lt;/p&gt;
 
 &lt;p&gt;Thanks.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-01-06</title>
+
+	<id>http://cynic.cc/blog//posts/2006-01-06/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-01-06/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="kernel" />
+
+	<category term="life" />
+
+	<category term="linux" />
+
+	<category term="programming" />
+
+
+	<updated>2015-01-18T00:57:39Z</updated>
+	<published>2006-01-06T02:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;There is an amazing discussion about compiler optimizations going
+on right now at the lkml. It all began with Ingo Molnar&#39;s patches
+to improve &lt;code&gt;.text&lt;/code&gt; size with GCC 4 compilers. Really quite
+informative to see both the pros and cons of using the &lt;code&gt;inline&lt;/code&gt;
+keyword of the C compilers.&lt;/p&gt;
+
+&lt;p&gt;Oh, by the way, while the discussion reached the consensus that
+using &lt;code&gt;inline&lt;/code&gt; in abundance is a problem, it reminded me that
+people should use &lt;code&gt;static&lt;/code&gt; for functions that are meant to be used
+only in the compilation unit where they appear. This way, GCC is
+even able reduce the size of the generated binaries (not exactly
+sure if this would impact the running size of the binaries---I
+still have to investigate that).&lt;/p&gt;
+
+&lt;p&gt;I was so tired today that I slept for about 16h. I needed that.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-11-13</title>
+
+	<id>http://cynic.cc/blog//posts/2005-11-13/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-11-13/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+	<category term="programming" />
+
+	<category term="study" />
+
+	<category term="video" />
+
+
+	<updated>2015-01-18T00:47:07Z</updated>
+	<published>2005-11-13T02:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Wow! The good news have not stopped! Another amazing thing: the
+legendary book
+&lt;em&gt;&quot;Structure and Interpretation of Computer Programs&quot;&lt;/em&gt; by Hal
+Abelson, Gerald Jay Sussman, and Julie Sussman is &lt;strong&gt;entirely&lt;/strong&gt;
+available on-line at
+&lt;a href=&quot;http://mitpress.mit.edu/sicp/full-text/book/book.html&quot;&gt;MIT Press Site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Not only that, but there are
+&lt;a href=&quot;http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/&quot;&gt;also videos of the classes taught in 1986&lt;/a&gt;
+by the authors themselves and they are definitely worth the
+download.&lt;/p&gt;
 
 	</content>
 

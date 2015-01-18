@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-06-11T14:08:07Z</updated>
+<updated>2015-01-18T00:57:39Z</updated>
 <entry>
 	<title>The importance of flexible deadlines in MOOCs</title>
 
@@ -192,26 +192,48 @@ commons graph project.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2005-12-14</title>
+	<title>2006-01-06</title>
 
-	<id>http://cynic.cc/blog//posts/2005-12-14/</id>
+	<id>http://cynic.cc/blog//posts/2006-01-06/</id>
 
-	<link href="http://cynic.cc/blog//posts/2005-12-14/"/>
-
-
+	<link href="http://cynic.cc/blog//posts/2006-01-06/"/>
 
 
 
+
+
+
+	<category term="free-software" />
+
+	<category term="kernel" />
 
 	<category term="life" />
 
+	<category term="linux" />
 
-	<updated>2013-04-18T21:09:53Z</updated>
-	<published>2005-12-14T02:00:00Z</published>
+	<category term="programming" />
+
+
+	<updated>2015-01-18T00:57:39Z</updated>
+	<published>2006-01-06T02:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Ich bin müde.&lt;/p&gt;
+	&lt;p&gt;There is an amazing discussion about compiler optimizations going
+on right now at the lkml. It all began with Ingo Molnar&#39;s patches
+to improve &lt;code&gt;.text&lt;/code&gt; size with GCC 4 compilers. Really quite
+informative to see both the pros and cons of using the &lt;code&gt;inline&lt;/code&gt;
+keyword of the C compilers.&lt;/p&gt;
+
+&lt;p&gt;Oh, by the way, while the discussion reached the consensus that
+using &lt;code&gt;inline&lt;/code&gt; in abundance is a problem, it reminded me that
+people should use &lt;code&gt;static&lt;/code&gt; for functions that are meant to be used
+only in the compilation unit where they appear. This way, GCC is
+even able reduce the size of the generated binaries (not exactly
+sure if this would impact the running size of the binaries---I
+still have to investigate that).&lt;/p&gt;
+
+&lt;p&gt;I was so tired today that I slept for about 16h. I needed that.&lt;/p&gt;
 
 	</content>
 
@@ -219,11 +241,11 @@ commons graph project.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2005-06-20</title>
+	<title>2006-01-05</title>
 
-	<id>http://cynic.cc/blog//posts/2005-06-20/</id>
+	<id>http://cynic.cc/blog//posts/2006-01-05/</id>
 
-	<link href="http://cynic.cc/blog//posts/2005-06-20/"/>
+	<link href="http://cynic.cc/blog//posts/2006-01-05/"/>
 
 
 
@@ -236,31 +258,22 @@ commons graph project.&lt;/p&gt;
 
 	<category term="life" />
 
-	<category term="linux" />
+	<category term="teaching" />
 
 
-	<updated>2014-06-11T14:08:07Z</updated>
-	<published>2005-06-20T03:00:00Z</published>
+	<updated>2015-01-18T00:55:35Z</updated>
+	<published>2006-01-05T02:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Ugh! Just having the thought of having to teach Object-Oriented
-Databases gives me headaches---I haven&#39;t dealt with Databases for
-quite some time and seeing yet another paradigm would just be
-insane.&lt;/p&gt;
+	&lt;p&gt;Some amazing new packages are coming into Debian&#39;s testing
+distribution. What a great time to live using Free Software only.&lt;/p&gt;
 
-&lt;p&gt;Oh, I finally got the chance to (successfully) use
-&lt;a href=&quot;http://fuse.sf.net&quot;&gt;FUSE&lt;/a&gt; and
-&lt;a href=&quot;http://www.kernel.org/&quot;&gt;Andrew Morton&#39;s Linux Tree&lt;/a&gt; so that I
-could finally use
-&lt;a href=&quot;http://richard.jones.name/google-hacks/gmail-filesystem/gmail-filesystem.html&quot;&gt;gmailfs&lt;/a&gt;
-with my &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;
-&lt;a href=&quot;http://www.debian.org/releases/testing/&quot;&gt;testing&lt;/a&gt; system.&lt;/p&gt;
-
-&lt;p&gt;It makes a real mess on your account. So, I would advise you o
-create a dummy account if you intend to use it &quot;seriously&quot; (and
-don&#39;t forget to encrypt what you think is sensitive information).
-But it is a damn nice hack.&lt;/p&gt;
+&lt;p&gt;Somehow, I &quot;bribed&quot; Alexandre to get him to see one of my classes,
+where covered recursion and the Towers of Hanoi Problem. &lt;img src=&quot;http://cynic.cc/blog//tags/life/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt; He
+told me that the class was &quot;unusual&quot;. I have yet to ask him what
+exactly about it was unusual, but it seems that he thought that it
+wasn&#39;t bad. &lt;img src=&quot;http://cynic.cc/blog//tags/life/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
 
 	</content>
 
@@ -268,80 +281,11 @@ But it is a damn nice hack.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2005-06-19</title>
+	<title>2005-12-30</title>
 
-	<id>http://cynic.cc/blog//posts/2005-06-19/</id>
+	<id>http://cynic.cc/blog//posts/2005-12-30/</id>
 
-	<link href="http://cynic.cc/blog//posts/2005-06-19/"/>
-
-
-
-
-
-
-	<category term="free-software" />
-
-	<category term="latex" />
-
-	<category term="life" />
-
-	<category term="linux" />
-
-
-	<updated>2014-06-11T14:07:11Z</updated>
-	<published>2005-06-19T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Feelling extremely bad today. I have an enormous headache. I think
-that I will work a little bit on
-&lt;a href=&quot;http://algorithms.berlios.de/&quot;&gt;algorithms&lt;/a&gt;, but I don&#39;t know if I
-will be able to commit anything today. I can&#39;t really concentrate
-and I don&#39;t want to release something that I am not proud of.&lt;/p&gt;
-
-&lt;p&gt;I have, BTW, been swamped by e-mail. Please, stop the madness! I
-can understand why Donald Knuth quit this 15 years ago. I
-understand that he must be a happier man without Internet annoying
-him (especially since he is such a precious celebrity).&lt;/p&gt;
-
-&lt;p&gt;The funnier thing is that people rarely realize how they are doing
-things backwards today: they are working more for the computer than
-the computer is working for them. They don&#39;t care about things
-being automated, which is one thing where computers shine at.&lt;/p&gt;
-
-&lt;p&gt;In fact, I think that such things are the way they are due to the
-ignorance of the potential of a computer. Indeed, there are tasks
-that a computer can&#39;t embrace (the halting problem, the tiling
-problem etc already told us this), but for other mundane things,
-computers are useful. Just not the way people seem to be using
-them.&lt;/p&gt;
-
-&lt;p&gt;And this, BTW, includes people with high education (like many
-Ph.D.&#39;s that I know): they simply don&#39;t make their life easier. One
-example of this in action: using
-&lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt; is a way of producing
-high-quality documents. But some people that are actually convinced
-that LaTeX is the way to go rarely take the time to use this tool
-in all its usefulness. What a pity!&lt;/p&gt;
-
-&lt;p&gt;Whenever I see people doing wrong things, I tell them a better way.
-&lt;a href=&quot;http://www.ime.usp.br/~lymber/&quot;&gt;Very few&lt;/a&gt; seem to understand that,
-but others don&#39;t.&lt;/p&gt;
-
-&lt;p&gt;In other news, Linus released a new
-&lt;a href=&quot;http://www.kernel.org&quot;&gt;kernel&lt;/a&gt;, 2.6.12.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2005-06-11</title>
-
-	<id>http://cynic.cc/blog//posts/2005-06-11/</id>
-
-	<link href="http://cynic.cc/blog//posts/2005-06-11/"/>
+	<link href="http://cynic.cc/blog//posts/2005-12-30/"/>
 
 
 
@@ -351,16 +295,15 @@ but others don&#39;t.&lt;/p&gt;
 	<category term="life" />
 
 
-	<updated>2014-06-11T14:05:18Z</updated>
-	<published>2005-06-11T03:00:00Z</published>
+	<updated>2015-01-18T00:54:43Z</updated>
+	<published>2005-12-30T02:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;I think that I need a person who can be a confident. I think that I
-need a loyal company. I think that I need a person that can excite
-me. I think that I need a person that can teach me things. I think
-that I need a person to whom I can teach some new things. I think
-that this perfect person would be a girlfriend.&lt;/p&gt;
+	&lt;p&gt;Had a quite pleasant dinner with a friend of mine and his lovely
+wife. It seems that we have countless subjects to talk about and
+that we&#39;ll never run out of things to say... Too bad that the days
+have only 24 hours.&lt;/p&gt;
 
 	</content>
 
@@ -368,46 +311,40 @@ that this perfect person would be a girlfriend.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2005-06-10</title>
+	<title>2005-12-26</title>
 
-	<id>http://cynic.cc/blog//posts/2005-06-10/</id>
+	<id>http://cynic.cc/blog//posts/2005-12-26/</id>
 
-	<link href="http://cynic.cc/blog//posts/2005-06-10/"/>
-
-
+	<link href="http://cynic.cc/blog//posts/2005-12-26/"/>
 
 
 
+
+
+
+	<category term="audio" />
+
+	<category term="dvds" />
 
 	<category term="free-software" />
 
 	<category term="life" />
 
-	<category term="linux" />
+	<category term="video" />
 
 
-	<updated>2014-06-11T14:04:41Z</updated>
-	<published>2005-06-10T03:00:00Z</published>
+	<updated>2015-01-18T00:52:28Z</updated>
+	<published>2005-12-26T02:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;This moment of the year is just hectic. Having to prepare the
-finals is a bad moment, but scoring them is really terrible.&lt;/p&gt;
+	&lt;p&gt;Still encoding the videos. It seems that the work will finally be
+done today!&lt;/p&gt;
 
-&lt;p&gt;Oh, and just as a reminder to myself, to use the subversion tree on
-&lt;a href=&quot;http://developer.berlios.de/&quot;&gt;BerliOS&lt;/a&gt; for
-&lt;a href=&quot;http://algorithms.berlios.de&quot;&gt;my project/algorithms&lt;/a&gt;, I have to
-use:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;export SVN_SSH=&quot;ssh -l myusername&quot;
-svn co svn+ssh://svn.berlios.de/svnroot/repos/algorithms/
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I keep forgetting that.&lt;/p&gt;
-
-&lt;p&gt;Oh, and I am almost complete with the syllabus of the Linux course.
-There is so much that I want to cover that the course will have to
-be broken in modules. Four or five modules, that is.&lt;/p&gt;
+&lt;p&gt;In the mean time, I discovered that
+&lt;a href=&quot;http://arstechnica.com/&quot;&gt;Ars Technica&lt;/a&gt; has some quite interesting
+articles; much better (and more informative than
+&lt;a href=&quot;http://slashdot.org/&quot;&gt;Slashdot&lt;/a&gt;.&lt;/p&gt;
 
 	</content>
 
@@ -415,149 +352,192 @@ be broken in modules. Four or five modules, that is.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2005-06-04</title>
+	<title>2005-12-25</title>
 
-	<id>http://cynic.cc/blog//posts/2005-06-04/</id>
+	<id>http://cynic.cc/blog//posts/2005-12-25/</id>
 
-	<link href="http://cynic.cc/blog//posts/2005-06-04/"/>
-
-
+	<link href="http://cynic.cc/blog//posts/2005-12-25/"/>
 
 
 
+
+
+
+	<category term="audio" />
+
+	<category term="debian" />
+
+	<category term="dvds" />
 
 	<category term="free-software" />
 
-	<category term="hardware" />
+	<category term="life" />
+
+	<category term="video" />
+
+
+	<updated>2015-01-18T00:51:10Z</updated>
+	<published>2005-12-25T02:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Still encoding the videos. Some surprise here, because it seems
+that &lt;a href=&quot;http://packages.debian.org/toolame&quot;&gt;toolame&lt;/a&gt; has some bug
+when encoding audio in some cases. Had to fix some of the MPEGs.&lt;/p&gt;
+
+&lt;p&gt;And while I did that, I took some moments to fix some of the audio
+deficiencies with &lt;a href=&quot;http://packages.debian.org/audacity&quot;&gt;audacity&lt;/a&gt;.
+Too bad that Audacity doesn&#39;t have a Treeble booster filter built
+right into it, but only a generic (and harder to use) Equalization
+filter.&lt;/p&gt;
+
+&lt;p&gt;Oh, and it seems that Christian Marillat has packaged version 1.8.0
+of &lt;a href=&quot;http://mjpeg.sf.net/&quot;&gt;mjpegtools&lt;/a&gt;, while I&#39;m still using
+version 1.6.2. I don&#39;t want to switch right now, for consistency
+purposes with the videos that I already have encoded.&lt;/p&gt;
+
+&lt;p&gt;Oh, yes, still encoding videos. It is quite slow.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-12-24</title>
+
+	<id>http://cynic.cc/blog//posts/2005-12-24/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-12-24/"/>
+
+
+
+
+
+
+	<category term="dvds" />
+
+	<category term="free-software" />
+
+	<category term="life" />
+
+	<category term="video" />
+
+
+	<updated>2015-01-18T00:50:38Z</updated>
+	<published>2005-12-24T02:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;So, we had this Christmas dinner here at home with my mother&#39;s
+grandma, two uncles and an aunt.&lt;/p&gt;
+
+&lt;p&gt;Grandma wanted to see Bram Stoker&#39;s &quot;Dracula&quot;, but she was asleep
+right there in the first few moments...&lt;/p&gt;
+
+&lt;p&gt;Oh, I&#39;m still encoding the MIT videos. This time it seems that
+everything will fit onto exactly one Dual-Layer DVD+R.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-12-23</title>
+
+	<id>http://cynic.cc/blog//posts/2005-12-23/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-12-23/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+
+	<updated>2015-01-18T00:49:34Z</updated>
+	<published>2005-12-23T02:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Went out in a manner that I didn&#39;t before. It was quite nice.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-12-21</title>
+
+	<id>http://cynic.cc/blog//posts/2005-12-21/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-12-21/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="dvds" />
+
+	<category term="free-software" />
 
 	<category term="life" />
 
 	<category term="study" />
 
-
-	<updated>2014-06-11T14:02:14Z</updated>
-	<published>2005-06-04T03:00:00Z</published>
+	<category term="video" />
 
 
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Today I bought some books at Pearson Education. They were not that
-cheap, but I think that some of their content is worth the amount
-spent. During the time I was there, BTW, I met 8 colleagues (at
-least, that I could count). So much for coincidence. &lt;img src=&quot;http://cynic.cc/blog//tags/life/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After that, I went to Santa Ifigênia to get myself an used Duron
-1.3GHz processor (actually, I went there to get conductive ink so
-that I could overclock my Duron 600MHz processor). Unfortunately, I
-can&#39;t make it work with anything higher than 1.1GHz on my
-motherboard (an old classic Asus A7V). Bummer.&lt;/p&gt;
-
-&lt;p&gt;Spent the whole day trying to make my system work as it always did.
-I now suspect that I need some RAM, but I am not forking the cash
-for PC133 modules right now (my budget is now tight).&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2005-05-30</title>
-
-	<id>http://cynic.cc/blog//posts/2005-05-30/</id>
-
-	<link href="http://cynic.cc/blog//posts/2005-05-30/"/>
-
-
-
-
-
-
-	<category term="free-software" />
-
-	<category term="life" />
-
-	<category term="linux" />
-
-	<category term="music" />
-
-
-	<updated>2014-06-11T14:01:07Z</updated>
-	<published>2005-05-30T03:00:00Z</published>
+	<updated>2015-01-18T00:49:19Z</updated>
+	<published>2005-12-21T02:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;I think that I have fallen in love with
-&lt;a href=&quot;http://www.afterforever.com/new/pages/photos/pinkpop04/original/16.JPG&quot;&gt;Floor&lt;/a&gt;
-&lt;a href=&quot;http://www.afterforever.com/new/pages/photos/pinkpop04/original/11.JPG&quot;&gt;Jansen&lt;/a&gt;.
-Or would that be
-&lt;a href=&quot;http://www.within-temptation.com.br/info/integrantes/sharon.htm&quot;&gt;Sharon den Adel&lt;/a&gt;?
-Or would that be Anneke van Giersbergen? Or would that be Liv
-Kristine? Or &lt;a href=&quot;http://www.tarjaturunen.com/&quot;&gt;Tarja Turunen&lt;/a&gt;? I
-sincerely don&#39;t know.&lt;/p&gt;
+	&lt;p&gt;So, I have finally gotten some free time for my own projects! Wow!
+It was a quite hectic semester this one. Fortunately, it&#39;s over
+now.&lt;/p&gt;
 
-&lt;p&gt;In other news, the floppy drive of my Desktop has decided to be
-deceased, unfortunately. I &quot;fixed&quot; the problem by cannibalizing my
-old 486 and getting its floopy drive to serve as a substitute.
-Worked like a charm! It is a pain to have to open both machines and
-to get the hands dirty, but at least, it seems that I am not a
-Computer Scientist that doesn&#39;t even know how to fix his own
-boxes.&lt;/p&gt;
+&lt;p&gt;As previously hinted, I have now started (&lt;em&gt;slowly&lt;/em&gt;) learling
+German, thanks to &lt;a href=&quot;http://www.dw-world.de/&quot;&gt;Deutsche Welle&lt;/a&gt; (and to
+a hint given by student of mine; thanks Victor).&lt;/p&gt;
 
-&lt;p&gt;Oh, I wrote a little bit more regarding the Linux course that I
-will teach at my local University. The program is getting huge and
-I will probably be covering things that are not very well
-documented (yes, I&#39;ll have to study such topics), but it will be
-rewarding for the students (and among such &quot;students&quot; of mine I
-will have many co-workers!).&lt;/p&gt;
+&lt;p&gt;Changing the subject completely, creating DVDs under Linux is
+really, really simple, given the proper tools. Right now, I&#39;m using
+the following (quite simple) script to generate the material that
+is later processed by &lt;a href=&quot;http://dvdauthor.sf.net/&quot;&gt;dvdauthor&lt;/a&gt;:&lt;/p&gt;
 
-&lt;p&gt;My plan is to make such a course be sufficient for certification
-purposes of those that will be taking it. Of course, with a twist
-and a high dose of Unix philosophy (which is good anyway, for
-everybody).&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#!/bin/sh
 
-&lt;p&gt;Oh, and Debian never ceases to amaze me! I have just discovered a
-very handy packaged called
-&lt;a href=&quot;http://packages.debian.org/freepops&quot;&gt;freepops&lt;/a&gt; that lets me
-download my mail from my old account at
-&lt;a href=&quot;http://www.mail.com/&quot;&gt;mail.com&lt;/a&gt; via pop3. Quite nice to be able to
-use that address again. And also as a bonus, it also acts as a
-front-end for &lt;a href=&quot;http://mail.yahoo.com/&quot;&gt;mail.yahoo.com&lt;/a&gt;, which means
-that I am again able to read my mail there (again via pop3). So
-nice that I can&#39;t even describe how happy I am.&lt;/p&gt;
+# Chamada: &amp;lt;video_in&amp;gt; &amp;lt;video_out&amp;gt;
+#
 
-	</content>
+# video encoding
+[ -e stream.yuv ] || mkfifo stream.yuv
+mplayer -noframedrop -vo yuv4mpeg -ao pcm &amp;#036;1 &amp;amp;
 
+yuvdenoise -v 0 -r 16 -l 4 &amp;lt; stream.yuv | \
+    yuvscaler -v 0 -n n -M BICUBIC -O VCD | \
+    mpeg2enc -v 0 -f 8 -b 6000 -K kvcd -g 6 -G 18 -N 1.0 -V 500 -n n -F 4 -a 2 -q 2 -4 1 -2 1 -D 10 -B 160 -o &amp;#036;2.mpv
 
+# audio encoding
+toolame -t 2 -b 160 -v -5 audiodump.wav &amp;#036;2.mpa
 
-</entry>
-<entry>
-	<title>2005-05-27</title>
+# multiplexing
+mplex -o !!mathjaxbegin-i!! Mi5tcGcgLWYgOCAtViA=
+&lt;/code&gt;&lt;/pre&gt;
 
-	<id>http://cynic.cc/blog//posts/2005-05-27/</id>
+&lt;p&gt;!!mathjaxend-i!!2.mpv $2.mpa&lt;/p&gt;
 
-	<link href="http://cynic.cc/blog//posts/2005-05-27/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="life" />
-
-
-	<updated>2014-06-11T13:57:22Z</updated>
-	<published>2005-05-27T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Went to the physician to see if I needed new glasses. Even her was
-surprised when she saw the results of the tests: I will have to be
-subject to more tests as what she saw wan&#39;t sufficient for a
-decision: my right eye&#39;s retina may have some damage. I don&#39;t
-know if I am happy about this result or not, but it finally seems
-to be on track of being diagnosed.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# clean-up
+rm -f audiodump.wav *.mpv *.mpa stream.yuv
+&lt;/code&gt;&lt;/pre&gt;
 
 	</content>
 

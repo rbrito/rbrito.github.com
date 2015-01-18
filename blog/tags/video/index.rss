@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 03 Mar 2014 01:43:11 -0300</pubDate>
+<pubDate>Sat, 17 Jan 2015 22:54:23 -0200</pubDate>
 <item>
 	<title>Paco de Lucia</title>
 
@@ -402,103 +402,177 @@ aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
 
 </item>
 <item>
-	<title>2002-03-29</title>
+	<title>2005-12-28</title>
 
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-03-29/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-28/</guid>
 
-	<link>http://cynic.cc/blog//posts/2002-03-29/</link>
-
-
-
-	<category>free-software</category>
-
-	<category>harware</category>
-
-	<category>life</category>
-
-	<category>linux</category>
-
-	<category>powerpc</category>
-
-	<category>python</category>
-
-	<category>sadness</category>
-
-	<category>video</category>
-
-
-	<pubDate>Fri, 29 Mar 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-09-22T21:41:34Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Today, I could sleep better, at least.&lt;/p&gt;
-
-&lt;p&gt;Also read a tiny little bit about
-&lt;a href=&quot;http://www.docbook.org/&quot;&gt;DocBook&lt;/a&gt;. Some things still aren&#39;t clear
-on my mind regarding SGML and DocBook, though.&lt;/p&gt;
-
-&lt;p&gt;It was nice to have &lt;a href=&quot;http://avifile.sf.net/&quot;&gt;avifile&lt;/a&gt; enter woody,
-which means that now I can use it on PPC.&lt;/p&gt;
-
-&lt;p&gt;The bad news of the day is that
-&lt;a href=&quot;http://www.iname.com/&quot;&gt;Iname/Mail.com&lt;/a&gt; will not be forwarding
-mails, starting early next month. &lt;a href=&quot;http://mail.yahoo.com/&quot;&gt;Yahoo!&lt;/a&gt;
-is joining them, which means that I&#39;ll have to seriously consider
-using my &lt;a href=&quot;http://www.mac.com&quot;&gt;Mac.com&lt;/a&gt; addresses for POP3/IMAP.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.python.org/&quot;&gt;Which&lt;/a&gt; &lt;a href=&quot;http://www.perl.com/&quot;&gt;programming&lt;/a&gt;
-&lt;a href=&quot;http://java.sun.com/&quot;&gt;language&lt;/a&gt;
-&lt;a href=&quot;http://www.objective-c.org/&quot;&gt;should&lt;/a&gt; I learn? To be sincere, I
-don&#39;t know. I&#39;m under the impression that the combo
-&lt;a href=&quot;http://www.python.org/&quot;&gt;Python&lt;/a&gt;/&lt;a href=&quot;http://www.jython.org/&quot;&gt;Jython&lt;/a&gt;
-is what offers me the greatest effort/satisfaction ratio, for many
-different values of satisfaction.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-03-17</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-03-17/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-03-17/</link>
+	<link>http://cynic.cc/blog//posts/2005-12-28/</link>
 
 
 
 	<category>debian</category>
 
+	<category>dvds</category>
+
 	<category>free-software</category>
-
-	<category>hardware</category>
-
-	<category>ibook</category>
-
-	<category>linux</category>
-
-	<category>mac</category>
-
-	<category>powerpc</category>
 
 	<category>video</category>
 
 
-	<pubDate>Sun, 17 Mar 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-09-22T21:41:34Z</dcterms:modified>
+	<pubDate>Wed, 28 Dec 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:54:23Z</dcterms:modified>
 
 
-	<description>&lt;p&gt;Got &lt;a href=&quot;http://mplayer.sf.net/&quot;&gt;mplayer&lt;/a&gt; working well in PowerPC (G3,
-600MHz), with the new &lt;a href=&quot;http://ffmpeg.sf.net/&quot;&gt;ffmpeg&lt;/a&gt;. I had to use
--ao sdl to get it working. The video wasn&#39;t as smooth as with -ao
-null, but it was OK, at least. I am under the impression that using
--vo sdl:x11 is better than using -vo x11, at least with the Rage
-Mobility 128. BTW, it was also possible to play DivX 5 movies with
-this setup (the new Star Wars clip).&lt;/p&gt;
+	<description>&lt;p&gt;And creating a DVD with menus is not the easiest thing to do. It is
+actually quite a lot of (boring) work.&lt;/p&gt;
+</description>
 
-&lt;p&gt;The USB keyboard and USB mouse work fine under Linux. It was just a
-simple matter of recompiling the &lt;a href=&quot;http://www.kernel.org/&quot;&gt;kernel&lt;/a&gt;
-with USB HID support enabled (in my case, as modules). They also
-work fine with &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;&lt;/p&gt;
+
+</item>
+<item>
+	<title>2005-12-27</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-27/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-12-27/</link>
+
+
+
+	<category>debian</category>
+
+	<category>dvds</category>
+
+	<category>free-software</category>
+
+	<category>study</category>
+
+	<category>video</category>
+
+
+	<pubDate>Tue, 27 Dec 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:53:42Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Finished encoding the videos! Phew! It was a long wait.&lt;/p&gt;
+
+&lt;p&gt;BTW, I have some videos of lectures about &lt;em&gt;Design Patterns&lt;/em&gt; and
+&lt;em&gt;Refactoring&lt;/em&gt; by Joseph Yoder (when he was here in Brazil, in 2003)
+and I&#39;m going to make a new DVD. With circa 8h in a DVD5.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-12-26</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-26/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-12-26/</link>
+
+
+
+	<category>audio</category>
+
+	<category>dvds</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>video</category>
+
+
+	<pubDate>Mon, 26 Dec 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:52:28Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Still encoding the videos. It seems that the work will finally be
+done today!&lt;/p&gt;
+
+&lt;p&gt;In the mean time, I discovered that
+&lt;a href=&quot;http://arstechnica.com/&quot;&gt;Ars Technica&lt;/a&gt; has some quite interesting
+articles; much better (and more informative than
+&lt;a href=&quot;http://slashdot.org/&quot;&gt;Slashdot&lt;/a&gt;.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-12-25</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-25/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-12-25/</link>
+
+
+
+	<category>audio</category>
+
+	<category>debian</category>
+
+	<category>dvds</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>video</category>
+
+
+	<pubDate>Sun, 25 Dec 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:51:10Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Still encoding the videos. Some surprise here, because it seems
+that &lt;a href=&quot;http://packages.debian.org/toolame&quot;&gt;toolame&lt;/a&gt; has some bug
+when encoding audio in some cases. Had to fix some of the MPEGs.&lt;/p&gt;
+
+&lt;p&gt;And while I did that, I took some moments to fix some of the audio
+deficiencies with &lt;a href=&quot;http://packages.debian.org/audacity&quot;&gt;audacity&lt;/a&gt;.
+Too bad that Audacity doesn&#39;t have a Treeble booster filter built
+right into it, but only a generic (and harder to use) Equalization
+filter.&lt;/p&gt;
+
+&lt;p&gt;Oh, and it seems that Christian Marillat has packaged version 1.8.0
+of &lt;a href=&quot;http://mjpeg.sf.net/&quot;&gt;mjpegtools&lt;/a&gt;, while I&#39;m still using
+version 1.6.2. I don&#39;t want to switch right now, for consistency
+purposes with the videos that I already have encoded.&lt;/p&gt;
+
+&lt;p&gt;Oh, yes, still encoding videos. It is quite slow.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-12-24</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-24/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-12-24/</link>
+
+
+
+	<category>dvds</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>video</category>
+
+
+	<pubDate>Sat, 24 Dec 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:50:38Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;So, we had this Christmas dinner here at home with my mother&#39;s
+grandma, two uncles and an aunt.&lt;/p&gt;
+
+&lt;p&gt;Grandma wanted to see Bram Stoker&#39;s &quot;Dracula&quot;, but she was asleep
+right there in the first few moments...&lt;/p&gt;
+
+&lt;p&gt;Oh, I&#39;m still encoding the MIT videos. This time it seems that
+everything will fit onto exactly one Dual-Layer DVD+R.&lt;/p&gt;
 </description>
 
 

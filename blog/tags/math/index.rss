@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Wed, 26 Feb 2014 00:11:47 -0300</pubDate>
+<pubDate>Sat, 17 Jan 2015 22:37:10 -0200</pubDate>
 <item>
 	<title>Trivial fact #3: Continued fractions via matrices</title>
 
@@ -455,6 +455,37 @@ is enough for me).&lt;/p&gt;
 
 </item>
 <item>
+	<title>2005-07-28</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-07-28/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-07-28/</link>
+
+
+
+	<category>math</category>
+
+	<category>study</category>
+
+
+	<pubDate>Thu, 28 Jul 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2015-01-18T00:37:10Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Just finished reading neat and combinatorial proofs of &quot;Fermat&#39;s
+Little Theorem&quot; and &quot;Wilson&#39;s Theorem&quot; (although only in one
+direction) in George E. Andrews&#39;s &quot;Number Theory&quot; book from
+&lt;a href=&quot;http://www.doverpublications.com&quot;&gt;Dover&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;While this seems to be an elementary book on Number Theory (it
+covers just the basics---which I have been trying to learn for some
+time now) it is also &lt;em&gt;quite&lt;/em&gt; well-written. Perhaps some writers of
+computer books could learn a thing or two with Mathematicians.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2000-10-26</title>
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-26/</guid>
@@ -543,35 +574,6 @@ down and write a complete, detailed a proof. I wish I had time.&lt;/p&gt;
 
 	<description>&lt;p&gt;Whew! One of the longest homeworks that I&#39;ve ever had was finished
 today. Programmning Turing Machines takes time.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2000-10-16</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-16/</guid>
-
-	<link>http://cynic.cc/blog//posts/2000-10-16/</link>
-
-
-
-	<category>math</category>
-
-	<category>study</category>
-
-
-	<pubDate>Mon, 16 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;After a lot of time doing this Combinatorial Optimization homework,
-I found out that a lot of my colleagues didn&#39;t even bother to prove
-that their algorithms worked, while I&#39;ve spent a lot of time
-finding algorithm invariants and proving that they were actually
-maintained from interation to iteration. This is the Right
-Thing(tm) to do, but it also takes a lot of time. What should I do
-next time?&lt;/p&gt;
 </description>
 
 

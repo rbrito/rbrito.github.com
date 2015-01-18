@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Wed, 11 Jun 2014 10:58:42 -0300</pubDate>
+<pubDate>Sat, 17 Jan 2015 22:43:16 -0200</pubDate>
 <item>
 	<title>A Wish: The Ability of Playing MP3 CDs/DVDs created by iTunes with Free Software</title>
 
@@ -260,6 +260,70 @@ can be devised soon.&lt;/p&gt;
 
 &lt;p&gt;So, let&#39;s fire those wget&#39;s and start to study things (or prozilla&#39;s,
 aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-10-19</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-10-19/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-10-19/</link>
+
+
+
+	<category>apple</category>
+
+	<category>life</category>
+
+	<category>powerpc</category>
+
+	<category>teaching</category>
+
+	<category>work</category>
+
+
+	<pubDate>Wed, 19 Oct 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:43:16Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Ok, so, I am almost giving up the hectic mess in which work has
+turned to... I need to take a serious time resting a little bit.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m so tired and people are so demanding of me and of my creativity
+that its hard to even take some time with pleasant things. For
+instance, in the little time that I have to sleep, I don&#39;t have the
+motivation to study the neat things that I always wanted to.&lt;/p&gt;
+
+&lt;p&gt;I guess that this means that I&#39;m overworked, without any shadow of
+doubt. Being sleepy while at work has never been a common thing for
+me, even when I was in the tiring days of my M.Sc. studies.&lt;/p&gt;
+
+&lt;p&gt;In fact, in those days, I thought that I was progressing (and it&#39;s
+hard not to feel you&#39;re progressing when you&#39;re being pushed to
+your limits), but now, with little time for intellectual
+challenges, I see little point in keeping up with the work I&#39;m
+doing.&lt;/p&gt;
+
+&lt;p&gt;It&#39;s not particularly exciting to be teaching how to write a for
+for the 20th time in less than two years. I guess that if the
+concept of iteration doesn&#39;t enter one&#39;s brain as soon as it is
+told, then all is hopeless.&lt;/p&gt;
+
+&lt;p&gt;I guess that I need a significant other to make everything bright
+(even those less-than-perfect moments). Someone that truly
+understands what I mean, what my ideals are, what my values are and
+how I see the world.&lt;/p&gt;
+
+&lt;p&gt;And, yes, I am willing to even change some things of me. But please
+don&#39;t disillusion me. In some sense, I&#39;m fragile. Even more than
+most people think that I am. Despite the tough cover that I may
+have, lies a friendly person. Truly.&lt;/p&gt;
+
+&lt;p&gt;In other news, &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; has released a bunch
+of new stuff, with the highlight (for me, at least), being the new
+&lt;a href=&quot;http://www.apple.com/powerbook/&quot;&gt;PowerBook&lt;/a&gt;s.&lt;/p&gt;
 </description>
 
 
@@ -615,83 +679,6 @@ for the XVideo extension.&lt;/p&gt;
 
 &lt;p&gt;Also used the client-side of NFS and SMB on MacOS X, which is quite
 easy to use.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2002-07-06</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2002-07-06/</guid>
-
-	<link>http://cynic.cc/blog//posts/2002-07-06/</link>
-
-
-
-	<category>apple</category>
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>hacks</category>
-
-	<category>hardware</category>
-
-	<category>life</category>
-
-	<category>macosx</category>
-
-	<category>powerpc</category>
-
-
-	<pubDate>Sat, 06 Jul 2002 00:00:00 -0300</pubDate>
-	<dcterms:modified>2013-10-11T06:33:23Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Took the day to see how things regarding the old PowerMac
-9500/180MP were with a
-&lt;a href=&quot;http://people.debian.org/~branden/&quot;&gt;newer XFree86&lt;/a&gt;. Apparently,
-&lt;a href=&quot;http://www.xfree86.org/&quot;&gt;XFree86 4.2&lt;/a&gt; doesn&#39;t support the XVideo
-extension for the &lt;code&gt;imst&lt;/code&gt;t adapter, which is quite a pity.&lt;/p&gt;
-
-&lt;p&gt;What this means is that I am not able to use
-&lt;a href=&quot;http://xine.sf.net/&quot;&gt;Xine&lt;/a&gt; or &lt;a href=&quot;http://www.mplayerhq.hu/&quot;&gt;Mplayer&lt;/a&gt;
-to efficiently play videos on this computer.&lt;/p&gt;
-
-&lt;p&gt;I can see some things that make this computer slow:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It has a modest amount of RAM for today&#39;s standards (64MB,
-which is particularly little for PowerPC);&lt;/li&gt;
-&lt;li&gt;I don&#39;t know if it&#39;s RAM chips are in an interleaved
-configuration or not;&lt;/li&gt;
-&lt;li&gt;If it had a faster/better supported video card (say, like a
-&lt;a href=&quot;http://www.ati.com/&quot;&gt;ATI&lt;/a&gt; Mach64), things would perhaps be better,
-but this is just a guess. I don&#39;t know if the Mach64 sports XVideo
-support under PowerPC, but perhaps the
-&lt;a href=&quot;http://gatos.sf.net/&quot;&gt;Gatos&lt;/a&gt; project might help here;&lt;/li&gt;
-&lt;li&gt;I have no idea why this computer, while having a SCSI interface
-and drive, is so slow while it is using the disk. I see two things:
-it freezes most things the user (that&#39;s me!) whenever it is writing
-(reading?) anything to (from?) the disk and the transfer speeds are
-quite sloooow. I wonder if this is a problem of the Linux SCSI
-infra-structure, if it is a problem of the hardware or if it is a
-problem of configuration. It probably isn&#39;t a problem with Linux,
-since I also see the slowness with &lt;a href=&quot;http://www.apple.com/&quot;&gt;MacOS&lt;/a&gt;
-Classic (8).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Anyway, just for fun, I tried to install
-&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X 10.1&lt;/a&gt; on this old computer.
-The catch is that MacOS X can&#39;t be installed on anything this old.
-Well, at least, that&#39;s what Apple says. I had to grab a copy of
-MacOS 9 (in German!) just to bootstrap the system. Then, using
-&lt;a href=&quot;http://eshop.macsales.com/OSXCenter/XPostFacto/&quot;&gt;XPostFacto&lt;/a&gt;, the
-installation was quite smooth (and slow). But with one gotcha at
-the first reboot: a kernel panic.&lt;/p&gt;
-
-&lt;p&gt;After that, I went to sleep.&lt;/p&gt;
 </description>
 
 

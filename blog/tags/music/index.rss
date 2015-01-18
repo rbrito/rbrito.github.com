@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Wed, 11 Jun 2014 11:01:07 -0300</pubDate>
+<pubDate>Sat, 17 Jan 2015 22:39:41 -0200</pubDate>
 <item>
 	<title>Paco de Lucia</title>
 
@@ -531,6 +531,96 @@ it is an amazing piece of music. Recommended for all fans of good music.&lt;/p&g
 
 </item>
 <item>
+	<title>2005-07-31</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-07-31/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-07-31/</link>
+
+
+
+	<category>debian</category>
+
+	<category>dvds</category>
+
+	<category>free-software</category>
+
+	<category>music</category>
+
+	<category>video</category>
+
+
+	<pubDate>Sun, 31 Jul 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2015-01-18T00:39:41Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Had this &quot;strange&quot; idea of turning two DivX 16:9 videos from Rock
+Am Ring 2005 (Apocalyptica&#39;s and Within Temptation&#39;s performances)
+into a DVD. This is so easy to do with
+&lt;a href=&quot;http://packages.debian.org/dvdauthor&quot;&gt;dvdauthor&lt;/a&gt;: you just fill an
+XML file and there you go.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-07-30</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-07-30/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-07-30/</link>
+
+
+
+	<category>music</category>
+
+
+	<pubDate>Sat, 30 Jul 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2015-01-18T00:38:36Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Just found a souce for Bach&#39;s Harpsichords Concertos. Amazing
+pieces of music. How I love the sound of the Barroque period.
+Period.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-07-25</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-07-25/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-07-25/</link>
+
+
+
+	<category>life</category>
+
+	<category>music</category>
+
+	<category>opeth</category>
+
+
+	<pubDate>Mon, 25 Jul 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2015-01-18T00:33:38Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;I went to the physician today again to see how far I progressed. It
+seems that I am going well all, within the expected, and that I
+will be back in shape in two months. Nice to know that.&lt;/p&gt;
+
+&lt;p&gt;Also had the opportunity to listen to the newest
+&lt;a href=&quot;http://www.opeth.com/&quot;&gt;Opeth&lt;/a&gt; album, &lt;em&gt;Ghost Reveries&lt;/em&gt; quite a bit
+earlier than its official release date (30th of August), according
+to
+&lt;a href=&quot;http://www.roadrunnerrecords.com/blabbermouth.net/news.aspx?mode=Article&amp;amp;newsitemID=39014&quot;&gt;Blabbermouth&lt;/a&gt;.
+Sweet!&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2005-05-30</title>
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-05-30/</guid>
@@ -590,130 +680,6 @@ use that address again. And also as a bonus, it also acts as a
 front-end for &lt;a href=&quot;http://mail.yahoo.com/&quot;&gt;mail.yahoo.com&lt;/a&gt;, which means
 that I am again able to read my mail there (again via pop3). So
 nice that I can&#39;t even describe how happy I am.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2005-04-03</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-04-03/</guid>
-
-	<link>http://cynic.cc/blog//posts/2005-04-03/</link>
-
-
-
-	<category>life</category>
-
-	<category>music</category>
-
-	<category>opeth</category>
-
-
-	<pubDate>Sun, 03 Apr 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Woohoo! Finally, I finished the &lt;a href=&quot;http://www.opeth.com/&quot;&gt;Opeth&lt;/a&gt;
-bootleg from 2004-02-27. The setlist is absolutely amazing! Beyond
-believable!&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2005-03-27</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-03-27/</guid>
-
-	<link>http://cynic.cc/blog//posts/2005-03-27/</link>
-
-
-
-	<category>life</category>
-
-	<category>music</category>
-
-
-	<pubDate>Sun, 27 Mar 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-06-11T13:53:17Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Happy Easter for those who celebrate it! And it&#39;s all about
-chocolate eggs. I love that (even though I have been limiting my
-consumption of chocolate to a manageable minimum).&lt;/p&gt;
-
-&lt;p&gt;And I should say (once more) that I hate preparing tests. But one
-thing that I hate more than preparing tests is scoring them,
-especially when students make some confusing solutions that
-&lt;em&gt;partially&lt;/em&gt; solve the problem, but takes you almost an hour to
-notice that! And that&#39;s just for one question...&lt;/p&gt;
-
-&lt;p&gt;Downloading huge quantities of new material, thanks to
-&lt;a href=&quot;http://www.easytree.org/&quot;&gt;easytree.org&#39;s torrents&lt;/a&gt;. Many
-&lt;a href=&quot;http://www.opeth.com/&quot;&gt;Opeth&lt;/a&gt; and
-&lt;a href=&quot;http://www.porcupinetree.com/&quot;&gt;Porcupine Tree&lt;/a&gt; bootlegs, including
-videos. Oh, and some old-school Metallica. I&#39;m also seeding many
-torrents (right now, five).&lt;/p&gt;
-
-&lt;p&gt;Well, since &lt;a href=&quot;http://news.individual.net/&quot;&gt;news.individual.net&lt;/a&gt; is
-going to be paid starting from April 1st, I was checking if my
-damned &lt;a href=&quot;http://www.uol.com.br/&quot;&gt;ISP&lt;/a&gt; provides news. That&#39;s not
-because I don&#39;t want to pay news.individual.net, but rather because
-I felt that I shouldn&#39;t be using an external news server, since I
-am already paying for Internet access and, IMNSHO, Usenet is one of
-the basic services that every provider has to provide.&lt;/p&gt;
-
-&lt;p&gt;Well, I am sincerely considering going to sign up with
-&lt;a href=&quot;http://www.terra.com.br/&quot;&gt;their competitor&lt;/a&gt;, which has a huge
-amount of groups in their service, including those that I want to
-read (i.e., &lt;a href=&quot;news:comp.theory&quot;&gt;comp.theory&lt;/a&gt;,
-&lt;a href=&quot;news:comp.text.tex&quot;&gt;comp.text.tex&lt;/a&gt;, &lt;a href=&quot;news:comp.emacs&quot;&gt;comp.emacs&lt;/a&gt;,
-and &lt;a href=&quot;news:sci.math&quot;&gt;sci.math&lt;/a&gt;).&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2005-03-26</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-03-26/</guid>
-
-	<link>http://cynic.cc/blog//posts/2005-03-26/</link>
-
-
-
-	<category>apple</category>
-
-	<category>life</category>
-
-	<category>movies</category>
-
-	<category>music</category>
-
-
-	<pubDate>Sat, 26 Mar 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Had the pleasant experience of watching &quot;Constantine&quot;. The
-comparisons with &quot;The Exorcist&quot; are obvious here, even though this
-one is a nice movie. BTW, it seems that after the Matrix series,
-Keanu Reeves is doomed to Sci-Fi movies with lots of special
-effects. It&#39;s not a bad thing, nor a good thing. Just an
-observation.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Trivia:&lt;/em&gt; It was a pleasant surprise to see (humm, hear actually)
-that David Brubeck&#39;s Quarted &quot;Take Five&quot; was on the soundtrack. Oh,
-and they insist on putting a
-&lt;a href=&quot;http://www.apple.com/powerbook/&quot;&gt;PowerBook&lt;/a&gt; on the movie. That is
-simply tempting. This is not the first movie that I see where
-something made by &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; appears on the big
-screen.&lt;/p&gt;
-
-&lt;p&gt;Of course, going to the supermarket after the movie was also quite
-nice, if you know what I mean. And the pleasant company was also
-highly appreciated. It couldn&#39;t be much better that this (really).&lt;/p&gt;
 </description>
 
 

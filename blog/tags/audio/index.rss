@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Thu, 06 Jun 2013 18:23:31 -0300</pubDate>
+<pubDate>Sat, 17 Jan 2015 22:52:28 -0200</pubDate>
 <item>
 	<title>Preliminary support for webm in youtube-dl</title>
 
@@ -46,6 +46,87 @@
 &lt;p&gt;Well, it seems to be time to shape up that local build of mine of the &lt;a href=&quot;http://www.geocities.jp/aoyoume/aotuv/&quot;&gt;aotuv&lt;/a&gt; tuned version of Vorbis with &lt;a href=&quot;http://www.geocities.jp/aoyoume/&quot;&gt;Aoyumi&lt;/a&gt;&#39;s patches for libvorbis.&lt;/p&gt;
 
 &lt;p&gt;Exciting times in the multimedia world.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-12-26</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-26/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-12-26/</link>
+
+
+
+	<category>audio</category>
+
+	<category>dvds</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>video</category>
+
+
+	<pubDate>Mon, 26 Dec 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:52:28Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Still encoding the videos. It seems that the work will finally be
+done today!&lt;/p&gt;
+
+&lt;p&gt;In the mean time, I discovered that
+&lt;a href=&quot;http://arstechnica.com/&quot;&gt;Ars Technica&lt;/a&gt; has some quite interesting
+articles; much better (and more informative than
+&lt;a href=&quot;http://slashdot.org/&quot;&gt;Slashdot&lt;/a&gt;.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-12-25</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-25/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-12-25/</link>
+
+
+
+	<category>audio</category>
+
+	<category>debian</category>
+
+	<category>dvds</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>video</category>
+
+
+	<pubDate>Sun, 25 Dec 2005 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-01-18T00:51:10Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Still encoding the videos. Some surprise here, because it seems
+that &lt;a href=&quot;http://packages.debian.org/toolame&quot;&gt;toolame&lt;/a&gt; has some bug
+when encoding audio in some cases. Had to fix some of the MPEGs.&lt;/p&gt;
+
+&lt;p&gt;And while I did that, I took some moments to fix some of the audio
+deficiencies with &lt;a href=&quot;http://packages.debian.org/audacity&quot;&gt;audacity&lt;/a&gt;.
+Too bad that Audacity doesn&#39;t have a Treeble booster filter built
+right into it, but only a generic (and harder to use) Equalization
+filter.&lt;/p&gt;
+
+&lt;p&gt;Oh, and it seems that Christian Marillat has packaged version 1.8.0
+of &lt;a href=&quot;http://mjpeg.sf.net/&quot;&gt;mjpegtools&lt;/a&gt;, while I&#39;m still using
+version 1.6.2. I don&#39;t want to switch right now, for consistency
+purposes with the videos that I already have encoded.&lt;/p&gt;
+
+&lt;p&gt;Oh, yes, still encoding videos. It is quite slow.&lt;/p&gt;
 </description>
 
 

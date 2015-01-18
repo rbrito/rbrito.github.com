@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-03-03T05:35:23Z</updated>
+<updated>2015-01-18T00:32:58Z</updated>
 <entry>
 	<title>More completed MOOCs</title>
 
@@ -198,6 +198,155 @@ Eclipse&#39;s &quot;Run &gt; Run Configurations... &gt; Target &gt; Additional E
 Command Line Options&quot;.&lt;/p&gt;
 
 &lt;p&gt;After that, you are probably good to go.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-07-23</title>
+
+	<id>http://cynic.cc/blog//posts/2005-07-23/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-07-23/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="java" />
+
+
+	<updated>2015-01-18T00:32:58Z</updated>
+	<published>2005-07-23T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Oh, I forgot to say: the multithreaded applications work quite well
+with the Free Java implementations available in
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.debian.org/releases/testing&quot;&gt;testing&lt;/a&gt; distribution.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-07-22</title>
+
+	<id>http://cynic.cc/blog//posts/2005-07-22/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-07-22/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="java" />
+
+	<category term="life" />
+
+
+	<updated>2015-01-18T00:32:16Z</updated>
+	<published>2005-07-22T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Mom&#39;s birthday. And a nice opportunity to see some relatives here.
+Quite nice to have all them together. And it wasn&#39;t free of
+surprising things. Something that once would be attached to geeks
+was actually the subject of conversations for a moment: the use of
+Internet.&lt;/p&gt;
+
+&lt;p&gt;In some sense, I feel that being the pioneer of the family to have
+used Internet was interesting. But, then, motivated by the recent
+surgery that I &quot;survived&quot;, made me see things in a quite different
+fashion: using the Internet and computers like there&#39;s no tomorrow
+is a pure waste of time.&lt;/p&gt;
+
+&lt;p&gt;I think that the Internet is slowly turning into the new TV. There
+are obvious differences, because you are in command of (some)
+things, but, to be honest, I am not exactly sure that people are
+that much in control as they think that they are.&lt;/p&gt;
+
+&lt;p&gt;In other news, I have started playing with Java&#39;s multithreaded
+abilities. A nice way to play with them, but the book that I have
+here requires a lot of patience on my part: it is a translation of
+&quot;The Java Programming Language&quot;, 1st edition. The catch is that the
+stupid person that tranlated it also translated &lt;em&gt;commands&lt;/em&gt; of the
+language and names of classes! Is this a contest of foolness or
+what?&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2005-06-28</title>
+
+	<id>http://cynic.cc/blog//posts/2005-06-28/</id>
+
+	<link href="http://cynic.cc/blog//posts/2005-06-28/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="java" />
+
+	<category term="life" />
+
+	<category term="linux" />
+
+	<category term="study" />
+
+
+	<updated>2015-01-18T00:30:31Z</updated>
+	<published>2005-06-28T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I have discovered that while Linus&#39; 2.6.12 kernel seems OK with my
+IDE HD in the Firewire enclosure, both of Andrew Morton&#39;s &lt;code&gt;-mm1&lt;/code&gt; and
+&lt;code&gt;-mm2&lt;/code&gt; trees are broken regarding the device. I posted to the lkml
+and got some nice responses. That&#39;s one of the reasons why Open
+Source Software is good: you can actually get in touch with people
+responsible for fixing things without &quot;the middle man&quot;.&lt;/p&gt;
+
+&lt;p&gt;Have been chaotically reading about &lt;a href=&quot;http://java.sun.com/&quot;&gt;Java&lt;/a&gt;,
+since I am excited by all the progress that the
+&lt;a href=&quot;http://www.kaffe.org/&quot;&gt;Free&lt;/a&gt; &lt;a href=&quot;http://www.sablevm.org/&quot;&gt;Software&lt;/a&gt;
+&lt;a href=&quot;http://gcc.gnu.org/java/&quot;&gt;Implementations&lt;/a&gt;
+&lt;a href=&quot;http://jikes.sf.net/&quot;&gt;of&lt;/a&gt; Java have shown recently. It seems that
+the major milestone now is to improve the
+&lt;a href=&quot;http://www.gnu.org/&quot;&gt;GNU&lt;/a&gt;
+&lt;a href=&quot;http://www.gnu.org/software/classpath/&quot;&gt;Classpath&lt;/a&gt; project. Every
+other JVM would benefit from a bigger implementation of the Java
+API from GNU Classpath, if I understand things correctly.&lt;/p&gt;
+
+&lt;p&gt;When I said that I was chaotically reading about Java, I meant the
+first edition of James Gosling&#39;s book (that&#39;s the only one that I
+have here). Unfortunately, the translation that I have is &lt;em&gt;so&lt;/em&gt; full
+of &lt;strong&gt;atrocious&lt;/strong&gt; errors that it is a disservice to an otherwise
+fine book (even if somewhat outdated).&lt;/p&gt;
+
+&lt;p&gt;Oh, and by chaotically reading things, I also meant reading about
+how &lt;a href=&quot;http://subversion.tigris.org/&quot;&gt;Subversion&lt;/a&gt; 1.1 works, so that
+I can better manage &lt;a href=&quot;http://algorithms.berlios.de/&quot;&gt;algorithms&lt;/a&gt;.&lt;/p&gt;
 
 	</content>
 

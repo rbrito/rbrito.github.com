@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Wed, 19 Feb 2014 02:52:57 -0300</pubDate>
+<pubDate>Sat, 17 Jan 2015 22:36:20 -0200</pubDate>
 <item>
 	<title>Working with CVS via Git</title>
 
@@ -103,6 +103,43 @@ cvs update
 
 &lt;p&gt;Of course, I would prefer a simpler, leaner workflow. If you happen to have
 one, please let me know.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2005-07-27</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-07-27/</guid>
+
+	<link>http://cynic.cc/blog//posts/2005-07-27/</link>
+
+
+
+	<category>cvs</category>
+
+	<category>free-software</category>
+
+	<category>lame</category>
+
+	<category>latex</category>
+
+
+	<pubDate>Wed, 27 Jul 2005 00:00:00 -0300</pubDate>
+	<dcterms:modified>2015-01-18T00:36:20Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Made some commits to the CVS version of
+&lt;a href=&quot;http://sf.net/projects/lame&quot;&gt;lame&lt;/a&gt;, since version 3.97 is expected
+to have its status upgraded from alpha to beta.&lt;/p&gt;
+
+&lt;p&gt;Took care of spell-fixing some bits of documentation, but didn&#39;t
+have the time to do a proper job. Some work will be postponed until
+the 3.98 release opens for development.&lt;/p&gt;
+
+&lt;p&gt;Oh, and it seems that &lt;a href=&quot;http://algorithms.berlios.de/&quot;&gt;algorithms&lt;/a&gt;
+has reached a good &quot;mind share&quot; in the sense that some leading
+Computer Scientists seem to use it.&lt;/p&gt;
 </description>
 
 
