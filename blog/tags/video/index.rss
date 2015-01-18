@@ -8,7 +8,91 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 17 Jan 2015 22:54:23 -0200</pubDate>
+<pubDate>Sat, 17 Jan 2015 23:55:29 -0200</pubDate>
+<item>
+	<title>Uploading SICP to Youtube</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2015-01-17_uploading_sicp_to_youtube/</guid>
+
+	<link>http://cynic.cc/blog//posts/2015-01-17_uploading_sicp_to_youtube/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>programming</category>
+
+	<category>study</category>
+
+	<category>video</category>
+
+
+	<pubDate>Sat, 17 Jan 2015 23:52:14 -0200</pubDate>
+	<dcterms:modified>2015-01-18T01:55:29Z</dcterms:modified>
+
+
+	<description>&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
+
+&lt;p&gt;I am &lt;a href=&quot;http://www.cs.berkeley.edu/~bh/sicp.html&quot;&gt;not alone&lt;/a&gt; in considering &lt;a href=&quot;https://en.wikipedia.org/wiki/Harold%20Abelson&quot;&gt;Harold Abelson&lt;/a&gt; and
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Gerald%20Jay%20Sussman&quot;&gt;Gerald Jay Sussman&lt;/a&gt;&#39;s &lt;a href=&quot;http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/&quot;&gt;recorded lectures&lt;/a&gt; based on their
+book &quot;&lt;a href=&quot;https://mitpress.mit.edu/sicp/full-text/book/book.html&quot;&gt;Structure and Interpretation of Computer Programs&lt;/a&gt;&quot; is a
+masterpiece.&lt;/p&gt;
+
+&lt;p&gt;There are many things to like about the content of the lectures, beginning
+with some pearls and wisdom about the craft of writing software (even though
+this is not really a &quot;software enginneering&quot; book), the clarity with which
+the concepts are described, the &lt;a href=&quot;https://mitpress.mit.edu/sicp/&quot;&gt;Freedom-friendly&lt;/a&gt; aspects of the authors
+regarding the material that they produced and much, the breadth of the
+subjects covered and much more.&lt;/p&gt;
+
+&lt;h1 id=&quot;thevideostheirlengthandsplittingthem&quot;&gt;The videos, their length, and splitting them&lt;/h1&gt;
+
+&lt;p&gt;The course consists of 20 &lt;a href=&quot;https://www.youtube.com/playlist?list=PLE18841CABEA24090&quot;&gt;video files&lt;/a&gt; and they are all uploaded on
+Youtube already.&lt;/p&gt;
+
+&lt;p&gt;There is one thing, though: while the lectures are naturally divided into
+segments (the instructors took a break in after every 30 minutes or so worth
+of lectures), the videos corresponding to each lecture have all the segments
+concatenated.&lt;/p&gt;
+
+&lt;p&gt;To better watch them, accounting for the easier possibility to put a few of
+the lectures in a mobile device or to avoid fast forwarding long videos from
+my NAS when I am watching them on my TV (and some other factors), I decided
+to sit down, take notes for each video of where the breaks where, and write
+a simple Python script to help split the videos in segments, and, then,
+reencode the segments.&lt;/p&gt;
+
+&lt;p&gt;I decided not to take the videos from Youtube to perform my splitting
+activities, but, instead, to operate on one of the &quot;sources&quot; that the
+authors once had in their homepage (videos encoded in DivX and audio in
+MP3).  The videos are still available as a torrent file (with a magnet link
+for the hash &lt;a href=&quot;magnet:?xt=urn:btih:650704e4439d7857a33fe4e32bcfdc2cb1db34db&quot;&gt;&lt;code&gt;650704e4439d7857a33fe4e32bcfdc2cb1db34db&lt;/code&gt;&lt;/a&gt;), with some
+very good souls still seeding it (I can seed it too, if desired).  Alas, I
+have not found a source for the higher quality MPEG1 videos, but I think
+that the videos are legible enough to avoid bothering with a larger
+download.&lt;/p&gt;
+
+&lt;p&gt;I soon found out that there are some beneficial side-effects of splitting
+the videos, like not having to edit/equalize the entire audio of the videos
+when only a segment was bad (which is understandable, as these lectures were
+recorded almost 30 years ago and technology was not as advanced as things
+are today).&lt;/p&gt;
+
+&lt;p&gt;So, since I already have the split videos lying around here, I figured out
+that, perhaps, other people may want to download them, as they may be more
+convenient to watch (say, during commutes or whatever/whenever/wherever it
+best suits them).&lt;/p&gt;
+
+&lt;p&gt;Of course, uploading all the videos is going to take a while and I would
+only do it if people would really benefit from them.  If you think so, let
+me know here (or if you know someone who would like the split version of the
+videos, spread the word).&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Paco de Lucia</title>
 
@@ -539,40 +623,6 @@ version 1.6.2. I don&#39;t want to switch right now, for consistency
 purposes with the videos that I already have encoded.&lt;/p&gt;
 
 &lt;p&gt;Oh, yes, still encoding videos. It is quite slow.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2005-12-24</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-24/</guid>
-
-	<link>http://cynic.cc/blog//posts/2005-12-24/</link>
-
-
-
-	<category>dvds</category>
-
-	<category>free-software</category>
-
-	<category>life</category>
-
-	<category>video</category>
-
-
-	<pubDate>Sat, 24 Dec 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-01-18T00:50:38Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;So, we had this Christmas dinner here at home with my mother&#39;s
-grandma, two uncles and an aunt.&lt;/p&gt;
-
-&lt;p&gt;Grandma wanted to see Bram Stoker&#39;s &quot;Dracula&quot;, but she was asleep
-right there in the first few moments...&lt;/p&gt;
-
-&lt;p&gt;Oh, I&#39;m still encoding the MIT videos. This time it seems that
-everything will fit onto exactly one Dual-Layer DVD+R.&lt;/p&gt;
 </description>
 
 

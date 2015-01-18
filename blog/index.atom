@@ -17,7 +17,97 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-11-24T17:17:42Z</updated>
+<updated>2015-01-18T01:55:29Z</updated>
+<entry>
+	<title>Uploading SICP to Youtube</title>
+
+	<id>http://cynic.cc/blog//posts/2015-01-17_uploading_sicp_to_youtube/</id>
+
+	<link href="http://cynic.cc/blog//posts/2015-01-17_uploading_sicp_to_youtube/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="programming" />
+
+	<category term="study" />
+
+	<category term="video" />
+
+
+	<updated>2015-01-18T01:55:29Z</updated>
+	<published>2015-01-18T01:52:14Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;/h1&gt;
+
+&lt;p&gt;I am &lt;a href=&quot;http://www.cs.berkeley.edu/~bh/sicp.html&quot;&gt;not alone&lt;/a&gt; in considering &lt;a href=&quot;https://en.wikipedia.org/wiki/Harold%20Abelson&quot;&gt;Harold Abelson&lt;/a&gt; and
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Gerald%20Jay%20Sussman&quot;&gt;Gerald Jay Sussman&lt;/a&gt;&#39;s &lt;a href=&quot;http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/&quot;&gt;recorded lectures&lt;/a&gt; based on their
+book &quot;&lt;a href=&quot;https://mitpress.mit.edu/sicp/full-text/book/book.html&quot;&gt;Structure and Interpretation of Computer Programs&lt;/a&gt;&quot; is a
+masterpiece.&lt;/p&gt;
+
+&lt;p&gt;There are many things to like about the content of the lectures, beginning
+with some pearls and wisdom about the craft of writing software (even though
+this is not really a &quot;software enginneering&quot; book), the clarity with which
+the concepts are described, the &lt;a href=&quot;https://mitpress.mit.edu/sicp/&quot;&gt;Freedom-friendly&lt;/a&gt; aspects of the authors
+regarding the material that they produced and much, the breadth of the
+subjects covered and much more.&lt;/p&gt;
+
+&lt;h1 id=&quot;thevideostheirlengthandsplittingthem&quot;&gt;The videos, their length, and splitting them&lt;/h1&gt;
+
+&lt;p&gt;The course consists of 20 &lt;a href=&quot;https://www.youtube.com/playlist?list=PLE18841CABEA24090&quot;&gt;video files&lt;/a&gt; and they are all uploaded on
+Youtube already.&lt;/p&gt;
+
+&lt;p&gt;There is one thing, though: while the lectures are naturally divided into
+segments (the instructors took a break in after every 30 minutes or so worth
+of lectures), the videos corresponding to each lecture have all the segments
+concatenated.&lt;/p&gt;
+
+&lt;p&gt;To better watch them, accounting for the easier possibility to put a few of
+the lectures in a mobile device or to avoid fast forwarding long videos from
+my NAS when I am watching them on my TV (and some other factors), I decided
+to sit down, take notes for each video of where the breaks where, and write
+a simple Python script to help split the videos in segments, and, then,
+reencode the segments.&lt;/p&gt;
+
+&lt;p&gt;I decided not to take the videos from Youtube to perform my splitting
+activities, but, instead, to operate on one of the &quot;sources&quot; that the
+authors once had in their homepage (videos encoded in DivX and audio in
+MP3).  The videos are still available as a torrent file (with a magnet link
+for the hash &lt;a href=&quot;magnet:?xt=urn:btih:650704e4439d7857a33fe4e32bcfdc2cb1db34db&quot;&gt;&lt;code&gt;650704e4439d7857a33fe4e32bcfdc2cb1db34db&lt;/code&gt;&lt;/a&gt;), with some
+very good souls still seeding it (I can seed it too, if desired).  Alas, I
+have not found a source for the higher quality MPEG1 videos, but I think
+that the videos are legible enough to avoid bothering with a larger
+download.&lt;/p&gt;
+
+&lt;p&gt;I soon found out that there are some beneficial side-effects of splitting
+the videos, like not having to edit/equalize the entire audio of the videos
+when only a segment was bad (which is understandable, as these lectures were
+recorded almost 30 years ago and technology was not as advanced as things
+are today).&lt;/p&gt;
+
+&lt;p&gt;So, since I already have the split videos lying around here, I figured out
+that, perhaps, other people may want to download them, as they may be more
+convenient to watch (say, during commutes or whatever/whenever/wherever it
+best suits them).&lt;/p&gt;
+
+&lt;p&gt;Of course, uploading all the videos is going to take a while and I would
+only do it if people would really benefit from them.  If you think so, let
+me know here (or if you know someone who would like the split version of the
+videos, spread the word).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Problems with Emacs 24.4</title>
 
@@ -778,61 +868,6 @@ Eclipse&#39;s &quot;Run &gt; Run Configurations... &gt; Target &gt; Additional E
 Command Line Options&quot;.&lt;/p&gt;
 
 &lt;p&gt;After that, you are probably good to go.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Trivial fact: convexity of polyhedra</title>
-
-	<id>http://cynic.cc/blog//posts/2013-12-11-trivial_fact_convexity_of_polyhedra/</id>
-
-	<link href="http://cynic.cc/blog//posts/2013-12-11-trivial_fact_convexity_of_polyhedra/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="math" />
-
-	<category term="study" />
-
-
-	<updated>2013-12-11T02:35:41Z</updated>
-	<published>2013-12-11T02:27:41Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Just a trivial fact: every polyhedron that is used in linear programming is
-convex, that is !!mathjaxbegin-i!! QXggXGxlcSBi
- !!mathjaxend-i!! is convex, for a matrix !!mathjaxbegin-i!! QQ==
- !!mathjaxend-i!! and a (column)
-vector !!mathjaxbegin-i!! Yg==
- !!mathjaxend-i!!.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; Take any !!mathjaxbegin-i!! eCcsIHgnJw==
- !!mathjaxend-i!! that satisfy the system of inequalities !!mathjaxbegin-i!! QXggXGxlcSBi
- !!mathjaxend-i!!.
-Then, for !!mathjaxbegin-i!! MCBcbGVxIFxsYW1iZGEgXGxlcSAx
- !!mathjaxend-i!!, we have that !!mathjaxbegin-i!! XGxhbWJkYSBBeCcgXGxlcSBcbGFtYmRhIGI=
- !!mathjaxend-i!!,
-that is !!mathjaxbegin-i!! QSBcbGFtYmRhIHgnIFxsZXEgXGxhbWJkYSBi
- !!mathjaxend-i!!.  Similarly, for !!mathjaxbegin-i!! eCcn
- !!mathjaxend-i!!, we have
-that !!mathjaxbegin-i!! QSAoMS1cbGFtYmRhKSB4JyBcbGVxICgxLVxsYW1iZGEpIGI=
- !!mathjaxend-i!!. Summing the inequalities, we
-get:
-!!mathjaxbegin-d!! CiBBW1xsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4JyddIFxsZXEgW1xsYW1iZGEgKyAoMS1cbGFt
-YmRhKV0gYiA9IGIsCg==
- !!mathjaxend-d!!
-which means that !!mathjaxbegin-i!! XGhhdHt4fSA9IFxsYW1iZGEgeCcgKyAoMS1cbGFtYmRhKSB4Jyc=
- !!mathjaxend-i!! is again a
-solution of the original set of inequalities, thus concluding the argument.&lt;/p&gt;
 
 	</content>
 
