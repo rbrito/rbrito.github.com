@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2015-01-18T01:55:29Z</updated>
+<updated>2015-01-26T03:17:12Z</updated>
 <entry>
 	<title>Uploading SICP to Youtube</title>
 
@@ -41,7 +41,7 @@
 	<category term="video" />
 
 
-	<updated>2015-01-18T01:55:29Z</updated>
+	<updated>2015-01-26T03:17:12Z</updated>
 	<published>2015-01-18T01:52:14Z</published>
 
 
@@ -81,7 +81,7 @@ reencode the segments.&lt;/p&gt;
 activities, but, instead, to operate on one of the &quot;sources&quot; that the
 authors once had in their homepage (videos encoded in DivX and audio in
 MP3).  The videos are still available as a torrent file (with a magnet link
-for the hash &lt;a href=&quot;magnet:?xt=urn:btih:650704e4439d7857a33fe4e32bcfdc2cb1db34db&quot;&gt;&lt;code&gt;650704e4439d7857a33fe4e32bcfdc2cb1db34db&lt;/code&gt;&lt;/a&gt;), with some
+for the hash &lt;a href=&quot;magnet:?xt=urn:btih:650704e4439d7857a33fe4e32bcfdc2cb1db34db&quot;&gt;650704e4439d7857a33fe4e32bcfdc2cb1db34db&lt;/a&gt;), with some
 very good souls still seeding it (I can seed it too, if desired).  Alas, I
 have not found a source for the higher quality MPEG1 videos, but I think
 that the videos are legible enough to avoid bothering with a larger
