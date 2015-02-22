@@ -17,7 +17,134 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-15T02:21:28Z</updated>
+<updated>2015-02-22T23:54:40Z</updated>
+<entry>
+	<title>User-Agent strings and privacy</title>
+
+	<id>http://cynic.cc/blog//posts/2015-02-22_user-agent_strings_and_privacy/</id>
+
+	<link href="http://cynic.cc/blog//posts/2015-02-22_user-agent_strings_and_privacy/"/>
+
+
+
+
+
+
+	<category term="android" />
+
+	<category term="apple" />
+
+	<category term="browsers" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+
+	<updated>2015-02-22T23:54:40Z</updated>
+	<published>2015-02-22T23:54:27Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;h1 id=&quot;user-agentstringsandprivacy&quot;&gt;User-Agent strings and privacy&lt;/h1&gt;
+
+&lt;p&gt;I just had my hands on some mobile devices (a Samsung&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S_8.4&quot;&gt;Galaxy Tab S 8.4&quot;&lt;/a&gt;,
+an Apple&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/IPad_Mini_3&quot;&gt;iPad mini 3&lt;/a&gt;, and my no-name tablet that runs Android).&lt;/p&gt;
+
+&lt;p&gt;I got curious to see how the different browsers identify themselves to the
+world via their &lt;a href=&quot;https://en.wikipedia.org/wiki/User%20agent&quot;&gt;User agent&lt;/a&gt; strings and I must say that each
+browser&#39;s string reveals a lot about both the browser makers and their
+philosophies regarding user privacy.&lt;/p&gt;
+
+&lt;p&gt;Here is a simple table that I compiled with the information that I
+collected (sorry if it gets too wide):&lt;/p&gt;
+
+&lt;table&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+	&lt;th&gt;Device&lt;/th&gt;
+	&lt;th&gt;Browser&lt;/th&gt;
+	&lt;th&gt;User-Agent String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;Samsung Galaxy Tab S&lt;/td&gt;
+	&lt;td&gt;Firefox 35.0&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (Android; Tablet; rv:35.0) Gecko/35.0 Firefox/35.0&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;Samsung Galaxy Tab S&lt;/td&gt;
+	&lt;td&gt;Firefox 35.0.1&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (Android; Tablet; rv:35.0.1) Gecko/35.0.1 Firefox/35.0.1&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;Samsung Galaxy Tab S&lt;/td&gt;
+	&lt;td&gt;Android&#39;s 4.4.2 stock browser&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-T700 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;Samsung Galaxy Tab S&lt;/td&gt;
+	&lt;td&gt;Updated Chrome&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (Linux; Android 4.4.2; SM-T700 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Safari/537.36&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;Vanilla tablet&lt;/td&gt;
+	&lt;td&gt;Android&#39;s 4.1.1 stock browser&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; TB1010 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;Vanilla tablet&lt;/td&gt;
+	&lt;td&gt;Firefox 35.0.1&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (Android; Tablet; rv:35.0.1) Gecko/35.0.1 Firefox/35.0.1&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;iPad&lt;/td&gt;
+	&lt;td&gt;Safari&#39;s from iOS 8.1.3&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;Notebook&lt;/td&gt;
+	&lt;td&gt;Debian&#39;s Iceweasel 35.0.1&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (X11; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0 Iceweasel/35.0.1&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;So, briefly looking at the table above, you can tell that the stock Android
+browser reveals quite a bit of information: the model of the device (e.g.,
+&lt;code&gt;SAMSUNG SM-T700&lt;/code&gt; or &lt;code&gt;TB1010&lt;/code&gt;) and even the build number (e.g.,
+&lt;code&gt;Build/KOT49H&lt;/code&gt; or &lt;code&gt;Build/JRO03H&lt;/code&gt;)!  This is super handy for malicious
+websites and I would say that it leaks a lot of possibly undesired
+information.&lt;/p&gt;
+
+&lt;p&gt;The iPad is similar, with Safari revealing the version of the iOS that it is
+running.  It doesn&#39;t reveal, though, the language that the user is using via
+the UA string (it probably does via other HTTP fields).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.google.com/chrome/browser/mobile/&quot;&gt;Chrome&lt;/a&gt; is similar to the stock Android browser here, but, at least, it
+doesn&#39;t reveal the language of the user. It does reveal the version of
+Android, including the patch-level (that&#39;s a bit too much, IMVHO).&lt;/p&gt;
+
+&lt;p&gt;I would say that the winner respecting privacy of the users among the
+browsers that I tested is &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/android/&quot;&gt;Firefox&lt;/a&gt;: it conveys just the bare minimum,
+not differentiating from a high-end tablet (Samsung&#39;s Galaxy Tab S with 8
+cores) and a vanilla tablet (with 2 cores).  Like Chrome, Firefox still
+reveals a bit too much in the form of the patch-level. It should be
+sufficient to say that it is version 35.0 even if the user has 35.0.1
+installed.&lt;/p&gt;
+
+&lt;p&gt;The bonus points with Firefox is that it is also available on &lt;a href=&quot;https://f-droid.org/&quot;&gt;F-Droid&lt;/a&gt;, in
+two versions: as &lt;a href=&quot;https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox&quot;&gt;Firefox itself&lt;/a&gt; and as &lt;a href=&quot;https://f-droid.org/repository/browse/?fdid=org.mozilla.fennec_fdroid&quot;&gt;Fennec&lt;/a&gt;.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>(Some) Solutions with Chromium</title>
 

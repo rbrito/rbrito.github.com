@@ -17,7 +17,134 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2015-01-26T03:17:12Z</updated>
+<updated>2015-02-22T23:54:40Z</updated>
+<entry>
+	<title>User-Agent strings and privacy</title>
+
+	<id>http://cynic.cc/blog//posts/2015-02-22_user-agent_strings_and_privacy/</id>
+
+	<link href="http://cynic.cc/blog//posts/2015-02-22_user-agent_strings_and_privacy/"/>
+
+
+
+
+
+
+	<category term="android" />
+
+	<category term="apple" />
+
+	<category term="browsers" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+
+	<updated>2015-02-22T23:54:40Z</updated>
+	<published>2015-02-22T23:54:27Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;h1 id=&quot;user-agentstringsandprivacy&quot;&gt;User-Agent strings and privacy&lt;/h1&gt;
+
+&lt;p&gt;I just had my hands on some mobile devices (a Samsung&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S_8.4&quot;&gt;Galaxy Tab S 8.4&quot;&lt;/a&gt;,
+an Apple&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/IPad_Mini_3&quot;&gt;iPad mini 3&lt;/a&gt;, and my no-name tablet that runs Android).&lt;/p&gt;
+
+&lt;p&gt;I got curious to see how the different browsers identify themselves to the
+world via their &lt;a href=&quot;https://en.wikipedia.org/wiki/User%20agent&quot;&gt;User agent&lt;/a&gt; strings and I must say that each
+browser&#39;s string reveals a lot about both the browser makers and their
+philosophies regarding user privacy.&lt;/p&gt;
+
+&lt;p&gt;Here is a simple table that I compiled with the information that I
+collected (sorry if it gets too wide):&lt;/p&gt;
+
+&lt;table&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;col /&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+	&lt;th&gt;Device&lt;/th&gt;
+	&lt;th&gt;Browser&lt;/th&gt;
+	&lt;th&gt;User-Agent String&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+	&lt;td&gt;Samsung Galaxy Tab S&lt;/td&gt;
+	&lt;td&gt;Firefox 35.0&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (Android; Tablet; rv:35.0) Gecko/35.0 Firefox/35.0&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;Samsung Galaxy Tab S&lt;/td&gt;
+	&lt;td&gt;Firefox 35.0.1&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (Android; Tablet; rv:35.0.1) Gecko/35.0.1 Firefox/35.0.1&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;Samsung Galaxy Tab S&lt;/td&gt;
+	&lt;td&gt;Android&#39;s 4.4.2 stock browser&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-T700 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;Samsung Galaxy Tab S&lt;/td&gt;
+	&lt;td&gt;Updated Chrome&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (Linux; Android 4.4.2; SM-T700 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Safari/537.36&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;Vanilla tablet&lt;/td&gt;
+	&lt;td&gt;Android&#39;s 4.1.1 stock browser&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; TB1010 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;Vanilla tablet&lt;/td&gt;
+	&lt;td&gt;Firefox 35.0.1&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (Android; Tablet; rv:35.0.1) Gecko/35.0.1 Firefox/35.0.1&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;iPad&lt;/td&gt;
+	&lt;td&gt;Safari&#39;s from iOS 8.1.3&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;Notebook&lt;/td&gt;
+	&lt;td&gt;Debian&#39;s Iceweasel 35.0.1&lt;/td&gt;
+	&lt;td&gt;&quot;Mozilla/5.0 (X11; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0 Iceweasel/35.0.1&quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;So, briefly looking at the table above, you can tell that the stock Android
+browser reveals quite a bit of information: the model of the device (e.g.,
+&lt;code&gt;SAMSUNG SM-T700&lt;/code&gt; or &lt;code&gt;TB1010&lt;/code&gt;) and even the build number (e.g.,
+&lt;code&gt;Build/KOT49H&lt;/code&gt; or &lt;code&gt;Build/JRO03H&lt;/code&gt;)!  This is super handy for malicious
+websites and I would say that it leaks a lot of possibly undesired
+information.&lt;/p&gt;
+
+&lt;p&gt;The iPad is similar, with Safari revealing the version of the iOS that it is
+running.  It doesn&#39;t reveal, though, the language that the user is using via
+the UA string (it probably does via other HTTP fields).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.google.com/chrome/browser/mobile/&quot;&gt;Chrome&lt;/a&gt; is similar to the stock Android browser here, but, at least, it
+doesn&#39;t reveal the language of the user. It does reveal the version of
+Android, including the patch-level (that&#39;s a bit too much, IMVHO).&lt;/p&gt;
+
+&lt;p&gt;I would say that the winner respecting privacy of the users among the
+browsers that I tested is &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/android/&quot;&gt;Firefox&lt;/a&gt;: it conveys just the bare minimum,
+not differentiating from a high-end tablet (Samsung&#39;s Galaxy Tab S with 8
+cores) and a vanilla tablet (with 2 cores).  Like Chrome, Firefox still
+reveals a bit too much in the form of the patch-level. It should be
+sufficient to say that it is version 35.0 even if the user has 35.0.1
+installed.&lt;/p&gt;
+
+&lt;p&gt;The bonus points with Firefox is that it is also available on &lt;a href=&quot;https://f-droid.org/&quot;&gt;F-Droid&lt;/a&gt;, in
+two versions: as &lt;a href=&quot;https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox&quot;&gt;Firefox itself&lt;/a&gt; and as &lt;a href=&quot;https://f-droid.org/repository/browse/?fdid=org.mozilla.fennec_fdroid&quot;&gt;Fennec&lt;/a&gt;.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Uploading SICP to Youtube</title>
 
@@ -1244,110 +1371,6 @@ cryptography. But more on that on a future post.&lt;/p&gt;
 &lt;p&gt;There are some other courses that I may be completing soon and that I will
 post more about, with some reviews of the good and the bad parts of select
 ones.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Working with CVS via Git</title>
-
-	<id>http://cynic.cc/blog//posts/working_with_cvs_via_git/</id>
-
-	<link href="http://cynic.cc/blog//posts/working_with_cvs_via_git/"/>
-
-
-
-
-
-
-	<category term="cvs" />
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="git" />
-
-	<category term="hacks" />
-
-	<category term="lame" />
-
-	<category term="revision-control" />
-
-
-	<updated>2014-02-15T02:21:28Z</updated>
-	<published>2013-06-11T07:49:56Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
-have &lt;em&gt;both&lt;/em&gt; a git clone of the CVS repository &lt;em&gt;and&lt;/em&gt; a CVS checkout of your
-repository.&lt;/p&gt;
-
-&lt;h1 id=&quot;initialstepsthatworkformetm&quot;&gt;Initial steps that Work for Me (TM)&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Create your git clone of the CVS repository:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
-    :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The command above will create your clone of the CVS repository in the
-current directory which we suppose, for the sake of this discussion, is
-&lt;code&gt;/tmp/gitified&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;If want to specify a directory different than what you&#39;re in, then you
-should add the option &lt;code&gt;-C /path/to/git/repository&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Create a checkout of the CVS repository for CVS work stuff (I&#39;m checking
-out things under &lt;code&gt;/tmp&lt;/code&gt;):&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cvs -z3 -d:ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame checkout lame
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will create your CVS checkout on the directory &lt;code&gt;/tmp/lame&lt;/code&gt;, assuming
-that you are working under &lt;code&gt;/tmp&lt;/code&gt;, as I do.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;doingrealwork&quot;&gt;Doing real work&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Go to your git clone (&lt;code&gt;/tmp/gitified&lt;/code&gt;) and start hacking, committing, etc.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;When it is time to send your patches to the CVS repo, you have to:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;export GIT_DIR=/tmp/gitified/.git
-cd /tmp/lame
-git cherry origin master | sed -n &#39;s/^+ //p&#39; | xargs -l1 git cvsexportcommit -c -p -v
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will automatically check in all the commits that you have made in
-the previous step.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;continuingyourworkafterwards&quot;&gt;Continuing your work afterwards&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;First, discard your commits in your git repository, so that you don&#39;t get
-further problems with &lt;code&gt;git cvsimport&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Update your git repository with the current contents of the CVS repo:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd /tmp/gitified
-git cvsimport -v -a -A /tmp/lame-authors.txt -k -m -d \
-    :ext:rbrito@lame.cvs.sourceforge.net:/cvsroot/lame lame
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Update your CVS repository with the current contents of the CVS repo too:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd /tmp/lame
-cvs update
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
-
-&lt;p&gt;Of course, I would prefer a simpler, leaner workflow. If you happen to have
-one, please let me know.&lt;/p&gt;
 
 	</content>
 

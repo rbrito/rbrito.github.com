@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>User-Agent strings and privacy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="../../combined.min.css" type="text/css" />
+
+
+<meta name="date" content="Sun, 22 Feb 2015 20:54:27 -0300" />
+
+
+</head>
+<body>
+
+<article class="page">
+
+<section class="pageheader">
+<header class="header">
+<script type="text/javascript">
+  bb_bid = "1692909";
+  bb_lang = "pt-BR";
+  bb_name = "custom";
+  bb_limit = "8";
+  bb_format = "bbb";
+</script>
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+<span>
+<span class="parentlinks">
+
+<a href="../../">Rogério Brito's Digital Junkyard</a> &#8594;
+
+<a href="../">posts</a> &#8594;
+
+</span>
+<span class="title">
+User-Agent strings and privacy
+</span>
+</span>
+</header>
+
+
+
+</section>
+
+
+<aside class="sidebar">
+<p><a href="../../about/">About Me</a></p>
+
+<script type="text/javascript">
+  bb_bid = "1692909";
+  bb_lang = "pt-BR";
+  bb_name = "custom";
+  bb_limit = "6";
+  bb_format = "bbn";
+</script>
+
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+
+<iframe src="http://githubbadge.appspot.com/badge/rbrito"
+ style="border: 0;height: 150px;width: 200px;overflow: hidden"></iframe>
+
+</aside>
+
+
+<div id="pagebody">
+
+<section id="content">
+<h1 id="user-agentstringsandprivacy">User-Agent strings and privacy</h1>
+
+<p>I just had my hands on some mobile devices (a Samsung's <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S_8.4">Galaxy Tab S 8.4"</a>,
+an Apple's <a href="https://en.wikipedia.org/wiki/IPad_Mini_3">iPad mini 3</a>, and my no-name tablet that runs Android).</p>
+
+<p>I got curious to see how the different browsers identify themselves to the
+world via their <a href="https://en.wikipedia.org/wiki/User%20agent">User agent</a> strings and I must say that each
+browser's string reveals a lot about both the browser makers and their
+philosophies regarding user privacy.</p>
+
+<p>Here is a simple table that I compiled with the information that I
+collected (sorry if it gets too wide):</p>
+
+<table>
+<col />
+<col />
+<col />
+<thead>
+<tr>
+	<th>Device</th>
+	<th>Browser</th>
+	<th>User-Agent String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>Samsung Galaxy Tab S</td>
+	<td>Firefox 35.0</td>
+	<td>"Mozilla/5.0 (Android; Tablet; rv:35.0) Gecko/35.0 Firefox/35.0"</td>
+</tr>
+<tr>
+	<td>Samsung Galaxy Tab S</td>
+	<td>Firefox 35.0.1</td>
+	<td>"Mozilla/5.0 (Android; Tablet; rv:35.0.1) Gecko/35.0.1 Firefox/35.0.1"</td>
+</tr>
+<tr>
+	<td>Samsung Galaxy Tab S</td>
+	<td>Android's 4.4.2 stock browser</td>
+	<td>"Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-T700 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36"</td>
+</tr>
+<tr>
+	<td>Samsung Galaxy Tab S</td>
+	<td>Updated Chrome</td>
+	<td>"Mozilla/5.0 (Linux; Android 4.4.2; SM-T700 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Safari/537.36"</td>
+</tr>
+<tr>
+	<td>Vanilla tablet</td>
+	<td>Android's 4.1.1 stock browser</td>
+	<td>"Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; TB1010 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"</td>
+</tr>
+<tr>
+	<td>Vanilla tablet</td>
+	<td>Firefox 35.0.1</td>
+	<td>"Mozilla/5.0 (Android; Tablet; rv:35.0.1) Gecko/35.0.1 Firefox/35.0.1"</td>
+</tr>
+<tr>
+	<td>iPad</td>
+	<td>Safari's from iOS 8.1.3</td>
+	<td>"Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4"</td>
+</tr>
+<tr>
+	<td>Notebook</td>
+	<td>Debian's Iceweasel 35.0.1</td>
+	<td>"Mozilla/5.0 (X11; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0 Iceweasel/35.0.1"</td>
+</tr>
+</tbody>
+</table>
+
+<p>So, briefly looking at the table above, you can tell that the stock Android
+browser reveals quite a bit of information: the model of the device (e.g.,
+<code>SAMSUNG SM-T700</code> or <code>TB1010</code>) and even the build number (e.g.,
+<code>Build/KOT49H</code> or <code>Build/JRO03H</code>)!  This is super handy for malicious
+websites and I would say that it leaks a lot of possibly undesired
+information.</p>
+
+<p>The iPad is similar, with Safari revealing the version of the iOS that it is
+running.  It doesn't reveal, though, the language that the user is using via
+the UA string (it probably does via other HTTP fields).</p>
+
+<p><a href="https://www.google.com/chrome/browser/mobile/">Chrome</a> is similar to the stock Android browser here, but, at least, it
+doesn't reveal the language of the user. It does reveal the version of
+Android, including the patch-level (that's a bit too much, IMVHO).</p>
+
+<p>I would say that the winner respecting privacy of the users among the
+browsers that I tested is <a href="https://www.mozilla.org/en-US/firefox/android/">Firefox</a>: it conveys just the bare minimum,
+not differentiating from a high-end tablet (Samsung's Galaxy Tab S with 8
+cores) and a vanilla tablet (with 2 cores).  Like Chrome, Firefox still
+reveals a bit too much in the form of the patch-level. It should be
+sufficient to say that it is version 35.0 even if the user has 35.0.1
+installed.</p>
+
+<p>The bonus points with Firefox is that it is also available on <a href="https://f-droid.org/">F-Droid</a>, in
+two versions: as <a href="https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox">Firefox itself</a> and as <a href="https://f-droid.org/repository/browse/?fdid=org.mozilla.fennec_fdroid">Fennec</a>.</p>
+
+</section>
+
+<div id="blogcomments">
+
+<div id="disqus_comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'digitaljunkyard'; // required: replace example with your forum shortname
+    var discus_identifier = 'posts/2015-02-22_user-agent_strings_and_privacy';
+    var disqus_url = 'http://cynic.cc/blog//posts/2015-02-22_user-agent_strings_and_privacy/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer id="footer" class="pagefooter">
+
+<nav id="pageinfo">
+
+
+
+
+<nav class="tags">
+Tags:
+
+<a href="../../tags/android/" rel="tag">android</a>
+
+<a href="../../tags/apple/" rel="tag">apple</a>
+
+<a href="../../tags/browsers/" rel="tag">browsers</a>
+
+<a href="../../tags/debian/" rel="tag">debian</a>
+
+<a href="../../tags/free-software/" rel="tag">free-software</a>
+
+</nav>
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <time datetime="2015-02-22T23:54:40Z">2015-02-22T20:54:40 BRT</time>
+<!-- Created <time datetime="2015-02-22T23:54:27Z" pubdate="pubdate">2015-02-22T20:54:27 BRT</time> -->
+</div>
+
+</nav>
+
+
+<!-- from Rogério Brito's Digital Junkyard -->
+</footer>
+
+</article>
+</body>
+</html>
