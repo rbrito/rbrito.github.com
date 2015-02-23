@@ -60,3 +60,12 @@ blockquote {
 	border-left:thick solid rgba(0,0,0,.2);
 	padding-left:.75em;
 }
+
+table, th, td {
+        border: 1px solid #999;
+        border-collapse: collapse;
+}
+
+th, td {
+        padding: .25em;
+}
