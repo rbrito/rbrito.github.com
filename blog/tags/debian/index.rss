@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sun, 22 Feb 2015 20:54:40 -0300</pubDate>
+<pubDate>Sun, 22 Feb 2015 22:53:45 -0300</pubDate>
 <item>
 	<title>User-Agent strings and privacy</title>
 
@@ -30,10 +30,15 @@
 
 
 	<pubDate>Sun, 22 Feb 2015 20:54:27 -0300</pubDate>
-	<dcterms:modified>2015-02-22T23:54:40Z</dcterms:modified>
+	<dcterms:modified>2015-02-23T01:53:45Z</dcterms:modified>
 
 
-	<description>&lt;h1 id=&quot;user-agentstringsandprivacy&quot;&gt;User-Agent strings and privacy&lt;/h1&gt;
+	<description>&lt;p&gt;&lt;style&gt;
+table, th, td { border: 1px solid #999; border-collapse: collapse; }
+th, td { padding: .25em; }
+&lt;/style&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;user-agentstringsandprivacy&quot;&gt;User-Agent strings and privacy&lt;/h1&gt;
 
 &lt;p&gt;I just had my hands on some mobile devices (a Samsung&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S_8.4&quot;&gt;Galaxy Tab S 8.4&quot;&lt;/a&gt;,
 an Apple&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/IPad_Mini_3&quot;&gt;iPad mini 3&lt;/a&gt;, and my no-name tablet that runs Android).&lt;/p&gt;
@@ -61,42 +66,42 @@ collected (sorry if it gets too wide):&lt;/p&gt;
 &lt;tr&gt;
 	&lt;td&gt;Samsung Galaxy Tab S&lt;/td&gt;
 	&lt;td&gt;Firefox 35.0&lt;/td&gt;
-	&lt;td&gt;&quot;Mozilla/5.0 (Android; Tablet; rv:35.0) Gecko/35.0 Firefox/35.0&quot;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Mozilla/5.0 (Android; Tablet; rv:35.0) Gecko/35.0 Firefox/35.0&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 	&lt;td&gt;Samsung Galaxy Tab S&lt;/td&gt;
 	&lt;td&gt;Firefox 35.0.1&lt;/td&gt;
-	&lt;td&gt;&quot;Mozilla/5.0 (Android; Tablet; rv:35.0.1) Gecko/35.0.1 Firefox/35.0.1&quot;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Mozilla/5.0 (Android; Tablet; rv:35.0.1) Gecko/35.0.1 Firefox/35.0.1&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 	&lt;td&gt;Samsung Galaxy Tab S&lt;/td&gt;
 	&lt;td&gt;Android&#39;s 4.4.2 stock browser&lt;/td&gt;
-	&lt;td&gt;&quot;Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-T700 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36&quot;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-T700 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 	&lt;td&gt;Samsung Galaxy Tab S&lt;/td&gt;
 	&lt;td&gt;Updated Chrome&lt;/td&gt;
-	&lt;td&gt;&quot;Mozilla/5.0 (Linux; Android 4.4.2; SM-T700 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Safari/537.36&quot;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Mozilla/5.0 (Linux; Android 4.4.2; SM-T700 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.109 Safari/537.36&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 	&lt;td&gt;Vanilla tablet&lt;/td&gt;
 	&lt;td&gt;Android&#39;s 4.1.1 stock browser&lt;/td&gt;
-	&lt;td&gt;&quot;Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; TB1010 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30&quot;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; TB1010 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 	&lt;td&gt;Vanilla tablet&lt;/td&gt;
 	&lt;td&gt;Firefox 35.0.1&lt;/td&gt;
-	&lt;td&gt;&quot;Mozilla/5.0 (Android; Tablet; rv:35.0.1) Gecko/35.0.1 Firefox/35.0.1&quot;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Mozilla/5.0 (Android; Tablet; rv:35.0.1) Gecko/35.0.1 Firefox/35.0.1&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 	&lt;td&gt;iPad&lt;/td&gt;
 	&lt;td&gt;Safari&#39;s from iOS 8.1.3&lt;/td&gt;
-	&lt;td&gt;&quot;Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4&quot;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 	&lt;td&gt;Notebook&lt;/td&gt;
 	&lt;td&gt;Debian&#39;s Iceweasel 35.0.1&lt;/td&gt;
-	&lt;td&gt;&quot;Mozilla/5.0 (X11; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0 Iceweasel/35.0.1&quot;&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Mozilla/5.0 (X11; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0 Iceweasel/35.0.1&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
