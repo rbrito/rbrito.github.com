@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sun, 22 Feb 2015 22:53:45 -0300</pubDate>
+<pubDate>Sun, 22 Feb 2015 23:01:49 -0300</pubDate>
 <item>
 	<title>User-Agent strings and privacy</title>
 
@@ -30,17 +30,10 @@
 
 
 	<pubDate>Sun, 22 Feb 2015 20:54:27 -0300</pubDate>
-	<dcterms:modified>2015-02-23T01:53:45Z</dcterms:modified>
+	<dcterms:modified>2015-02-23T02:01:49Z</dcterms:modified>
 
 
-	<description>&lt;p&gt;&lt;style&gt;
-table, th, td { border: 1px solid #999; border-collapse: collapse; }
-th, td { padding: .25em; }
-&lt;/style&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;user-agentstringsandprivacy&quot;&gt;User-Agent strings and privacy&lt;/h1&gt;
-
-&lt;p&gt;I just had my hands on some mobile devices (a Samsung&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S_8.4&quot;&gt;Galaxy Tab S 8.4&quot;&lt;/a&gt;,
+	<description>&lt;p&gt;I just had my hands on some mobile devices (a Samsung&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S_8.4&quot;&gt;Galaxy Tab S 8.4&quot;&lt;/a&gt;,
 an Apple&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/IPad_Mini_3&quot;&gt;iPad mini 3&lt;/a&gt;, and my no-name tablet that runs Android).&lt;/p&gt;
 
 &lt;p&gt;I got curious to see how the different browsers identify themselves to the
