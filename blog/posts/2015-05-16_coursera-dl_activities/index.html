@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>A Small Python Project (coursera-dl) Activites</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="../../combined.min.css" type="text/css" />
+
+
+<meta name="date" content="Sat, 16 May 2015 01:54:42 -0300" />
+
+
+</head>
+<body>
+
+<article class="page">
+
+<section class="pageheader">
+<header class="header">
+<script type="text/javascript">
+  bb_bid = "1692909";
+  bb_lang = "pt-BR";
+  bb_name = "custom";
+  bb_limit = "8";
+  bb_format = "bbb";
+</script>
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+<span>
+<span class="parentlinks">
+
+<a href="../../">Rogério Brito's Digital Junkyard</a> &#8594;
+
+<a href="../">posts</a> &#8594;
+
+</span>
+<span class="title">
+A Small Python Project (coursera-dl) Activites
+</span>
+</span>
+</header>
+
+
+
+</section>
+
+
+<aside class="sidebar">
+<p><a href="../../about/">About Me</a></p>
+
+<script type="text/javascript">
+  bb_bid = "1692909";
+  bb_lang = "pt-BR";
+  bb_name = "custom";
+  bb_limit = "6";
+  bb_format = "bbn";
+</script>
+
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+
+<iframe src="http://githubbadge.appspot.com/badge/rbrito"
+ style="border: 0;height: 150px;width: 200px;overflow: hidden"></iframe>
+
+</aside>
+
+
+<div id="pagebody">
+
+<section id="content">
+<p>Lately, I have been dedicating a lot of my time (well, at least compared to
+what I used to) to Free Software projects. In particular, I have spent a
+moderate amount of time with two projects written in Python.</p>
+
+<p>In this post, I want to talk about the first, more popular project is called
+<a href="https://github.com/coursera-dl/coursera">coursera-dl</a>.  To be honest, I think that I may have
+devoted much more time to it than to any other project in particular.</p>
+
+<p>With it I started to learn (besides the practices that I already used in
+Debian), how to program in Python, how to use unit tests (I started with
+Python's built-in <a href="https://docs.python.org/2/library/unittest.html"><code>unittest</code></a> framework, then progressed to
+<a href="https://nose.readthedocs.org/">nose</a>, and I am now using <a href="http://pytest.org/">pytest</a>),
+<a href="https://travis-ci.org/coursera-dl/coursera">hooking up the results of the tests</a> with a continuous
+integration system (in this case, <a href="https://travis-ci.org/">Travis CI</a>).</p>
+
+<p>I must say that I am sold on this idea of testing software (after being a
+skeptical for way too long) and I can say that I find hacking on other
+projects without proper testing a bit uncomfortable, since I don't know if I
+am breaking unrelated parts of the project.</p>
+
+<p>My use/migration to pytest was the result of a campaign from <code>pytest.org</code>
+called <a href="http://pytest.org/latest/adopt.html">Adopt Pytest Month</a> which a kind user of the project
+<a href="https://github.com/coursera-dl/coursera/issues/317">let me know about</a>.  I got a
+<a href="https://meejah.ca/">very skilled volunteer</a> assigned from pytest to our project.
+Besides learning from their pull requests, one side-effect of this whole
+story was that I spent a moderate amount of hours trying to understand how
+properly package and distribute things on <a href="https://pypi.python.org/pypi">PyPI</a>.</p>
+
+<p>One tip learned along the way: contrary to the official documentation, use
+<a href="https://pypi.python.org/pypi/twine">twine</a>, <em>not</em> <a href="https://docs.python.org/2/distutils/packageindex.html#the-upload-command"><code>python setup.py upload</code></a>. It is more
+flexible for uploading your package to PyPI.</p>
+
+<p>You can see <a href="https://pypi.python.org/pypi/coursera">the package on PyPI</a>.  Anyway, I made the
+first upload of the package to PyPI on the 1st of May and it already has
+almost 1500 download, which is far more than what I expected.</p>
+
+<p>A word of warning: there are other similarly named project, but they don't
+seem to have as much following as we have. A speculation from my side is
+that this may be, perhaps, due to me spending <em>a lot</em> of time interacting
+with users in the bug tracker that github provides.</p>
+
+<p>Anyway, installation of the program is now as simple as:</p>
+
+<pre><code>pip install coursera
+</code></pre>
+
+<p>And all the dependencies will be neatly pulled in, without having to mess
+with multi-step procedures. This is a big win for the users.</p>
+
+<p>Also, I even had an <a href="https://github.com/coursera-dl/coursera/pull/288#issuecomment-69610097">offer to package the program</a> to
+have it available in Debian!</p>
+
+<p>Well, despite all the time that this project demanded, I think that I have
+only good things to say, especially to the original author, <a href="https://twitter.com/jplehmann">John Lehmann</a>. <img src="../../smileys/smile.png" alt=":)" /></p>
+
+<p>If you like the project, <a href="https://twitter.com/rtdbrito">please let me know</a> and consider
+yourselves invited to participate <a href="https://github.com/coursera-dl/coursera#fork-destination-box">lending a hand</a>, testing/using the
+program or [triaging some bugs][issues].</p>
+
+</section>
+
+<div id="blogcomments">
+
+<div id="disqus_comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'digitaljunkyard'; // required: replace example with your forum shortname
+    var discus_identifier = 'posts/2015-05-16_coursera-dl_activities';
+    var disqus_url = 'http://cynic.cc/blog//posts/2015-05-16_coursera-dl_activities/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer id="footer" class="pagefooter">
+
+<nav id="pageinfo">
+
+
+
+
+<nav class="tags">
+Tags:
+
+<a href="../../tags/debian/" rel="tag">debian</a>
+
+<a href="../../tags/free-software/" rel="tag">free-software</a>
+
+<a href="../../tags/pypi/" rel="tag">pypi</a>
+
+<a href="../../tags/python/" rel="tag">python</a>
+
+<a href="../../tags/software-engineering/" rel="tag">software-engineering</a>
+
+</nav>
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <time datetime="2015-05-16T04:57:03Z">2015-05-16T01:57:03 BRT</time>
+<!-- Created <time datetime="2015-05-16T04:54:42Z" pubdate="pubdate">2015-05-16T01:54:42 BRT</time> -->
+</div>
+
+</nav>
+
+
+<!-- from Rogério Brito's Digital Junkyard -->
+</footer>
+
+</article>
+</body>
+</html>

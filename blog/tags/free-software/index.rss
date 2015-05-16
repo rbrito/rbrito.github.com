@@ -8,7 +8,93 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sun, 22 Feb 2015 23:01:49 -0300</pubDate>
+<pubDate>Sat, 16 May 2015 01:57:03 -0300</pubDate>
+<item>
+	<title>A Small Python Project (coursera-dl) Activites</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2015-05-16_coursera-dl_activities/</guid>
+
+	<link>http://cynic.cc/blog//posts/2015-05-16_coursera-dl_activities/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>pypi</category>
+
+	<category>python</category>
+
+	<category>software-engineering</category>
+
+
+	<pubDate>Sat, 16 May 2015 01:54:42 -0300</pubDate>
+	<dcterms:modified>2015-05-16T04:57:03Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Lately, I have been dedicating a lot of my time (well, at least compared to
+what I used to) to Free Software projects. In particular, I have spent a
+moderate amount of time with two projects written in Python.&lt;/p&gt;
+
+&lt;p&gt;In this post, I want to talk about the first, more popular project is called
+&lt;a href=&quot;https://github.com/coursera-dl/coursera&quot;&gt;coursera-dl&lt;/a&gt;.  To be honest, I think that I may have
+devoted much more time to it than to any other project in particular.&lt;/p&gt;
+
+&lt;p&gt;With it I started to learn (besides the practices that I already used in
+Debian), how to program in Python, how to use unit tests (I started with
+Python&#39;s built-in &lt;a href=&quot;https://docs.python.org/2/library/unittest.html&quot;&gt;&lt;code&gt;unittest&lt;/code&gt;&lt;/a&gt; framework, then progressed to
+&lt;a href=&quot;https://nose.readthedocs.org/&quot;&gt;nose&lt;/a&gt;, and I am now using &lt;a href=&quot;http://pytest.org/&quot;&gt;pytest&lt;/a&gt;),
+&lt;a href=&quot;https://travis-ci.org/coursera-dl/coursera&quot;&gt;hooking up the results of the tests&lt;/a&gt; with a continuous
+integration system (in this case, &lt;a href=&quot;https://travis-ci.org/&quot;&gt;Travis CI&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;I must say that I am sold on this idea of testing software (after being a
+skeptical for way too long) and I can say that I find hacking on other
+projects without proper testing a bit uncomfortable, since I don&#39;t know if I
+am breaking unrelated parts of the project.&lt;/p&gt;
+
+&lt;p&gt;My use/migration to pytest was the result of a campaign from &lt;code&gt;pytest.org&lt;/code&gt;
+called &lt;a href=&quot;http://pytest.org/latest/adopt.html&quot;&gt;Adopt Pytest Month&lt;/a&gt; which a kind user of the project
+&lt;a href=&quot;https://github.com/coursera-dl/coursera/issues/317&quot;&gt;let me know about&lt;/a&gt;.  I got a
+&lt;a href=&quot;https://meejah.ca/&quot;&gt;very skilled volunteer&lt;/a&gt; assigned from pytest to our project.
+Besides learning from their pull requests, one side-effect of this whole
+story was that I spent a moderate amount of hours trying to understand how
+properly package and distribute things on &lt;a href=&quot;https://pypi.python.org/pypi&quot;&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;One tip learned along the way: contrary to the official documentation, use
+&lt;a href=&quot;https://pypi.python.org/pypi/twine&quot;&gt;twine&lt;/a&gt;, &lt;em&gt;not&lt;/em&gt; &lt;a href=&quot;https://docs.python.org/2/distutils/packageindex.html#the-upload-command&quot;&gt;&lt;code&gt;python setup.py upload&lt;/code&gt;&lt;/a&gt;. It is more
+flexible for uploading your package to PyPI.&lt;/p&gt;
+
+&lt;p&gt;You can see &lt;a href=&quot;https://pypi.python.org/pypi/coursera&quot;&gt;the package on PyPI&lt;/a&gt;.  Anyway, I made the
+first upload of the package to PyPI on the 1st of May and it already has
+almost 1500 download, which is far more than what I expected.&lt;/p&gt;
+
+&lt;p&gt;A word of warning: there are other similarly named project, but they don&#39;t
+seem to have as much following as we have. A speculation from my side is
+that this may be, perhaps, due to me spending &lt;em&gt;a lot&lt;/em&gt; of time interacting
+with users in the bug tracker that github provides.&lt;/p&gt;
+
+&lt;p&gt;Anyway, installation of the program is now as simple as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip install coursera
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And all the dependencies will be neatly pulled in, without having to mess
+with multi-step procedures. This is a big win for the users.&lt;/p&gt;
+
+&lt;p&gt;Also, I even had an &lt;a href=&quot;https://github.com/coursera-dl/coursera/pull/288#issuecomment-69610097&quot;&gt;offer to package the program&lt;/a&gt; to
+have it available in Debian!&lt;/p&gt;
+
+&lt;p&gt;Well, despite all the time that this project demanded, I think that I have
+only good things to say, especially to the original author, &lt;a href=&quot;https://twitter.com/jplehmann&quot;&gt;John Lehmann&lt;/a&gt;. &lt;img src=&quot;http://cynic.cc/blog//tags/free-software/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you like the project, &lt;a href=&quot;https://twitter.com/rtdbrito&quot;&gt;please let me know&lt;/a&gt; and consider
+yourselves invited to participate &lt;a href=&quot;https://github.com/coursera-dl/coursera#fork-destination-box&quot;&gt;lending a hand&lt;/a&gt;, testing/using the
+program or [triaging some bugs][issues].&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>User-Agent strings and privacy</title>
 
@@ -1212,96 +1298,6 @@ separated by underscores. For example, &lt;code&gt;MAX_VALUE&lt;/code&gt;.&lt;/l
 function calls (whenever unambiguous) and, in essence, to write as little
 &quot;bureaucracy&quot; (like the explicit &lt;code&gt;return&lt;/code&gt; keyword in methods).&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Playing with MOOCs</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/playing_with_moocs/</guid>
-
-	<link>http://cynic.cc/blog//posts/playing_with_moocs/</link>
-
-
-
-	<category>debian</category>
-
-	<category>education</category>
-
-	<category>free-software</category>
-
-	<category>git</category>
-
-	<category>mooc</category>
-
-	<category>python</category>
-
-	<category>study</category>
-
-
-	<pubDate>Thu, 04 Jul 2013 08:33:00 -0300</pubDate>
-	<dcterms:modified>2013-07-04T12:25:16Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Not so much ago, we had a boom of new enterprises offering Massive Online
-Open Courses (MOOCs for short).&lt;/p&gt;
-
-&lt;p&gt;First were Thrun and Norvig (Artificial Intelligence), with Widom
-(Introduction to Databases) and Ng (Machine Learning). Then, these initial
-experiments led to the creation of Udacity (founded by Thrun) and Coursera
-(founded by Ng and Koller).&lt;/p&gt;
-
-&lt;p&gt;I have been keeping an eye on them for some time and, in fact, I have been
-contributing to a project similar to &lt;a href=&quot;https://github.com/rg3/youtube-dl&quot;&gt;youtube-dl&lt;/a&gt; (which
-&lt;a href=&quot;http://packages.debian.org/sid/youtube-dl&quot;&gt;I package for Debian&lt;/a&gt;), but focused on downloading videos from
-Cousera, called &lt;a href=&quot;https://github.com/jplehmann/coursera&quot;&gt;&lt;code&gt;coursera-dl&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I started contributing to &lt;code&gt;coursera-dl&lt;/code&gt; because I wanted to stratch some
-itches with downloading with &lt;a href=&quot;http://aria2.sourceforge.net/&quot;&gt;&lt;code&gt;aria2c&lt;/code&gt;&lt;/a&gt;, but soon the original
-author of the project granted me write permission to the repository and I
-have been one of the persons that commits the most, which is strange, since
-I was not the original creator of the program.&lt;/p&gt;
-
-&lt;p&gt;So far, from the courses that grant certificates, I have concluded the
-following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Algorithms: Design and Analysis, Part 1 (Coursera)&lt;/li&gt;
-&lt;li&gt;Machine Learning (Coursera)&lt;/li&gt;
-&lt;li&gt;Introduction to Databases (Coursera)&lt;/li&gt;
-&lt;li&gt;Quantum Mechanics and Quantum Computation (Coursera)&lt;/li&gt;
-&lt;li&gt;Introduction to Cryptography I (Coursera)&lt;/li&gt;
-&lt;li&gt;M101P: MongoDB for Developers (10gen)&lt;/li&gt;
-&lt;li&gt;M102: MongoDB for DBAs (10gen)&lt;/li&gt;
-&lt;li&gt;M101J: MongoDB for Java Developers (10gen)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I have to say that this have been a pleasant experience, with some of the
-courses being challenging, but not up to what an undergraduate course would
-be (and the fears of some people that such courses would threaten the
-conventional University-style model are a bit far at this point).&lt;/p&gt;
-
-&lt;p&gt;Anyway, talking about challenging courses, in particular, prof. Umesh
-Vazirani&#39;s &quot;Quantum Mechanics and Quantum Computation&quot; had a lot of
-(computational) work and this was one of the courses that prompted me to use
-a computer algebra system for manipulating some tedious calculations.&lt;/p&gt;
-
-&lt;p&gt;In particular, I used a mix of the &lt;a href=&quot;http://www.sagenb.org/&quot;&gt;online SAGE math server&lt;/a&gt; and
-&lt;a href=&quot;http://www.wolframalpha.com/&quot;&gt;Wolfram Alpha&lt;/a&gt;, whichever I found the syntax to be easier to use for
-the problem in question. It is with happiness that I see that there are
-efforts to &lt;a href=&quot;http://people.debian.org/~thansen/debian-sage-status.html&quot;&gt;get SAGE again packaged in Debian&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Another (positively) surprising course has been Dan Boneh&#39;s &quot;Introduction to
-Cryptography I&quot;, which was more theoretical and more serious than what I was
-expecting. It even included some nice proof sketches and discussion of
-recent results. The last course on cryptography that I took was in 1998 and
-&lt;em&gt;a lot&lt;/em&gt; of things changed since then, including the way to think about
-cryptography. But more on that on a future post.&lt;/p&gt;
-
-&lt;p&gt;There are some other courses that I may be completing soon and that I will
-post more about, with some reviews of the good and the bad parts of select
-ones.&lt;/p&gt;
 </description>
 
 
