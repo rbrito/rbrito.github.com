@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 26 Jan 2015 01:17:12 -0200</pubDate>
+<pubDate>Sat, 16 May 2015 00:42:14 -0300</pubDate>
 <item>
 	<title>Uploading SICP to Youtube</title>
 
@@ -486,6 +486,50 @@ aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
 
 </item>
 <item>
+	<title>2006-02-13</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-02-13/</guid>
+
+	<link>http://cynic.cc/blog//posts/2006-02-13/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>music</category>
+
+	<category>video</category>
+
+
+	<pubDate>Mon, 13 Feb 2006 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-05-16T03:42:14Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Today, most of &lt;a href=&quot;http://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 2.12 has entered
+testing, which is good. Also
+&lt;a href=&quot;http://www.openoffice.org/&quot;&gt;OpenOffice.org&lt;/a&gt; 2.0.1 also entered.
+Let&#39;s see if it plays some presentations that I have here that were
+&lt;em&gt;slow&lt;/em&gt; when played with OO.o 2.0.0.&lt;/p&gt;
+
+&lt;p&gt;Ugh! Paying through the roof for the mistakes made the other day.
+An arm and a leg. &lt;img src=&quot;http://cynic.cc/blog//tags/video/../../smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hooray! Finally the Nightwish torrent from their 2003-06-20 show is
+complete. It was a digital broadcast show and the quality is
+amazing. I only had this one on a DivX file, but now that I have
+the real thing, I will burn this one. The only &quot;problem&quot; is that it
+only uses half of a DVD. Is there any way of putting another show
+in a DVD, without having to author it and destroy its current
+structure? That would definitely be nice.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2005-12-28</title>
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-28/</guid>
@@ -577,52 +621,6 @@ done today!&lt;/p&gt;
 &lt;a href=&quot;http://arstechnica.com/&quot;&gt;Ars Technica&lt;/a&gt; has some quite interesting
 articles; much better (and more informative than
 &lt;a href=&quot;http://slashdot.org/&quot;&gt;Slashdot&lt;/a&gt;.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2005-12-25</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-12-25/</guid>
-
-	<link>http://cynic.cc/blog//posts/2005-12-25/</link>
-
-
-
-	<category>audio</category>
-
-	<category>debian</category>
-
-	<category>dvds</category>
-
-	<category>free-software</category>
-
-	<category>life</category>
-
-	<category>video</category>
-
-
-	<pubDate>Sun, 25 Dec 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-01-18T00:51:10Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Still encoding the videos. Some surprise here, because it seems
-that &lt;a href=&quot;http://packages.debian.org/toolame&quot;&gt;toolame&lt;/a&gt; has some bug
-when encoding audio in some cases. Had to fix some of the MPEGs.&lt;/p&gt;
-
-&lt;p&gt;And while I did that, I took some moments to fix some of the audio
-deficiencies with &lt;a href=&quot;http://packages.debian.org/audacity&quot;&gt;audacity&lt;/a&gt;.
-Too bad that Audacity doesn&#39;t have a Treeble booster filter built
-right into it, but only a generic (and harder to use) Equalization
-filter.&lt;/p&gt;
-
-&lt;p&gt;Oh, and it seems that Christian Marillat has packaged version 1.8.0
-of &lt;a href=&quot;http://mjpeg.sf.net/&quot;&gt;mjpegtools&lt;/a&gt;, while I&#39;m still using
-version 1.6.2. I don&#39;t want to switch right now, for consistency
-purposes with the videos that I already have encoded.&lt;/p&gt;
-
-&lt;p&gt;Oh, yes, still encoding videos. It is quite slow.&lt;/p&gt;
 </description>
 
 

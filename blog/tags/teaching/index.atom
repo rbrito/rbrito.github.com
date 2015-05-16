@@ -17,7 +17,152 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2015-01-18T00:55:35Z</updated>
+<updated>2015-05-16T03:46:40Z</updated>
+<entry>
+	<title>2006-02-21</title>
+
+	<id>http://cynic.cc/blog//posts/2006-02-21/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-02-21/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+	<category term="study" />
+
+	<category term="teaching" />
+
+	<category term="work" />
+
+
+	<updated>2015-05-16T03:46:40Z</updated>
+	<published>2006-02-21T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Got sick and went to the hospital. Unfortunately, I could&#39;t go to
+work. This has possibly messed with my schedule, but what exactly
+could I do? I&#39;m voiceless and the medications that I took gave me
+allergic reactions. These times have been a bit unfortunate.&lt;/p&gt;
+
+&lt;p&gt;Still have to go to &lt;a href=&quot;http://www.ime.usp.br/&quot;&gt;IME&lt;/a&gt; to study Abstract
+Algebra (in an undergraduate level, but who cares?), get the last
+parcel of my payment and the finals of
+&lt;a href=&quot;http://www.ime.usp.br/~rbrito/verao/2006&quot;&gt;the Summer Course&lt;/a&gt;
+(which I have to grade soon).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-02-08</title>
+
+	<id>http://cynic.cc/blog//posts/2006-02-08/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-02-08/"/>
+
+
+
+
+
+
+	<category term="teaching" />
+
+	<category term="work" />
+
+
+	<updated>2015-05-16T03:38:57Z</updated>
+	<published>2006-02-08T02:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Back to &quot;school&quot;. The classes on &quot;Design of Algorithms&quot; will be my
+playground this semester, together with the classes on
+&quot;Introduction to Compilers&quot;. Let&#39;s see how the experiment turns out
+to be.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-01-22</title>
+
+	<id>http://cynic.cc/blog//posts/2006-01-22/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-01-22/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+	<category term="study" />
+
+	<category term="teaching" />
+
+
+	<updated>2015-05-16T03:36:59Z</updated>
+	<published>2006-01-22T02:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Trying to catch up with most of the things that I still have to do.
+Sleeping well was one of these things.&lt;/p&gt;
+
+&lt;p&gt;And tomorrow is my student&#39;s midterm. I hope that they find the
+test challenging while, at the same time, informative.&lt;/p&gt;
+
+&lt;p&gt;The CWEB implementation of my Gauss Integers class in C++ with
+computation of quotient and remainder is getting cleaner. But I&#39;d
+still like to implement it in a better &quot;literate style&quot; and use the
+&quot;Cheshire Cat&quot; trick to have better use of data encapsulation.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-01-07</title>
+
+	<id>http://cynic.cc/blog//posts/2006-01-07/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-01-07/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+	<category term="teaching" />
+
+
+	<updated>2015-05-16T03:35:52Z</updated>
+	<published>2006-01-07T02:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Mostly a futile day. Well, not entirely lost, because I put a new
+quiz for the
+&lt;a href=&quot;http://www.ime.usp.br/~rbrito/verao/&quot;&gt;Summer Course&lt;/a&gt;.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>2006-01-05</title>
 
@@ -260,115 +405,6 @@ opportunity to get the things &quot;the right way&quot; and put an
 introduction on Mathematical Induction, on Recursion and on
 Algorithm/Loop Invariants, since they aren&#39;t covered in details for
 novices in any of the books that I know.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2004-11-21</title>
-
-	<id>http://cynic.cc/blog//posts/2004-11-21/</id>
-
-	<link href="http://cynic.cc/blog//posts/2004-11-21/"/>
-
-
-
-
-
-
-	<category term="life" />
-
-	<category term="teaching" />
-
-
-	<updated>2014-01-24T06:59:30Z</updated>
-	<published>2004-11-21T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Not only one, but
-&lt;a href=&quot;http://www.orkut.com/Community.aspx?cmm=684957&quot;&gt;two&lt;/a&gt;
-&lt;a href=&quot;http://www.orkut.com/Community.aspx?cmm=642523&quot;&gt;communities&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;And I&#39;m &lt;em&gt;still&lt;/em&gt; going thru heaps of mid-terms. They never seem to
-end.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2004-11-13</title>
-
-	<id>http://cynic.cc/blog//posts/2004-11-13/</id>
-
-	<link href="http://cynic.cc/blog//posts/2004-11-13/"/>
-
-
-
-
-
-
-	<category term="life" />
-
-	<category term="teaching" />
-
-
-	<updated>2014-01-24T06:58:55Z</updated>
-	<published>2004-11-13T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;I discovered that maybe I slightly more popular than I thought. &lt;img src=&quot;http://cynic.cc/blog//tags/teaching/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;
-I even have
-&lt;a href=&quot;http://www.orkut.com/Community.aspx?cmm=642523&quot;&gt;the honour(?) of having an orkut community&lt;/a&gt;
-dedicated to me. Nice.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2003-01-27</title>
-
-	<id>http://cynic.cc/blog//posts/2003-01-27/</id>
-
-	<link href="http://cynic.cc/blog//posts/2003-01-27/"/>
-
-
-
-
-
-
-	<category term="life" />
-
-	<category term="music" />
-
-	<category term="study" />
-
-	<category term="teaching" />
-
-
-	<updated>2014-01-24T06:46:20Z</updated>
-	<published>2003-01-27T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Today I got myself a new bootleg, from Opeth&#39;s current tour. I
-haven&#39;t had time to actually listen to it, but it sounds good so
-far (obviously, it is just an audience recording -- no soundboard
-quality expected).&lt;/p&gt;
-
-&lt;p&gt;I also took away some
-&lt;a href=&quot;http://www.fenix.usp.br/&quot;&gt;bureacratic requirements&lt;/a&gt; regarding my
-course.&lt;/p&gt;
-
-&lt;p&gt;And today is my students&#39; &quot;mid-term&quot;. Let&#39;s see how they fare at
-that.&lt;/p&gt;
 
 	</content>
 

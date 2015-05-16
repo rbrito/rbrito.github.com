@@ -8,7 +8,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 17 Jan 2015 22:45:35 -0200</pubDate>
+<pubDate>Sat, 16 May 2015 00:42:36 -0300</pubDate>
 <item>
 	<title>Trivial fact #3: Continued fractions via matrices</title>
 
@@ -379,6 +379,79 @@ the typographic arena is alive and going strong.&lt;/p&gt;
 &lt;p&gt;Martin&#39;s port of xpdf doesn&#39;t compile with a recent poppler, though: the library has &lt;a href=&quot;http://lists.freedesktop.org/archives/poppler/2009-May/004665.html&quot;&gt;changed&lt;/a&gt; &lt;a href=&quot;http://lists.debian.org/debian-devel/2007/12/msg00501.html&quot;&gt;a lot&lt;/a&gt; &lt;a href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=551119#c3&quot;&gt;since&lt;/a&gt; &lt;a href=&quot;http://lists.debian.org/debian-tex-maint/2009/09/msg00203.html&quot;&gt;2006&lt;/a&gt;.  And, in many respects, for good reason, since the original code is not that clean. But it makes harder for luses like me to use code based on fast-changing libraries.&lt;/p&gt;
 
 &lt;p&gt;Well, to cut a long story short, after two afternoons hunting down a  version of poppler that would allow me to compile Martin&#39;s xpdf version, I got bored and tried to attack the problem.  Now I can use  this alternative version of xpdf with the poppler backend, with very little dependencies and with little memory usage on my computer. I&#39;m keeping it for my private use, but if anybody else is interested, please let me know.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2006-02-14</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-02-14/</guid>
+
+	<link>http://cynic.cc/blog//posts/2006-02-14/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>tex</category>
+
+
+	<pubDate>Tue, 14 Feb 2006 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-05-16T03:42:36Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Since the new teTeX has entered testing, I am playing with fonts.
+Just
+(re)-&lt;a href=&quot;http://www.tex.ac.uk/cgi-bin/texfaq2html?introduction=yes&quot;&gt;discovered&lt;/a&gt;
+that the Base35 set is already packaged in a neat way. The
+available fonts are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;avant&lt;/code&gt;: uses AvantGarde for sans-serif fonts&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;courier&lt;/code&gt;: uses Courier for constant-size fonts&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;times&lt;/code&gt;: uses Times for proportional-size fonts (superceded by
+&lt;code&gt;mathptmx&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;palatino&lt;/code&gt;: uses Palatino for proportional-size fonts (superceded
+by &lt;code&gt;mathpazo&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;newcent&lt;/code&gt;: uses New Century Schoolbook for proportional-size
+fonts&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;helvet&lt;/code&gt;: uses Helvetica for proportional-size fonts&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2006-02-12</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-02-12/</guid>
+
+	<link>http://cynic.cc/blog//posts/2006-02-12/</link>
+
+
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>tex</category>
+
+
+	<pubDate>Sun, 12 Feb 2006 00:00:00 -0200</pubDate>
+	<dcterms:modified>2015-05-16T03:40:10Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Holy, shit! What a disasterous day: two car accidents in just one
+day, mostly due to wandering around unknown and rainy places at
+night (almost lost). This will cost me a good deal.&lt;/p&gt;
+
+&lt;p&gt;And, to boot it, my heart had an accident too. Oh.&lt;/p&gt;
+
+&lt;p&gt;On the bright side of things, teTeX 3.0 has entered testing, which
+means quite a handful of new features and packages.&lt;/p&gt;
 </description>
 
 

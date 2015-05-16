@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2015-01-18T00:39:41Z</updated>
+<updated>2015-05-16T03:42:14Z</updated>
 <entry>
 	<title>Paco de Lucia</title>
 
@@ -576,6 +576,56 @@ it is an amazing piece of music. Recommended for all fans of good music.&lt;/p&g
 
 </entry>
 <entry>
+	<title>2006-02-13</title>
+
+	<id>http://cynic.cc/blog//posts/2006-02-13/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-02-13/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="life" />
+
+	<category term="music" />
+
+	<category term="video" />
+
+
+	<updated>2015-05-16T03:42:14Z</updated>
+	<published>2006-02-13T02:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Today, most of &lt;a href=&quot;http://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 2.12 has entered
+testing, which is good. Also
+&lt;a href=&quot;http://www.openoffice.org/&quot;&gt;OpenOffice.org&lt;/a&gt; 2.0.1 also entered.
+Let&#39;s see if it plays some presentations that I have here that were
+&lt;em&gt;slow&lt;/em&gt; when played with OO.o 2.0.0.&lt;/p&gt;
+
+&lt;p&gt;Ugh! Paying through the roof for the mistakes made the other day.
+An arm and a leg. &lt;img src=&quot;http://cynic.cc/blog//tags/music/../../smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hooray! Finally the Nightwish torrent from their 2003-06-20 show is
+complete. It was a digital broadcast show and the quality is
+amazing. I only had this one on a DivX file, but now that I have
+the real thing, I will burn this one. The only &quot;problem&quot; is that it
+only uses half of a DVD. Is there any way of putting another show
+in a DVD, without having to author it and destroy its current
+structure? That would definitely be nice.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>2005-07-31</title>
 
 	<id>http://cynic.cc/blog//posts/2005-07-31/</id>
@@ -677,76 +727,6 @@ earlier than its official release date (30th of August), according
 to
 &lt;a href=&quot;http://www.roadrunnerrecords.com/blabbermouth.net/news.aspx?mode=Article&amp;amp;newsitemID=39014&quot;&gt;Blabbermouth&lt;/a&gt;.
 Sweet!&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2005-05-30</title>
-
-	<id>http://cynic.cc/blog//posts/2005-05-30/</id>
-
-	<link href="http://cynic.cc/blog//posts/2005-05-30/"/>
-
-
-
-
-
-
-	<category term="free-software" />
-
-	<category term="life" />
-
-	<category term="linux" />
-
-	<category term="music" />
-
-
-	<updated>2014-06-11T14:01:07Z</updated>
-	<published>2005-05-30T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;I think that I have fallen in love with
-&lt;a href=&quot;http://www.afterforever.com/new/pages/photos/pinkpop04/original/16.JPG&quot;&gt;Floor&lt;/a&gt;
-&lt;a href=&quot;http://www.afterforever.com/new/pages/photos/pinkpop04/original/11.JPG&quot;&gt;Jansen&lt;/a&gt;.
-Or would that be
-&lt;a href=&quot;http://www.within-temptation.com.br/info/integrantes/sharon.htm&quot;&gt;Sharon den Adel&lt;/a&gt;?
-Or would that be Anneke van Giersbergen? Or would that be Liv
-Kristine? Or &lt;a href=&quot;http://www.tarjaturunen.com/&quot;&gt;Tarja Turunen&lt;/a&gt;? I
-sincerely don&#39;t know.&lt;/p&gt;
-
-&lt;p&gt;In other news, the floppy drive of my Desktop has decided to be
-deceased, unfortunately. I &quot;fixed&quot; the problem by cannibalizing my
-old 486 and getting its floopy drive to serve as a substitute.
-Worked like a charm! It is a pain to have to open both machines and
-to get the hands dirty, but at least, it seems that I am not a
-Computer Scientist that doesn&#39;t even know how to fix his own
-boxes.&lt;/p&gt;
-
-&lt;p&gt;Oh, I wrote a little bit more regarding the Linux course that I
-will teach at my local University. The program is getting huge and
-I will probably be covering things that are not very well
-documented (yes, I&#39;ll have to study such topics), but it will be
-rewarding for the students (and among such &quot;students&quot; of mine I
-will have many co-workers!).&lt;/p&gt;
-
-&lt;p&gt;My plan is to make such a course be sufficient for certification
-purposes of those that will be taking it. Of course, with a twist
-and a high dose of Unix philosophy (which is good anyway, for
-everybody).&lt;/p&gt;
-
-&lt;p&gt;Oh, and Debian never ceases to amaze me! I have just discovered a
-very handy packaged called
-&lt;a href=&quot;http://packages.debian.org/freepops&quot;&gt;freepops&lt;/a&gt; that lets me
-download my mail from my old account at
-&lt;a href=&quot;http://www.mail.com/&quot;&gt;mail.com&lt;/a&gt; via pop3. Quite nice to be able to
-use that address again. And also as a bonus, it also acts as a
-front-end for &lt;a href=&quot;http://mail.yahoo.com/&quot;&gt;mail.yahoo.com&lt;/a&gt;, which means
-that I am again able to read my mail there (again via pop3). So
-nice that I can&#39;t even describe how happy I am.&lt;/p&gt;
 
 	</content>
 
