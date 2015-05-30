@@ -548,6 +548,51 @@ a.openid_large_btn:focus {
 .trailsep {
 	display: none;
 }
+
+/* mobile/small-screen-friendly layout */
+@media (max-width: 600px) {
+	.sidebar {
+		width: auto;
+		float: none;
+		margin-top: 0;
+		border: none;
+	}
+
+	/* if the mobile browser is new enough, use flex layout to shuffle
+	 * the sidebar to the end */
+	.page {
+		display: -webkit-box;
+		display: -webkit-flexbox;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-flex-direction: tb;
+		-webkit-flex-direction: column;
+		-webkit-flex-flow: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	#pageheader {
+		-webkit-box-ordinal-group: -1;
+		-webkit-order: -1;
+		-ms-box-ordinal-group: -1;
+		-ms-flex-order: -1;
+		order: -1;
+	}
+	.sidebar, #footer {
+		-webkit-box-ordinal-group: 1;
+		-webkit-order: 1;
+		-ms-box-ordinal-group: 1;
+		-ms-flex-order: 1;
+		order: 1;
+	}
+
+	.blogform, #blogform {
+		padding: 4px 4px;
+	}
+}
 /* actiontabs theme for ikiwiki
  *
  * by svend
@@ -696,4 +741,14 @@ div.recentchanges {
 .pageheader .trails {
 	/* allow space for the action tabs */
 	margin-bottom: 2em;
+}
+
+@media (max-width: 600px) {
+	#content, #enclosure, #comments, #footer {
+		margin: 0.5em;
+	}
+	.pageheader .actions ul li {
+		padding: .1em .2em 0 .2em;
+		font-size: 0.8em;
+	}
 }
