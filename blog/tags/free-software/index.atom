@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2015-05-16T04:57:03Z</updated>
+<updated>2015-05-30T00:00:08Z</updated>
 <entry>
 	<title>A Small Python Project (coursera-dl) Activites</title>
 
@@ -41,7 +41,7 @@
 	<category term="software-engineering" />
 
 
-	<updated>2015-05-16T04:57:03Z</updated>
+	<updated>2015-05-30T00:00:08Z</updated>
 	<published>2015-05-16T04:54:42Z</published>
 
 
@@ -80,9 +80,9 @@ flexible for uploading your package to PyPI.&lt;/p&gt;
 
 &lt;p&gt;You can see &lt;a href=&quot;https://pypi.python.org/pypi/coursera&quot;&gt;the package on PyPI&lt;/a&gt;.  Anyway, I made the
 first upload of the package to PyPI on the 1st of May and it already has
-almost 1500 download, which is far more than what I expected.&lt;/p&gt;
+almost 1500 downloads, which is far more than what I expected.&lt;/p&gt;
 
-&lt;p&gt;A word of warning: there are other similarly named project, but they don&#39;t
+&lt;p&gt;A word of warning: there are other similarly named projects, but they don&#39;t
 seem to have as much following as we have. A speculation from my side is
 that this may be, perhaps, due to me spending &lt;em&gt;a lot&lt;/em&gt; of time interacting
 with users in the bug tracker that github provides.&lt;/p&gt;
@@ -103,7 +103,7 @@ only good things to say, especially to the original author, &lt;a href=&quot;htt
 
 &lt;p&gt;If you like the project, &lt;a href=&quot;https://twitter.com/rtdbrito&quot;&gt;please let me know&lt;/a&gt; and consider
 yourselves invited to participate &lt;a href=&quot;https://github.com/coursera-dl/coursera#fork-destination-box&quot;&gt;lending a hand&lt;/a&gt;, testing/using the
-program or [triaging some bugs][issues].&lt;/p&gt;
+program or &lt;a href=&quot;https://github.com/coursera-dl/coursera/issues&quot;&gt;triaging some bugs&lt;/a&gt;.&lt;/p&gt;
 
 	</content>
 
