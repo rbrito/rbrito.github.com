@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <rss version="2.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/" >
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>pages tagged unix</title>
 <link>http://cynic.cc/blog//tags/unix/</link>
+<atom:link href="http://cynic.cc/blog//tags/unix/index.rss" rel="self" type="application/rss+xml"/>
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
@@ -29,7 +31,7 @@
 
 	<description>&lt;p&gt;Another usual day, without much to say. I&#39;ve been struggling to use
 my University&#39;s network, but the system administrators take so
-little care of it... What a pity. &lt;img src=&quot;http://cynic.cc/blog//tags/unix/../../smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt; My home system is in better
+little care of it... What a pity. &lt;img src=&quot;http://cynic.cc/blog//smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt; My home system is in better
 shape, actually (ok, but them I&#39;m a nerd that almost lives for his
 computer and that may be an excuse, but I thought that it was a
 prerequisite for all system administrators to be one).&lt;/p&gt;

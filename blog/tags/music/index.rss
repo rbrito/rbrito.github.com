@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <rss version="2.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/" >
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>pages tagged music</title>
 <link>http://cynic.cc/blog//tags/music/</link>
+<atom:link href="http://cynic.cc/blog//tags/music/index.rss" rel="self" type="application/rss+xml"/>
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
@@ -147,7 +149,7 @@ reasons that I mentioned in a comments to issue 1612:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Otherwise, to download 480p videos (which I do for lectures and so on with
   other projects of mine, like edx-dl) I have to call youtube-dl twice: once
-  for format 135 and another for format 140, since the old &lt;img src=&quot;http://cynic.cc/blog//tags/music/../../smileys/question.png&quot; alt=&quot;(?)&quot; /&gt; format 35
+  for format 135 and another for format 140, since the old &lt;img src=&quot;http://cynic.cc/blog//smileys/question.png&quot; alt=&quot;(?)&quot; /&gt; format 35
   files are much smaller than the lower resolution 360p files (due to the
   former being encoded in High profile vs. the latter being encoded in
   Constrained Baseline profile).&lt;/p&gt;
@@ -561,7 +563,7 @@ Let&#39;s see if it plays some presentations that I have here that were
 &lt;em&gt;slow&lt;/em&gt; when played with OO.o 2.0.0.&lt;/p&gt;
 
 &lt;p&gt;Ugh! Paying through the roof for the mistakes made the other day.
-An arm and a leg. &lt;img src=&quot;http://cynic.cc/blog//tags/music/../../smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt;&lt;/p&gt;
+An arm and a leg. &lt;img src=&quot;http://cynic.cc/blog//smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Hooray! Finally the Nightwish torrent from their 2003-06-20 show is
 complete. It was a digital broadcast show and the quality is

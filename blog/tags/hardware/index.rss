@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <rss version="2.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/" >
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>pages tagged hardware</title>
 <link>http://cynic.cc/blog//tags/hardware/</link>
+<atom:link href="http://cynic.cc/blog//tags/hardware/index.rss" rel="self" type="application/rss+xml"/>
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
@@ -82,7 +84,7 @@ proper.&lt;/p&gt;
 	<description>&lt;p&gt;Today I bought some books at Pearson Education. They were not that
 cheap, but I think that some of their content is worth the amount
 spent. During the time I was there, BTW, I met 8 colleagues (at
-least, that I could count). So much for coincidence. &lt;img src=&quot;http://cynic.cc/blog//tags/hardware/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
+least, that I could count). So much for coincidence. &lt;img src=&quot;http://cynic.cc/blog//smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;After that, I went to Santa Ifigênia to get myself an used Duron
 1.3GHz processor (actually, I went there to get conductive ink so
@@ -177,7 +179,7 @@ Debian&#39;s sarge &quot;official&quot; compiler seems to be
 
 &lt;p&gt;This machine is desperately in need of a memory upgrade, but it
 seems that not even &lt;a href=&quot;http://www.crucial.com&quot;&gt;Crucial&lt;/a&gt; has it
-available anymore. &lt;img src=&quot;http://cynic.cc/blog//tags/hardware/../../smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt;&lt;/p&gt;
+available anymore. &lt;img src=&quot;http://cynic.cc/blog//smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt;&lt;/p&gt;
 </description>
 
 

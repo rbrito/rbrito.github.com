@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <rss version="2.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/" >
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>pages tagged lazyweb</title>
 <link>http://cynic.cc/blog//tags/lazyweb/</link>
+<atom:link href="http://cynic.cc/blog//tags/lazyweb/index.rss" rel="self" type="application/rss+xml"/>
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
@@ -55,10 +57,10 @@ multi-camera video?&lt;/p&gt;
 
 &lt;p&gt;What would my options be? I &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT43j64jh8zLRYCMVRnJQgINcgSOhf-5Ozg&quot;&gt;asked this&lt;/a&gt; on youtube for a person that
 &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&quot;&gt;did exactly what I want&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT6jkGhCF9g1RzmZAsFIGmYzChDJwqwovNc&quot;&gt;their answer&lt;/a&gt; was &lt;a href=&quot;https://en.wikipedia.org/wiki/Sony_Vegas_Pro&quot;&gt;Sony Vegas&lt;/a&gt;,
-which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://cynic.cc/blog//tags/lazyweb/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://cynic.cc/blog//smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Any comments are welcome, thanks, and if I am successful, I will upload the
-final video. &lt;img src=&quot;http://cynic.cc/blog//tags/lazyweb/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+final video. &lt;img src=&quot;http://cynic.cc/blog//smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 </description>
 
 

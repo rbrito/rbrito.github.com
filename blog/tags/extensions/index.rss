@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <rss version="2.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/" >
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>pages tagged extensions</title>
 <link>http://cynic.cc/blog//tags/extensions/</link>
+<atom:link href="http://cynic.cc/blog//tags/extensions/index.rss" rel="self" type="application/rss+xml"/>
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
@@ -31,7 +33,7 @@
 	<dcterms:modified>2011-03-12T03:52:56Z</dcterms:modified>
 
 
-	<description>&lt;p&gt;In &lt;a href=&quot;http://cynic.cc/blog//tags/extensions/../../posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
+	<description>&lt;p&gt;In &lt;a href=&quot;http://cynic.cc/blog//posts/problems_with_chromium/&quot;&gt;my previous post&lt;/a&gt;, I was pointing out some of
 my frustrations with Chromium/Chrome.  A very kind reader, Timo Juhani
 Lindfors, gave me answers to many of the problems that I pointed out and got
 me straight on some issues:&lt;/p&gt;

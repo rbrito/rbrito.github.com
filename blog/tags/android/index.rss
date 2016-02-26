@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <rss version="2.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/" >
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>pages tagged android</title>
 <link>http://cynic.cc/blog//tags/android/</link>
+<atom:link href="http://cynic.cc/blog//tags/android/index.rss" rel="self" type="application/rss+xml"/>
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
@@ -178,7 +180,7 @@ Emacs and compile the programs with command-line tools.&lt;/p&gt;
 &lt;p&gt;Despite being huge, Eclipse has some really nice features and the
 auto-completion is amazing. Since Java is so strongly typed and Eclipse
 knows Java pretty well, it almost completely writes your programs for you.
-&lt;img src=&quot;http://cynic.cc/blog//tags/android/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://cynic.cc/blog//smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Of course, my interest also made me want to streamline the build process and
 use the command line tools (with ant, another tool that was &quot;alien&quot; to me,
@@ -186,7 +188,7 @@ having used makefiles for everything that I needed).&lt;/p&gt;
 
 &lt;p&gt;The use of Eclipse (and the Android development environment in general) in
 my Debian unstable computers
-&lt;a href=&quot;http://cynic.cc/blog//tags/android/../../posts/2014-01-17-developing_for_android_with_debian/&quot;&gt;was not&lt;/a&gt;
+&lt;a href=&quot;http://cynic.cc/blog//posts/2014-01-17-developing_for_android_with_debian/&quot;&gt;was not&lt;/a&gt;
 &lt;a href=&quot;https://bugs.debian.org/734674&quot;&gt;without problems&lt;/a&gt;, but after spending more time trying to fix Eclipse
 than really doing the homework (and pulling the little hair that I still
 have left), one really helpful post &lt;a href=&quot;http://aleksz-programming.blogspot.com/2013/03/eclipse-and-webkit-on-ubuntu-64.html&quot;&gt;nailed it&lt;/a&gt;. (Yes, I had to remove

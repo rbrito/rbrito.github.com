@@ -48,7 +48,7 @@
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;I wrote in a &lt;a href=&quot;http://cynic.cc/blog//tags/multimedia/../../posts/2013-10-23-assorted_news/#youtube-dl&quot;&gt;previous post&lt;/a&gt; that
+	&lt;p&gt;I wrote in a &lt;a href=&quot;http://cynic.cc/blog//posts/2013-10-23-assorted_news/#youtube-dl&quot;&gt;previous post&lt;/a&gt; that
 Youtube changed their way of delivering videos, with the use of
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Dynamic%20Adaptive%20Streaming%20over%20HTTP&quot;&gt;Dynamic Adaptive Streaming over HTTP&lt;/a&gt;.  On top of that, they
 started serving both the audio and the video in separate streams, which
@@ -72,7 +72,7 @@ meant trouble for downloader tools like &lt;a href=&quot;http://youtube-dl.org/&
 &lt;blockquote&gt;
   &lt;p&gt;Otherwise, to download 480p videos (which I do for lectures and so on with
   other projects of mine, like edx-dl) I have to call youtube-dl twice: once
-  for format 135 and another for format 140, since the old &lt;img src=&quot;http://cynic.cc/blog//tags/multimedia/../../smileys/question.png&quot; alt=&quot;(?)&quot; /&gt; format 35
+  for format 135 and another for format 140, since the old &lt;img src=&quot;http://cynic.cc/blog//smileys/question.png&quot; alt=&quot;(?)&quot; /&gt; format 35
   files are much smaller than the lower resolution 360p files (due to the
   former being encoded in High profile vs. the latter being encoded in
   Constrained Baseline profile).&lt;/p&gt;
@@ -156,10 +156,10 @@ multi-camera video?&lt;/p&gt;
 
 &lt;p&gt;What would my options be? I &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT43j64jh8zLRYCMVRnJQgINcgSOhf-5Ozg&quot;&gt;asked this&lt;/a&gt; on youtube for a person that
 &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&quot;&gt;did exactly what I want&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=0e7IPeuK1tQ&amp;amp;lc=Zwz7xq5ANT6jkGhCF9g1RzmZAsFIGmYzChDJwqwovNc&quot;&gt;their answer&lt;/a&gt; was &lt;a href=&quot;https://en.wikipedia.org/wiki/Sony_Vegas_Pro&quot;&gt;Sony Vegas&lt;/a&gt;,
-which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://cynic.cc/blog//tags/multimedia/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+which I fear that does not exactly would be allowed in Debian. &lt;img src=&quot;http://cynic.cc/blog//smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Any comments are welcome, thanks, and if I am successful, I will upload the
-final video. &lt;img src=&quot;http://cynic.cc/blog//tags/multimedia/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+final video. &lt;img src=&quot;http://cynic.cc/blog//smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 
 	</content>
 
@@ -267,7 +267,7 @@ stuff.&lt;/p&gt;
 
 &lt;p&gt;This way, at least people will have some material (in, fact, a chance) to play with this format.  I implemented this because, so far, I was only hoping here that a player for this would emerge. I guess that Debian&#39;s ffmpeg/mplayer will take some time, but I was pleased to see that Sebastian Dröge to upload a version of &lt;a href=&quot;http://lists.debian.org/debian-devel-changes/2010/05/msg02596.html&quot;&gt;something&lt;/a&gt; that could use the new &lt;code&gt;libvpx&lt;/code&gt; codec.&lt;/p&gt;
 
-&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;http://cynic.cc/blog//tags/multimedia/../../smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I hope that, now, as a side effect of webm being widely available, more people become interested in &lt;a href=&quot;http://www.vorbis.com/&quot;&gt;Vorbis&lt;/a&gt;. More support (no, not &quot;alternative&quot;, like &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;Rockbox&lt;/a&gt;, but straight from the manufacturers) for it in hardware devices will be sweet. Well, I can dream. &lt;img src=&quot;http://cynic.cc/blog//smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Well, it seems to be time to shape up that local build of mine of the &lt;a href=&quot;http://www.geocities.jp/aoyoume/aotuv/&quot;&gt;aotuv&lt;/a&gt; tuned version of Vorbis with &lt;a href=&quot;http://www.geocities.jp/aoyoume/&quot;&gt;Aoyumi&lt;/a&gt;&#39;s patches for libvorbis.&lt;/p&gt;
 

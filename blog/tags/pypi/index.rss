@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <rss version="2.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/" >
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>pages tagged pypi</title>
 <link>http://cynic.cc/blog//tags/pypi/</link>
+<atom:link href="http://cynic.cc/blog//tags/pypi/index.rss" rel="self" type="application/rss+xml"/>
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
@@ -86,7 +88,7 @@ with multi-step procedures. This is a big win for the users.&lt;/p&gt;
 have it available in Debian!&lt;/p&gt;
 
 &lt;p&gt;Well, despite all the time that this project demanded, I think that I have
-only good things to say, especially to the original author, &lt;a href=&quot;https://twitter.com/jplehmann&quot;&gt;John Lehmann&lt;/a&gt;. &lt;img src=&quot;http://cynic.cc/blog//tags/pypi/../../smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
+only good things to say, especially to the original author, &lt;a href=&quot;https://twitter.com/jplehmann&quot;&gt;John Lehmann&lt;/a&gt;. &lt;img src=&quot;http://cynic.cc/blog//smileys/smile.png&quot; alt=&quot;:)&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you like the project, &lt;a href=&quot;https://twitter.com/rtdbrito&quot;&gt;please let me know&lt;/a&gt; and consider
 yourselves invited to participate &lt;a href=&quot;https://github.com/coursera-dl/coursera#fork-destination-box&quot;&gt;lending a hand&lt;/a&gt;, testing/using the

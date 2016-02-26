@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <rss version="2.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcterms="http://purl.org/dc/terms/" >
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>pages tagged btrfs</title>
 <link>http://cynic.cc/blog//tags/btrfs/</link>
+<atom:link href="http://cynic.cc/blog//tags/btrfs/index.rss" rel="self" type="application/rss+xml"/>
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
@@ -102,7 +104,7 @@ reasons that I mentioned in a comments to issue 1612:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Otherwise, to download 480p videos (which I do for lectures and so on with
   other projects of mine, like edx-dl) I have to call youtube-dl twice: once
-  for format 135 and another for format 140, since the old &lt;img src=&quot;http://cynic.cc/blog//tags/btrfs/../../smileys/question.png&quot; alt=&quot;(?)&quot; /&gt; format 35
+  for format 135 and another for format 140, since the old &lt;img src=&quot;http://cynic.cc/blog//smileys/question.png&quot; alt=&quot;(?)&quot; /&gt; format 35
   files are much smaller than the lower resolution 360p files (due to the
   former being encoded in High profile vs. the latter being encoded in
   Constrained Baseline profile).&lt;/p&gt;
