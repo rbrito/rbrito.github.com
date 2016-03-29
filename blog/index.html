@@ -74,6 +74,76 @@ Rogério Brito's Digital Junkyard
 
 <header class="header">
 
+<a href="./posts/2016-03-29_partially_switching_to_chromium/">Partially switching to Chromium</a>
+
+</header>
+</section>
+
+<section class="inlinecontent">
+<p>In the interest of being as brief as possible (just ask for details if you
+want to know more or if you think that it would help), I have started,
+against my preferences, to start using chromium from Debian instead of
+Firefox (aka, Iceweasel).</p>
+
+<p>The reason? I have a slow computer (a Core 2 Duo T7250). My main computer.
+My workhorse.</p>
+
+<p>There are some sites that even with an empty profile and a vanilla Firefox
+build right from Mozilla Foundation cause Firefox to generate a very heavy
+CPU load.  I <a href="https://twitter.com/rtdbrito/status/703098330629296128">briefly reported this via Twitter</a> to one (but not the
+only!) of the <a href="https://web.telegram.org/">sites in question</a> and to <a href="https://www.fxsitecompat.com/">Firefox Site Compatibility</a>.</p>
+
+<p>What do I see? Many CSS and redraw events (thanks to Firefox's profiling
+tools). In fact, as many events that Firefox alone is able to completely
+take over 1 (of the 2) cores that I have, with just that single tab open.</p>
+
+<p>I don't see those problems with Chromium, unfortunately (or, at least, they
+are not that perceptible to my computer's CPU).</p>
+
+<p>So, before I go on and formally file a bug report, I would love to confirm
+if other people see the same problems that I am seeing. Do you also see
+something similar? Your input is highly welcome!</p>
+
+</section>
+
+<footer class="inlinefooter">
+
+<span class="pagedate">
+Posted <time datetime="2016-03-29T05:25:15Z" pubdate="pubdate">2016-03-29T02:25:15 BRT</time>
+</span>
+
+
+<nav class="tags">
+Tags:
+
+<a href="./tags/chromium/" rel="tag">chromium</a>
+
+<a href="./tags/debian/" rel="tag">debian</a>
+
+<a href="./tags/firefox/" rel="tag">firefox</a>
+
+<a href="./tags/free-software/" rel="tag">free-software</a>
+
+<a href="./tags/linux/" rel="tag">linux</a>
+
+</nav>
+
+
+
+
+
+
+
+
+</footer>
+
+</article>
+<article class="inlinepage">
+
+<section class="inlineheader">
+
+<header class="header">
+
 <a href="./posts/2015-05-16_coursera-dl_activities/">A Small Python Project (coursera-dl) Activites</a>
 
 </header>
@@ -1024,109 +1094,6 @@ Tags:
 <a href="./tags/python/" rel="tag">python</a>
 
 <a href="./tags/study/" rel="tag">study</a>
-
-</nav>
-
-
-
-
-
-
-
-
-</footer>
-
-</article>
-<article class="inlinepage">
-
-<section class="inlineheader">
-
-<header class="header">
-
-<a href="./posts/2014-02-14_miscellanea/">Miscellanea</a>
-
-</header>
-</section>
-
-<section class="inlinecontent">
-<h1 id="initsystem">Init system</h1>
-
-<p>I am happy that Debian's Technical Committee was able to reach a very good
-decision with the choice of systemd as the default init system for the Linux
-ports.</p>
-
-<p>In particular, I was very pleasantly surprised by the lucidity of Russ
-Allbery's analyses and, above all, his <em>patience</em> even with people that, in
-my understanding, were just being trolls or trying to cause confusion and
-disrupt a process that was already chaotic.</p>
-
-<p>Russ, thank you for your exemplary role.</p>
-
-<p>(Also, you type fast or what? You fill whole e-mails seemingly faster than I
-can read!)</p>
-
-<h2 id="unexpectedunionofforces">Unexpected union of forces</h2>
-
-<p>It seems to me that Mark Shutterworth's <a href="http://www.markshuttleworth.com/archives/1316">decision</a> of (perhaps?)
-embracing Debian's decision in the init system is a good thing.</p>
-
-<p>I think that one way where Ubuntu did a great thing with respect to Debian
-was their initial attitude towards cherry-picking the best of breed of Free
-Software from Debian's archive and polishing that to create a really "for
-human beings" operating system.  I hope that this means that, at least in
-part, money (Mark's?) can be channeled in the best of the interests so that
-we all gain from it.</p>
-
-<p>(And, to be honest, I see no problem in making money with Free Software and
-I welcome a well done integration job).</p>
-
-<h1 id="morepolarizingthings">More polarizing things</h1>
-
-<p>I feel that, now, I may even have some hope of sending another
-<a href="https://bugs.debian.org/729203">potentially polarizing</a> bug to the Tech Ctte (that is ffmpeg vs. libav)
-and have faith that some rational decision would be made.</p>
-
-<p>I was not even aware of it, but the ffmpeg folks even
-<a href="http://www.ffmpeg.org/">featured a news item in their page</a> of me having filed the RFP bug
-mentioned above.</p>
-
-<h1 id="debconf14">DebConf 14</h1>
-
-<p>If everything goes as expected, I hope to attend this year's DebConf.  In
-fact, I am anticipating this, since I would love to, e.g., talk with Joey
-Hess and discuss a better way of having <a href="http://www.gnu.org/software/parallel/">GNU parallel</a> and the <code>parallel</code>
-program in <a href="http://packages.debian.org/moreutils">moreutils</a> have amicable co-installability among many,
-many other things with respect to my packages.</p>
-
-<p>And, quite probably, work on packaging ffmpeg with other interested people
-(which seem to be numerous).</p>
-
-<p><br></p>
-
-<p><strong>Edit:</strong> Fix markdown link pointing twice to the ffmpeg site. Thanks
-Marius Gedminas for pointing this out.</p>
-
-</section>
-
-<footer class="inlinefooter">
-
-<span class="pagedate">
-Posted <time datetime="2014-02-15T02:59:22Z" pubdate="pubdate">2014-02-15T00:59:22 BRST</time>
-</span>
-
-
-<nav class="tags">
-Tags:
-
-<a href="./tags/debian/" rel="tag">debian</a>
-
-<a href="./tags/ffmpeg/" rel="tag">ffmpeg</a>
-
-<a href="./tags/libav/" rel="tag">libav</a>
-
-<a href="./tags/linux/" rel="tag">linux</a>
-
-<a href="./tags/ubuntu/" rel="tag">ubuntu</a>
 
 </nav>
 

@@ -10,7 +10,58 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 29 May 2015 21:00:08 -0300</pubDate>
+<pubDate>Tue, 29 Mar 2016 02:29:09 -0300</pubDate>
+<item>
+	<title>Partially switching to Chromium</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2016-03-29_partially_switching_to_chromium/</guid>
+
+	<link>http://cynic.cc/blog//posts/2016-03-29_partially_switching_to_chromium/</link>
+
+
+
+	<category>chromium</category>
+
+	<category>debian</category>
+
+	<category>firefox</category>
+
+	<category>free-software</category>
+
+	<category>linux</category>
+
+
+	<pubDate>Tue, 29 Mar 2016 02:25:15 -0300</pubDate>
+	<dcterms:modified>2016-03-29T05:29:09Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;In the interest of being as brief as possible (just ask for details if you
+want to know more or if you think that it would help), I have started,
+against my preferences, to start using chromium from Debian instead of
+Firefox (aka, Iceweasel).&lt;/p&gt;
+
+&lt;p&gt;The reason? I have a slow computer (a Core 2 Duo T7250). My main computer.
+My workhorse.&lt;/p&gt;
+
+&lt;p&gt;There are some sites that even with an empty profile and a vanilla Firefox
+build right from Mozilla Foundation cause Firefox to generate a very heavy
+CPU load.  I &lt;a href=&quot;https://twitter.com/rtdbrito/status/703098330629296128&quot;&gt;briefly reported this via Twitter&lt;/a&gt; to one (but not the
+only!) of the &lt;a href=&quot;https://web.telegram.org/&quot;&gt;sites in question&lt;/a&gt; and to &lt;a href=&quot;https://www.fxsitecompat.com/&quot;&gt;Firefox Site Compatibility&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;What do I see? Many CSS and redraw events (thanks to Firefox&#39;s profiling
+tools). In fact, as many events that Firefox alone is able to completely
+take over 1 (of the 2) cores that I have, with just that single tab open.&lt;/p&gt;
+
+&lt;p&gt;I don&#39;t see those problems with Chromium, unfortunately (or, at least, they
+are not that perceptible to my computer&#39;s CPU).&lt;/p&gt;
+
+&lt;p&gt;So, before I go on and formally file a bug report, I would love to confirm
+if other people see the same problems that I am seeing. Do you also see
+something similar? Your input is highly welcome!&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>A Small Python Project (coursera-dl) Activites</title>
 
@@ -799,90 +850,6 @@ that contains a lot of lectures (see &lt;a href=&quot;http://www.youtube.com/wat
 
 &lt;p&gt;Version 2014.02.17 of &lt;code&gt;youtube-dl&lt;/code&gt; will be soon in your favorite mirror of
 the Debian archives.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Miscellanea</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2014-02-14_miscellanea/</guid>
-
-	<link>http://cynic.cc/blog//posts/2014-02-14_miscellanea/</link>
-
-
-
-	<category>debian</category>
-
-	<category>ffmpeg</category>
-
-	<category>libav</category>
-
-	<category>linux</category>
-
-	<category>ubuntu</category>
-
-
-	<pubDate>Sat, 15 Feb 2014 00:59:22 -0200</pubDate>
-	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
-
-
-	<description>&lt;h1 id=&quot;initsystem&quot;&gt;Init system&lt;/h1&gt;
-
-&lt;p&gt;I am happy that Debian&#39;s Technical Committee was able to reach a very good
-decision with the choice of systemd as the default init system for the Linux
-ports.&lt;/p&gt;
-
-&lt;p&gt;In particular, I was very pleasantly surprised by the lucidity of Russ
-Allbery&#39;s analyses and, above all, his &lt;em&gt;patience&lt;/em&gt; even with people that, in
-my understanding, were just being trolls or trying to cause confusion and
-disrupt a process that was already chaotic.&lt;/p&gt;
-
-&lt;p&gt;Russ, thank you for your exemplary role.&lt;/p&gt;
-
-&lt;p&gt;(Also, you type fast or what? You fill whole e-mails seemingly faster than I
-can read!)&lt;/p&gt;
-
-&lt;h2 id=&quot;unexpectedunionofforces&quot;&gt;Unexpected union of forces&lt;/h2&gt;
-
-&lt;p&gt;It seems to me that Mark Shutterworth&#39;s &lt;a href=&quot;http://www.markshuttleworth.com/archives/1316&quot;&gt;decision&lt;/a&gt; of (perhaps?)
-embracing Debian&#39;s decision in the init system is a good thing.&lt;/p&gt;
-
-&lt;p&gt;I think that one way where Ubuntu did a great thing with respect to Debian
-was their initial attitude towards cherry-picking the best of breed of Free
-Software from Debian&#39;s archive and polishing that to create a really &quot;for
-human beings&quot; operating system.  I hope that this means that, at least in
-part, money (Mark&#39;s?) can be channeled in the best of the interests so that
-we all gain from it.&lt;/p&gt;
-
-&lt;p&gt;(And, to be honest, I see no problem in making money with Free Software and
-I welcome a well done integration job).&lt;/p&gt;
-
-&lt;h1 id=&quot;morepolarizingthings&quot;&gt;More polarizing things&lt;/h1&gt;
-
-&lt;p&gt;I feel that, now, I may even have some hope of sending another
-&lt;a href=&quot;https://bugs.debian.org/729203&quot;&gt;potentially polarizing&lt;/a&gt; bug to the Tech Ctte (that is ffmpeg vs. libav)
-and have faith that some rational decision would be made.&lt;/p&gt;
-
-&lt;p&gt;I was not even aware of it, but the ffmpeg folks even
-&lt;a href=&quot;http://www.ffmpeg.org/&quot;&gt;featured a news item in their page&lt;/a&gt; of me having filed the RFP bug
-mentioned above.&lt;/p&gt;
-
-&lt;h1 id=&quot;debconf14&quot;&gt;DebConf 14&lt;/h1&gt;
-
-&lt;p&gt;If everything goes as expected, I hope to attend this year&#39;s DebConf.  In
-fact, I am anticipating this, since I would love to, e.g., talk with Joey
-Hess and discuss a better way of having &lt;a href=&quot;http://www.gnu.org/software/parallel/&quot;&gt;GNU parallel&lt;/a&gt; and the &lt;code&gt;parallel&lt;/code&gt;
-program in &lt;a href=&quot;http://packages.debian.org/moreutils&quot;&gt;moreutils&lt;/a&gt; have amicable co-installability among many,
-many other things with respect to my packages.&lt;/p&gt;
-
-&lt;p&gt;And, quite probably, work on packaging ffmpeg with other interested people
-(which seem to be numerous).&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; Fix markdown link pointing twice to the ffmpeg site. Thanks
-Marius Gedminas for pointing this out.&lt;/p&gt;
 </description>
 
 

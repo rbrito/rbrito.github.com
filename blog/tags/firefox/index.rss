@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>pages tagged firefox</title>
+<link>http://cynic.cc/blog//tags/firefox/</link>
+<atom:link href="http://cynic.cc/blog//tags/firefox/index.rss" rel="self" type="application/rss+xml"/>
+
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Tue, 29 Mar 2016 02:29:09 -0300</pubDate>
+<item>
+	<title>Partially switching to Chromium</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2016-03-29_partially_switching_to_chromium/</guid>
+
+	<link>http://cynic.cc/blog//posts/2016-03-29_partially_switching_to_chromium/</link>
+
+
+
+	<category>chromium</category>
+
+	<category>debian</category>
+
+	<category>firefox</category>
+
+	<category>free-software</category>
+
+	<category>linux</category>
+
+
+	<pubDate>Tue, 29 Mar 2016 02:25:15 -0300</pubDate>
+	<dcterms:modified>2016-03-29T05:29:09Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;In the interest of being as brief as possible (just ask for details if you
+want to know more or if you think that it would help), I have started,
+against my preferences, to start using chromium from Debian instead of
+Firefox (aka, Iceweasel).&lt;/p&gt;
+
+&lt;p&gt;The reason? I have a slow computer (a Core 2 Duo T7250). My main computer.
+My workhorse.&lt;/p&gt;
+
+&lt;p&gt;There are some sites that even with an empty profile and a vanilla Firefox
+build right from Mozilla Foundation cause Firefox to generate a very heavy
+CPU load.  I &lt;a href=&quot;https://twitter.com/rtdbrito/status/703098330629296128&quot;&gt;briefly reported this via Twitter&lt;/a&gt; to one (but not the
+only!) of the &lt;a href=&quot;https://web.telegram.org/&quot;&gt;sites in question&lt;/a&gt; and to &lt;a href=&quot;https://www.fxsitecompat.com/&quot;&gt;Firefox Site Compatibility&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;What do I see? Many CSS and redraw events (thanks to Firefox&#39;s profiling
+tools). In fact, as many events that Firefox alone is able to completely
+take over 1 (of the 2) cores that I have, with just that single tab open.&lt;/p&gt;
+
+&lt;p&gt;I don&#39;t see those problems with Chromium, unfortunately (or, at least, they
+are not that perceptible to my computer&#39;s CPU).&lt;/p&gt;
+
+&lt;p&gt;So, before I go on and formally file a bug report, I would love to confirm
+if other people see the same problems that I am seeing. Do you also see
+something similar? Your input is highly welcome!&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>
