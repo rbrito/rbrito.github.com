@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>pages tagged photography</title>
+<link>http://cynic.cc/blog//tags/photography/</link>
+<atom:link href="http://cynic.cc/blog//tags/photography/index.rss" rel="self" type="application/rss+xml"/>
+
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Mon, 13 Mar 2017 19:46:32 -0300</pubDate>
+<item>
+	<title>2006-02-24</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-02-24/</guid>
+
+	<link>http://cynic.cc/blog//posts/2006-02-24/</link>
+
+
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+	<category>photography</category>
+
+	<category>study</category>
+
+
+	<pubDate>Fri, 24 Feb 2006 00:00:00 -0300</pubDate>
+	<dcterms:modified>2017-03-13T22:46:32Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Still trying to learn about digital photography. The subject is
+fascinating. Too bad that I lack subjects to take pictures from,
+but I guess that this is where the &quot;artistic&quot; part comes in.&lt;/p&gt;
+
+&lt;p&gt;Of course, the is also the &quot;science&quot; part of the thing, which is
+where the knowledge comes in: choosing exposure, knowing what
+lenses you should (or should not) use, seeing the appropriate flash
+light settings etc.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, many things are written in market-speak and it is
+almost impenetrable for a layman to know exactly what is being
+talked about.&lt;/p&gt;
+
+&lt;p&gt;I upgraded
+&lt;a href=&quot;ftp://ftp.matrox.com/pub/mga/archive/bios/2005/setup_258.exe&quot;&gt;the firmware&lt;/a&gt;
+of my &lt;a href=&quot;http://www.matrox.com/&quot;&gt;Matrox&lt;/a&gt;
+&lt;a href=&quot;http://www.matrox.com/mga/support/user_manuals/mill_g400/home.cfm&quot;&gt;G400&lt;/a&gt;
+card to version 2.1.&lt;/p&gt;
+
+&lt;p&gt;Oh, I didn&#39;t know why my students were all excited to go home until
+I realized that today was the first day of 2006&#39;s carnival.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2006-02-23</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-02-23/</guid>
+
+	<link>http://cynic.cc/blog//posts/2006-02-23/</link>
+
+
+
+	<category>life</category>
+
+	<category>photography</category>
+
+	<category>study</category>
+
+	<category>teaching</category>
+
+
+	<pubDate>Thu, 23 Feb 2006 00:00:00 -0300</pubDate>
+	<dcterms:modified>2017-03-13T22:46:32Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Learning a bit more regarding photography in general. For instance,
+now I know the difference between
+&lt;em&gt;&lt;a href=&quot;http://www.storyphoto.com/journalism/phototip_nine.html&quot;&gt;Slow Synchro&lt;/a&gt; (&quot;nighttime&quot;)&lt;/em&gt;
+and
+&lt;em&gt;&lt;a href=&quot;http://www.storyphoto.com/journalism/phototip_five.html&quot;&gt;Fill&lt;/a&gt; (&quot;forced&quot;)&lt;/em&gt;
+flash. It will be nice to be able to use them both when the
+situations arise.&lt;/p&gt;
+
+&lt;p&gt;A student of mine has lent me his &quot;Towers of Hanoi&quot; puzzle so that
+I can teach recursion for some students. The fact that recursion
+works so well for some cases seems to be surprising (like
+&lt;a href=&quot;http://mitpress.mit.edu/sicp/&quot;&gt;magic&lt;/a&gt; or wizardry, sometimes) for
+some students. They are not used to simple and elegant solutions to
+some problems.&lt;/p&gt;
+
+&lt;p&gt;Thank you very much, Victor!&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

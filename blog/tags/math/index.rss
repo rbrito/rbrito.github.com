@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 17 Jan 2015 22:37:10 -0200</pubDate>
+<pubDate>Mon, 13 Mar 2017 19:46:32 -0300</pubDate>
 <item>
 	<title>Trivial fact #3: Continued fractions via matrices</title>
 
@@ -30,7 +30,7 @@
 
 
 	<pubDate>Sun, 23 Feb 2014 23:30:30 -0300</pubDate>
-	<dcterms:modified>2014-02-26T03:11:47Z</dcterms:modified>
+	<dcterms:modified>2014-02-24T06:18:54Z</dcterms:modified>
 
 
 	<description>&lt;h1 id=&quot;note&quot;&gt;Note&lt;/h1&gt;
@@ -129,7 +129,7 @@ As a corollary, derive Cassini&#39;s identity for the Fibonacci Numbers.&lt;/p&g
 
 
 	<pubDate>Thu, 30 Jan 2014 00:43:30 -0200</pubDate>
-	<dcterms:modified>2014-01-30T02:44:49Z</dcterms:modified>
+	<dcterms:modified>2014-01-30T02:46:30Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I don&#39;t know how Debian planet deals with MathJax (it seems to
@@ -225,7 +225,7 @@ solution of the original set of inequalities, thus concluding the argument.&lt;/
 
 
 	<pubDate>Wed, 13 Jun 2007 02:08:51 -0300</pubDate>
-	<dcterms:modified>2014-02-26T03:11:47Z</dcterms:modified>
+	<dcterms:modified>2014-02-25T06:07:07Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;These are some short notes on what I&#39;ve doing these days.&lt;/p&gt;
@@ -457,6 +457,61 @@ is enough for me).&lt;/p&gt;
 
 </item>
 <item>
+	<title>2006-03-03</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-03-03/</guid>
+
+	<link>http://cynic.cc/blog//posts/2006-03-03/</link>
+
+
+
+	<category>data-structures</category>
+
+	<category>life</category>
+
+	<category>math</category>
+
+	<category>teaching</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Fri, 03 Mar 2006 00:00:00 -0300</pubDate>
+	<dcterms:modified>2017-03-13T22:46:32Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;One good thing to have in mind is that when one is minimally
+serious about data structures, then on covering the topic of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Hash_table&quot;&gt;hash tables&lt;/a&gt;, it is a
+quite good chance to talk about the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Birthday_paradox&quot;&gt;&quot;birthday paradox&quot;&lt;/a&gt;.
+In the analogy, each day would correspond to a slot in the hash
+table and each person would correspond to an item to be inserted
+into the table.&lt;/p&gt;
+
+&lt;p&gt;If one takes this into account, the analysis of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Birthday_paradox#Collision_counting&quot;&gt;collisions&lt;/a&gt;
+is meaninful from a probabilistic point of view, which matters a
+lot.&lt;/p&gt;
+
+&lt;p&gt;Changing the subject a little, in a replacement that lasted, say,
+15 minutes (tops), the cable modem is back again working, which
+means that playing with &lt;a href=&quot;http://lartc.org/&quot;&gt;tunneling&lt;/a&gt; under
+&lt;a href=&quot;http://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; (especially, using the IPSec
+interface) is back again a possibility.&lt;/p&gt;
+
+&lt;p&gt;Oh, and it seems that &lt;a href=&quot;http://www.ubuntulinux.org&quot;&gt;Ubuntu&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.ubuntu.com/ubuntu/releases&quot;&gt;dapper&lt;/a&gt; is &quot;mom proof&quot;.
+Well, at least, she has been learning to use it with some hiccups,
+but, then, personal computers aren&#39;t things with which she plays
+everyday. She was surprised to know about
+&lt;a href=&quot;http://www.wikipedia.org/&quot;&gt;Wikipedia&lt;/a&gt; and its broad coverage. And,
+indeed, it is superb.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2005-07-28</title>
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-07-28/</guid>
@@ -471,7 +526,7 @@ is enough for me).&lt;/p&gt;
 
 
 	<pubDate>Thu, 28 Jul 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2015-01-18T00:37:10Z</dcterms:modified>
+	<dcterms:modified>2015-01-18T00:59:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Just finished reading neat and combinatorial proofs of &quot;Fermat&#39;s
@@ -550,32 +605,6 @@ until tomorrow. In particular, finding negative cycles efficiently
 (i.e., in polynomial time) is still a mystery for me. I have some
 intuition of why the O(nm) algorithm works, but I have still to sit
 down and write a complete, detailed a proof. I wish I had time.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2000-10-24</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-10-24/</guid>
-
-	<link>http://cynic.cc/blog//posts/2000-10-24/</link>
-
-
-
-	<category>complexity-theory</category>
-
-	<category>math</category>
-
-	<category>study</category>
-
-
-	<pubDate>Tue, 24 Oct 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-08T12:15:46Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Whew! One of the longest homeworks that I&#39;ve ever had was finished
-today. Programmning Turing Machines takes time.&lt;/p&gt;
 </description>
 
 

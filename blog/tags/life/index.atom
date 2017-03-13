@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2015-05-16T03:47:35Z</updated>
+<updated>2017-03-13T22:46:32Z</updated>
 <entry>
 	<title>The importance of flexible deadlines in MOOCs</title>
 
@@ -39,7 +39,7 @@
 	<category term="study" />
 
 
-	<updated>2014-04-04T16:49:20Z</updated>
+	<updated>2014-04-04T17:27:17Z</updated>
 	<published>2014-04-04T16:48:59Z</published>
 
 
@@ -120,7 +120,7 @@ this, as this, in my experience, is not so common with MOOCs.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2014-03-03T05:35:23Z</updated>
+	<updated>2014-03-03T05:38:09Z</updated>
 	<published>2014-03-03T05:35:11Z</published>
 
 
@@ -192,6 +192,313 @@ commons graph project.&lt;/p&gt;
 
 </entry>
 <entry>
+	<title>2006-03-30</title>
+
+	<id>http://cynic.cc/blog//posts/2006-03-30/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-03-30/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="life" />
+
+
+	<updated>2017-03-13T22:46:32Z</updated>
+	<published>2006-03-30T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I&#39;ve been (re-)discovering multimedia and all its wonders. It all
+started with me seeing how &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.apple.com/macmini/frontrow.html&quot;&gt;Front Row&lt;/a&gt; application
+works. Ok, so I am behind the times. I&#39;m fine with that, but
+catching up. The world is changing sooooo fast that it is hard to
+keep up. Podcasts, wireless networks, media centers, digital video,
+digital (still) cameras, megapixels and the like.&lt;/p&gt;
+
+&lt;p&gt;Add to that the things that &quot;need to be known&quot; by a Computer
+Scientist/Mathematician-wannabe and we quickly arrive at the
+conclusion that the days are way too short with their current 24
+hours.&lt;/p&gt;
+
+&lt;p&gt;It, unfortunately, sucks and the fact that Apple is now &quot;changing
+gears&quot; to support their &lt;a href=&quot;http://www.intel.com/&quot;&gt;Intel&lt;/a&gt;
+&lt;a href=&quot;http://www.apple.com/macmini/intelcore.html&quot;&gt;Core&lt;/a&gt; processors is a
+clear signal that their PowerPC line is dead and only waiting for
+its coffin to be burried.&lt;/p&gt;
+
+&lt;p&gt;What the solution to this problem is? Partially, to employ Open
+Source technology to leverage this to current standards, using
+hardware that is already employed. We can &lt;em&gt;hardly&lt;/em&gt;, expect the new
+machines to outnumber the installed resources that we already have.
+And have to keep working.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-03-16</title>
+
+	<id>http://cynic.cc/blog//posts/2006-03-16/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-03-16/"/>
+
+
+
+
+
+
+	<category term="hardware" />
+
+	<category term="life" />
+
+	<category term="music" />
+
+
+	<updated>2017-03-13T22:46:32Z</updated>
+	<published>2006-03-16T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Today, I resurrected Loreena McKennitt&#39;s
+&lt;a href=&quot;http://en.wikipedia.org/wiki/The_Mask_and_Mirror&quot;&gt;&quot;The Mask and Mirror&quot;&lt;/a&gt;
+and it now plays without skipping in any place. It&#39;s so nice to
+have it &quot;back&quot;...&lt;/p&gt;
+
+&lt;p&gt;I&#39;m slowly progressing towards a better condition of my throat.
+This is taking longer than what I expected.&lt;/p&gt;
+
+&lt;p&gt;Finally took some time to go to the police station to register the
+damage done to my car.&lt;/p&gt;
+
+&lt;p&gt;Oh, and I got some new toys to play with, including a brand new
+Firewire enclosure, wireless stuff and some DVD-R&#39;s. Fun ahead.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-03-03</title>
+
+	<id>http://cynic.cc/blog//posts/2006-03-03/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-03-03/"/>
+
+
+
+
+
+
+	<category term="data-structures" />
+
+	<category term="life" />
+
+	<category term="math" />
+
+	<category term="teaching" />
+
+	<category term="ubuntu" />
+
+
+	<updated>2017-03-13T22:46:32Z</updated>
+	<published>2006-03-03T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;One good thing to have in mind is that when one is minimally
+serious about data structures, then on covering the topic of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Hash_table&quot;&gt;hash tables&lt;/a&gt;, it is a
+quite good chance to talk about the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Birthday_paradox&quot;&gt;&quot;birthday paradox&quot;&lt;/a&gt;.
+In the analogy, each day would correspond to a slot in the hash
+table and each person would correspond to an item to be inserted
+into the table.&lt;/p&gt;
+
+&lt;p&gt;If one takes this into account, the analysis of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Birthday_paradox#Collision_counting&quot;&gt;collisions&lt;/a&gt;
+is meaninful from a probabilistic point of view, which matters a
+lot.&lt;/p&gt;
+
+&lt;p&gt;Changing the subject a little, in a replacement that lasted, say,
+15 minutes (tops), the cable modem is back again working, which
+means that playing with &lt;a href=&quot;http://lartc.org/&quot;&gt;tunneling&lt;/a&gt; under
+&lt;a href=&quot;http://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; (especially, using the IPSec
+interface) is back again a possibility.&lt;/p&gt;
+
+&lt;p&gt;Oh, and it seems that &lt;a href=&quot;http://www.ubuntulinux.org&quot;&gt;Ubuntu&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.ubuntu.com/ubuntu/releases&quot;&gt;dapper&lt;/a&gt; is &quot;mom proof&quot;.
+Well, at least, she has been learning to use it with some hiccups,
+but, then, personal computers aren&#39;t things with which she plays
+everyday. She was surprised to know about
+&lt;a href=&quot;http://www.wikipedia.org/&quot;&gt;Wikipedia&lt;/a&gt; and its broad coverage. And,
+indeed, it is superb.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-03-02</title>
+
+	<id>http://cynic.cc/blog//posts/2006-03-02/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-03-02/"/>
+
+
+
+
+
+
+	<category term="isp" />
+
+	<category term="life" />
+
+
+	<updated>2017-03-13T22:46:32Z</updated>
+	<published>2006-03-02T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Nice. Let&#39;s see if this MathML thing works as intended:&lt;/p&gt;
+
+&lt;math xmlns=&quot;&amp;mathml;&quot;&gt;
+  &lt;mfrac&gt;
+    &lt;mi&gt;a&lt;/mi&gt;
+    &lt;mi&gt;b&lt;/mi&gt;
+  &lt;/mfrac&gt;
+&lt;/math&gt;
+
+&lt;p&gt;Well, actually, it does. But only after I changed the extension of
+the file from html to xhtml. What a crazy thing is this? What is
+the purpose of that damned XML header on this file? Isn&#39;t it to
+tell the damn server that this is an XML file? I suppose that the
+server here may be broken.&lt;/p&gt;
+
+&lt;p&gt;Oh, and talking about broken things, my
+&lt;a href=&quot;http://www.flash.net.br/&quot;&gt;cable modem&lt;/a&gt; just got fried after
+today&#39;s thunderstorm. Wow. Nice to have a backup plan.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-02-24</title>
+
+	<id>http://cynic.cc/blog//posts/2006-02-24/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-02-24/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="life" />
+
+	<category term="photography" />
+
+	<category term="study" />
+
+
+	<updated>2017-03-13T22:46:32Z</updated>
+	<published>2006-02-24T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Still trying to learn about digital photography. The subject is
+fascinating. Too bad that I lack subjects to take pictures from,
+but I guess that this is where the &quot;artistic&quot; part comes in.&lt;/p&gt;
+
+&lt;p&gt;Of course, the is also the &quot;science&quot; part of the thing, which is
+where the knowledge comes in: choosing exposure, knowing what
+lenses you should (or should not) use, seeing the appropriate flash
+light settings etc.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, many things are written in market-speak and it is
+almost impenetrable for a layman to know exactly what is being
+talked about.&lt;/p&gt;
+
+&lt;p&gt;I upgraded
+&lt;a href=&quot;ftp://ftp.matrox.com/pub/mga/archive/bios/2005/setup_258.exe&quot;&gt;the firmware&lt;/a&gt;
+of my &lt;a href=&quot;http://www.matrox.com/&quot;&gt;Matrox&lt;/a&gt;
+&lt;a href=&quot;http://www.matrox.com/mga/support/user_manuals/mill_g400/home.cfm&quot;&gt;G400&lt;/a&gt;
+card to version 2.1.&lt;/p&gt;
+
+&lt;p&gt;Oh, I didn&#39;t know why my students were all excited to go home until
+I realized that today was the first day of 2006&#39;s carnival.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-02-23</title>
+
+	<id>http://cynic.cc/blog//posts/2006-02-23/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-02-23/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+	<category term="photography" />
+
+	<category term="study" />
+
+	<category term="teaching" />
+
+
+	<updated>2017-03-13T22:46:32Z</updated>
+	<published>2006-02-23T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Learning a bit more regarding photography in general. For instance,
+now I know the difference between
+&lt;em&gt;&lt;a href=&quot;http://www.storyphoto.com/journalism/phototip_nine.html&quot;&gt;Slow Synchro&lt;/a&gt; (&quot;nighttime&quot;)&lt;/em&gt;
+and
+&lt;em&gt;&lt;a href=&quot;http://www.storyphoto.com/journalism/phototip_five.html&quot;&gt;Fill&lt;/a&gt; (&quot;forced&quot;)&lt;/em&gt;
+flash. It will be nice to be able to use them both when the
+situations arise.&lt;/p&gt;
+
+&lt;p&gt;A student of mine has lent me his &quot;Towers of Hanoi&quot; puzzle so that
+I can teach recursion for some students. The fact that recursion
+works so well for some cases seems to be surprising (like
+&lt;a href=&quot;http://mitpress.mit.edu/sicp/&quot;&gt;magic&lt;/a&gt; or wizardry, sometimes) for
+some students. They are not used to simple and elegant solutions to
+some problems.&lt;/p&gt;
+
+&lt;p&gt;Thank you very much, Victor!&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>2006-02-22</title>
 
 	<id>http://cynic.cc/blog//posts/2006-02-22/</id>
@@ -210,7 +517,7 @@ commons graph project.&lt;/p&gt;
 	<category term="work" />
 
 
-	<updated>2015-05-16T03:47:35Z</updated>
+	<updated>2015-05-16T03:48:19Z</updated>
 	<published>2006-02-22T03:00:00Z</published>
 
 
@@ -251,7 +558,7 @@ to follow the stories and exercises this way.&lt;/p&gt;
 	<category term="work" />
 
 
-	<updated>2015-05-16T03:46:40Z</updated>
+	<updated>2015-05-16T03:48:19Z</updated>
 	<published>2006-02-21T03:00:00Z</published>
 
 
@@ -266,251 +573,6 @@ Algebra (in an undergraduate level, but who cares?), get the last
 parcel of my payment and the finals of
 &lt;a href=&quot;http://www.ime.usp.br/~rbrito/verao/2006&quot;&gt;the Summer Course&lt;/a&gt;
 (which I have to grade soon).&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2006-02-18</title>
-
-	<id>http://cynic.cc/blog//posts/2006-02-18/</id>
-
-	<link href="http://cynic.cc/blog//posts/2006-02-18/"/>
-
-
-
-
-
-
-	<category term="free-software" />
-
-	<category term="life" />
-
-	<category term="linux" />
-
-	<category term="work" />
-
-
-	<updated>2015-05-16T03:45:41Z</updated>
-	<published>2006-02-18T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Due to the accident of yesterday, today I decided to take pictures
-of my car, just as a proof of the damage made by mad freshmen.&lt;/p&gt;
-
-&lt;p&gt;A friend of mine has kindly helped with her camera and taking
-pictures of the car. They are just scary. I just get the feeling
-that I am living among wild, savage people.&lt;/p&gt;
-
-&lt;p&gt;And a neighbour of mine has kindly lent me his
-&lt;a href=&quot;http://www.samsung.com/&quot;&gt;Samsung&lt;/a&gt;
-&lt;a href=&quot;http://www.samsungcamera.com/&quot;&gt;still camera&lt;/a&gt; for me to take some
-extra pictures, before going to the police. It is a Digimax A302,
-with capacity of 3.2 megapixels.&lt;/p&gt;
-
-&lt;p&gt;I guess that, now, the
-&lt;a href=&quot;http://www.macdevcenter.com/lpt/a/2849&quot;&gt;Top Ten Digital Photography Tips&lt;/a&gt;
-will make more sense to me (along with reading the manual of the
-camera). Oh, by the way, it worked fine with
-&lt;a href=&quot;http://www.kernel.org/&quot;&gt;Linux&lt;/a&gt;
-&lt;a href=&quot;http://www.kernel.org/pub/linux/kernel/v2.6/testing/patch-2.6.16-rc3.bz2&quot;&gt;2.6.16-rc3&lt;/a&gt;&#39;s
-mass storage module loaded. No extra drivers needed. Nice toy. And
-a nice operating system too.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2006-02-17</title>
-
-	<id>http://cynic.cc/blog//posts/2006-02-17/</id>
-
-	<link href="http://cynic.cc/blog//posts/2006-02-17/"/>
-
-
-
-
-
-
-	<category term="life" />
-
-	<category term="network" />
-
-	<category term="work" />
-
-
-	<updated>2015-05-16T03:43:47Z</updated>
-	<published>2006-02-17T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Got a new &lt;a href=&quot;http://www.flash.net.br/&quot;&gt;Internet&lt;/a&gt; connection. It&#39;s
-cable modem and the quality is variable. I&#39;m still evaluating it,
-though. Some problems like reverse-DNS not properly configured
-comes to mind.&lt;/p&gt;
-
-&lt;p&gt;On the other hand, the DHCP connection is &quot;authenticated&quot; by the
-MAC address of the card. When I showed that it was so easy to fake,
-the cable guy didn&#39;t even believe what he saw. Is this bad news?&lt;/p&gt;
-
-&lt;p&gt;My car has almost turned junk due to vandalism of freshmen that
-just got into the College. Poor souls. They don&#39;t know what to
-expect when they take classes.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2006-02-13</title>
-
-	<id>http://cynic.cc/blog//posts/2006-02-13/</id>
-
-	<link href="http://cynic.cc/blog//posts/2006-02-13/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="life" />
-
-	<category term="music" />
-
-	<category term="video" />
-
-
-	<updated>2015-05-16T03:42:14Z</updated>
-	<published>2006-02-13T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Today, most of &lt;a href=&quot;http://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 2.12 has entered
-testing, which is good. Also
-&lt;a href=&quot;http://www.openoffice.org/&quot;&gt;OpenOffice.org&lt;/a&gt; 2.0.1 also entered.
-Let&#39;s see if it plays some presentations that I have here that were
-&lt;em&gt;slow&lt;/em&gt; when played with OO.o 2.0.0.&lt;/p&gt;
-
-&lt;p&gt;Ugh! Paying through the roof for the mistakes made the other day.
-An arm and a leg. &lt;img src=&quot;http://cynic.cc/blog//smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hooray! Finally the Nightwish torrent from their 2003-06-20 show is
-complete. It was a digital broadcast show and the quality is
-amazing. I only had this one on a DivX file, but now that I have
-the real thing, I will burn this one. The only &quot;problem&quot; is that it
-only uses half of a DVD. Is there any way of putting another show
-in a DVD, without having to author it and destroy its current
-structure? That would definitely be nice.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2006-02-12</title>
-
-	<id>http://cynic.cc/blog//posts/2006-02-12/</id>
-
-	<link href="http://cynic.cc/blog//posts/2006-02-12/"/>
-
-
-
-
-
-
-	<category term="free-software" />
-
-	<category term="life" />
-
-	<category term="tex" />
-
-
-	<updated>2015-05-16T03:40:10Z</updated>
-	<published>2006-02-12T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Holy, shit! What a disasterous day: two car accidents in just one
-day, mostly due to wandering around unknown and rainy places at
-night (almost lost). This will cost me a good deal.&lt;/p&gt;
-
-&lt;p&gt;And, to boot it, my heart had an accident too. Oh.&lt;/p&gt;
-
-&lt;p&gt;On the bright side of things, teTeX 3.0 has entered testing, which
-means quite a handful of new features and packages.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2006-02-07</title>
-
-	<id>http://cynic.cc/blog//posts/2006-02-07/</id>
-
-	<link href="http://cynic.cc/blog//posts/2006-02-07/"/>
-
-
-
-
-
-
-	<category term="life" />
-
-
-	<updated>2015-05-16T03:38:11Z</updated>
-	<published>2006-02-07T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;It seems that I&#39;m cursed to be an unhappy person for all the
-eternity. If there is a god, why does he/it makes us suffer this
-much, even when we are &quot;good&quot;?&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2006-02-05</title>
-
-	<id>http://cynic.cc/blog//posts/2006-02-05/</id>
-
-	<link href="http://cynic.cc/blog//posts/2006-02-05/"/>
-
-
-
-
-
-
-	<category term="life" />
-
-
-	<updated>2015-05-16T03:37:50Z</updated>
-	<published>2006-02-05T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Happily, oh, so happily, I had the opportunity of having the nice
-companion once again. Oh, if I could only spend more time this way,
-I&#39;m sure that I would have a much lower need for a particular kind
-of medication.&lt;/p&gt;
-
-&lt;p&gt;In fact, having my very own nurse would rock my world. Without any
-questions.&lt;/p&gt;
 
 	</content>
 

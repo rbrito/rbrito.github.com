@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 29 Mar 2016 02:29:09 -0300</pubDate>
+<pubDate>Tue, 29 Mar 2016 02:30:50 -0300</pubDate>
 <item>
 	<title>Partially switching to Chromium</title>
 
@@ -32,7 +32,7 @@
 
 
 	<pubDate>Tue, 29 Mar 2016 02:25:15 -0300</pubDate>
-	<dcterms:modified>2016-03-29T05:29:09Z</dcterms:modified>
+	<dcterms:modified>2016-03-29T05:30:50Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;In the interest of being as brief as possible (just ask for details if you
@@ -85,7 +85,7 @@ something similar? Your input is highly welcome!&lt;/p&gt;
 
 
 	<pubDate>Mon, 17 Feb 2014 18:27:00 -0300</pubDate>
-	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
+	<dcterms:modified>2014-02-17T22:21:26Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I wrote in a &lt;a href=&quot;http://cynic.cc/blog//posts/2013-10-23-assorted_news/#youtube-dl&quot;&gt;previous post&lt;/a&gt; that
@@ -165,7 +165,7 @@ the Debian archives.&lt;/p&gt;
 
 
 	<pubDate>Sat, 15 Feb 2014 00:59:22 -0200</pubDate>
-	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
+	<dcterms:modified>2014-02-16T17:10:42Z</dcterms:modified>
 
 
 	<description>&lt;h1 id=&quot;initsystem&quot;&gt;Init system&lt;/h1&gt;
@@ -376,7 +376,7 @@ of course, this should be fixed.&lt;/p&gt;
 
 
 	<pubDate>Wed, 21 Aug 2013 13:44:19 -0300</pubDate>
-	<dcterms:modified>2014-02-15T03:00:29Z</dcterms:modified>
+	<dcterms:modified>2013-08-21T16:45:27Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Seeing as recent versions of Xorg have made it into Debian&#39;s testing (which
@@ -709,7 +709,7 @@ behavior.&lt;/p&gt;
 
 
 	<pubDate>Sun, 03 Jul 2011 03:55:50 -0300</pubDate>
-	<dcterms:modified>2015-02-24T18:31:46Z</dcterms:modified>
+	<dcterms:modified>2015-02-24T18:32:16Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;My last cellphone was a dumb phone. I seem to remember that it was called
@@ -819,7 +819,7 @@ distribution.&lt;/p&gt;
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:23:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC

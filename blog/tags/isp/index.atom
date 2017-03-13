@@ -17,7 +17,53 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2013-04-08T12:15:46Z</updated>
+<updated>2017-03-13T22:46:32Z</updated>
+<entry>
+	<title>2006-03-02</title>
+
+	<id>http://cynic.cc/blog//posts/2006-03-02/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-03-02/"/>
+
+
+
+
+
+
+	<category term="isp" />
+
+	<category term="life" />
+
+
+	<updated>2017-03-13T22:46:32Z</updated>
+	<published>2006-03-02T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Nice. Let&#39;s see if this MathML thing works as intended:&lt;/p&gt;
+
+&lt;math xmlns=&quot;&amp;mathml;&quot;&gt;
+  &lt;mfrac&gt;
+    &lt;mi&gt;a&lt;/mi&gt;
+    &lt;mi&gt;b&lt;/mi&gt;
+  &lt;/mfrac&gt;
+&lt;/math&gt;
+
+&lt;p&gt;Well, actually, it does. But only after I changed the extension of
+the file from html to xhtml. What a crazy thing is this? What is
+the purpose of that damned XML header on this file? Isn&#39;t it to
+tell the damn server that this is an XML file? I suppose that the
+server here may be broken.&lt;/p&gt;
+
+&lt;p&gt;Oh, and talking about broken things, my
+&lt;a href=&quot;http://www.flash.net.br/&quot;&gt;cable modem&lt;/a&gt; just got fried after
+today&#39;s thunderstorm. Wow. Nice to have a backup plan.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>2000-10-10</title>
 

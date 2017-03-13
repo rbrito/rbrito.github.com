@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>pages tagged usenet</title>
+<link>http://cynic.cc/blog//tags/usenet/</link>
+<atom:link href="http://cynic.cc/blog//tags/usenet/index.rss" rel="self" type="application/rss+xml"/>
+
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Mon, 13 Mar 2017 19:46:32 -0300</pubDate>
+<item>
+	<title>2006-03-04</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-03-04/</guid>
+
+	<link>http://cynic.cc/blog//posts/2006-03-04/</link>
+
+
+
+	<category>free-software</category>
+
+	<category>tex</category>
+
+	<category>usenet</category>
+
+
+	<pubDate>Sat, 04 Mar 2006 00:00:00 -0300</pubDate>
+	<dcterms:modified>2017-03-13T22:46:32Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Discovered a great site for using Usenet (instead of using
+&lt;a href=&quot;http://groups.google.com/&quot;&gt;Google Groups&lt;/a&gt;): it&#39;s
+&lt;a href=&quot;http://www.aioe.org/&quot;&gt;aioe.org&lt;/a&gt;, which provides a nice opportunity
+for those interested in serious discussions. What a terrific piece
+of news!&lt;/p&gt;
+
+&lt;p&gt;I&#39;m installing (at this &lt;em&gt;very&lt;/em&gt; moment) a subset of
+&lt;a href=&quot;http://www.tug.org/texlive&quot;&gt;TeX Live&lt;/a&gt; for
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;. Let&#39;s see how it works compared
+to the (already packaged) teTeX.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

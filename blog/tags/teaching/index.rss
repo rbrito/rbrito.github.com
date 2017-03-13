@@ -10,7 +10,104 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 16 May 2015 00:46:40 -0300</pubDate>
+<pubDate>Mon, 13 Mar 2017 19:46:32 -0300</pubDate>
+<item>
+	<title>2006-03-03</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-03-03/</guid>
+
+	<link>http://cynic.cc/blog//posts/2006-03-03/</link>
+
+
+
+	<category>data-structures</category>
+
+	<category>life</category>
+
+	<category>math</category>
+
+	<category>teaching</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Fri, 03 Mar 2006 00:00:00 -0300</pubDate>
+	<dcterms:modified>2017-03-13T22:46:32Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;One good thing to have in mind is that when one is minimally
+serious about data structures, then on covering the topic of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Hash_table&quot;&gt;hash tables&lt;/a&gt;, it is a
+quite good chance to talk about the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Birthday_paradox&quot;&gt;&quot;birthday paradox&quot;&lt;/a&gt;.
+In the analogy, each day would correspond to a slot in the hash
+table and each person would correspond to an item to be inserted
+into the table.&lt;/p&gt;
+
+&lt;p&gt;If one takes this into account, the analysis of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Birthday_paradox#Collision_counting&quot;&gt;collisions&lt;/a&gt;
+is meaninful from a probabilistic point of view, which matters a
+lot.&lt;/p&gt;
+
+&lt;p&gt;Changing the subject a little, in a replacement that lasted, say,
+15 minutes (tops), the cable modem is back again working, which
+means that playing with &lt;a href=&quot;http://lartc.org/&quot;&gt;tunneling&lt;/a&gt; under
+&lt;a href=&quot;http://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; (especially, using the IPSec
+interface) is back again a possibility.&lt;/p&gt;
+
+&lt;p&gt;Oh, and it seems that &lt;a href=&quot;http://www.ubuntulinux.org&quot;&gt;Ubuntu&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.ubuntu.com/ubuntu/releases&quot;&gt;dapper&lt;/a&gt; is &quot;mom proof&quot;.
+Well, at least, she has been learning to use it with some hiccups,
+but, then, personal computers aren&#39;t things with which she plays
+everyday. She was surprised to know about
+&lt;a href=&quot;http://www.wikipedia.org/&quot;&gt;Wikipedia&lt;/a&gt; and its broad coverage. And,
+indeed, it is superb.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2006-02-23</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-02-23/</guid>
+
+	<link>http://cynic.cc/blog//posts/2006-02-23/</link>
+
+
+
+	<category>life</category>
+
+	<category>photography</category>
+
+	<category>study</category>
+
+	<category>teaching</category>
+
+
+	<pubDate>Thu, 23 Feb 2006 00:00:00 -0300</pubDate>
+	<dcterms:modified>2017-03-13T22:46:32Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Learning a bit more regarding photography in general. For instance,
+now I know the difference between
+&lt;em&gt;&lt;a href=&quot;http://www.storyphoto.com/journalism/phototip_nine.html&quot;&gt;Slow Synchro&lt;/a&gt; (&quot;nighttime&quot;)&lt;/em&gt;
+and
+&lt;em&gt;&lt;a href=&quot;http://www.storyphoto.com/journalism/phototip_five.html&quot;&gt;Fill&lt;/a&gt; (&quot;forced&quot;)&lt;/em&gt;
+flash. It will be nice to be able to use them both when the
+situations arise.&lt;/p&gt;
+
+&lt;p&gt;A student of mine has lent me his &quot;Towers of Hanoi&quot; puzzle so that
+I can teach recursion for some students. The fact that recursion
+works so well for some cases seems to be surprising (like
+&lt;a href=&quot;http://mitpress.mit.edu/sicp/&quot;&gt;magic&lt;/a&gt; or wizardry, sometimes) for
+some students. They are not used to simple and elegant solutions to
+some problems.&lt;/p&gt;
+
+&lt;p&gt;Thank you very much, Victor!&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>2006-02-21</title>
 
@@ -30,7 +127,7 @@
 
 
 	<pubDate>Tue, 21 Feb 2006 00:00:00 -0300</pubDate>
-	<dcterms:modified>2015-05-16T03:46:40Z</dcterms:modified>
+	<dcterms:modified>2015-05-16T03:48:19Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Got sick and went to the hospital. Unfortunately, I could&#39;t go to
@@ -62,7 +159,7 @@ parcel of my payment and the finals of
 
 
 	<pubDate>Wed, 08 Feb 2006 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-05-16T03:38:57Z</dcterms:modified>
+	<dcterms:modified>2015-05-16T03:48:19Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Back to &quot;school&quot;. The classes on &quot;Design of Algorithms&quot; will be my
@@ -90,7 +187,7 @@ to be.&lt;/p&gt;
 
 
 	<pubDate>Sun, 22 Jan 2006 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-05-16T03:36:59Z</dcterms:modified>
+	<dcterms:modified>2015-05-16T03:48:19Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Trying to catch up with most of the things that I still have to do.
@@ -122,7 +219,7 @@ still like to implement it in a better &quot;literate style&quot; and use the
 
 
 	<pubDate>Sat, 07 Jan 2006 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-05-16T03:35:52Z</dcterms:modified>
+	<dcterms:modified>2015-05-16T03:48:19Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Mostly a futile day. Well, not entirely lost, because I put a new
@@ -151,7 +248,7 @@ quiz for the
 
 
 	<pubDate>Thu, 05 Jan 2006 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-01-18T00:55:35Z</dcterms:modified>
+	<dcterms:modified>2015-01-18T00:59:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Some amazing new packages are coming into Debian&#39;s testing
@@ -187,7 +284,7 @@ wasn&#39;t bad. &lt;img src=&quot;http://cynic.cc/blog//smileys/smile.png&quot; 
 
 
 	<pubDate>Wed, 19 Oct 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-01-18T00:43:16Z</dcterms:modified>
+	<dcterms:modified>2015-01-18T00:59:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Ok, so, I am almost giving up the hectic mess in which work has
@@ -247,7 +344,7 @@ of new stuff, with the highlight (for me, at least), being the new
 
 
 	<pubDate>Mon, 08 Aug 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2015-01-18T00:40:28Z</dcterms:modified>
+	<dcterms:modified>2015-01-18T00:59:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Came back to work and it was actually a surprise to see the classes
@@ -277,69 +374,12 @@ people being my assistants.&lt;/p&gt;
 
 
 	<pubDate>Sat, 25 Jun 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2015-01-18T00:28:48Z</dcterms:modified>
+	<dcterms:modified>2015-01-18T00:59:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Oh, My! This semester has been a long and tiring one. Still had
 work to do and it wasn&#39;t nice. But now, I guess that I will have
 more spare time to do things that I want.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2005-04-04</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-04-04/</guid>
-
-	<link>http://cynic.cc/blog//posts/2005-04-04/</link>
-
-
-
-	<category>life</category>
-
-	<category>teaching</category>
-
-
-	<pubDate>Mon, 04 Apr 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;I hate midterms. I hate finals. I hate preparing them. I hate
-scoring them. I have to discover an easier way to evaluate my
-student&#39;s acquired abilities without something as painful as
-scoring those tests.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2005-01-06</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-01-06/</guid>
-
-	<link>http://cynic.cc/blog//posts/2005-01-06/</link>
-
-
-
-	<category>algorithms</category>
-
-	<category>life</category>
-
-	<category>programming</category>
-
-	<category>teaching</category>
-
-
-	<pubDate>Thu, 06 Jan 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Started the new Summer Course on Topics on Programming. A great
-opportunity to get the things &quot;the right way&quot; and put an
-introduction on Mathematical Induction, on Recursion and on
-Algorithm/Loop Invariants, since they aren&#39;t covered in details for
-novices in any of the books that I know.&lt;/p&gt;
 </description>
 
 
