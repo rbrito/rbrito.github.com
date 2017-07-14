@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 13 Mar 2017 19:46:32 -0300</pubDate>
+<pubDate>Fri, 14 Jul 2017 15:26:00 -0300</pubDate>
 <item>
 	<title>Trivial fact #3: Continued fractions via matrices</title>
 
@@ -30,7 +30,7 @@
 
 
 	<pubDate>Sun, 23 Feb 2014 23:30:30 -0300</pubDate>
-	<dcterms:modified>2014-02-24T06:18:54Z</dcterms:modified>
+	<dcterms:modified>2014-02-26T03:11:47Z</dcterms:modified>
 
 
 	<description>&lt;h1 id=&quot;note&quot;&gt;Note&lt;/h1&gt;
@@ -129,7 +129,7 @@ As a corollary, derive Cassini&#39;s identity for the Fibonacci Numbers.&lt;/p&g
 
 
 	<pubDate>Thu, 30 Jan 2014 00:43:30 -0200</pubDate>
-	<dcterms:modified>2014-01-30T02:46:30Z</dcterms:modified>
+	<dcterms:modified>2014-01-30T02:44:49Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I don&#39;t know how Debian planet deals with MathJax (it seems to
@@ -176,7 +176,7 @@ which is a trivial approximation that may be handy sometimes.&lt;/p&gt;
 
 
 	<pubDate>Fri, 12 Nov 2010 11:23:55 -0200</pubDate>
-	<dcterms:modified>2014-02-15T02:23:51Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Seeing now that the situation regarding Free fonts is much better than in
@@ -304,7 +304,7 @@ bold weight.&lt;/p&gt;&lt;/li&gt;
 
 
 	<pubDate>Sat, 29 May 2010 17:54:56 -0300</pubDate>
-	<dcterms:modified>2011-03-12T03:53:18Z</dcterms:modified>
+	<dcterms:modified>2017-07-14T18:24:03Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Please, excuse me if you are a connoisseur of fonts and typography. You will
@@ -319,9 +319,12 @@ that would have many (all?) of the glyphs needed by scientists.&lt;/p&gt;
 Free Software part of this is that the fonts were released under the SIL
 Open Font Library.&lt;/p&gt;
 
-&lt;p&gt;This, together with Google&#39;s new &lt;a href=&quot;http://code.google.com/webfonts&quot;&gt;font directory&lt;/a&gt; of Free Software fonts
+&lt;p&gt;This, together with Google&#39;s new &lt;a href=&quot;https://fonts.google.com/&quot;&gt;font directory&lt;/a&gt; of Free Software fonts
 (overshadowed by the release of VP8 codec, in the eyes of some), shows that
 the typographic arena is alive and going strong.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Edit:&lt;/em&gt; Thanks to Paul Turnbull from &lt;a href=&quot;http://www.artofblog.com/typography-basics-some-fundamentals-for-body-copy/&quot;&gt;ArtofBlog.com&lt;/a&gt; for spotting a link
+that went bad when Google moved their font directory.&lt;/p&gt;
 </description>
 
 
@@ -402,7 +405,7 @@ the typographic arena is alive and going strong.&lt;/p&gt;
 
 
 	<pubDate>Sat, 04 Mar 2006 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-03-13T22:46:32Z</dcterms:modified>
+	<dcterms:modified>2017-07-14T18:26:00Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Discovered a great site for using Usenet (instead of using
@@ -436,7 +439,7 @@ to the (already packaged) teTeX.&lt;/p&gt;
 
 
 	<pubDate>Tue, 14 Feb 2006 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-05-16T03:48:19Z</dcterms:modified>
+	<dcterms:modified>2015-05-16T03:42:36Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Since the new teTeX has entered testing, I am playing with fonts.
@@ -477,7 +480,7 @@ fonts&lt;/li&gt;
 
 
 	<pubDate>Sun, 12 Feb 2006 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-05-16T03:48:19Z</dcterms:modified>
+	<dcterms:modified>2015-05-16T03:40:10Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Holy, shit! What a disasterous day: two car accidents in just one
@@ -601,7 +604,7 @@ www.clivemenzies.co.uk ...
 
 
 	<pubDate>Sat, 12 Nov 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-01-18T00:59:01Z</dcterms:modified>
+	<dcterms:modified>2015-01-18T00:45:35Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Stop the presses! If there is any text editor that would be worth

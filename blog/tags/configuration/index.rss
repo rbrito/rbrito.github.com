@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 15 Feb 2014 00:23:51 -0200</pubDate>
+<pubDate>Sat, 15 Feb 2014 00:21:28 -0200</pubDate>
 <item>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -42,7 +42,7 @@
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2014-02-15T02:23:51Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
@@ -345,7 +345,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Sat, 22 May 2010 20:36:42 -0300</pubDate>
-	<dcterms:modified>2014-02-15T02:20:38Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:20:59Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Two of my most frequently used tools are, hands down, Emacs and bash.
@@ -451,7 +451,7 @@ DejaVu Sans Mono at the right size on my system.&lt;/p&gt;
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2014-02-15T02:23:51Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
