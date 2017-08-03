@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Android recording audio quality</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="../../combined.min.css" type="text/css" />
+
+
+<meta name="date" content="2017-04-20 00:17:05 -0300" />
+
+
+</head>
+<body>
+
+<article class="page">
+
+<section class="pageheader">
+<header class="header">
+<script type="text/javascript">
+  bb_bid = "1692909";
+  bb_lang = "pt-BR";
+  bb_name = "custom";
+  bb_limit = "8";
+  bb_format = "bbb";
+</script>
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+<span>
+<span class="parentlinks">
+
+<a href="../../">Rogério Brito's Digital Junkyard</a> &#8594;
+
+<a href="../">posts</a> &#8594;
+
+</span>
+<span class="title">
+Android recording audio quality
+</span>
+</span>
+</header>
+
+
+
+</section>
+
+
+<aside class="sidebar">
+<p><a href="../../about/">About Me</a></p>
+
+<script type="text/javascript">
+  bb_bid = "1692909";
+  bb_lang = "pt-BR";
+  bb_name = "custom";
+  bb_limit = "6";
+  bb_format = "bbn";
+</script>
+
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+
+</aside>
+
+
+<div id="pagebody">
+
+<section id="content">
+<p>Roughly sorted by quality:</p>
+
+<pre><code>amr_nb in 3gpp &lt; amr_wb in 3gpp &lt; aac_lc in m4a &lt; aac+ in m4a (only in Android 4.0+) &lt; opus in webm (only in android 5+) &lt; pcm in wav (only in android 4.1+)
+</code></pre>
+
+<p>Taking into consideration the compatibility of the codecs (mainly with
+Android and with the popular WhatsApp and Telegram messengers), the best
+options seem to be:</p>
+
+<pre><code>aac_lc in m4a &lt; aac+ in m4a (API &gt;= 16) &lt; vorbis/opus in webm (API &gt;= 21) &lt; pcm in wav (only in android 4.1+)
+</code></pre>
+
+<p>For a device running API 14, we can use something like this
+(<code>MediaRecorder.OutputFormat</code> constants):</p>
+
+<ul>
+<li><p>For very low quality/very low bitrate/very long recording times, use
+AMR-NB in 3GPP container.  Parameters summary: 8kHz and bitrate 12.8kbps
+Works pretty much anywhere.</p></li>
+<li><p>For low quality/low bitrate/long recording times, use AAC in MP4
+container, with <strong><em>m4a</em></strong> extension. Works pretty much anywhere. Example
+code adapted from:
+https://developer.android.com/guide/topics/media/mediarecorder.html</p>
+
+<pre><code>private void startRecording() {
+   mRecorder = new MediaRecorder();
+   mRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
+   mRecorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4); // other?
+   mRecorder.setOutputFile(mFileName); // end in m4a, for compatibility
+   mRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC); // AAC_HE, if supported
+
+
+   try {
+       mRecorder.prepare();
+   } catch (IOException e) {
+       Log.e(LOG_TAG, "prepare() failed");
+   }
+
+
+   mRecorder.start();
+}
+</code></pre></li>
+</ul>
+
+</section>
+
+<div id="blogcomments">
+
+<div id="disqus_comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'digitaljunkyard'; // required: replace example with your forum shortname
+    var discus_identifier = 'posts/2017-04-20-android_recording_audio_quality';
+    var disqus_url = 'http://cynic.cc/blog//posts/2017-04-20-android_recording_audio_quality/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer id="footer" class="pagefooter">
+
+<nav id="pageinfo">
+
+
+
+
+<nav class="tags">
+Tags:
+
+<a href="../../tags/android/" rel="tag">android</a>
+
+<a href="../../tags/audio/" rel="tag">audio</a>
+
+<a href="../../tags/free-software/" rel="tag">free-software</a>
+
+<a href="../../tags/multimedia/" rel="tag">multimedia</a>
+
+</nav>
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <time datetime="2017-08-03T06:48:04Z">2017-08-03T03:48:04 -03</time>
+<!-- Created <time datetime="2017-04-20T03:17:05Z" pubdate="pubdate">2017-04-20T00:17:05 -03</time> -->
+</div>
+
+</nav>
+
+
+<!-- from Rogério Brito's Digital Junkyard -->
+</footer>
+
+</article>
+</body>
+</html>

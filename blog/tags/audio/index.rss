@@ -10,7 +10,76 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 17 Jan 2015 22:52:28 -0200</pubDate>
+<pubDate>Thu, 03 Aug 2017 03:48:04 -0300</pubDate>
+<item>
+	<title>Android recording audio quality</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2017-04-20-android_recording_audio_quality/</guid>
+
+	<link>http://cynic.cc/blog//posts/2017-04-20-android_recording_audio_quality/</link>
+
+
+
+	<category>android</category>
+
+	<category>audio</category>
+
+	<category>free-software</category>
+
+	<category>multimedia</category>
+
+
+	<pubDate>Thu, 20 Apr 2017 00:17:05 -0300</pubDate>
+	<dcterms:modified>2017-08-03T06:48:04Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Roughly sorted by quality:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;amr_nb in 3gpp &amp;lt; amr_wb in 3gpp &amp;lt; aac_lc in m4a &amp;lt; aac+ in m4a (only in Android 4.0+) &amp;lt; opus in webm (only in android 5+) &amp;lt; pcm in wav (only in android 4.1+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Taking into consideration the compatibility of the codecs (mainly with
+Android and with the popular WhatsApp and Telegram messengers), the best
+options seem to be:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;aac_lc in m4a &amp;lt; aac+ in m4a (API &amp;gt;= 16) &amp;lt; vorbis/opus in webm (API &amp;gt;= 21) &amp;lt; pcm in wav (only in android 4.1+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For a device running API 14, we can use something like this
+(&lt;code&gt;MediaRecorder.OutputFormat&lt;/code&gt; constants):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;For very low quality/very low bitrate/very long recording times, use
+AMR-NB in 3GPP container.  Parameters summary: 8kHz and bitrate 12.8kbps
+Works pretty much anywhere.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For low quality/low bitrate/long recording times, use AAC in MP4
+container, with &lt;strong&gt;&lt;em&gt;m4a&lt;/em&gt;&lt;/strong&gt; extension. Works pretty much anywhere. Example
+code adapted from:
+https://developer.android.com/guide/topics/media/mediarecorder.html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private void startRecording() {
+   mRecorder = new MediaRecorder();
+   mRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
+   mRecorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4); // other?
+   mRecorder.setOutputFile(mFileName); // end in m4a, for compatibility
+   mRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC); // AAC_HE, if supported
+
+
+   try {
+       mRecorder.prepare();
+   } catch (IOException e) {
+       Log.e(LOG_TAG, &quot;prepare() failed&quot;);
+   }
+
+
+   mRecorder.start();
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Preliminary support for webm in youtube-dl</title>
 
