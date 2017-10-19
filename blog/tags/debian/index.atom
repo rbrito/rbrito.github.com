@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2016-03-29T05:29:09Z</updated>
+<updated>2017-10-19T22:38:45Z</updated>
 <entry>
 	<title>Partially switching to Chromium</title>
 
@@ -190,7 +190,7 @@ program or &lt;a href=&quot;https://github.com/coursera-dl/coursera/issues&quot;
 	<category term="free-software" />
 
 
-	<updated>2015-02-23T02:01:49Z</updated>
+	<updated>2017-10-19T22:38:45Z</updated>
 	<published>2015-02-22T23:54:27Z</published>
 
 
@@ -258,6 +258,11 @@ collected (sorry if it gets too wide):&lt;/p&gt;
 	&lt;td&gt;Debian&#39;s Iceweasel 35.0.1&lt;/td&gt;
 	&lt;td&gt;&lt;code&gt;Mozilla/5.0 (X11; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0 Iceweasel/35.0.1&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;Moto G4 Plus&lt;/td&gt;
+	&lt;td&gt;Firefox Focus 2.2&lt;/td&gt;
+	&lt;td&gt;&lt;code&gt;Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/2.2 Chrome/61.0.3163.98 Mobile Safari/537.36&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
@@ -286,6 +291,9 @@ installed.&lt;/p&gt;
 
 &lt;p&gt;The bonus points with Firefox is that it is also available on &lt;a href=&quot;https://f-droid.org/&quot;&gt;F-Droid&lt;/a&gt;, in
 two versions: as &lt;a href=&quot;https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox&quot;&gt;Firefox itself&lt;/a&gt; and as &lt;a href=&quot;https://f-droid.org/repository/browse/?fdid=org.mozilla.fennec_fdroid&quot;&gt;Fennec&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Edit, 2017-10-19:&lt;/em&gt; Added the User-Agent string of Firefox Focus. Quite
+different from regular Firefox, as we can see.&lt;/p&gt;
 
 	</content>
 
