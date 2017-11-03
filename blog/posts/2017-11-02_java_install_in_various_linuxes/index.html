@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Comparison of JDK installation of various Linux distributions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="../../combined.min.css" type="text/css" />
+
+
+<meta name="date" content="Thu, 02 Nov 2017 23:13:56 -0200" />
+
+
+</head>
+<body>
+
+<article class="page">
+
+<section class="pageheader">
+<header class="header">
+<script type="text/javascript">
+  bb_bid = "1692909";
+  bb_lang = "pt-BR";
+  bb_name = "custom";
+  bb_limit = "8";
+  bb_format = "bbb";
+</script>
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+<span>
+<span class="parentlinks">
+
+<a href="../../">Rogério Brito's Digital Junkyard</a> &#8594;
+
+<a href="../">posts</a> &#8594;
+
+</span>
+<span class="title">
+Comparison of JDK installation of various Linux distributions
+</span>
+</span>
+</header>
+
+
+
+</section>
+
+
+<aside class="sidebar">
+<p><a href="../../about/">About Me</a></p>
+
+<script type="text/javascript">
+  bb_bid = "1692909";
+  bb_lang = "pt-BR";
+  bb_name = "custom";
+  bb_limit = "6";
+  bb_format = "bbn";
+</script>
+
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+
+</aside>
+
+
+<div id="pagebody">
+
+<section id="content">
+<p>Today I spent some time in the morning seeing how one would install the JDK
+on Linux distributions. This is to create a little comparative tutorial to
+teach introductory Java.</p>
+
+<p>Installing the JDK is, thanks to the OpenJDK developers in Debian and Ubuntu
+(Matthias Klose and helpers), a very easy task. You simply type something
+like:</p>
+
+<pre><code>apt-get install openjdk-8-jdk
+</code></pre>
+
+<p>Since for a student it is better to have everything for experiments, I
+install the <a href="https://packages.debian.org/sid/openjdk-8-jdk">full version</a>, not only the
+<a href="https://packages.debian.org/sid/openjdk-8-jdk-headless"><code>-headless</code></a> version. Given my familiarity with
+Debian/Ubuntu, I didn't have to think about the way of installing it, of
+course.</p>
+
+<p>But as this is a tutorial meant to be as general as I can, I tried also to
+include instructions on how to install Java on other distributions. The
+first two that came to my mind were <a href="https://www.opensuse.org/">openSUSE</a> and <a href="https://getfedora.org/">Fedora</a>.</p>
+
+<p>Both use the RPM package format for their "native" packages (in the same
+sense that Debian uses DEB packages for "native" packages). But they use
+different higher-level tools to install such packages: Fedora uses a tool
+called <a href="https://fedoraproject.org/wiki/DNF"><code>dnf</code></a>, while openSUSE uses <a href="https://en.opensuse.org/SDB:Zypper_usage"><code>zypper</code></a>.</p>
+
+<p>To try these distributions, I got their netinstall ISOs and used
+<code>qemu</code>/<code>kvm</code> to install on a virtual machine. I used the following to
+install/run the virtual machines (the example below, is, of course, for openSUSE):</p>
+
+<pre><code>qemu-system-x86_64 -enable-kvm -m 4096 -smp 2 -net nic,model=e1000 -net user -drive index=0,media=disk,cache=unsafe,file=suse.qcow2 -cdrom openSUSE-Leap-42.3-NET-x86_64.iso
+</code></pre>
+
+<p>The names of the packages also change from one distribution to another. On
+Fedora, I had to use:</p>
+
+<pre><code>dnf install java-1.8.0-openjdk-devel
+</code></pre>
+
+<p>On openSUSE, I had to use:</p>
+
+<pre><code>zypper install java-1_8_0-openjdk-devel
+</code></pre>
+
+<p>Note that one distribution uses dots in the names of the packages while the
+other uses underscores.</p>
+
+<p>One interesting thing that I noticed with <code>dnf</code> was that, when I used it, it
+automatically refreshed the package lists from the network, something which
+I forgot, and it was a pleasant surprise. I don't know about <code>zypper</code>, but I
+guess that it probably had fresh indices when the installation finished.</p>
+
+<p>Both installations were effortless after I knew the names of the packages to
+install.</p>
+
+<p>Oh, BTW, in my 5 minute exploration with these distributions, I noticed that
+if you don't want the JDK, but only the JRE, then you omit the <code>-devel</code>
+suffix.  It makes sense when you think about it, for consistency with other
+packages, but Debian's conventions also make sense (JRE with <code>-jre</code> suffix,
+JDK with <code>-jdk</code> suffix).</p>
+
+<p>I failed miserably to use Fedora's prebaked, vanilla
+<a href="https://alt.fedoraproject.org/cloud/">cloud image</a>, as I couldn't login on this image and I decided
+to just install the whole OS on a fresh virtual machine.</p>
+
+<p>I don't have instructions on how to install on <a href="https://getfedora.org/">Gentoo</a> nor on
+<a href="https://www.archlinux.org/">Arch</a>, though.</p>
+
+<p>I now see how hard it is to cover instructions/provide software for as many
+distributions as you wish, given the multitude of package managers,
+conventions etc.</p>
+
+</section>
+
+<div id="blogcomments">
+
+<div id="disqus_comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'digitaljunkyard'; // required: replace example with your forum shortname
+    var discus_identifier = 'posts/2017-11-02_java_install_in_various_linuxes';
+    var disqus_url = 'http://cynic.cc/blog//posts/2017-11-02_java_install_in_various_linuxes/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer id="footer" class="pagefooter">
+
+<nav id="pageinfo">
+
+
+
+
+<nav class="tags">
+Tags:
+
+<a href="../../tags/debian/" rel="tag">debian</a>
+
+<a href="../../tags/free-software/" rel="tag">free-software</a>
+
+<a href="../../tags/java/" rel="tag">java</a>
+
+<a href="../../tags/linux/" rel="tag">linux</a>
+
+<a href="../../tags/ubuntu/" rel="tag">ubuntu</a>
+
+</nav>
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <time datetime="2017-11-03T01:14:12Z">2017-11-02T23:14:12 -02</time>
+<!-- Created <time datetime="2017-11-03T01:13:56Z" pubdate="pubdate">2017-11-02T23:13:56 -02</time> -->
+</div>
+
+</nav>
+
+
+<!-- from Rogério Brito's Digital Junkyard -->
+</footer>
+
+</article>
+</body>
+</html>

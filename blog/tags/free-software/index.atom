@@ -17,7 +17,112 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-10-19T22:38:45Z</updated>
+<updated>2017-11-03T01:14:12Z</updated>
+<entry>
+	<title>Comparison of JDK installation of various Linux distributions</title>
+
+	<id>http://cynic.cc/blog//posts/2017-11-02_java_install_in_various_linuxes/</id>
+
+	<link href="http://cynic.cc/blog//posts/2017-11-02_java_install_in_various_linuxes/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="java" />
+
+	<category term="linux" />
+
+	<category term="ubuntu" />
+
+
+	<updated>2017-11-03T01:14:12Z</updated>
+	<published>2017-11-03T01:13:56Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Today I spent some time in the morning seeing how one would install the JDK
+on Linux distributions. This is to create a little comparative tutorial to
+teach introductory Java.&lt;/p&gt;
+
+&lt;p&gt;Installing the JDK is, thanks to the OpenJDK developers in Debian and Ubuntu
+(Matthias Klose and helpers), a very easy task. You simply type something
+like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install openjdk-8-jdk
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Since for a student it is better to have everything for experiments, I
+install the &lt;a href=&quot;https://packages.debian.org/sid/openjdk-8-jdk&quot;&gt;full version&lt;/a&gt;, not only the
+&lt;a href=&quot;https://packages.debian.org/sid/openjdk-8-jdk-headless&quot;&gt;&lt;code&gt;-headless&lt;/code&gt;&lt;/a&gt; version. Given my familiarity with
+Debian/Ubuntu, I didn&#39;t have to think about the way of installing it, of
+course.&lt;/p&gt;
+
+&lt;p&gt;But as this is a tutorial meant to be as general as I can, I tried also to
+include instructions on how to install Java on other distributions. The
+first two that came to my mind were &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; and &lt;a href=&quot;https://getfedora.org/&quot;&gt;Fedora&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Both use the RPM package format for their &quot;native&quot; packages (in the same
+sense that Debian uses DEB packages for &quot;native&quot; packages). But they use
+different higher-level tools to install such packages: Fedora uses a tool
+called &lt;a href=&quot;https://fedoraproject.org/wiki/DNF&quot;&gt;&lt;code&gt;dnf&lt;/code&gt;&lt;/a&gt;, while openSUSE uses &lt;a href=&quot;https://en.opensuse.org/SDB:Zypper_usage&quot;&gt;&lt;code&gt;zypper&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To try these distributions, I got their netinstall ISOs and used
+&lt;code&gt;qemu&lt;/code&gt;/&lt;code&gt;kvm&lt;/code&gt; to install on a virtual machine. I used the following to
+install/run the virtual machines (the example below, is, of course, for openSUSE):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;qemu-system-x86_64 -enable-kvm -m 4096 -smp 2 -net nic,model=e1000 -net user -drive index=0,media=disk,cache=unsafe,file=suse.qcow2 -cdrom openSUSE-Leap-42.3-NET-x86_64.iso
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The names of the packages also change from one distribution to another. On
+Fedora, I had to use:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;dnf install java-1.8.0-openjdk-devel
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;On openSUSE, I had to use:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;zypper install java-1_8_0-openjdk-devel
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note that one distribution uses dots in the names of the packages while the
+other uses underscores.&lt;/p&gt;
+
+&lt;p&gt;One interesting thing that I noticed with &lt;code&gt;dnf&lt;/code&gt; was that, when I used it, it
+automatically refreshed the package lists from the network, something which
+I forgot, and it was a pleasant surprise. I don&#39;t know about &lt;code&gt;zypper&lt;/code&gt;, but I
+guess that it probably had fresh indices when the installation finished.&lt;/p&gt;
+
+&lt;p&gt;Both installations were effortless after I knew the names of the packages to
+install.&lt;/p&gt;
+
+&lt;p&gt;Oh, BTW, in my 5 minute exploration with these distributions, I noticed that
+if you don&#39;t want the JDK, but only the JRE, then you omit the &lt;code&gt;-devel&lt;/code&gt;
+suffix.  It makes sense when you think about it, for consistency with other
+packages, but Debian&#39;s conventions also make sense (JRE with &lt;code&gt;-jre&lt;/code&gt; suffix,
+JDK with &lt;code&gt;-jdk&lt;/code&gt; suffix).&lt;/p&gt;
+
+&lt;p&gt;I failed miserably to use Fedora&#39;s prebaked, vanilla
+&lt;a href=&quot;https://alt.fedoraproject.org/cloud/&quot;&gt;cloud image&lt;/a&gt;, as I couldn&#39;t login on this image and I decided
+to just install the whole OS on a fresh virtual machine.&lt;/p&gt;
+
+&lt;p&gt;I don&#39;t have instructions on how to install on &lt;a href=&quot;https://getfedora.org/&quot;&gt;Gentoo&lt;/a&gt; nor on
+&lt;a href=&quot;https://www.archlinux.org/&quot;&gt;Arch&lt;/a&gt;, though.&lt;/p&gt;
+
+&lt;p&gt;I now see how hard it is to cover instructions/provide software for as many
+distributions as you wish, given the multitude of package managers,
+conventions etc.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Android recording audio quality</title>
 
@@ -892,73 +997,6 @@ now.&lt;/p&gt;
 upload/share the videos so that other people not at these events can watch
 them is highly appreciated and they usually are treated as anonymous, but,
 of course, this should be fixed.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Quick tip #1</title>
-
-	<id>http://cynic.cc/blog//posts/2013-10-18-bittorrent_with_webseed/</id>
-
-	<link href="http://cynic.cc/blog//posts/2013-10-18-bittorrent_with_webseed/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="mooc" />
-
-	<category term="quick-tip" />
-
-
-	<updated>2014-02-15T02:20:59Z</updated>
-	<published>2013-10-18T15:49:09Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;I wrote the following as part of a post to an discussion forum (I can&#39;t
-remember which one), and people told me that they liked this information and
-said that others would profit from it if I posted it on my blog, which I now
-decided to post.&lt;/p&gt;
-
-&lt;p&gt;The context: for homework of one &lt;a href=&quot;https://en.wikipedia.org/wiki/MOOC&quot;&gt;MOOC&lt;/a&gt;, people were trying to
-download a large virtual machine image that was offered both via an official
-HTTP source, which was slow.&lt;/p&gt;
-
-&lt;p&gt;A person volunteered that already had downloaded the image volunteered to
-create a bittorrent to help fellow students.&lt;/p&gt;
-
-&lt;p&gt;Other students started saying that the bittorrent download was faster up to
-a certain point and, then, things slowed down a lot. Of course, they got
-faster to the point where lots of pieces were already well distributed and,
-then, only the everybody had already downloaded things and, then, only the
-seeder had the missing segments of the torrent.&lt;/p&gt;
-
-&lt;p&gt;Then I commented with:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Depending on your bittorrent client, you can add the original HTTP
-  download as a &quot;Web seed&quot; and, this way, your client will download &lt;em&gt;both&lt;/em&gt;
-  from the peers and also from the web to fill in parts that are not yet
-  available.&lt;/p&gt;
-  
-  &lt;p&gt;One such client is the Free (as in Freedom) &lt;a href=&quot;http://qbittorrent.sf.net/&quot;&gt;qbittorrent&lt;/a&gt;, but I guess
-  that others also have this option.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Soon after that, people started downloading things much faster.&lt;/p&gt;
 
 	</content>
 
