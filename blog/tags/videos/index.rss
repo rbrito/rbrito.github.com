@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>pages tagged videos</title>
+<link>http://cynic.cc/blog//tags/videos/</link>
+<atom:link href="http://cynic.cc/blog//tags/videos/index.rss" rel="self" type="application/rss+xml"/>
+
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Mon, 06 Nov 2017 05:22:19 -0200</pubDate>
+<item>
+	<title>2008-05-13</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-05-13/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-05-13/</link>
+
+
+
+	<category>life</category>
+
+	<category>math</category>
+
+	<category>music</category>
+
+	<category>study</category>
+
+	<category>videos</category>
+
+
+	<pubDate>Tue, 13 May 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2017-11-06T07:22:19Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Didn&#39;t sleep too much today (actually I spent the whole night awake
+trying to understand the simple program presented on
+&lt;a href=&quot;http://en.wikipedia.org/&quot;&gt;Wikipedia&lt;/a&gt; for the generation of the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Farey_series&quot;&gt;Farey Series&lt;/a&gt; (as Hardy
+&amp;amp; Wright call them). Finally, looking at my copy of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Concrete_Mathematics&quot;&gt;&quot;Concrete Mathematics&quot;&lt;/a&gt;,
+I discovered a &quot;bonus problem&quot; (read: a very hard problem) that has
+a deceivingly simple solution that I was looking for the past few
+days to justify the program correctness.&lt;/p&gt;
+
+&lt;p&gt;Latter, I went with my dad to &quot;Galeria do Rock&quot; to grab myself a
+copy of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Pain_of_Salvation&quot;&gt;Pain of Salvation&lt;/a&gt;&#39;s
+&quot;Be&quot; (DVD+CD),
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Tristania_(band)&quot;&gt;Tristania&lt;/a&gt;&#39;s
+&quot;Widow&#39;s Weeds&quot; and &quot;Beyond the Veil&quot;, and
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Opeth&quot;&gt;Opeth&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Deliverance_(Opeth_album)&quot;&gt;&quot;Deliverance&quot;&lt;/a&gt;.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-04-13</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-04-13/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-04-13/</link>
+
+
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>videos</category>
+
+
+	<pubDate>Sun, 13 Apr 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2017-11-06T07:11:55Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;&lt;a href=&quot;http://amigans.net/modules/newbb/viewtopic.php?topic_id=1410&amp;amp;forum=3&quot;&gt;Just discovered&lt;/a&gt;
+what it takes to have &lt;a href=&quot;http://www.mplayerhq.hu/&quot;&gt;mplayer&lt;/a&gt; play
+&lt;a href=&quot;http://www.youtube.com/&quot;&gt;youtube&lt;/a&gt;
+&lt;a href=&quot;http://www.arrakis.es/~rggi3/youtube-dl/&quot;&gt;downloaded videos&lt;/a&gt; with
+audio/video synchronized: the key is to pass the option &lt;code&gt;-mc 0&lt;/code&gt; on
+the command line and everything is fine.&lt;/p&gt;
+
+&lt;p&gt;I did do something relatively &quot;evil&quot; today: I got my mom with an
+account on &lt;a href=&quot;http://www.orkut.com/&quot;&gt;Orkut&lt;/a&gt;, so that she can find
+some old friends of her.&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

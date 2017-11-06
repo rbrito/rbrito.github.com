@@ -10,7 +10,135 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 14 Jul 2017 15:26:00 -0300</pubDate>
+<pubDate>Mon, 06 Nov 2017 05:20:15 -0200</pubDate>
+<item>
+	<title>2008-05-11</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-05-11/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-05-11/</link>
+
+
+
+	<category>life</category>
+
+	<category>math</category>
+
+	<category>study</category>
+
+	<category>teaching</category>
+
+
+	<pubDate>Sun, 11 May 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2017-11-06T07:20:15Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Spent some time working on what to talk on the seminar in Error
+Correcting Codes. Since the audience isn&#39;t that experienced with
+programming, I will have a lot of background to cover like what a
+simplified computer architecture is, what are the usual program
+constructs in a high-level language, how the complexity of an
+algorithm is evaluated, asymptotic notation, examples of some
+algorithms relevant to this audience, like the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Greatest_common_divisor&quot;&gt;greatest common divisor&lt;/a&gt;
+by Euclid&#39;s
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Euclidean_algorithm&quot;&gt;Algorithm&lt;/a&gt; and
+Lamé&#39;s theorem. Of course, it is particularly important to cover
+the methods of multiplication of matrices like Strassen&#39;s
+Algorithm.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2007-01-04</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2007-01-04/</guid>
+
+	<link>http://cynic.cc/blog//posts/2007-01-04/</link>
+
+
+
+	<category>life</category>
+
+	<category>math</category>
+
+	<category>teaching</category>
+
+	<category>work</category>
+
+
+	<pubDate>Thu, 04 Jan 2007 00:00:00 -0200</pubDate>
+	<dcterms:modified>2017-11-06T07:06:15Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Talk about therapy. The course is a nice opportunity for me to
+review some elementary facts on Computing Science.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2007-01-03</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2007-01-03/</guid>
+
+	<link>http://cynic.cc/blog//posts/2007-01-03/</link>
+
+
+
+	<category>life</category>
+
+	<category>math</category>
+
+	<category>teaching</category>
+
+	<category>work</category>
+
+
+	<pubDate>Wed, 03 Jan 2007 00:00:00 -0200</pubDate>
+	<dcterms:modified>2017-11-06T07:05:57Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;The course finally began. The news are now posted on the
+&lt;a href=&quot;http://cynic.cc/blog//tags/verao/2007/index.html&quot;&gt;proper website&lt;/a&gt; now. A bit intense, but
+good nonetheless.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2007-01-02</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2007-01-02/</guid>
+
+	<link>http://cynic.cc/blog//posts/2007-01-02/</link>
+
+
+
+	<category>life</category>
+
+	<category>math</category>
+
+	<category>teaching</category>
+
+	<category>work</category>
+
+
+	<pubDate>Tue, 02 Jan 2007 00:00:00 -0200</pubDate>
+	<dcterms:modified>2017-11-06T07:05:38Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Started thinking about the new offering of the Summer Course. I
+hope to cover some aspects of graph theory now. I just noticed that
+the length of the course now seems to be 12h bigger. With a little
+bit of exams and homework, I think that I can manage to cover more
+aspects of the development of correct algorithms (thank you very
+much Prof. Dijkstra!).&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>2006-03-03</title>
 
@@ -225,161 +353,6 @@ still like to implement it in a better &quot;literate style&quot; and use the
 	<description>&lt;p&gt;Mostly a futile day. Well, not entirely lost, because I put a new
 quiz for the
 &lt;a href=&quot;http://www.ime.usp.br/~rbrito/verao/&quot;&gt;Summer Course&lt;/a&gt;.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2006-01-05</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-01-05/</guid>
-
-	<link>http://cynic.cc/blog//posts/2006-01-05/</link>
-
-
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>life</category>
-
-	<category>teaching</category>
-
-
-	<pubDate>Thu, 05 Jan 2006 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-01-18T00:55:35Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Some amazing new packages are coming into Debian&#39;s testing
-distribution. What a great time to live using Free Software only.&lt;/p&gt;
-
-&lt;p&gt;Somehow, I &quot;bribed&quot; Alexandre to get him to see one of my classes,
-where covered recursion and the Towers of Hanoi Problem. &lt;img src=&quot;http://cynic.cc/blog//smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt; He
-told me that the class was &quot;unusual&quot;. I have yet to ask him what
-exactly about it was unusual, but it seems that he thought that it
-wasn&#39;t bad. &lt;img src=&quot;http://cynic.cc/blog//smileys/smile.png&quot; alt=&quot;:-)&quot; /&gt;&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2005-10-19</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-10-19/</guid>
-
-	<link>http://cynic.cc/blog//posts/2005-10-19/</link>
-
-
-
-	<category>apple</category>
-
-	<category>life</category>
-
-	<category>powerpc</category>
-
-	<category>teaching</category>
-
-	<category>work</category>
-
-
-	<pubDate>Wed, 19 Oct 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-01-18T00:43:16Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Ok, so, I am almost giving up the hectic mess in which work has
-turned to... I need to take a serious time resting a little bit.&lt;/p&gt;
-
-&lt;p&gt;I&#39;m so tired and people are so demanding of me and of my creativity
-that its hard to even take some time with pleasant things. For
-instance, in the little time that I have to sleep, I don&#39;t have the
-motivation to study the neat things that I always wanted to.&lt;/p&gt;
-
-&lt;p&gt;I guess that this means that I&#39;m overworked, without any shadow of
-doubt. Being sleepy while at work has never been a common thing for
-me, even when I was in the tiring days of my M.Sc. studies.&lt;/p&gt;
-
-&lt;p&gt;In fact, in those days, I thought that I was progressing (and it&#39;s
-hard not to feel you&#39;re progressing when you&#39;re being pushed to
-your limits), but now, with little time for intellectual
-challenges, I see little point in keeping up with the work I&#39;m
-doing.&lt;/p&gt;
-
-&lt;p&gt;It&#39;s not particularly exciting to be teaching how to write a for
-for the 20th time in less than two years. I guess that if the
-concept of iteration doesn&#39;t enter one&#39;s brain as soon as it is
-told, then all is hopeless.&lt;/p&gt;
-
-&lt;p&gt;I guess that I need a significant other to make everything bright
-(even those less-than-perfect moments). Someone that truly
-understands what I mean, what my ideals are, what my values are and
-how I see the world.&lt;/p&gt;
-
-&lt;p&gt;And, yes, I am willing to even change some things of me. But please
-don&#39;t disillusion me. In some sense, I&#39;m fragile. Even more than
-most people think that I am. Despite the tough cover that I may
-have, lies a friendly person. Truly.&lt;/p&gt;
-
-&lt;p&gt;In other news, &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; has released a bunch
-of new stuff, with the highlight (for me, at least), being the new
-&lt;a href=&quot;http://www.apple.com/powerbook/&quot;&gt;PowerBook&lt;/a&gt;s.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2005-08-08</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-08-08/</guid>
-
-	<link>http://cynic.cc/blog//posts/2005-08-08/</link>
-
-
-
-	<category>life</category>
-
-	<category>teaching</category>
-
-	<category>work</category>
-
-
-	<pubDate>Mon, 08 Aug 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2015-01-18T00:40:28Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Came back to work and it was actually a surprise to see the classes
-so full of students. I guess that I have been hitting them somewhat
-hard, but they should be prepared for the challenges of life.&lt;/p&gt;
-
-&lt;p&gt;I am also pleased to know that I will be working with competent
-people being my assistants.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2005-06-25</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-06-25/</guid>
-
-	<link>http://cynic.cc/blog//posts/2005-06-25/</link>
-
-
-
-	<category>life</category>
-
-	<category>teaching</category>
-
-	<category>work</category>
-
-
-	<pubDate>Sat, 25 Jun 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2015-01-18T00:28:48Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Oh, My! This semester has been a long and tiring one. Still had
-work to do and it wasn&#39;t nice. But now, I guess that I will have
-more spare time to do things that I want.&lt;/p&gt;
 </description>
 
 

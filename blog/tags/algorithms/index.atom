@@ -17,7 +17,318 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-19T05:52:57Z</updated>
+<updated>2017-11-06T07:00:51Z</updated>
+<entry>
+	<title>2006-11-01</title>
+
+	<id>http://cynic.cc/blog//posts/2006-11-01/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-11-01/"/>
+
+
+
+
+
+
+	<category term="algorithms" />
+
+	<category term="math" />
+
+	<category term="study" />
+
+	<category term="work" />
+
+
+	<updated>2017-11-06T07:00:51Z</updated>
+	<published>2006-11-01T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Well, today, I finished Berge&#39;s theorem. I went step by step on
+showing them how the augmenting paths are created.&lt;/p&gt;
+
+&lt;p&gt;The fact that I also had a good time with a student of mine helped
+me to resist the day of having being sleep-deprived.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-10-31</title>
+
+	<id>http://cynic.cc/blog//posts/2006-10-31/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-10-31/"/>
+
+
+
+
+
+
+	<category term="algorithms" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="math" />
+
+	<category term="study" />
+
+	<category term="work" />
+
+
+	<updated>2017-11-06T07:00:17Z</updated>
+	<published>2006-10-31T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Today, I was a bit more productive than other days: the class on
+Graph Theory covered Matchings and I could prove half of Berge&#39;s
+theorem on Maximum Matchings. One might ask: &quot;gee, only half the
+theorem&quot; and yes, it was only the &quot;easy&quot; part of the theorem, but I
+made clear that all steps were understood (or, at least, accepted)
+by my students. They aren&#39;t trained with formal proofs,
+unfortunately.&lt;/p&gt;
+
+&lt;p&gt;I also got in touch with developers of the
+&lt;a href=&quot;http://lists.debian.org/debian-tex-maint/&quot;&gt;Debian TeX&lt;/a&gt;, which has
+the presence of some upstream developers of
+&lt;a href=&quot;http://www.tug.org/texlive/&quot;&gt;TeX Live&lt;/a&gt;. The main thing to get in
+contact with them is that I started teaching some students of mine
+how to deal with &lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt;, the
+wonderful infra-structure proviced by &lt;a href=&quot;http://www.ctan.org/&quot;&gt;CTAN&lt;/a&gt;,
+the
+&lt;a href=&quot;http://www.ctan.org/tex-archive/help/Catalogue/&quot;&gt;TeX Catalogue OnLine&lt;/a&gt;
+and how &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt; works in general.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-09-21</title>
+
+	<id>http://cynic.cc/blog//posts/2006-09-21/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-09-21/"/>
+
+
+
+
+
+
+	<category term="algorithms" />
+
+	<category term="free-software" />
+
+	<category term="life" />
+
+	<category term="math" />
+
+	<category term="study" />
+
+	<category term="work" />
+
+
+	<updated>2017-11-06T06:58:56Z</updated>
+	<published>2006-09-21T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;The day of the my second talk. I didn&#39;t like this one as much as I
+did with the one before, despite the subject not being so
+intricated as it was with the other talk on &quot;Approximation
+Algorithms&quot;.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-09-20</title>
+
+	<id>http://cynic.cc/blog//posts/2006-09-20/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-09-20/"/>
+
+
+
+
+
+
+	<category term="algorithms" />
+
+	<category term="free-software" />
+
+	<category term="life" />
+
+	<category term="math" />
+
+	<category term="study" />
+
+	<category term="work" />
+
+
+	<updated>2017-11-06T06:58:32Z</updated>
+	<published>2006-09-20T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;The day of my first talk. Despite the fact that I have rushed the
+presentation (otherwise I couldn&#39;t talk 1/10th of what I had to
+say), I think that things went quite OK here.&lt;/p&gt;
+
+&lt;p&gt;Oh, this time, the iBook saved my day, for burning a CD with the
+presentation in PDF format (a requirement of the organization) with
+only 10 minutes to start the talk.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-09-18</title>
+
+	<id>http://cynic.cc/blog//posts/2006-09-18/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-09-18/"/>
+
+
+
+
+
+
+	<category term="algorithms" />
+
+	<category term="free-software" />
+
+	<category term="life" />
+
+	<category term="math" />
+
+	<category term="study" />
+
+	<category term="work" />
+
+
+	<updated>2017-11-06T06:57:47Z</updated>
+	<published>2006-09-18T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Arrived at
+&lt;a href=&quot;http://www.ime.unicamp.br/&quot;&gt;IMECC&lt;/a&gt;-&lt;a href=&quot;http://www.unicamp.br/&quot;&gt;Unicamp&lt;/a&gt;
+in Campinas for the congress today. Let me understand this city
+(full of curiosities). It is not that easy to get around here, it
+seems.&lt;/p&gt;
+
+&lt;p&gt;Without knowing, I happened to discover that the hotel where I
+stayed had Wireless Internet Connection, in a quite interesting
+configuration: it is &quot;open&quot;, without any encryption protocol (no
+WEP, nor WPA).&lt;/p&gt;
+
+&lt;p&gt;They control the access to their network via a transparent proxy
+that intercepts the traffic of the client and, then, upon
+authentication, it opens all the ports and this includes access to
+SSH! (I&#39;d expect this to be a quite uncommon situation, since
+people regard &quot;Internet access as &lt;em&gt;Inter-web&lt;/em&gt;&quot;).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-07-20</title>
+
+	<id>http://cynic.cc/blog//posts/2006-07-20/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-07-20/"/>
+
+
+
+
+
+
+	<category term="algorithms" />
+
+	<category term="life" />
+
+	<category term="math" />
+
+	<category term="study" />
+
+	<category term="work" />
+
+
+	<updated>2017-11-06T06:54:35Z</updated>
+	<published>2006-07-20T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Hooray! Another &lt;em&gt;quite pleasant&lt;/em&gt; news that I had (another)
+peer-reviewed work accepted to the
+&lt;a href=&quot;http://www.congresscentral.com.br/cnmac&quot;&gt;CNMAC&#39;2006&lt;/a&gt; Congress.&lt;/p&gt;
+
+&lt;p&gt;This time, the work was entitled &quot;Algoritmos de Aproximação para
+Alinhamento de Seqüências Biológicas&quot; (&quot;Approximation Algorithms
+for Biological Sequence Alignment&quot;). Another nice addition to my
+curriculum.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-07-11</title>
+
+	<id>http://cynic.cc/blog//posts/2006-07-11/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-07-11/"/>
+
+
+
+
+
+
+	<category term="algorithms" />
+
+	<category term="life" />
+
+	<category term="math" />
+
+	<category term="study" />
+
+	<category term="work" />
+
+
+	<updated>2017-11-06T06:53:59Z</updated>
+	<published>2006-07-11T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Had the &lt;em&gt;quite pleasant&lt;/em&gt; news that I had my first peer-reviewed
+work accepted to the
+&lt;a href=&quot;http://www.congresscentral.com.br/cnmac&quot;&gt;CNMAC&#39;2006&lt;/a&gt; Congress (The
+National Applied and Computational Mathematics Congress).&lt;/p&gt;
+
+&lt;p&gt;The work was entitled &quot;Complexidade de Alinhamentos de Seqüências
+Biológicas&quot; (&quot;Computational Complexity of Biological Sequence
+Alignments&quot;). This is a quite welcome addition to
+&lt;a href=&quot;http://lattes.cnpq.br/0890412916137605&quot;&gt;my curriculum&lt;/a&gt;.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>2005-01-06</title>
 

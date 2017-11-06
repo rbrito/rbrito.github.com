@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-11-03T01:14:12Z</updated>
+<updated>2017-11-06T07:16:54Z</updated>
 <entry>
 	<title>Comparison of JDK installation of various Linux distributions</title>
 
@@ -41,7 +41,7 @@
 	<category term="ubuntu" />
 
 
-	<updated>2017-11-03T01:14:12Z</updated>
+	<updated>2017-11-06T06:28:31Z</updated>
 	<published>2017-11-03T01:13:56Z</published>
 
 
@@ -360,6 +360,67 @@ visited sites), nor it closes the application.&lt;/li&gt;
 
 &lt;p&gt;I would be satisfied if any of the above were fixed or better documented,
 but it seems that some of those are, at best, going to wait a long time.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-04-30</title>
+
+	<id>http://cynic.cc/blog//posts/2008-04-30/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-04-30/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="math" />
+
+	<category term="powerpc" />
+
+	<category term="ubuntu" />
+
+
+	<updated>2017-11-06T07:16:54Z</updated>
+	<published>2008-04-30T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Upgraded my parent&#39;s computer from
+&lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;&#39;s Feisty (7.10) to Hardy (8.04).
+Now, some of the things that I&#39;m used to when using
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s sid are available on their
+computer.&lt;/p&gt;
+
+&lt;p&gt;Oh, I can&#39;t avoid to use this opportunity to complain once more
+about my &lt;a href=&quot;http://www.flash.net.br/&quot;&gt;ISP&lt;/a&gt;. If I weren&#39;t doing the
+upgrade &lt;strong&gt;really&lt;/strong&gt; early in the morning, I wouldn&#39;t have success,
+as I am (right now), without signal from them. These outages are
+getting on my nerves.&lt;/p&gt;
+
+&lt;p&gt;In some math related news, I finally saw a proof of the intuitive
+fact the determinant of a 2x2 matrix is the signed area of the
+parallelogram with vectors given by the column vectors of the
+matrix.&lt;/p&gt;
+
+&lt;p&gt;Also, my D-Link G122 (I think that that&#39;s the model) doesn&#39;t work
+with the &lt;code&gt;rt2500usb&lt;/code&gt; driver that ships with the distribution: I can
+see that &lt;code&gt;iwconfig&lt;/code&gt; lists &lt;code&gt;wlan0&lt;/code&gt; as having wireless extensions, I
+can set the device, it can see the access point, I can enter the
+WEP key, but it doesn&#39;t seem to get a DHCP lease from the router.
+&lt;code&gt;:-(&lt;/code&gt;&lt;/p&gt;
 
 	</content>
 

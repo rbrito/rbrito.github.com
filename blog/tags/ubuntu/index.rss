@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Thu, 02 Nov 2017 23:14:12 -0200</pubDate>
+<pubDate>Mon, 06 Nov 2017 05:16:54 -0200</pubDate>
 <item>
 	<title>Comparison of JDK installation of various Linux distributions</title>
 
@@ -32,7 +32,7 @@
 
 
 	<pubDate>Thu, 02 Nov 2017 23:13:56 -0200</pubDate>
-	<dcterms:modified>2017-11-03T01:14:12Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T06:28:31Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Today I spent some time in the morning seeing how one would install the JDK
@@ -331,6 +331,61 @@ visited sites), nor it closes the application.&lt;/li&gt;
 
 &lt;p&gt;I would be satisfied if any of the above were fixed or better documented,
 but it seems that some of those are, at best, going to wait a long time.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-04-30</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-04-30/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-04-30/</link>
+
+
+
+	<category>apple</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>math</category>
+
+	<category>powerpc</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Wed, 30 Apr 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2017-11-06T07:16:54Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Upgraded my parent&#39;s computer from
+&lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;&#39;s Feisty (7.10) to Hardy (8.04).
+Now, some of the things that I&#39;m used to when using
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s sid are available on their
+computer.&lt;/p&gt;
+
+&lt;p&gt;Oh, I can&#39;t avoid to use this opportunity to complain once more
+about my &lt;a href=&quot;http://www.flash.net.br/&quot;&gt;ISP&lt;/a&gt;. If I weren&#39;t doing the
+upgrade &lt;strong&gt;really&lt;/strong&gt; early in the morning, I wouldn&#39;t have success,
+as I am (right now), without signal from them. These outages are
+getting on my nerves.&lt;/p&gt;
+
+&lt;p&gt;In some math related news, I finally saw a proof of the intuitive
+fact the determinant of a 2x2 matrix is the signed area of the
+parallelogram with vectors given by the column vectors of the
+matrix.&lt;/p&gt;
+
+&lt;p&gt;Also, my D-Link G122 (I think that that&#39;s the model) doesn&#39;t work
+with the &lt;code&gt;rt2500usb&lt;/code&gt; driver that ships with the distribution: I can
+see that &lt;code&gt;iwconfig&lt;/code&gt; lists &lt;code&gt;wlan0&lt;/code&gt; as having wireless extensions, I
+can set the device, it can see the access point, I can enter the
+WEP key, but it doesn&#39;t seem to get a DHCP lease from the router.
+&lt;code&gt;:-(&lt;/code&gt;&lt;/p&gt;
 </description>
 
 

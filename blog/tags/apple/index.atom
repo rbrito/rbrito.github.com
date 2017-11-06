@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-10-19T22:38:45Z</updated>
+<updated>2017-11-06T07:18:18Z</updated>
 <entry>
 	<title>User-Agent strings and privacy</title>
 
@@ -41,7 +41,7 @@
 	<category term="free-software" />
 
 
-	<updated>2017-10-19T22:38:45Z</updated>
+	<updated>2017-11-06T06:28:31Z</updated>
 	<published>2015-02-22T23:54:27Z</published>
 
 
@@ -419,6 +419,151 @@ aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
 
 </entry>
 <entry>
+	<title>2008-05-08</title>
+
+	<id>http://cynic.cc/blog//posts/2008-05-08/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-05-08/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+
+	<updated>2017-11-06T07:18:18Z</updated>
+	<published>2008-05-08T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Had some programming session on working with
+&lt;a href=&quot;http://packages.debian.org/hfsprogs&quot;&gt;hfsprogs&lt;/a&gt;&#39;s packaging for
+Debian. I finally saw how to build a multi-arch building and
+introduced some cruft to compile it under amd64 (aka,
+&lt;a href=&quot;http://en.wikipedia.org/wiki/X86-64&quot;&gt;x86-64&lt;/a&gt;), since
+&lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;&#39;s code is
+&lt;a href=&quot;http://bugs.debian.org/436159&quot;&gt;not 64-bit clean&lt;/a&gt;. Ugh!&lt;/p&gt;
+
+&lt;p&gt;And that&#39;s because they have the guts to show us their source code.
+Imagine what a disaster it is to see proprietary software that is
+completely closed!&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-04-30</title>
+
+	<id>http://cynic.cc/blog//posts/2008-04-30/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-04-30/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="math" />
+
+	<category term="powerpc" />
+
+	<category term="ubuntu" />
+
+
+	<updated>2017-11-06T07:16:54Z</updated>
+	<published>2008-04-30T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Upgraded my parent&#39;s computer from
+&lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;&#39;s Feisty (7.10) to Hardy (8.04).
+Now, some of the things that I&#39;m used to when using
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s sid are available on their
+computer.&lt;/p&gt;
+
+&lt;p&gt;Oh, I can&#39;t avoid to use this opportunity to complain once more
+about my &lt;a href=&quot;http://www.flash.net.br/&quot;&gt;ISP&lt;/a&gt;. If I weren&#39;t doing the
+upgrade &lt;strong&gt;really&lt;/strong&gt; early in the morning, I wouldn&#39;t have success,
+as I am (right now), without signal from them. These outages are
+getting on my nerves.&lt;/p&gt;
+
+&lt;p&gt;In some math related news, I finally saw a proof of the intuitive
+fact the determinant of a 2x2 matrix is the signed area of the
+parallelogram with vectors given by the column vectors of the
+matrix.&lt;/p&gt;
+
+&lt;p&gt;Also, my D-Link G122 (I think that that&#39;s the model) doesn&#39;t work
+with the &lt;code&gt;rt2500usb&lt;/code&gt; driver that ships with the distribution: I can
+see that &lt;code&gt;iwconfig&lt;/code&gt; lists &lt;code&gt;wlan0&lt;/code&gt; as having wireless extensions, I
+can set the device, it can see the access point, I can enter the
+WEP key, but it doesn&#39;t seem to get a DHCP lease from the router.
+&lt;code&gt;:-(&lt;/code&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-04-29</title>
+
+	<id>http://cynic.cc/blog//posts/2008-04-29/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-04-29/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="powerpc" />
+
+
+	<updated>2017-11-06T07:15:15Z</updated>
+	<published>2008-04-29T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Spent some time polishing my &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;
+package for &lt;a href=&quot;http://cr.yp.to/&quot;&gt;qmail&lt;/a&gt;, with the patches managed by
+quilt. Now, everything is more maintainable, despite the fact that
+separating one monolithic patch into smaller patches was a pain.&lt;/p&gt;
+
+&lt;p&gt;I finally got some time to experience
+&lt;a href=&quot;http://www.ubuntu.org/&quot;&gt;Ubuntu&lt;/a&gt;&#39;s latest distribution on my iBook.
+Unfortunately, there seems to be serious problems with the live CD
+as X isn&#39;t working correctly. &lt;code&gt;:-(&lt;/code&gt;. I still don&#39;t know what could
+be the cause, since the framebuffer was set at 1024x768, but X
+insisted on the resolution being 800x600.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>2005-10-19</title>
 
 	<id>http://cynic.cc/blog//posts/2005-10-19/</id>
@@ -646,179 +791,6 @@ system, so that I can actually use it after this welcome upgrade.
 Then, I will surely be playing with
 &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
 &lt;a href=&quot;http://www.debian.org/releases/sarge&quot;&gt;sarge&lt;/a&gt;.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2005-03-26</title>
-
-	<id>http://cynic.cc/blog//posts/2005-03-26/</id>
-
-	<link href="http://cynic.cc/blog//posts/2005-03-26/"/>
-
-
-
-
-
-
-	<category term="apple" />
-
-	<category term="life" />
-
-	<category term="movies" />
-
-	<category term="music" />
-
-
-	<updated>2014-02-19T05:52:57Z</updated>
-	<published>2005-03-26T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Had the pleasant experience of watching &quot;Constantine&quot;. The
-comparisons with &quot;The Exorcist&quot; are obvious here, even though this
-one is a nice movie. BTW, it seems that after the Matrix series,
-Keanu Reeves is doomed to Sci-Fi movies with lots of special
-effects. It&#39;s not a bad thing, nor a good thing. Just an
-observation.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Trivia:&lt;/em&gt; It was a pleasant surprise to see (humm, hear actually)
-that David Brubeck&#39;s Quarted &quot;Take Five&quot; was on the soundtrack. Oh,
-and they insist on putting a
-&lt;a href=&quot;http://www.apple.com/powerbook/&quot;&gt;PowerBook&lt;/a&gt; on the movie. That is
-simply tempting. This is not the first movie that I see where
-something made by &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; appears on the big
-screen.&lt;/p&gt;
-
-&lt;p&gt;Of course, going to the supermarket after the movie was also quite
-nice, if you know what I mean. And the pleasant company was also
-highly appreciated. It couldn&#39;t be much better that this (really).&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2004-11-03</title>
-
-	<id>http://cynic.cc/blog//posts/2004-11-03/</id>
-
-	<link href="http://cynic.cc/blog//posts/2004-11-03/"/>
-
-
-
-
-
-
-	<category term="apple" />
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="java" />
-
-	<category term="latex" />
-
-	<category term="phd" />
-
-	<category term="studies" />
-
-	<category term="toefl" />
-
-	<category term="ubuntu" />
-
-
-	<updated>2014-01-24T06:55:36Z</updated>
-	<published>2004-11-03T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;It&#39;s been quite a long time since I last wrote anything here. In
-the mean time, &lt;a href=&quot;http://www.orkut.com/&quot;&gt;orkut&lt;/a&gt; has changed my life
-(for the worse) and it seems that I&#39;m now &quot;up for adoption&quot; again.
-Maybe &lt;a href=&quot;http://www.cs.newcastle.edu.au/~nbi/&quot;&gt;Oz&lt;/a&gt; isn&#39;t that far
-away. Or maybe it is. I still don&#39;t know. The last missing piece
-(the
-&lt;a href=&quot;http://www.toefl.org/&quot;&gt;Test of English as a Foreign Language&lt;/a&gt;) was
-completed and the only problem now is the competition for
-scholarships.&lt;/p&gt;
-
-&lt;p&gt;In the mean time, I
-&lt;a href=&quot;http://lists.debian.org/debian-mentors/2004/10/msg00325.html&quot;&gt;packaged&lt;/a&gt;
-&lt;a href=&quot;http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/&quot;&gt;PPower4&lt;/a&gt;,
-which works perfectly now with all the
-&lt;a href=&quot;http://www.kaffe.org/&quot;&gt;Free&lt;/a&gt; &lt;a href=&quot;http://www.sablevm.org/&quot;&gt;JVMs&lt;/a&gt; in
-&lt;a href=&quot;http://www.debian.org/releases/testing/&quot;&gt;Debian&#39;s testing&lt;/a&gt;, which
-means that one can depend on even less non-free software.&lt;/p&gt;
-
-&lt;p&gt;In fact, the very reason that Free JVMs entered testing were the
-reason for me to pick up &lt;a href=&quot;http://java.sun.com/&quot;&gt;Java&lt;/a&gt;. It seems to
-be a nice language and the fact that it doesn&#39;t present a problem
-to &lt;a href=&quot;http://www.fsf.org/&quot;&gt;Free Software&lt;/a&gt; makes it a plausible
-addition in my book.&lt;/p&gt;
-
-&lt;p&gt;I also patched iTunes 4.7 to work with iPod Download. The
-hard-coded blacklist that Apple put in iTunes isn&#39;t nice.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.ubuntulinux.org/&quot;&gt;Ubuntu Linux&lt;/a&gt;, on the contrary &lt;strong&gt;is&lt;/strong&gt;
-nice. Also nice is the fact that
-&lt;a href=&quot;http://texcatalogue.sarovar.org/entries/algorithms.html&quot;&gt;algorithms&lt;/a&gt;
-is now Free (and soon will be back into
-&lt;a href=&quot;http://www.tug.org/tetex/&quot;&gt;teTeX&lt;/a&gt;, which is what ships with
-&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;). I am happy, because this means
-that my local home directory will get a tiny bit smaller, with less
-cruft. And &lt;a href=&quot;http://www.debian.org/&quot;&gt;The Global Operating System&lt;/a&gt;
-even more powerful.&lt;/p&gt;
-
-&lt;p&gt;And &lt;a href=&quot;http://sf.net/projects/faac/&quot;&gt;faac&lt;/a&gt;&#39;s package made by
-Christian Marillat now works with the MP4 wrapper, which means that
-now I can use &lt;a href=&quot;http://nostatic.org/grip/&quot;&gt;grip&lt;/a&gt; with AAC files for
-&lt;a href=&quot;http://www.apple.com/ipod/&quot;&gt;iPod&lt;/a&gt; and use its space in a slighlyt
-more efficient manner (well, at least I hope so).&lt;/p&gt;
-
-&lt;p&gt;Oh, BTW, I hate daylight savings time and it seems that now I&#39;m
-back in love with Elementary Number Theory. If only Elementary
-Number Theory liked me...&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2002-07-17</title>
-
-	<id>http://cynic.cc/blog//posts/2002-07-17/</id>
-
-	<link href="http://cynic.cc/blog//posts/2002-07-17/"/>
-
-
-
-
-
-
-	<category term="apple" />
-
-	<category term="life" />
-
-	<category term="macosx" />
-
-	<category term="portuguese" />
-
-
-	<updated>2013-10-11T06:33:23Z</updated>
-	<published>2002-07-17T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Maldita &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;! Eu os odeio! Odeio $teve
-Job$. Vão começar a cobrar um rio de dinheiro pelo iTools, quero
-dizer, &lt;a href=&quot;http://www.mac.com/&quot;&gt;.Mac&lt;/a&gt;.&lt;/p&gt;
 
 	</content>
 

@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-07-14T18:26:00Z</updated>
+<updated>2017-11-06T07:22:19Z</updated>
 <entry>
 	<title>Paco de Lucia</title>
 
@@ -470,6 +470,133 @@ aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
 
 </entry>
 <entry>
+	<title>2008-05-13</title>
+
+	<id>http://cynic.cc/blog//posts/2008-05-13/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-05-13/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+	<category term="math" />
+
+	<category term="music" />
+
+	<category term="study" />
+
+	<category term="videos" />
+
+
+	<updated>2017-11-06T07:22:19Z</updated>
+	<published>2008-05-13T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Didn&#39;t sleep too much today (actually I spent the whole night awake
+trying to understand the simple program presented on
+&lt;a href=&quot;http://en.wikipedia.org/&quot;&gt;Wikipedia&lt;/a&gt; for the generation of the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Farey_series&quot;&gt;Farey Series&lt;/a&gt; (as Hardy
+&amp;amp; Wright call them). Finally, looking at my copy of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Concrete_Mathematics&quot;&gt;&quot;Concrete Mathematics&quot;&lt;/a&gt;,
+I discovered a &quot;bonus problem&quot; (read: a very hard problem) that has
+a deceivingly simple solution that I was looking for the past few
+days to justify the program correctness.&lt;/p&gt;
+
+&lt;p&gt;Latter, I went with my dad to &quot;Galeria do Rock&quot; to grab myself a
+copy of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Pain_of_Salvation&quot;&gt;Pain of Salvation&lt;/a&gt;&#39;s
+&quot;Be&quot; (DVD+CD),
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Tristania_(band)&quot;&gt;Tristania&lt;/a&gt;&#39;s
+&quot;Widow&#39;s Weeds&quot; and &quot;Beyond the Veil&quot;, and
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Opeth&quot;&gt;Opeth&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Deliverance_(Opeth_album)&quot;&gt;&quot;Deliverance&quot;&lt;/a&gt;.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-05-09</title>
+
+	<id>http://cynic.cc/blog//posts/2008-05-09/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-05-09/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+	<category term="music" />
+
+
+	<updated>2017-11-06T07:19:08Z</updated>
+	<published>2008-05-09T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I&#39;m actually excited to see Dream Theater&#39;s releases &quot;Live in
+Tokyo&quot; and &quot;5 Years in a Livetime&quot; on DVD. I guess that my
+collection of their DVDs is now almost complete. So excited to see
+&quot;5 Years in a Livetime&quot; that I had actually a personal problem here
+at home.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-02-23</title>
+
+	<id>http://cynic.cc/blog//posts/2008-02-23/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-02-23/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+	<category term="movies" />
+
+	<category term="music" />
+
+
+	<updated>2017-11-06T07:09:15Z</updated>
+	<published>2008-02-23T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Had the pleasant company of a friend when going to the theater so
+that we could watch
+&lt;a href=&quot;http://www.imdb.com/title/tt0825232/&quot;&gt;&quot;The Bucket List&quot;&lt;/a&gt; (&quot;Antes
+de Partir&quot;), with Jack Nicholson and Morgan Freeman. While waiting
+for the flick session to start, we went to Saraiva Megastore, and
+browsing through their DVD shows, I found
+&lt;a href=&quot;http://www.dreamtheater.net/&quot;&gt;Dream Theater&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.dreamtheater.net/disco_videography.php?s=budokan2dvd&quot;&gt;&quot;Live at Budokan&quot;&lt;/a&gt;
+for a feasible price.&lt;/p&gt;
+
+&lt;p&gt;It was a very pleasant evening and the company was especially
+good.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>Seeing Opeth Live in Brazil</title>
 
 	<id>http://cynic.cc/blog//posts/seeing-opeth-live-in-brazil/</id>
@@ -612,124 +739,6 @@ damage done to my car.&lt;/p&gt;
 
 &lt;p&gt;Oh, and I got some new toys to play with, including a brand new
 Firewire enclosure, wireless stuff and some DVD-R&#39;s. Fun ahead.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2006-02-13</title>
-
-	<id>http://cynic.cc/blog//posts/2006-02-13/</id>
-
-	<link href="http://cynic.cc/blog//posts/2006-02-13/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="life" />
-
-	<category term="music" />
-
-	<category term="video" />
-
-
-	<updated>2015-05-16T03:42:14Z</updated>
-	<published>2006-02-13T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Today, most of &lt;a href=&quot;http://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 2.12 has entered
-testing, which is good. Also
-&lt;a href=&quot;http://www.openoffice.org/&quot;&gt;OpenOffice.org&lt;/a&gt; 2.0.1 also entered.
-Let&#39;s see if it plays some presentations that I have here that were
-&lt;em&gt;slow&lt;/em&gt; when played with OO.o 2.0.0.&lt;/p&gt;
-
-&lt;p&gt;Ugh! Paying through the roof for the mistakes made the other day.
-An arm and a leg. &lt;img src=&quot;http://cynic.cc/blog//smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hooray! Finally the Nightwish torrent from their 2003-06-20 show is
-complete. It was a digital broadcast show and the quality is
-amazing. I only had this one on a DivX file, but now that I have
-the real thing, I will burn this one. The only &quot;problem&quot; is that it
-only uses half of a DVD. Is there any way of putting another show
-in a DVD, without having to author it and destroy its current
-structure? That would definitely be nice.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2005-07-31</title>
-
-	<id>http://cynic.cc/blog//posts/2005-07-31/</id>
-
-	<link href="http://cynic.cc/blog//posts/2005-07-31/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="dvds" />
-
-	<category term="free-software" />
-
-	<category term="music" />
-
-	<category term="video" />
-
-
-	<updated>2015-01-18T00:39:41Z</updated>
-	<published>2005-07-31T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Had this &quot;strange&quot; idea of turning two DivX 16:9 videos from Rock
-Am Ring 2005 (Apocalyptica&#39;s and Within Temptation&#39;s performances)
-into a DVD. This is so easy to do with
-&lt;a href=&quot;http://packages.debian.org/dvdauthor&quot;&gt;dvdauthor&lt;/a&gt;: you just fill an
-XML file and there you go.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2005-07-30</title>
-
-	<id>http://cynic.cc/blog//posts/2005-07-30/</id>
-
-	<link href="http://cynic.cc/blog//posts/2005-07-30/"/>
-
-
-
-
-
-
-	<category term="music" />
-
-
-	<updated>2015-01-18T00:38:36Z</updated>
-	<published>2005-07-30T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Just found a souce for Bach&#39;s Harpsichords Concertos. Amazing
-pieces of music. How I love the sound of the Barroque period.
-Period.&lt;/p&gt;
 
 	</content>
 

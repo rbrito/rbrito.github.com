@@ -17,7 +17,178 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-07-14T18:26:00Z</updated>
+<updated>2017-11-06T07:17:39Z</updated>
+<entry>
+	<title>2008-05-01</title>
+
+	<id>http://cynic.cc/blog//posts/2008-05-01/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-05-01/"/>
+
+
+
+
+
+
+	<category term="hardware" />
+
+	<category term="life" />
+
+
+	<updated>2017-11-06T07:17:39Z</updated>
+	<published>2008-05-01T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Got myself a &lt;a href=&quot;http://en.wikipedia.org/wiki/WSXGA+&quot;&gt;WSXGA+&lt;/a&gt; 22
+inches LCD monitor.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-04-30</title>
+
+	<id>http://cynic.cc/blog//posts/2008-04-30/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-04-30/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="math" />
+
+	<category term="powerpc" />
+
+	<category term="ubuntu" />
+
+
+	<updated>2017-11-06T07:16:54Z</updated>
+	<published>2008-04-30T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Upgraded my parent&#39;s computer from
+&lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;&#39;s Feisty (7.10) to Hardy (8.04).
+Now, some of the things that I&#39;m used to when using
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s sid are available on their
+computer.&lt;/p&gt;
+
+&lt;p&gt;Oh, I can&#39;t avoid to use this opportunity to complain once more
+about my &lt;a href=&quot;http://www.flash.net.br/&quot;&gt;ISP&lt;/a&gt;. If I weren&#39;t doing the
+upgrade &lt;strong&gt;really&lt;/strong&gt; early in the morning, I wouldn&#39;t have success,
+as I am (right now), without signal from them. These outages are
+getting on my nerves.&lt;/p&gt;
+
+&lt;p&gt;In some math related news, I finally saw a proof of the intuitive
+fact the determinant of a 2x2 matrix is the signed area of the
+parallelogram with vectors given by the column vectors of the
+matrix.&lt;/p&gt;
+
+&lt;p&gt;Also, my D-Link G122 (I think that that&#39;s the model) doesn&#39;t work
+with the &lt;code&gt;rt2500usb&lt;/code&gt; driver that ships with the distribution: I can
+see that &lt;code&gt;iwconfig&lt;/code&gt; lists &lt;code&gt;wlan0&lt;/code&gt; as having wireless extensions, I
+can set the device, it can see the access point, I can enter the
+WEP key, but it doesn&#39;t seem to get a DHCP lease from the router.
+&lt;code&gt;:-(&lt;/code&gt;&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2007-01-19</title>
+
+	<id>http://cynic.cc/blog//posts/2007-01-19/</id>
+
+	<link href="http://cynic.cc/blog//posts/2007-01-19/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+
+	<updated>2017-11-06T07:07:00Z</updated>
+	<published>2007-01-19T02:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;It seems that my 160GB IDE HD is back to life. I will check it
+again, but the &quot;magic&quot; was to just write data on it, causing it to
+remap the defective blocks. Thank you for the engineers that know
+that machines &lt;em&gt;will&lt;/em&gt; fail.&lt;/p&gt;
+
+&lt;p&gt;And I tried to get oggenc-aotuv compiled for amd64. The package is
+in a sad state, unfortunately, and even after I changed the sources
+a little bit.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2006-09-16</title>
+
+	<id>http://cynic.cc/blog//posts/2006-09-16/</id>
+
+	<link href="http://cynic.cc/blog//posts/2006-09-16/"/>
+
+
+
+
+
+
+	<category term="hardware" />
+
+	<category term="life" />
+
+
+	<updated>2017-11-06T06:56:25Z</updated>
+	<published>2006-09-16T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Some tools related to digital photography:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A 2GB SD card, which at the maximum resolution that I&#39;m using
+with the camera that I have here, gives me around 4500 photos;&lt;/li&gt;
+&lt;li&gt;A small tripod, so that I can play with photos with a &quot;fill
+flash&quot; or completely without flash and without getting the images
+blurry;&lt;/li&gt;
+&lt;li&gt;An adaptor to the SD card so that it can be used just like an
+USB pen/thumb/whatever-drive;&lt;/li&gt;
+&lt;li&gt;Two pairs of rechargeable AAA batteries;&lt;/li&gt;
+&lt;li&gt;A battery recharger;&lt;/li&gt;
+&lt;li&gt;The smallest (in physical terms) USB pen/thumb/whatever-drive
+that I could get, with 1GB of size. Nice for getting things along
+with me.&lt;/li&gt;
+&lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>2006-03-30</title>
 
@@ -299,213 +470,6 @@ motherboard (an old classic Asus A7V). Bummer.&lt;/p&gt;
 &lt;p&gt;Spent the whole day trying to make my system work as it always did.
 I now suspect that I need some RAM, but I am not forking the cash
 for PC133 modules right now (my budget is now tight).&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2005-05-28</title>
-
-	<id>http://cynic.cc/blog//posts/2005-05-28/</id>
-
-	<link href="http://cynic.cc/blog//posts/2005-05-28/"/>
-
-
-
-
-
-
-	<category term="apple" />
-
-	<category term="hardware" />
-
-	<category term="macosx" />
-
-	<category term="powerpc" />
-
-
-	<updated>2014-06-11T13:58:42Z</updated>
-	<published>2005-05-28T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;I have now, with the help of an oooold
-&lt;a href=&quot;http://www.atitech.ca/&quot;&gt;ATI Mach 64 GX&lt;/a&gt; card (with only 2MB of
-VRAM) gotten &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X 10.3.9&lt;/a&gt; to work
-on the
-&lt;a href=&quot;http://www.everymac.com/systems/apple/powermac/stats/powermac_9500_180mp.html&quot;&gt;PowerMac&lt;/a&gt;.
-I then substituted the card with an IMS Twin Turbo card that has
-4MB of VRAM. It seems to work well, considering that this machine
-has almost 10 years (a PeeCee normally doesn&#39;t last this much). If
-I were to upgrade this machine, I would start by the following two
-items (perhaps not in this order):&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Substitude its HD.&lt;/li&gt;
-&lt;li&gt;Add more RAM to it. MacOS X likes a lot of RAM.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Perhaps I may get a &lt;a href=&quot;http://www.sonnettech.com/&quot;&gt;Sonnet Tech&lt;/a&gt;
-&lt;a href=&quot;http://www.sonnettech.com/product/tempo_trio.html&quot;&gt;Tempo Trio&lt;/a&gt;
-card, which features an IDE controller, a Firewire controller and a
-USB 2.0 controller in just one card. Seems like a good deal,
-especially for using (faster, modern) IDE HDs, all this being able
-to just use a single slot of the machine.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2005-04-16</title>
-
-	<id>http://cynic.cc/blog//posts/2005-04-16/</id>
-
-	<link href="http://cynic.cc/blog//posts/2005-04-16/"/>
-
-
-
-
-
-
-	<category term="free-software" />
-
-	<category term="hardware" />
-
-	<category term="linux" />
-
-
-	<updated>2014-06-11T13:54:51Z</updated>
-	<published>2005-04-16T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;I can&#39;t believe how 2.6 &lt;a href=&quot;http://www.kernel.org&quot;&gt;kernels&lt;/a&gt; are bigger
-than 2.4 kernels under similar compilation options! Maybe it&#39;s time
-to give &lt;a href=&quot;http://www.selenic.com/tiny-about/&quot;&gt;tiny-linux&lt;/a&gt; a try.&lt;/p&gt;
-
-&lt;p&gt;I will also see if compiling kernels with
-&lt;a href=&quot;http://gcc.gnu.org/gcc-3.4/&quot;&gt;GCC 3.4&lt;/a&gt; makes a difference due to
-the new &lt;a href=&quot;http://lwn.net/Articles/67176/&quot;&gt;-funit-at-a-time&lt;/a&gt; option.
-Debian&#39;s sarge &quot;official&quot; compiler seems to be
-&lt;a href=&quot;http://gcc.gnu.org/gcc-3.3/&quot;&gt;GCC 3.3&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This machine is desperately in need of a memory upgrade, but it
-seems that not even &lt;a href=&quot;http://www.crucial.com&quot;&gt;Crucial&lt;/a&gt; has it
-available anymore. &lt;img src=&quot;http://cynic.cc/blog//smileys/sad.png&quot; alt=&quot;:-(&quot; /&gt;&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2005-04-12</title>
-
-	<id>http://cynic.cc/blog//posts/2005-04-12/</id>
-
-	<link href="http://cynic.cc/blog//posts/2005-04-12/"/>
-
-
-
-
-
-
-	<category term="apple" />
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="hardware" />
-
-	<category term="macosx" />
-
-	<category term="powerpc" />
-
-
-	<updated>2014-02-19T05:52:57Z</updated>
-	<published>2005-04-12T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;After installing the NewerTech G3 upgrade card into the PowerMac 9500/180MP,
-I had some problems, when I tried to install
-&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;None of the sarge floppies would work and I eventually decided to get rid of
-any traces of MacOS and installed using the woody floppies. The problem is
-that the kernel 2.2.20 that comes with woody ins&#39;t able to see both PCI
-buses, especially the one where the video card is sitting on. I had to grab
-a kernel from testing&#39;s repository, but I don&#39;t like distribution kernels,
-for they are way too bloated.&lt;/p&gt;
-
-&lt;p&gt;Note to self: when replacing the &lt;code&gt;zImage&lt;/code&gt; on the HFS boot floppy, one
-has to use the vmlinux image compressed with &lt;code&gt;gzip&lt;/code&gt;, like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;gzip -9 vmlinux
-hmount /dev/fd0
-hcopy vmlinux.gz :zImage
-humount /dev/fd0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;No other image that I tried worked. But it was nice to (re)-discover how one
-makes a boot floppy for an OldWorld Mac.&lt;/p&gt;
-
-&lt;p&gt;P.S.: Today, &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; announced the next upgrade of
-&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;, code named &quot;Tiger&quot;.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2005-03-30</title>
-
-	<id>http://cynic.cc/blog//posts/2005-03-30/</id>
-
-	<link href="http://cynic.cc/blog//posts/2005-03-30/"/>
-
-
-
-
-
-
-	<category term="apple" />
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="hardware" />
-
-	<category term="powerpc" />
-
-
-	<updated>2014-02-19T05:52:57Z</updated>
-	<published>2005-03-30T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Woohoo! Finally I received a nice little package with two G3
-upgrade cards (and one IMSTT card). This is great news for me to
-upgrade the PowerMac 9500/180MP that I have here.&lt;/p&gt;
-
-&lt;p&gt;Curiously, only one of its memory sticks (it has 2 32MB sticks) was
-being recognized by the system. I had to open it and it took me
-quite some time to figure out why (after some tweaking) the system
-wouldn&#39;t boot anymore. I have no idea why, but just zapping the
-NVRAM worked (i.e., Cmd+Option+P+R).&lt;/p&gt;
-
-&lt;p&gt;The next step now is to see if I can get more memory for this
-system, so that I can actually use it after this welcome upgrade.
-Then, I will surely be playing with
-&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
-&lt;a href=&quot;http://www.debian.org/releases/sarge&quot;&gt;sarge&lt;/a&gt;.&lt;/p&gt;
 
 	</content>
 

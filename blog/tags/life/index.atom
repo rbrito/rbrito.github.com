@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-07-14T18:26:00Z</updated>
+<updated>2017-11-06T07:22:19Z</updated>
 <entry>
 	<title>The importance of flexible deadlines in MOOCs</title>
 
@@ -192,53 +192,51 @@ commons graph project.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2006-03-30</title>
+	<title>2008-05-13</title>
 
-	<id>http://cynic.cc/blog//posts/2006-03-30/</id>
+	<id>http://cynic.cc/blog//posts/2008-05-13/</id>
 
-	<link href="http://cynic.cc/blog//posts/2006-03-30/"/>
-
-
+	<link href="http://cynic.cc/blog//posts/2008-05-13/"/>
 
 
 
 
-	<category term="free-software" />
 
-	<category term="hardware" />
 
 	<category term="life" />
 
+	<category term="math" />
 
-	<updated>2017-07-14T18:26:00Z</updated>
-	<published>2006-03-30T03:00:00Z</published>
+	<category term="music" />
+
+	<category term="study" />
+
+	<category term="videos" />
+
+
+	<updated>2017-11-06T07:22:19Z</updated>
+	<published>2008-05-13T03:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;I&#39;ve been (re-)discovering multimedia and all its wonders. It all
-started with me seeing how &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;&#39;s
-&lt;a href=&quot;http://www.apple.com/macmini/frontrow.html&quot;&gt;Front Row&lt;/a&gt; application
-works. Ok, so I am behind the times. I&#39;m fine with that, but
-catching up. The world is changing sooooo fast that it is hard to
-keep up. Podcasts, wireless networks, media centers, digital video,
-digital (still) cameras, megapixels and the like.&lt;/p&gt;
+	&lt;p&gt;Didn&#39;t sleep too much today (actually I spent the whole night awake
+trying to understand the simple program presented on
+&lt;a href=&quot;http://en.wikipedia.org/&quot;&gt;Wikipedia&lt;/a&gt; for the generation of the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Farey_series&quot;&gt;Farey Series&lt;/a&gt; (as Hardy
+&amp;amp; Wright call them). Finally, looking at my copy of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Concrete_Mathematics&quot;&gt;&quot;Concrete Mathematics&quot;&lt;/a&gt;,
+I discovered a &quot;bonus problem&quot; (read: a very hard problem) that has
+a deceivingly simple solution that I was looking for the past few
+days to justify the program correctness.&lt;/p&gt;
 
-&lt;p&gt;Add to that the things that &quot;need to be known&quot; by a Computer
-Scientist/Mathematician-wannabe and we quickly arrive at the
-conclusion that the days are way too short with their current 24
-hours.&lt;/p&gt;
-
-&lt;p&gt;It, unfortunately, sucks and the fact that Apple is now &quot;changing
-gears&quot; to support their &lt;a href=&quot;http://www.intel.com/&quot;&gt;Intel&lt;/a&gt;
-&lt;a href=&quot;http://www.apple.com/macmini/intelcore.html&quot;&gt;Core&lt;/a&gt; processors is a
-clear signal that their PowerPC line is dead and only waiting for
-its coffin to be burried.&lt;/p&gt;
-
-&lt;p&gt;What the solution to this problem is? Partially, to employ Open
-Source technology to leverage this to current standards, using
-hardware that is already employed. We can &lt;em&gt;hardly&lt;/em&gt;, expect the new
-machines to outnumber the installed resources that we already have.
-And have to keep working.&lt;/p&gt;
+&lt;p&gt;Latter, I went with my dad to &quot;Galeria do Rock&quot; to grab myself a
+copy of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Pain_of_Salvation&quot;&gt;Pain of Salvation&lt;/a&gt;&#39;s
+&quot;Be&quot; (DVD+CD),
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Tristania_(band)&quot;&gt;Tristania&lt;/a&gt;&#39;s
+&quot;Widow&#39;s Weeds&quot; and &quot;Beyond the Veil&quot;, and
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Opeth&quot;&gt;Opeth&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Deliverance_(Opeth_album)&quot;&gt;&quot;Deliverance&quot;&lt;/a&gt;.&lt;/p&gt;
 
 	</content>
 
@@ -246,42 +244,114 @@ And have to keep working.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2006-03-16</title>
+	<title>2008-05-12</title>
 
-	<id>http://cynic.cc/blog//posts/2006-03-16/</id>
+	<id>http://cynic.cc/blog//posts/2008-05-12/</id>
 
-	<link href="http://cynic.cc/blog//posts/2006-03-16/"/>
-
-
+	<link href="http://cynic.cc/blog//posts/2008-05-12/"/>
 
 
 
 
-	<category term="hardware" />
+
+
+	<category term="life" />
+
+	<category term="math" />
+
+	<category term="study" />
+
+
+	<updated>2017-11-06T07:21:02Z</updated>
+	<published>2008-05-12T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Went to the university prepared to give a talk in the Error
+Correcting Codes seminar, but it was apparently cancelled due to
+the fact that there wasn&#39;t a speaker for this week!&lt;/p&gt;
+
+&lt;p&gt;Today is the International Nursing Day.&lt;/p&gt;
+
+&lt;p&gt;Took the opportunity and went to the psychotherapist.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-05-11</title>
+
+	<id>http://cynic.cc/blog//posts/2008-05-11/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-05-11/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+	<category term="math" />
+
+	<category term="study" />
+
+	<category term="teaching" />
+
+
+	<updated>2017-11-06T07:20:15Z</updated>
+	<published>2008-05-11T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Spent some time working on what to talk on the seminar in Error
+Correcting Codes. Since the audience isn&#39;t that experienced with
+programming, I will have a lot of background to cover like what a
+simplified computer architecture is, what are the usual program
+constructs in a high-level language, how the complexity of an
+algorithm is evaluated, asymptotic notation, examples of some
+algorithms relevant to this audience, like the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Greatest_common_divisor&quot;&gt;greatest common divisor&lt;/a&gt;
+by Euclid&#39;s
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Euclidean_algorithm&quot;&gt;Algorithm&lt;/a&gt; and
+Lamé&#39;s theorem. Of course, it is particularly important to cover
+the methods of multiplication of matrices like Strassen&#39;s
+Algorithm.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-05-09</title>
+
+	<id>http://cynic.cc/blog//posts/2008-05-09/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-05-09/"/>
+
+
+
+
+
 
 	<category term="life" />
 
 	<category term="music" />
 
 
-	<updated>2017-07-14T18:26:00Z</updated>
-	<published>2006-03-16T03:00:00Z</published>
+	<updated>2017-11-06T07:19:08Z</updated>
+	<published>2008-05-09T03:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Today, I resurrected Loreena McKennitt&#39;s
-&lt;a href=&quot;http://en.wikipedia.org/wiki/The_Mask_and_Mirror&quot;&gt;&quot;The Mask and Mirror&quot;&lt;/a&gt;
-and it now plays without skipping in any place. It&#39;s so nice to
-have it &quot;back&quot;...&lt;/p&gt;
-
-&lt;p&gt;I&#39;m slowly progressing towards a better condition of my throat.
-This is taking longer than what I expected.&lt;/p&gt;
-
-&lt;p&gt;Finally took some time to go to the police station to register the
-damage done to my car.&lt;/p&gt;
-
-&lt;p&gt;Oh, and I got some new toys to play with, including a brand new
-Firewire enclosure, wireless stuff and some DVD-R&#39;s. Fun ahead.&lt;/p&gt;
+	&lt;p&gt;I&#39;m actually excited to see Dream Theater&#39;s releases &quot;Live in
+Tokyo&quot; and &quot;5 Years in a Livetime&quot; on DVD. I guess that my
+collection of their DVDs is now almost complete. So excited to see
+&quot;5 Years in a Livetime&quot; that I had actually a personal problem here
+at home.&lt;/p&gt;
 
 	</content>
 
@@ -289,60 +359,75 @@ Firewire enclosure, wireless stuff and some DVD-R&#39;s. Fun ahead.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2006-03-03</title>
+	<title>2008-05-01</title>
 
-	<id>http://cynic.cc/blog//posts/2006-03-03/</id>
+	<id>http://cynic.cc/blog//posts/2008-05-01/</id>
 
-	<link href="http://cynic.cc/blog//posts/2006-03-03/"/>
-
-
+	<link href="http://cynic.cc/blog//posts/2008-05-01/"/>
 
 
 
 
-	<category term="data-structures" />
+
+
+	<category term="hardware" />
+
+	<category term="life" />
+
+
+	<updated>2017-11-06T07:17:39Z</updated>
+	<published>2008-05-01T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Got myself a &lt;a href=&quot;http://en.wikipedia.org/wiki/WSXGA+&quot;&gt;WSXGA+&lt;/a&gt; 22
+inches LCD monitor.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-04-25</title>
+
+	<id>http://cynic.cc/blog//posts/2008-04-25/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-04-25/"/>
+
+
+
+
+
 
 	<category term="life" />
 
 	<category term="math" />
 
-	<category term="teaching" />
-
-	<category term="ubuntu" />
+	<category term="study" />
 
 
-	<updated>2017-07-14T18:26:00Z</updated>
-	<published>2006-03-03T03:00:00Z</published>
+	<updated>2017-11-06T07:13:25Z</updated>
+	<published>2008-04-25T03:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;One good thing to have in mind is that when one is minimally
-serious about data structures, then on covering the topic of
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Hash_table&quot;&gt;hash tables&lt;/a&gt;, it is a
-quite good chance to talk about the
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Birthday_paradox&quot;&gt;&quot;birthday paradox&quot;&lt;/a&gt;.
-In the analogy, each day would correspond to a slot in the hash
-table and each person would correspond to an item to be inserted
-into the table.&lt;/p&gt;
+	&lt;p&gt;Went to my University to go to the library and there was a seminar
+there. I stayed after being kindly asked by the professor that
+coordinates the seminar. &lt;code&gt;:-)&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;If one takes this into account, the analysis of
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Birthday_paradox#Collision_counting&quot;&gt;collisions&lt;/a&gt;
-is meaninful from a probabilistic point of view, which matters a
-lot.&lt;/p&gt;
+&lt;p&gt;After that, I decided that it would be nice to go to the library to
+visit once more the section of Number Theory. I was aware that
+Diophantine equations were important. But I just didn&#39;t know that
+elliptic curves are Diophantine equations. And the subject is
+dense.&lt;/p&gt;
 
-&lt;p&gt;Changing the subject a little, in a replacement that lasted, say,
-15 minutes (tops), the cable modem is back again working, which
-means that playing with &lt;a href=&quot;http://lartc.org/&quot;&gt;tunneling&lt;/a&gt; under
-&lt;a href=&quot;http://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; (especially, using the IPSec
-interface) is back again a possibility.&lt;/p&gt;
-
-&lt;p&gt;Oh, and it seems that &lt;a href=&quot;http://www.ubuntulinux.org&quot;&gt;Ubuntu&lt;/a&gt;&#39;s
-&lt;a href=&quot;http://www.ubuntu.com/ubuntu/releases&quot;&gt;dapper&lt;/a&gt; is &quot;mom proof&quot;.
-Well, at least, she has been learning to use it with some hiccups,
-but, then, personal computers aren&#39;t things with which she plays
-everyday. She was surprised to know about
-&lt;a href=&quot;http://www.wikipedia.org/&quot;&gt;Wikipedia&lt;/a&gt; and its broad coverage. And,
-indeed, it is superb.&lt;/p&gt;
+&lt;p&gt;By the way, talking about Number Theory, I&#39;m starting to feel the
+need of studying some Mathematical Analysis: the whole area of
+Analytic Number Theory is alien to me and it shouldn&#39;t be (for a
+person that aims at knowing the basics of Number Theory). Actually,
+I can&#39;t even recall some basic facts from my calculus courses. I
+think that it is high time for a refresher.&lt;/p&gt;
 
 	</content>
 
@@ -350,57 +435,11 @@ indeed, it is superb.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2006-03-02</title>
+	<title>2008-04-13</title>
 
-	<id>http://cynic.cc/blog//posts/2006-03-02/</id>
+	<id>http://cynic.cc/blog//posts/2008-04-13/</id>
 
-	<link href="http://cynic.cc/blog//posts/2006-03-02/"/>
-
-
-
-
-
-
-	<category term="isp" />
-
-	<category term="life" />
-
-
-	<updated>2017-07-14T18:26:00Z</updated>
-	<published>2006-03-02T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Nice. Let&#39;s see if this MathML thing works as intended:&lt;/p&gt;
-
-&lt;math xmlns=&quot;&amp;mathml;&quot;&gt;
-  &lt;mfrac&gt;
-    &lt;mi&gt;a&lt;/mi&gt;
-    &lt;mi&gt;b&lt;/mi&gt;
-  &lt;/mfrac&gt;
-&lt;/math&gt;
-
-&lt;p&gt;Well, actually, it does. But only after I changed the extension of
-the file from html to xhtml. What a crazy thing is this? What is
-the purpose of that damned XML header on this file? Isn&#39;t it to
-tell the damn server that this is an XML file? I suppose that the
-server here may be broken.&lt;/p&gt;
-
-&lt;p&gt;Oh, and talking about broken things, my
-&lt;a href=&quot;http://www.flash.net.br/&quot;&gt;cable modem&lt;/a&gt; just got fried after
-today&#39;s thunderstorm. Wow. Nice to have a backup plan.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2006-02-24</title>
-
-	<id>http://cynic.cc/blog//posts/2006-02-24/</id>
-
-	<link href="http://cynic.cc/blog//posts/2006-02-24/"/>
+	<link href="http://cynic.cc/blog//posts/2008-04-13/"/>
 
 
 
@@ -409,41 +448,26 @@ today&#39;s thunderstorm. Wow. Nice to have a backup plan.&lt;/p&gt;
 
 	<category term="free-software" />
 
-	<category term="hardware" />
-
 	<category term="life" />
 
-	<category term="photography" />
-
-	<category term="study" />
+	<category term="videos" />
 
 
-	<updated>2017-07-14T18:26:00Z</updated>
-	<published>2006-02-24T03:00:00Z</published>
+	<updated>2017-11-06T07:11:55Z</updated>
+	<published>2008-04-13T03:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Still trying to learn about digital photography. The subject is
-fascinating. Too bad that I lack subjects to take pictures from,
-but I guess that this is where the &quot;artistic&quot; part comes in.&lt;/p&gt;
+	&lt;p&gt;&lt;a href=&quot;http://amigans.net/modules/newbb/viewtopic.php?topic_id=1410&amp;amp;forum=3&quot;&gt;Just discovered&lt;/a&gt;
+what it takes to have &lt;a href=&quot;http://www.mplayerhq.hu/&quot;&gt;mplayer&lt;/a&gt; play
+&lt;a href=&quot;http://www.youtube.com/&quot;&gt;youtube&lt;/a&gt;
+&lt;a href=&quot;http://www.arrakis.es/~rggi3/youtube-dl/&quot;&gt;downloaded videos&lt;/a&gt; with
+audio/video synchronized: the key is to pass the option &lt;code&gt;-mc 0&lt;/code&gt; on
+the command line and everything is fine.&lt;/p&gt;
 
-&lt;p&gt;Of course, the is also the &quot;science&quot; part of the thing, which is
-where the knowledge comes in: choosing exposure, knowing what
-lenses you should (or should not) use, seeing the appropriate flash
-light settings etc.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, many things are written in market-speak and it is
-almost impenetrable for a layman to know exactly what is being
-talked about.&lt;/p&gt;
-
-&lt;p&gt;I upgraded
-&lt;a href=&quot;ftp://ftp.matrox.com/pub/mga/archive/bios/2005/setup_258.exe&quot;&gt;the firmware&lt;/a&gt;
-of my &lt;a href=&quot;http://www.matrox.com/&quot;&gt;Matrox&lt;/a&gt;
-&lt;a href=&quot;http://www.matrox.com/mga/support/user_manuals/mill_g400/home.cfm&quot;&gt;G400&lt;/a&gt;
-card to version 2.1.&lt;/p&gt;
-
-&lt;p&gt;Oh, I didn&#39;t know why my students were all excited to go home until
-I realized that today was the first day of 2006&#39;s carnival.&lt;/p&gt;
+&lt;p&gt;I did do something relatively &quot;evil&quot; today: I got my mom with an
+account on &lt;a href=&quot;http://www.orkut.com/&quot;&gt;Orkut&lt;/a&gt;, so that she can find
+some old friends of her.&lt;/p&gt;
 
 	</content>
 
@@ -451,128 +475,55 @@ I realized that today was the first day of 2006&#39;s carnival.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2006-02-23</title>
+	<title>2008-04-12</title>
 
-	<id>http://cynic.cc/blog//posts/2006-02-23/</id>
+	<id>http://cynic.cc/blog//posts/2008-04-12/</id>
 
-	<link href="http://cynic.cc/blog//posts/2006-02-23/"/>
-
-
-
-
-
-
-	<category term="life" />
-
-	<category term="photography" />
-
-	<category term="study" />
-
-	<category term="teaching" />
-
-
-	<updated>2017-07-14T18:26:00Z</updated>
-	<published>2006-02-23T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Learning a bit more regarding photography in general. For instance,
-now I know the difference between
-&lt;em&gt;&lt;a href=&quot;http://www.storyphoto.com/journalism/phototip_nine.html&quot;&gt;Slow Synchro&lt;/a&gt; (&quot;nighttime&quot;)&lt;/em&gt;
-and
-&lt;em&gt;&lt;a href=&quot;http://www.storyphoto.com/journalism/phototip_five.html&quot;&gt;Fill&lt;/a&gt; (&quot;forced&quot;)&lt;/em&gt;
-flash. It will be nice to be able to use them both when the
-situations arise.&lt;/p&gt;
-
-&lt;p&gt;A student of mine has lent me his &quot;Towers of Hanoi&quot; puzzle so that
-I can teach recursion for some students. The fact that recursion
-works so well for some cases seems to be surprising (like
-&lt;a href=&quot;http://mitpress.mit.edu/sicp/&quot;&gt;magic&lt;/a&gt; or wizardry, sometimes) for
-some students. They are not used to simple and elegant solutions to
-some problems.&lt;/p&gt;
-
-&lt;p&gt;Thank you very much, Victor!&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2006-02-22</title>
-
-	<id>http://cynic.cc/blog//posts/2006-02-22/</id>
-
-	<link href="http://cynic.cc/blog//posts/2006-02-22/"/>
+	<link href="http://cynic.cc/blog//posts/2008-04-12/"/>
 
 
 
 
 
+
+	<category term="latex" />
 
 	<category term="life" />
 
-	<category term="study" />
-
-	<category term="work" />
-
-
-	<updated>2015-05-16T03:47:35Z</updated>
-	<published>2006-02-22T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;It seems that dad is with a quite fragile health. I hope very
-dearly that he has a better luck than my grandfather and doesn&#39;t
-need a surgery (since we would all be scared of that, anyway).&lt;/p&gt;
-
-&lt;p&gt;Got the material for the first series of
-&lt;a href=&quot;http://www.dw-world.de/&quot;&gt;Deutsche Welle&#39;s&lt;/a&gt;
-&lt;a href=&quot;http://www.dw-world.de/dw/0,2142,2595,00.html&quot;&gt;&quot;Deutsch: Warum Nicht?&quot;&lt;/a&gt;
-course (which I had already printed) bound. It will be much better
-to follow the stories and exercises this way.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2006-02-21</title>
-
-	<id>http://cynic.cc/blog//posts/2006-02-21/</id>
-
-	<link href="http://cynic.cc/blog//posts/2006-02-21/"/>
-
-
-
-
-
-
-	<category term="life" />
+	<category term="math" />
 
 	<category term="study" />
 
-	<category term="teaching" />
 
-	<category term="work" />
-
-
-	<updated>2015-05-16T03:46:40Z</updated>
-	<published>2006-02-21T03:00:00Z</published>
+	<updated>2017-11-06T07:10:50Z</updated>
+	<published>2008-04-12T03:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Got sick and went to the hospital. Unfortunately, I could&#39;t go to
-work. This has possibly messed with my schedule, but what exactly
-could I do? I&#39;m voiceless and the medications that I took gave me
-allergic reactions. These times have been a bit unfortunate.&lt;/p&gt;
+	&lt;p&gt;During he past few days, I have been writing (in
+&lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt;, of course!) some (very)
+elementary notes on Elementary Number Theory, after starting to
+read the classic book &quot;Introduction to Number Theory&quot;, by Hardy &amp;amp;
+Wright. The reasons for me taking such notes are threefold:&lt;/p&gt;
 
-&lt;p&gt;Still have to go to &lt;a href=&quot;http://www.ime.usp.br/&quot;&gt;IME&lt;/a&gt; to study Abstract
-Algebra (in an undergraduate level, but who cares?), get the last
-parcel of my payment and the finals of
-&lt;a href=&quot;http://www.ime.usp.br/~rbrito/verao/2006&quot;&gt;the Summer Course&lt;/a&gt;
-(which I have to grade soon).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To know how much I retained of the content of my studies and to
+serve as a reference for future for facts that I will surely
+forget.&lt;/li&gt;
+&lt;li&gt;To provide a text that has a language different from the book,
+which, while quite good, uses old-fashioned terms (e.g., they use
+consistently the word &quot;aggregate&quot; for the word &quot;set&quot;).&lt;/li&gt;
+&lt;li&gt;To provide both some algorithmic aspects of Elementary Number
+Theory that are usually not covered in similar texts (while there
+is quite a lot of room for the computational side of things) and to
+provide multiple proofs (where I know them) of theorems, which
+serve to illuminate the understanding of facts and see connections
+with other fields.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Today I got a phone call from a &lt;em&gt;very&lt;/em&gt; dear friend of mine. I
+&lt;a href=&quot;http://www.floresonline.com.br/&quot;&gt;sent her flowers and chocolate&lt;/a&gt;
+as a birthday gift.&lt;/p&gt;
 
 	</content>
 

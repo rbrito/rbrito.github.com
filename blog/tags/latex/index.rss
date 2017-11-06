@@ -10,7 +10,57 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 17 Jan 2015 22:45:35 -0200</pubDate>
+<pubDate>Mon, 06 Nov 2017 05:10:50 -0200</pubDate>
+<item>
+	<title>2008-04-12</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-04-12/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-04-12/</link>
+
+
+
+	<category>latex</category>
+
+	<category>life</category>
+
+	<category>math</category>
+
+	<category>study</category>
+
+
+	<pubDate>Sat, 12 Apr 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2017-11-06T07:10:50Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;During he past few days, I have been writing (in
+&lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt;, of course!) some (very)
+elementary notes on Elementary Number Theory, after starting to
+read the classic book &quot;Introduction to Number Theory&quot;, by Hardy &amp;amp;
+Wright. The reasons for me taking such notes are threefold:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To know how much I retained of the content of my studies and to
+serve as a reference for future for facts that I will surely
+forget.&lt;/li&gt;
+&lt;li&gt;To provide a text that has a language different from the book,
+which, while quite good, uses old-fashioned terms (e.g., they use
+consistently the word &quot;aggregate&quot; for the word &quot;set&quot;).&lt;/li&gt;
+&lt;li&gt;To provide both some algorithmic aspects of Elementary Number
+Theory that are usually not covered in similar texts (while there
+is quite a lot of room for the computational side of things) and to
+provide multiple proofs (where I know them) of theorems, which
+serve to illuminate the understanding of facts and see connections
+with other fields.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Today I got a phone call from a &lt;em&gt;very&lt;/em&gt; dear friend of mine. I
+&lt;a href=&quot;http://www.floresonline.com.br/&quot;&gt;sent her flowers and chocolate&lt;/a&gt;
+as a birthday gift.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>2005-11-17</title>
 
@@ -508,54 +558,6 @@ more efficient manner (well, at least I hope so).&lt;/p&gt;
 &lt;p&gt;Oh, BTW, I hate daylight savings time and it seems that now I&#39;m
 back in love with Elementary Number Theory. If only Elementary
 Number Theory liked me...&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2004-04-10</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2004-04-10/</guid>
-
-	<link>http://cynic.cc/blog//posts/2004-04-10/</link>
-
-
-
-	<category>debian</category>
-
-	<category>emacs</category>
-
-	<category>free-software</category>
-
-	<category>latex</category>
-
-	<category>tex</category>
-
-
-	<pubDate>Sat, 10 Apr 2004 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-01-24T06:53:04Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;The more I use the combo &lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt; and
-&lt;a href=&quot;http://www.emacswiki.org/&quot;&gt;Emacs&lt;/a&gt;, the more I like them. It is
-amazing how much complexity they have below their surface and how
-much they can accomplish. Unfortunately, I still don&#39;t know enough
-to call myself neither a LaTeX literate nor a Emacs literate, but I
-sure hope to fill the holes in my education soon.&lt;/p&gt;
-
-&lt;p&gt;One package that I recently discovered for Emacs is
-&lt;a href=&quot;http://ecb.sf.net/&quot;&gt;ECB&lt;/a&gt;, which provides many of the features
-found in other development programs, like Microsoft&#39;s Visual
-Studio. And the included speedbar (and the newer speedbar-beta,
-already included in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
-&lt;a href=&quot;http://www.debian.org/releases/sarge/&quot;&gt;sarge&lt;/a&gt; is amazing.&lt;/p&gt;
-
-&lt;p&gt;Also amazing are the packages
-&lt;a href=&quot;http://preview-latex.sf.net/&quot;&gt;preview-latex&lt;/a&gt;,
-&lt;a href=&quot;http://www.gnu.org/software/auctex/&quot;&gt;AUCTeX&lt;/a&gt; and
-&lt;a href=&quot;http://zon.astro.uva.nl/~dominik/Tools/reftex/&quot;&gt;RefTeX&lt;/a&gt;. They all
-make life with &lt;a href=&quot;http://www.tug.org/&quot;&gt;TeX&lt;/a&gt; and
-&lt;a href=&quot;http://www.emacswiki.org/&quot;&gt;Emacs&lt;/a&gt; much easier.&lt;/p&gt;
 </description>
 
 
