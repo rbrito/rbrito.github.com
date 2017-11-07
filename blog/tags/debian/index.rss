@@ -10,9 +10,9 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 07 Nov 2017 00:28:15 -0200</pubDate>
+<pubDate>Tue, 07 Nov 2017 20:37:08 -0200</pubDate>
 <item>
-	<title>Some activites of the day</title>
+	<title>Some activities of the day</title>
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2017-11-06_random_notes/</guid>
 
@@ -36,7 +36,7 @@
 
 
 	<pubDate>Mon, 06 Nov 2017 22:52:59 -0200</pubDate>
-	<dcterms:modified>2017-11-07T02:28:15Z</dcterms:modified>
+	<dcterms:modified>2017-11-07T22:37:08Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Yesterday, I printed the first draft of the first chapter when my little boy
@@ -62,7 +62,7 @@ a job done!&lt;/p&gt;
 &lt;p&gt;I am thinking of getting a spare computer, building it with him and for him,
 so that he can call it his computer every time he comes to see daddy. As a
 serendipitous situation, &lt;a href=&quot;https://www.packtpub.com/&quot;&gt;Packt Publishing&lt;/a&gt; offered yesterday their
-tile &lt;a href=&quot;https://www.packtpub.com/application-development/python-projects-kids&quot;&gt;&quot;Python Projects for Kids&quot;&lt;/a&gt;. Unfortunately, he does
+title &lt;a href=&quot;https://www.packtpub.com/application-development/python-projects-kids&quot;&gt;&quot;Python Projects for Kids&quot;&lt;/a&gt;. Unfortunately, he does
 not yet know how to read, but I guess that the right age is coming soon,
 which is a good thing to make him be educated &quot;the right way&quot; (that is, with
 the best support, teaching and patience that I can give him).&lt;/p&gt;
@@ -101,7 +101,7 @@ file &lt;a href=&quot;https://github.com/bk/ikiwiki-plugin-mathjax/issues/3&quot
 &quot;Despicable Me 3&quot; (&quot;Meu Malvado Favorito 3&quot;) dubbed in Brazilian Portuguese
 for my son. I have to convert the audio from AAC-LC in 6 channels to AC3 or
 to stereo. Otherwise, my TVs have problem with the videos (one refuses to
-play the entire file and another plays the audio with sounds of hickups).&lt;/p&gt;
+play the entire file and another plays the audio with sounds of hiccups).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; After converting the VirtualBox image taken from Microsoft, I
 could easily use &lt;code&gt;qemu&lt;/code&gt;/&lt;code&gt;kvm&lt;/code&gt; to create screenshots of the installation of
@@ -110,6 +110,8 @@ Java.  The command that I used (for future reference) is:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;
 qemu-system-x86_64 -enable-kvm -m 4096 -smp 2 -net nic,model=e1000 -net user -soundhw ac97 -drive index=0,media=disk,cache=unsafe,file=win7.qcow2
 &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; Fixed some typos.&lt;/p&gt;
 </description>
 
 
