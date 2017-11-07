@@ -17,7 +17,108 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-11-06T07:22:19Z</updated>
+<updated>2017-11-07T00:53:24Z</updated>
+<entry>
+	<title>Some activites of the day</title>
+
+	<id>http://cynic.cc/blog//posts/2017-11-06_random_notes/</id>
+
+	<link href="http://cynic.cc/blog//posts/2017-11-06_random_notes/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="java" />
+
+	<category term="life" />
+
+	<category term="linux" />
+
+	<category term="parenting" />
+
+
+	<updated>2017-11-07T00:53:24Z</updated>
+	<published>2017-11-07T00:52:59Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Yesterday, I printed the first draft of the first chapter when my little boy
+was here and he was impressed with this strange object called a &quot;printer&quot;.
+Before I printed what I needed, I fired up LibreOffice and chose the biggest
+font size that was available and let him type his first name by himself.
+He was quicker than I thought with a keyboard. After seeing me print his
+first name, he was jumping up and down with joy of having created something
+and even showed grandma and grandpa what he had done.&lt;/p&gt;
+
+&lt;p&gt;He, then, wanted more and I taught him how to use that backspace key, what
+it meant and he wanted to type his full name. I let him and taught him that
+there is a key called space that he should type every time he wants to start
+a new word and, in the end, he typed his first two names. To my surprise, he
+memorized the icon with the printer (which I must say that I have to hunt
+every time, since it seems so similar to the adjacent ones!) and pressed
+this new key called &quot;Enter&quot;. When he pressed, he wasn&#39;t expecting the
+printer on his right to start making noises and printing his name.&lt;/p&gt;
+
+&lt;p&gt;He was so excited and it was so nice to see his reaction full of joy to get
+a job done!&lt;/p&gt;
+
+&lt;p&gt;I am thinking of getting a spare computer, building it with him and for him,
+so that he can call it his computer every time he comes to see daddy. As a
+serendipitous situation, &lt;a href=&quot;https://www.packtpub.com/&quot;&gt;Packt Publishing&lt;/a&gt; offered yesterday their
+tile &lt;a href=&quot;https://www.packtpub.com/application-development/python-projects-kids&quot;&gt;&quot;Python Projects for Kids&quot;&lt;/a&gt;. Unfortunately, he does
+not yet know how to read, but I guess that the right age is coming soon,
+which is a good thing to make him be educated &quot;the right way&quot; (that is, with
+the best support, teaching and patience that I can give him).&lt;/p&gt;
+
+&lt;p&gt;Anyway, I printed the first draft of the first chapter and today I have to
+turn it in.&lt;/p&gt;
+
+&lt;p&gt;As I write this, I am &lt;a href=&quot;https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/&quot;&gt;downloading a virtual machine from Microsoft&lt;/a&gt; to
+try to install Java on it. Let me see if it works. I have none of the
+virtualization options used, tough the closest seems to be virtualbox.&lt;/p&gt;
+
+&lt;p&gt;Let me cross my fingers.&lt;/p&gt;
+
+&lt;p&gt;In other news, I updated some of the tags of very old posts of this blog,
+and I am seriously thinking about switching from [ikiwiki][0] to another
+blog platform. It is &lt;em&gt;slow&lt;/em&gt;, &lt;em&gt;very slow&lt;/em&gt; on my system with the repositories
+that I have, especially on my armel system. Some non-interpreted system
+would be best, but I don&#39;t know if such a thing even exists. But the killer
+problem is that it doesn&#39;t support easily the typing of Mathematics (even
+though a &lt;a href=&quot;https://github.com/bk/ikiwiki-plugin-mathjax&quot;&gt;3rd party plugin&lt;/a&gt; for MathJax exists).&lt;/p&gt;
+
+&lt;p&gt;On the other hand, I just received &lt;a href=&quot;https://twitter.com/telegram/status/927470283094499329&quot;&gt;an answer on twitter&lt;/a&gt; from @telegram and
+it was nice:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hello, Telegram supports bold and italic. You can type &lt;code&gt;**bold**&lt;/code&gt; and &lt;code&gt;__italic__&lt;/code&gt;. On mobile, you can also highlight text for this as well.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It is nice that this works with &lt;a href=&quot;https://packages.debian.org/sid/telegram-desktop&quot;&gt;telegram-desktop&lt;/a&gt; too.&lt;/p&gt;
+
+&lt;p&gt;Besides that, I filed some bugs on Debian&#39;s BTS, responded to some issues on
+my projects on GitHub (I&#39;m slowly getting back on maintaining things) and
+file &lt;a href=&quot;https://github.com/bk/ikiwiki-plugin-mathjax/issues/3&quot;&gt;wishlist bugs on some other projects&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Oh, and I grabbed a copy of &quot;Wonder woman&quot; (&quot;Mulher Maravilha&quot;) and
+&quot;Despicable Me 3&quot; (&quot;Meu Malvado Favorito 3&quot;) dubbed in Brazilian Portuguese
+for my son. I have to convert the audio from AAC-LC in 6 channels to AC3 or
+to stereo. Otherwise, my TVs have problem with the videos (one refuses to
+play the entire file and another plays the audio with sounds of hickups).&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>The importance of flexible deadlines in MOOCs</title>
 
@@ -214,7 +315,7 @@ commons graph project.&lt;/p&gt;
 	<category term="videos" />
 
 
-	<updated>2017-11-06T07:22:19Z</updated>
+	<updated>2017-11-06T19:34:15Z</updated>
 	<published>2008-05-13T03:00:00Z</published>
 
 
@@ -262,7 +363,7 @@ copy of
 	<category term="study" />
 
 
-	<updated>2017-11-06T07:21:02Z</updated>
+	<updated>2017-11-06T19:34:15Z</updated>
 	<published>2008-05-12T03:00:00Z</published>
 
 
@@ -301,7 +402,7 @@ the fact that there wasn&#39;t a speaker for this week!&lt;/p&gt;
 	<category term="teaching" />
 
 
-	<updated>2017-11-06T07:20:15Z</updated>
+	<updated>2017-11-06T19:34:15Z</updated>
 	<published>2008-05-11T03:00:00Z</published>
 
 
@@ -342,7 +443,7 @@ Algorithm.&lt;/p&gt;
 	<category term="music" />
 
 
-	<updated>2017-11-06T07:19:08Z</updated>
+	<updated>2017-11-06T19:34:15Z</updated>
 	<published>2008-05-09T03:00:00Z</published>
 
 
@@ -375,7 +476,7 @@ at home.&lt;/p&gt;
 	<category term="life" />
 
 
-	<updated>2017-11-06T07:17:39Z</updated>
+	<updated>2017-11-06T19:34:15Z</updated>
 	<published>2008-05-01T03:00:00Z</published>
 
 
@@ -407,7 +508,7 @@ inches LCD monitor.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2017-11-06T07:13:25Z</updated>
+	<updated>2017-11-06T19:34:15Z</updated>
 	<published>2008-04-25T03:00:00Z</published>
 
 
@@ -453,7 +554,7 @@ think that it is high time for a refresher.&lt;/p&gt;
 	<category term="videos" />
 
 
-	<updated>2017-11-06T07:11:55Z</updated>
+	<updated>2017-11-06T19:34:15Z</updated>
 	<published>2008-04-13T03:00:00Z</published>
 
 
@@ -468,62 +569,6 @@ the command line and everything is fine.&lt;/p&gt;
 &lt;p&gt;I did do something relatively &quot;evil&quot; today: I got my mom with an
 account on &lt;a href=&quot;http://www.orkut.com/&quot;&gt;Orkut&lt;/a&gt;, so that she can find
 some old friends of her.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2008-04-12</title>
-
-	<id>http://cynic.cc/blog//posts/2008-04-12/</id>
-
-	<link href="http://cynic.cc/blog//posts/2008-04-12/"/>
-
-
-
-
-
-
-	<category term="latex" />
-
-	<category term="life" />
-
-	<category term="math" />
-
-	<category term="study" />
-
-
-	<updated>2017-11-06T07:10:50Z</updated>
-	<published>2008-04-12T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;During he past few days, I have been writing (in
-&lt;a href=&quot;http://www.latex-project.org/&quot;&gt;LaTeX&lt;/a&gt;, of course!) some (very)
-elementary notes on Elementary Number Theory, after starting to
-read the classic book &quot;Introduction to Number Theory&quot;, by Hardy &amp;amp;
-Wright. The reasons for me taking such notes are threefold:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;To know how much I retained of the content of my studies and to
-serve as a reference for future for facts that I will surely
-forget.&lt;/li&gt;
-&lt;li&gt;To provide a text that has a language different from the book,
-which, while quite good, uses old-fashioned terms (e.g., they use
-consistently the word &quot;aggregate&quot; for the word &quot;set&quot;).&lt;/li&gt;
-&lt;li&gt;To provide both some algorithmic aspects of Elementary Number
-Theory that are usually not covered in similar texts (while there
-is quite a lot of room for the computational side of things) and to
-provide multiple proofs (where I know them) of theorems, which
-serve to illuminate the understanding of facts and see connections
-with other fields.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Today I got a phone call from a &lt;em&gt;very&lt;/em&gt; dear friend of mine. I
-&lt;a href=&quot;http://www.floresonline.com.br/&quot;&gt;sent her flowers and chocolate&lt;/a&gt;
-as a birthday gift.&lt;/p&gt;
 
 	</content>
 
