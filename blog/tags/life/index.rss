@@ -10,7 +10,55 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 07 Nov 2017 20:37:08 -0200</pubDate>
+<pubDate>Fri, 10 Nov 2017 03:45:16 -0200</pubDate>
+<item>
+	<title>JUnit 5</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2017-11-10_junit_5/</guid>
+
+	<link>http://cynic.cc/blog//posts/2017-11-10_junit_5/</link>
+
+
+
+	<category>free-software</category>
+
+	<category>java</category>
+
+	<category>life</category>
+
+
+	<pubDate>Fri, 10 Nov 2017 03:21:06 -0200</pubDate>
+	<dcterms:modified>2017-11-10T05:45:16Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;If you want to use &lt;a href=&quot;http://junit.org/junit5/&quot;&gt;JUnit 5&lt;/a&gt;, the latest release of &lt;a href=&quot;http://junit.org/&quot;&gt;JUnit&lt;/a&gt;, from
+Eclipse, then you have to change your import from &lt;code&gt;import org.junit.Test;&lt;/code&gt;
+to &lt;code&gt;import org.junit.jupiter.api.Test;&lt;/code&gt;. Notice the &lt;code&gt;jupiter.api&lt;/code&gt; there in
+the middle.&lt;/p&gt;
+
+&lt;p&gt;Otherwise, the test runner will complain and tell you that you don&#39;t have
+tests in your project.&lt;/p&gt;
+
+&lt;p&gt;The not-so-minimal test that I created was the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;package test;
+
+import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.*;
+
+import org.junit.jupiter.api.Test;
+
+class FirstTest {
+    @Test
+    void test() {
+        assertThat(1+1, is(equalTo(2)));
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Some activities of the day</title>
 
@@ -36,7 +84,7 @@
 
 
 	<pubDate>Mon, 06 Nov 2017 22:52:59 -0200</pubDate>
-	<dcterms:modified>2017-11-07T22:37:08Z</dcterms:modified>
+	<dcterms:modified>2017-11-10T05:17:08Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Yesterday, I printed the first draft of the first chapter when my little boy
@@ -298,7 +346,7 @@ commons graph project.&lt;/p&gt;
 
 
 	<pubDate>Tue, 13 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T19:34:15Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T07:22:19Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Didn&#39;t sleep too much today (actually I spent the whole night awake
@@ -340,7 +388,7 @@ copy of
 
 
 	<pubDate>Mon, 12 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T19:34:15Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T07:21:02Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Went to the university prepared to give a talk in the Error
@@ -373,7 +421,7 @@ the fact that there wasn&#39;t a speaker for this week!&lt;/p&gt;
 
 
 	<pubDate>Sun, 11 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T19:34:15Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T07:20:15Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Spent some time working on what to talk on the seminar in Error
@@ -408,7 +456,7 @@ Algorithm.&lt;/p&gt;
 
 
 	<pubDate>Fri, 09 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T19:34:15Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T07:19:08Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I&#39;m actually excited to see Dream Theater&#39;s releases &quot;Live in
@@ -435,7 +483,7 @@ at home.&lt;/p&gt;
 
 
 	<pubDate>Thu, 01 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T19:34:15Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T07:17:39Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Got myself a &lt;a href=&quot;http://en.wikipedia.org/wiki/WSXGA+&quot;&gt;WSXGA+&lt;/a&gt; 22
@@ -461,7 +509,7 @@ inches LCD monitor.&lt;/p&gt;
 
 
 	<pubDate>Fri, 25 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T19:34:15Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T07:13:25Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Went to my University to go to the library and there was a seminar
@@ -480,40 +528,6 @@ Analytic Number Theory is alien to me and it shouldn&#39;t be (for a
 person that aims at knowing the basics of Number Theory). Actually,
 I can&#39;t even recall some basic facts from my calculus courses. I
 think that it is high time for a refresher.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2008-04-13</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-04-13/</guid>
-
-	<link>http://cynic.cc/blog//posts/2008-04-13/</link>
-
-
-
-	<category>free-software</category>
-
-	<category>life</category>
-
-	<category>videos</category>
-
-
-	<pubDate>Sun, 13 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T19:34:15Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;&lt;a href=&quot;http://amigans.net/modules/newbb/viewtopic.php?topic_id=1410&amp;amp;forum=3&quot;&gt;Just discovered&lt;/a&gt;
-what it takes to have &lt;a href=&quot;http://www.mplayerhq.hu/&quot;&gt;mplayer&lt;/a&gt; play
-&lt;a href=&quot;http://www.youtube.com/&quot;&gt;youtube&lt;/a&gt;
-&lt;a href=&quot;http://www.arrakis.es/~rggi3/youtube-dl/&quot;&gt;downloaded videos&lt;/a&gt; with
-audio/video synchronized: the key is to pass the option &lt;code&gt;-mc 0&lt;/code&gt; on
-the command line and everything is fine.&lt;/p&gt;
-
-&lt;p&gt;I did do something relatively &quot;evil&quot; today: I got my mom with an
-account on &lt;a href=&quot;http://www.orkut.com/&quot;&gt;Orkut&lt;/a&gt;, so that she can find
-some old friends of her.&lt;/p&gt;
 </description>
 
 

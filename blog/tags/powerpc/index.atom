@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-11-06T19:34:15Z</updated>
+<updated>2017-11-06T07:16:54Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -606,7 +606,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<category term="ubuntu" />
 
 
-	<updated>2017-11-06T19:34:15Z</updated>
+	<updated>2017-11-06T07:16:54Z</updated>
 	<published>2008-04-30T03:00:00Z</published>
 
 
@@ -661,7 +661,7 @@ WEP key, but it doesn&#39;t seem to get a DHCP lease from the router.
 	<category term="powerpc" />
 
 
-	<updated>2017-11-06T19:34:15Z</updated>
+	<updated>2017-11-06T07:15:15Z</updated>
 	<published>2008-04-29T03:00:00Z</published>
 
 

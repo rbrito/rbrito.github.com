@@ -17,7 +17,61 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-11-07T22:37:08Z</updated>
+<updated>2017-11-10T05:45:16Z</updated>
+<entry>
+	<title>JUnit 5</title>
+
+	<id>http://cynic.cc/blog//posts/2017-11-10_junit_5/</id>
+
+	<link href="http://cynic.cc/blog//posts/2017-11-10_junit_5/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="java" />
+
+	<category term="life" />
+
+
+	<updated>2017-11-10T05:45:16Z</updated>
+	<published>2017-11-10T05:21:06Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;If you want to use &lt;a href=&quot;http://junit.org/junit5/&quot;&gt;JUnit 5&lt;/a&gt;, the latest release of &lt;a href=&quot;http://junit.org/&quot;&gt;JUnit&lt;/a&gt;, from
+Eclipse, then you have to change your import from &lt;code&gt;import org.junit.Test;&lt;/code&gt;
+to &lt;code&gt;import org.junit.jupiter.api.Test;&lt;/code&gt;. Notice the &lt;code&gt;jupiter.api&lt;/code&gt; there in
+the middle.&lt;/p&gt;
+
+&lt;p&gt;Otherwise, the test runner will complain and tell you that you don&#39;t have
+tests in your project.&lt;/p&gt;
+
+&lt;p&gt;The not-so-minimal test that I created was the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;package test;
+
+import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.*;
+
+import org.junit.jupiter.api.Test;
+
+class FirstTest {
+    @Test
+    void test() {
+        assertThat(1+1, is(equalTo(2)));
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Some activities of the day</title>
 
@@ -45,7 +99,7 @@
 	<category term="parenting" />
 
 
-	<updated>2017-11-07T22:37:08Z</updated>
+	<updated>2017-11-10T05:17:08Z</updated>
 	<published>2017-11-07T00:52:59Z</published>
 
 
@@ -152,7 +206,7 @@ qemu-system-x86_64 -enable-kvm -m 4096 -smp 2 -net nic,model=e1000 -net user -so
 	<category term="ubuntu" />
 
 
-	<updated>2017-11-03T01:14:12Z</updated>
+	<updated>2017-11-06T06:28:31Z</updated>
 	<published>2017-11-03T01:13:56Z</published>
 
 
@@ -255,7 +309,7 @@ conventions etc.&lt;/p&gt;
 	<category term="multimedia" />
 
 
-	<updated>2017-08-03T06:48:04Z</updated>
+	<updated>2017-11-06T06:28:31Z</updated>
 	<published>2017-04-20T03:17:05Z</published>
 
 
@@ -481,7 +535,7 @@ program or &lt;a href=&quot;https://github.com/coursera-dl/coursera/issues&quot;
 	<category term="free-software" />
 
 
-	<updated>2017-10-19T22:38:45Z</updated>
+	<updated>2017-11-06T06:28:31Z</updated>
 	<published>2015-02-22T23:54:27Z</published>
 
 
@@ -885,96 +939,6 @@ that contains a lot of lectures (see &lt;a href=&quot;http://www.youtube.com/wat
 
 &lt;p&gt;Version 2014.02.17 of &lt;code&gt;youtube-dl&lt;/code&gt; will be soon in your favorite mirror of
 the Debian archives.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>Developing for Android with Debian</title>
-
-	<id>http://cynic.cc/blog//posts/2014-01-17-developing_for_android_with_debian/</id>
-
-	<link href="http://cynic.cc/blog//posts/2014-01-17-developing_for_android_with_debian/"/>
-
-
-
-
-
-
-	<category term="android" />
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="java" />
-
-
-	<updated>2014-01-17T22:17:37Z</updated>
-	<published>2014-01-17T22:18:04Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;I have just enrolled in a MOOC to learn about programming with Android.
-There are many tutorials and reports of people using Linux for the
-development of the apps out there, but, unfortunately, many of them are
-outdated or contain misleading information.&lt;/p&gt;
-
-&lt;p&gt;You will find bazillion instructions out there telling you to install
-JDK6. (Even the instructions in the MOOCs say so, and Google says that it is
-the only supported version of Java). Even more than that, some of them will
-tell you that you should &lt;em&gt;not&lt;/em&gt; use OpenJDK, but use Oracle&#39;s JDK instead.&lt;/p&gt;
-
-&lt;p&gt;So, if you have a pure &lt;code&gt;amd64&lt;/code&gt; system and you try to install the x86-64
-version of Google&#39;s Android Developer Tools (ADT), you are going to have a
-surprise: you will have all sorts of programs telling you that you have file
-not found, even though the required binaries are there.&lt;/p&gt;
-
-&lt;p&gt;(This is, of course, besides install &lt;code&gt;openjdk-7-jdk&lt;/code&gt;, if you wish to use the
-integrated Eclipse environment).&lt;/p&gt;
-
-&lt;p&gt;Turns out that the so-called 64-bit ADT/SDK actually has many 32-bit
-executables(!) and they aren&#39;t statically linked. Inspecting them, I needed
-the following packages:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;    gcc-4.8-base:i386
-    libc6-i686:i386
-    libc6:i386
-    libgcc1:i386
-    libstdc++6:i386
-    zlib1g:i386
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;It is worth observing that:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;libstdc++6:i386&lt;/code&gt; depends (transitively) on &lt;code&gt;libc6:i386&lt;/code&gt;, &lt;code&gt;libgcc1:i386&lt;/code&gt;,
-and &lt;code&gt;gcc-4.8-base:i386&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;zlib1g:i386&lt;/code&gt; depends (transitively) on &lt;code&gt;libc6:i386&lt;/code&gt;, &lt;code&gt;libgcc1:i386&lt;/code&gt;, and
-&lt;code&gt;gcc-4.8-base:i386&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Given the above, and given that the version of the GCC libraries can vary a
-lot, it is perhaps better to simply do something like:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;apt-get install libstdc++6:i386 zlib1g:i386
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Although not necessary, since you are using an amd64 machine, your computer
-already supports many more recent instructions that will be used if you
-install the package &lt;code&gt;libc6-i686:i386&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;To avoid the emulator from spitting out error messages related to &lt;code&gt;libGL.so&lt;/code&gt;,
-install &lt;code&gt;libgl1-mesa-dev&lt;/code&gt; (note: &lt;em&gt;not&lt;/em&gt; &lt;code&gt;i386&lt;/code&gt; here).&lt;/p&gt;
-
-&lt;p&gt;This way, you will be able to run the embedded QEMU with full KVM
-acceleration if you pass the options &lt;code&gt;-qemu -m 1024 -enable-kvm&lt;/code&gt; on
-Eclipse&#39;s &quot;Run &gt; Run Configurations... &gt; Target &gt; Additional Emulator
-Command Line Options&quot;.&lt;/p&gt;
-
-&lt;p&gt;After that, you are probably good to go.&lt;/p&gt;
 
 	</content>
 

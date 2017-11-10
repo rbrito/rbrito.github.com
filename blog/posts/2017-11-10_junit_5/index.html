@@ -2,13 +2,13 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>2008-05-09</title>
+<title>JUnit 5</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <link rel="stylesheet" href="../../combined.min.css" type="text/css" />
 
 
-<meta name="date" content="2008-05-09" />
+<meta name="date" content="Fri, 10 Nov 2017 03:21:06 -0200" />
 
 
 </head>
@@ -35,7 +35,7 @@
 
 </span>
 <span class="title">
-2008-05-09
+JUnit 5
 </span>
 </span>
 </header>
@@ -64,11 +64,30 @@
 <div id="pagebody">
 
 <section id="content">
-<p>I'm actually excited to see Dream Theater's releases "Live in
-Tokyo" and "5 Years in a Livetime" on DVD. I guess that my
-collection of their DVDs is now almost complete. So excited to see
-"5 Years in a Livetime" that I had actually a personal problem here
-at home.</p>
+<p>If you want to use <a href="http://junit.org/junit5/">JUnit 5</a>, the latest release of <a href="http://junit.org/">JUnit</a>, from
+Eclipse, then you have to change your import from <code>import org.junit.Test;</code>
+to <code>import org.junit.jupiter.api.Test;</code>. Notice the <code>jupiter.api</code> there in
+the middle.</p>
+
+<p>Otherwise, the test runner will complain and tell you that you don't have
+tests in your project.</p>
+
+<p>The not-so-minimal test that I created was the following:</p>
+
+<pre><code>package test;
+
+import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.*;
+
+import org.junit.jupiter.api.Test;
+
+class FirstTest {
+    @Test
+    void test() {
+        assertThat(1+1, is(equalTo(2)));
+    }
+}
+</code></pre>
 
 </section>
 
@@ -78,8 +97,8 @@ at home.</p>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'digitaljunkyard'; // required: replace example with your forum shortname
-    var discus_identifier = 'posts/2008-05-09';
-    var disqus_url = 'http://cynic.cc/blog//posts/2008-05-09/';
+    var discus_identifier = 'posts/2017-11-10_junit_5';
+    var disqus_url = 'http://cynic.cc/blog//posts/2017-11-10_junit_5/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -106,9 +125,11 @@ at home.</p>
 <nav class="tags">
 Tags:
 
-<a href="../../tags/life/" rel="tag">life</a>
+<a href="../../tags/free-software/" rel="tag">free-software</a>
 
-<a href="../../tags/music/" rel="tag">music</a>
+<a href="../../tags/java/" rel="tag">java</a>
+
+<a href="../../tags/life/" rel="tag">life</a>
 
 </nav>
 
@@ -120,8 +141,8 @@ Tags:
 
 
 <div class="pagedate">
-Last edited <time datetime="2017-11-06T07:19:08Z">2017-11-06T05:19:08 -02</time>
-<!-- Created <time datetime="2008-05-09T03:00:00Z" pubdate="pubdate">2008-05-09T00:00:00 -03</time> -->
+Last edited <time datetime="2017-11-10T05:45:16Z">2017-11-10T03:45:16 -02</time>
+<!-- Created <time datetime="2017-11-10T05:21:06Z" pubdate="pubdate">2017-11-10T03:21:06 -02</time> -->
 </div>
 
 </nav>

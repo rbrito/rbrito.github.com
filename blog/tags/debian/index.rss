@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 07 Nov 2017 20:37:08 -0200</pubDate>
+<pubDate>Fri, 10 Nov 2017 03:17:08 -0200</pubDate>
 <item>
 	<title>Some activities of the day</title>
 
@@ -36,7 +36,7 @@
 
 
 	<pubDate>Mon, 06 Nov 2017 22:52:59 -0200</pubDate>
-	<dcterms:modified>2017-11-07T22:37:08Z</dcterms:modified>
+	<dcterms:modified>2017-11-10T05:17:08Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Yesterday, I printed the first draft of the first chapter when my little boy
@@ -137,7 +137,7 @@ qemu-system-x86_64 -enable-kvm -m 4096 -smp 2 -net nic,model=e1000 -net user -so
 
 
 	<pubDate>Thu, 02 Nov 2017 23:13:56 -0200</pubDate>
-	<dcterms:modified>2017-11-03T01:14:12Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T06:28:31Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Today I spent some time in the morning seeing how one would install the JDK
@@ -373,7 +373,7 @@ program or &lt;a href=&quot;https://github.com/coursera-dl/coursera/issues&quot;
 
 
 	<pubDate>Sun, 22 Feb 2015 20:54:27 -0300</pubDate>
-	<dcterms:modified>2017-10-19T22:38:45Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T06:28:31Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I just had my hands on some mobile devices (a Samsung&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S_8.4&quot;&gt;Galaxy Tab S 8.4&quot;&lt;/a&gt;,

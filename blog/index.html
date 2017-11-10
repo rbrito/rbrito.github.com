@@ -74,6 +74,73 @@ Rogério Brito's Digital Junkyard
 
 <header class="header">
 
+<a href="./posts/2017-11-10_junit_5/">JUnit 5</a>
+
+</header>
+</section>
+
+<section class="inlinecontent">
+<p>If you want to use <a href="http://junit.org/junit5/">JUnit 5</a>, the latest release of <a href="http://junit.org/">JUnit</a>, from
+Eclipse, then you have to change your import from <code>import org.junit.Test;</code>
+to <code>import org.junit.jupiter.api.Test;</code>. Notice the <code>jupiter.api</code> there in
+the middle.</p>
+
+<p>Otherwise, the test runner will complain and tell you that you don't have
+tests in your project.</p>
+
+<p>The not-so-minimal test that I created was the following:</p>
+
+<pre><code>package test;
+
+import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.*;
+
+import org.junit.jupiter.api.Test;
+
+class FirstTest {
+    @Test
+    void test() {
+        assertThat(1+1, is(equalTo(2)));
+    }
+}
+</code></pre>
+
+</section>
+
+<footer class="inlinefooter">
+
+<span class="pagedate">
+Posted <time datetime="2017-11-10T05:21:06Z" pubdate="pubdate">2017-11-10T03:21:06 -02</time>
+</span>
+
+
+<nav class="tags">
+Tags:
+
+<a href="./tags/free-software/" rel="tag">free-software</a>
+
+<a href="./tags/java/" rel="tag">java</a>
+
+<a href="./tags/life/" rel="tag">life</a>
+
+</nav>
+
+
+
+
+
+
+
+
+</footer>
+
+</article>
+<article class="inlinepage">
+
+<section class="inlineheader">
+
+<header class="header">
+
 <a href="./posts/2017-11-06_random_notes/">Some activities of the day</a>
 
 </header>
@@ -1028,115 +1095,6 @@ Posted <time datetime="2014-04-04T16:48:59Z" pubdate="pubdate">2014-04-04T13:48:
 Tags:
 
 <a href="./tags/debian/" rel="tag">debian</a>
-
-<a href="./tags/life/" rel="tag">life</a>
-
-<a href="./tags/mooc/" rel="tag">mooc</a>
-
-<a href="./tags/study/" rel="tag">study</a>
-
-</nav>
-
-
-
-
-
-
-
-
-</footer>
-
-</article>
-<article class="inlinepage">
-
-<section class="inlineheader">
-
-<header class="header">
-
-<a href="./posts/2014-03-03_more_completed_moocs/">More completed MOOCs</a>
-
-</header>
-</section>
-
-<section class="inlinecontent">
-<p>This weekend I received my 17th certification (or Statement of
-Accomplishment) for MOOCs. In particular, this last MOOC that I took was
-<a href="https://www.coursera.org/course/androidapps101">Creative, Serious and Playful Science of Android Apps</a>, offered by
-<a href="https://www.coursera.org/instructor/lawrenceangrave">Lawrence Angrave</a> of <a href="https://www.coursera.org/illinois">University of Illinois at Urbana-Champaign</a>.</p>
-
-<p>While I certainly knew that the course was an Introduction to Programming,
-the reasons I took it were twofold:</p>
-
-<ol>
-<li>For the "novelty" (for me, at least) of writing some Android Apps</li>
-<li>To reacquaint myself with Java, which I have not touched since 1999, when
-<a href="https://github.com/rbrito/old-projects">I wrote a compiler</a>, in the ages of JDK 1.0 being transitioned to
-JDK 1.1.</li>
-</ol>
-
-<p>I think that the time the course took (and which I invested in) was really
-well spent. In fact, I learned some nice things which I would <em>not</em> have
-touched otherwise. For instance, I made the conscious effort to use an IDE
-(Eclipse), despite being a person that would do most of the things inside
-Emacs and compile the programs with command-line tools.</p>
-
-<p>Despite being huge, Eclipse has some really nice features and the
-auto-completion is amazing. Since Java is so strongly typed and Eclipse
-knows Java pretty well, it almost completely writes your programs for you.
-<img src="./smileys/smile.png" alt=":)" /></p>
-
-<p>Of course, my interest also made me want to streamline the build process and
-use the command line tools (with ant, another tool that was "alien" to me,
-having used makefiles for everything that I needed).</p>
-
-<p>The use of Eclipse (and the Android development environment in general) in
-my Debian unstable computers
-<a href="./posts/2014-01-17-developing_for_android_with_debian/">was not</a>
-<a href="https://bugs.debian.org/734674">without problems</a>, but after spending more time trying to fix Eclipse
-than really doing the homework (and pulling the little hair that I still
-have left), one really helpful post <a href="http://aleksz-programming.blogspot.com/2013/03/eclipse-and-webkit-on-ubuntu-64.html">nailed it</a>. (Yes, I had to remove
-other packages like gimp, but such is life).</p>
-
-<p>While playing with the Android side of things, I put one badly written (and
-<em>not</em> really "android-ish") app in <a href="https://github.com/rbrito/toy-android-apps">a github repository</a> (which I think
-is aptly named "Toy Android Apps"), which served me the purpose of learning
-some Android-specific concepts.</p>
-
-<p>But the course was helpful not only to get in touch with the tools (Eclipse,
-ant, running Android virtual machines with the help of kvm), but also on the
-Java side. I lost a bit of the prejudice against it (even though I still
-think it is a verbose language, especially when compared to, say Python),
-and I, also intend to contribute to one apache project or another that have
-low-hanging fruits.  Actually, I have signed their
-<a href="https://www.apache.org/licenses/icla.txt">Contributor License Agreement</a> and I even had
-<a href="http://svn.apache.org/viewvc?view=revision&amp;revision=1559792">my first patch accepted</a>!</p>
-
-<p>Aside: Well, sadly SVN doesn't support different committer and author fields
-like git does and it seems that doing many small commits may not be the
-Apache way of doing things&mdash;but the important part of all this is that
-the code is there and there is so much more to be done.</p>
-
-<p>Aside #2: After a <em>lot</em> of time spent converting the repository to git
-(which is, after all, what I use), I put <a href="https://github.com/rbrito/commons-graph">a mirror</a> of Apache's the
-commons graph project.</p>
-
-</section>
-
-<footer class="inlinefooter">
-
-<span class="pagedate">
-Posted <time datetime="2014-03-03T05:35:11Z" pubdate="pubdate">2014-03-03T02:35:11 -03</time>
-</span>
-
-
-<nav class="tags">
-Tags:
-
-<a href="./tags/android/" rel="tag">android</a>
-
-<a href="./tags/debian/" rel="tag">debian</a>
-
-<a href="./tags/java/" rel="tag">java</a>
 
 <a href="./tags/life/" rel="tag">life</a>
 

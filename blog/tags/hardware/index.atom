@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-11-07T22:37:08Z</updated>
+<updated>2017-11-10T05:17:08Z</updated>
 <entry>
 	<title>Some activities of the day</title>
 
@@ -45,7 +45,7 @@
 	<category term="parenting" />
 
 
-	<updated>2017-11-07T22:37:08Z</updated>
+	<updated>2017-11-10T05:17:08Z</updated>
 	<published>2017-11-07T00:52:59Z</published>
 
 
@@ -146,7 +146,7 @@ qemu-system-x86_64 -enable-kvm -m 4096 -smp 2 -net nic,model=e1000 -net user -so
 	<category term="life" />
 
 
-	<updated>2017-11-06T19:34:15Z</updated>
+	<updated>2017-11-06T07:17:39Z</updated>
 	<published>2008-05-01T03:00:00Z</published>
 
 
@@ -186,7 +186,7 @@ inches LCD monitor.&lt;/p&gt;
 	<category term="ubuntu" />
 
 
-	<updated>2017-11-06T19:34:15Z</updated>
+	<updated>2017-11-06T07:16:54Z</updated>
 	<published>2008-04-30T03:00:00Z</published>
 
 
@@ -237,7 +237,7 @@ WEP key, but it doesn&#39;t seem to get a DHCP lease from the router.
 	<category term="hardware" />
 
 
-	<updated>2017-11-06T19:34:15Z</updated>
+	<updated>2017-11-06T07:07:00Z</updated>
 	<published>2007-01-19T02:00:00Z</published>
 
 
@@ -273,7 +273,7 @@ a little bit.&lt;/p&gt;
 	<category term="life" />
 
 
-	<updated>2017-11-06T19:34:15Z</updated>
+	<updated>2017-11-06T06:56:25Z</updated>
 	<published>2006-09-16T03:00:00Z</published>
 
 

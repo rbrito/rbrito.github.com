@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 06 Nov 2017 17:34:15 -0200</pubDate>
+<pubDate>Mon, 06 Nov 2017 05:16:54 -0200</pubDate>
 <item>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -579,7 +579,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 
 	<pubDate>Wed, 30 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T19:34:15Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T07:16:54Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Upgraded my parent&#39;s computer from
@@ -628,7 +628,7 @@ WEP key, but it doesn&#39;t seem to get a DHCP lease from the router.
 
 
 	<pubDate>Tue, 29 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T19:34:15Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T07:15:15Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Spent some time polishing my &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;

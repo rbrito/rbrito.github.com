@@ -17,7 +17,61 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-11-07T22:37:08Z</updated>
+<updated>2017-11-10T05:45:16Z</updated>
+<entry>
+	<title>JUnit 5</title>
+
+	<id>http://cynic.cc/blog//posts/2017-11-10_junit_5/</id>
+
+	<link href="http://cynic.cc/blog//posts/2017-11-10_junit_5/"/>
+
+
+
+
+
+
+	<category term="free-software" />
+
+	<category term="java" />
+
+	<category term="life" />
+
+
+	<updated>2017-11-10T05:45:16Z</updated>
+	<published>2017-11-10T05:21:06Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;If you want to use &lt;a href=&quot;http://junit.org/junit5/&quot;&gt;JUnit 5&lt;/a&gt;, the latest release of &lt;a href=&quot;http://junit.org/&quot;&gt;JUnit&lt;/a&gt;, from
+Eclipse, then you have to change your import from &lt;code&gt;import org.junit.Test;&lt;/code&gt;
+to &lt;code&gt;import org.junit.jupiter.api.Test;&lt;/code&gt;. Notice the &lt;code&gt;jupiter.api&lt;/code&gt; there in
+the middle.&lt;/p&gt;
+
+&lt;p&gt;Otherwise, the test runner will complain and tell you that you don&#39;t have
+tests in your project.&lt;/p&gt;
+
+&lt;p&gt;The not-so-minimal test that I created was the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;package test;
+
+import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.*;
+
+import org.junit.jupiter.api.Test;
+
+class FirstTest {
+    @Test
+    void test() {
+        assertThat(1+1, is(equalTo(2)));
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>Some activities of the day</title>
 
@@ -45,7 +99,7 @@
 	<category term="parenting" />
 
 
-	<updated>2017-11-07T22:37:08Z</updated>
+	<updated>2017-11-10T05:17:08Z</updated>
 	<published>2017-11-07T00:52:59Z</published>
 
 
@@ -325,7 +379,7 @@ commons graph project.&lt;/p&gt;
 	<category term="videos" />
 
 
-	<updated>2017-11-06T19:34:15Z</updated>
+	<updated>2017-11-06T07:22:19Z</updated>
 	<published>2008-05-13T03:00:00Z</published>
 
 
@@ -373,7 +427,7 @@ copy of
 	<category term="study" />
 
 
-	<updated>2017-11-06T19:34:15Z</updated>
+	<updated>2017-11-06T07:21:02Z</updated>
 	<published>2008-05-12T03:00:00Z</published>
 
 
@@ -412,7 +466,7 @@ the fact that there wasn&#39;t a speaker for this week!&lt;/p&gt;
 	<category term="teaching" />
 
 
-	<updated>2017-11-06T19:34:15Z</updated>
+	<updated>2017-11-06T07:20:15Z</updated>
 	<published>2008-05-11T03:00:00Z</published>
 
 
@@ -453,7 +507,7 @@ Algorithm.&lt;/p&gt;
 	<category term="music" />
 
 
-	<updated>2017-11-06T19:34:15Z</updated>
+	<updated>2017-11-06T07:19:08Z</updated>
 	<published>2008-05-09T03:00:00Z</published>
 
 
@@ -486,7 +540,7 @@ at home.&lt;/p&gt;
 	<category term="life" />
 
 
-	<updated>2017-11-06T19:34:15Z</updated>
+	<updated>2017-11-06T07:17:39Z</updated>
 	<published>2008-05-01T03:00:00Z</published>
 
 
@@ -518,7 +572,7 @@ inches LCD monitor.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2017-11-06T19:34:15Z</updated>
+	<updated>2017-11-06T07:13:25Z</updated>
 	<published>2008-04-25T03:00:00Z</published>
 
 
@@ -539,46 +593,6 @@ Analytic Number Theory is alien to me and it shouldn&#39;t be (for a
 person that aims at knowing the basics of Number Theory). Actually,
 I can&#39;t even recall some basic facts from my calculus courses. I
 think that it is high time for a refresher.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2008-04-13</title>
-
-	<id>http://cynic.cc/blog//posts/2008-04-13/</id>
-
-	<link href="http://cynic.cc/blog//posts/2008-04-13/"/>
-
-
-
-
-
-
-	<category term="free-software" />
-
-	<category term="life" />
-
-	<category term="videos" />
-
-
-	<updated>2017-11-06T19:34:15Z</updated>
-	<published>2008-04-13T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;&lt;a href=&quot;http://amigans.net/modules/newbb/viewtopic.php?topic_id=1410&amp;amp;forum=3&quot;&gt;Just discovered&lt;/a&gt;
-what it takes to have &lt;a href=&quot;http://www.mplayerhq.hu/&quot;&gt;mplayer&lt;/a&gt; play
-&lt;a href=&quot;http://www.youtube.com/&quot;&gt;youtube&lt;/a&gt;
-&lt;a href=&quot;http://www.arrakis.es/~rggi3/youtube-dl/&quot;&gt;downloaded videos&lt;/a&gt; with
-audio/video synchronized: the key is to pass the option &lt;code&gt;-mc 0&lt;/code&gt; on
-the command line and everything is fine.&lt;/p&gt;
-
-&lt;p&gt;I did do something relatively &quot;evil&quot; today: I got my mom with an
-account on &lt;a href=&quot;http://www.orkut.com/&quot;&gt;Orkut&lt;/a&gt;, so that she can find
-some old friends of her.&lt;/p&gt;
 
 	</content>
 
