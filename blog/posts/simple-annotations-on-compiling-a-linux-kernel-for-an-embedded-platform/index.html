@@ -84,24 +84,21 @@ netconsole. It can be enabled with the options:</p>
 <pre><code>CONFIG_NETCONSOLE=y
 CONFIG_NETPOLL=y
 CONFIG_NET_POLL_CONTROLLER=y
-</code></pre></li>
-</ul>
+</code></pre>
 
 <p>You have to tell the kernel where to send the messages that would,
-otherwise, be presented on a screen. For sending them over the network, just
-tell the kernel to use the command line option:</p>
+otherwise, be presented on a screen. For sending them over the network,
+just tell the kernel to use the command line option:</p>
 
-<pre><code>    netconsole=6666@192.168.11.150/,@192.168.11.149/
+<pre><code>netconsole=6666@192.168.11.150/,@192.168.11.149/
 </code></pre>
 
 <p>This way, you can easily connect from another (more comfortable?) computer
 with something like (this connection is made via UDP, not TCP):</p>
 
-<pre><code>    ip addr add 192.168.11.149/24 broadcast 192.168.11.255 dev eth0
-    nc -u -n -p 6666 192.168.11.150 6666
-</code></pre>
-
-<ul>
+<pre><code>ip addr add 192.168.11.149/24 broadcast 192.168.11.255 dev eth0
+nc -u -n -p 6666 192.168.11.150 6666
+</code></pre></li>
 <li><p>while some popular bootloaders for desktops are LILO and GRUB, many other
 platforms use other bootloaders: yaboot, quik, bootx, silo, refit, etc. In
 the case of embedded platforms, one that is popular is "das uBoot", which
@@ -122,13 +119,10 @@ INSTALL_MOD_PATH=&#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- 
 INSTALL_MOD_PATH=&#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make menuconfig
 INSTALL_MOD_PATH=&#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make all modules
 INSTALL_MOD_PATH=&#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make modules_install
-</code></pre></li>
-</ul>
+</code></pre>
 
-<p>It won't hurt if you use a concurrency setting (like -j3 or more) when
-compiling all and modules.</p>
-
-<ul>
+<p>It won't hurt if you use a concurrency setting (like <code>-j3</code> or more) when
+compiling all and modules.</p></li>
 <li><p>The uBoot command line (accessed via the network) can be something like:</p>
 
 <pre><code>ext2load ide !!mathjaxbegin-i!! e2hkcGFydH0g
@@ -142,17 +136,17 @@ compiling all and modules.</p>
 <p>The first two lines tell uBoot to load the both the kernel and the device
 tree from the disk to the memory, the third line sets the kernel command
 line (familiar to users of the "common" arches) and the fourth line
-actually boots the kernel once it is loaded in the memory. Here, ${hdpart}
-is the partition where the kernel image ${hdfile} should be loaded from
-(usually in the form 0:1, to mean partition 1 from the disk 0), ${ldaddr}
+actually boots the kernel once it is loaded in the memory. Here, <code>&#036;{hdpart}</code>
+is the partition where the kernel image <code>&#036;{hdfile}</code> should be loaded from
+(usually in the form 0:1, to mean partition 1 from the disk 0), <code>&#036;{ldaddr}</code>
 is the memory address where the kernel should be loaded to.</p></li>
 <li><p>Something that is handy, no matter what size your machine has: the use of
-ext4 (and, in particular, delayed allocation) with ext{2,3}
+ext4 (and, in particular, delayed allocation) with <code>ext{2,3}</code>
 filesystems. To use it, just put this in your kernel configuration file:</p>
 
 <pre><code>CONFIG_EXT4_USE_FOR_EXT23=y
 </code></pre></li>
-<li><p>Support for daemons like avr-evtd, that need access to a serial port (so
+<li><p>Support for daemons like <a href="https://packages.debian.org/sid/avr-evtd">avr-evtd</a>, that need access to a serial port (so
 that the user can turn off the device by pressing the power button),
 enable:</p>
 
@@ -253,7 +247,7 @@ Tags:
 
 
 <div class="pagedate">
-Last edited <time datetime="2014-02-15T02:21:28Z">2014-02-15T00:21:28 -02</time>
+Last edited <time datetime="2018-03-22T03:44:37Z">2018-03-22T00:44:37 -03</time>
 <!-- Created <time datetime="2010-05-12T03:54:52Z" pubdate="pubdate">2010-05-12T00:54:52 -03</time> -->
 </div>
 

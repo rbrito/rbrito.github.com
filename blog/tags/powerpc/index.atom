@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-11-06T07:16:54Z</updated>
+<updated>2018-03-22T03:44:37Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -432,7 +432,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 	<category term="powerpc" />
 
 
-	<updated>2014-02-15T02:21:28Z</updated>
+	<updated>2018-03-22T03:44:37Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 
@@ -457,24 +457,21 @@ netconsole. It can be enabled with the options:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;CONFIG_NETCONSOLE=y
 CONFIG_NETPOLL=y
 CONFIG_NET_POLL_CONTROLLER=y
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;You have to tell the kernel where to send the messages that would,
-otherwise, be presented on a screen. For sending them over the network, just
-tell the kernel to use the command line option:&lt;/p&gt;
+otherwise, be presented on a screen. For sending them over the network,
+just tell the kernel to use the command line option:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    netconsole=6666@192.168.11.150/,@192.168.11.149/
+&lt;pre&gt;&lt;code&gt;netconsole=6666@192.168.11.150/,@192.168.11.149/
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;This way, you can easily connect from another (more comfortable?) computer
 with something like (this connection is made via UDP, not TCP):&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    ip addr add 192.168.11.149/24 broadcast 192.168.11.255 dev eth0
-    nc -u -n -p 6666 192.168.11.150 6666
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
+&lt;pre&gt;&lt;code&gt;ip addr add 192.168.11.149/24 broadcast 192.168.11.255 dev eth0
+nc -u -n -p 6666 192.168.11.150 6666
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;while some popular bootloaders for desktops are LILO and GRUB, many other
 platforms use other bootloaders: yaboot, quik, bootx, silo, refit, etc. In
 the case of embedded platforms, one that is popular is &quot;das uBoot&quot;, which
@@ -509,13 +506,10 @@ INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-g
 INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make menuconfig
 INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make all modules
 INSTALL_MOD_PATH=&amp;#036;BUILT_ROOT ARCH=powerpc CROSS_COMPILE=powerpc-linux-gnu- make modules_install
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;It won&#39;t hurt if you use a concurrency setting (like -j3 or more) when
-compiling all and modules.&lt;/p&gt;
-
-&lt;ul&gt;
+&lt;p&gt;It won&#39;t hurt if you use a concurrency setting (like &lt;code&gt;-j3&lt;/code&gt; or more) when
+compiling all and modules.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The uBoot command line (accessed via the network) can be something like:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;ext2load ide !!mathjaxbegin-i!! e2hkcGFydH0g
@@ -529,17 +523,17 @@ compiling all and modules.&lt;/p&gt;
 &lt;p&gt;The first two lines tell uBoot to load the both the kernel and the device
 tree from the disk to the memory, the third line sets the kernel command
 line (familiar to users of the &quot;common&quot; arches) and the fourth line
-actually boots the kernel once it is loaded in the memory. Here, ${hdpart}
-is the partition where the kernel image ${hdfile} should be loaded from
-(usually in the form 0:1, to mean partition 1 from the disk 0), ${ldaddr}
+actually boots the kernel once it is loaded in the memory. Here, &lt;code&gt;&amp;#036;{hdpart}&lt;/code&gt;
+is the partition where the kernel image &lt;code&gt;&amp;#036;{hdfile}&lt;/code&gt; should be loaded from
+(usually in the form 0:1, to mean partition 1 from the disk 0), &lt;code&gt;&amp;#036;{ldaddr}&lt;/code&gt;
 is the memory address where the kernel should be loaded to.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Something that is handy, no matter what size your machine has: the use of
-ext4 (and, in particular, delayed allocation) with ext{2,3}
+ext4 (and, in particular, delayed allocation) with &lt;code&gt;ext{2,3}&lt;/code&gt;
 filesystems. To use it, just put this in your kernel configuration file:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;CONFIG_EXT4_USE_FOR_EXT23=y
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Support for daemons like avr-evtd, that need access to a serial port (so
+&lt;li&gt;&lt;p&gt;Support for daemons like &lt;a href=&quot;https://packages.debian.org/sid/avr-evtd&quot;&gt;avr-evtd&lt;/a&gt;, that need access to a serial port (so
 that the user can turn off the device by pressing the power button),
 enable:&lt;/p&gt;
 
