@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 17 Apr 2018 06:27:25 -0300</pubDate>
+<pubDate>Tue, 17 Apr 2018 08:24:32 -0300</pubDate>
 <item>
 	<title>JUnit 5</title>
 
@@ -326,21 +326,60 @@ commons graph project.&lt;/p&gt;
 
 </item>
 <item>
-	<title>2009-02-03</title>
+	<title>2009-08-05</title>
 
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-02-03/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-08-05/</guid>
 
-	<link>http://cynic.cc/blog//posts/2009-02-03/</link>
+	<link>http://cynic.cc/blog//posts/2009-08-05/</link>
 
 
 
-	<category>audio</category>
+	<category>debconf</category>
+
+	<category>debian</category>
 
 	<category>free-software</category>
 
 	<category>hardware</category>
 
-	<category>ipod</category>
+	<category>kurobox</category>
+
+	<category>life</category>
+
+
+	<pubDate>Wed, 05 Aug 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T11:24:32Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Went to the Brazilian national Security Service, to see the status
+of my sick leave.&lt;/p&gt;
+
+&lt;p&gt;After that, I took some time and went to see
+&lt;a href=&quot;http://tiagovaz.org/&quot;&gt;Tiago Vaz&lt;/a&gt;, who attended
+&lt;a href=&quot;http://debconf9.debconf.org/&quot;&gt;this year&#39;s&lt;/a&gt;
+&lt;a href=&quot;http://www.debconf.org/&quot;&gt;DebConf&lt;/a&gt;, which I couldn&#39;t attend. I also
+met his friendly partner. Well, both are so kind and I felt at home
+at his place.&lt;/p&gt;
+
+&lt;p&gt;I took some small moments to perform a mini, private key-signing
+party, so that we both strengthen our trust networks.&lt;/p&gt;
+
+&lt;p&gt;And last, but not least, I got the package that Martin kindly sent
+me via Tiago and I&#39;ll now start to play with it. I have never
+played with an arm-based platform before. Let&#39;s see if it is not an
+alien to myself.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2009-04-05</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-04-05/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-04-05/</link>
+
+
 
 	<category>life</category>
 
@@ -349,266 +388,299 @@ commons graph project.&lt;/p&gt;
 	<category>video</category>
 
 
-	<pubDate>Tue, 03 Feb 2009 00:00:00 -0200</pubDate>
-	<dcterms:modified>2018-04-17T09:27:25Z</dcterms:modified>
+	<pubDate>Sun, 05 Apr 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T11:18:36Z</dcterms:modified>
 
 
-	<description>&lt;p&gt;In the past few days, I did quite a good amount of things. One of
-the things that took most of my mind was to convert some videos in
-a proper format for the iPod. At first, I thought that the format
-of the videos would have to have an H.264 encoded video with
-resolution 320x240 (without using cabac, which increases the
-compression factor of the video) and audio in the AAC format with
-bitrates up to 160kbps.&lt;/p&gt;
+	<description>&lt;p&gt;I went to one of the best things that I ever experienced in my
+whole life: &lt;a href=&quot;http://www.opeth.com/&quot;&gt;my favorite band&lt;/a&gt;&#39;s show here
+in São Paulo. Actually, the fact that it was just so close here
+only made this a bit more special.&lt;/p&gt;
 
-&lt;p&gt;Then, using Apple&#39;s Quicktime Pro 7, I exported a video from the
-Dutch band called After Forever, which had the resolution bigger
-than 320x240. This made me revisit Apple&#39;s site where the
-specifications of videos meant to be played on iPods. It seems
-that, now, with the latest firmware update, the iPod that I have
-can play H.264 videos encoded with resolutions up to 640x480 (the
-standard VGA resolution). Also, the bitrate doesn&#39;t need to be
-restricted to 768kbps: some of the videos produced by Quicktime
-(and which the iPods can play) have bitrates of up to 1500kbps.&lt;/p&gt;
+&lt;p&gt;Getting the tickets wasn&#39;t that easy, if only for the simple fact
+that the vendors only took cash and no other form of payment (read:
+&quot;no credit cards, no debit cards&quot;). Anyway, I got two tickets and
+went with my girlfriend to see them (note: she seems to not be as
+fond of metal as I am).&lt;/p&gt;
 
-&lt;p&gt;This means that I can now encode some of my videos that are in the
-nasty WMV format to formats that can be supported in a decent
-manner by Free Software system. I have, for instance, the
-BBC-produced DVD called &quot;The Codebreakers&quot;, whose audio is in pure
-DVD LPCM format (that is, uncompressed) and the space that it takes
-on my hard disk is considerable (approx. 1GB).&lt;/p&gt;
+&lt;p&gt;When I arrived there, Opeth was already playing (and I thought that
+the opening act would be playing at the time I was there!). They
+were just in the first song and I was able to record most of the
+show.&lt;/p&gt;
+
+&lt;p&gt;Well, I said most because my girlfriend&#39;s camera uses &lt;strong&gt;a lot&lt;/strong&gt; of
+space to record just a second of data: about 4Mbit/s. No kidding.
+The files it generates are simply huge. And no, they are not
+recorded in stereo. No, they are just MJPEG files with resolution
+of 320x240. The net effect of this is that the 2GB + 1GB SD cards
+that I carried with me were not enough for the entire show.&lt;/p&gt;
+
+&lt;p&gt;Speaking about the length of the show, I thought that it could last
+a bit longer: just 1.5 hours is too little for Opeth, especially
+given the fact that they have some quite long songs (say, &quot;The
+Night and the Silent Water&quot;). Well, some things had to be
+sacrificed: The last song played, &quot;Deliverance&quot;, had to be shot
+with my girlfriend&#39;s cell phone, in a 3GP file. Well, better that
+than nothing.&lt;/p&gt;
+
+&lt;p&gt;The last surprise of the day was that I could meet some students of
+mine. Well, actually, &lt;strong&gt;they&lt;/strong&gt; found me there, while I asked to
+take a picture of the setlist (they managed to grab the setlist
+right from a roadie&#39;s hands). Talk about luck.&lt;/p&gt;
 </description>
 
 
 </item>
 <item>
-	<title>2009-01-28</title>
+	<title>2009-03-14</title>
 
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-01-28/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-03-14/</guid>
 
-	<link>http://cynic.cc/blog//posts/2009-01-28/</link>
+	<link>http://cynic.cc/blog//posts/2009-03-14/</link>
 
 
+
+	<category>life</category>
+
+	<category>music</category>
+
+	<category>video</category>
+
+
+	<pubDate>Sat, 14 Mar 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T11:05:08Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;The acoustic show of Pain of Salvation is really nice. I didn&#39;t
+have enough time to watch it yet, but it is an amazing thing that
+should be kept, as the performance is superb (I did look quickly at
+some points of it and, of course, the expectations have been
+met---we are, after all, talking about a band that has a unique
+touch).&lt;/p&gt;
+
+&lt;p&gt;Oh, speaking about unique bands, I will be seeing Opeth playing
+live here in Brazil. Yes. This day has arrived. I will see my
+favourite band playing here. I guess that I have to get in touch
+with Mikael and see if I can sneak in a camera, so that I can shot
+and film the show. This will be amazing, to say the least.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2009-03-06</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-03-06/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-03-06/</link>
+
+
+
+	<category>hardware</category>
+
+	<category>java</category>
+
+	<category>life</category>
+
+
+	<pubDate>Fri, 06 Mar 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T11:01:12Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;My girlfriend had some complications in her biopsy and I had to
+play the nurse role. Deinfecting the place and going with her to
+the medical service was the next step. Actually, she went to a
+vascular physician and to a general physician.&lt;/p&gt;
+
+&lt;p&gt;After she was medicated, we went to the bank and I was there to
+learn some things about the private social security system of
+Brazil, with two plans: VGBL and PGBL. They seem like a reasonable
+thing to use, but I fear that I will need the money in less time
+than what was told me that I have to keep it there for not having
+to pay a huge amount of taxes.&lt;/p&gt;
+
+&lt;p&gt;Oh, talking about taxes, I installed the Brazilian tax program,
+written in Java, since I don&#39;t have Windows. Surprisingly, it
+doesn&#39;t play well with openjdk-6-jre, which is quite amusing.
+Falling back to the non-free jre 5.0 did the job, but this makes me
+think that SERPRO (I think that this is the department responsible
+for writing the programs) didn&#39;t really grasp the meaning of
+&quot;portability&quot;: they are only delivering binaries for Linux x86. No
+amd64, powerpc and other architectures. What a shame.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2009-03-03</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-03-03/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-03-03/</link>
+
+
+
+	<category>apple</category>
 
 	<category>audio</category>
+
+	<category>debian</category>
 
 	<category>free-software</category>
 
 	<category>hardware</category>
 
+	<category>health</category>
+
+	<category>ipod</category>
+
+	<category>kernel</category>
+
 	<category>life</category>
+
+	<category>linux</category>
+
+	<category>macosx</category>
+
+	<category>mp3</category>
+
+	<category>multimedia</category>
+
+	<category>music</category>
+
+	<category>perl</category>
+
+	<category>programming</category>
+
+	<category>study</category>
 
 	<category>video</category>
 
 
-	<pubDate>Wed, 28 Jan 2009 00:00:00 -0200</pubDate>
-	<dcterms:modified>2018-04-17T09:22:33Z</dcterms:modified>
+	<pubDate>Tue, 03 Mar 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T10:58:28Z</dcterms:modified>
 
 
-	<description>&lt;p&gt;Today was a very unusual day: it was quite active and I didn&#39;t have
-a day like today for a long time.&lt;/p&gt;
+	<description>&lt;p&gt;Inspired by the &lt;code&gt;m3s.pl&lt;/code&gt; script made by Scott Lawrence, and given
+the fact that he doesn&#39;t care anymore about it, I decided to see
+what I could do so that I could generate MP3 CDs that will play
+well with iTunes (like if they were regular audio CDs, but with
+huge capacity and without connecting to the network to fetch
+metadata).&lt;/p&gt;
 
-&lt;p&gt;I had slept quite late, since I was waiting for
-&lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;&#39;s Quicktime 7 Pro for Windows (on my
-girlfriend&#39;s computer) to finish the conversion of a video from one
-of Cynic&#39;s show from their reunion. It was a show that was webcast
-by the Norwegian company nhk.no (if I&#39;m not mistaken) and the show
-is superb (it was from 2007 and they even played a, then,
-unreleased song called &quot;Evolutionary Sleeper&quot;).&lt;/p&gt;
+&lt;p&gt;It turns out that the script could really gain some improvements
+and that having it up to date has forced me to remember some Perl.
+I made a lot of successful, incremental improvements by
+encapsulating the code and making it reasonably readable (even with
+a language that people say that is only &quot;writeable&quot;, but not
+&quot;readable&quot;).&lt;/p&gt;
 
-&lt;p&gt;The funny thing of it all is that even though we where using a
-x86-based machine (actually, a Duron 1.3GHz on a board with a SiS
-730 chipset), which supported even SSE, things were quite slow. In
-fact, the show took 1 day and some hours to be completely
-&quot;exported&quot; in the iPod format.&lt;/p&gt;
+&lt;p&gt;I implemented things inserting data into a hash and then using the
+name of the types of the fields that have to be in the
+ContentsDB.xml file to write the appropriate values, but then I saw
+that what I was doing was quite silly and implemented things in an
+easier, cleaner way. Taking care to have things encoded in utf-8
+and escaping the &amp;amp; character when writing the XML file.&lt;/p&gt;
 
-&lt;p&gt;Another thing that was noteworthy was that my GF had some CDs that
-she had burned and that contained some audio files from a course
-that she took some time ago. Since those classes are quite
-important and they interest me, I would like to listen to them. The
-&quot;problem&quot; is that they are in IMA ADPCM format which most car
-players don&#39;t play. The solution, in this case, will be to use lame
-with libsndfile1 as input and convert the files to the MP3 format,
-so that I can neatly tag the files and listen to them on my (and
-her) car player.&lt;/p&gt;
+&lt;p&gt;The original program used the &lt;code&gt;MP3::Info&lt;/code&gt; module to gather
+information about the songs. This module isn&#39;t as rich as the
+&lt;code&gt;MP3::Tag&lt;/code&gt; module (which is able to get track numbers, track
+counts, disc numbers, and disc counts, just off the top of my
+head). This &quot;new&quot; module is quite good and more flexible and that&#39;s
+what I adopted.&lt;/p&gt;
 
-&lt;p&gt;But this is only the beginning of the story, since two of her CDs
-were not readable on my iBook G3, dammit. I, then, took the time to
-download dvdisaster on her Windows computer (first, the stable
-version; then, the more feature-full development version) and I
-left the CDs being read. Unfortunately, it seems that even
-dvdisaster is having a hard time reading many sectors of the CD-RWs
-(and, yes, I did wash the discs with abundant water and used a very
-soft towel to get them dry).&lt;/p&gt;
+&lt;p&gt;Also, to traverse the directory tree, I am using &lt;code&gt;File::Find&lt;/code&gt;,
+instead of a home-brew solution to the problem. There is only one
+thing left for the script to be finished: having it write correctly
+the &quot;numerical path&quot;, as &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; likes to
+call it.&lt;/p&gt;
 
-&lt;p&gt;Anyway, another thing that I&#39;ve learned was that uTorrent is very
-featureful. Apparently, much more featureful than Transmission. I&#39;d
-say that its features are on par with Azureus (even though I have
-not used Azureus for a loooong time, as it is Java-based and my
-machines don&#39;t have enough horsepower for programs that are not
-natively compiled).&lt;/p&gt;
+&lt;p&gt;Well, remembering things about references, compound data
+structures, object orientation, the use of modules etc. has made me
+gain some interest in Perl again. I think that I will make some
+effort and learn it again.&lt;/p&gt;
 
-&lt;p&gt;I used the torrent to grab Ubuntu&#39;s jaunty alpha 3, so that I can
-experiment with things to come (and the new notification system
-that Mark has proposed. I actually liked it very much, but I am
-eager to see it working). The only catch is that my GF&#39;s connection
-is only 150kbps and things are &lt;strong&gt;very&lt;/strong&gt; slow here, but I&#39;m getting
-the image anyway.&lt;/p&gt;
+&lt;p&gt;Oh, and I just submitted my third patch for the
+&lt;a href=&quot;http://www.kernel.org/&quot;&gt;Linux kernel&lt;/a&gt;: it fixes the compilation
+(and recognition) of the MTD device of the Kurobox HD that I have.
+Now, I am running a brand new 2.6.29-rc6 kernel (yes, yes, it is
+brand new right now, but at the breakneck pace with which the
+kernel is moving, it will soon be quite outdated; I will try to
+keep the powerpc part of things in shape, though).&lt;/p&gt;
 
-&lt;p&gt;When I woke up, I went to the proctologist. After that, I went to
-see a friend of mine from the high-school days, that is now a
-neuro-cirugeon, I had lost contact with him, but I sincerely hope
-to get back in touch frequently.&lt;/p&gt;
+&lt;p&gt;And last, but not least, was the fact that I was submitted to a
+biopsy (the original idea was for it to be just a colonoscopy, but
+I had some inflammatory process in my elbows and some material had
+to be removed for analysis).&lt;/p&gt;
 
-&lt;p&gt;Later, I went with my GF to the bank where she has her account to
-see if he had some residual money from a nation-wide program called
-FGTS. She did have, but some documents were missing. The worker
-that received us told her that she could mail some of the missing
-documentation via e-mail and we scanned the necessary
-documentation, but the mails bounced. Bummer. At least, the trip to
-the bank wasn&#39;t completely useless, since I saw that I have some
-money on this FGTS thing and it was a surprise.&lt;/p&gt;
+&lt;p&gt;I don&#39;t really think that I am finished with all these health
+things, but I surely made some improvements.&lt;/p&gt;
 
-&lt;p&gt;Latter, I went to the local theater and saw that professors are
-able to have a 50% discount on the entrance to see the movies,
-given that we prove that we are actually active. This is a very
-nice thing.&lt;/p&gt;
+&lt;p&gt;Oh, I lied when I said that the biopsy thing was the last one that
+I would write about. I am in the process of compressing movies with
+the help of the &lt;a href=&quot;http://divxenc.sourceforge.net/&quot;&gt;&lt;code&gt;divxenc&lt;/code&gt;&lt;/a&gt;,
+&lt;a href=&quot;http://xvidenc.sourceforge.net/&quot;&gt;&lt;code&gt;xvidenc&lt;/code&gt;&lt;/a&gt; and
+&lt;a href=&quot;http://h264enc.sourceforge.net/&quot;&gt;&lt;code&gt;h264enc&lt;/code&gt;&lt;/a&gt; scripts to generate
+videos that are appropriate for playing in some set top boxes
+&lt;strong&gt;and&lt;/strong&gt; getting smaller files (which means that I will make my
+small NAS last a little bit longer).&lt;/p&gt;
 
-&lt;p&gt;I also saw the price of a new, Classic 120GB iPod. It wasn&#39;t
-available on the store that I went to, but other store of the same
-name has some units. I guess that I should see one. I was only
-surprised to see that the 160GB model doesn&#39;t seem to be sold
-anymore. Any reason for that? That left me puzzled, honestly.&lt;/p&gt;
+&lt;p&gt;And since I discovered how to register myself on the iTunes music
+store, I am downloading some German Podcasts. Will I be able to
+learn some German? Well, I dearly hope so. My only grief is that I
+am desperately running out of space and I will have to rethink my
+backup strategy to leave some room for things to come.&lt;/p&gt;
 
-&lt;p&gt;On the electronics store, I also saw a netbook from HP that was
-sweet. Soooo small, so cute. I guess that I need one. It has a very
-small form factor and it features a 1.2GHz VIA C7M processor. The
-only things that made the red alert lights blink for me were the
-Broadcom network interfaces: both wired and wireless, and Broadcom
-is know to not be exactly that helpful with the Free Software
-Movement.&lt;/p&gt;
+&lt;p&gt;And I also played a little with MacOS X Tiger on Intel and the fact
+that my e100 card didn&#39;t work with Tiger out-of-the box. I had to
+use a special kernel extension for this very purpose. The only
+thing that annoys me a lot is that I can trigger kernel panics with
+the JaS kernel 10.4.8 in a deterministic manner. Upgrading the
+kernel to 10.4.10 made my system not mount some disk images (and
+even &quot;real&quot; disks, like my iPod video). I should, perhaps, try
+Leopard here to see how things are structured and to see the
+changes that Apple has provided to the system.&lt;/p&gt;
 
-&lt;p&gt;After that, I went to get a haircut and my girlfriend told me that
-it was good. Nice.&lt;/p&gt;
+&lt;p&gt;Regarding some cutting-edge programs, I saw that some programs were
+removed from Debian after the release of lenny, since upstream is
+inactive or dead. Too bad. But the nice side of things is that
+snapshot.debian.net is a terrific service to the community and I&#39;ve
+compiled things from there and got excellent results. I think that
+I may even create a non-official repository with some multimedia
+programs (and this includes, say, a newer, multithreaded version of
+mplayer and newer libraries). I think that I will submit some more
+bugreports (like the Real Video files from &lt;a href=&quot;http://www.aduni.org/&quot;&gt;ArsDigita University&lt;/a&gt; that
+can&#39;t be played).&lt;/p&gt;
 
-&lt;p&gt;Latter, before going to her place, we went to my home just for a
-little while so that I could see how the torrents for MIT&#39;s &quot;The
-Structure and Interpretation of Computer Program&quot; MPEG1 videos were
-going. Not good at all. Everything is stalled. I guess that I will
-need to use this uTorrent thing (at least, experiment with it) so
-that I can see if the downloads are slightly better.&lt;/p&gt;
-
-&lt;p&gt;I also did something unusual: scanned a 3x4 (centimeters, of
-course!) photo of mine (which is needed here in Brazil for quite a
-lot of documents) and collated it in 3 rows, in a way that I will
-have 9 pics. I will print two of them (and have 18 pictures) for
-R$0.69 each, which is not a bad deal. My girlfriend liked the idea
-and I will do the same thing for her, since she will need many
-photos for her id&#39;s.&lt;/p&gt;
-
-&lt;p&gt;After that, we got the vacuum cleaner to clean up her place (mostly
-the TV room) and I cleaned her fan (which was quite dusty).&lt;/p&gt;
-
-&lt;p&gt;Tomorrow, the day will be quite full and I will have a lot of
-things to do in this endless saga. I hope to write more about this
-hectic (but pleasant) week.&lt;/p&gt;
+&lt;p&gt;And one last thing: (this one is really the last thing that I will
+comment now) is that I finally will re-record my audio (and video)
+things on digital media, so that I can preserve it without the loss
+of magnetic media. This is a time-consuming activity, but I think
+that it is worth the effort, especially if I use an automated setup
+like Audacity&#39;s noise removal tool. Or is it better to use sox for
+this task? I guess that I will have to experiment a little.&lt;/p&gt;
 </description>
 
 
 </item>
 <item>
-	<title>2008-12-17</title>
+	<title>2009-02-04</title>
 
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-12-17/</guid>
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-02-04/</guid>
 
-	<link>http://cynic.cc/blog//posts/2008-12-17/</link>
+	<link>http://cynic.cc/blog//posts/2009-02-04/</link>
 
 
 
 	<category>life</category>
 
 
-	<pubDate>Wed, 17 Dec 2008 00:00:00 -0200</pubDate>
-	<dcterms:modified>2018-04-17T09:20:15Z</dcterms:modified>
+	<pubDate>Wed, 04 Feb 2009 00:00:00 -0200</pubDate>
+	<dcterms:modified>2018-04-17T09:34:24Z</dcterms:modified>
 
 
-	<description>&lt;p&gt;Prepared a surprise party to Sa.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2008-12-16</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-12-16/</guid>
-
-	<link>http://cynic.cc/blog//posts/2008-12-16/</link>
-
-
-
-	<category>life</category>
-
-
-	<pubDate>Tue, 16 Dec 2008 00:00:00 -0200</pubDate>
-	<dcterms:modified>2018-04-17T09:20:07Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Today was honey&#39;s birthday and I gave her a gift right when I
-arrived at her place. It was nice to bring her to my home to
-celebrate such a magic moment.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2008-12-08</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-12-08/</guid>
-
-	<link>http://cynic.cc/blog//posts/2008-12-08/</link>
-
-
-
-	<category>life</category>
-
-
-	<pubDate>Mon, 08 Dec 2008 00:00:00 -0200</pubDate>
-	<dcterms:modified>2018-04-17T09:19:47Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Came to the conclusion that I am fortunate enough to have met a
-person that I like so much that I had the courage to ask her to be
-my girlfriend. I brought her home so that she could know my parents
-and both parties were impressed with each other.&lt;/p&gt;
-
-&lt;p&gt;It was so nice to have her here at home.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2008-12-03</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-12-03/</guid>
-
-	<link>http://cynic.cc/blog//posts/2008-12-03/</link>
-
-
-
-	<category>life</category>
-
-
-	<pubDate>Wed, 03 Dec 2008 00:00:00 -0200</pubDate>
-	<dcterms:modified>2018-04-17T09:14:39Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;I had a second meeting with a girl at a local shopping mall. The
-initial plan was to go to the movies, but we spent so much time
-chatting that the hours flied and we missed the movies. Bah, they
-weren&#39;t that interesting anyway. What was interesting, though, was
-spending some time in her car, talking about a number of things.
-How pleasant it was! And her kisses are wonderful. I think that I&#39;m
-falling in love.&lt;/p&gt;
+	<description>&lt;p&gt;Today I Today was a very unusual day: it was quite active and I
+didn&#39;t have a day like today for a long time.&lt;/p&gt;
 </description>
 
 

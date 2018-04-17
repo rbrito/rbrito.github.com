@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2018-04-17T09:09:29Z</updated>
+<updated>2018-04-17T11:24:32Z</updated>
 <entry>
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
@@ -186,6 +186,103 @@ system. Knowing which one to enable is a matter of knowing the specs of
 your system and, if not known, discovery by trial-and-error. (For x86
 systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2009-08-05</title>
+
+	<id>http://cynic.cc/blog//posts/2009-08-05/</id>
+
+	<link href="http://cynic.cc/blog//posts/2009-08-05/"/>
+
+
+
+
+
+
+	<category term="debconf" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="kurobox" />
+
+	<category term="life" />
+
+
+	<updated>2018-04-17T11:24:32Z</updated>
+	<published>2009-08-05T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Went to the Brazilian national Security Service, to see the status
+of my sick leave.&lt;/p&gt;
+
+&lt;p&gt;After that, I took some time and went to see
+&lt;a href=&quot;http://tiagovaz.org/&quot;&gt;Tiago Vaz&lt;/a&gt;, who attended
+&lt;a href=&quot;http://debconf9.debconf.org/&quot;&gt;this year&#39;s&lt;/a&gt;
+&lt;a href=&quot;http://www.debconf.org/&quot;&gt;DebConf&lt;/a&gt;, which I couldn&#39;t attend. I also
+met his friendly partner. Well, both are so kind and I felt at home
+at his place.&lt;/p&gt;
+
+&lt;p&gt;I took some small moments to perform a mini, private key-signing
+party, so that we both strengthen our trust networks.&lt;/p&gt;
+
+&lt;p&gt;And last, but not least, I got the package that Martin kindly sent
+me via Tiago and I&#39;ll now start to play with it. I have never
+played with an arm-based platform before. Let&#39;s see if it is not an
+alien to myself.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2009-06-02</title>
+
+	<id>http://cynic.cc/blog//posts/2009-06-02/</id>
+
+	<link href="http://cynic.cc/blog//posts/2009-06-02/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="kurobox" />
+
+
+	<updated>2018-04-17T11:21:18Z</updated>
+	<published>2009-06-02T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Today I was pleasantly surprised that the Kurobox that
+&lt;a href=&quot;http://suihkulokki.blogspot.com/&quot;&gt;Riku Voipio&lt;/a&gt; sent me has
+arrived! From the looks of it, it is a Kurobox HG, which, compared
+to my Kurobox HD, has a faster processor (it runs at 266MHz,
+instead of 200MHz), has more RAM (128MB, instead of 64MB), and has
+a faster network connection (an 1Gbps instead of 100Mbps
+interface).&lt;/p&gt;
+
+&lt;p&gt;I&#39;m trying to see if I will be able to use a SATA drive with this
+Kurobox, as we can&#39;t find large IDE/PATA drives in the market today
+(almost). And the bigger capacity ones are only available with SATA
+interfaces.&lt;/p&gt;
 
 	</content>
 

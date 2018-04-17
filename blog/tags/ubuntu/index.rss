@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 17 Apr 2018 06:10:06 -0300</pubDate>
+<pubDate>Tue, 17 Apr 2018 08:20:11 -0300</pubDate>
 <item>
 	<title>Comparison of JDK installation of various Linux distributions</title>
 
@@ -336,6 +336,116 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 
 </item>
 <item>
+	<title>2009-05-07</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-05-07/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-05-07/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>programming</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Thu, 07 May 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T11:20:11Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Having been playing with some new things in
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;, like the
+&lt;a href=&quot;http://packages.debian.org/magicfilter&quot;&gt;&lt;code&gt;magicfilter&lt;/code&gt;&lt;/a&gt; package,
+which is a superb, lightweight solution to all my printing
+problems: to use a PCL 3 printer. I think that I will also
+&quot;manufacture&quot; a solution with a metapackage of a live CD that
+includes the environment that I use frequently, with the packages
+that I use (this is probably quite leaner than what
+&lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt; has done with their distribution,
+since I will mainly use some lighter packages).&lt;/p&gt;
+
+&lt;p&gt;Oh, talking about lighter packages, I see that Debian has adopted a
+new C library, namely &lt;a href=&quot;http://www.eglibc.org/&quot;&gt;EGLIBC&lt;/a&gt;, which
+stands for Embedded LIBC. Finally, it seems that Debian will focus
+a bit more on smaller systems (which is a good thing, because
+computing resources are limited).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2009-03-15</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-03-15/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-03-15/</link>
+
+
+
+	<category>debian</category>
+
+	<category>development</category>
+
+	<category>free-software</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Sun, 15 Mar 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T11:15:27Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Have been playing with the great idea of
+&lt;a href=&quot;http://lists.debian.org/debian-mentors/2009/03/msg00210.html&quot;&gt;caching&lt;/a&gt;
+&lt;a href=&quot;http://lwn.net/Articles/318658/&quot;&gt;deb&lt;/a&gt; packages. I finally settled
+for the option of using
+&lt;code&gt;&amp;lt;a href=&quot;http://git.debian.org/?p=pkg-ocaml-maint/packages/approx.git&quot;&amp;gt;approx&amp;lt;/a&amp;gt;&lt;/code&gt;,
+which does a really nice job of caching packages.&lt;/p&gt;
+
+&lt;p&gt;Actually, it fullfils quite a lot of requirements and even
+surpasses some of my expectations:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It supports multiple architectures (in fact, this is important
+for me, as I use &lt;code&gt;i386&lt;/code&gt;, &lt;code&gt;amd64&lt;/code&gt;, and &lt;code&gt;powerpc&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;It can support multiple distributions (both different versions
+of the same distribution and completely different distributions, as
+long as they use a repository like
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s, as is the case of
+&lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;It keeps its directory hierarchy neatly organized, like that of
+Debian, in a package pool, which saves space and makes everything
+easier and faster to find (and has the advantage of being fast with
+filesystems that don&#39;t cope well with many entries in one
+directory).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The transition wasn&#39;t painless from
+&lt;a href=&quot;http://packages.debian.org/apt-move&quot;&gt;&lt;code&gt;apt-move&lt;/code&gt;&lt;/a&gt;, since apt-move
+moves the files, but renames them in a way that they don&#39;t keep
+epochs in their names, which makes &lt;code&gt;approx-import&lt;/code&gt; moan about the
+packages.&lt;/p&gt;
+
+&lt;p&gt;For places where I am too lazy to import the packages, I just
+filled the cache redownloading the packages with something
+approximately like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get -d --reinstall install &amp;#036;(dpkg -l | grep &quot;^ii&quot; | cut -d &quot; &quot; -f 3)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Well, I hope that this experience happens to be useful for other
+people, so that they can benefit from it. Rebuilding packages with
+a package cacher is much more pleasant, especially if the package
+has a lot of build-dependencies.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2008-09-24</title>
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-09-24/</guid>
@@ -513,131 +623,6 @@ distribution, since I will mainly use some lighter packages).&lt;/p&gt;
 library, namely &lt;a href=&quot;http://www.eglibc.org/&quot;&gt;EGLIBC&lt;/a&gt;, which stands for Embedded LIBC. Finally, it
 seems that Debian will focus a bit more on smaller systems (which is a good
 thing, because computing resources are limited).&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Playing with Package Proxies</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/playing-with-package-proxies/</guid>
-
-	<link>http://cynic.cc/blog//posts/playing-with-package-proxies/</link>
-
-
-
-	<category>approx</category>
-
-	<category>apt-move</category>
-
-	<category>computers</category>
-
-	<category>debian</category>
-
-	<category>embedded</category>
-
-	<category>linux</category>
-
-	<category>proxy</category>
-
-	<category>ubuntu</category>
-
-
-	<pubDate>Thu, 15 Mar 2007 23:00:00 -0300</pubDate>
-	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Have been playing with the great idea of &lt;a
-href=&quot;http://lists.debian.org/debian-mentors/2009/03/msg00210.html&quot;&gt;caching&lt;/a&gt;
-&lt;a href=&quot;http://lwn.net/Articles/318658/&quot;&gt;deb&lt;/a&gt; packages. I finally
-settled for the option of using &lt;code&gt;&lt;a
-href=&quot;http://git.debian.org/?p=pkg-ocaml-maint/packages/approx.git&quot;&gt;approx&lt;/a&gt;&lt;/code&gt;,
-which does a really nice job of caching packages.&lt;/p&gt;
-
-&lt;p&gt;Actually, it fullfils quite a lot of requirements and even surpasses some of my expectations:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It supports multiple architectures (in fact, this is important for me, as
-I use &lt;code&gt;i386&lt;/code&gt;, &lt;code&gt;amd64&lt;/code&gt;, and &lt;code&gt;powerpc&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;It can support multiple distributions (both different versions of the same
-distribution and completely different distributions, as long as they use a
-repository like &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s, as is the
-case of &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;).&lt;/li&gt;&lt;/li&gt;
-&lt;li&gt;It keeps its directory hierarchy neatly organized, like that of Debian, in
-a package pool, which saves space and makes everything easier and faster
-to find (and has the advantage of being fast with filesystems that don&#39;t
-cope well with many entries in one directory).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The transition wasn&#39;t painless from &lt;a href=&quot;http://packages.debian.org/apt%2Dmove&quot;&gt;apt-move&lt;/a&gt;, since apt-move
-moves the files, but renames them in a way that they don&#39;t keep epochs in
-their names, which makes &lt;code&gt;approx-import&lt;/code&gt; moan about the packages.&lt;/p&gt;
-
-&lt;p&gt;For places where I am too lazy to import the packages, I just filled the
-cache redownloading the packages with something approximately like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  apt-get -d --reinstall install &amp;#036;(dpkg -l | grep &quot;^ii&quot; | cut -d &quot; &quot; -f 3)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Well, I hope that this experience happens to be useful for other people, so
-that they can benefit from it. Rebuilding packages with a package cacher is
-much more pleasant, especially if the package has a lot of
-build-dependencies.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2006-03-03</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-03-03/</guid>
-
-	<link>http://cynic.cc/blog//posts/2006-03-03/</link>
-
-
-
-	<category>data-structures</category>
-
-	<category>life</category>
-
-	<category>math</category>
-
-	<category>teaching</category>
-
-	<category>ubuntu</category>
-
-
-	<pubDate>Fri, 03 Mar 2006 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-07-14T18:26:00Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;One good thing to have in mind is that when one is minimally
-serious about data structures, then on covering the topic of
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Hash_table&quot;&gt;hash tables&lt;/a&gt;, it is a
-quite good chance to talk about the
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Birthday_paradox&quot;&gt;&quot;birthday paradox&quot;&lt;/a&gt;.
-In the analogy, each day would correspond to a slot in the hash
-table and each person would correspond to an item to be inserted
-into the table.&lt;/p&gt;
-
-&lt;p&gt;If one takes this into account, the analysis of
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Birthday_paradox#Collision_counting&quot;&gt;collisions&lt;/a&gt;
-is meaninful from a probabilistic point of view, which matters a
-lot.&lt;/p&gt;
-
-&lt;p&gt;Changing the subject a little, in a replacement that lasted, say,
-15 minutes (tops), the cable modem is back again working, which
-means that playing with &lt;a href=&quot;http://lartc.org/&quot;&gt;tunneling&lt;/a&gt; under
-&lt;a href=&quot;http://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; (especially, using the IPSec
-interface) is back again a possibility.&lt;/p&gt;
-
-&lt;p&gt;Oh, and it seems that &lt;a href=&quot;http://www.ubuntulinux.org&quot;&gt;Ubuntu&lt;/a&gt;&#39;s
-&lt;a href=&quot;http://www.ubuntu.com/ubuntu/releases&quot;&gt;dapper&lt;/a&gt; is &quot;mom proof&quot;.
-Well, at least, she has been learning to use it with some hiccups,
-but, then, personal computers aren&#39;t things with which she plays
-everyday. She was surprised to know about
-&lt;a href=&quot;http://www.wikipedia.org/&quot;&gt;Wikipedia&lt;/a&gt; and its broad coverage. And,
-indeed, it is superb.&lt;/p&gt;
 </description>
 
 
