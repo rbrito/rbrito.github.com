@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-11-06T06:28:31Z</updated>
+<updated>2018-04-17T09:27:25Z</updated>
 <entry>
 	<title>Android recording audio quality</title>
 
@@ -141,11 +141,11 @@ https://developer.android.com/guide/topics/media/mediarecorder.html&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2005-12-26</title>
+	<title>2009-02-03</title>
 
-	<id>http://cynic.cc/blog//posts/2005-12-26/</id>
+	<id>http://cynic.cc/blog//posts/2009-02-03/</id>
 
-	<link href="http://cynic.cc/blog//posts/2005-12-26/"/>
+	<link href="http://cynic.cc/blog//posts/2009-02-03/"/>
 
 
 
@@ -154,27 +154,48 @@ https://developer.android.com/guide/topics/media/mediarecorder.html&lt;/p&gt;
 
 	<category term="audio" />
 
-	<category term="dvds" />
-
 	<category term="free-software" />
 
+	<category term="hardware" />
+
+	<category term="ipod" />
+
 	<category term="life" />
+
+	<category term="music" />
 
 	<category term="video" />
 
 
-	<updated>2015-01-18T00:52:28Z</updated>
-	<published>2005-12-26T02:00:00Z</published>
+	<updated>2018-04-17T09:27:25Z</updated>
+	<published>2009-02-03T02:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Still encoding the videos. It seems that the work will finally be
-done today!&lt;/p&gt;
+	&lt;p&gt;In the past few days, I did quite a good amount of things. One of
+the things that took most of my mind was to convert some videos in
+a proper format for the iPod. At first, I thought that the format
+of the videos would have to have an H.264 encoded video with
+resolution 320x240 (without using cabac, which increases the
+compression factor of the video) and audio in the AAC format with
+bitrates up to 160kbps.&lt;/p&gt;
 
-&lt;p&gt;In the mean time, I discovered that
-&lt;a href=&quot;http://arstechnica.com/&quot;&gt;Ars Technica&lt;/a&gt; has some quite interesting
-articles; much better (and more informative than
-&lt;a href=&quot;http://slashdot.org/&quot;&gt;Slashdot&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Then, using Apple&#39;s Quicktime Pro 7, I exported a video from the
+Dutch band called After Forever, which had the resolution bigger
+than 320x240. This made me revisit Apple&#39;s site where the
+specifications of videos meant to be played on iPods. It seems
+that, now, with the latest firmware update, the iPod that I have
+can play H.264 videos encoded with resolutions up to 640x480 (the
+standard VGA resolution). Also, the bitrate doesn&#39;t need to be
+restricted to 768kbps: some of the videos produced by Quicktime
+(and which the iPods can play) have bitrates of up to 1500kbps.&lt;/p&gt;
+
+&lt;p&gt;This means that I can now encode some of my videos that are in the
+nasty WMV format to formats that can be supported in a decent
+manner by Free Software system. I have, for instance, the
+BBC-produced DVD called &quot;The Codebreakers&quot;, whose audio is in pure
+DVD LPCM format (that is, uncompressed) and the space that it takes
+on my hard disk is considerable (approx. 1GB).&lt;/p&gt;
 
 	</content>
 
@@ -182,11 +203,152 @@ articles; much better (and more informative than
 
 </entry>
 <entry>
-	<title>2005-12-25</title>
+	<title>2009-01-28</title>
 
-	<id>http://cynic.cc/blog//posts/2005-12-25/</id>
+	<id>http://cynic.cc/blog//posts/2009-01-28/</id>
 
-	<link href="http://cynic.cc/blog//posts/2005-12-25/"/>
+	<link href="http://cynic.cc/blog//posts/2009-01-28/"/>
+
+
+
+
+
+
+	<category term="audio" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="life" />
+
+	<category term="video" />
+
+
+	<updated>2018-04-17T09:22:33Z</updated>
+	<published>2009-01-28T02:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Today was a very unusual day: it was quite active and I didn&#39;t have
+a day like today for a long time.&lt;/p&gt;
+
+&lt;p&gt;I had slept quite late, since I was waiting for
+&lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;&#39;s Quicktime 7 Pro for Windows (on my
+girlfriend&#39;s computer) to finish the conversion of a video from one
+of Cynic&#39;s show from their reunion. It was a show that was webcast
+by the Norwegian company nhk.no (if I&#39;m not mistaken) and the show
+is superb (it was from 2007 and they even played a, then,
+unreleased song called &quot;Evolutionary Sleeper&quot;).&lt;/p&gt;
+
+&lt;p&gt;The funny thing of it all is that even though we where using a
+x86-based machine (actually, a Duron 1.3GHz on a board with a SiS
+730 chipset), which supported even SSE, things were quite slow. In
+fact, the show took 1 day and some hours to be completely
+&quot;exported&quot; in the iPod format.&lt;/p&gt;
+
+&lt;p&gt;Another thing that was noteworthy was that my GF had some CDs that
+she had burned and that contained some audio files from a course
+that she took some time ago. Since those classes are quite
+important and they interest me, I would like to listen to them. The
+&quot;problem&quot; is that they are in IMA ADPCM format which most car
+players don&#39;t play. The solution, in this case, will be to use lame
+with libsndfile1 as input and convert the files to the MP3 format,
+so that I can neatly tag the files and listen to them on my (and
+her) car player.&lt;/p&gt;
+
+&lt;p&gt;But this is only the beginning of the story, since two of her CDs
+were not readable on my iBook G3, dammit. I, then, took the time to
+download dvdisaster on her Windows computer (first, the stable
+version; then, the more feature-full development version) and I
+left the CDs being read. Unfortunately, it seems that even
+dvdisaster is having a hard time reading many sectors of the CD-RWs
+(and, yes, I did wash the discs with abundant water and used a very
+soft towel to get them dry).&lt;/p&gt;
+
+&lt;p&gt;Anyway, another thing that I&#39;ve learned was that uTorrent is very
+featureful. Apparently, much more featureful than Transmission. I&#39;d
+say that its features are on par with Azureus (even though I have
+not used Azureus for a loooong time, as it is Java-based and my
+machines don&#39;t have enough horsepower for programs that are not
+natively compiled).&lt;/p&gt;
+
+&lt;p&gt;I used the torrent to grab Ubuntu&#39;s jaunty alpha 3, so that I can
+experiment with things to come (and the new notification system
+that Mark has proposed. I actually liked it very much, but I am
+eager to see it working). The only catch is that my GF&#39;s connection
+is only 150kbps and things are &lt;strong&gt;very&lt;/strong&gt; slow here, but I&#39;m getting
+the image anyway.&lt;/p&gt;
+
+&lt;p&gt;When I woke up, I went to the proctologist. After that, I went to
+see a friend of mine from the high-school days, that is now a
+neuro-cirugeon, I had lost contact with him, but I sincerely hope
+to get back in touch frequently.&lt;/p&gt;
+
+&lt;p&gt;Later, I went with my GF to the bank where she has her account to
+see if he had some residual money from a nation-wide program called
+FGTS. She did have, but some documents were missing. The worker
+that received us told her that she could mail some of the missing
+documentation via e-mail and we scanned the necessary
+documentation, but the mails bounced. Bummer. At least, the trip to
+the bank wasn&#39;t completely useless, since I saw that I have some
+money on this FGTS thing and it was a surprise.&lt;/p&gt;
+
+&lt;p&gt;Latter, I went to the local theater and saw that professors are
+able to have a 50% discount on the entrance to see the movies,
+given that we prove that we are actually active. This is a very
+nice thing.&lt;/p&gt;
+
+&lt;p&gt;I also saw the price of a new, Classic 120GB iPod. It wasn&#39;t
+available on the store that I went to, but other store of the same
+name has some units. I guess that I should see one. I was only
+surprised to see that the 160GB model doesn&#39;t seem to be sold
+anymore. Any reason for that? That left me puzzled, honestly.&lt;/p&gt;
+
+&lt;p&gt;On the electronics store, I also saw a netbook from HP that was
+sweet. Soooo small, so cute. I guess that I need one. It has a very
+small form factor and it features a 1.2GHz VIA C7M processor. The
+only things that made the red alert lights blink for me were the
+Broadcom network interfaces: both wired and wireless, and Broadcom
+is know to not be exactly that helpful with the Free Software
+Movement.&lt;/p&gt;
+
+&lt;p&gt;After that, I went to get a haircut and my girlfriend told me that
+it was good. Nice.&lt;/p&gt;
+
+&lt;p&gt;Latter, before going to her place, we went to my home just for a
+little while so that I could see how the torrents for MIT&#39;s &quot;The
+Structure and Interpretation of Computer Program&quot; MPEG1 videos were
+going. Not good at all. Everything is stalled. I guess that I will
+need to use this uTorrent thing (at least, experiment with it) so
+that I can see if the downloads are slightly better.&lt;/p&gt;
+
+&lt;p&gt;I also did something unusual: scanned a 3x4 (centimeters, of
+course!) photo of mine (which is needed here in Brazil for quite a
+lot of documents) and collated it in 3 rows, in a way that I will
+have 9 pics. I will print two of them (and have 18 pictures) for
+R$0.69 each, which is not a bad deal. My girlfriend liked the idea
+and I will do the same thing for her, since she will need many
+photos for her id&#39;s.&lt;/p&gt;
+
+&lt;p&gt;After that, we got the vacuum cleaner to clean up her place (mostly
+the TV room) and I cleaned her fan (which was quite dusty).&lt;/p&gt;
+
+&lt;p&gt;Tomorrow, the day will be quite full and I will have a lot of
+things to do in this endless saga. I hope to write more about this
+hectic (but pleasant) week.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-09-24</title>
+
+	<id>http://cynic.cc/blog//posts/2008-09-24/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-09-24/"/>
 
 
 
@@ -197,36 +359,38 @@ articles; much better (and more informative than
 
 	<category term="debian" />
 
-	<category term="dvds" />
-
 	<category term="free-software" />
 
-	<category term="life" />
+	<category term="music" />
 
-	<category term="video" />
+	<category term="ubuntu" />
 
 
-	<updated>2015-01-18T00:51:10Z</updated>
-	<published>2005-12-25T02:00:00Z</published>
+	<updated>2018-04-17T09:10:06Z</updated>
+	<published>2008-09-24T03:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;Still encoding the videos. Some surprise here, because it seems
-that &lt;a href=&quot;http://packages.debian.org/toolame&quot;&gt;toolame&lt;/a&gt; has some bug
-when encoding audio in some cases. Had to fix some of the MPEGs.&lt;/p&gt;
+	&lt;p&gt;Now I am officially a
+&lt;a href=&quot;http://packages.debian.org/changelogs/pool/main/d/debian-maintainers/current/changelog#versionversion1.45&quot;&gt;Debian Maintainer&lt;/a&gt;.
+I&#39;m very happy now. This means that I can upload my own packages to
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;, without pestering
+&lt;a href=&quot;http://alfie.ist.org/&quot;&gt;Rhonda&lt;/a&gt; about them. But I still want her
+opinions on some packages, given the experience that she has.&lt;/p&gt;
 
-&lt;p&gt;And while I did that, I took some moments to fix some of the audio
-deficiencies with &lt;a href=&quot;http://packages.debian.org/audacity&quot;&gt;audacity&lt;/a&gt;.
-Too bad that Audacity doesn&#39;t have a Treeble booster filter built
-right into it, but only a generic (and harder to use) Equalization
-filter.&lt;/p&gt;
+&lt;p&gt;And it seems that I&#39;ll be part of another project,
+&lt;a href=&quot;http://sf.net/projects/lossywav&quot;&gt;lossyWAV&lt;/a&gt;, given the current
+discussions on
+&lt;a href=&quot;http://www.hydrogenaudio.org/forums/index.php?showtopic=65499&amp;amp;st=50&amp;amp;gopid=589938&quot;&gt;hydrogenaudio forums&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Oh, and it seems that Christian Marillat has packaged version 1.8.0
-of &lt;a href=&quot;http://mjpeg.sf.net/&quot;&gt;mjpegtools&lt;/a&gt;, while I&#39;m still using
-version 1.6.2. I don&#39;t want to switch right now, for consistency
-purposes with the videos that I already have encoded.&lt;/p&gt;
+&lt;p&gt;Oh, and only today I realized that
+&lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&#39;s Intrepid Ibex&lt;/a&gt; alpha 6 was
+released. Time to go downloading things to use on my most recent
+purchase...&lt;/p&gt;
 
-&lt;p&gt;Oh, yes, still encoding videos. It is quite slow.&lt;/p&gt;
+&lt;p&gt;On a more musically related note, Symphony X
+&lt;a href=&quot;http://whiplash.net/materias/news_883/077645-symphonyx.html&quot;&gt;will be coming here&lt;/a&gt;
+to São Paulo, which is a nice thing.&lt;/p&gt;
 
 	</content>
 
@@ -234,11 +398,11 @@ purposes with the videos that I already have encoded.&lt;/p&gt;
 
 </entry>
 <entry>
-	<title>2001-12-28</title>
+	<title>2008-07-20</title>
 
-	<id>http://cynic.cc/blog//posts/2001-12-28/</id>
+	<id>http://cynic.cc/blog//posts/2008-07-20/</id>
 
-	<link href="http://cynic.cc/blog//posts/2001-12-28/"/>
+	<link href="http://cynic.cc/blog//posts/2008-07-20/"/>
 
 
 
@@ -249,26 +413,250 @@ purposes with the videos that I already have encoded.&lt;/p&gt;
 
 	<category term="free-software" />
 
+	<category term="hardware" />
 
-	<updated>2013-06-06T21:23:31Z</updated>
-	<published>2001-12-28T02:00:00Z</published>
+	<category term="lame" />
+
+	<category term="mp3" />
+
+	<category term="music" />
+
+
+	<updated>2018-04-17T08:58:59Z</updated>
+	<published>2008-07-20T03:00:00Z</published>
 
 
 	<content type="html" xml:lang="en">
-	&lt;p&gt;A &lt;a href=&quot;http://www.bbc.co.uk/&quot;&gt;BBC&lt;/a&gt;, famosa rádio inglesa,
-&lt;a href=&quot;http://support.bbc.co.uk/ogg/&quot;&gt;está transmitindo sua programação&lt;/a&gt;
-em caráter experimental usando o formato
-&lt;a href=&quot;http://www.vorbis.com/faq.psp&quot;&gt;Ogg Vorbis&lt;/a&gt;, superior ao formato
-MP3 em diversos aspectos. E, de bônus, o formato é &lt;strong&gt;100% livre&lt;/strong&gt;.
-Isto significa, de tabela, que as pessoas não precisam mais ficar
-restritas ao uso de PCs com Windows para ouvir áudio na Internet.
-Elas podem escolher tanto o hardware quanto o sistema operacional
-de sua preferência, seja ele Linux, *BSD, Solaris, MacOS, MacOS X
-ou até mesmo Windows. Tomara que a iniciativa seja adotada por
-outros lugares.&lt;/p&gt;
+	&lt;p&gt;Just discovered that &lt;a href=&quot;http://www.opeth.com/&quot;&gt;Opeth&lt;/a&gt; (or would it be
+&lt;a href=&quot;http://www.roadrunnerrecords.com/&quot;&gt;Roadrunner Records&lt;/a&gt;?) has
+released a version of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Watershed_(Opeth_album)&quot;&gt;Watershed with extra tracks and with a DVD documentary&lt;/a&gt;.
+They have also released another special version that has
+&lt;a href=&quot;http://www.youtube.com/watch?v=cKx5zrb0Z_0&quot;&gt;Porcelain Heart&lt;/a&gt;
+played with &lt;a href=&quot;http://en.wikipedia.org/wiki/Mellotron&quot;&gt;Mellotron&lt;/a&gt;
+(which brings orgasms to all the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Progressive_rock&quot;&gt;progressive rock&lt;/a&gt;
+fans, like myself).&lt;/p&gt;
 
-&lt;p&gt;Para ouvir a programação, e
-&lt;a href=&quot;http://support.bbc.co.uk/ogg/&quot;&gt;clique aqui&lt;/a&gt; e relaxe.&lt;/p&gt;
+&lt;p&gt;Also got my parents to sit in front of my old, trusty
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Duron&quot;&gt;Duron&lt;/a&gt;-based &lt;code&gt;dumont&lt;/code&gt; (in
+honor of Brazilian pioneer
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Santos_Dumont&quot;&gt;Alberto Santos-Dumont&lt;/a&gt;).
+It is interesting to note that, while the Level 2
+&lt;a href=&quot;http://en.wikipedia.org/wiki/CPU_cache&quot;&gt;cache&lt;/a&gt; of the Duron system
+is small for a low-cost processor (in reference to its rival
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Celeron&quot;&gt;Celeron&lt;/a&gt; processor, that had
+a bigger Level 2 cache), it has a much bigger
+(128&lt;a href=&quot;http://en.wikipedia.org/wiki/KiB&quot;&gt;KiB&lt;/a&gt;) Level 1 cache than
+what I have in a
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Pentium_D&quot;&gt;Pentium D&lt;/a&gt; machine: only
+16KB for each core (at least for data; that&#39;s what my &lt;code&gt;dmesg&lt;/code&gt;
+says). Surprising to say the least. And this explains why
+&lt;a href=&quot;http://en.wikipedia.org/wiki/AMD&quot;&gt;AMD&lt;/a&gt; stood on the front of the
+race during the Athlon (Thunderbird) days.&lt;/p&gt;
+
+&lt;p&gt;Regarding other architectures (I have
+&lt;a href=&quot;http://en.wikipedia.org/wiki/PowerPC&quot;&gt;PowerPC&lt;/a&gt; in mind here), I&#39;m
+not especially happy with them: my
+&lt;a href=&quot;http://en.wikipedia.org/wiki/PowerPC_G3&quot;&gt;PowerPC G3&lt;/a&gt; lacks
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Vector_processor&quot;&gt;vector instructions&lt;/a&gt;,
+which means that playing multimedia files (read: movies) is
+something painful. The problem is that I &lt;strong&gt;quite&lt;/strong&gt; like the iBook&#39;s
+form factor and I have not yet seen anything that matches it yet.
+Comments are welcome here. Yes, it seems that I am not alone here,
+given all the frenziness about the surge of netbook computers, like
+the &lt;a href=&quot;http://en.wikipedia.org/wiki/ASUS_Eee_PC&quot;&gt;Eee PC&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And I setup my old sound gear on what is my main (desktop)
+computer. It is nice to have a good sound whenever I am working
+(well, whenever I am working lightly, as I need sound to be absent
+when I&#39;m working hard).&lt;/p&gt;
+
+&lt;p&gt;I have, BTW, just found a
+&lt;a href=&quot;http://vindaci.members.sonic.net/cbreak/projects/autotools/&quot;&gt;superb autotools tutorial&lt;/a&gt;
+that starts with the egregious &lt;code&gt;&quot;Hello, World!&quot;&lt;/code&gt; application. This
+is a perfect point for reading more advanced documents on this
+matter.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-07-19</title>
+
+	<id>http://cynic.cc/blog//posts/2008-07-19/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-07-19/"/>
+
+
+
+
+
+
+	<category term="audio" />
+
+	<category term="free-software" />
+
+	<category term="lame" />
+
+	<category term="mp3" />
+
+
+	<updated>2018-04-17T08:57:55Z</updated>
+	<published>2008-07-19T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Have been
+&lt;a href=&quot;http://lame.cvs.sourceforge.net/*checkout*/lame/lame/doc/html/history.html?revision=HEAD&quot;&gt;working quite a bit&lt;/a&gt;
+on the &lt;a href=&quot;http://lame.sf.net/&quot;&gt;LAME&lt;/a&gt; project to have the best MP3
+encoder around. It&#39;s been all a learning exercise dealing with all
+the magic behind
+&lt;a href=&quot;http://www.lrde.epita.fr/~adl/autotools.html&quot;&gt;autotools&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, there are some areas where we can fix with just a
+working knowledge of C and computer architecture, like fixing the
+interface to the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Open_Sound_System&quot;&gt;Open Sound System&lt;/a&gt;
+&lt;a href=&quot;http://en.wikipedia.org/wiki/ABX_test&quot;&gt;&lt;code&gt;abx&lt;/code&gt; tool&lt;/a&gt; that comes with
+lame (in the &lt;code&gt;misc&lt;/code&gt; directory), as well as the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Endianness&quot;&gt;endianness&lt;/a&gt; problems.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-07-04</title>
+
+	<id>http://cynic.cc/blog//posts/2008-07-04/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-07-04/"/>
+
+
+
+
+
+
+	<category term="audio" />
+
+	<category term="free-software" />
+
+	<category term="lame" />
+
+	<category term="mp3" />
+
+
+	<updated>2018-04-17T08:57:19Z</updated>
+	<published>2008-07-04T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Today, &lt;a href=&quot;http://lame.sf.net/&quot;&gt;LAME 3.98 final&lt;/a&gt; was released.
+Unfortunately, I missed the boat and didn&#39;t commit all the changes
+that I had, but I will continue working on it nevertheless.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-05-23</title>
+
+	<id>http://cynic.cc/blog//posts/2008-05-23/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-05-23/"/>
+
+
+
+
+
+
+	<category term="audio" />
+
+	<category term="free-software" />
+
+	<category term="lame" />
+
+	<category term="life" />
+
+	<category term="mp3" />
+
+	<category term="study" />
+
+
+	<updated>2018-04-17T08:56:47Z</updated>
+	<published>2008-05-23T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Gave a second talk to the group of &quot;Error Correcting Codes&quot;. This
+time, I carried my &lt;a href=&quot;http://en.wikipedia.org/wiki/S1MP3&quot;&gt;S1MP3&lt;/a&gt;
+player/recorder and recorded the talk. The nice thing is that
+&lt;a href=&quot;http://lame.sf.net/&quot;&gt;LAME&lt;/a&gt; with libsndfile1 can read those files
+directly, without any kind of conversion first, which automates
+things quite a lot.&lt;/p&gt;
+
+&lt;p&gt;During the seminar, I talked about algorithm invariants, how to
+discover them, how close to mathematical induction they are, gave
+examples of some programs, described the bubble sort algorithm in
+our native/high level language, talked about its stability, talked
+about its invariant, talked about its time and space complexity,
+remarked that the algorithm works on any totally ordered set and,
+finally, to answer a question from the audience, talked about the
+limited precision of &quot;integers&quot; that we use on computers and
+multiprecision libraries used to hold values as large as we
+please.&lt;/p&gt;
+
+&lt;p&gt;Today was also dad&#39;s birthday! Hippie!&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-05-17</title>
+
+	<id>http://cynic.cc/blog//posts/2008-05-17/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-05-17/"/>
+
+
+
+
+
+
+	<category term="audio" />
+
+	<category term="lame" />
+
+	<category term="mp3" />
+
+	<category term="music" />
+
+
+	<updated>2018-04-17T08:52:01Z</updated>
+	<published>2008-05-17T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Seeing one of the &lt;a href=&quot;http://www.dreamtheater.net/&quot;&gt;Dream Theater&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.ytsejamrecords.com/&quot;&gt;Official Bootlegs&lt;/a&gt; (and some of
+their regular releases), I can&#39;t fail to notice that they have the
+2.0 Stereo part as &lt;a href=&quot;http://en.wikipedia.org/wiki/LPCM&quot;&gt;LPCM&lt;/a&gt; audio.
+Sometimes, these streams are in 24 bits. I would like to convert
+them to WAV files so that I can use &lt;a href=&quot;http://lame.sf.net/&quot;&gt;LAME&lt;/a&gt; to
+get the recordings on my portable digital music player.&lt;/p&gt;
+
+&lt;p&gt;To this effect, I spent some moments coding a program that I called
+&lt;code&gt;lpcm2wav&lt;/code&gt; that takes a raw input of an LPCM audio from a
+&lt;a href=&quot;http://en.wikipedia.org/wiki/DVD&quot;&gt;DVD&lt;/a&gt; video disc and outputs a
+WAV file suiltable for compression (in 48kHz, normally).&lt;/p&gt;
 
 	</content>
 

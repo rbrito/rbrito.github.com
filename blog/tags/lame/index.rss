@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 17 Jan 2015 22:36:20 -0200</pubDate>
+<pubDate>Tue, 17 Apr 2018 06:09:29 -0300</pubDate>
 <item>
 	<title>Working with CVS via Git</title>
 
@@ -105,6 +105,276 @@ cvs update
 
 &lt;p&gt;Of course, I would prefer a simpler, leaner workflow. If you happen to have
 one, please let me know.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-09-23</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-09-23/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-09-23/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>kurobox</category>
+
+	<category>lame</category>
+
+
+	<pubDate>Tue, 23 Sep 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T09:09:29Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Was added as a project admin for
+&lt;a href=&quot;http://sf.net/projects/ppc-evtd&quot;&gt;&lt;code&gt;ppc-evtd&lt;/code&gt;&lt;/a&gt; and released version
+1.7.3 of &lt;code&gt;avr-evtd&lt;/code&gt;. Quite nice to see things evolving. &lt;code&gt;:-)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Also updated the &lt;a href=&quot;http://freshmeat.net/&quot;&gt;freshmeat&lt;/a&gt; page of
+&lt;a href=&quot;http://lame.sf.net/&quot;&gt;LAME&lt;/a&gt; to list version
+&lt;a href=&quot;http://freshmeat.net/projects/lame/?branch_id=5469&amp;amp;release_id=285330&quot;&gt;3.98.2&lt;/a&gt;.
+Nice to be useful to the community.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-07-20</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-07-20/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-07-20/</link>
+
+
+
+	<category>audio</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>lame</category>
+
+	<category>mp3</category>
+
+	<category>music</category>
+
+
+	<pubDate>Sun, 20 Jul 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T08:58:59Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Just discovered that &lt;a href=&quot;http://www.opeth.com/&quot;&gt;Opeth&lt;/a&gt; (or would it be
+&lt;a href=&quot;http://www.roadrunnerrecords.com/&quot;&gt;Roadrunner Records&lt;/a&gt;?) has
+released a version of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Watershed_(Opeth_album)&quot;&gt;Watershed with extra tracks and with a DVD documentary&lt;/a&gt;.
+They have also released another special version that has
+&lt;a href=&quot;http://www.youtube.com/watch?v=cKx5zrb0Z_0&quot;&gt;Porcelain Heart&lt;/a&gt;
+played with &lt;a href=&quot;http://en.wikipedia.org/wiki/Mellotron&quot;&gt;Mellotron&lt;/a&gt;
+(which brings orgasms to all the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Progressive_rock&quot;&gt;progressive rock&lt;/a&gt;
+fans, like myself).&lt;/p&gt;
+
+&lt;p&gt;Also got my parents to sit in front of my old, trusty
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Duron&quot;&gt;Duron&lt;/a&gt;-based &lt;code&gt;dumont&lt;/code&gt; (in
+honor of Brazilian pioneer
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Santos_Dumont&quot;&gt;Alberto Santos-Dumont&lt;/a&gt;).
+It is interesting to note that, while the Level 2
+&lt;a href=&quot;http://en.wikipedia.org/wiki/CPU_cache&quot;&gt;cache&lt;/a&gt; of the Duron system
+is small for a low-cost processor (in reference to its rival
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Celeron&quot;&gt;Celeron&lt;/a&gt; processor, that had
+a bigger Level 2 cache), it has a much bigger
+(128&lt;a href=&quot;http://en.wikipedia.org/wiki/KiB&quot;&gt;KiB&lt;/a&gt;) Level 1 cache than
+what I have in a
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Pentium_D&quot;&gt;Pentium D&lt;/a&gt; machine: only
+16KB for each core (at least for data; that&#39;s what my &lt;code&gt;dmesg&lt;/code&gt;
+says). Surprising to say the least. And this explains why
+&lt;a href=&quot;http://en.wikipedia.org/wiki/AMD&quot;&gt;AMD&lt;/a&gt; stood on the front of the
+race during the Athlon (Thunderbird) days.&lt;/p&gt;
+
+&lt;p&gt;Regarding other architectures (I have
+&lt;a href=&quot;http://en.wikipedia.org/wiki/PowerPC&quot;&gt;PowerPC&lt;/a&gt; in mind here), I&#39;m
+not especially happy with them: my
+&lt;a href=&quot;http://en.wikipedia.org/wiki/PowerPC_G3&quot;&gt;PowerPC G3&lt;/a&gt; lacks
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Vector_processor&quot;&gt;vector instructions&lt;/a&gt;,
+which means that playing multimedia files (read: movies) is
+something painful. The problem is that I &lt;strong&gt;quite&lt;/strong&gt; like the iBook&#39;s
+form factor and I have not yet seen anything that matches it yet.
+Comments are welcome here. Yes, it seems that I am not alone here,
+given all the frenziness about the surge of netbook computers, like
+the &lt;a href=&quot;http://en.wikipedia.org/wiki/ASUS_Eee_PC&quot;&gt;Eee PC&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And I setup my old sound gear on what is my main (desktop)
+computer. It is nice to have a good sound whenever I am working
+(well, whenever I am working lightly, as I need sound to be absent
+when I&#39;m working hard).&lt;/p&gt;
+
+&lt;p&gt;I have, BTW, just found a
+&lt;a href=&quot;http://vindaci.members.sonic.net/cbreak/projects/autotools/&quot;&gt;superb autotools tutorial&lt;/a&gt;
+that starts with the egregious &lt;code&gt;&quot;Hello, World!&quot;&lt;/code&gt; application. This
+is a perfect point for reading more advanced documents on this
+matter.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-07-19</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-07-19/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-07-19/</link>
+
+
+
+	<category>audio</category>
+
+	<category>free-software</category>
+
+	<category>lame</category>
+
+	<category>mp3</category>
+
+
+	<pubDate>Sat, 19 Jul 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T08:57:55Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Have been
+&lt;a href=&quot;http://lame.cvs.sourceforge.net/*checkout*/lame/lame/doc/html/history.html?revision=HEAD&quot;&gt;working quite a bit&lt;/a&gt;
+on the &lt;a href=&quot;http://lame.sf.net/&quot;&gt;LAME&lt;/a&gt; project to have the best MP3
+encoder around. It&#39;s been all a learning exercise dealing with all
+the magic behind
+&lt;a href=&quot;http://www.lrde.epita.fr/~adl/autotools.html&quot;&gt;autotools&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, there are some areas where we can fix with just a
+working knowledge of C and computer architecture, like fixing the
+interface to the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Open_Sound_System&quot;&gt;Open Sound System&lt;/a&gt;
+&lt;a href=&quot;http://en.wikipedia.org/wiki/ABX_test&quot;&gt;&lt;code&gt;abx&lt;/code&gt; tool&lt;/a&gt; that comes with
+lame (in the &lt;code&gt;misc&lt;/code&gt; directory), as well as the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Endianness&quot;&gt;endianness&lt;/a&gt; problems.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-07-04</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-07-04/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-07-04/</link>
+
+
+
+	<category>audio</category>
+
+	<category>free-software</category>
+
+	<category>lame</category>
+
+	<category>mp3</category>
+
+
+	<pubDate>Fri, 04 Jul 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T08:57:19Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Today, &lt;a href=&quot;http://lame.sf.net/&quot;&gt;LAME 3.98 final&lt;/a&gt; was released.
+Unfortunately, I missed the boat and didn&#39;t commit all the changes
+that I had, but I will continue working on it nevertheless.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-05-23</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-05-23/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-05-23/</link>
+
+
+
+	<category>audio</category>
+
+	<category>free-software</category>
+
+	<category>lame</category>
+
+	<category>life</category>
+
+	<category>mp3</category>
+
+	<category>study</category>
+
+
+	<pubDate>Fri, 23 May 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T08:56:47Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Gave a second talk to the group of &quot;Error Correcting Codes&quot;. This
+time, I carried my &lt;a href=&quot;http://en.wikipedia.org/wiki/S1MP3&quot;&gt;S1MP3&lt;/a&gt;
+player/recorder and recorded the talk. The nice thing is that
+&lt;a href=&quot;http://lame.sf.net/&quot;&gt;LAME&lt;/a&gt; with libsndfile1 can read those files
+directly, without any kind of conversion first, which automates
+things quite a lot.&lt;/p&gt;
+
+&lt;p&gt;During the seminar, I talked about algorithm invariants, how to
+discover them, how close to mathematical induction they are, gave
+examples of some programs, described the bubble sort algorithm in
+our native/high level language, talked about its stability, talked
+about its invariant, talked about its time and space complexity,
+remarked that the algorithm works on any totally ordered set and,
+finally, to answer a question from the audience, talked about the
+limited precision of &quot;integers&quot; that we use on computers and
+multiprecision libraries used to hold values as large as we
+please.&lt;/p&gt;
+
+&lt;p&gt;Today was also dad&#39;s birthday! Hippie!&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-05-17</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-05-17/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-05-17/</link>
+
+
+
+	<category>audio</category>
+
+	<category>lame</category>
+
+	<category>mp3</category>
+
+	<category>music</category>
+
+
+	<pubDate>Sat, 17 May 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T08:52:01Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Seeing one of the &lt;a href=&quot;http://www.dreamtheater.net/&quot;&gt;Dream Theater&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://www.ytsejamrecords.com/&quot;&gt;Official Bootlegs&lt;/a&gt; (and some of
+their regular releases), I can&#39;t fail to notice that they have the
+2.0 Stereo part as &lt;a href=&quot;http://en.wikipedia.org/wiki/LPCM&quot;&gt;LPCM&lt;/a&gt; audio.
+Sometimes, these streams are in 24 bits. I would like to convert
+them to WAV files so that I can use &lt;a href=&quot;http://lame.sf.net/&quot;&gt;LAME&lt;/a&gt; to
+get the recordings on my portable digital music player.&lt;/p&gt;
+
+&lt;p&gt;To this effect, I spent some moments coding a program that I called
+&lt;code&gt;lpcm2wav&lt;/code&gt; that takes a raw input of an LPCM audio from a
+&lt;a href=&quot;http://en.wikipedia.org/wiki/DVD&quot;&gt;DVD&lt;/a&gt; video disc and outputs a
+WAV file suiltable for compression (in 48kHz, normally).&lt;/p&gt;
 </description>
 
 
@@ -257,105 +527,6 @@ swapping doesn&#39;t make it a pleasant experience. In this respect,
 
 &lt;p&gt;All in all, this can now be a poor&#39;s man desktop machine. If it
 only consumed power proportional to its speed, it would be nicer.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2000-12-02</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-12-02/</guid>
-
-	<link>http://cynic.cc/blog//posts/2000-12-02/</link>
-
-
-
-	<category>debian</category>
-
-	<category>hardware</category>
-
-	<category>kde</category>
-
-	<category>lame</category>
-
-	<category>linux</category>
-
-
-	<pubDate>Sat, 02 Dec 2000 00:00:00 -0200</pubDate>
-	<dcterms:modified>2013-04-18T21:09:53Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;I&#39;m now mirroring both a repository of
-&lt;a href=&quot;http://kde.tdyc.com&quot;&gt;Debian KDE packages&lt;/a&gt; for potato and
-&lt;a href=&quot;http://www.helixcode.com&quot;&gt;Helix Gnome&lt;/a&gt; for Debian with rsync. It&#39;s
-&lt;em&gt;way&lt;/em&gt; better than mirroring with wget, that&#39;s for sure.&lt;/p&gt;
-
-&lt;p&gt;I was expecting to go to the movies today, but due to some (ahem)
-&quot;technical problems&quot;, I wasn&#39;t able to go. And this made me quite
-sad, but that&#39;s not actually a problem. Perhaps next week.&lt;/p&gt;
-
-&lt;p&gt;Repackaged &lt;a href=&quot;http://lame.sourceforge.net/&quot;&gt;LAME&lt;/a&gt; 3.87beta for
-Debian/potato and it is lintian-clean (!). So far, it seems to be
-good and I think that I&#39;ll post a message to debian-mentors asking
-what could be improved. In fact, the only thing that I don&#39;t like
-in my package is the fact that I&#39;ve hardcoded a Build-Depends:
-libncurses5-dev line in the control file. That&#39;s not quite right,
-IMO, and I&#39;ll learn how to change it soon.&lt;/p&gt;
-
-&lt;p&gt;My next step is to package &lt;a href=&quot;http://cr.yp.to/djb.html&quot;&gt;DJB&lt;/a&gt;&#39;s
-utilities qmail, ucspi-tcp, serialmail and checkpassword. The
-former seems to be quite involved, but the latters seem to be
-trivial enough to package in one afternoon only (am I optimistic or
-what?) and then I&#39;ll be able to switch to my brand new computer
-(MICROS\~1 free) with Debian 2.2 + KDE 2.2 + my local packages (I
-still won&#39;t have XFree86 4.0.1 and all its nifty features, since
-I&#39;ll be waiting for a version of it to be compiled for potato;
-using woody is scary).&lt;/p&gt;
-
-&lt;p&gt;Another package that I may be interested in packaging is a
-ftpparse-ified version of wget (for mirroring
-&lt;a href=&quot;http://cr.yp.to/publicfile.html&quot;&gt;publicfile&lt;/a&gt; repositories).&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2000-09-12</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2000-09-12/</guid>
-
-	<link>http://cynic.cc/blog//posts/2000-09-12/</link>
-
-
-
-	<category>lame</category>
-
-	<category>linux</category>
-
-	<category>music</category>
-
-	<category>study</category>
-
-
-	<pubDate>Tue, 12 Sep 2000 00:00:00 -0300</pubDate>
-	<dcterms:modified>2012-12-09T02:51:00Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;My aunt&#39;s birthday today. Tried to call her, but who said it would
-be possible?&lt;/p&gt;
-
-&lt;p&gt;It seems that a customer of mine that was giving me headaches when
-I tried to receive for a job that I did for him (interconnecting
-his computers with other places) finally gave up avoiding to pay
-me. Nothing like a good threat.&lt;/p&gt;
-
-&lt;p&gt;One of my &lt;a href=&quot;http://www.ime.usp.br/~lymber/&quot;&gt;best friends&lt;/a&gt; (if not
-the best) lent me some Vivaldi and I&#39;ve ripped everything and
-encoded with a version of &lt;a href=&quot;http://www.sulaco.org/mp3/&quot;&gt;LAME&lt;/a&gt; that
-I&#39;ve packaged for Debian.&lt;/p&gt;
-
-&lt;p&gt;My &lt;a href=&quot;http://www.ime.usp.br/~jose/&quot;&gt;advisor&lt;/a&gt; and I decided that we
-should start with my research. Now I need a subject.&lt;/p&gt;
 </description>
 
 

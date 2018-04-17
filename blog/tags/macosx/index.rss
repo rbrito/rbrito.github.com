@@ -10,7 +10,53 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Wed, 11 Jun 2014 10:58:42 -0300</pubDate>
+<pubDate>Tue, 17 Apr 2018 05:55:14 -0300</pubDate>
+<item>
+	<title>2008-05-20</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-05-20/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-05-20/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>macosx</category>
+
+
+	<pubDate>Tue, 20 May 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T08:55:14Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Got myself a leaner
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Operating%0A%20%20%20%20%20%20system&quot;&gt;operating system&lt;/a&gt;
+without a heavy graphics interface: just fluxbox. This means that I
+am able now to see how slow Iceweasel is, especially when switching
+virtual desktops. &lt;code&gt;:-(&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I also was happy to see that
+&lt;a href=&quot;http://packages.debian.org/hfsprogs&quot;&gt;hfsprogs&lt;/a&gt; version 334.14-3
+migrated to testing (and I wasn&#39;t expecting that---I completely
+forgot about this since I&#39;m using unstable exclusively).&lt;/p&gt;
+
+&lt;p&gt;Prepared a new version of &lt;code&gt;hfsprogs&lt;/code&gt; with more support for 32-bit
+architectures supported by &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt; and
+with initial support for &lt;code&gt;amd64&lt;/code&gt;. Rhonda has been helping me a lot
+understanding the infra-structure behind Debian.&lt;/p&gt;
+
+&lt;p&gt;Oh, discovered what it takes to make an Apple &quot;Universal&quot; binary:
+just compile &lt;code&gt;program.c&lt;/code&gt; with the options
+&lt;code&gt;-arch i386 -arch ppc -arch ppc64&lt;/code&gt; like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gcc -arch i386 -arch ppc -arch ppc64 program.c -o program
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+
+
+</item>
 <item>
 	<title>2005-05-28</title>
 

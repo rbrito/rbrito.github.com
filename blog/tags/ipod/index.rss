@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>pages tagged ipod</title>
+<link>http://cynic.cc/blog//tags/ipod/</link>
+<atom:link href="http://cynic.cc/blog//tags/ipod/index.rss" rel="self" type="application/rss+xml"/>
+
+<description>Rogério Brito&#39;s Digital Junkyard</description>
+<generator>ikiwiki</generator>
+<pubDate>Tue, 17 Apr 2018 06:27:25 -0300</pubDate>
+<item>
+	<title>2009-02-03</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-02-03/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-02-03/</link>
+
+
+
+	<category>audio</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>ipod</category>
+
+	<category>life</category>
+
+	<category>music</category>
+
+	<category>video</category>
+
+
+	<pubDate>Tue, 03 Feb 2009 00:00:00 -0200</pubDate>
+	<dcterms:modified>2018-04-17T09:27:25Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;In the past few days, I did quite a good amount of things. One of
+the things that took most of my mind was to convert some videos in
+a proper format for the iPod. At first, I thought that the format
+of the videos would have to have an H.264 encoded video with
+resolution 320x240 (without using cabac, which increases the
+compression factor of the video) and audio in the AAC format with
+bitrates up to 160kbps.&lt;/p&gt;
+
+&lt;p&gt;Then, using Apple&#39;s Quicktime Pro 7, I exported a video from the
+Dutch band called After Forever, which had the resolution bigger
+than 320x240. This made me revisit Apple&#39;s site where the
+specifications of videos meant to be played on iPods. It seems
+that, now, with the latest firmware update, the iPod that I have
+can play H.264 videos encoded with resolutions up to 640x480 (the
+standard VGA resolution). Also, the bitrate doesn&#39;t need to be
+restricted to 768kbps: some of the videos produced by Quicktime
+(and which the iPods can play) have bitrates of up to 1500kbps.&lt;/p&gt;
+
+&lt;p&gt;This means that I can now encode some of my videos that are in the
+nasty WMV format to formats that can be supported in a decent
+manner by Free Software system. I have, for instance, the
+BBC-produced DVD called &quot;The Codebreakers&quot;, whose audio is in pure
+DVD LPCM format (that is, uncompressed) and the space that it takes
+on my hard disk is considerable (approx. 1GB).&lt;/p&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

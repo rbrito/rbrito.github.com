@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Thu, 22 Mar 2018 00:44:37 -0300</pubDate>
+<pubDate>Tue, 17 Apr 2018 06:09:29 -0300</pubDate>
 <item>
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
@@ -175,6 +175,185 @@ system. Knowing which one to enable is a matter of knowing the specs of
 your system and, if not known, discovery by trial-and-error. (For x86
 systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-09-23</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-09-23/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-09-23/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>kurobox</category>
+
+	<category>lame</category>
+
+
+	<pubDate>Tue, 23 Sep 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T09:09:29Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Was added as a project admin for
+&lt;a href=&quot;http://sf.net/projects/ppc-evtd&quot;&gt;&lt;code&gt;ppc-evtd&lt;/code&gt;&lt;/a&gt; and released version
+1.7.3 of &lt;code&gt;avr-evtd&lt;/code&gt;. Quite nice to see things evolving. &lt;code&gt;:-)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Also updated the &lt;a href=&quot;http://freshmeat.net/&quot;&gt;freshmeat&lt;/a&gt; page of
+&lt;a href=&quot;http://lame.sf.net/&quot;&gt;LAME&lt;/a&gt; to list version
+&lt;a href=&quot;http://freshmeat.net/projects/lame/?branch_id=5469&amp;amp;release_id=285330&quot;&gt;3.98.2&lt;/a&gt;.
+Nice to be useful to the community.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-09-19</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-09-19/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-09-19/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>kurobox</category>
+
+
+	<pubDate>Fri, 19 Sep 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T09:08:52Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Checked in the sources of &lt;code&gt;avr-evtd&lt;/code&gt; to the Subversion
+&lt;a href=&quot;http://ppc-evtd.svn.sourceforge.net/viewvc/ppc-evtd/avr-evtd/&quot;&gt;repository&lt;/a&gt;
+of &lt;a href=&quot;http://sf.net/projects/ppc-evtd&quot;&gt;&lt;code&gt;ppc-evtd&lt;/code&gt;&lt;/a&gt;. Uploaded my new
+package of avr-evtd to
+&lt;a href=&quot;http://mentors.debian.net/&quot;&gt;&lt;code&gt;mentors.debian.net&lt;/code&gt;&lt;/a&gt;, with all the
+improvements included upstream (now that I am upstream).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-09-14</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-09-14/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-09-14/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>kurobox</category>
+
+
+	<pubDate>Sun, 14 Sep 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T09:08:10Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;I also updated my package of &lt;code&gt;avr_evtd&lt;/code&gt; (which is a daemon for
+controlling the
+&lt;a href=&quot;http://kurobox.com/revolution/what.html&quot;&gt;Kuro Box&lt;/a&gt;. I moved from
+the standard &lt;code&gt;diff.gz&lt;/code&gt; package to a
+&lt;a href=&quot;http://packages.debian.org/quilt&quot;&gt;quilt&lt;/a&gt;-based package.&lt;/p&gt;
+
+&lt;p&gt;To get things properly packaged, I followed the rules by the book
+and used &lt;code&gt;/usr/share/quilt/quilt.make&lt;/code&gt; to make available the
+&lt;code&gt;patch&lt;/code&gt; and &lt;code&gt;unpatch&lt;/code&gt; targets for the makefile.&lt;/p&gt;
+
+&lt;p&gt;A very nice discussion on &lt;a href=&quot;irc://irc.debian.org/&quot;&gt;IRC&lt;/a&gt; on
+&lt;code&gt;#debian-mentors&lt;/code&gt; clarified that, with the current templates of
+&lt;a href=&quot;http://packages.debian.org/dh-make&quot;&gt;dh-make&lt;/a&gt;, we need to (thanks
+to Sune Vuorela for his helpful comments):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;make the &lt;code&gt;configure&lt;/code&gt; target depend on &lt;code&gt;&amp;#036;(QUILT_STAMPFN)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;make the &lt;code&gt;clean&lt;/code&gt; target depend on &lt;code&gt;unpatch&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The final &quot;product&quot; was uploaded to
+&lt;a href=&quot;http://mentors.debian.net/&quot;&gt;mentors&lt;/a&gt; and is available for
+sponsoring. And I intend to merge the modifications upstream
+(actually, refactor a lot of things and possibly &lt;em&gt;become&lt;/em&gt;
+upstream).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-09-04</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-09-04/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-09-04/</link>
+
+
+
+	<category>hardware</category>
+
+	<category>kurobox</category>
+
+	<category>life</category>
+
+
+	<pubDate>Thu, 04 Sep 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T09:06:15Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Had a quite happy birthday party here with my relatives. We took
+some pictures and it was incredible. Got a beautiful red tie, got a
+USB 2.0 hub (so that I can use it with the Kurobox, since it only
+has a single port and I don&#39;t feel like hacking its hardware).&lt;/p&gt;
+
+&lt;p&gt;Anyway, back to the topic of my birthday, it was amazing to see my
+people together. And the party had a very happy mood. It was
+amazing. Thanks to you all, people.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-08-14</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-08-14/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-08-14/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>kurobox</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Thu, 14 Aug 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T09:05:25Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Today I got a very nice gift from Charles Plessy: a Kurobox
+Standard (or Kurobox HD) that he had laying there in Japan, but
+which he didn&#39;t use.&lt;/p&gt;
+
+&lt;p&gt;The nice thing about it is that it comes with an instaler that runs
+under Windows and that remotely connects to the Kurobox&lt;/p&gt;
 </description>
 
 

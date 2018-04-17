@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 26 Jan 2015 01:17:12 -0200</pubDate>
+<pubDate>Tue, 17 Apr 2018 06:14:24 -0300</pubDate>
 <item>
 	<title>Uploading SICP to Youtube</title>
 
@@ -188,6 +188,48 @@ subscriber. I never heard back, since.&lt;/p&gt;
 &lt;p&gt;I appreciate it if you could help spread the word.&lt;/p&gt;
 
 &lt;p&gt;Thanks.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-11-13</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-11-13/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-11-13/</link>
+
+
+
+	<category>life</category>
+
+	<category>math</category>
+
+	<category>programming</category>
+
+	<category>teaching</category>
+
+
+	<pubDate>Thu, 13 Nov 2008 00:00:00 -0200</pubDate>
+	<dcterms:modified>2018-04-17T09:14:24Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;I was quite surprised that I received
+&lt;a href=&quot;http://www.ime.usp.br/~pf/algoritmos-livro/&quot;&gt;a book&lt;/a&gt; from a very,
+&lt;a href=&quot;http://www.ime.usp.br/~pf/&quot;&gt;very dear Professor&lt;/a&gt; of mine. The book
+is an introduction to the study of Analysis of Algorithms and it is
+a pleasure to see a high-standard book (even if elementary) written
+in Portuguese.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, the translations of books like Cormen&#39;s
+&quot;Introduction to Algorithms&quot; are severely broken. They are not
+really worth the price and I would even dare to say that they do a
+disservice to the student that tries to learn from those books
+(Cormen&#39;s one in particular---be warned that I&#39;m not talking here
+about the original English edition, which is superb, but the
+Brazilian Portuguese translation). There are many atrocities in the
+translation like translating &quot;array&quot; to &quot;arranjo&quot;, while the usual,
+correct choices would be &quot;vetor&quot; or &quot;matriz&quot;.&lt;/p&gt;
 </description>
 
 

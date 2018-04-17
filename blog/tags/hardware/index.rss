@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Fri, 10 Nov 2017 03:17:08 -0200</pubDate>
+<pubDate>Tue, 17 Apr 2018 06:27:25 -0300</pubDate>
 <item>
 	<title>Some activities of the day</title>
 
@@ -36,7 +36,7 @@
 
 
 	<pubDate>Mon, 06 Nov 2017 22:52:59 -0200</pubDate>
-	<dcterms:modified>2017-11-10T05:17:08Z</dcterms:modified>
+	<dcterms:modified>2018-03-23T02:13:07Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Yesterday, I printed the first draft of the first chapter when my little boy
@@ -77,7 +77,7 @@ virtualization options used, tough the closest seems to be virtualbox.&lt;/p&gt;
 &lt;p&gt;Let me cross my fingers.&lt;/p&gt;
 
 &lt;p&gt;In other news, I updated some of the tags of very old posts of this blog,
-and I am seriously thinking about switching from [ikiwiki][0] to another
+and I am seriously thinking about switching from &lt;a href=&quot;https://ikiwiki.info/&quot;&gt;ikiwiki&lt;/a&gt; to another
 blog platform. It is &lt;em&gt;slow&lt;/em&gt;, &lt;em&gt;very slow&lt;/em&gt; on my system with the repositories
 that I have, especially on my armel system. Some non-interpreted system
 would be best, but I don&#39;t know if such a thing even exists. But the killer
@@ -112,6 +112,411 @@ qemu-system-x86_64 -enable-kvm -m 4096 -smp 2 -net nic,model=e1000 -net user -so
 &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; Fixed some typos.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2009-02-03</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-02-03/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-02-03/</link>
+
+
+
+	<category>audio</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>ipod</category>
+
+	<category>life</category>
+
+	<category>music</category>
+
+	<category>video</category>
+
+
+	<pubDate>Tue, 03 Feb 2009 00:00:00 -0200</pubDate>
+	<dcterms:modified>2018-04-17T09:27:25Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;In the past few days, I did quite a good amount of things. One of
+the things that took most of my mind was to convert some videos in
+a proper format for the iPod. At first, I thought that the format
+of the videos would have to have an H.264 encoded video with
+resolution 320x240 (without using cabac, which increases the
+compression factor of the video) and audio in the AAC format with
+bitrates up to 160kbps.&lt;/p&gt;
+
+&lt;p&gt;Then, using Apple&#39;s Quicktime Pro 7, I exported a video from the
+Dutch band called After Forever, which had the resolution bigger
+than 320x240. This made me revisit Apple&#39;s site where the
+specifications of videos meant to be played on iPods. It seems
+that, now, with the latest firmware update, the iPod that I have
+can play H.264 videos encoded with resolutions up to 640x480 (the
+standard VGA resolution). Also, the bitrate doesn&#39;t need to be
+restricted to 768kbps: some of the videos produced by Quicktime
+(and which the iPods can play) have bitrates of up to 1500kbps.&lt;/p&gt;
+
+&lt;p&gt;This means that I can now encode some of my videos that are in the
+nasty WMV format to formats that can be supported in a decent
+manner by Free Software system. I have, for instance, the
+BBC-produced DVD called &quot;The Codebreakers&quot;, whose audio is in pure
+DVD LPCM format (that is, uncompressed) and the space that it takes
+on my hard disk is considerable (approx. 1GB).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2009-01-28</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-01-28/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-01-28/</link>
+
+
+
+	<category>audio</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>life</category>
+
+	<category>video</category>
+
+
+	<pubDate>Wed, 28 Jan 2009 00:00:00 -0200</pubDate>
+	<dcterms:modified>2018-04-17T09:22:33Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Today was a very unusual day: it was quite active and I didn&#39;t have
+a day like today for a long time.&lt;/p&gt;
+
+&lt;p&gt;I had slept quite late, since I was waiting for
+&lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;&#39;s Quicktime 7 Pro for Windows (on my
+girlfriend&#39;s computer) to finish the conversion of a video from one
+of Cynic&#39;s show from their reunion. It was a show that was webcast
+by the Norwegian company nhk.no (if I&#39;m not mistaken) and the show
+is superb (it was from 2007 and they even played a, then,
+unreleased song called &quot;Evolutionary Sleeper&quot;).&lt;/p&gt;
+
+&lt;p&gt;The funny thing of it all is that even though we where using a
+x86-based machine (actually, a Duron 1.3GHz on a board with a SiS
+730 chipset), which supported even SSE, things were quite slow. In
+fact, the show took 1 day and some hours to be completely
+&quot;exported&quot; in the iPod format.&lt;/p&gt;
+
+&lt;p&gt;Another thing that was noteworthy was that my GF had some CDs that
+she had burned and that contained some audio files from a course
+that she took some time ago. Since those classes are quite
+important and they interest me, I would like to listen to them. The
+&quot;problem&quot; is that they are in IMA ADPCM format which most car
+players don&#39;t play. The solution, in this case, will be to use lame
+with libsndfile1 as input and convert the files to the MP3 format,
+so that I can neatly tag the files and listen to them on my (and
+her) car player.&lt;/p&gt;
+
+&lt;p&gt;But this is only the beginning of the story, since two of her CDs
+were not readable on my iBook G3, dammit. I, then, took the time to
+download dvdisaster on her Windows computer (first, the stable
+version; then, the more feature-full development version) and I
+left the CDs being read. Unfortunately, it seems that even
+dvdisaster is having a hard time reading many sectors of the CD-RWs
+(and, yes, I did wash the discs with abundant water and used a very
+soft towel to get them dry).&lt;/p&gt;
+
+&lt;p&gt;Anyway, another thing that I&#39;ve learned was that uTorrent is very
+featureful. Apparently, much more featureful than Transmission. I&#39;d
+say that its features are on par with Azureus (even though I have
+not used Azureus for a loooong time, as it is Java-based and my
+machines don&#39;t have enough horsepower for programs that are not
+natively compiled).&lt;/p&gt;
+
+&lt;p&gt;I used the torrent to grab Ubuntu&#39;s jaunty alpha 3, so that I can
+experiment with things to come (and the new notification system
+that Mark has proposed. I actually liked it very much, but I am
+eager to see it working). The only catch is that my GF&#39;s connection
+is only 150kbps and things are &lt;strong&gt;very&lt;/strong&gt; slow here, but I&#39;m getting
+the image anyway.&lt;/p&gt;
+
+&lt;p&gt;When I woke up, I went to the proctologist. After that, I went to
+see a friend of mine from the high-school days, that is now a
+neuro-cirugeon, I had lost contact with him, but I sincerely hope
+to get back in touch frequently.&lt;/p&gt;
+
+&lt;p&gt;Later, I went with my GF to the bank where she has her account to
+see if he had some residual money from a nation-wide program called
+FGTS. She did have, but some documents were missing. The worker
+that received us told her that she could mail some of the missing
+documentation via e-mail and we scanned the necessary
+documentation, but the mails bounced. Bummer. At least, the trip to
+the bank wasn&#39;t completely useless, since I saw that I have some
+money on this FGTS thing and it was a surprise.&lt;/p&gt;
+
+&lt;p&gt;Latter, I went to the local theater and saw that professors are
+able to have a 50% discount on the entrance to see the movies,
+given that we prove that we are actually active. This is a very
+nice thing.&lt;/p&gt;
+
+&lt;p&gt;I also saw the price of a new, Classic 120GB iPod. It wasn&#39;t
+available on the store that I went to, but other store of the same
+name has some units. I guess that I should see one. I was only
+surprised to see that the 160GB model doesn&#39;t seem to be sold
+anymore. Any reason for that? That left me puzzled, honestly.&lt;/p&gt;
+
+&lt;p&gt;On the electronics store, I also saw a netbook from HP that was
+sweet. Soooo small, so cute. I guess that I need one. It has a very
+small form factor and it features a 1.2GHz VIA C7M processor. The
+only things that made the red alert lights blink for me were the
+Broadcom network interfaces: both wired and wireless, and Broadcom
+is know to not be exactly that helpful with the Free Software
+Movement.&lt;/p&gt;
+
+&lt;p&gt;After that, I went to get a haircut and my girlfriend told me that
+it was good. Nice.&lt;/p&gt;
+
+&lt;p&gt;Latter, before going to her place, we went to my home just for a
+little while so that I could see how the torrents for MIT&#39;s &quot;The
+Structure and Interpretation of Computer Program&quot; MPEG1 videos were
+going. Not good at all. Everything is stalled. I guess that I will
+need to use this uTorrent thing (at least, experiment with it) so
+that I can see if the downloads are slightly better.&lt;/p&gt;
+
+&lt;p&gt;I also did something unusual: scanned a 3x4 (centimeters, of
+course!) photo of mine (which is needed here in Brazil for quite a
+lot of documents) and collated it in 3 rows, in a way that I will
+have 9 pics. I will print two of them (and have 18 pictures) for
+R$0.69 each, which is not a bad deal. My girlfriend liked the idea
+and I will do the same thing for her, since she will need many
+photos for her id&#39;s.&lt;/p&gt;
+
+&lt;p&gt;After that, we got the vacuum cleaner to clean up her place (mostly
+the TV room) and I cleaned her fan (which was quite dusty).&lt;/p&gt;
+
+&lt;p&gt;Tomorrow, the day will be quite full and I will have a lot of
+things to do in this endless saga. I hope to write more about this
+hectic (but pleasant) week.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-09-04</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-09-04/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-09-04/</link>
+
+
+
+	<category>hardware</category>
+
+	<category>kurobox</category>
+
+	<category>life</category>
+
+
+	<pubDate>Thu, 04 Sep 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T09:06:15Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Had a quite happy birthday party here with my relatives. We took
+some pictures and it was incredible. Got a beautiful red tie, got a
+USB 2.0 hub (so that I can use it with the Kurobox, since it only
+has a single port and I don&#39;t feel like hacking its hardware).&lt;/p&gt;
+
+&lt;p&gt;Anyway, back to the topic of my birthday, it was amazing to see my
+people together. And the party had a very happy mood. It was
+amazing. Thanks to you all, people.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-08-14</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-08-14/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-08-14/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>kurobox</category>
+
+	<category>powerpc</category>
+
+
+	<pubDate>Thu, 14 Aug 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T09:05:25Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Today I got a very nice gift from Charles Plessy: a Kurobox
+Standard (or Kurobox HD) that he had laying there in Japan, but
+which he didn&#39;t use.&lt;/p&gt;
+
+&lt;p&gt;The nice thing about it is that it comes with an instaler that runs
+under Windows and that remotely connects to the Kurobox&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-07-28</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-07-28/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-07-28/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Mon, 28 Jul 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T09:04:09Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Got a little new toy that is able to run Linux very well, since I
+brought with me two &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt; Live CDs (of
+version 8.04 LTS).&lt;/p&gt;
+
+&lt;p&gt;It features a Core 2 Duo T7250 processor. It has support for its
+1.3 Megapixel webcam out-of-the-box, since the webcam uses the the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/USB_video_device_class&quot;&gt;USB device Video Class&lt;/a&gt;
+protocol. The only problem is that I don&#39;t know how to use mencoder
+to grab a video from it. And its speakers sound is &lt;strong&gt;so&lt;/strong&gt; quiet. Way
+too much quiet, even at maximum volume.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://www.apple.com/macbook/&quot;&gt;macbook&lt;/a&gt; that I saw used things
+from Broadcom, which is not a company that likes Free Software.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-07-24</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-07-24/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-07-24/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+
+	<pubDate>Thu, 24 Jul 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T09:03:13Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Can&#39;t... resist... the...
+&lt;a href=&quot;http://www.apple.com/macbook/&quot;&gt;temptation&lt;/a&gt;. I only fear that I
+can&#39;t run &lt;a href=&quot;http://wiki.debian.org/MacBook&quot;&gt;my preferred flavor&lt;/a&gt; of
+Linux properly on this machine (at least, it isn&#39;t a big endian
+arch anymore).&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2008-07-20</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-07-20/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-07-20/</link>
+
+
+
+	<category>audio</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>lame</category>
+
+	<category>mp3</category>
+
+	<category>music</category>
+
+
+	<pubDate>Sun, 20 Jul 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T08:58:59Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Just discovered that &lt;a href=&quot;http://www.opeth.com/&quot;&gt;Opeth&lt;/a&gt; (or would it be
+&lt;a href=&quot;http://www.roadrunnerrecords.com/&quot;&gt;Roadrunner Records&lt;/a&gt;?) has
+released a version of
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Watershed_(Opeth_album)&quot;&gt;Watershed with extra tracks and with a DVD documentary&lt;/a&gt;.
+They have also released another special version that has
+&lt;a href=&quot;http://www.youtube.com/watch?v=cKx5zrb0Z_0&quot;&gt;Porcelain Heart&lt;/a&gt;
+played with &lt;a href=&quot;http://en.wikipedia.org/wiki/Mellotron&quot;&gt;Mellotron&lt;/a&gt;
+(which brings orgasms to all the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Progressive_rock&quot;&gt;progressive rock&lt;/a&gt;
+fans, like myself).&lt;/p&gt;
+
+&lt;p&gt;Also got my parents to sit in front of my old, trusty
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Duron&quot;&gt;Duron&lt;/a&gt;-based &lt;code&gt;dumont&lt;/code&gt; (in
+honor of Brazilian pioneer
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Santos_Dumont&quot;&gt;Alberto Santos-Dumont&lt;/a&gt;).
+It is interesting to note that, while the Level 2
+&lt;a href=&quot;http://en.wikipedia.org/wiki/CPU_cache&quot;&gt;cache&lt;/a&gt; of the Duron system
+is small for a low-cost processor (in reference to its rival
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Celeron&quot;&gt;Celeron&lt;/a&gt; processor, that had
+a bigger Level 2 cache), it has a much bigger
+(128&lt;a href=&quot;http://en.wikipedia.org/wiki/KiB&quot;&gt;KiB&lt;/a&gt;) Level 1 cache than
+what I have in a
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Pentium_D&quot;&gt;Pentium D&lt;/a&gt; machine: only
+16KB for each core (at least for data; that&#39;s what my &lt;code&gt;dmesg&lt;/code&gt;
+says). Surprising to say the least. And this explains why
+&lt;a href=&quot;http://en.wikipedia.org/wiki/AMD&quot;&gt;AMD&lt;/a&gt; stood on the front of the
+race during the Athlon (Thunderbird) days.&lt;/p&gt;
+
+&lt;p&gt;Regarding other architectures (I have
+&lt;a href=&quot;http://en.wikipedia.org/wiki/PowerPC&quot;&gt;PowerPC&lt;/a&gt; in mind here), I&#39;m
+not especially happy with them: my
+&lt;a href=&quot;http://en.wikipedia.org/wiki/PowerPC_G3&quot;&gt;PowerPC G3&lt;/a&gt; lacks
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Vector_processor&quot;&gt;vector instructions&lt;/a&gt;,
+which means that playing multimedia files (read: movies) is
+something painful. The problem is that I &lt;strong&gt;quite&lt;/strong&gt; like the iBook&#39;s
+form factor and I have not yet seen anything that matches it yet.
+Comments are welcome here. Yes, it seems that I am not alone here,
+given all the frenziness about the surge of netbook computers, like
+the &lt;a href=&quot;http://en.wikipedia.org/wiki/ASUS_Eee_PC&quot;&gt;Eee PC&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And I setup my old sound gear on what is my main (desktop)
+computer. It is nice to have a good sound whenever I am working
+(well, whenever I am working lightly, as I need sound to be absent
+when I&#39;m working hard).&lt;/p&gt;
+
+&lt;p&gt;I have, BTW, just found a
+&lt;a href=&quot;http://vindaci.members.sonic.net/cbreak/projects/autotools/&quot;&gt;superb autotools tutorial&lt;/a&gt;
+that starts with the egregious &lt;code&gt;&quot;Hello, World!&quot;&lt;/code&gt; application. This
+is a perfect point for reading more advanced documents on this
+matter.&lt;/p&gt;
 </description>
 
 
@@ -191,285 +596,6 @@ see that &lt;code&gt;iwconfig&lt;/code&gt; lists &lt;code&gt;wlan0&lt;/code&gt; 
 can set the device, it can see the access point, I can enter the
 WEP key, but it doesn&#39;t seem to get a DHCP lease from the router.
 &lt;code&gt;:-(&lt;/code&gt;&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2007-01-19</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2007-01-19/</guid>
-
-	<link>http://cynic.cc/blog//posts/2007-01-19/</link>
-
-
-
-	<category>free-software</category>
-
-	<category>hardware</category>
-
-
-	<pubDate>Fri, 19 Jan 2007 00:00:00 -0200</pubDate>
-	<dcterms:modified>2017-11-06T07:07:00Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;It seems that my 160GB IDE HD is back to life. I will check it
-again, but the &quot;magic&quot; was to just write data on it, causing it to
-remap the defective blocks. Thank you for the engineers that know
-that machines &lt;em&gt;will&lt;/em&gt; fail.&lt;/p&gt;
-
-&lt;p&gt;And I tried to get oggenc-aotuv compiled for amd64. The package is
-in a sad state, unfortunately, and even after I changed the sources
-a little bit.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2006-09-16</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-09-16/</guid>
-
-	<link>http://cynic.cc/blog//posts/2006-09-16/</link>
-
-
-
-	<category>hardware</category>
-
-	<category>life</category>
-
-
-	<pubDate>Sat, 16 Sep 2006 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T06:56:25Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Some tools related to digital photography:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A 2GB SD card, which at the maximum resolution that I&#39;m using
-with the camera that I have here, gives me around 4500 photos;&lt;/li&gt;
-&lt;li&gt;A small tripod, so that I can play with photos with a &quot;fill
-flash&quot; or completely without flash and without getting the images
-blurry;&lt;/li&gt;
-&lt;li&gt;An adaptor to the SD card so that it can be used just like an
-USB pen/thumb/whatever-drive;&lt;/li&gt;
-&lt;li&gt;Two pairs of rechargeable AAA batteries;&lt;/li&gt;
-&lt;li&gt;A battery recharger;&lt;/li&gt;
-&lt;li&gt;The smallest (in physical terms) USB pen/thumb/whatever-drive
-that I could get, with 1GB of size. Nice for getting things along
-with me.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2006-03-30</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-03-30/</guid>
-
-	<link>http://cynic.cc/blog//posts/2006-03-30/</link>
-
-
-
-	<category>free-software</category>
-
-	<category>hardware</category>
-
-	<category>life</category>
-
-
-	<pubDate>Thu, 30 Mar 2006 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-07-14T18:26:00Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;I&#39;ve been (re-)discovering multimedia and all its wonders. It all
-started with me seeing how &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt;&#39;s
-&lt;a href=&quot;http://www.apple.com/macmini/frontrow.html&quot;&gt;Front Row&lt;/a&gt; application
-works. Ok, so I am behind the times. I&#39;m fine with that, but
-catching up. The world is changing sooooo fast that it is hard to
-keep up. Podcasts, wireless networks, media centers, digital video,
-digital (still) cameras, megapixels and the like.&lt;/p&gt;
-
-&lt;p&gt;Add to that the things that &quot;need to be known&quot; by a Computer
-Scientist/Mathematician-wannabe and we quickly arrive at the
-conclusion that the days are way too short with their current 24
-hours.&lt;/p&gt;
-
-&lt;p&gt;It, unfortunately, sucks and the fact that Apple is now &quot;changing
-gears&quot; to support their &lt;a href=&quot;http://www.intel.com/&quot;&gt;Intel&lt;/a&gt;
-&lt;a href=&quot;http://www.apple.com/macmini/intelcore.html&quot;&gt;Core&lt;/a&gt; processors is a
-clear signal that their PowerPC line is dead and only waiting for
-its coffin to be burried.&lt;/p&gt;
-
-&lt;p&gt;What the solution to this problem is? Partially, to employ Open
-Source technology to leverage this to current standards, using
-hardware that is already employed. We can &lt;em&gt;hardly&lt;/em&gt;, expect the new
-machines to outnumber the installed resources that we already have.
-And have to keep working.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2006-03-16</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-03-16/</guid>
-
-	<link>http://cynic.cc/blog//posts/2006-03-16/</link>
-
-
-
-	<category>hardware</category>
-
-	<category>life</category>
-
-	<category>music</category>
-
-
-	<pubDate>Thu, 16 Mar 2006 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-07-14T18:26:00Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Today, I resurrected Loreena McKennitt&#39;s
-&lt;a href=&quot;http://en.wikipedia.org/wiki/The_Mask_and_Mirror&quot;&gt;&quot;The Mask and Mirror&quot;&lt;/a&gt;
-and it now plays without skipping in any place. It&#39;s so nice to
-have it &quot;back&quot;...&lt;/p&gt;
-
-&lt;p&gt;I&#39;m slowly progressing towards a better condition of my throat.
-This is taking longer than what I expected.&lt;/p&gt;
-
-&lt;p&gt;Finally took some time to go to the police station to register the
-damage done to my car.&lt;/p&gt;
-
-&lt;p&gt;Oh, and I got some new toys to play with, including a brand new
-Firewire enclosure, wireless stuff and some DVD-R&#39;s. Fun ahead.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2006-02-26</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-02-26/</guid>
-
-	<link>http://cynic.cc/blog//posts/2006-02-26/</link>
-
-
-
-	<category>free-software</category>
-
-	<category>hardware</category>
-
-
-	<pubDate>Sun, 26 Feb 2006 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-07-14T18:26:00Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Playing with &lt;a href=&quot;http://www.imagemagick.org/&quot;&gt;ImageMagick&lt;/a&gt;, I
-discovered that the &lt;a href=&quot;http://www.samsungcamera.org/&quot;&gt;camera&lt;/a&gt; saves
-the pictures with &quot;quality&quot; settings of 95%, 85%, and 70% when
-using &quot;super fine&quot;, &quot;fine&quot;, and &quot;normal&quot; settings for compression,
-respectively. This answers one of the questions that I had in mind
-when I started using this camera. Now, the other one is &quot;which
-resolution to use?&quot;.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2006-02-24</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2006-02-24/</guid>
-
-	<link>http://cynic.cc/blog//posts/2006-02-24/</link>
-
-
-
-	<category>free-software</category>
-
-	<category>hardware</category>
-
-	<category>life</category>
-
-	<category>photography</category>
-
-	<category>study</category>
-
-
-	<pubDate>Fri, 24 Feb 2006 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-07-14T18:26:00Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Still trying to learn about digital photography. The subject is
-fascinating. Too bad that I lack subjects to take pictures from,
-but I guess that this is where the &quot;artistic&quot; part comes in.&lt;/p&gt;
-
-&lt;p&gt;Of course, the is also the &quot;science&quot; part of the thing, which is
-where the knowledge comes in: choosing exposure, knowing what
-lenses you should (or should not) use, seeing the appropriate flash
-light settings etc.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, many things are written in market-speak and it is
-almost impenetrable for a layman to know exactly what is being
-talked about.&lt;/p&gt;
-
-&lt;p&gt;I upgraded
-&lt;a href=&quot;ftp://ftp.matrox.com/pub/mga/archive/bios/2005/setup_258.exe&quot;&gt;the firmware&lt;/a&gt;
-of my &lt;a href=&quot;http://www.matrox.com/&quot;&gt;Matrox&lt;/a&gt;
-&lt;a href=&quot;http://www.matrox.com/mga/support/user_manuals/mill_g400/home.cfm&quot;&gt;G400&lt;/a&gt;
-card to version 2.1.&lt;/p&gt;
-
-&lt;p&gt;Oh, I didn&#39;t know why my students were all excited to go home until
-I realized that today was the first day of 2006&#39;s carnival.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2005-06-06</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-06-06/</guid>
-
-	<link>http://cynic.cc/blog//posts/2005-06-06/</link>
-
-
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>hardware</category>
-
-	<category>linux</category>
-
-	<category>powerpc</category>
-
-
-	<pubDate>Mon, 06 Jun 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-06-11T14:03:17Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Holy freaking day! Today we had
-&lt;a href=&quot;http://www.apple.com/pr/library/2005/jun/06intel.html&quot;&gt;the announcement&lt;/a&gt;
-that &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; will be switching to
-&lt;a href=&quot;http://www.intel.com&quot;&gt;Intel processors&lt;/a&gt;. This is a major movement,
-in my very humber opinion. Does this mean that all the claims about
-PowerPC being more effective are not true anymore (well, that may
-be the case with Power 970 processors, but G3 processors seem to be
-quite nice regarding power comsumption).&lt;/p&gt;
-
-&lt;p&gt;As if that weren&#39;t enough news for one day,
-&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt; finally, after almost 3 (&lt;em&gt;three&lt;/em&gt;)
-years,
-&lt;a href=&quot;http://www.debian.org/News/2005/20050606&quot;&gt;released a new version of its distribution&lt;/a&gt;,
-codenamed sarge. This is the major news for the day (and for the
-month, if you ask me).&lt;/p&gt;
-
-&lt;p&gt;And like if that weren&#39;t enough, Linus Torvalds also
-&lt;a href=&quot;http://www.kernel.org/pub/linux/kernel/v2.6/testing/patch-2.6.12-rc6.bz2&quot;&gt;announced kernel 2.6.12-rc6&lt;/a&gt;,
-which is (hopefully) one of the final stages towards kernel 2.6.12
-proper.&lt;/p&gt;
 </description>
 
 

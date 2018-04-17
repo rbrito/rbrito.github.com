@@ -10,7 +10,84 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 06 Nov 2017 05:22:19 -0200</pubDate>
+<pubDate>Tue, 17 Apr 2018 05:47:46 -0300</pubDate>
+<item>
+	<title>2008-05-14</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-05-14/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-05-14/</link>
+
+
+
+	<category>audio</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>music</category>
+
+	<category>videos</category>
+
+
+	<pubDate>Wed, 14 May 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T08:47:46Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Didn&#39;t sleep too much today (2nd day in a row!), since I was
+watching one of the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Dream_Theater&quot;&gt;Dream Theater&lt;/a&gt;&#39;s
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Dream_Theater#Bootleg_culture&quot;&gt;official bootlegs&lt;/a&gt;,
+&quot;When Dream and Day Reunite&quot;. (It was &lt;em&gt;cold!&lt;/em&gt; in the morning).&lt;/p&gt;
+
+&lt;p&gt;But this was after I spent a very good amount of time
+&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;-packaging the upstream source code
+of &lt;a href=&quot;http://en.wikipedia.org/wiki/LAME&quot;&gt;LAME&lt;/a&gt; (to which I have
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Concurrent_Versions_System&quot;&gt;CVS&lt;/a&gt;
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Commit_(data_management)&quot;&gt;commit access&lt;/a&gt;).
+It now passes almost every
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Lintian&quot;&gt;lintian&lt;/a&gt; check, besides the
+fact that the &lt;code&gt;config.sub&lt;/code&gt; and &lt;code&gt;config.guess&lt;/code&gt; scripts have
+time-stamps in the year of 2003. But I am not changing that (yet).&lt;/p&gt;
+
+&lt;p&gt;Now I am using my own dog-food, instead of relying on Christian
+Marillat&#39;s precompiled versions of lame. And I even provided some
+compatibility/transitional packages, so that packages like his
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Ffmpeg&quot;&gt;ffmpeg&lt;/a&gt; with the newer and nicest
+improvements of &lt;a href=&quot;http://en.wikipedia.org/wiki/LAME&quot;&gt;LAME&lt;/a&gt; (like
+fractional
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Variable_bitrate&quot;&gt;variable bitrate&lt;/a&gt;
+qualities).&lt;/p&gt;
+
+&lt;p&gt;This means, in particular, that I can use better
+&lt;a href=&quot;http://en.wikipedia.org/wiki/MP3&quot;&gt;MP3&lt;/a&gt; sounding tracks for
+videos.&lt;/p&gt;
+
+&lt;p&gt;And the good news is that, according to
+&lt;a href=&quot;http://www.hydrogenaudio.org/&quot;&gt;Hydrogenaudio&lt;/a&gt;, there is finally a
+release of the lossy (but almost non-lossy!) compressor for audio
+streams, called
+&lt;a href=&quot;http://wiki.hydrogenaudio.org/index.php?title=LossyWAV&quot;&gt;lossyWAV&lt;/a&gt;.
+It surely seems quite promising.&lt;/p&gt;
+
+&lt;p&gt;Oh, and I finally discovered that the last show to which I went was
+a looong time ago:
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Monsters_of_Rock#1998_3&quot;&gt;Monsters of Rock Festival, September 24 1998&lt;/a&gt;.
+I was there to see Dream Theater, Megadeth, and Slayer, but some of
+the people that were with me didn&#39;t like Slayer, unfortunately and
+they wanted to exit the venue after I negotiated that I was there
+to listen to, at least, &quot;Raining Blood&quot;. Oh, Manowar was a joke.
+Hilarious. I don&#39;t know if they take themselves seriously or not,
+but they were ridiculous. This was the first time where I thought
+of writing a program with a stochastic grammar to generate lyrics
+for such stereotyped metal.&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>2008-05-13</title>
 

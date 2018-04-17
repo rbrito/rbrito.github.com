@@ -10,7 +10,36 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Mon, 06 Nov 2017 05:10:50 -0200</pubDate>
+<pubDate>Tue, 17 Apr 2018 06:02:20 -0300</pubDate>
+<item>
+	<title>2008-07-23</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-07-23/</guid>
+
+	<link>http://cynic.cc/blog//posts/2008-07-23/</link>
+
+
+
+	<category>free-software</category>
+
+	<category>latex</category>
+
+
+	<pubDate>Wed, 23 Jul 2008 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-17T09:02:20Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Spent some time checking out the repository of
+&lt;a href=&quot;http://algorithms.berlios.de&quot;&gt;the algorithms bundle&lt;/a&gt;, since I plan
+on doing a new release, now in the format of &lt;code&gt;.dtx&lt;/code&gt; and &lt;code&gt;.ins&lt;/code&gt;
+files. This will be much more convenient to handle and I already
+put the licences onto the files, which is
+&lt;a href=&quot;http://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License&quot;&gt;LGPL 2.1&lt;/a&gt;,
+for the moment (which can change in the future).&lt;/p&gt;
+</description>
+
+
+</item>
 <item>
 	<title>2008-04-12</title>
 
@@ -476,88 +505,6 @@ releases of the year. Nice to counter-balance the other bad news.&lt;/p&gt;
 
 &lt;p&gt;I also updated &lt;a href=&quot;http://cynic.cc/blog//tags/latex/index.html&quot;&gt;my mini-tour&lt;/a&gt; for making
 presentations in LaTeX with PPower4.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2004-11-03</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2004-11-03/</guid>
-
-	<link>http://cynic.cc/blog//posts/2004-11-03/</link>
-
-
-
-	<category>apple</category>
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>java</category>
-
-	<category>latex</category>
-
-	<category>phd</category>
-
-	<category>studies</category>
-
-	<category>toefl</category>
-
-	<category>ubuntu</category>
-
-
-	<pubDate>Wed, 03 Nov 2004 00:00:00 -0200</pubDate>
-	<dcterms:modified>2014-01-24T06:55:36Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;It&#39;s been quite a long time since I last wrote anything here. In
-the mean time, &lt;a href=&quot;http://www.orkut.com/&quot;&gt;orkut&lt;/a&gt; has changed my life
-(for the worse) and it seems that I&#39;m now &quot;up for adoption&quot; again.
-Maybe &lt;a href=&quot;http://www.cs.newcastle.edu.au/~nbi/&quot;&gt;Oz&lt;/a&gt; isn&#39;t that far
-away. Or maybe it is. I still don&#39;t know. The last missing piece
-(the
-&lt;a href=&quot;http://www.toefl.org/&quot;&gt;Test of English as a Foreign Language&lt;/a&gt;) was
-completed and the only problem now is the competition for
-scholarships.&lt;/p&gt;
-
-&lt;p&gt;In the mean time, I
-&lt;a href=&quot;http://lists.debian.org/debian-mentors/2004/10/msg00325.html&quot;&gt;packaged&lt;/a&gt;
-&lt;a href=&quot;http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/&quot;&gt;PPower4&lt;/a&gt;,
-which works perfectly now with all the
-&lt;a href=&quot;http://www.kaffe.org/&quot;&gt;Free&lt;/a&gt; &lt;a href=&quot;http://www.sablevm.org/&quot;&gt;JVMs&lt;/a&gt; in
-&lt;a href=&quot;http://www.debian.org/releases/testing/&quot;&gt;Debian&#39;s testing&lt;/a&gt;, which
-means that one can depend on even less non-free software.&lt;/p&gt;
-
-&lt;p&gt;In fact, the very reason that Free JVMs entered testing were the
-reason for me to pick up &lt;a href=&quot;http://java.sun.com/&quot;&gt;Java&lt;/a&gt;. It seems to
-be a nice language and the fact that it doesn&#39;t present a problem
-to &lt;a href=&quot;http://www.fsf.org/&quot;&gt;Free Software&lt;/a&gt; makes it a plausible
-addition in my book.&lt;/p&gt;
-
-&lt;p&gt;I also patched iTunes 4.7 to work with iPod Download. The
-hard-coded blacklist that Apple put in iTunes isn&#39;t nice.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.ubuntulinux.org/&quot;&gt;Ubuntu Linux&lt;/a&gt;, on the contrary &lt;strong&gt;is&lt;/strong&gt;
-nice. Also nice is the fact that
-&lt;a href=&quot;http://texcatalogue.sarovar.org/entries/algorithms.html&quot;&gt;algorithms&lt;/a&gt;
-is now Free (and soon will be back into
-&lt;a href=&quot;http://www.tug.org/tetex/&quot;&gt;teTeX&lt;/a&gt;, which is what ships with
-&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;). I am happy, because this means
-that my local home directory will get a tiny bit smaller, with less
-cruft. And &lt;a href=&quot;http://www.debian.org/&quot;&gt;The Global Operating System&lt;/a&gt;
-even more powerful.&lt;/p&gt;
-
-&lt;p&gt;And &lt;a href=&quot;http://sf.net/projects/faac/&quot;&gt;faac&lt;/a&gt;&#39;s package made by
-Christian Marillat now works with the MP4 wrapper, which means that
-now I can use &lt;a href=&quot;http://nostatic.org/grip/&quot;&gt;grip&lt;/a&gt; with AAC files for
-&lt;a href=&quot;http://www.apple.com/ipod/&quot;&gt;iPod&lt;/a&gt; and use its space in a slighlyt
-more efficient manner (well, at least I hope so).&lt;/p&gt;
-
-&lt;p&gt;Oh, BTW, I hate daylight savings time and it seems that now I&#39;m
-back in love with Elementary Number Theory. If only Elementary
-Number Theory liked me...&lt;/p&gt;
 </description>
 
 

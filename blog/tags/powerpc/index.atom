@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2018-03-22T03:44:37Z</updated>
+<updated>2018-04-17T09:05:25Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -574,6 +574,46 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 </entry>
 <entry>
+	<title>2008-08-14</title>
+
+	<id>http://cynic.cc/blog//posts/2008-08-14/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-08-14/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="kurobox" />
+
+	<category term="powerpc" />
+
+
+	<updated>2018-04-17T09:05:25Z</updated>
+	<published>2008-08-14T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Today I got a very nice gift from Charles Plessy: a Kurobox
+Standard (or Kurobox HD) that he had laying there in Japan, but
+which he didn&#39;t use.&lt;/p&gt;
+
+&lt;p&gt;The nice thing about it is that it comes with an instaler that runs
+under Windows and that remotely connects to the Kurobox&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
 	<title>2008-04-30</title>
 
 	<id>http://cynic.cc/blog//posts/2008-04-30/</id>
@@ -910,55 +950,6 @@ makes a boot floppy for an OldWorld Mac.&lt;/p&gt;
 
 &lt;p&gt;P.S.: Today, &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; announced the next upgrade of
 &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;, code named &quot;Tiger&quot;.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2005-03-30</title>
-
-	<id>http://cynic.cc/blog//posts/2005-03-30/</id>
-
-	<link href="http://cynic.cc/blog//posts/2005-03-30/"/>
-
-
-
-
-
-
-	<category term="apple" />
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="hardware" />
-
-	<category term="powerpc" />
-
-
-	<updated>2014-02-19T05:52:57Z</updated>
-	<published>2005-03-30T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Woohoo! Finally I received a nice little package with two G3
-upgrade cards (and one IMSTT card). This is great news for me to
-upgrade the PowerMac 9500/180MP that I have here.&lt;/p&gt;
-
-&lt;p&gt;Curiously, only one of its memory sticks (it has 2 32MB sticks) was
-being recognized by the system. I had to open it and it took me
-quite some time to figure out why (after some tweaking) the system
-wouldn&#39;t boot anymore. I have no idea why, but just zapping the
-NVRAM worked (i.e., Cmd+Option+P+R).&lt;/p&gt;
-
-&lt;p&gt;The next step now is to see if I can get more memory for this
-system, so that I can actually use it after this welcome upgrade.
-Then, I will surely be playing with
-&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;&#39;s
-&lt;a href=&quot;http://www.debian.org/releases/sarge&quot;&gt;sarge&lt;/a&gt;.&lt;/p&gt;
 
 	</content>
 

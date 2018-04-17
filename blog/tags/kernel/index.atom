@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2018-03-22T03:44:37Z</updated>
+<updated>2018-04-17T09:12:28Z</updated>
 <entry>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -503,6 +503,52 @@ system. Knowing which one to enable is a matter of knowing the specs of
 your system and, if not known, discovery by trial-and-error. (For x86
 systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2008-10-12</title>
+
+	<id>http://cynic.cc/blog//posts/2008-10-12/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-10-12/"/>
+
+
+
+
+
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="kernel" />
+
+	<category term="life" />
+
+	<category term="linux" />
+
+
+	<updated>2018-04-17T09:12:28Z</updated>
+	<published>2008-10-12T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Had
+&lt;a href=&quot;http://www.ohloh.net/p/linux/contributors/13492639846816&quot;&gt;two patches of mine&lt;/a&gt;
+included in the Linux kernel. My first two contributions to the
+kernel, which is a nice thing. Both related to the kurobox, so that
+it can have a better default for compilation. And I think that I
+will take care of the PowerPC side of things, so that I can have
+some boxen that work right and with new software.&lt;/p&gt;
+
+&lt;p&gt;These contributions (and the Debian Maintainership status) have to
+be recorded on my Curriculum Vitae, kept at the Ministry of Science
+of Brazil (where all higher education professionals have to keep
+their information).&lt;/p&gt;
 
 	</content>
 

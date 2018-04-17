@@ -17,7 +17,55 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-11-06T07:20:15Z</updated>
+<updated>2018-04-17T09:14:24Z</updated>
+<entry>
+	<title>2008-11-13</title>
+
+	<id>http://cynic.cc/blog//posts/2008-11-13/</id>
+
+	<link href="http://cynic.cc/blog//posts/2008-11-13/"/>
+
+
+
+
+
+
+	<category term="life" />
+
+	<category term="math" />
+
+	<category term="programming" />
+
+	<category term="teaching" />
+
+
+	<updated>2018-04-17T09:14:24Z</updated>
+	<published>2008-11-13T02:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;I was quite surprised that I received
+&lt;a href=&quot;http://www.ime.usp.br/~pf/algoritmos-livro/&quot;&gt;a book&lt;/a&gt; from a very,
+&lt;a href=&quot;http://www.ime.usp.br/~pf/&quot;&gt;very dear Professor&lt;/a&gt; of mine. The book
+is an introduction to the study of Analysis of Algorithms and it is
+a pleasure to see a high-standard book (even if elementary) written
+in Portuguese.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, the translations of books like Cormen&#39;s
+&quot;Introduction to Algorithms&quot; are severely broken. They are not
+really worth the price and I would even dare to say that they do a
+disservice to the student that tries to learn from those books
+(Cormen&#39;s one in particular---be warned that I&#39;m not talking here
+about the original English edition, which is superb, but the
+Brazilian Portuguese translation). There are many atrocities in the
+translation like translating &quot;array&quot; to &quot;arranjo&quot;, while the usual,
+correct choices would be &quot;vetor&quot; or &quot;matriz&quot;.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>2008-05-11</title>
 
@@ -387,37 +435,6 @@ test challenging while, at the same time, informative.&lt;/p&gt;
 computation of quotient and remainder is getting cleaner. But I&#39;d
 still like to implement it in a better &quot;literate style&quot; and use the
 &quot;Cheshire Cat&quot; trick to have better use of data encapsulation.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2006-01-07</title>
-
-	<id>http://cynic.cc/blog//posts/2006-01-07/</id>
-
-	<link href="http://cynic.cc/blog//posts/2006-01-07/"/>
-
-
-
-
-
-
-	<category term="life" />
-
-	<category term="teaching" />
-
-
-	<updated>2015-05-16T03:35:52Z</updated>
-	<published>2006-01-07T02:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Mostly a futile day. Well, not entirely lost, because I put a new
-quiz for the
-&lt;a href=&quot;http://www.ime.usp.br/~rbrito/verao/&quot;&gt;Summer Course&lt;/a&gt;.&lt;/p&gt;
 
 	</content>
 

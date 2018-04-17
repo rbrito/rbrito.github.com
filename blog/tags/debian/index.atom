@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2017-11-10T05:17:08Z</updated>
+<updated>2018-03-23T02:13:07Z</updated>
 <entry>
 	<title>Some activities of the day</title>
 
@@ -45,7 +45,7 @@
 	<category term="parenting" />
 
 
-	<updated>2017-11-10T05:17:08Z</updated>
+	<updated>2018-03-23T02:13:07Z</updated>
 	<published>2017-11-07T00:52:59Z</published>
 
 
@@ -88,7 +88,7 @@ virtualization options used, tough the closest seems to be virtualbox.&lt;/p&gt;
 &lt;p&gt;Let me cross my fingers.&lt;/p&gt;
 
 &lt;p&gt;In other news, I updated some of the tags of very old posts of this blog,
-and I am seriously thinking about switching from [ikiwiki][0] to another
+and I am seriously thinking about switching from &lt;a href=&quot;https://ikiwiki.info/&quot;&gt;ikiwiki&lt;/a&gt; to another
 blog platform. It is &lt;em&gt;slow&lt;/em&gt;, &lt;em&gt;very slow&lt;/em&gt; on my system with the repositories
 that I have, especially on my armel system. Some non-interpreted system
 would be best, but I don&#39;t know if such a thing even exists. But the killer
