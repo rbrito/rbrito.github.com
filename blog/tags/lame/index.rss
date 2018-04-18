@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 17 Apr 2018 06:09:29 -0300</pubDate>
+<pubDate>Tue, 17 Apr 2018 06:28:48 -0300</pubDate>
 <item>
 	<title>Working with CVS via Git</title>
 
@@ -36,7 +36,7 @@
 
 
 	<pubDate>Tue, 11 Jun 2013 04:49:56 -0300</pubDate>
-	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:23:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;The easiest way of using git locally to commit to a CVS repository is to
@@ -128,7 +128,7 @@ one, please let me know.&lt;/p&gt;
 
 
 	<pubDate>Tue, 23 Sep 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T09:09:29Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T09:28:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Was added as a project admin for
@@ -166,7 +166,7 @@ Nice to be useful to the community.&lt;/p&gt;
 
 
 	<pubDate>Sun, 20 Jul 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T08:58:59Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T09:28:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Just discovered that &lt;a href=&quot;http://www.opeth.com/&quot;&gt;Opeth&lt;/a&gt; (or would it be
@@ -242,7 +242,7 @@ matter.&lt;/p&gt;
 
 
 	<pubDate>Sat, 19 Jul 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T08:57:55Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T09:28:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Have been
@@ -282,7 +282,7 @@ lame (in the &lt;code&gt;misc&lt;/code&gt; directory), as well as the
 
 
 	<pubDate>Fri, 04 Jul 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T08:57:19Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T09:28:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Today, &lt;a href=&quot;http://lame.sf.net/&quot;&gt;LAME 3.98 final&lt;/a&gt; was released.
@@ -315,7 +315,7 @@ that I had, but I will continue working on it nevertheless.&lt;/p&gt;
 
 
 	<pubDate>Fri, 23 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T08:56:47Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T09:28:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Gave a second talk to the group of &quot;Error Correcting Codes&quot;. This
@@ -360,7 +360,7 @@ please.&lt;/p&gt;
 
 
 	<pubDate>Sat, 17 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T08:52:01Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T09:28:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Seeing one of the &lt;a href=&quot;http://www.dreamtheater.net/&quot;&gt;Dream Theater&lt;/a&gt;&#39;s
@@ -398,7 +398,7 @@ WAV file suiltable for compression (in 48kHz, normally).&lt;/p&gt;
 
 
 	<pubDate>Wed, 27 Jul 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2015-01-18T00:36:20Z</dcterms:modified>
+	<dcterms:modified>2015-01-18T00:59:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Made some commits to the CVS version of

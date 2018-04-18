@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2014-02-15T03:00:29Z</updated>
+<updated>2013-08-21T16:45:27Z</updated>
 <entry>
 	<title>SNA Acceleration vs. UXA Acceleration</title>
 
@@ -41,7 +41,7 @@
 	<category term="xorg" />
 
 
-	<updated>2014-02-15T03:00:29Z</updated>
+	<updated>2013-08-21T16:45:27Z</updated>
 	<published>2013-08-21T16:44:19Z</published>
 
 
@@ -72,7 +72,7 @@ GtkDrawingArea - Lines - time:  6.18
 GtkDrawingArea - Circles - time:  6.74
 GtkDrawingArea - Text - time:  4.32
 GtkDrawingArea - Pixbufs - time:  0.67
- --- 
+ ---
 Total time: 54.25
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -94,7 +94,7 @@ GtkDrawingArea - Lines - time:  2.70
 GtkDrawingArea - Circles - time:  2.65
 GtkDrawingArea - Text - time:  1.72
 GtkDrawingArea - Pixbufs - time:  0.11
- --- 
+ ---
 Total time: 36.91
 &lt;/code&gt;&lt;/pre&gt;
 

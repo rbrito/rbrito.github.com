@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2018-04-17T11:24:32Z</updated>
+<updated>2018-04-17T11:53:03Z</updated>
 <entry>
 	<title>Simple Annotations on Compiling a Linux Kernel for an Embedded Platform</title>
 
@@ -51,7 +51,7 @@
 	<category term="powerpc" />
 
 
-	<updated>2018-03-22T03:44:37Z</updated>
+	<updated>2018-03-22T03:45:10Z</updated>
 	<published>2010-05-12T03:54:52Z</published>
 
 
@@ -217,7 +217,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 	<category term="life" />
 
 
-	<updated>2018-04-17T11:24:32Z</updated>
+	<updated>2018-04-17T11:53:03Z</updated>
 	<published>2009-08-05T03:00:00Z</published>
 
 
@@ -266,7 +266,7 @@ alien to myself.&lt;/p&gt;
 	<category term="kurobox" />
 
 
-	<updated>2018-04-17T11:21:18Z</updated>
+	<updated>2018-04-17T11:53:03Z</updated>
 	<published>2009-06-02T03:00:00Z</published>
 
 
@@ -310,7 +310,7 @@ interfaces.&lt;/p&gt;
 	<category term="lame" />
 
 
-	<updated>2018-04-17T09:09:29Z</updated>
+	<updated>2018-04-17T09:28:48Z</updated>
 	<published>2008-09-23T03:00:00Z</published>
 
 
@@ -348,7 +348,7 @@ Nice to be useful to the community.&lt;/p&gt;
 	<category term="kurobox" />
 
 
-	<updated>2018-04-17T09:08:52Z</updated>
+	<updated>2018-04-17T09:28:48Z</updated>
 	<published>2008-09-19T03:00:00Z</published>
 
 
@@ -384,7 +384,7 @@ improvements included upstream (now that I am upstream).&lt;/p&gt;
 	<category term="kurobox" />
 
 
-	<updated>2018-04-17T09:08:10Z</updated>
+	<updated>2018-04-17T09:28:48Z</updated>
 	<published>2008-09-14T03:00:00Z</published>
 
 
@@ -439,7 +439,7 @@ upstream).&lt;/p&gt;
 	<category term="life" />
 
 
-	<updated>2018-04-17T09:06:15Z</updated>
+	<updated>2018-04-17T09:28:48Z</updated>
 	<published>2008-09-04T03:00:00Z</published>
 
 
@@ -481,7 +481,7 @@ amazing. Thanks to you all, people.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2018-04-17T09:05:25Z</updated>
+	<updated>2018-04-17T09:28:48Z</updated>
 	<published>2008-08-14T03:00:00Z</published>
 
 

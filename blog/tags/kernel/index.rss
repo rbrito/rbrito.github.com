@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 17 Apr 2018 07:58:28 -0300</pubDate>
+<pubDate>Tue, 17 Apr 2018 08:53:39 -0300</pubDate>
 <item>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -42,7 +42,7 @@
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:23:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
@@ -353,7 +353,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2018-03-22T03:44:37Z</dcterms:modified>
+	<dcterms:modified>2018-03-22T03:45:10Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
@@ -537,7 +537,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 
 	<pubDate>Tue, 03 Mar 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T10:58:28Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T11:53:39Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Inspired by the &lt;code&gt;m3s.pl&lt;/code&gt; script made by Scott Lawrence, and given
@@ -663,7 +663,7 @@ this task? I guess that I will have to experiment a little.&lt;/p&gt;
 
 
 	<pubDate>Sun, 12 Oct 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T09:12:28Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T09:28:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Had
@@ -703,7 +703,7 @@ their information).&lt;/p&gt;
 
 
 	<pubDate>Fri, 06 Jan 2006 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-01-18T00:57:39Z</dcterms:modified>
+	<dcterms:modified>2015-01-18T00:59:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;There is an amazing discussion about compiler optimizations going

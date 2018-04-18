@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 17 Apr 2018 07:58:28 -0300</pubDate>
+<pubDate>Wed, 18 Apr 2018 08:21:46 -0300</pubDate>
 <item>
 	<title>User-Agent strings and privacy</title>
 
@@ -32,7 +32,7 @@
 
 
 	<pubDate>Sun, 22 Feb 2015 20:54:27 -0300</pubDate>
-	<dcterms:modified>2017-11-06T06:28:31Z</dcterms:modified>
+	<dcterms:modified>2017-10-19T22:38:56Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I just had my hands on some mobile devices (a Samsung&#39;s &lt;a href=&quot;https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S_8.4&quot;&gt;Galaxy Tab S 8.4&quot;&lt;/a&gt;,
@@ -139,6 +139,201 @@ different from regular Firefox, as we can see.&lt;/p&gt;
 
 </item>
 <item>
+	<title>2009-11-18</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-11-18/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-11-18/</link>
+
+
+
+	<category>apple</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>tex</category>
+
+
+	<pubDate>Wed, 18 Nov 2009 00:00:00 -0200</pubDate>
+	<dcterms:modified>2018-04-18T11:21:46Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Holy moly! Things now seem to be going! I&#39;m quite happy with all
+this.&lt;/p&gt;
+
+&lt;p&gt;First of all, I clearead all the bugs in
+&lt;a href=&quot;http://packages.debian.org/hfsprogs&quot;&gt;&lt;code&gt;hfsprogs&lt;/code&gt;&lt;/a&gt;, including a
+&lt;a href=&quot;http://bugs.debian.org/436159&quot;&gt;very long standing bug&lt;/a&gt; in Apple&#39;s code
+that prevented me from compiling everything in 64-bits.&lt;/p&gt;
+
+&lt;p&gt;Now, the package compiles under all arches, which is amazingly great. I also
+took the opportunity to &lt;a href=&quot;http://lists.apple.com/archives/Darwin-userlevel/2009/Nov/msg00004.html&quot;&gt;tell
+Apple&lt;/a&gt;
+that I have patches that I want to push upstream. Let&#39;s see if they are
+indeed open to collaboration.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m learning to use the marvellous
+&lt;a href=&quot;http://packages.debian.org/quilt&quot;&gt;&lt;code&gt;quilt&lt;/code&gt;&lt;/a&gt; to clean up some code of
+others. With a bit of discipline, things get quite easy to work with. A
+good tool can, indeed, make one&#39;s job much easier.&lt;/p&gt;
+
+&lt;p&gt;Oh, an TeXlive 2009 was &lt;em&gt;just&lt;/em&gt; uploaded to experimental, which
+means that it will soon reach unstable. I am already using it and
+it is quite nice (actually, I&#39;ve been using it for a bit longer
+than this, but the fact is that it is now available everywhere).
+Thanks Norbert, Frank, Hilmar and Co.&lt;/p&gt;
+
+&lt;p&gt;On some other news, I am now maintaining &quot;my&quot; version of two nice
+packages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://amarok.kde.org/&quot;&gt;Amarok 1.4&lt;/a&gt;, which, although abandoned
+upstream, is much more useful (and lighter on resources) than
+Amarok 2. I have updated it with some patches and things are much
+nicer.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://packages.debian.org/grip&quot;&gt;grip&lt;/a&gt;, a very nice CD ripper,
+which seems to be dead upstream, but which has some good patches
+that are extremely easy to integrate. Coincidentally,
+&lt;a href=&quot;http://www.debian-multimedia.org/&quot;&gt;Christian Marillat&lt;/a&gt; has, one
+day after I started working on grip, packaged a version to put in
+his repository. I think that we could join some forces maintaining
+it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Oh, and the biggest news of all: writing manpages is easier than
+ever. I always edited Perl&#39;s pod files as a way to avoid writing
+&lt;code&gt;*roff&lt;/code&gt; code directly and using the pod source to generate the
+manpages. But I used Emacs&#39;s Perl mode. This way, Emacs shows the
+pod source as a comment, without recognizing the structure of the
+files. That&#39;s not a problem anymore. Russ Allbery just hinted me at
+the fact that Emacs offers a pod-mode. Amazing.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2009-09-11</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-09-11/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-09-11/</link>
+
+
+
+	<category>apple</category>
+
+	<category>boot</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>macosx</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Fri, 11 Sep 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-18T11:21:14Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Since I maintain a Darwin partition on my system, I use
+&lt;a href=&quot;http://www.gnu.org/software/grub/grub-legacy.en.html&quot;&gt;GRUB legacy&lt;/a&gt;
+to choose which OS I want to play with. But, then, due some of my
+tweaking, it stopped working. Ouch. Even if I selected it, it
+wouldn&#39;t boot and would return to GRUB&#39;s menu. Irritating, to say
+the least.&lt;/p&gt;
+
+&lt;p&gt;Being disappointed with that, I eventually,
+&lt;a href=&quot;http://www.gnu.org/software/grub/manual/html_node/&quot;&gt;RTFM of GRUB&lt;/a&gt;
+and learned a bit more about something that seems to give
+&lt;a href=&quot;http://www.insanelymac.com/forum/index.php?showtopic=107391&quot;&gt;hackintosh&lt;/a&gt;
+users some headaches: the partition bootloader being foobared.&lt;/p&gt;
+
+&lt;p&gt;The solutions presented there are bizantine from a Unix P-o-V. The
+necessary steps to fix it are just to:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Make sure that the &lt;strong&gt;hard disk&lt;/strong&gt; bootloader (that is, the MBR
+of your HD) contains GRUB&#39;s &lt;code&gt;stage 1&lt;/code&gt; loader.
+&lt;em&gt;Warning:&lt;/em&gt; don&#39;t just &lt;code&gt;dd&lt;/code&gt; it to your HD&#39;s file, so that your
+system can &quot;forget&quot; the partitions that you have.&lt;/li&gt;
+&lt;li&gt;Make sure that the &lt;strong&gt;partition&lt;/strong&gt; bootloader (something that is
+peculiar to the x86 arches and which, I as a user of other
+platforms, didn&#39;t know that existed) is set to Apple&#39;s &lt;code&gt;boot1h&lt;/code&gt;.
+This time, you can just &lt;code&gt;dd&lt;/code&gt; it to the first sector of the
+partition where Darwin/MacOS X resides.&lt;/li&gt;
+&lt;li&gt;Teach GRUB to set its snippet to run Darwin with
+&lt;code&gt;root (hd0,0)&lt;/code&gt; (or whatever partition contains Darwin), tell it
+to make the partition active with &lt;code&gt;makeactive&lt;/code&gt;, and tell it to load
+the &lt;strong&gt;partition&lt;/strong&gt; bootloader with &lt;code&gt;chainloader +1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;(Optional) Edit
+&lt;code&gt;/Library/Preferences/SystemConfiguration/com.apple.Boot.plist&lt;/code&gt; to
+contain the elements &lt;code&gt;&amp;lt;key&amp;gt;Kernel&amp;lt;/key&amp;gt;&lt;/code&gt;
+&lt;code&gt;&amp;lt;string&amp;gt;mach_kernel.foo&amp;lt;/string&amp;gt;&lt;/code&gt; to point to whatever is your
+kernel of choice.&lt;/li&gt;
+&lt;li&gt;(Optional) If you make changes under Linux, with the &lt;code&gt;hfsplus&lt;/code&gt;
+module, it is highly recommended that you unmount your filesystem
+and run the &lt;code&gt;fsck.hfsplus&lt;/code&gt; from the
+&lt;a href=&quot;http://packages.debian.org/hfsplus&quot;&gt;hfsplus&lt;/a&gt; package that I
+maintain in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt; (and which is mirrored
+by &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;, but Debian&#39;s is more
+up-to-date, as I have uploads rights there).&lt;/li&gt;
+&lt;li&gt;(Optional)
+&lt;a href=&quot;http://www.hermann-uwe.de/blog/testing-stuff-with-qemu-part-3-debian-gnu-kfreebsd&quot;&gt;Test it with QEMU&lt;/a&gt;,
+to see if it will work.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This was a nice learning exercise, to be honest.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2009-09-05</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-09-05/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-09-05/</link>
+
+
+
+	<category>apple</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>life</category>
+
+	<category>macosx</category>
+
+
+	<pubDate>Sat, 05 Sep 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-18T11:21:46Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Much to my delight, I received today some nice people for my
+birthday. &lt;a href=&quot;http://www.binoklo.com/&quot;&gt;Adriano&lt;/a&gt;&#39;s presence was nice
+(and I even had the opportunity to play with his last generation
+iBook G4, and fix his keyboard), my Grandma, Jacob, Mom, Dad, Rose,
+and Sa made a nice birthday party.&lt;/p&gt;
+
+&lt;p&gt;And, of course, being with Adriano is always illuminating: I
+learned about a book, about
+&lt;a href=&quot;http://www.imdb.com/title/tt0089457/&quot;&gt;a movie&lt;/a&gt;, about some MacOS X
+programs that he runs, about some other concepts, about an
+&lt;a href=&quot;http://www.worldofgoo.com/&quot;&gt;independent game&lt;/a&gt; that he supported
+for MacOS X and so on. Always a pleasure to talk with him.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2009-03-03</title>
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-03-03/</guid>
@@ -185,7 +380,7 @@ different from regular Firefox, as we can see.&lt;/p&gt;
 
 
 	<pubDate>Tue, 03 Mar 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T10:58:28Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T11:53:39Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Inspired by the &lt;code&gt;m3s.pl&lt;/code&gt; script made by Scott Lawrence, and given
@@ -562,7 +757,7 @@ aria2c&#39;s etc, for some speed boost).&lt;/p&gt;
 
 
 	<pubDate>Thu, 08 May 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T07:18:18Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T07:23:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Had some programming session on working with
@@ -605,7 +800,7 @@ completely closed!&lt;/p&gt;
 
 
 	<pubDate>Wed, 30 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T07:16:54Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T07:23:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Upgraded my parent&#39;s computer from
@@ -654,7 +849,7 @@ WEP key, but it doesn&#39;t seem to get a DHCP lease from the router.
 
 
 	<pubDate>Tue, 29 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T07:15:15Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T07:23:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Spent some time polishing my &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;
@@ -668,173 +863,6 @@ Unfortunately, there seems to be serious problems with the live CD
 as X isn&#39;t working correctly. &lt;code&gt;:-(&lt;/code&gt;. I still don&#39;t know what could
 be the cause, since the framebuffer was set at 1024x768, but X
 insisted on the resolution being 800x600.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2005-10-19</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-10-19/</guid>
-
-	<link>http://cynic.cc/blog//posts/2005-10-19/</link>
-
-
-
-	<category>apple</category>
-
-	<category>life</category>
-
-	<category>powerpc</category>
-
-	<category>teaching</category>
-
-	<category>work</category>
-
-
-	<pubDate>Wed, 19 Oct 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-01-18T00:43:16Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Ok, so, I am almost giving up the hectic mess in which work has
-turned to... I need to take a serious time resting a little bit.&lt;/p&gt;
-
-&lt;p&gt;I&#39;m so tired and people are so demanding of me and of my creativity
-that its hard to even take some time with pleasant things. For
-instance, in the little time that I have to sleep, I don&#39;t have the
-motivation to study the neat things that I always wanted to.&lt;/p&gt;
-
-&lt;p&gt;I guess that this means that I&#39;m overworked, without any shadow of
-doubt. Being sleepy while at work has never been a common thing for
-me, even when I was in the tiring days of my M.Sc. studies.&lt;/p&gt;
-
-&lt;p&gt;In fact, in those days, I thought that I was progressing (and it&#39;s
-hard not to feel you&#39;re progressing when you&#39;re being pushed to
-your limits), but now, with little time for intellectual
-challenges, I see little point in keeping up with the work I&#39;m
-doing.&lt;/p&gt;
-
-&lt;p&gt;It&#39;s not particularly exciting to be teaching how to write a for
-for the 20th time in less than two years. I guess that if the
-concept of iteration doesn&#39;t enter one&#39;s brain as soon as it is
-told, then all is hopeless.&lt;/p&gt;
-
-&lt;p&gt;I guess that I need a significant other to make everything bright
-(even those less-than-perfect moments). Someone that truly
-understands what I mean, what my ideals are, what my values are and
-how I see the world.&lt;/p&gt;
-
-&lt;p&gt;And, yes, I am willing to even change some things of me. But please
-don&#39;t disillusion me. In some sense, I&#39;m fragile. Even more than
-most people think that I am. Despite the tough cover that I may
-have, lies a friendly person. Truly.&lt;/p&gt;
-
-&lt;p&gt;In other news, &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; has released a bunch
-of new stuff, with the highlight (for me, at least), being the new
-&lt;a href=&quot;http://www.apple.com/powerbook/&quot;&gt;PowerBook&lt;/a&gt;s.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2005-05-28</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-05-28/</guid>
-
-	<link>http://cynic.cc/blog//posts/2005-05-28/</link>
-
-
-
-	<category>apple</category>
-
-	<category>hardware</category>
-
-	<category>macosx</category>
-
-	<category>powerpc</category>
-
-
-	<pubDate>Sat, 28 May 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-06-11T13:58:42Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;I have now, with the help of an oooold
-&lt;a href=&quot;http://www.atitech.ca/&quot;&gt;ATI Mach 64 GX&lt;/a&gt; card (with only 2MB of
-VRAM) gotten &lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X 10.3.9&lt;/a&gt; to work
-on the
-&lt;a href=&quot;http://www.everymac.com/systems/apple/powermac/stats/powermac_9500_180mp.html&quot;&gt;PowerMac&lt;/a&gt;.
-I then substituted the card with an IMS Twin Turbo card that has
-4MB of VRAM. It seems to work well, considering that this machine
-has almost 10 years (a PeeCee normally doesn&#39;t last this much). If
-I were to upgrade this machine, I would start by the following two
-items (perhaps not in this order):&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Substitude its HD.&lt;/li&gt;
-&lt;li&gt;Add more RAM to it. MacOS X likes a lot of RAM.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Perhaps I may get a &lt;a href=&quot;http://www.sonnettech.com/&quot;&gt;Sonnet Tech&lt;/a&gt;
-&lt;a href=&quot;http://www.sonnettech.com/product/tempo_trio.html&quot;&gt;Tempo Trio&lt;/a&gt;
-card, which features an IDE controller, a Firewire controller and a
-USB 2.0 controller in just one card. Seems like a good deal,
-especially for using (faster, modern) IDE HDs, all this being able
-to just use a single slot of the machine.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2005-04-12</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2005-04-12/</guid>
-
-	<link>http://cynic.cc/blog//posts/2005-04-12/</link>
-
-
-
-	<category>apple</category>
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>hardware</category>
-
-	<category>macosx</category>
-
-	<category>powerpc</category>
-
-
-	<pubDate>Tue, 12 Apr 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;After installing the NewerTech G3 upgrade card into the PowerMac 9500/180MP,
-I had some problems, when I tried to install
-&lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;None of the sarge floppies would work and I eventually decided to get rid of
-any traces of MacOS and installed using the woody floppies. The problem is
-that the kernel 2.2.20 that comes with woody ins&#39;t able to see both PCI
-buses, especially the one where the video card is sitting on. I had to grab
-a kernel from testing&#39;s repository, but I don&#39;t like distribution kernels,
-for they are way too bloated.&lt;/p&gt;
-
-&lt;p&gt;Note to self: when replacing the &lt;code&gt;zImage&lt;/code&gt; on the HFS boot floppy, one
-has to use the vmlinux image compressed with &lt;code&gt;gzip&lt;/code&gt;, like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;gzip -9 vmlinux
-hmount /dev/fd0
-hcopy vmlinux.gz :zImage
-humount /dev/fd0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;No other image that I tried worked. But it was nice to (re)-discover how one
-makes a boot floppy for an OldWorld Mac.&lt;/p&gt;
-
-&lt;p&gt;P.S.: Today, &lt;a href=&quot;http://www.apple.com/&quot;&gt;Apple&lt;/a&gt; announced the next upgrade of
-&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS X&lt;/a&gt;, code named &quot;Tiger&quot;.&lt;/p&gt;
 </description>
 
 

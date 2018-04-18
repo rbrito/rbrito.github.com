@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 17 Apr 2018 08:24:32 -0300</pubDate>
+<pubDate>Wed, 18 Apr 2018 08:21:14 -0300</pubDate>
 <item>
 	<title>Some activities of the day</title>
 
@@ -36,7 +36,7 @@
 
 
 	<pubDate>Mon, 06 Nov 2017 22:52:59 -0200</pubDate>
-	<dcterms:modified>2018-03-23T02:13:07Z</dcterms:modified>
+	<dcterms:modified>2018-03-22T16:41:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Yesterday, I printed the first draft of the first chapter when my little boy
@@ -117,6 +117,183 @@ qemu-system-x86_64 -enable-kvm -m 4096 -smp 2 -net nic,model=e1000 -net user -so
 
 </item>
 <item>
+	<title>2009-10-08</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-10-08/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-10-08/</link>
+
+
+
+	<category>boot</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+
+	<pubDate>Thu, 08 Oct 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-18T11:21:14Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;It seems that booting systems is giving me a headache again.&lt;/p&gt;
+
+&lt;p&gt;I had to flash the firmware of my Infoway Note N8320 notebook which
+is an MSI Aesthetics PR200 disguised in a nice clothing. Of course,
+it had a firmware update that required being applied only from a
+regular DOS floppy. But the size of a floppy isn&#39;t enough to hold
+the new firmware.&lt;/p&gt;
+
+&lt;p&gt;To cut a long story short, it was quite painful to get things
+going, but here are the distilled situation:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/sh
+
+#
+# Collection of information from:
+#
+# http://feeding.cloud.geek.nz/2009/08/grub-on-bootable-usb-rescue-stick.html
+# http://www.mayrhofer.eu.org/Default.aspx?pageid=45
+# http://en.gentoo-wiki.com/wiki/FreeDOS_Flash_Drive
+# http://www.gnu.org/software/grub/manual/grub.html#Installation-under-UNIX
+# http://www.omninerd.com/articles/Installing_GRUB_on_a_Hard_Disk_Image_File
+#
+
+# needed: syslinux, parted, grub
+SIZE=32
+
+# Create the basic disk image
+dd if=/dev/zero of=disk.img bs=1M count=&amp;#036;SIZE
+parted --script disk.img mktable msdos
+parted --script disk.img mkpart primary fat16 0 &amp;#036;{SIZE}MB
+parted --script disk.img mkfs 1 fat16
+parted --script disk.img set 1 boot on
+
+# Mount it
+SECTORS=!!mathjaxbegin-i!! KGZkaXNrIC1sIC11IGRpc2suaW1nIDImZ3Q7JmFtcDsxfCB0YWlsIC0xIHwgcGVybCAtbmUgJ3By
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;aW50ICZhbXA7cXVvdDs=
+ !!mathjaxend-i!!1&quot; if (m/\s+(\d+)\s+/);&#39;)
+    mount -t vfat -o loop,offset=$((SECTORS * 512)) disk.img /mnt&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Copy the bootloader
+# Copy a FreeDOS image and treat it as a ramdisk (it will be the &quot;A:&quot; drive)
+mkdir -p /mnt/grub
+cp /usr/lib/grub/x86_64-pc/* /mnt/grub
+cp /usr/lib/syslinux/memdisk /mnt
+wget -O /mnt/odin1440.img http://odin.fdos.org/odin2005/odin1440.img
+
+# Set up grub (grub legacy)
+cat &amp;lt;&amp;lt;EOF0 &amp;gt; /mnt/grub/menu.lst
+default=0
+timeout=10
+root=(hd0,0)
+title FreeDOS
+kernel /memdisk
+initrd /odin1440.img
+EOF0
+
+grub --device-map=/dev/null --batch &amp;lt;&amp;lt;EOF1
+device (hd0) /tmp/disk.img
+root (hd0,0)
+setup (hd0)
+quit
+EOF1
+
+# Copy extra contents (e.g., the firmware) to the disk here (the &quot;C:&quot; drive)
+touch /mnt/example.txt
+
+# Finish it
+umount /mnt
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+
+
+</item>
+<item>
+	<title>2009-09-11</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-09-11/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-09-11/</link>
+
+
+
+	<category>apple</category>
+
+	<category>boot</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>macosx</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Fri, 11 Sep 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-18T11:21:14Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Since I maintain a Darwin partition on my system, I use
+&lt;a href=&quot;http://www.gnu.org/software/grub/grub-legacy.en.html&quot;&gt;GRUB legacy&lt;/a&gt;
+to choose which OS I want to play with. But, then, due some of my
+tweaking, it stopped working. Ouch. Even if I selected it, it
+wouldn&#39;t boot and would return to GRUB&#39;s menu. Irritating, to say
+the least.&lt;/p&gt;
+
+&lt;p&gt;Being disappointed with that, I eventually,
+&lt;a href=&quot;http://www.gnu.org/software/grub/manual/html_node/&quot;&gt;RTFM of GRUB&lt;/a&gt;
+and learned a bit more about something that seems to give
+&lt;a href=&quot;http://www.insanelymac.com/forum/index.php?showtopic=107391&quot;&gt;hackintosh&lt;/a&gt;
+users some headaches: the partition bootloader being foobared.&lt;/p&gt;
+
+&lt;p&gt;The solutions presented there are bizantine from a Unix P-o-V. The
+necessary steps to fix it are just to:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Make sure that the &lt;strong&gt;hard disk&lt;/strong&gt; bootloader (that is, the MBR
+of your HD) contains GRUB&#39;s &lt;code&gt;stage 1&lt;/code&gt; loader.
+&lt;em&gt;Warning:&lt;/em&gt; don&#39;t just &lt;code&gt;dd&lt;/code&gt; it to your HD&#39;s file, so that your
+system can &quot;forget&quot; the partitions that you have.&lt;/li&gt;
+&lt;li&gt;Make sure that the &lt;strong&gt;partition&lt;/strong&gt; bootloader (something that is
+peculiar to the x86 arches and which, I as a user of other
+platforms, didn&#39;t know that existed) is set to Apple&#39;s &lt;code&gt;boot1h&lt;/code&gt;.
+This time, you can just &lt;code&gt;dd&lt;/code&gt; it to the first sector of the
+partition where Darwin/MacOS X resides.&lt;/li&gt;
+&lt;li&gt;Teach GRUB to set its snippet to run Darwin with
+&lt;code&gt;root (hd0,0)&lt;/code&gt; (or whatever partition contains Darwin), tell it
+to make the partition active with &lt;code&gt;makeactive&lt;/code&gt;, and tell it to load
+the &lt;strong&gt;partition&lt;/strong&gt; bootloader with &lt;code&gt;chainloader +1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;(Optional) Edit
+&lt;code&gt;/Library/Preferences/SystemConfiguration/com.apple.Boot.plist&lt;/code&gt; to
+contain the elements &lt;code&gt;&amp;lt;key&amp;gt;Kernel&amp;lt;/key&amp;gt;&lt;/code&gt;
+&lt;code&gt;&amp;lt;string&amp;gt;mach_kernel.foo&amp;lt;/string&amp;gt;&lt;/code&gt; to point to whatever is your
+kernel of choice.&lt;/li&gt;
+&lt;li&gt;(Optional) If you make changes under Linux, with the &lt;code&gt;hfsplus&lt;/code&gt;
+module, it is highly recommended that you unmount your filesystem
+and run the &lt;code&gt;fsck.hfsplus&lt;/code&gt; from the
+&lt;a href=&quot;http://packages.debian.org/hfsplus&quot;&gt;hfsplus&lt;/a&gt; package that I
+maintain in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt; (and which is mirrored
+by &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;, but Debian&#39;s is more
+up-to-date, as I have uploads rights there).&lt;/li&gt;
+&lt;li&gt;(Optional)
+&lt;a href=&quot;http://www.hermann-uwe.de/blog/testing-stuff-with-qemu-part-3-debian-gnu-kfreebsd&quot;&gt;Test it with QEMU&lt;/a&gt;,
+to see if it will work.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This was a nice learning exercise, to be honest.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2009-08-05</title>
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-08-05/</guid>
@@ -139,7 +316,7 @@ qemu-system-x86_64 -enable-kvm -m 4096 -smp 2 -net nic,model=e1000 -net user -so
 
 
 	<pubDate>Wed, 05 Aug 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T11:24:32Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T11:53:03Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Went to the Brazilian national Security Service, to see the status
@@ -182,7 +359,7 @@ alien to myself.&lt;/p&gt;
 
 
 	<pubDate>Tue, 02 Jun 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T11:21:18Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T11:53:03Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Today I was pleasantly surprised that the Kurobox that
@@ -218,7 +395,7 @@ interfaces.&lt;/p&gt;
 
 
 	<pubDate>Fri, 06 Mar 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T11:01:12Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T11:53:03Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;My girlfriend had some complications in her biopsy and I had to
@@ -292,7 +469,7 @@ amd64, powerpc and other architectures. What a shame.&lt;/p&gt;
 
 
 	<pubDate>Tue, 03 Mar 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T10:58:28Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T11:53:39Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Inspired by the &lt;code&gt;m3s.pl&lt;/code&gt; script made by Scott Lawrence, and given
@@ -422,7 +599,7 @@ this task? I guess that I will have to experiment a little.&lt;/p&gt;
 
 
 	<pubDate>Tue, 03 Feb 2009 00:00:00 -0200</pubDate>
-	<dcterms:modified>2018-04-17T09:27:25Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T09:28:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;In the past few days, I did quite a good amount of things. One of
@@ -474,7 +651,7 @@ on my hard disk is considerable (approx. 1GB).&lt;/p&gt;
 
 
 	<pubDate>Wed, 28 Jan 2009 00:00:00 -0200</pubDate>
-	<dcterms:modified>2018-04-17T09:22:33Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T09:28:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Today was a very unusual day: it was quite active and I didn&#39;t have
@@ -605,7 +782,7 @@ hectic (but pleasant) week.&lt;/p&gt;
 
 
 	<pubDate>Thu, 04 Sep 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T09:06:15Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T09:28:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Had a quite happy birthday party here with my relatives. We took
@@ -616,79 +793,6 @@ has a single port and I don&#39;t feel like hacking its hardware).&lt;/p&gt;
 &lt;p&gt;Anyway, back to the topic of my birthday, it was amazing to see my
 people together. And the party had a very happy mood. It was
 amazing. Thanks to you all, people.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2008-08-14</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-08-14/</guid>
-
-	<link>http://cynic.cc/blog//posts/2008-08-14/</link>
-
-
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>hardware</category>
-
-	<category>kurobox</category>
-
-	<category>powerpc</category>
-
-
-	<pubDate>Thu, 14 Aug 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T09:05:25Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Today I got a very nice gift from Charles Plessy: a Kurobox
-Standard (or Kurobox HD) that he had laying there in Japan, but
-which he didn&#39;t use.&lt;/p&gt;
-
-&lt;p&gt;The nice thing about it is that it comes with an instaler that runs
-under Windows and that remotely connects to the Kurobox&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>2008-07-28</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2008-07-28/</guid>
-
-	<link>http://cynic.cc/blog//posts/2008-07-28/</link>
-
-
-
-	<category>debian</category>
-
-	<category>free-software</category>
-
-	<category>hardware</category>
-
-	<category>ubuntu</category>
-
-
-	<pubDate>Mon, 28 Jul 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T09:04:09Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Got a little new toy that is able to run Linux very well, since I
-brought with me two &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt; Live CDs (of
-version 8.04 LTS).&lt;/p&gt;
-
-&lt;p&gt;It features a Core 2 Duo T7250 processor. It has support for its
-1.3 Megapixel webcam out-of-the-box, since the webcam uses the the
-&lt;a href=&quot;http://en.wikipedia.org/wiki/USB_video_device_class&quot;&gt;USB device Video Class&lt;/a&gt;
-protocol. The only problem is that I don&#39;t know how to use mencoder
-to grab a video from it. And its speakers sound is &lt;strong&gt;so&lt;/strong&gt; quiet. Way
-too much quiet, even at maximum volume.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&quot;http://www.apple.com/macbook/&quot;&gt;macbook&lt;/a&gt; that I saw used things
-from Broadcom, which is not a company that likes Free Software.&lt;/p&gt;
 </description>
 
 

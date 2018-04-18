@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 17 Apr 2018 08:17:19 -0300</pubDate>
+<pubDate>Tue, 17 Apr 2018 08:53:03 -0300</pubDate>
 <item>
 	<title>JUnit 5</title>
 
@@ -28,7 +28,7 @@
 
 
 	<pubDate>Fri, 10 Nov 2017 03:21:06 -0200</pubDate>
-	<dcterms:modified>2017-11-10T05:45:16Z</dcterms:modified>
+	<dcterms:modified>2017-11-10T05:46:00Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;If you want to use &lt;a href=&quot;http://junit.org/junit5/&quot;&gt;JUnit 5&lt;/a&gt;, the latest release of &lt;a href=&quot;http://junit.org/&quot;&gt;JUnit&lt;/a&gt;, from
@@ -84,7 +84,7 @@ class FirstTest {
 
 
 	<pubDate>Mon, 06 Nov 2017 22:52:59 -0200</pubDate>
-	<dcterms:modified>2018-03-23T02:13:07Z</dcterms:modified>
+	<dcterms:modified>2018-03-22T16:41:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Yesterday, I printed the first draft of the first chapter when my little boy
@@ -185,7 +185,7 @@ qemu-system-x86_64 -enable-kvm -m 4096 -smp 2 -net nic,model=e1000 -net user -so
 
 
 	<pubDate>Thu, 02 Nov 2017 23:13:56 -0200</pubDate>
-	<dcterms:modified>2017-11-06T06:28:31Z</dcterms:modified>
+	<dcterms:modified>2017-11-03T01:02:44Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Today I spent some time in the morning seeing how one would install the JDK
@@ -286,7 +286,7 @@ conventions etc.&lt;/p&gt;
 
 
 	<pubDate>Mon, 03 Mar 2014 02:35:11 -0300</pubDate>
-	<dcterms:modified>2014-03-03T05:35:23Z</dcterms:modified>
+	<dcterms:modified>2014-03-03T05:38:09Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;This weekend I received my 17th certification (or Statement of
@@ -372,7 +372,7 @@ commons graph project.&lt;/p&gt;
 
 
 	<pubDate>Fri, 17 Jan 2014 20:18:04 -0200</pubDate>
-	<dcterms:modified>2014-01-17T22:17:37Z</dcterms:modified>
+	<dcterms:modified>2014-01-17T22:18:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I have just enrolled in a MOOC to learn about programming with Android.
@@ -460,7 +460,7 @@ Command Line Options&quot;.&lt;/p&gt;
 
 
 	<pubDate>Fri, 27 Mar 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T11:17:19Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T11:53:03Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Just when I thought that I had enough things to play with, I
@@ -509,7 +509,7 @@ Machines).&lt;/p&gt;
 
 
 	<pubDate>Fri, 06 Mar 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T11:01:12Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T11:53:03Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;My girlfriend had some complications in her biopsy and I had to
@@ -553,7 +553,7 @@ amd64, powerpc and other architectures. What a shame.&lt;/p&gt;
 
 
 	<pubDate>Sat, 23 Jul 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2015-01-18T00:32:58Z</dcterms:modified>
+	<dcterms:modified>2015-01-18T00:59:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Oh, I forgot to say: the multithreaded applications work quite well
@@ -581,7 +581,7 @@ with the Free Java implementations available in
 
 
 	<pubDate>Fri, 22 Jul 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-10T05:42:22Z</dcterms:modified>
+	<dcterms:modified>2017-11-10T05:42:44Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Mom&#39;s birthday. And a nice opportunity to see some relatives here.
@@ -633,7 +633,7 @@ what?&lt;/p&gt;
 
 
 	<pubDate>Tue, 28 Jun 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2015-01-18T00:30:31Z</dcterms:modified>
+	<dcterms:modified>2015-01-18T00:59:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I have discovered that while Linus&#39; 2.6.12 kernel seems OK with my

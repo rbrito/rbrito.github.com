@@ -10,7 +10,53 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Sat, 17 Jan 2015 22:48:05 -0200</pubDate>
+<pubDate>Wed, 18 Apr 2018 08:21:14 -0300</pubDate>
+<item>
+	<title>2009-08-28</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-08-28/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-08-28/</link>
+
+
+
+	<category>backups</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+
+	<pubDate>Fri, 28 Aug 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-18T11:21:14Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;I&#39;m closing some bugs in many packages in Debian, including my
+preferred backup system,
+&lt;a href=&quot;http://www.mondorescue.org/&quot;&gt;Mondo Rescue&lt;/a&gt;. The good thing about
+it is that it generates a backup that is a &quot;mirror&quot; (or should I
+say &quot;snapshot&quot;?) of your system and puts it on a CD (or DVD, or ISO
+image, or many other formats, actually).&lt;/p&gt;
+
+&lt;p&gt;I make backups almost every single day and I try to keep them
+small. Very small. The purpose is to have everything fit on a
+single 650MB CD, the reason being twofold:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;There are more computers with a CD drive than with a DVD drive
+(or a Bluray drive, for that matter). To be honest, I have never
+ever seen a bluray drive.&lt;/li&gt;
+&lt;li&gt;It is easier to find 650MB CDs than 700MBs (well, that&#39;s
+changing fast). Also, making it smaller than a certain amount
+leaves room for Error Correcting Codes, like those created by the
+superb &lt;a href=&quot;http://dvdisaster.net/en/&quot;&gt;dvdisaster&lt;/a&gt;. With some
+overburning, I can even squeeze one or two megabytes more in the
+CD.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
 <item>
 	<title>2005-11-14</title>
 
@@ -28,7 +74,7 @@
 
 
 	<pubDate>Mon, 14 Nov 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-01-18T00:48:05Z</dcterms:modified>
+	<dcterms:modified>2015-01-18T00:59:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I think that I reached a point of balance between the minimality of

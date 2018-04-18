@@ -17,7 +17,139 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2018-04-17T10:58:28Z</updated>
+<updated>2018-04-18T11:21:46Z</updated>
+<entry>
+	<title>2009-09-11</title>
+
+	<id>http://cynic.cc/blog//posts/2009-09-11/</id>
+
+	<link href="http://cynic.cc/blog//posts/2009-09-11/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="boot" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="hardware" />
+
+	<category term="macosx" />
+
+	<category term="ubuntu" />
+
+
+	<updated>2018-04-18T11:21:14Z</updated>
+	<published>2009-09-11T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Since I maintain a Darwin partition on my system, I use
+&lt;a href=&quot;http://www.gnu.org/software/grub/grub-legacy.en.html&quot;&gt;GRUB legacy&lt;/a&gt;
+to choose which OS I want to play with. But, then, due some of my
+tweaking, it stopped working. Ouch. Even if I selected it, it
+wouldn&#39;t boot and would return to GRUB&#39;s menu. Irritating, to say
+the least.&lt;/p&gt;
+
+&lt;p&gt;Being disappointed with that, I eventually,
+&lt;a href=&quot;http://www.gnu.org/software/grub/manual/html_node/&quot;&gt;RTFM of GRUB&lt;/a&gt;
+and learned a bit more about something that seems to give
+&lt;a href=&quot;http://www.insanelymac.com/forum/index.php?showtopic=107391&quot;&gt;hackintosh&lt;/a&gt;
+users some headaches: the partition bootloader being foobared.&lt;/p&gt;
+
+&lt;p&gt;The solutions presented there are bizantine from a Unix P-o-V. The
+necessary steps to fix it are just to:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Make sure that the &lt;strong&gt;hard disk&lt;/strong&gt; bootloader (that is, the MBR
+of your HD) contains GRUB&#39;s &lt;code&gt;stage 1&lt;/code&gt; loader.
+&lt;em&gt;Warning:&lt;/em&gt; don&#39;t just &lt;code&gt;dd&lt;/code&gt; it to your HD&#39;s file, so that your
+system can &quot;forget&quot; the partitions that you have.&lt;/li&gt;
+&lt;li&gt;Make sure that the &lt;strong&gt;partition&lt;/strong&gt; bootloader (something that is
+peculiar to the x86 arches and which, I as a user of other
+platforms, didn&#39;t know that existed) is set to Apple&#39;s &lt;code&gt;boot1h&lt;/code&gt;.
+This time, you can just &lt;code&gt;dd&lt;/code&gt; it to the first sector of the
+partition where Darwin/MacOS X resides.&lt;/li&gt;
+&lt;li&gt;Teach GRUB to set its snippet to run Darwin with
+&lt;code&gt;root (hd0,0)&lt;/code&gt; (or whatever partition contains Darwin), tell it
+to make the partition active with &lt;code&gt;makeactive&lt;/code&gt;, and tell it to load
+the &lt;strong&gt;partition&lt;/strong&gt; bootloader with &lt;code&gt;chainloader +1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;(Optional) Edit
+&lt;code&gt;/Library/Preferences/SystemConfiguration/com.apple.Boot.plist&lt;/code&gt; to
+contain the elements &lt;code&gt;&amp;lt;key&amp;gt;Kernel&amp;lt;/key&amp;gt;&lt;/code&gt;
+&lt;code&gt;&amp;lt;string&amp;gt;mach_kernel.foo&amp;lt;/string&amp;gt;&lt;/code&gt; to point to whatever is your
+kernel of choice.&lt;/li&gt;
+&lt;li&gt;(Optional) If you make changes under Linux, with the &lt;code&gt;hfsplus&lt;/code&gt;
+module, it is highly recommended that you unmount your filesystem
+and run the &lt;code&gt;fsck.hfsplus&lt;/code&gt; from the
+&lt;a href=&quot;http://packages.debian.org/hfsplus&quot;&gt;hfsplus&lt;/a&gt; package that I
+maintain in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt; (and which is mirrored
+by &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;, but Debian&#39;s is more
+up-to-date, as I have uploads rights there).&lt;/li&gt;
+&lt;li&gt;(Optional)
+&lt;a href=&quot;http://www.hermann-uwe.de/blog/testing-stuff-with-qemu-part-3-debian-gnu-kfreebsd&quot;&gt;Test it with QEMU&lt;/a&gt;,
+to see if it will work.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This was a nice learning exercise, to be honest.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
+<entry>
+	<title>2009-09-05</title>
+
+	<id>http://cynic.cc/blog//posts/2009-09-05/</id>
+
+	<link href="http://cynic.cc/blog//posts/2009-09-05/"/>
+
+
+
+
+
+
+	<category term="apple" />
+
+	<category term="debian" />
+
+	<category term="free-software" />
+
+	<category term="life" />
+
+	<category term="macosx" />
+
+
+	<updated>2018-04-18T11:21:46Z</updated>
+	<published>2009-09-05T03:00:00Z</published>
+
+
+	<content type="html" xml:lang="en">
+	&lt;p&gt;Much to my delight, I received today some nice people for my
+birthday. &lt;a href=&quot;http://www.binoklo.com/&quot;&gt;Adriano&lt;/a&gt;&#39;s presence was nice
+(and I even had the opportunity to play with his last generation
+iBook G4, and fix his keyboard), my Grandma, Jacob, Mom, Dad, Rose,
+and Sa made a nice birthday party.&lt;/p&gt;
+
+&lt;p&gt;And, of course, being with Adriano is always illuminating: I
+learned about a book, about
+&lt;a href=&quot;http://www.imdb.com/title/tt0089457/&quot;&gt;a movie&lt;/a&gt;, about some MacOS X
+programs that he runs, about some other concepts, about an
+&lt;a href=&quot;http://www.worldofgoo.com/&quot;&gt;independent game&lt;/a&gt; that he supported
+for MacOS X and so on. Always a pleasure to talk with him.&lt;/p&gt;
+
+	</content>
+
+
+
+</entry>
 <entry>
 	<title>2009-03-03</title>
 
@@ -67,7 +199,7 @@
 	<category term="video" />
 
 
-	<updated>2018-04-17T10:58:28Z</updated>
+	<updated>2018-04-17T11:53:39Z</updated>
 	<published>2009-03-03T03:00:00Z</published>
 
 
@@ -195,7 +327,7 @@ this task? I guess that I will have to experiment a little.&lt;/p&gt;
 	<category term="macosx" />
 
 
-	<updated>2018-04-17T08:55:14Z</updated>
+	<updated>2018-04-17T09:28:48Z</updated>
 	<published>2008-05-20T03:00:00Z</published>
 
 
@@ -249,7 +381,7 @@ just compile &lt;code&gt;program.c&lt;/code&gt; with the options
 	<category term="powerpc" />
 
 
-	<updated>2014-06-11T13:58:42Z</updated>
+	<updated>2014-06-11T14:08:45Z</updated>
 	<published>2005-05-28T03:00:00Z</published>
 
 
@@ -307,7 +439,7 @@ to just use a single slot of the machine.&lt;/p&gt;
 	<category term="powerpc" />
 
 
-	<updated>2014-02-19T05:52:57Z</updated>
+	<updated>2014-02-19T05:52:41Z</updated>
 	<published>2005-04-12T03:00:00Z</published>
 
 
@@ -573,76 +705,6 @@ installation was quite smooth (and slow). But with one gotcha at
 the first reboot: a kernel panic.&lt;/p&gt;
 
 &lt;p&gt;After that, I went to sleep.&lt;/p&gt;
-
-	</content>
-
-
-
-</entry>
-<entry>
-	<title>2002-04-19</title>
-
-	<id>http://cynic.cc/blog//posts/2002-04-19/</id>
-
-	<link href="http://cynic.cc/blog//posts/2002-04-19/"/>
-
-
-
-
-
-
-	<category term="debian" />
-
-	<category term="free-software" />
-
-	<category term="macosx" />
-
-	<category term="multimedia" />
-
-	<category term="python" />
-
-
-	<updated>2013-10-11T06:33:23Z</updated>
-	<published>2002-04-19T03:00:00Z</published>
-
-
-	<content type="html" xml:lang="en">
-	&lt;p&gt;Wow, so many things going in software-land that if I don&#39;t write
-about soon, I&#39;ll probably forget.&lt;/p&gt;
-
-&lt;p&gt;The best thing, of course, is that
-&lt;a href=&quot;http://www.debian.org/releases/woody/&quot;&gt;Woody&lt;/a&gt; is set to a
-(tentative) release on May, 1st. This is &lt;em&gt;amazing&lt;/em&gt;!&lt;/p&gt;
-
-&lt;p&gt;Also, newer versions of the following programs are available:
-&lt;a href=&quot;http://www.python.org/&quot;&gt;Python&lt;/a&gt; 2.2.1,
-&lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt; for i386 6.0beta2,
-&lt;a href=&quot;http://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt; 1.0RC1,
-&lt;a href=&quot;http://www.apple.com/macosx/&quot;&gt;MacOS&lt;/a&gt; X 10.1.4,
-&lt;a href=&quot;http://www.mactopia.com/&quot;&gt;Internet Explorer&lt;/a&gt; for MacOS 5.1.4,
-&lt;a href=&quot;http://fink.sf.net/&quot;&gt;Fink&lt;/a&gt; 4.0, &lt;a href=&quot;http://lame.sf.net/&quot;&gt;lame&lt;/a&gt; 3.92,
-&lt;a href=&quot;http://chimera.mozdev.org/&quot;&gt;Chimera&lt;/a&gt; 0.2.0,
-&lt;a href=&quot;http://&quot;&gt;woody&#39;s netinst images&lt;/a&gt; 20020416,
-&lt;a href=&quot;http://www.videolan.org/&quot;&gt;vlc&lt;/a&gt; 0.3.0. And I still haven&#39;t tried
-&lt;a href=&quot;http://www.kde.org/&quot;&gt;KDE&lt;/a&gt; 3.0,
-&lt;a href=&quot;http://www.yellowdoglinux.com/&quot;&gt;Yellowdoglinux&lt;/a&gt; 2.2 and
-&lt;a href=&quot;http://www.xfree86.org/&quot;&gt;XFree86&lt;/a&gt; 4.2.0, to name a few (big) new
-releases. And that&#39;s &lt;em&gt;not&lt;/em&gt; all: soon there will be newer versions
-of &lt;a href=&quot;http://xine.sf.net/&quot;&gt;xine&lt;/a&gt;, &lt;a href=&quot;http://mplayer.sf.net/&quot;&gt;mplayer&lt;/a&gt;,
-&lt;a href=&quot;http://ffmpeg.sf.net/&quot;&gt;ffmpeg&lt;/a&gt;, and
-&lt;a href=&quot;http://www.kaffe.org/&quot;&gt;kaffe&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;So much (new) software, so little time!&lt;/p&gt;
-
-&lt;p&gt;And then, somewhere, a Microsoft&#39;s spoke-person said something like
-&quot;the open source people don&#39;t know how many things we have done in
-Windows-land&quot;. Well, of course, MacOS X, Internet Explorer and
-Opera aren&#39;t exactly open source. But the amount of new software
-just released (or in the process of being released) is just so
-damned huge. I guess, if he only knew (or didn&#39;t pretend he didn&#39;t
-know) what the open source community did in the past days, he would
-be ashamed of his comments. But then, again, it isn&#39;t uncommon for
-people driven by money being, ahem, how can I say, &quot;dishonest&quot;.&lt;/p&gt;
 
 	</content>
 

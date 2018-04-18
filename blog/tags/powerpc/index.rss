@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 17 Apr 2018 06:05:25 -0300</pubDate>
+<pubDate>Tue, 17 Apr 2018 06:28:48 -0300</pubDate>
 <item>
 	<title>Running GRUB2 on PowerPC Macs</title>
 
@@ -42,7 +42,7 @@
 
 
 	<pubDate>Sat, 02 Apr 2011 22:18:12 -0300</pubDate>
-	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:23:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here I write a little bit about my experiences running GRUB2 with a PowerPC
@@ -347,7 +347,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Sun, 18 Jul 2010 03:34:40 -0300</pubDate>
-	<dcterms:modified>2014-02-15T02:20:27Z</dcterms:modified>
+	<dcterms:modified>2010-07-18T06:34:40Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I just bought my tickets today to NYC and I am glady to say that I am going to Debconf 10.&lt;/p&gt;
@@ -411,7 +411,7 @@ etc. partitions without the fear that your bootloader won&#39;t load them.&lt;/p
 
 
 	<pubDate>Wed, 12 May 2010 00:54:52 -0300</pubDate>
-	<dcterms:modified>2018-03-22T03:44:37Z</dcterms:modified>
+	<dcterms:modified>2018-03-22T03:45:10Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Here are some facts distilled from my experience with preparing kernels to
@@ -569,7 +569,7 @@ systems, usually &lt;code&gt;CONFIG_RTC_DRV_CMOS=y&lt;/code&gt; is sufficient).&
 
 
 	<pubDate>Thu, 14 Aug 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T09:05:25Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T09:28:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Today I got a very nice gift from Charles Plessy: a Kurobox
@@ -607,7 +607,7 @@ under Windows and that remotely connects to the Kurobox&lt;/p&gt;
 
 
 	<pubDate>Wed, 30 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T07:16:54Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T07:23:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Upgraded my parent&#39;s computer from
@@ -656,7 +656,7 @@ WEP key, but it doesn&#39;t seem to get a DHCP lease from the router.
 
 
 	<pubDate>Tue, 29 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T07:15:15Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T07:23:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Spent some time polishing my &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;
@@ -695,7 +695,7 @@ insisted on the resolution being 800x600.&lt;/p&gt;
 
 
 	<pubDate>Wed, 19 Oct 2005 00:00:00 -0200</pubDate>
-	<dcterms:modified>2015-01-18T00:43:16Z</dcterms:modified>
+	<dcterms:modified>2015-01-18T00:59:01Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Ok, so, I am almost giving up the hectic mess in which work has
@@ -759,7 +759,7 @@ of new stuff, with the highlight (for me, at least), being the new
 
 
 	<pubDate>Mon, 06 Jun 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-06-11T14:03:17Z</dcterms:modified>
+	<dcterms:modified>2014-06-11T14:08:45Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Holy freaking day! Today we had
@@ -805,7 +805,7 @@ proper.&lt;/p&gt;
 
 
 	<pubDate>Sat, 28 May 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-06-11T13:58:42Z</dcterms:modified>
+	<dcterms:modified>2014-06-11T14:08:45Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;I have now, with the help of an oooold
@@ -857,7 +857,7 @@ to just use a single slot of the machine.&lt;/p&gt;
 
 
 	<pubDate>Tue, 12 Apr 2005 00:00:00 -0300</pubDate>
-	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
+	<dcterms:modified>2014-02-19T05:52:41Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;After installing the NewerTech G3 upgrade card into the PowerMac 9500/180MP,

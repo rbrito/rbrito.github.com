@@ -10,7 +10,7 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Tue, 17 Apr 2018 08:20:11 -0300</pubDate>
+<pubDate>Wed, 18 Apr 2018 08:21:14 -0300</pubDate>
 <item>
 	<title>Comparison of JDK installation of various Linux distributions</title>
 
@@ -32,7 +32,7 @@
 
 
 	<pubDate>Thu, 02 Nov 2017 23:13:56 -0200</pubDate>
-	<dcterms:modified>2017-11-06T06:28:31Z</dcterms:modified>
+	<dcterms:modified>2017-11-03T01:02:44Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Today I spent some time in the morning seeing how one would install the JDK
@@ -131,7 +131,7 @@ conventions etc.&lt;/p&gt;
 
 
 	<pubDate>Sat, 15 Feb 2014 00:59:22 -0200</pubDate>
-	<dcterms:modified>2014-02-19T05:52:57Z</dcterms:modified>
+	<dcterms:modified>2014-02-16T17:10:42Z</dcterms:modified>
 
 
 	<description>&lt;h1 id=&quot;initsystem&quot;&gt;Init system&lt;/h1&gt;
@@ -284,7 +284,7 @@ machines on datacenters.&lt;/p&gt;
 
 
 	<pubDate>Sat, 26 Feb 2011 11:55:06 -0300</pubDate>
-	<dcterms:modified>2014-02-15T02:21:28Z</dcterms:modified>
+	<dcterms:modified>2014-02-15T02:23:51Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Given that Chromium/Chrome is used more and more (as became apparent
@@ -336,6 +336,86 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 
 </item>
 <item>
+	<title>2009-09-11</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-09-11/</guid>
+
+	<link>http://cynic.cc/blog//posts/2009-09-11/</link>
+
+
+
+	<category>apple</category>
+
+	<category>boot</category>
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>hardware</category>
+
+	<category>macosx</category>
+
+	<category>ubuntu</category>
+
+
+	<pubDate>Fri, 11 Sep 2009 00:00:00 -0300</pubDate>
+	<dcterms:modified>2018-04-18T11:21:14Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;Since I maintain a Darwin partition on my system, I use
+&lt;a href=&quot;http://www.gnu.org/software/grub/grub-legacy.en.html&quot;&gt;GRUB legacy&lt;/a&gt;
+to choose which OS I want to play with. But, then, due some of my
+tweaking, it stopped working. Ouch. Even if I selected it, it
+wouldn&#39;t boot and would return to GRUB&#39;s menu. Irritating, to say
+the least.&lt;/p&gt;
+
+&lt;p&gt;Being disappointed with that, I eventually,
+&lt;a href=&quot;http://www.gnu.org/software/grub/manual/html_node/&quot;&gt;RTFM of GRUB&lt;/a&gt;
+and learned a bit more about something that seems to give
+&lt;a href=&quot;http://www.insanelymac.com/forum/index.php?showtopic=107391&quot;&gt;hackintosh&lt;/a&gt;
+users some headaches: the partition bootloader being foobared.&lt;/p&gt;
+
+&lt;p&gt;The solutions presented there are bizantine from a Unix P-o-V. The
+necessary steps to fix it are just to:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Make sure that the &lt;strong&gt;hard disk&lt;/strong&gt; bootloader (that is, the MBR
+of your HD) contains GRUB&#39;s &lt;code&gt;stage 1&lt;/code&gt; loader.
+&lt;em&gt;Warning:&lt;/em&gt; don&#39;t just &lt;code&gt;dd&lt;/code&gt; it to your HD&#39;s file, so that your
+system can &quot;forget&quot; the partitions that you have.&lt;/li&gt;
+&lt;li&gt;Make sure that the &lt;strong&gt;partition&lt;/strong&gt; bootloader (something that is
+peculiar to the x86 arches and which, I as a user of other
+platforms, didn&#39;t know that existed) is set to Apple&#39;s &lt;code&gt;boot1h&lt;/code&gt;.
+This time, you can just &lt;code&gt;dd&lt;/code&gt; it to the first sector of the
+partition where Darwin/MacOS X resides.&lt;/li&gt;
+&lt;li&gt;Teach GRUB to set its snippet to run Darwin with
+&lt;code&gt;root (hd0,0)&lt;/code&gt; (or whatever partition contains Darwin), tell it
+to make the partition active with &lt;code&gt;makeactive&lt;/code&gt;, and tell it to load
+the &lt;strong&gt;partition&lt;/strong&gt; bootloader with &lt;code&gt;chainloader +1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;(Optional) Edit
+&lt;code&gt;/Library/Preferences/SystemConfiguration/com.apple.Boot.plist&lt;/code&gt; to
+contain the elements &lt;code&gt;&amp;lt;key&amp;gt;Kernel&amp;lt;/key&amp;gt;&lt;/code&gt;
+&lt;code&gt;&amp;lt;string&amp;gt;mach_kernel.foo&amp;lt;/string&amp;gt;&lt;/code&gt; to point to whatever is your
+kernel of choice.&lt;/li&gt;
+&lt;li&gt;(Optional) If you make changes under Linux, with the &lt;code&gt;hfsplus&lt;/code&gt;
+module, it is highly recommended that you unmount your filesystem
+and run the &lt;code&gt;fsck.hfsplus&lt;/code&gt; from the
+&lt;a href=&quot;http://packages.debian.org/hfsplus&quot;&gt;hfsplus&lt;/a&gt; package that I
+maintain in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt; (and which is mirrored
+by &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt;, but Debian&#39;s is more
+up-to-date, as I have uploads rights there).&lt;/li&gt;
+&lt;li&gt;(Optional)
+&lt;a href=&quot;http://www.hermann-uwe.de/blog/testing-stuff-with-qemu-part-3-debian-gnu-kfreebsd&quot;&gt;Test it with QEMU&lt;/a&gt;,
+to see if it will work.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This was a nice learning exercise, to be honest.&lt;/p&gt;
+</description>
+
+
+</item>
+<item>
 	<title>2009-05-07</title>
 
 	<guid isPermaLink="false">http://cynic.cc/blog//posts/2009-05-07/</guid>
@@ -354,7 +434,7 @@ but it seems that some of those are, at best, going to wait a long time.&lt;/p&g
 
 
 	<pubDate>Thu, 07 May 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T11:20:11Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T11:53:03Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Having been playing with some new things in
@@ -396,7 +476,7 @@ computing resources are limited).&lt;/p&gt;
 
 
 	<pubDate>Sun, 15 Mar 2009 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T11:15:27Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T11:53:03Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Have been playing with the great idea of
@@ -466,7 +546,7 @@ has a lot of build-dependencies.&lt;/p&gt;
 
 
 	<pubDate>Wed, 24 Sep 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T09:10:06Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T09:28:48Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Now I am officially a
@@ -512,7 +592,7 @@ to São Paulo, which is a nice thing.&lt;/p&gt;
 
 
 	<pubDate>Mon, 28 Jul 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2018-04-17T09:04:09Z</dcterms:modified>
+	<dcterms:modified>2018-04-17T09:29:03Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Got a little new toy that is able to run Linux very well, since I
@@ -557,7 +637,7 @@ from Broadcom, which is not a company that likes Free Software.&lt;/p&gt;
 
 
 	<pubDate>Wed, 30 Apr 2008 00:00:00 -0300</pubDate>
-	<dcterms:modified>2017-11-06T07:16:54Z</dcterms:modified>
+	<dcterms:modified>2017-11-06T07:23:28Z</dcterms:modified>
 
 
 	<description>&lt;p&gt;Upgraded my parent&#39;s computer from
@@ -583,46 +663,6 @@ see that &lt;code&gt;iwconfig&lt;/code&gt; lists &lt;code&gt;wlan0&lt;/code&gt; 
 can set the device, it can see the access point, I can enter the
 WEP key, but it doesn&#39;t seem to get a DHCP lease from the router.
 &lt;code&gt;:-(&lt;/code&gt;&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Debian Switching to EGLIBC</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/debian-switching-to-eglibc/</guid>
-
-	<link>http://cynic.cc/blog//posts/debian-switching-to-eglibc/</link>
-
-
-
-	<category>computers</category>
-
-	<category>debian</category>
-
-	<category>embedded</category>
-
-	<category>linux</category>
-
-	<category>ubuntu</category>
-
-
-	<pubDate>Mon, 07 May 2007 23:00:00 -0300</pubDate>
-	<dcterms:modified>2012-09-07T06:54:06Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;Having been playing with some new things in &lt;a href=&quot;http://www.debian.org/&quot;&gt;Debian&lt;/a&gt;, like the
-&lt;a href=&quot;http://packages.debian.org/magicfilter&quot;&gt;magicfilter&lt;/a&gt; package, which is a superb, lightweight solution to
-all my printing problems: to use a PCL 3 printer. I think that I will also
-&quot;manufacture&quot; a solution with a metapackage of a live CD that includes the
-environment that I use frequently, with the packages that I use (this is
-probably quite leaner than what &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;Ubuntu&lt;/a&gt; has done with their
-distribution, since I will mainly use some lighter packages).&lt;/p&gt;
-
-&lt;p&gt;Oh, talking about lighter packages, I see that Debian has adopted a new C
-library, namely &lt;a href=&quot;http://www.eglibc.org/&quot;&gt;EGLIBC&lt;/a&gt;, which stands for Embedded LIBC. Finally, it
-seems that Debian will focus a bit more on smaller systems (which is a good
-thing, because computing resources are limited).&lt;/p&gt;
 </description>
 
 

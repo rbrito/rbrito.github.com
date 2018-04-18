@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2018-03-23T02:13:07Z</updated>
+<updated>2018-03-22T16:41:01Z</updated>
 <entry>
 	<title>Some activities of the day</title>
 
@@ -45,7 +45,7 @@
 	<category term="parenting" />
 
 
-	<updated>2018-03-23T02:13:07Z</updated>
+	<updated>2018-03-22T16:41:01Z</updated>
 	<published>2017-11-07T00:52:59Z</published>
 
 
@@ -152,7 +152,7 @@ qemu-system-x86_64 -enable-kvm -m 4096 -smp 2 -net nic,model=e1000 -net user -so
 	<category term="ubuntu" />
 
 
-	<updated>2017-11-06T06:28:31Z</updated>
+	<updated>2017-11-03T01:02:44Z</updated>
 	<published>2017-11-03T01:13:56Z</published>
 
 
@@ -257,7 +257,7 @@ conventions etc.&lt;/p&gt;
 	<category term="linux" />
 
 
-	<updated>2016-03-29T05:29:09Z</updated>
+	<updated>2016-03-29T05:30:50Z</updated>
 	<published>2016-03-29T05:25:15Z</published>
 
 
@@ -316,7 +316,7 @@ something similar? Your input is highly welcome!&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2014-02-19T05:52:57Z</updated>
+	<updated>2014-02-17T22:21:26Z</updated>
 	<published>2014-02-17T21:27:00Z</published>
 
 
@@ -402,7 +402,7 @@ the Debian archives.&lt;/p&gt;
 	<category term="ubuntu" />
 
 
-	<updated>2014-02-19T05:52:57Z</updated>
+	<updated>2014-02-16T17:10:42Z</updated>
 	<published>2014-02-15T02:59:22Z</published>
 
 
@@ -625,7 +625,7 @@ of course, this should be fixed.&lt;/p&gt;
 	<category term="xorg" />
 
 
-	<updated>2014-02-15T03:00:29Z</updated>
+	<updated>2013-08-21T16:45:27Z</updated>
 	<published>2013-08-21T16:44:19Z</published>
 
 
@@ -656,7 +656,7 @@ GtkDrawingArea - Lines - time:  6.18
 GtkDrawingArea - Circles - time:  6.74
 GtkDrawingArea - Text - time:  4.32
 GtkDrawingArea - Pixbufs - time:  0.67
- --- 
+ ---
 Total time: 54.25
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -678,7 +678,7 @@ GtkDrawingArea - Lines - time:  2.70
 GtkDrawingArea - Circles - time:  2.65
 GtkDrawingArea - Text - time:  1.72
 GtkDrawingArea - Pixbufs - time:  0.11
- --- 
+ ---
 Total time: 36.91
 &lt;/code&gt;&lt;/pre&gt;
 

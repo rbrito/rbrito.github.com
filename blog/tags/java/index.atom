@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2018-04-17T11:17:19Z</updated>
+<updated>2018-04-17T11:53:03Z</updated>
 <entry>
 	<title>JUnit 5</title>
 
@@ -37,7 +37,7 @@
 	<category term="life" />
 
 
-	<updated>2017-11-10T05:45:16Z</updated>
+	<updated>2017-11-10T05:46:00Z</updated>
 	<published>2017-11-10T05:21:06Z</published>
 
 
@@ -99,7 +99,7 @@ class FirstTest {
 	<category term="parenting" />
 
 
-	<updated>2018-03-23T02:13:07Z</updated>
+	<updated>2018-03-22T16:41:01Z</updated>
 	<published>2017-11-07T00:52:59Z</published>
 
 
@@ -206,7 +206,7 @@ qemu-system-x86_64 -enable-kvm -m 4096 -smp 2 -net nic,model=e1000 -net user -so
 	<category term="ubuntu" />
 
 
-	<updated>2017-11-06T06:28:31Z</updated>
+	<updated>2017-11-03T01:02:44Z</updated>
 	<published>2017-11-03T01:13:56Z</published>
 
 
@@ -313,7 +313,7 @@ conventions etc.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2014-03-03T05:35:23Z</updated>
+	<updated>2014-03-03T05:38:09Z</updated>
 	<published>2014-03-03T05:35:11Z</published>
 
 
@@ -405,7 +405,7 @@ commons graph project.&lt;/p&gt;
 	<category term="java" />
 
 
-	<updated>2014-01-17T22:17:37Z</updated>
+	<updated>2014-01-17T22:18:01Z</updated>
 	<published>2014-01-17T22:18:04Z</published>
 
 
@@ -499,7 +499,7 @@ Command Line Options&quot;.&lt;/p&gt;
 	<category term="tex" />
 
 
-	<updated>2018-04-17T11:17:19Z</updated>
+	<updated>2018-04-17T11:53:03Z</updated>
 	<published>2009-03-27T03:00:00Z</published>
 
 
@@ -554,7 +554,7 @@ Machines).&lt;/p&gt;
 	<category term="life" />
 
 
-	<updated>2018-04-17T11:01:12Z</updated>
+	<updated>2018-04-17T11:53:03Z</updated>
 	<published>2009-03-06T03:00:00Z</published>
 
 
@@ -604,7 +604,7 @@ amd64, powerpc and other architectures. What a shame.&lt;/p&gt;
 	<category term="java" />
 
 
-	<updated>2015-01-18T00:32:58Z</updated>
+	<updated>2015-01-18T00:59:01Z</updated>
 	<published>2005-07-23T03:00:00Z</published>
 
 
@@ -638,7 +638,7 @@ with the Free Java implementations available in
 	<category term="life" />
 
 
-	<updated>2017-11-10T05:42:22Z</updated>
+	<updated>2017-11-10T05:42:44Z</updated>
 	<published>2005-07-22T03:00:00Z</published>
 
 
@@ -696,7 +696,7 @@ what?&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2015-01-18T00:30:31Z</updated>
+	<updated>2015-01-18T00:59:01Z</updated>
 	<published>2005-06-28T03:00:00Z</published>
 
 

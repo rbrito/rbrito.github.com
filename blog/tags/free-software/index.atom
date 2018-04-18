@@ -17,7 +17,7 @@
 
 <subtitle type="html">Rogério Brito&#39;s Digital Junkyard</subtitle>
 <generator uri="http://ikiwiki.info/">ikiwiki</generator>
-<updated>2018-03-23T02:13:07Z</updated>
+<updated>2018-03-22T16:41:01Z</updated>
 <entry>
 	<title>JUnit 5</title>
 
@@ -37,7 +37,7 @@
 	<category term="life" />
 
 
-	<updated>2017-11-10T05:45:16Z</updated>
+	<updated>2017-11-10T05:46:00Z</updated>
 	<published>2017-11-10T05:21:06Z</published>
 
 
@@ -99,7 +99,7 @@ class FirstTest {
 	<category term="parenting" />
 
 
-	<updated>2018-03-23T02:13:07Z</updated>
+	<updated>2018-03-22T16:41:01Z</updated>
 	<published>2017-11-07T00:52:59Z</published>
 
 
@@ -206,7 +206,7 @@ qemu-system-x86_64 -enable-kvm -m 4096 -smp 2 -net nic,model=e1000 -net user -so
 	<category term="ubuntu" />
 
 
-	<updated>2017-11-06T06:28:31Z</updated>
+	<updated>2017-11-03T01:02:44Z</updated>
 	<published>2017-11-03T01:13:56Z</published>
 
 
@@ -309,7 +309,7 @@ conventions etc.&lt;/p&gt;
 	<category term="multimedia" />
 
 
-	<updated>2017-11-06T06:28:31Z</updated>
+	<updated>2017-08-03T06:48:49Z</updated>
 	<published>2017-04-20T03:17:05Z</published>
 
 
@@ -386,7 +386,7 @@ https://developer.android.com/guide/topics/media/mediarecorder.html&lt;/p&gt;
 	<category term="linux" />
 
 
-	<updated>2016-03-29T05:29:09Z</updated>
+	<updated>2016-03-29T05:30:50Z</updated>
 	<published>2016-03-29T05:25:15Z</published>
 
 
@@ -443,7 +443,7 @@ something similar? Your input is highly welcome!&lt;/p&gt;
 	<category term="software-engineering" />
 
 
-	<updated>2015-05-30T00:00:08Z</updated>
+	<updated>2015-05-30T00:01:26Z</updated>
 	<published>2015-05-16T04:54:42Z</published>
 
 
@@ -535,7 +535,7 @@ program or &lt;a href=&quot;https://github.com/coursera-dl/coursera/issues&quot;
 	<category term="free-software" />
 
 
-	<updated>2017-11-06T06:28:31Z</updated>
+	<updated>2017-10-19T22:38:56Z</updated>
 	<published>2015-02-22T23:54:27Z</published>
 
 
@@ -668,7 +668,7 @@ different from regular Firefox, as we can see.&lt;/p&gt;
 	<category term="video" />
 
 
-	<updated>2015-01-26T03:17:12Z</updated>
+	<updated>2015-01-26T03:18:00Z</updated>
 	<published>2015-01-18T01:52:14Z</published>
 
 
@@ -762,7 +762,7 @@ videos, spread the word).&lt;/p&gt;
 	<category term="mate-desktop" />
 
 
-	<updated>2014-11-24T17:17:42Z</updated>
+	<updated>2014-11-24T17:26:17Z</updated>
 	<published>2014-11-24T17:16:58Z</published>
 
 
@@ -882,7 +882,7 @@ going back to 1985, while the other repository had about 800GB.&lt;/p&gt;
 	<category term="study" />
 
 
-	<updated>2014-02-19T05:52:57Z</updated>
+	<updated>2014-02-17T22:21:26Z</updated>
 	<published>2014-02-17T21:27:00Z</published>
 
 
