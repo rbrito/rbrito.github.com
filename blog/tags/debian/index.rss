@@ -10,7 +10,110 @@
 
 <description>Rogério Brito&#39;s Digital Junkyard</description>
 <generator>ikiwiki</generator>
-<pubDate>Thu, 22 Mar 2018 13:41:01 -0300</pubDate>
+<pubDate>Wed, 24 Feb 2021 18:38:30 -0300</pubDate>
+<item>
+	<title>Alternatives to ikiwiki?</title>
+
+	<guid isPermaLink="false">http://cynic.cc/blog//posts/2021-02-24-alternatives-to-ikiwiki/</guid>
+
+	<link>http://cynic.cc/blog//posts/2021-02-24-alternatives-to-ikiwiki/</link>
+
+
+
+	<category>debian</category>
+
+	<category>free-software</category>
+
+	<category>linux</category>
+
+
+	<pubDate>Wed, 24 Feb 2021 18:16:00 -0300</pubDate>
+	<dcterms:modified>2021-02-24T21:38:30Z</dcterms:modified>
+
+
+	<description>&lt;p&gt;It&#39;s been quite a long time since I last posted anything on this blog and I
+can say that one of the reasons for that I don&#39;t feel comfortable using
+&lt;code&gt;ikiwiki&lt;/code&gt; anymore. ☹&lt;/p&gt;
+
+&lt;p&gt;I am actively looking for alternatives to &lt;code&gt;ikiwiki&lt;/code&gt; that allow me, mainly,
+to write blog posts with the following characteristics (not necessarily in
+order of importance):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Write in a lightweight markup language&lt;/strong&gt; (e.g., markdown), with some
+features, like creating tables, having footnotes etc. I may be open to
+using something else (like restructured text or, perhaps, asciidoc, about
+which I know next to nothing), if necessary.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Store what I do in a git repository&lt;/strong&gt;, to be future-proof.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create a static site&lt;/strong&gt; from a version of what I wrote in the lightweight
+markup language, which is especially useful for hosting the site with,
+say, GitHub pages, until I find where I can host my site. (My old email
+and account of more than 25 years is being closed and I will be
+&quot;homeless&quot;, which is unfortunate).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use mathematics&lt;/strong&gt;, extensively, mostly copying and pasting from LaTeX
+documents.
+&lt;br/&gt;
+&lt;br/&gt;
+This, is one &lt;strong&gt;major&lt;/strong&gt; pain point with &lt;code&gt;ikiwiki&lt;/code&gt;. Apparently almost nobody
+cares about supporting MathJax/KaTex &lt;strong&gt;out-of-the-box&lt;/strong&gt;. ☹  To add insult
+to injury, the templates are very general to the point of being very hard
+to read (read: feature bloat) and it doesn&#39;t help that my editor (emacs)
+doesn&#39;t know (at least in its current configuration) how to display its
+structure.
+&lt;br/&gt;
+&lt;br/&gt;
+I have tried to use hugo (which we happily have packaged in Debian), but
+configuring it is totally crazy: first, you have to decide on a theme and,
+then, (almost?) everything that you do is tied to that theme.  This is
+(almost) the opposite to the philosophy of LaTeX: first, write your text
+and, only then, worry about the style/looks. Separation of content and
+form doesn&#39;t seem to be the priority, from a few days looking a it.&lt;a href=&quot;http://cynic.cc/blog//tags/debian/#fn:2&quot; id=&quot;fnref:2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+I have more to say about hugo and I failed, but I would still like to give
+it a try, if I don&#39;t find anything else that has the features that I&#39;m
+looking for.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enable syntax-highlighting for code samples&lt;/strong&gt;. I like to post my
+discoveries regarding programs and programming languages and, of course,
+having readable code in my blog would be a very good thing.&lt;a href=&quot;http://cynic.cc/blog//tags/debian/#fn:1&quot; id=&quot;fnref:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Be packaged in Debian&lt;/strong&gt;. We all love the convenience that this brings,
+of course.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Connected to the fact that I only can have static sites (no CGI, no forms,
+nothing else), I am, &lt;strong&gt;at this time&lt;/strong&gt;, using Disqus to host the comments of
+my blog. I am also thinking of alternatives to this, like sending people to
+Twitter (or mastodon or email) or some site similar to Disqus, but with more
+of a Free Software inclination.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I am almost ready for any kind of transition, since I have already
+converted most posts (of course, not yet this one ☺) with some Python
+scripts to a format that I feel is a bit more format-agnostic than what
+ikiwiki uses.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn:2&quot;&gt;&lt;p&gt;That&#39;s not to mention the myriad of hugo themes and theme authors that
+try to bribe you into using their hosted solutions (despite branding
+everything as &quot;open source! OMG!&quot;), like &quot;wowchemy&quot;&amp;mdash;you will have a
+hard time untangling the instructions of their so bloated themes to be
+usable on your local computer; so much so to the point that you give up
+with their convoluted configuration (which, potentially, doesn&#39;t
+&quot;transfer&quot; to other themes, if you are worried about possibly changing
+themes in the future).&lt;a href=&quot;http://cynic.cc/blog//tags/debian/#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li id=&quot;fn:1&quot;&gt;&lt;p&gt;I like the style of fenced blocks that GitHub used, where you prefix
+the code with the name of the language to give a hint of how to
+highlight the code snipped.&lt;a href=&quot;http://cynic.cc/blog//tags/debian/#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#160;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+
+
+</item>
 <item>
 	<title>Some activities of the day</title>
 
@@ -836,51 +939,6 @@ the code is there and there is so much more to be done.&lt;/p&gt;
 &lt;p&gt;Aside #2: After a &lt;em&gt;lot&lt;/em&gt; of time spent converting the repository to git
 (which is, after all, what I use), I put &lt;a href=&quot;https://github.com/rbrito/commons-graph&quot;&gt;a mirror&lt;/a&gt; of Apache&#39;s the
 commons graph project.&lt;/p&gt;
-</description>
-
-
-</item>
-<item>
-	<title>Paco de Lucia</title>
-
-	<guid isPermaLink="false">http://cynic.cc/blog//posts/2014-02-27_paco_de_lucia/</guid>
-
-	<link>http://cynic.cc/blog//posts/2014-02-27_paco_de_lucia/</link>
-
-
-
-	<category>debian</category>
-
-	<category>music</category>
-
-	<category>video</category>
-
-
-	<pubDate>Thu, 27 Feb 2014 21:48:04 -0300</pubDate>
-	<dcterms:modified>2014-02-28T00:52:14Z</dcterms:modified>
-
-
-	<description>&lt;p&gt;I was super sad to know that &lt;a href=&quot;https://en.wikipedia.org/wiki/Paco%20de%20Lucia&quot;&gt;Paco de Lucia&lt;/a&gt; passed a few days
-ago. It was shocking to know that he was so young (only 66 year old, if I am
-not mistaken).&lt;/p&gt;
-
-&lt;p&gt;To share some of his fine work with his frequent collaborators
-&lt;a href=&quot;https://en.wikipedia.org/wiki/John%20McLaughlin&quot;&gt;John McLaughlin&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Al%20Di%20Meola&quot;&gt;Al Di Meola&lt;/a&gt; to people that
-may not otherwise know him or his work, I offered on a Facebook post to
-upload a bootleg of a show of the Guitar Trio (John McLaughlin, Paco De
-Lucia and Al Di Meola) with the entire performance (possibly out of order,
-as that is a bootleg, after all) ripped from a broadcast to Dutch TV
-station.&lt;/p&gt;
-
-&lt;p&gt;This performance includes the exceptional Paco de Lucia prominently and the
-show has many songs from the &quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/Friday%20Night%20in%20San%20Francisco&quot;&gt;Friday Night in San Francisco&lt;/a&gt;&quot;
-record, including the magnificent (IMVHO)
-&quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/Mediterranean%20Sundance&quot;&gt;Mediterranean Sundance&lt;/a&gt;&quot;.&lt;/p&gt;
-
-&lt;p&gt;The credits of the video are, of course, of the musicians.&lt;/p&gt;
-
-&lt;p&gt;I only ripped, deinterlaced (remember, analog TV&amp;mdash;it was interlaced),
-denoised, encoded, and &lt;a href=&quot;http://youtu.be/0tzfUYz2t5w&quot;&gt;uploaded the video to youtube&lt;/a&gt;.&lt;/p&gt;
 </description>
 
 

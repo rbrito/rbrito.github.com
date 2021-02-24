@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <link rel="stylesheet" href="combined.min.css" type="text/css" />
-<link rel="alternate" type="application/rss+xml" title="Rogério Brito's Digital Junkyard (RSS feed)" href="index.rss" /><link rel="alternate" type="application/atom+xml" title="Rogério Brito's Digital Junkyard (Atom feed)" href="index.atom" />
+<link rel="alternate" type="application/rss+xml" title="Rogério Brito's Digital Junkyard (RSS feed)" href="index.rss" />
 
 
 
@@ -47,9 +47,129 @@ Rogério Brito's Digital Junkyard
 <a class="feedbutton" type="application/rss+xml" rel="alternate" title="Rogério Brito's Digital Junkyard (RSS feed)" href="index.rss">RSS</a>
 
 
-<a class="feedbutton" type="application/atom+xml" rel="alternate" title="Rogério Brito's Digital Junkyard (Atom feed)" href="index.atom">Atom</a>
-
 </div>
+<article class="inlinepage">
+
+<section class="inlineheader">
+
+<header class="header">
+
+<a href="./posts/2021-02-24-alternatives-to-ikiwiki/">Alternatives to ikiwiki?</a>
+
+</header>
+</section>
+
+<section class="inlinecontent">
+<p>It's been quite a long time since I last posted anything on this blog and I
+can say that one of the reasons for that I don't feel comfortable using
+<code>ikiwiki</code> anymore. ☹</p>
+
+<p>I am actively looking for alternatives to <code>ikiwiki</code> that allow me, mainly,
+to write blog posts with the following characteristics (not necessarily in
+order of importance):</p>
+
+<ul>
+<li><strong>Write in a lightweight markup language</strong> (e.g., markdown), with some
+features, like creating tables, having footnotes etc. I may be open to
+using something else (like restructured text or, perhaps, asciidoc, about
+which I know next to nothing), if necessary.</li>
+<li><strong>Store what I do in a git repository</strong>, to be future-proof.</li>
+<li><strong>Create a static site</strong> from a version of what I wrote in the lightweight
+markup language, which is especially useful for hosting the site with,
+say, GitHub pages, until I find where I can host my site. (My old email
+and account of more than 25 years is being closed and I will be
+"homeless", which is unfortunate).</li>
+<li><strong>Use mathematics</strong>, extensively, mostly copying and pasting from LaTeX
+documents.
+<br/>
+<br/>
+This, is one <strong>major</strong> pain point with <code>ikiwiki</code>. Apparently almost nobody
+cares about supporting MathJax/KaTex <strong>out-of-the-box</strong>. ☹  To add insult
+to injury, the templates are very general to the point of being very hard
+to read (read: feature bloat) and it doesn't help that my editor (emacs)
+doesn't know (at least in its current configuration) how to display its
+structure.
+<br/>
+<br/>
+I have tried to use hugo (which we happily have packaged in Debian), but
+configuring it is totally crazy: first, you have to decide on a theme and,
+then, (almost?) everything that you do is tied to that theme.  This is
+(almost) the opposite to the philosophy of LaTeX: first, write your text
+and, only then, worry about the style/looks. Separation of content and
+form doesn't seem to be the priority, from a few days looking a it.<a href="#fn:2" id="fnref:2" class="footnote">1</a>
+<br/>
+<br/>
+I have more to say about hugo and I failed, but I would still like to give
+it a try, if I don't find anything else that has the features that I'm
+looking for.</li>
+<li><strong>Enable syntax-highlighting for code samples</strong>. I like to post my
+discoveries regarding programs and programming languages and, of course,
+having readable code in my blog would be a very good thing.<a href="#fn:1" id="fnref:1" class="footnote">2</a></li>
+<li><strong>Be packaged in Debian</strong>. We all love the convenience that this brings,
+of course.</li>
+</ul>
+
+<p>Connected to the fact that I only can have static sites (no CGI, no forms,
+nothing else), I am, <strong>at this time</strong>, using Disqus to host the comments of
+my blog. I am also thinking of alternatives to this, like sending people to
+Twitter (or mastodon or email) or some site similar to Disqus, but with more
+of a Free Software inclination.</p>
+
+<p>Anyway, I am almost ready for any kind of transition, since I have already
+converted most posts (of course, not yet this one ☺) with some Python
+scripts to a format that I feel is a bit more format-agnostic than what
+ikiwiki uses.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn:2"><p>That's not to mention the myriad of hugo themes and theme authors that
+try to bribe you into using their hosted solutions (despite branding
+everything as "open source! OMG!"), like "wowchemy"&mdash;you will have a
+hard time untangling the instructions of their so bloated themes to be
+usable on your local computer; so much so to the point that you give up
+with their convoluted configuration (which, potentially, doesn't
+"transfer" to other themes, if you are worried about possibly changing
+themes in the future).<a href="#fnref:2" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+<li id="fn:1"><p>I like the style of fenced blocks that GitHub used, where you prefix
+the code with the name of the language to give a hint of how to
+highlight the code snipped.<a href="#fnref:1" class="reversefootnote">&#160;&#8617;</a></p></li>
+
+</ol>
+</div>
+
+</section>
+
+<footer class="inlinefooter">
+
+<span class="pagedate">
+Posted <time datetime="2021-02-24T21:16:00Z" pubdate="pubdate">2021-02-24T18:16:00 -03</time>
+</span>
+
+
+<nav class="tags">
+Tags:
+
+<a href="./tags/debian/" rel="tag">debian</a>
+
+<a href="./tags/free-software/" rel="tag">free-software</a>
+
+<a href="./tags/linux/" rel="tag">linux</a>
+
+</nav>
+
+
+
+
+
+
+
+
+</footer>
+
+</article>
 <article class="inlinepage">
 
 <section class="inlineheader">
@@ -993,96 +1113,6 @@ Tags:
 <a href="./tags/github/" rel="tag">github</a>
 
 <a href="./tags/mate-desktop/" rel="tag">mate-desktop</a>
-
-</nav>
-
-
-
-
-
-
-
-
-</footer>
-
-</article>
-<article class="inlinepage">
-
-<section class="inlineheader">
-
-<header class="header">
-
-<a href="./posts/2014-04-04_flexible_deadlines_in_moocs/">The importance of flexible deadlines in MOOCs</a>
-
-</header>
-</section>
-
-<section class="inlinecontent">
-<p>I have always thought that having flexible deadlines in MOOCs is important,
-despite not having used them too much. Until last night, that is.</p>
-
-<p>The course in question is Stanford's <a href="https://statlearning.class.stanford.edu">Statistical Learning</a> and they
-adopted a policy of letting the students complete all the assignments of the
-10 week course until the last day of the course, in March 21. Then, they
-graciously extended the deadline to April 4.</p>
-
-<p>Were it not for such an extension, I would not have completed the course. I
-sent them a message on the course forums this morning to thank them for
-this, as this, in my experience, is not so common with MOOCs.</p>
-
-<p>I reproduce below the message that I posted on the forums:</p>
-
-<blockquote>
-  <p><strong>Subject: Thank you also for the EXTENSION of the deadlines</strong></p>
-  
-  <p>Dear professors and staff,</p>
-  
-  <p>I would like to thank you (of course) for the course, as many others have
-  already. Despite not liking edX platform too much (preferring the UI of,
-  say, Coursera), your course was an exception, interesting enough (and funny
-  enough) that I sticked to it until the end.</p>
-  
-  <p>But I would like to bring attention here to a point that many may not have
-  appreciated (or, perhaps, not expressed as clearly as I thought that it
-  deserved), namely, the extension of the deadlines (and a uniform deadline
-  for all homeworks).</p>
-  
-  <p>In particular, due to some unfortunate facts of my personal life, I could
-  not work on the course at all in the past few weeks. In fact, I completed
-  units 4, 5, 6, 7, 8, 9, and 10 in the last 3 or 4 days and submitted my
-  last quiz a few hours before today's midnight (at my local time, UTC-0300),
-  and I still got a passing grade(!).</p>
-  
-  <p>Even with my desire to finish the course, this would not have been
-  possible if you had not graciously allowed for the deadline extension. I am
-  sure that I may not be alone here in appreciating this extension (even
-  though I think that I may be many standard deviations from the mean, doing
-  the homework and R programs of 7 weeks in only 4 days).</p>
-  
-  <p>Thank you so very much for everything (including this extension!),</p>
-  
-  <p>Rogério Brito.</p>
-</blockquote>
-
-</section>
-
-<footer class="inlinefooter">
-
-<span class="pagedate">
-Posted <time datetime="2014-04-04T16:48:59Z" pubdate="pubdate">2014-04-04T13:48:59 -03</time>
-</span>
-
-
-<nav class="tags">
-Tags:
-
-<a href="./tags/debian/" rel="tag">debian</a>
-
-<a href="./tags/life/" rel="tag">life</a>
-
-<a href="./tags/mooc/" rel="tag">mooc</a>
-
-<a href="./tags/study/" rel="tag">study</a>
 
 </nav>
 
